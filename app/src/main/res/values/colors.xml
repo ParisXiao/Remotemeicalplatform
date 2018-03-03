@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#67e300</color>
+    <color name="colorPrimaryDark">#67e300</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colortitle">#00B839</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="hometextcoler">#3AC66F</color>
+    <color name="line">#CDCECF</color>
+    <color name="logtext">#447E70</color>
+    <color name="red">#E60000</color>
+    <color name="bule">#0036F3</color>
+    <color name="lin2">#999999</color>
+    <color name="black2">#202528</color>
+    <color name="gray">#ededed</color>
+
+
+    <!--第二期-->
+    <color name="text_black">#333333</color>
+    <color name="text_gray">#838383</color>
+    <color name="text_yellow">#ff7745</color>
+    <color name="background_write">#FFFFFF</color>
+    <color name="background_green">#67e300</color>
+    <color name="background_orage">#FF926A</color>
+    <color name="background">#F7F7F7</color>
+    <color name="background_fgx">#e5e5e5</color>
+    <color name="background_mengban">#1A000000</color>
+
+
+    <color name="healthManager_background">#F7F7F7</color>
+    //5%透明
+    <color name="healthManager_shadow">#0D66de03</color>
+
+
+
+</resources>

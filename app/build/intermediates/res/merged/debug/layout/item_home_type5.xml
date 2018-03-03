@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/item_type5_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/test_listicon"
+        android:layout_margin="@dimen/margin"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/item_type5_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="@dimen/margin"
+            android:layout_marginTop="@dimen/margin"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="那是大米的免单兜帽"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/text_title" />
+
+        <TextView
+            android:id="@+id/item_type5_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="@dimen/margin"
+            android:ellipsize="end"
+            android:lines="3"
+            android:text="那是大米的免单兜帽"
+            android:textSize="@dimen/textsize" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:elevation="10dp"
+    app:cardCornerRadius="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background_write"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.4">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/yizhu_head"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerInParent="true"
+                android:layout_margin="@dimen/margin"
+                android:src="@drawable/touxiang"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="10dp"
+                app:riv_oval="true" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_weight="3">
+
+            <TextView
+                android:id="@+id/yizhu_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="肖某某"
+                android:textColor="@color/text_black"
+                android:textSize="@dimen/text_big" />
+
+            <com.donkingliang.labels.LabelsView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/yizhu_labels"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/yizhu_name"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/yizhu_name"
+                app:labelBackground="@drawable/shape_label"
+                app:labelTextColor="@color/background_green"
+                app:labelTextPaddingBottom="5dp"
+                app:labelTextPaddingLeft="10dp"
+                app:labelTextPaddingRight="10dp"
+                app:labelTextPaddingTop="5dp"
+                app:labelTextSize="14sp"
+                app:lineMargin="5dp"
+                app:maxSelect="2"
+                app:selectType="NONE"
+                app:wordMargin="10dp" />
+
+            <TextView
+                android:id="@+id/yizhu_No"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/yizhu_name"
+                android:text="编号：123456"
+                android:textSize="@dimen/text_title" />
+
+            <TextView
+                android:id="@+id/yizhu_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/yizhu_No"
+                android:layout_marginTop="10dp"
+                android:ellipsize="end"
+                android:lines="2"
+                android:text="医嘱：的哈点点是地爱上的耐受的男的打算打打死啊实打实大师的" />
+
+            <TextView
+                android:id="@+id/yizhu_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/yizhu_content"
+                android:layout_marginTop="10dp"
+                android:text="2018-02-28 12:00:00" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

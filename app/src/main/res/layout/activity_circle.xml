@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:background="@color/colortitle"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+        <ImageView
+            android:id="@+id/back"
+            android:src="@mipmap/back"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="60dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/new_cir"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/hometext2hape"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:text="创建圈子"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/clicklook"
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+        <TextView
+            android:id="@+id/tv1"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dp"
+            android:layout_toLeftOf="@+id/tv2"
+            android:text="有"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv2"
+            android:textColor="@color/hometextcoler"
+            android:layout_marginTop="8dp"
+            android:layout_toLeftOf="@+id/tv3"
+            android:text="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv3"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dp"
+            android:layout_toLeftOf="@+id/img1"
+            android:text="人邀请我加入圈子"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_below="@+id/img1"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/clicklook"
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_below="@+id/tv1"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dp"
+            android:layout_toLeftOf="@+id/tv5"
+            android:text="有"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_below="@+id/tv2"
+            android:textColor="@color/hometextcoler"
+            android:layout_marginTop="8dp"
+            android:layout_toLeftOf="@+id/tv6"
+            android:text="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_below="@+id/tv3"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dp"
+            android:layout_toLeftOf="@+id/img1"
+            android:text="个新成员加入"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:background="@color/lin2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></WebView>
+
+
+</LinearLayout>

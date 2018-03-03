@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/background_green</item>
+        <item name="colorPrimaryDark">@color/background_green</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="AppThemeWrite" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+    <style name="AppThemeGreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/background_green</item>
+        <item name="colorPrimaryDark">@color/background_green</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+
+    <style name="AnimBottom"></style>
+
+    <style name="foodRatingBar" >
+        <!--指向star_rating_bar_full.xml文件 -->
+        <item name="android:progressDrawable">@drawable/star_rating_bar_full</item>
+
+    </style>
+
+</resources>

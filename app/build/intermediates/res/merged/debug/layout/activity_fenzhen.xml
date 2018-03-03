@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_write"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_actionbar" />
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_fenzhen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.gxey.remotemedicalplatform.widget.EmptyLayout
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/emptyLayout_fenzhen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:elEmptyLayout="@layout/layout_empty"
+            app:elErrorLayout="@layout/layout_error"
+            app:elLoadingLayout="@layout/layout_loading">
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerView_fenzhen"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="5dp"
+                android:scrollbars="vertical"></android.support.v7.widget.RecyclerView>
+        </com.gxey.remotemedicalplatform.widget.EmptyLayout>
+
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>

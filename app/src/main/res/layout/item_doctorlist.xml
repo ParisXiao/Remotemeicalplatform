@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:elevation="10dp"
+    app:cardCornerRadius="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/doctor_head"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/touxiang"
+                    app:riv_oval="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="10dp"
+                     />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_weight="3">
+
+                <TextView
+                    android:id="@+id/doctor_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="肖某某"
+                    android:textColor="@color/text_black"
+                    android:textSize="@dimen/text_big" />
+
+                <com.donkingliang.labels.LabelsView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/doctor_labels"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/doctor_name"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@+id/doctor_name"
+                    app:labelBackground="@drawable/shape_label"
+                    app:labelTextColor="@color/background_green"
+                    app:labelTextPaddingBottom="5dp"
+                    app:labelTextPaddingLeft="10dp"
+                    app:labelTextPaddingRight="10dp"
+                    app:labelTextPaddingTop="5dp"
+                    app:labelTextSize="14sp"
+                    app:lineMargin="5dp"
+                    app:selectType="NONE"
+                    app:wordMargin="10dp" />
+
+                <TextView
+                    android:id="@+id/doctor_keshi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/doctor_name"
+                    android:text="科室：外科"
+                    android:textSize="@dimen/text_title" />
+
+                <TextView
+                    android:id="@+id/doctor_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/doctor_keshi"
+                    android:layout_marginTop="10dp"
+                    android:ellipsize="end"
+                    android:lines="2"
+                    android:text="的哈点点是地爱上的耐受的男的打算打打死啊实打实大师的" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/background_fgx" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/doctor_pdrs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="@dimen/margin"
+                android:layout_marginTop="10dp"
+                android:text="2"
+                android:textColor="@color/background_green"
+                android:textSize="@dimen/textsize" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/doctor_pdrs"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/doctor_pdrs"
+                android:text="@string/renpaidui"
+                android:textColor="@color/text_black"
+                android:textSize="@dimen/textsize" />
+
+            <Button
+                android:id="@+id/doctor_ljsq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="@dimen/margin"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/theme_btn_green_yuanjiao"
+                android:text="@string/lijishenqing"
+                android:textColor="@color/background_write"
+                android:textSize="@dimen/textsize" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>
+

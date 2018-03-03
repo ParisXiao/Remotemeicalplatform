@@ -1,0 +1,1178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <com.gxey.remotemedicalplatform.widget.TranslucentScrollView
+        android:id="@+id/transcrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/head_zoom"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@color/background_green">
+
+                <ImageView
+                    android:id="@+id/msg_head"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/margin"
+                    android:src="@mipmap/ic_launcher" />
+
+                <TextView
+                    android:id="@+id/msg_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/margin"
+                    android:layout_toEndOf="@+id/msg_head"
+                    android:layout_toRightOf="@+id/msg_head"
+                    android:text="肖某某"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_big" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/background"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@color/background_write">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="@string/jibenziliao"
+                        android:textColor="@color/text_black"
+                        android:textSize="@dimen/text_title" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/background_write">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="@dimen/margin"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.5"
+                            android:text="@string/zhenshixingming"
+                            android:textSize="@dimen/textsize" />
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="3">
+
+                            <TextView
+                                android:id="@+id/msg_realname"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:text="肖某某"
+                                android:textColor="@color/text_black"
+                                android:textSize="@dimen/textsize" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_alignParentBottom="true"
+                                android:background="@color/background_fgx" />
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/background_write">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="@dimen/margin"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.5"
+                            android:text="@string/xingbie"
+                            android:textSize="@dimen/textsize" />
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="3">
+
+                            <TextView
+                                android:id="@+id/msg_xingbie"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:text="男"
+                                android:textColor="@color/text_black"
+                                android:textSize="@dimen/textsize" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_alignParentBottom="true"
+                                android:background="@color/background_fgx" />
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/background_write">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="@dimen/margin"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.5"
+                            android:text="@string/shengri"
+                            android:textSize="@dimen/textsize" />
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="3">
+
+                            <TextView
+                                android:id="@+id/msg_birthday"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:text="19930624"
+                                android:textColor="@color/text_black"
+                                android:textSize="@dimen/textsize" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_alignParentBottom="true"
+                                android:background="@color/background_fgx" />
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/background_write">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="@dimen/margin"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.5"
+                            android:text="@string/guoji"
+                            android:textSize="@dimen/textsize" />
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="3">
+
+                            <TextView
+                                android:id="@+id/msg_guoji"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:text="中国"
+                                android:textColor="@color/text_black"
+                                android:textSize="@dimen/textsize" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_alignParentBottom="true"
+                                android:background="@color/background_fgx" />
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/background_write">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="@dimen/margin"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.5"
+                            android:text="@string/jiguan"
+                            android:textSize="@dimen/textsize" />
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="3">
+
+                            <TextView
+                                android:id="@+id/msg_jiguan"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:text="重庆"
+                                android:textColor="@color/text_black"
+                                android:textSize="@dimen/textsize" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_alignParentBottom="true"
+                                android:background="@color/background_fgx" />
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/background_write">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="@dimen/margin"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.5"
+                            android:text="@string/xiangxidizhi"
+                            android:textSize="@dimen/textsize" />
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="3">
+
+                            <TextView
+                                android:id="@+id/msg_address"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:text="解放碑"
+                                android:textColor="@color/text_black"
+                                android:textSize="@dimen/textsize" />
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_alignParentBottom="true"
+                                android:background="@color/background_fgx" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin"
+                    android:background="@color/background_write">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="@dimen/margin"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.5"
+                            android:text="@string/minzu"
+                            android:textSize="@dimen/textsize" />
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="3">
+
+                            <TextView
+                                android:id="@+id/msg_minzu"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:text="汉"
+                                android:textColor="@color/text_black"
+                                android:textSize="@dimen/textsize" />
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_alignParentBottom="true"
+                                android:background="@color/background_fgx" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/background_write">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="@dimen/margin"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.5"
+                            android:text="@string/shengao"
+                            android:textSize="@dimen/textsize" />
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="3">
+
+                            <TextView
+                                android:id="@+id/msg_height"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:text="180cm"
+                                android:textColor="@color/text_black"
+                                android:textSize="@dimen/textsize" />
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_alignParentBottom="true"
+                                android:background="@color/background_fgx" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/background_write">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="@dimen/margin"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.5"
+                            android:text="@string/tizhong"
+                            android:textSize="@dimen/textsize" />
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="3">
+
+                            <TextView
+                                android:id="@+id/msg_weight"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:text="50kg"
+                                android:textColor="@color/text_black"
+                                android:textSize="@dimen/textsize" />
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_alignParentBottom="true"
+                                android:background="@color/background_fgx" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/background_write">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="@dimen/margin"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.5"
+                            android:text="@string/buchang"
+                            android:textSize="@dimen/textsize" />
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="3">
+
+                            <TextView
+                                android:id="@+id/msg_buchang"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:text="1m"
+                                android:textColor="@color/text_black"
+                                android:textSize="@dimen/textsize" />
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_alignParentBottom="true"
+                                android:background="@color/background_fgx" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/background_write">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="@dimen/margin"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.5"
+                            android:text="@string/xuexing"
+                            android:textSize="@dimen/textsize" />
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="3">
+
+                            <TextView
+                                android:id="@+id/msg_xuexing"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:text="A型"
+                                android:textColor="@color/text_black"
+                                android:textSize="@dimen/textsize" />
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_alignParentBottom="true"
+                                android:background="@color/background_fgx" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/background_write">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="@dimen/margin"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.5"
+                            android:text="@string/RHyinxingxuexing"
+                            android:textSize="@dimen/textsize" />
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="3">
+
+                            <TextView
+                                android:id="@+id/msg_RH"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:text="A型"
+                                android:textColor="@color/text_black"
+                                android:textSize="@dimen/textsize" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/background_write"
+                    android:layout_marginTop="@dimen/margin"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/margin"
+                        >
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1.5"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/textsize"
+                            android:text="@string/shenfenzhenghao"
+                            />
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="3"
+                            android:layout_height="match_parent">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/textsize"
+                                android:textColor="@color/text_black"
+                                android:text="5221651859151555"
+                                android:id="@+id/msg_sfNo"
+                                android:layout_centerVertical="true"
+                                />
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_alignParentBottom="true"
+                                android:background="@color/background_fgx" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                    </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/background_write"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/margin"
+                        >
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1.5"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/textsize"
+                            android:text="@string/shoujihao"
+                            />
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="3"
+                            android:layout_height="match_parent">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/textsize"
+                                android:textColor="@color/text_black"
+                                android:text="139454845185"
+                                android:id="@+id/msg_phone"
+                                android:layout_centerVertical="true"
+                                />
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_alignParentBottom="true"
+                                android:background="@color/background_fgx" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/background_write"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/margin"
+                        >
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1.5"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/textsize"
+                            android:text="@string/wenhuachengdu"
+                            />
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="3"
+                            android:layout_height="match_parent">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/textsize"
+                                android:textColor="@color/text_black"
+                                android:text="本科"
+                                android:id="@+id/msg_wenhua"
+                                android:layout_centerVertical="true"
+                                />
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_alignParentBottom="true"
+                                android:background="@color/background_fgx" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/background_write"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/margin"
+                        >
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1.5"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/textsize"
+                            android:text="@string/changzhuleixing"
+                            />
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="3"
+                            android:layout_height="match_parent">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/textsize"
+                                android:textColor="@color/text_black"
+                                android:text="未知"
+                                android:id="@+id/msg_changzhu"
+                                android:layout_centerVertical="true"
+                                />
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_alignParentBottom="true"
+                                android:background="@color/background_fgx" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/background_write"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/margin"
+                        >
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1.5"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/textsize"
+                            android:text="@string/hunyinzhuangkuang"
+                            />
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="3"
+                            android:layout_height="match_parent">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/textsize"
+                                android:textColor="@color/text_black"
+                                android:text="已婚"
+                                android:id="@+id/msg_marry"
+                                android:layout_centerVertical="true"
+                                />
+
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/background_write"
+                    android:layout_marginTop="@dimen/margin"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/margin"
+                        >
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1.5"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/textsize"
+                            android:text="@string/weixinhao"
+                            />
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="3"
+                            android:layout_height="match_parent">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/textsize"
+                                android:textColor="@color/text_black"
+                                android:text="1515115"
+                                android:id="@+id/msg_weixin"
+                                android:layout_centerVertical="true"
+                                />
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_alignParentBottom="true"
+                                android:background="@color/background_fgx" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/background_write"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/margin"
+                        >
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1.5"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/textsize"
+                            android:text="@string/jinjilianxiren"
+                            />
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="3"
+                            android:layout_height="match_parent">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/textsize"
+                                android:textColor="@color/text_black"
+                                android:text="赵某某"
+                                android:id="@+id/msg_jinjiname"
+                                android:layout_centerVertical="true"
+                                />
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_alignParentBottom="true"
+                                android:background="@color/background_fgx" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/background_write"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/margin"
+                        >
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1.5"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/textsize"
+                            android:text="@string/jinjidianhua"
+                            />
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="3"
+                            android:layout_height="match_parent">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/textsize"
+                                android:textColor="@color/text_black"
+                                android:text="155825151"
+                                android:id="@+id/msg_jinjiphone"
+                                android:layout_centerVertical="true"
+                                />
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_alignParentBottom="true"
+                                android:background="@color/background_fgx" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/background_write"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/margin"
+                        >
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1.5"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/textsize"
+                            android:text="@string/gongzuodanwei"
+                            />
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="3"
+                            android:layout_height="match_parent">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/textsize"
+                                android:textColor="@color/text_black"
+                                android:text="重庆科技公司"
+                                android:id="@+id/msg_company"
+                                android:layout_centerVertical="true"
+                                />
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_alignParentBottom="true"
+                                android:background="@color/background_fgx" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/background_write"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/margin"
+                        >
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1.5"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/textsize"
+                            android:text="@string/zhiye"
+                            />
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="3"
+                            android:layout_height="match_parent">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/textsize"
+                                android:textColor="@color/text_black"
+                                android:text="程序猿"
+                                android:id="@+id/msg_job"
+                                android:layout_centerVertical="true"
+                                />
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_alignParentBottom="true"
+                                android:background="@color/background_fgx" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/background_write"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/margin"
+                        >
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1.5"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/textsize"
+                            android:text="@string/zhiyefenlei"
+                            />
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="3"
+                            android:layout_height="match_parent">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/textsize"
+                                android:textColor="@color/text_black"
+                                android:text="软件"
+                                android:id="@+id/msg_jobfl"
+                                android:layout_centerVertical="true"
+                                />
+
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/background_write"
+                    android:layout_marginTop="@dimen/margin"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/margin"
+                        >
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1.5"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/textsize"
+                            android:text="@string/baolushi"
+                            />
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="3"
+                            android:layout_height="match_parent">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/textsize"
+                                android:textColor="@color/text_black"
+                                android:text="未知"
+                                android:id="@+id/msg_baolushi"
+                                android:layout_centerVertical="true"
+                                />
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_alignParentBottom="true"
+                                android:background="@color/background_fgx" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/background_write"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/margin"
+                        >
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1.5"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/textsize"
+                            android:text="@string/jiankangkahao"
+                            />
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="3"
+                            android:layout_height="match_parent">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/textsize"
+                                android:textColor="@color/text_black"
+                                android:text="5221651859151555"
+                                android:id="@+id/msg_jkkh"
+                                android:layout_centerVertical="true"
+                                />
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_alignParentBottom="true"
+                                android:background="@color/background_fgx" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/background_write"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/margin"
+                        >
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1.5"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/textsize"
+                            android:text="@string/shebaokahao"
+                            />
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="3"
+                            android:layout_height="match_parent">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/textsize"
+                                android:textColor="@color/text_black"
+                                android:text="5221651859151555"
+                                android:id="@+id/msg_sbkh"
+                                android:layout_centerVertical="true"
+                                />
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_alignParentBottom="true"
+                                android:background="@color/background_fgx" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/background_write"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/margin"
+                        >
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1.5"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/textsize"
+                            android:text="@string/yibaoleixing"
+                            />
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="3"
+                            android:layout_height="match_parent">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/textsize"
+                                android:textColor="@color/text_black"
+                                android:text="---"
+                                android:id="@+id/msg_yblx"
+                                android:layout_centerVertical="true"
+                                />
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_alignParentBottom="true"
+                                android:background="@color/background_fgx" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/background_write"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/margin"
+                        >
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1.5"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/textsize"
+                            android:text="@string/zhifufangshi"
+                            />
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="3"
+                            android:layout_height="match_parent">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/textsize"
+                                android:textColor="@color/text_black"
+                                android:text="---"
+                                android:id="@+id/msg_zffs"
+                                android:layout_centerVertical="true"
+                                />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </com.gxey.remotemedicalplatform.widget.TranslucentScrollView>
+
+    <com.gxey.remotemedicalplatform.widget.TranslucentActionBar
+        android:id="@+id/actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></com.gxey.remotemedicalplatform.widget.TranslucentActionBar>
+</RelativeLayout>

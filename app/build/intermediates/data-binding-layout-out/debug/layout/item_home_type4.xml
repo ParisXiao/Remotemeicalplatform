@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/background_fgx" />
+
+    <TextView
+        android:id="@+id/item_type4_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginRight="@dimen/margin"
+        android:layout_marginTop="@dimen/margin"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="那是大米的免单兜帽"
+        android:textColor="@color/text_black"
+        android:textSize="@dimen/text_title" />
+
+    <TextView
+        android:id="@+id/item_type4_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginRight="@dimen/margin"
+        android:ellipsize="end"
+        android:lines="3"
+        android:text="那是大米的免单兜帽"
+        android:textSize="@dimen/textsize" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin"
+       >
+
+        <TextView
+            android:id="@+id/item_type4_yuandu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="阅读：123"
+            android:textSize="@dimen/textsize" />
+
+        <TextView
+            android:id="@+id/item_type4_dianzan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/item_type4_yuandu"
+            android:text="点赞：123"
+            android:textSize="@dimen/textsize" />
+
+        <TextView
+            android:id="@+id/item_type4_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/margin"
+            android:text="2018-03-01"
+            android:textSize="@dimen/textsize" />
+    </RelativeLayout>
+
+</LinearLayout>

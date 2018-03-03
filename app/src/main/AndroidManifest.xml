@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.gxey.remotemedicalplatform">
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+
+    <application
+        android:name=".application.LocalApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/log"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon"
+
+        >
+
+        <activity android:name=".activity.MainActivity"
+            android:theme="@style/AppTheme"
+            android:configChanges="keyboardHidden|orientation"
+            android:windowSoftInputMode="adjustPan|stateUnchanged"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--<activity-->
+            <!--android:name=".activity.MainActivity"-->
+            <!--android:configChanges="keyboardHidden|orientation"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden|stateUnchanged"
+            ></activity>-->
+        <activity
+            android:name=".activity.secondactivity.ActivityHeathDangAn"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeWrite" />
+        <!--注册界面-->
+        <activity android:name=".activity.RegisteredActivity"></activity>
+        <!--找回密码-->
+        <activity android:name=".activity.BackPasswordActivity"></activity>
+        <!--圈子话题发表-->
+        <activity android:name=".activity.CircleTopicactivity"></activity>
+        <!--视屏诊疗评价-->
+        <activity android:name=".activity.EvaluationActivity"></activity>
+        <!--修改个人信息-->
+        <activity
+            android:name=".activity.PersonalInformationActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden"></activity>
+        <!--圈子列表-->
+        <activity android:name=".activity.CircleActivity"></activity>
+        <!--附近药房-->
+        <activity android:name=".activity.storesActivity"></activity>
+        <!--修改密码-->
+        <activity android:name=".activity.ChangePasswordActivity"></activity>
+        <!--申请医疗-->
+        <activity
+            android:name=".activity.MedicalApplicationActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden"></activity>
+        <!--话题圈子-->
+        <activity android:name=".activity.CircleListActivity"></activity>
+        <!--申请等待-->
+        <activity
+            android:name=".activity.OverConsultationActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden"></activity>
+        <!--帮助-->
+        <activity android:name=".activity.HelpActivity"></activity>
+
+        <!--视频聊天-->
+        <activity android:name=".activity.FrequencyActivity"></activity>
+
+        <!--web圈子-->
+        <activity android:name=".activity.WebCircleActivity"></activity>
+        <!--web医疗资讯-->
+        <activity android:name=".activity.WebInformationActivity"></activity>
+        <!--web健康档案-->
+        <activity android:name=".activity.WebHealthRecordsActivity"></activity>
+        <!--web我的诊疗-->
+        <activity android:name=".activity.WebMyDiagnosisActivity"></activity>
+        <!--web意见反馈-->
+        <activity android:name=".activity.WebOpinionActivity"></activity>
+        <!--web用药-->
+        <activity android:name=".activity.WebMedicationActivity"></activity>
+        <!--web使用帮助-->
+        <activity android:name=".activity.WebHelpActivity"></activity>
+        <!--web关于公信-->
+        <activity android:name=".activity.WebIndexActivity"></activity>
+        <!--web协议-->
+        <activity android:name=".activity.WebAgreementActivity"></activity>
+        <!--web协议-->
+        <activity android:name=".activity.WebSearchActivity"></activity>
+        <activity android:name=".activity.WebHomeGoods1"></activity>
+
+
+        <!--网络商城-->
+        <activity android:name=".activity.ActivityDrugStore"></activity>
+
+        <activity android:name=".activity.ActivityImageShow" />
+        <activity android:name=".activity.WebDemoActivity" /><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <!--首页链接-->
+        <activity android:name=".activity.WebBannerbenActgvity" />
+
+        <activity
+            android:name="me.iwf.photopicker.PhotoPickerActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+
+        <activity
+            android:name="me.iwf.photopicker.PhotoPagerActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+
+
+        <activity
+            android:name=".activity.secondactivity.ActivityMyMsg"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeGreen" />
+        <activity android:name=".activity.secondactivity.ActivityHeathDianZi"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeWrite" />
+        <activity android:name=".activity.secondactivity.ActivityDoctorList"
+            android:theme="@style/AppThemeWrite"
+            android:configChanges="keyboardHidden|orientation"
+            android:windowSoftInputMode="adjustPan|stateUnchanged"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".activity.secondactivity.ActivityYiZhu"
+            android:theme="@style/AppThemeWrite"
+            android:configChanges="keyboardHidden|orientation"
+            android:windowSoftInputMode="adjustPan|stateUnchanged"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".activity.secondactivity.ActivityFenZhen"
+            android:theme="@style/AppThemeWrite"
+            android:configChanges="keyboardHidden|orientation"
+            android:windowSoftInputMode="adjustPan|stateUnchanged"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".activity.secondactivity.ActivityDZDetails"
+            android:theme="@style/AppThemeWrite"
+            android:configChanges="keyboardHidden|orientation"
+            android:windowSoftInputMode="adjustPan|stateUnchanged"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activity.secondactivity.ActivityHealthBaoGao"
+            android:theme="@style/AppThemeWrite"
+            android:configChanges="keyboardHidden|orientation"
+            android:windowSoftInputMode="adjustPan|stateUnchanged"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activity.secondactivity.ActivityYiChuan"
+            android:theme="@style/AppThemeWrite"
+            android:configChanges="keyboardHidden|orientation"
+            android:windowSoftInputMode="adjustPan|stateUnchanged"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activity.secondactivity.ActivityYiZhuDetails"
+            android:theme="@style/AppThemeWrite"
+            android:configChanges="keyboardHidden|orientation"
+            android:windowSoftInputMode="adjustPan|stateUnchanged"
+            android:screenOrientation="portrait"
+            />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

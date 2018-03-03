@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    >
+
+    <com.gxey.remotemedicalplatform.widget.TranslucentScrollView
+        android:layout_width="match_parent"
+        android:id="@+id/transcrollview"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/head_zoom"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@color/background_green">
+
+                <ImageView
+                    android:id="@+id/img_head"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/margin"
+                    android:src="@drawable/touxiang" />
+
+                <TextView
+                    android:id="@+id/text_zcdl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/margin"
+                    android:layout_toEndOf="@+id/img_head"
+                    android:layout_toRightOf="@+id/img_head"
+                    android:text="@string/zhucedenglu"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_big" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/re_dingdan"
+                    android:layout_width="match_parent"
+                    android:background="@color/background_write"
+                    android:layout_height="@dimen/height_my">
+
+                    <ImageView
+                        android:id="@+id/img_dingdan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/margin"
+                        android:src="@drawable/dingdan" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/margin"
+                        android:layout_toRightOf="@+id/img_dingdan"
+                        android:text="@string/wodedingdan"
+                        android:textColor="@color/text_black"
+                        android:textSize="@dimen/text_my" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/jiantou" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="@dimen/margin"
+                        android:background="@color/background_fgx" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/re_quanzi"
+                    android:layout_width="match_parent"
+                    android:background="@color/background_write"
+                    android:layout_height="@dimen/height_my">
+
+                    <ImageView
+                        android:id="@+id/img_quanzi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/margin"
+                        android:src="@drawable/quanzi" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/margin"
+                        android:layout_toRightOf="@+id/img_quanzi"
+                        android:text="@string/wodequanzi"
+                        android:textColor="@color/text_black"
+                        android:textSize="@dimen/text_my" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/jiantou" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="@dimen/margin"
+                        android:background="@color/background_fgx" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/re_ziliao"
+                    android:layout_width="match_parent"
+                    android:background="@color/background_write"
+                    android:layout_height="@dimen/height_my">
+
+                    <ImageView
+                        android:id="@+id/img_ziliao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/margin"
+                        android:src="@drawable/ziliao" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/margin"
+                        android:layout_toRightOf="@+id/img_ziliao"
+                        android:text="@string/gerenziliao"
+                        android:textColor="@color/text_black"
+                        android:textSize="@dimen/text_my" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/jiantou" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="@dimen/margin"
+                        android:background="@color/background_fgx" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/re_guanyu"
+                    android:background="@color/background_write"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_my">
+
+                    <ImageView
+                        android:id="@+id/img_guanyu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/margin"
+                        android:src="@drawable/guanyuwomen" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/margin"
+                        android:layout_toRightOf="@+id/img_guanyu"
+                        android:text="@string/guanyuwomen"
+                        android:textColor="@color/text_black"
+                        android:textSize="@dimen/text_my" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/jiantou" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="@dimen/margin"
+                        android:background="@color/background_fgx" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/re_bangzhu"
+                    android:background="@color/background_write"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_my">
+
+                    <ImageView
+                        android:id="@+id/img_bangzhu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/margin"
+                        android:src="@drawable/bangzhu" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/margin"
+                        android:layout_toRightOf="@+id/img_bangzhu"
+                        android:text="@string/shiyongbangzhu"
+                        android:textColor="@color/text_black"
+                        android:textSize="@dimen/text_my" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/jiantou" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="@dimen/margin"
+                        android:background="@color/background_fgx" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/re_xiaoxi"
+                    android:background="@color/background_write"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_my">
+
+                    <ImageView
+                        android:id="@+id/img_xiaoxi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/margin"
+                        android:src="@drawable/xiaoxi" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/margin"
+                        android:layout_toRightOf="@+id/img_xiaoxi"
+                        android:text="@string/xiaoxi"
+                        android:textColor="@color/text_black"
+                        android:textSize="@dimen/text_my" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/jiantou" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="@dimen/margin"
+                        android:background="@color/background_fgx" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/re_fankui"
+                    android:background="@color/background_write"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_my">
+
+                    <ImageView
+                        android:id="@+id/img_fankui"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/margin"
+                        android:src="@drawable/fankui" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/margin"
+                        android:layout_toRightOf="@+id/img_fankui"
+                        android:text="@string/yijianfankui"
+                        android:textColor="@color/text_black"
+                        android:textSize="@dimen/text_my" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/jiantou" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="@dimen/margin"
+                        android:background="@color/background_fgx" />
+                </RelativeLayout>
+
+                <Button
+                    android:id="@+id/btn_logout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin"
+                    android:layout_marginTop="40dp"
+                    android:background="@drawable/theme_btn_green"
+                    android:text="@string/tuichudenglu"
+                    android:textColor="@color/background_write"
+                    android:textSize="@dimen/text_big"
+                    />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </com.gxey.remotemedicalplatform.widget.TranslucentScrollView>
+
+<com.gxey.remotemedicalplatform.widget.TranslucentActionBar
+    android:id="@+id/actionbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"></com.gxey.remotemedicalplatform.widget.TranslucentActionBar>
+</RelativeLayout>

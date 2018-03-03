@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <include layout="@layout/base_activity_title_layout"/>
+
+
+<ImageView
+    android:layout_marginLeft="10dp"
+    android:src="@mipmap/logo"
+    android:layout_width="120dp"
+    android:layout_height="60dp" />
+    <TextView
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:text="会员注册"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/re_username"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:text="用户名："
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/re_ed_username"
+            android:layout_marginLeft="64dp"
+            android:background="@null"
+            android:textSize="15dp"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            />
+        <TextView
+            android:id="@+id/re_pass"
+            android:layout_below="@+id/re_line1"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:text="密码："
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/re_line"
+            android:background="@color/line"
+            android:layout_below="@+id/re_ed_pass"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+        <EditText
+            android:id="@+id/re_ed_pass"
+            android:layout_below="@+id/re_line1"
+            android:layout_toRightOf="@+id/re_pass"
+            android:layout_marginLeft="35dp"
+            android:background="@null"
+            android:textSize="15dp"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            />
+        <TextView
+            android:id="@+id/re_line1"
+            android:background="@color/line"
+            android:layout_below="@+id/re_ed_username"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+        <TextView
+            android:id="@+id/re_name"
+            android:textColor="@color/black"
+            android:layout_below="@id/re_line"
+            android:layout_marginTop="10dp"
+            android:text="会员姓名："
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:background="@null"
+            android:layout_below="@id/re_line"
+            android:textSize="15dp"
+            android:gravity="center_vertical"
+            android:id="@+id/re_ed_name"
+            android:layout_marginLeft="75dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+        <TextView
+
+            android:id="@+id/re_line2"
+            android:background="@color/line"
+            android:layout_below="@+id/re_ed_name"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+        <TextView
+            android:layout_marginTop="15dp"
+            android:textColor="@color/black"
+            android:id="@+id/re_six"
+            android:layout_below="@+id/re_line2"
+            android:text="性别"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioGroup
+            android:orientation="horizontal"
+            android:id="@+id/rg_six"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@+id/re_six"
+            android:layout_below="@+id/re_ed_name"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_toRightOf="@+id/re_six"
+                android:id="@+id/re_radio_man"
+                android:text="男"
+                android:layout_below="@+id/re_ed_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:layout_marginLeft="15dp"
+                android:id="@+id/re_radio_wuman"
+                android:text="女"
+                android:layout_below="@+id/re_ed_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/re_radio_man"
+                android:layout_toEndOf="@+id/re_radio_man" />
+        </RadioGroup>
+
+
+
+        <TextView
+            android:id="@+id/re_pihon"
+            android:layout_below="@+id/rg_six"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:text="手机号："
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/re_ed_pihon"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/rg_six"
+            android:background="@null"
+            android:textSize="15dp"
+            android:maxLength="11"
+            android:inputType="number"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="50dp"
+            android:layout_width="180dp"
+            android:layout_height="40dp" />
+        <TextView
+            android:textSize="14sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_alignParentRight="true"
+            android:id="@+id/re_phion_validation"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/hometext3hape"
+            android:text="获取验证码"
+            android:layout_below="@id/rg_six"
+            android:layout_toRightOf="@+id/re_ed_pihon"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp" />
+        <TextView
+            android:id="@+id/re_line3"
+            android:background="@color/line"
+            android:layout_below="@+id/re_phion_validation"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+
+        <TextView
+            android:id="@+id/re_validation"
+            android:layout_below="@+id/re_line3"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:text="手机验证码："
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/re_ed_validation"
+            android:background="@null"
+            android:textSize="15dp"
+            android:gravity="center_vertical"
+            android:maxLength="6"
+            android:inputType="number"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/re_line3"
+            android:layout_marginLeft="75dp"
+             />
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/ll_re_number2"
+            android:layout_toRightOf="@+id/re_ed_validation"
+            android:layout_below="@id/re_line3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_marginTop="20dp"
+                android:textColor="@color/red"
+                android:id="@+id/re_number"
+                android:gravity="center"
+                android:text="还有"
+                android:layout_below="@id/re_line3"
+                android:layout_width="wrap_content"
+                android:layout_toRightOf="@+id/re_ed_validation"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:textColor="@color/red"
+                android:id="@+id/re_number2"
+                android:gravity="center"
+                android:layout_toRightOf="@+id/re_number"
+                android:layout_below="@id/re_line3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_toRightOf="@+id/re_number2"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/red"
+                android:id="@+id/re_number3"
+                android:gravity="center"
+                android:text="秒"
+                android:layout_below="@id/re_line3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/re_line4"
+            android:layout_marginTop="10dp"
+            android:background="@color/line"
+            android:layout_below="@+id/re_validation"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+     <CheckBox
+         android:layout_marginTop="10dp"
+         android:layout_marginLeft="50dp"
+         android:id="@+id/re_radio_ok"
+         android:layout_below="@+id/re_line4"
+         android:text="同意"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/agreement"
+            android:textColor="@color/bule"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="17dp"
+            android:text="远程医疗服务全用协议"
+            android:layout_toRightOf="@+id/re_radio_ok"
+            android:layout_below="@+id/re_line4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/re_tv_registered"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="注册"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/hometext2hape"
+        android:layout_below="@+id/lg_radio"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+    
+</LinearLayout>

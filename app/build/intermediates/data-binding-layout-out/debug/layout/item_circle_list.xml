@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="58dp">
+
+        <TextView
+            android:id="@+id/tv_cir_title"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:text="儿童易感冒"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_cie_year"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@+id/tv_cir_title"
+            android:textSize="16dp"
+            android:textColor="@color/lin2"
+            android:text="2016.04.27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_cie_day"
+            android:layout_toRightOf="@+id/tv_cie_year"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/tv_cir_title"
+            android:textSize="16dp"
+            android:textColor="@color/lin2"
+            android:text="09:13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_cri_number"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/tv_cri"
+            android:textColor="@color/hometextcoler"
+            android:textSize="18dp"
+            android:text="5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_cri"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:text="个回复"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+    <TextView
+        android:layout_marginTop="8dp"
+        android:background="@color/lin2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+</LinearLayout>

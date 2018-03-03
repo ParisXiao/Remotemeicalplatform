@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    >
+    <LinearLayout
+        android:background="@color/background_write"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+        <TextView
+            android:textSize="@dimen/text_big"
+            android:textColor="@color/text_black"
+            android:text="健康管理"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:id="@+id/health_jkda"
+            android:gravity="center"
+            android:background="@drawable/theme_btn_write"
+            android:layout_margin="@dimen/margin"
+            >
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.8"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/jiankangdanan"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.2"
+                >
+                <TextView
+                    android:id="@+id/text_jkda"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_manager"
+                    android:textColor="@color/text_black"
+                    android:text="@string/jiankangdangan" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/text_jkda"
+                    android:layout_marginTop="10dp"
+                    android:layout_alignLeft="@+id/text_jkda"
+                    android:textColor="@color/text_gray"
+                    android:text="@string/jiankangdangan_ps" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/margin"
+            android:layout_weight="1"
+            android:background="@drawable/theme_btn_write"
+            android:gravity="center"
+            android:id="@+id/health_yczl"
+            android:orientation="horizontal">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.8"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/yuanchengzhenliao"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="1.2"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/text_yczl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/yuanchengzhenliao"
+                    android:textColor="@color/text_black"
+                    android:textSize="@dimen/text_manager" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/text_yczl"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/yuanchengzhenliao_ps"
+                    android:textColor="@color/text_gray" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:id="@+id/health_dzbl"
+            android:background="@drawable/theme_btn_write"
+            android:layout_margin="@dimen/margin"
+
+            >
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.8"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dianzibingli_menu"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="1.2"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/text_dzbl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_manager"
+                    android:textColor="@color/text_black"
+                    android:text="@string/dianzibingli" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/text_dzbl"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/text_gray"
+                    android:text="@string/dianzibingli_ps" />
+            </RelativeLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:id="@+id/health_fzzz"
+            android:background="@drawable/theme_btn_write"
+            android:layout_margin="@dimen/margin"
+            >
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.8"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/fenzhenzhaunzhen"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="1.2"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/text_fzzz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_manager"
+                    android:textColor="@color/text_black"
+                    android:text="@string/fenzhenzhuanzhen" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/text_fzzz"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/text_gray"
+                    android:text="@string/fenzhenzhuanzhen_ps" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

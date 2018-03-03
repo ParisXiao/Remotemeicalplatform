@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:background="@color/colortitle"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+        <ImageView
+            android:id="@+id/back"
+            android:src="@mipmap/back"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="60dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_marginRight="60dp"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:text="发表话题"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+       <TextView
+           android:textSize="15dp"
+           android:text="发表人："
+           android:textColor="@color/black"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/name"
+            android:background="@drawable/editshape"
+            android:textColor="@color/hometextcoler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView
+        android:background="@color/lin2"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <LinearLayout
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="5dp"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:text="标题:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/title"
+        android:background="@drawable/editshape"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="30dp" />
+</LinearLayout>
+
+    <TextView
+        android:background="@color/lin2"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"
+        android:text="内容:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/content"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/editshape"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+         />
+
+    <TextView
+        android:background="@color/lin2"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <LinearLayout
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="25dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:text="添加图片"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/img1"
+                android:src="@mipmap/pic"
+                android:layout_width="60dp"
+                android:layout_height="80dp" />
+            <TextView
+                android:id="@+id/delete1"
+                android:textColor="@color/red"
+                android:text="删除"
+                android:textSize="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/img2"
+                android:src="@mipmap/pic"
+                android:layout_width="60dp"
+                android:layout_height="80dp" />
+            <TextView
+                android:id="@+id/delete2"
+                android:textColor="@color/red"
+                android:text="删除"
+                android:textSize="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/img3"
+                android:src="@mipmap/pic"
+                android:layout_width="60dp"
+                android:layout_height="80dp" />
+            <TextView
+                android:id="@+id/delete3"
+                android:textColor="@color/red"
+                android:text="删除"
+                android:textSize="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+<LinearLayout
+    android:id="@+id/select"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    >
+
+</LinearLayout>
+
+        <TextView
+            android:id="@+id/release"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="发表"
+            android:background="@drawable/hometexthape"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginBottom="20dp"
+            android:layout_below="@+id/lg_radio"
+            android:layout_width="match_parent"
+            android:layout_height="35dp" />
+
+</LinearLayout>

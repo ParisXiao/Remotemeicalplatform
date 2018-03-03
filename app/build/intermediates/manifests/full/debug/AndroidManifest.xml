@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gxey.remotemedicalplatform"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="22" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.gxey.remotemedicalplatform.application.LocalApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/log"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.gxey.remotemedicalplatform.activity.MainActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustPan|stateUnchanged" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- <activity -->
+        <!-- android:name=".activity.MainActivity" -->
+        <!-- android:configChanges="keyboardHidden|orientation" -->
+        <!-- android:screenOrientation="portrait" -->
+        <!--
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden|stateUnchanged"
+            ></activity>
+        -->
+        <activity
+            android:name="com.gxey.remotemedicalplatform.activity.secondactivity.ActivityHeathDangAn"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeWrite" />
+        <!-- 注册界面 -->
+        <activity android:name="com.gxey.remotemedicalplatform.activity.RegisteredActivity" />
+        <!-- 找回密码 -->
+        <activity android:name="com.gxey.remotemedicalplatform.activity.BackPasswordActivity" />
+        <!-- 圈子话题发表 -->
+        <activity android:name="com.gxey.remotemedicalplatform.activity.CircleTopicactivity" />
+        <!-- 视屏诊疗评价 -->
+        <activity android:name="com.gxey.remotemedicalplatform.activity.EvaluationActivity" />
+        <!-- 修改个人信息 -->
+        <activity
+            android:name="com.gxey.remotemedicalplatform.activity.PersonalInformationActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <!-- 圈子列表 -->
+        <activity android:name="com.gxey.remotemedicalplatform.activity.CircleActivity" />
+        <!-- 附近药房 -->
+        <activity android:name="com.gxey.remotemedicalplatform.activity.storesActivity" />
+        <!-- 修改密码 -->
+        <activity android:name="com.gxey.remotemedicalplatform.activity.ChangePasswordActivity" />
+        <!-- 申请医疗 -->
+        <activity
+            android:name="com.gxey.remotemedicalplatform.activity.MedicalApplicationActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <!-- 话题圈子 -->
+        <activity android:name="com.gxey.remotemedicalplatform.activity.CircleListActivity" />
+        <!-- 申请等待 -->
+        <activity
+            android:name="com.gxey.remotemedicalplatform.activity.OverConsultationActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <!-- 帮助 -->
+        <activity android:name="com.gxey.remotemedicalplatform.activity.HelpActivity" />
+
+        <!-- 视频聊天 -->
+        <activity android:name="com.gxey.remotemedicalplatform.activity.FrequencyActivity" />
+
+        <!-- web圈子 -->
+        <activity android:name="com.gxey.remotemedicalplatform.activity.WebCircleActivity" />
+        <!-- web医疗资讯 -->
+        <activity android:name="com.gxey.remotemedicalplatform.activity.WebInformationActivity" />
+        <!-- web健康档案 -->
+        <activity android:name="com.gxey.remotemedicalplatform.activity.WebHealthRecordsActivity" />
+        <!-- web我的诊疗 -->
+        <activity android:name="com.gxey.remotemedicalplatform.activity.WebMyDiagnosisActivity" />
+        <!-- web意见反馈 -->
+        <activity android:name="com.gxey.remotemedicalplatform.activity.WebOpinionActivity" />
+        <!-- web用药 -->
+        <activity android:name="com.gxey.remotemedicalplatform.activity.WebMedicationActivity" />
+        <!-- web使用帮助 -->
+        <activity android:name="com.gxey.remotemedicalplatform.activity.WebHelpActivity" />
+        <!-- web关于公信 -->
+        <activity android:name="com.gxey.remotemedicalplatform.activity.WebIndexActivity" />
+        <!-- web协议 -->
+        <activity android:name="com.gxey.remotemedicalplatform.activity.WebAgreementActivity" />
+        <!-- web协议 -->
+        <activity android:name="com.gxey.remotemedicalplatform.activity.WebSearchActivity" />
+        <activity android:name="com.gxey.remotemedicalplatform.activity.WebHomeGoods1" />
+
+        <!-- 网络商城 -->
+        <activity android:name="com.gxey.remotemedicalplatform.activity.ActivityDrugStore" />
+        <activity android:name="com.gxey.remotemedicalplatform.activity.ActivityImageShow" />
+        <activity android:name="com.gxey.remotemedicalplatform.activity.WebDemoActivity" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <!-- 首页链接 -->
+        <activity android:name="com.gxey.remotemedicalplatform.activity.WebBannerbenActgvity" />
+        <activity
+            android:name="me.iwf.photopicker.PhotoPickerActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name="me.iwf.photopicker.PhotoPagerActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name="com.gxey.remotemedicalplatform.activity.secondactivity.ActivityMyMsg"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeGreen" />
+        <activity
+            android:name="com.gxey.remotemedicalplatform.activity.secondactivity.ActivityHeathDianZi"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeWrite" />
+        <activity
+            android:name="com.gxey.remotemedicalplatform.activity.secondactivity.ActivityDoctorList"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeWrite"
+            android:windowSoftInputMode="adjustPan|stateUnchanged" />
+        <activity
+            android:name="com.gxey.remotemedicalplatform.activity.secondactivity.ActivityYiZhu"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeWrite"
+            android:windowSoftInputMode="adjustPan|stateUnchanged" />
+        <activity
+            android:name="com.gxey.remotemedicalplatform.activity.secondactivity.ActivityFenZhen"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeWrite"
+            android:windowSoftInputMode="adjustPan|stateUnchanged" />
+        <activity
+            android:name="com.gxey.remotemedicalplatform.activity.secondactivity.ActivityDZDetails"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeWrite"
+            android:windowSoftInputMode="adjustPan|stateUnchanged" />
+        <activity
+            android:name="com.gxey.remotemedicalplatform.activity.secondactivity.ActivityHealthBaoGao"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeWrite"
+            android:windowSoftInputMode="adjustPan|stateUnchanged" />
+        <activity
+            android:name="com.gxey.remotemedicalplatform.activity.secondactivity.ActivityYiChuan"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeWrite"
+            android:windowSoftInputMode="adjustPan|stateUnchanged" />
+        <activity
+            android:name="com.gxey.remotemedicalplatform.activity.secondactivity.ActivityYiZhuDetails"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeWrite"
+            android:windowSoftInputMode="adjustPan|stateUnchanged" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.gxey.remotemedicalplatform.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/__picker_provider_paths" />
+        </provider>
+    </application>
+
+</manifest>
