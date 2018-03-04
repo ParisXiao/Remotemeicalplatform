@@ -4,6 +4,7 @@ import android.Manifest;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.content.Intent;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.Toast;
@@ -26,6 +27,9 @@ import org.json.JSONObject;
 import java.util.List;
 
 import fr.pchab.webrtcclient.SignalaUtils;
+
+import static com.gxey.remotemedicalplatform.utils.KeyboardUtil.hideInputMethod;
+import static com.gxey.remotemedicalplatform.utils.KeyboardUtil.isShouldHideInput;
 
 
 public class MainActivity extends BaseActivity {
@@ -52,7 +56,18 @@ public class MainActivity extends BaseActivity {
         new SendPushSigleR(this);
         loginUser();
     }
-
+    @Override
+    public boolean dispatchTouchEvent(MotionEvent ev) {
+        if (ev.getAction() == MotionEvent.ACTION_DOWN) {
+            View v = getCurrentFocus();
+            if (isShouldHideInput(v, ev)) {
+                if(hideInputMethod( this,v)) {
+                    return true; //隐藏键盘时，其他控件不响应点击事件==》注释则不拦截点击事件
+                }
+            }
+        }
+        return super.dispatchTouchEvent(ev);
+    }
     private void initPermission(){
         if(AndPermission.hasPermission(MainActivity.this, Manifest.permission.CAMERA,Manifest.permission.RECORD_AUDIO,Manifest.permission.WRITE_EXTERNAL_STORAGE)) {
             // 有权限，直接do anything.

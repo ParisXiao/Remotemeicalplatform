@@ -56,7 +56,7 @@ public class MedicalApplicationActivity extends BaseActivity implements View.OnC
 
     @BindView(R.id.spinner2)
     Spinner mSpinner;
-    private String Type="";// 1.离线，2.全部
+    private String  Type="";// 1.离线，2.全部
 
     @BindView(R.id.et_search)
     EditText mETSearch;

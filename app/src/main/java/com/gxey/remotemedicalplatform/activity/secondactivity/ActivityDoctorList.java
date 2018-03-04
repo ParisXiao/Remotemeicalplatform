@@ -6,6 +6,8 @@ import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.text.TextUtils;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageButton;
@@ -16,23 +18,29 @@ import com.gxey.remotemedicalplatform.R;
 import com.gxey.remotemedicalplatform.activity.BaseActivity;
 import com.gxey.remotemedicalplatform.adapter.DoctorAdapter;
 import com.gxey.remotemedicalplatform.bean.DoctorBean;
+import com.gxey.remotemedicalplatform.javaben.DoctorEntity;
+import com.gxey.remotemedicalplatform.utils.AndroidUtil;
 import com.gxey.remotemedicalplatform.utils.ScreenUtils;
 import com.gxey.remotemedicalplatform.widget.EmptyLayout;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
 import static com.gxey.remotemedicalplatform.R.id.toolbar_left_btn;
+import static com.gxey.remotemedicalplatform.utils.KeyboardUtil.hideInputMethod;
+import static com.gxey.remotemedicalplatform.utils.KeyboardUtil.isShouldHideInput;
 
 /**
  * Created by Administrator on 2018-03-02.
  */
 
-public class ActivityDoctorList extends BaseActivity implements View.OnClickListener{
+public class ActivityDoctorList extends BaseActivity implements View.OnClickListener {
     @BindView(R.id.toolbar_mid)
     TextView toolbarMid;
     @BindView(toolbar_left_btn)
@@ -55,9 +63,19 @@ public class ActivityDoctorList extends BaseActivity implements View.OnClickList
     SwipeRefreshLayout layRefreshDoctor;
     @BindView(R.id.emptyLayout_doctor)
     EmptyLayout emptyLayoutDoctor;
+    @BindView(R.id.ys_btn_sousuo)
+    ImageButton ysBtnSousuo;
     private DoctorAdapter adapter;
     private List<DoctorBean> doctorBeen;
-    private Handler handler=new Handler();
+    private Handler handler = new Handler();
+
+    private String  Type="";// 1.离线，2.全部
+
+
+    public ActivityDoctorList(ImageButton toolbarLeftBtn) {
+        this.toolbarLeftBtn = toolbarLeftBtn;
+    }
+
     @Override
     protected int getLayoutId() {
         return R.layout.activity_doctorlist;
@@ -73,12 +91,12 @@ public class ActivityDoctorList extends BaseActivity implements View.OnClickList
         toolbarMid.setText(R.string.yisheng);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
-        ScreenUtils.setStatusBarLightMode(this,R.color.black);
-        doctorBeen=new ArrayList<>();
+        ScreenUtils.setStatusBarLightMode(this, R.color.black);
+        doctorBeen = new ArrayList<>();
         loadData();
 
         recyclerViewDoctor.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
-        recyclerViewDoctor.setAdapter(adapter = new DoctorAdapter(this,doctorBeen));
+        recyclerViewDoctor.setAdapter(adapter = new DoctorAdapter(this, doctorBeen));
         //绑定
         emptyLayoutDoctor.bindView(recyclerViewDoctor);
         emptyLayoutDoctor.setOnButtonClick(new View.OnClickListener() {
@@ -100,6 +118,19 @@ public class ActivityDoctorList extends BaseActivity implements View.OnClickList
     }
 
     @Override
+    public boolean dispatchTouchEvent(MotionEvent ev) {
+        if (ev.getAction() == MotionEvent.ACTION_DOWN) {
+            View v = getCurrentFocus();
+            if (isShouldHideInput(v, ev)) {
+                if (hideInputMethod(this, v)) {
+                    return true; //隐藏键盘时，其他控件不响应点击事件==》注释则不拦截点击事件
+                }
+            }
+        }
+        return super.dispatchTouchEvent(ev);
+    }
+
+    @Override
     protected void initData() {
         initLoadMoreListener();
     }
@@ -110,6 +141,7 @@ public class ActivityDoctorList extends BaseActivity implements View.OnClickList
         // TODO: add setContentView(...) invocation
         ButterKnife.bind(this);
     }
+
     private void loadData() {
         //模拟加载数据
         emptyLayoutDoctor.showLoading("正在加载，请稍后");
@@ -128,24 +160,26 @@ public class ActivityDoctorList extends BaseActivity implements View.OnClickList
                     // 成功
                     emptyLayoutDoctor.showSuccess();
                     for (int i = 0; i < 10; i++) {
-                        doctorBeen.add(new DoctorBean("","肖某某","主治医生,帅哥医生,资深老中医","科室：外科","妹啊表达对啊实打实读书读","10"));
+                        doctorBeen.add(new DoctorBean("", "肖某某", "主治医生,帅哥医生,资深老中医", "科室：外科", "妹啊表达对啊实打实读书读", "10"));
                     }
-                    }
-                    adapter.notifyDataSetChanged();
+                }
+                adapter.notifyDataSetChanged();
 //                }
             }
         }, 3000);
     }
+
     private void initLoadMoreListener() {
         adapter.changeMoreStatus(adapter.NO_LOAD_MORE);
         recyclerViewDoctor.setOnScrollListener(new RecyclerView.OnScrollListener() {
-            int lastVisibleItem ;
+            int lastVisibleItem;
+
             @Override
             public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
                 super.onScrollStateChanged(recyclerView, newState);
                 adapter.changeMoreStatus(adapter.PULLUP_LOAD_MORE);
                 //判断RecyclerView的状态 是空闲时，同时，是最后一个可见的ITEM时才加载
-                if(newState==RecyclerView.SCROLL_STATE_IDLE&&lastVisibleItem+1==adapter.getItemCount()){
+                if (newState == RecyclerView.SCROLL_STATE_IDLE && lastVisibleItem + 1 == adapter.getItemCount()) {
 
                     //设置正在加载更多
                     adapter.changeMoreStatus(adapter.LOADING_MORE);
@@ -153,14 +187,14 @@ public class ActivityDoctorList extends BaseActivity implements View.OnClickList
                     new Handler().postDelayed(new Runnable() {
                         @Override
                         public void run() {
-                            List<DoctorBean> doctorBeen=new ArrayList<DoctorBean>();
+                            List<DoctorBean> doctorBeen = new ArrayList<DoctorBean>();
                             for (int i = 0; i < 10; i++) {
-                                doctorBeen.add(new DoctorBean("","肖某某","主治医生,帅哥医生,资深老中医","科室：外科","妹啊表达对啊实打实读书读","10"));
+                                doctorBeen.add(new DoctorBean("", "肖某某", "主治医生,帅哥医生,资深老中医", "科室：外科", "妹啊表达对啊实打实读书读", "10"));
                             }
                             adapter.AddFooterItem(doctorBeen);
                             //设置回到上拉加载更多
                             adapter.changeMoreStatus(adapter.PULLUP_LOAD_MORE);
-                            Toast.makeText(ActivityDoctorList.this, "更新了 "+doctorBeen.size()+" 条数据", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(ActivityDoctorList.this, "更新了 " + doctorBeen.size() + " 条数据", Toast.LENGTH_SHORT).show();
                         }
                     }, 3000);
 
@@ -175,7 +209,7 @@ public class ActivityDoctorList extends BaseActivity implements View.OnClickList
 
                 LinearLayoutManager layoutManager = (LinearLayoutManager) recyclerView.getLayoutManager();
                 //最后一个可见的ITEM
-                lastVisibleItem=layoutManager.findLastVisibleItemPosition();
+                lastVisibleItem = layoutManager.findLastVisibleItemPosition();
             }
         });
 
@@ -187,6 +221,35 @@ public class ActivityDoctorList extends BaseActivity implements View.OnClickList
             case toolbar_left_btn:
                 finish();
                 break;
+            case R.id.ys_btn_sousuo:
+                String search =  sousuoDoctor.getText().toString();
+                if(!TextUtils.isEmpty(search)){
+                    if(TextUtils.isEmpty(Type)){
+                        List<DoctorEntity> temp = new ArrayList<>();
+                        Pattern pn = Pattern.compile(search+"\\w|\\w"+search+"\\w|\\w"+search);
+                        Matcher mr = null;
+                        for(DoctorEntity entity:list){
+                            mr = pn.matcher(entity.getUserName());
+                            if (mr.find()){
+                                temp.add(entity);
+                            }
+                        }
+                        list.clear();
+                        list.addAll(temp);
+                        adapter.notifyDataSetChanged();
+                    }else{
+
+                        getDoctor(search);
+
+                    }
+
+                }else{
+                    AndroidUtil.showToast(this,"搜索内容不能为空",0);
+
+                }
+
+                break;
+
         }
     }
 }

@@ -27,24 +27,24 @@
 
         >
 
-        <activity android:name=".activity.MainActivity"
-            android:theme="@style/AppTheme"
+        <activity
+            android:name=".activity.LoginActivity"
             android:configChanges="keyboardHidden|orientation"
-            android:windowSoftInputMode="adjustPan|stateUnchanged"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustPan|stateUnchanged">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <!--<activity-->
-            <!--android:name=".activity.MainActivity"-->
-            <!--android:configChanges="keyboardHidden|orientation"-->
-            <!--android:screenOrientation="portrait"-->
-            <!--android:theme="@style/AppTheme"
-            android:windowSoftInputMode="stateHidden|stateUnchanged"
-            ></activity>-->
+        <activity
+            android:name=".activity.MainActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden|stateUnchanged"></activity>
         <activity
             android:name=".activity.secondactivity.ActivityHeathDangAn"
             android:configChanges="keyboardHidden|orientation"
@@ -130,49 +130,53 @@
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"
             android:theme="@style/AppThemeGreen" />
-        <activity android:name=".activity.secondactivity.ActivityHeathDianZi"
+        <activity
+            android:name=".activity.secondactivity.ActivityHeathDianZi"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"
             android:theme="@style/AppThemeWrite" />
-        <activity android:name=".activity.secondactivity.ActivityDoctorList"
-            android:theme="@style/AppThemeWrite"
+        <activity
+            android:name=".activity.secondactivity.ActivityDoctorList"
             android:configChanges="keyboardHidden|orientation"
-            android:windowSoftInputMode="adjustPan|stateUnchanged"
             android:screenOrientation="portrait"
-            />
-        <activity android:name=".activity.secondactivity.ActivityYiZhu"
             android:theme="@style/AppThemeWrite"
+            android:windowSoftInputMode="adjustPan|stateUnchanged" />
+        <activity
+            android:name=".activity.secondactivity.ActivityYiZhu"
             android:configChanges="keyboardHidden|orientation"
-            android:windowSoftInputMode="adjustPan|stateUnchanged"
             android:screenOrientation="portrait"
-            />
-        <activity android:name=".activity.secondactivity.ActivityFenZhen"
             android:theme="@style/AppThemeWrite"
+            android:windowSoftInputMode="adjustPan|stateUnchanged" />
+        <activity
+            android:name=".activity.secondactivity.ActivityFenZhen"
             android:configChanges="keyboardHidden|orientation"
-            android:windowSoftInputMode="adjustPan|stateUnchanged"
             android:screenOrientation="portrait"
-            />
-        <activity android:name=".activity.secondactivity.ActivityDZDetails"
             android:theme="@style/AppThemeWrite"
+            android:windowSoftInputMode="adjustPan|stateUnchanged" />
+        <activity
+            android:name=".activity.secondactivity.ActivityDZDetails"
             android:configChanges="keyboardHidden|orientation"
-            android:windowSoftInputMode="adjustPan|stateUnchanged"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".activity.secondactivity.ActivityHealthBaoGao"
-            android:theme="@style/AppThemeWrite"
-            android:configChanges="keyboardHidden|orientation"
-            android:windowSoftInputMode="adjustPan|stateUnchanged"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".activity.secondactivity.ActivityYiChuan"
-            android:theme="@style/AppThemeWrite"
-            android:configChanges="keyboardHidden|orientation"
-            android:windowSoftInputMode="adjustPan|stateUnchanged"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".activity.secondactivity.ActivityYiZhuDetails"
-            android:theme="@style/AppThemeWrite"
-            android:configChanges="keyboardHidden|orientation"
-            android:windowSoftInputMode="adjustPan|stateUnchanged"
             android:screenOrientation="portrait"
-            />
+            android:theme="@style/AppThemeWrite"
+            android:windowSoftInputMode="adjustPan|stateUnchanged" />
+        <activity
+            android:name=".activity.secondactivity.ActivityHealthBaoGao"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeWrite"
+            android:windowSoftInputMode="adjustPan|stateUnchanged" />
+        <activity
+            android:name=".activity.secondactivity.ActivityYiChuan"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeWrite"
+            android:windowSoftInputMode="adjustPan|stateUnchanged" />
+        <activity
+            android:name=".activity.secondactivity.ActivityYiZhuDetails"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeWrite"
+            android:windowSoftInputMode="adjustPan|stateUnchanged" />
 
         <meta-data
             android:name="com.google.android.gms.version"

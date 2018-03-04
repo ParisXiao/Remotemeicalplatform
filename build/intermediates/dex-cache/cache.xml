@@ -3,30 +3,84 @@
 
     <item
         is-multidex="false"
-        jar="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.android.databinding\adapters\1.2.1\jars\classes.jar"
+        jar="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.github.donkingliang\LabelsView\1.2.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="c56d29136c2257f63f08c29c4e739efb03b06c7d">
-        <dex dex="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.android.databinding-adapters-1.2.1_7313c569417c2628efc0711f822e3235e6ac2600.jar" />
+        sha1="fd822cc34025d1109e78eb7dfbcc4a5f28005309">
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.github.donkingliang-LabelsView-1.2.0_5bfb29ebf3117360b20e2d62dddef66491355fa7.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jar="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.pnikosis\materialish-progress\1.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
-        <dex dex="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-8.4.0_3d56491c22c027d3a5afb744c2c7c75548d7e4b3.jar" />
+        sha1="57487745ce450899f9f250d5ae5c092a682cd041">
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.pnikosis-materialish-progress-1.0_7930ce88db05a158e6529f44ef4a278a191f60ff.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\exploded-aar\org.xutils\xutils\3.2.2\jars\classes.jar"
+        jar="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.jakewharton\butterknife\8.4.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="60a64f9fe24d179f9d98e70bdfb68416389ee764">
-        <dex dex="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\org.xutils-xutils-3.2.2_c43381b0b1706171fbe37e156db600aab59ea9b2.jar" />
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.jakewharton-butterknife-8.4.0_9fd7be1e9eeca1ea7f2bf2f616fd53dd70d2bffc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.ashokvarma.android\bottom-navigation-bar\1.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f72894374bf136ef52ef3098dd9039ae32e6fec4">
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.ashokvarma.android-bottom-navigation-bar-1.2.0_bdef7054888c9d958609def06bf8a165d7d9ca45.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.yanzhenjie.alertdialog\alertdialog\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="7b3e997517ba1b2ef7d22f0aabec3efbd598b613">
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.yanzhenjie.alertdialog-alertdialog-1.0.0_b89e900b8eef0ae3eed2c4e80032fb03a11f35c1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.github.chrisbanes\PhotoView\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="81d41e53c215976ce172b9f61ef1e8fc2d67cf79">
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.github.chrisbanes-PhotoView-1.3.0_1eda6e0677bb3764c28f28c99a3a240eed19325e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.1_f5e55850d78972979aedbfa4f02d4b801d2409bd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.1_614fd89063446bbddd83ac8d8357d41fac2e793a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.1_b096a93bc2ee7953f8e0bed5eae62e52898e64bd.jar" />
     </item>
     <item
         is-multidex="false"
@@ -35,16 +89,7 @@
         optimize="true"
         revision="23.0.1"
         sha1="b4b51d1925cdfda98fd861230c1ecb5855500129">
-        <dex dex="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\baseLibrary-2.2.3_7c9068a35b893ebd51276dafbfd9baac8a6ee362.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\exploded-aar\me.iwf.photopicker\PhotoPicker\0.9.5\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="db1e98b0297d5012e722a8f83d239afe58a0ba6e">
-        <dex dex="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\me.iwf.photopicker-PhotoPicker-0.9.5_1203ad6dc8a85b531b17816f7f339ae395954386.jar" />
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\baseLibrary-2.2.3_7c9068a35b893ebd51276dafbfd9baac8a6ee362.jar" />
     </item>
     <item
         is-multidex="false"
@@ -53,16 +98,16 @@
         optimize="true"
         revision="23.0.1"
         sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_2428dbd5eabf65ae69bc01abd6e4b72d08e545aa.jar" />
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_2428dbd5eabf65ae69bc01abd6e4b72d08e545aa.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jar="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\exploded-aar\Remotemeicalplatform\webrtc-client\unspecified\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.1_85d8b1941205c103fc4020c756f7a875e47d2503.jar" />
+        sha1="7956b43cb9f31234a9ea17a3c2f36386de38d6b4">
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\Remotemeicalplatform-webrtc-client-unspecified_755d05b459584e39713aee27abf66b4b6313b4d1.jar" />
     </item>
     <item
         is-multidex="false"
@@ -71,7 +116,7 @@
         optimize="true"
         revision="23.0.1"
         sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
-        <dex dex="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\converter-gson-2.1.0_fc6d109c83c05cddded4b5ea732ed5dd7c938086.jar" />
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\converter-gson-2.1.0_fc6d109c83c05cddded4b5ea732ed5dd7c938086.jar" />
     </item>
     <item
         is-multidex="false"
@@ -80,79 +125,79 @@
         optimize="true"
         revision="23.0.1"
         sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\library-2.4.0_dd460f45d27a359687729c3c169358b1eda3100b.jar" />
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\library-2.4.0_dd460f45d27a359687729c3c169358b1eda3100b.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\exploded-aar\io.reactivex\rxandroid\1.2.1\jars\classes.jar"
+        jar="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.yanzhenjie\permission\1.0.4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="246e8cbb61e189e47a24dbc812bc9e94bffacf5f">
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.yanzhenjie-permission-1.0.4_48c9d8fa354607c399cfd19486443819978105e4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.1_188ae8fb6f3681b9dae8b09c67823b81c3eda633.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\exploded-aar\cn.pedant.sweetalert\library\1.3\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="0c3529d9491be892952749d252ae1defa9b1f937">
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\cn.pedant.sweetalert-library-1.3_fd5da12c1fb184802e350f009719581a9e60f4e2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.1_cb66de1d4fa926e7f199c61019575f6390996c86.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\exploded-aar\org.xutils\xutils\3.2.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="60a64f9fe24d179f9d98e70bdfb68416389ee764">
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\org.xutils-xutils-3.2.2_0a0a3879cf1bdbdd5b9425dfcd426d73c144756e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.github.erizet.signala\parallel-basic-http-client\0.20\jars\libs\basic-http-client-android-0.88.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="62aa3f0df0148b934c29a8085d01e9839955e06e">
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\basic-http-client-android-0.88_155f6d35ce59f99e196a17aa3df51ccf5903fa1f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.android.databinding\library\1.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="957dc30b1495f8689271e00d56ab09cc9192df02">
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.android.databinding-library-1.2.1_fdc4e6c8d3a966590ec6b7560a45d46eab319945.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\exploded-aar\io.reactivex\rxandroid\1.2.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="5a2386ad9bfff580b206a7fe305cdccd00798159">
-        <dex dex="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\io.reactivex-rxandroid-1.2.1_76afe99016cd1d449d521c2a5de2a06867270ae0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.1_f42d0dd15af57ba7a4f2f3795b3e909836d9bddd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_54ea358c65b5ca23883f0595668755b4b8a6ea60.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
-        <dex dex="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.4.0_7418eec937fda669f3eda2c08158c123a7521ee5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\exploded-aar\io.pristine\libjingle\9694\jars\libs\libjingle_peerconnection.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="0534156c273fbecc84a9e895fc0cd9717930968c">
-        <dex dex="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\libjingle_peerconnection_5712b3ca073452b6948c3a86cb195891d9bbd2ae.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.1_f5eca3761e03df9ffe416c46f1b8a668a3fe7251.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
-        <dex dex="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-8.4.0_f4b5d9d061677628d2fef7f8777db10caff7eb80.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.1_b9cdcf997c38804c87dc6d07b2df7124c0d09229.jar" />
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\io.reactivex-rxandroid-1.2.1_ec7877348e1db18522dbf3ad228fe16d306e3a90.jar" />
     </item>
     <item
         is-multidex="false"
@@ -161,16 +206,7 @@
         optimize="true"
         revision="23.0.1"
         sha1="381fc1096ba65040d8e80ea43b2e1d9bad02345e">
-        <dex dex="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\logging-interceptor-3.4.1_16ea2c5adabd180da0b0709521ed490e4e49b95b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.yanzhenjie.alertdialog\alertdialog\1.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="7b3e997517ba1b2ef7d22f0aabec3efbd598b613">
-        <dex dex="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.yanzhenjie.alertdialog-alertdialog-1.0.0_338340aefa1b7ce776d833f4d1ed75112afd3616.jar" />
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\logging-interceptor-3.4.1_16ea2c5adabd180da0b0709521ed490e4e49b95b.jar" />
     </item>
     <item
         is-multidex="false"
@@ -179,70 +215,61 @@
         optimize="true"
         revision="23.0.1"
         sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
-        <dex dex="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\gson-2.7_2e85dbf641c4a16c73925139bd4ff50ebb0450dd.jar" />
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\gson-2.7_2e85dbf641c4a16c73925139bd4ff50ebb0450dd.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.orhanobut\logger\1.15\jars\classes.jar"
+        jar="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="2a156b99fc7cc034308f942906b09d32754a4470">
-        <dex dex="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.orhanobut-logger-1.15_230ac2d0762e8ec993952c1805875529f48a7083.jar" />
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_d3f7e0df0e8250123e899c6bf13c86e7813dde82.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jar="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_ea4e651a4ca94dab4963eb7def018dba46814ff2.jar" />
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.1_6a347e668ac586f2db3b45a533aacf1f5a8c099c.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\jars\classes.jar"
+        jar="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.0.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
-        <dex dex="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appindexing-8.4.0_5ca18ed38e6d2d35b09eef8ccaca4f148db6a80e.jar" />
+        sha1="1ccbc26be2c465c622a48310e8092241b01abe80">
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-23.0.0_4cf97c269f4cce117deb8f9eee90be64c9ad211f.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jar="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.github.erizet.signala\parallel-basic-http-client\0.20\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.1_66b82d389c585fd39ec218c98a0e8c44e3ead31e.jar" />
+        sha1="0e78315fbee732162e7034235a6219c372fff417">
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.github.erizet.signala-parallel-basic-http-client-0.20_d166bad24c47969aee2e7a2136f39c471f915c8a.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.github.donkingliang\LabelsView\1.2.0\jars\classes.jar"
+        jar="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="fd822cc34025d1109e78eb7dfbcc4a5f28005309">
-        <dex dex="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.github.donkingliang-LabelsView-1.2.0_dedfa9e6aa4043bc6cea70ed5c9bbf1274a9a581.jar" />
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-8.4.0_edf3901ed8eb5b1a95d1e6b0612c2f1b0cb5ab58.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.github.erizet.signala\signala\0.20\jars\classes.jar"
+        jar="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="808810610de1c225c4f6a45a9fa9e9ded6be8b69">
-        <dex dex="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.github.erizet.signala-signala-0.20_175325059b28b2fa697523e9c5ffa86d4861c929.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\exploded-aar\cn.pedant.sweetalert\library\1.3\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="0c3529d9491be892952749d252ae1defa9b1f937">
-        <dex dex="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\cn.pedant.sweetalert-library-1.3_9bcc607952fde4c8105f618c19aa74970e3d7ae4.jar" />
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.4.0_59dfa32577dd3443f1f6a665560e4cc389a5d728.jar" />
     </item>
     <item
         is-multidex="false"
@@ -251,7 +278,16 @@
         optimize="true"
         revision="23.0.1"
         sha1="693eddc23e87ab13f9cf5001707ce8e7e1d1ff01">
-        <dex dex="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\adapter-rxjava-2.1.0_a922f2c9139fd2cbbf2500b5aa528f1e500fa2f5.jar" />
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\adapter-rxjava-2.1.0_a922f2c9139fd2cbbf2500b5aa528f1e500fa2f5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_6eb95ce1ef99a8ef46e270fa1b1eaf652d6a5bae.jar" />
     </item>
     <item
         is-multidex="false"
@@ -260,7 +296,7 @@
         optimize="true"
         revision="23.0.1"
         sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_302013ac1b9756137b559b3834435b7206974e54.jar" />
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_302013ac1b9756137b559b3834435b7206974e54.jar" />
     </item>
     <item
         is-multidex="false"
@@ -269,16 +305,61 @@
         optimize="true"
         revision="23.0.1"
         sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
-        <dex dex="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\butterknife-annotations-8.4.0_a2a255623276bf6fd1b525dcb3e3c692cac62c3e.jar" />
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\butterknife-annotations-8.4.0_a2a255623276bf6fd1b525dcb3e3c692cac62c3e.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.pnikosis\materialish-progress\1.0\jars\classes.jar"
+        jar="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="57487745ce450899f9f250d5ae5c092a682cd041">
-        <dex dex="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.pnikosis-materialish-progress-1.0_cc9879583d2742e7c83e2c42ef99069cde19da4b.jar" />
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_7c78e16c1bdfd9c0a180746312949f21389c2300.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.4.0_77d36d84b9a072b490aa9b4697b516dbe7c56c5a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\exploded-aar\io.pristine\libjingle\9694\jars\libs\libjingle_peerconnection.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="0534156c273fbecc84a9e895fc0cd9717930968c">
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\libjingle_peerconnection_26e31b18694b0d3b0c9bc7132156116455780f3a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.github.erizet.signala\signala\0.20\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="808810610de1c225c4f6a45a9fa9e9ded6be8b69">
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.github.erizet.signala-signala-0.20_e4cad213985419003210eee15cc7187b4b198466.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.1_f674d783f55ebd2c7cad9b52723f0b74c6718457.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.android.databinding\adapters\1.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c56d29136c2257f63f08c29c4e739efb03b06c7d">
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.android.databinding-adapters-1.2.1_4c60f3dd809d03439bed517f4c13538ed816a30c.jar" />
     </item>
     <item
         is-multidex="false"
@@ -287,25 +368,7 @@
         optimize="true"
         revision="23.0.1"
         sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
-        <dex dex="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\glide-3.7.0_1f3ddf859a86296da03fddcf50d19f29d652df81.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.github.erizet.signala\signala-longpolling\0.20\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="637577f84ce7016756676d4489b0a951cc5f1bd4">
-        <dex dex="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.github.erizet.signala-signala-longpolling-0.20_d91ce4e3c719a8fcb5ffa1b3dae21b6e0b237dc2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\exploded-aar\Remotemeicalplatform\webrtc-client\unspecified\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="7956b43cb9f31234a9ea17a3c2f36386de38d6b4">
-        <dex dex="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\Remotemeicalplatform-webrtc-client-unspecified_19083c7c7fa4c1c2ded5435a1f95172784c534f8.jar" />
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\glide-3.7.0_1f3ddf859a86296da03fddcf50d19f29d652df81.jar" />
     </item>
     <item
         is-multidex="false"
@@ -314,25 +377,7 @@
         optimize="true"
         revision="23.0.1"
         sha1="2586312cd2b8a511e4c6236736f5a039fc0f2273">
-        <dex dex="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\rxjava-1.1.6_11e5c01617ee667d4a45ba948a656c898b69cbfd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.android.databinding\library\1.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="957dc30b1495f8689271e00d56ab09cc9192df02">
-        <dex dex="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.android.databinding-library-1.2.1_ab9678f39207394401945b4ae33a8690d65d4004.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
-        <dex dex="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.4.0_e36db530998f21d349e3c2a157e9ed43467bf28d.jar" />
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\rxjava-1.1.6_11e5c01617ee667d4a45ba948a656c898b69cbfd.jar" />
     </item>
     <item
         is-multidex="false"
@@ -341,61 +386,43 @@
         optimize="true"
         revision="23.0.1"
         sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
-        <dex dex="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\okhttp-3.4.1_a3a718343956c6e4d917a53a4fdd4a4dc134cda5.jar" />
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\okhttp-3.4.1_a3a718343956c6e4d917a53a4fdd4a4dc134cda5.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jar="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.1_6e9be1cc822e4d8d6ffb8c37d3c1dc1a15e0cc15.jar" />
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appindexing-8.4.0_b82eb66d60cc427a8c30de064efb0a4ca3503450.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.github.erizet.signala\parallel-basic-http-client\0.20\jars\libs\basic-http-client-android-0.88.jar"
+        jar="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="62aa3f0df0148b934c29a8085d01e9839955e06e">
-        <dex dex="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\basic-http-client-android-0.88_621a936de35e95c0b421e67fad2459dcc594eb56.jar" />
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-8.4.0_c8cf28f93e9041f319670517a08a76b44578352f.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jar="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_c1a37eb691517ba545f145660f2670b69f929563.jar" />
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.1_5d50334deff048bf61864da8c8e391c6f370a2f7.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jar="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.1_dae97aabebd6d24878312f471d2b86cf5cd2afa0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="1ccbc26be2c465c622a48310e8092241b01abe80">
-        <dex dex="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-23.0.0_689baaa922f50c7cef370d6279f3062210d4751e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.makeramen\roundedimageview\2.3.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="fbaffbfc2a42fce3718dc9f52182810ad332b0ec">
-        <dex dex="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.makeramen-roundedimageview-2.3.0_c63f6786abc78a9353b6b8897cff01806d711fb9.jar" />
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_89bbc1a731f7d02138641018c6c7f338a2d8dd65.jar" />
     </item>
     <item
         is-multidex="false"
@@ -404,25 +431,34 @@
         optimize="true"
         revision="23.0.1"
         sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
-        <dex dex="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\okio-1.9.0_db0545b090bbd931e1cf6e43202e038727277a7d.jar" />
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\okio-1.9.0_db0545b090bbd931e1cf6e43202e038727277a7d.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jar="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_b6eded40083ed92ca17e052438bd930f2d8f362e.jar" />
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.1_5de223fa23dd2bae3119fac1e4b7713c8ec0f7d2.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jar="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.github.erizet.signala\signala-longpolling\0.20\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_06e14c8cf9d61619864cf369df32ca4339d7cafd.jar" />
+        sha1="637577f84ce7016756676d4489b0a951cc5f1bd4">
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.github.erizet.signala-signala-longpolling-0.20_6667144c12cb30e41747324246f3ab1dc6fe5c4d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\exploded-aar\me.iwf.photopicker\PhotoPicker\0.9.5\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="db1e98b0297d5012e722a8f83d239afe58a0ba6e">
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\me.iwf.photopicker-PhotoPicker-0.9.5_d7a246df0529c3dbd2b7569063b6b8c4e6450c29.jar" />
     </item>
     <item
         is-multidex="false"
@@ -431,70 +467,34 @@
         optimize="true"
         revision="23.0.1"
         sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
-        <dex dex="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\retrofit-2.1.0_02cdaa5f093e78b272a8b951b62057cb62740b8d.jar" />
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\retrofit-2.1.0_02cdaa5f093e78b272a8b951b62057cb62740b8d.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.yanzhenjie\permission\1.0.4\jars\classes.jar"
+        jar="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="246e8cbb61e189e47a24dbc812bc9e94bffacf5f">
-        <dex dex="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.yanzhenjie-permission-1.0.4_4c8bd02790002e5bd0faae3d0362f26c1f745e33.jar" />
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_49f83c027e2b76d58a5870dae85c281ae186941f.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.github.erizet.signala\parallel-basic-http-client\0.20\jars\classes.jar"
+        jar="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.orhanobut\logger\1.15\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="0e78315fbee732162e7034235a6219c372fff417">
-        <dex dex="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.github.erizet.signala-parallel-basic-http-client-0.20_59c565ace464cd36e88c46598aa3b6777cb59b54.jar" />
+        sha1="2a156b99fc7cc034308f942906b09d32754a4470">
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.orhanobut-logger-1.15_5f15b488d621bdd1d326d8c063771cc9fd4cbe6b.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.ashokvarma.android\bottom-navigation-bar\1.2.0\jars\classes.jar"
+        jar="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.makeramen\roundedimageview\2.3.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="f72894374bf136ef52ef3098dd9039ae32e6fec4">
-        <dex dex="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.ashokvarma.android-bottom-navigation-bar-1.2.0_45a0b3d05270eb43b6b76a40e4e2c92376cfc9c2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.github.chrisbanes\PhotoView\1.3.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="81d41e53c215976ce172b9f61ef1e8fc2d67cf79">
-        <dex dex="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.github.chrisbanes-PhotoView-1.3.0_6fa9174fe06f772b671fb97072fc4751ccf7477c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.1_3e5a3d1810f789fb3cfbe6a97d1cb1e219b68f8c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.1_4338e466151a8ceb95b24d2ccade2b80998bf1f5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\exploded-aar\com.jakewharton\butterknife\8.4.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
-        <dex dex="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.jakewharton-butterknife-8.4.0_f2e270848db1205a533f8a7670ab2c49730bd1aa.jar" />
+        sha1="fbaffbfc2a42fce3718dc9f52182810ad332b0ec">
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\pre-dexed\debug\com.makeramen-roundedimageview-2.3.0_e303d545ea1b8467ac3737d3340f20c94e1e4b4c.jar" />
     </item>
 
 </items>

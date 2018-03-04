@@ -41,12 +41,13 @@
                 android:hint="@string/hitn_soosuo"
                 android:singleLine="true"
                 android:ellipsize="end"
-                android:cursorVisible="false"
                 android:textColor="@color/background"
+                android:imeOptions="actionSearch"
                 android:layout_toRightOf="@+id/logo_sy"
                 android:background="@drawable/shape_btn_sousuo"
                 android:drawableRight="@drawable/sousuo"
-                android:paddingRight="20dp" />
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"/>
 
             <ImageView
                 android:id="@+id/xiaoxi_sy"

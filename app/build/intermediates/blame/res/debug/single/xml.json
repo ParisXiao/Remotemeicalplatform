@@ -4,6 +4,10 @@
         "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\me.iwf.photopicker\\PhotoPicker\\0.9.5\\res\\xml\\__picker_provider_paths.xml"
     },
     {
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\xml\\__picker_provider_paths.xml",
+        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\me.iwf.photopicker\\PhotoPicker\\0.9.5\\res\\xml\\__picker_provider_paths.xml"
+    },
+    {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\xml\\__picker_provider_paths.xml",
         "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\exploded-aar\\me.iwf.photopicker\\PhotoPicker\\0.9.5\\res\\xml\\__picker_provider_paths.xml"
     }

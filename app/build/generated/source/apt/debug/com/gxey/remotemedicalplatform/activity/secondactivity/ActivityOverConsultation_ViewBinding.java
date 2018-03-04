@@ -15,7 +15,7 @@ import com.gxey.remotemedicalplatform.R;
 import java.lang.IllegalStateException;
 import java.lang.Override;
 
-public class ActivityOverConsultation_ViewBinding<T extends ActivityOverConsultation> implements Unbinder {
+public class ActivityOverConsultation_ViewBinding<T extends ActivityMyOverConsultation> implements Unbinder {
   protected T target;
 
   @UiThread

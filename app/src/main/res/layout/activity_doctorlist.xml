@@ -1,81 +1,98 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background_write">
-    <include
-        layout="@layout/layout_actionbar"
-        />
-    <EditText
-        android:id="@+id/sousuo_doctor"
+    android:background="@color/background_write"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_actionbar" />
+
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:layout_marginLeft="@dimen/margin"
-        android:layout_marginRight="@dimen/margin"
-        android:layout_marginTop="10dp"
-        android:layout_toLeftOf="@+id/xiaoxi_sy"
-        android:hint="@string/hitn_soosuo"
-        android:singleLine="true"
-        android:ellipsize="end"
-        android:cursorVisible="false"
-        android:textColor="@color/background"
-        android:layout_toRightOf="@+id/logo_sy"
-        android:background="@drawable/shape_btn_sousuo"
-        android:drawableRight="@drawable/sousuo"
-        android:paddingRight="20dp"
-        android:layout_marginBottom="10dp"/>
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="horizontal"
-    android:background="@color/background"
-    >
-    <TextView
-        android:id="@+id/text_all"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="@color/text_black"
-        android:textSize="@dimen/text_title"
-        android:text="@string/quanbu"
-        android:layout_weight="1"
-        android:gravity="center_horizontal"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="10dp"
-        />
-    <TextView
-        android:id="@+id/text_online"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="@color/text_black"
-        android:textSize="@dimen/text_title"
-        android:text="@string/zaixian"
-        android:layout_weight="1"
-        android:gravity="center_horizontal"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="10dp"
-        />
-    <TextView
-        android:id="@+id/text_outline"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="@color/text_black"
-        android:textSize="@dimen/text_title"
-        android:text="@string/lixian"
-        android:layout_weight="1"
-        android:gravity="center_horizontal"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="10dp"
-        />
+     >
 
-</LinearLayout>
+        <EditText
+            android:id="@+id/sousuo_doctor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginRight="@dimen/margin"
+            android:layout_marginTop="10dp"
+            android:layout_toLeftOf="@+id/ys_btn_sousuo"
+            android:background="@drawable/shape_btn_sousuo"
+            android:ellipsize="end"
+            android:hint="@string/hitn_soosuo"
+            android:imeOptions="actionSearch"
+            android:paddingRight="20dp"
+            android:singleLine="true"
+            android:textColor="@color/background" />
+
+        <ImageButton
+            android:id="@+id/ys_btn_sousuo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/sousuo"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:layout_marginRight="10dp"
+          />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="@string/quanbu"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/text_title" />
+
+        <TextView
+            android:id="@+id/text_online"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="@string/zaixian"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/text_title" />
+
+        <TextView
+            android:id="@+id/text_outline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="@string/lixian"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/text_title" />
+
+    </LinearLayout>
+
     <android.support.v4.widget.SwipeRefreshLayout
         android:id="@+id/lay_refresh_doctor"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
         <com.gxey.remotemedicalplatform.widget.EmptyLayout
             android:id="@+id/emptyLayout_doctor"
             android:layout_width="match_parent"
@@ -83,6 +100,7 @@
             app:elEmptyLayout="@layout/layout_empty"
             app:elErrorLayout="@layout/layout_error"
             app:elLoadingLayout="@layout/layout_loading">
+
             <android.support.v7.widget.RecyclerView
                 android:id="@+id/recyclerView_doctor"
                 android:layout_width="match_parent"

@@ -32,7 +32,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.gxey.remotemedicalplatform.activity.MainActivity"
+            android:name="com.gxey.remotemedicalplatform.activity.LoginActivity"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme"
@@ -43,15 +43,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <!-- <activity -->
-        <!-- android:name=".activity.MainActivity" -->
-        <!-- android:configChanges="keyboardHidden|orientation" -->
-        <!-- android:screenOrientation="portrait" -->
-        <!--
+        <activity
+            android:name="com.gxey.remotemedicalplatform.activity.MainActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme"
-            android:windowSoftInputMode="stateHidden|stateUnchanged"
-            ></activity>
-        -->
+            android:windowSoftInputMode="stateHidden|stateUnchanged" />
         <activity
             android:name="com.gxey.remotemedicalplatform.activity.secondactivity.ActivityHeathDangAn"
             android:configChanges="keyboardHidden|orientation"

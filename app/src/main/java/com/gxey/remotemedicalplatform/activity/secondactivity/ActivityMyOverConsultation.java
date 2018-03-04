@@ -46,7 +46,7 @@ import me.iwf.photopicker.PhotoPicker;
  * 视频咨询界面
  */
 
-public class ActivityOverConsultation extends BaseActivity implements View.OnClickListener, WebRtcClient.RtcListener {
+public class ActivityMyOverConsultation extends BaseActivity implements View.OnClickListener, WebRtcClient.RtcListener {
 
     @BindView(R.id.glview_call)
     GLSurfaceView glviewCall;
@@ -93,7 +93,7 @@ public class ActivityOverConsultation extends BaseActivity implements View.OnCli
     private VideoRenderer.Callbacks localRender;
     private VideoRenderer.Callbacks remoteRender;
     public static WebRtcClient client;
-    public static ActivityOverConsultation activity;
+    public static ActivityMyOverConsultation activity;
     private String mSocketAddress;
     private String callerId;
     private List<MessageEntity> listMessage = new ArrayList<>();
@@ -146,7 +146,7 @@ public class ActivityOverConsultation extends BaseActivity implements View.OnCli
                         .setShowCamera(true)
                         .setShowGif(false)
                         .setPreviewEnabled(false)
-                        .start(ActivityOverConsultation.this, PhotoPicker.REQUEST_CODE);
+                        .start(ActivityMyOverConsultation.this, PhotoPicker.REQUEST_CODE);
             }
         });
         /**
@@ -298,7 +298,7 @@ public class ActivityOverConsultation extends BaseActivity implements View.OnCli
             JSONArray jsonArray = new JSONArray();
             jsonArray.put(mConfig.getRoomID());
             SignalaUtils.getInstance(this).sendMessage("sendLeave", jsonArray);
-            Intent intent = new Intent(ActivityOverConsultation.this, EvaluationActivity.class);
+            Intent intent = new Intent(ActivityMyOverConsultation.this, EvaluationActivity.class);
             intent.putExtra("roomID", client.getRoomID());
             intent.putExtra("doctorc", entity.getConnectionId());
             startActivity(intent);
@@ -312,10 +312,10 @@ public class ActivityOverConsultation extends BaseActivity implements View.OnCli
      */
 
     public void isendLeaveCallBack() {
-        Intent intent = new Intent(ActivityOverConsultation.this, EvaluationActivity.class);
+        Intent intent = new Intent(ActivityMyOverConsultation.this, EvaluationActivity.class);
         intent.putExtra("roomID", client.getRoomID());
         intent.putExtra("doctorc", entity.getConnectionId());
-        AndroidUtil.showToast(ActivityOverConsultation.this, "医生已经离开", 0);
+        AndroidUtil.showToast(ActivityMyOverConsultation.this, "医生已经离开", 0);
         startActivity(intent);
         finish();
     }
@@ -362,7 +362,7 @@ public class ActivityOverConsultation extends BaseActivity implements View.OnCli
                     @Override
                     public void onFail(String msg) {
 
-                        AndroidUtil.showToast(ActivityOverConsultation.this, msg, 0);
+                        AndroidUtil.showToast(ActivityMyOverConsultation.this, msg, 0);
                     }
                 });
 
@@ -388,7 +388,7 @@ public class ActivityOverConsultation extends BaseActivity implements View.OnCli
      * 通知患者退出排队
      */
     public void unAcceptMemberCallBack() {
-        AndroidUtil.showToast(ActivityOverConsultation.this, "医生通知退出排队", 0);
+        AndroidUtil.showToast(ActivityMyOverConsultation.this, "医生通知退出排队", 0);
         finish();
     }
 
