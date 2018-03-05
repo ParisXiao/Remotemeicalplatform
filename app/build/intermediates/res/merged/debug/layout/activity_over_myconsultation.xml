@@ -30,6 +30,7 @@
         android:singleLine="true"
         android:text="@string/chufangjianyi"
         android:textColor="@color/background_write"
+        android:visibility="gone"
         android:textSize="@dimen/text_title" />
 
     <TextView

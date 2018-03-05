@@ -16,6 +16,7 @@
         <item name="colorAccent">@color/colorAccent</item>
 
     </style>
+
     <style name="AppThemeGreen" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/background_green</item>
@@ -27,10 +28,14 @@
 
     <style name="AnimBottom"></style>
 
-    <style name="foodRatingBar" >
+    <style name="foodRatingBar">
         <!--指向star_rating_bar_full.xml文件 -->
         <item name="android:progressDrawable">@drawable/star_rating_bar_full</item>
 
     </style>
 
+    <style name="popupwindow_anim" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/pop_enter_anim</item>
+        <item name="android:windowExitAnimation">@anim/pop_exit_anim</item>
+    </style>
 </resources>

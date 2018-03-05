@@ -18,8 +18,8 @@ public final class R {
 		public static final int error_x_in = 0x7f050011;
 		public static final int modal_in = 0x7f050012;
 		public static final int modal_out = 0x7f050013;
-		public static final int success_bow_roate = 0x7f050018;
-		public static final int success_mask_layout = 0x7f050019;
+		public static final int success_bow_roate = 0x7f05001a;
+		public static final int success_mask_layout = 0x7f05001b;
 	}
 	public static final class attr {
 		public static final int actionBarDivider = 0x7f010043;
@@ -373,11 +373,11 @@ public final class R {
 		public static final int error_circle = 0x7f02009e;
 		public static final int gray_button_background = 0x7f0200a6;
 		public static final int ic_launcher = 0x7f0200b2;
-		public static final int red_button_background = 0x7f0200c3;
-		public static final int success_bow = 0x7f0200d1;
-		public static final int success_circle = 0x7f0200d2;
-		public static final int warning_circle = 0x7f0200dd;
-		public static final int warning_sigh = 0x7f0200de;
+		public static final int red_button_background = 0x7f0200c7;
+		public static final int success_bow = 0x7f0200d6;
+		public static final int success_circle = 0x7f0200d7;
+		public static final int warning_circle = 0x7f0200e2;
+		public static final int warning_sigh = 0x7f0200e3;
 	}
 	public static final class id {
 		public static final int action_bar = 0x7f0e0083;
@@ -487,7 +487,7 @@ public final class R {
 		public static final int abc_search_dropdown_item_icons_2line = 0x7f04001f;
 		public static final int abc_search_view = 0x7f040020;
 		public static final int alert_dialog = 0x7f040041;
-		public static final int support_simple_spinner_dropdown_item = 0x7f04007e;
+		public static final int support_simple_spinner_dropdown_item = 0x7f040080;
 	}
 	public static final class string {
 		public static final int LOADING = 0x7f070046;

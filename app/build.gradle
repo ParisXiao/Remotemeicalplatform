@@ -4,6 +4,8 @@ android {
     dataBinding {
         enabled = true
     }
+    compileSdkVersion 23
+    buildToolsVersion '23.0.1'
     defaultConfig {
         applicationId "com.gxey.remotemedicalplatform"
         minSdkVersion 15
@@ -18,8 +20,8 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-    compileSdkVersion 23
-    buildToolsVersion '23.0.1'
+
+
 
 }
 allprojects {

@@ -13,12 +13,9 @@ import android.widget.TextView;
 
 import com.donkingliang.labels.LabelsView;
 import com.gxey.remotemedicalplatform.R;
-import com.gxey.remotemedicalplatform.bean.DoctorBean;
-import com.gxey.remotemedicalplatform.inter.CustomBitmapLoadCallBack;
+import com.gxey.remotemedicalplatform.javaben.DoctorEntity;
+import com.gxey.remotemedicalplatform.utils.ImageUtils;
 import com.gxey.remotemedicalplatform.utils.MyStrUtil;
-
-import org.xutils.image.ImageOptions;
-import org.xutils.x;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -35,7 +32,7 @@ import butterknife.ButterKnife;
 public class DoctorAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> implements View.OnClickListener {
     private LayoutInflater mInflater;
     private Context context;
-    private List<DoctorBean> doctorBeen = new ArrayList<>();
+    private List<DoctorEntity> doctorBeen = new ArrayList<>();
     private static final int TYPE_ITEM = 0;
     private static final int TYPE_FOOTER = 1;
 
@@ -50,7 +47,7 @@ public class DoctorAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
     private int mLoadMoreStatus = 0;
 
 
-    public DoctorAdapter(Context context, List<DoctorBean> doctorBeen) {
+    public DoctorAdapter(Context context, List<DoctorEntity> doctorBeen) {
         this.context = context;
         this.doctorBeen = doctorBeen;
         this.mInflater = LayoutInflater.from(context);
@@ -88,31 +85,38 @@ public class DoctorAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
     public void onBindViewHolder(final RecyclerView.ViewHolder holder, final int position) {
         if (holder instanceof MyViewHolder) {
 
-            if (!MyStrUtil.isEmpty(doctorBeen.get(position).getDoctor_iocn())) {
-                ImageOptions imageOptions = new ImageOptions.Builder()
-//                .setSize(DensityUtil.dip2px(120), DensityUtil.dip2px(120))
-//                .setRadius(DensityUtil.dip2px(5))
-                        // 如果ImageView的大小不是定义为wrap_content, 不要crop.
-                        .setCrop(true)
-                        // 加载中或错误图片的ScaleType
-                        //.setPlaceholderScaleType(ImageView.ScaleType.MATRIX)
-                        .setImageScaleType(ImageView.ScaleType.CENTER_CROP)
-//                   .setLoadingDrawableId(R.mipmap.ic_launcher)
-//                  .setFailureDrawableId(R.mipmap.ic_launcher)
-                        .build();
-                x.image().bind(((MyViewHolder) holder).doctor_icon, doctorBeen.get(position).getDoctor_iocn().toString(), imageOptions, new CustomBitmapLoadCallBack(((MyViewHolder) holder).doctor_icon));
-//
+            if (!MyStrUtil.isEmpty(doctorBeen.get(position).getHeadImg())) {
+//                ImageOptions imageOptions = new ImageOptions.Builder()
+////                .setSize(DensityUtil.dip2px(120), DensityUtil.dip2px(120))
+////                .setRadius(DensityUtil.dip2px(5))
+//                        // 如果ImageView的大小不是定义为wrap_content, 不要crop.
+//                        .setCrop(true)
+//                        // 加载中或错误图片的ScaleType
+//                        //.setPlaceholderScaleType(ImageView.ScaleType.MATRIX)
+//                        .setImageScaleType(ImageView.ScaleType.CENTER_CROP)
+////                   .setLoadingDrawableId(R.mipmap.ic_launcher)
+//                  .setFailureDrawableId(R.drawable.touxiang)
+//                        .build();
+//                x.image().bind(((MyViewHolder) holder).doctor_icon, doctorBeen.get(position).getHeadImg().toString(), imageOptions, new CustomBitmapLoadCallBack(((MyViewHolder) holder).doctor_icon));
+////
+                ImageUtils.loadHeadImg(context,doctorBeen.get(position).getHeadImg(), ((MyViewHolder) holder).doctor_icon);
             } else {
                 ((MyViewHolder) holder).doctor_icon.setImageResource(R.drawable.touxiang);
             }
-            ((MyViewHolder) holder).doctor_name.setText(doctorBeen.get(position).getDoctor_name());
-            ((MyViewHolder) holder).doctor_content.setText(doctorBeen.get(position).getDoctor_content());
-            ((MyViewHolder) holder).doctor_keshi.setText(doctorBeen.get(position).getDoctor_keshi());
-            ((MyViewHolder) holder).doctor_pdrs.setText(doctorBeen.get(position).getDoctor_renshu());
-            if (!MyStrUtil.isEmpty(doctorBeen.get(position).getDoctor_labels())){
-               List<String> s= Arrays.asList(doctorBeen.get(position).getDoctor_labels().split(","));
+            ((MyViewHolder) holder).doctor_name.setText(doctorBeen.get(position).getUserName());
+            ((MyViewHolder) holder).doctor_content.setText("未知");
+            ((MyViewHolder) holder).doctor_keshi.setText(doctorBeen.get(position).getDivision());
+            if (!MyStrUtil.isEmpty(doctorBeen.get(position).getSN())){
+                ((MyViewHolder) holder).doctor_pdrs.setText(doctorBeen.get(position).getSN());
+            }else {
+                ((MyViewHolder) holder).doctor_pdrs.setText("0");
+            }
+
+            if (!MyStrUtil.isEmpty(doctorBeen.get(position).getPosition())){
+               List<String> s= Arrays.asList(doctorBeen.get(position).getPosition().split(","));
                 ArrayList<String> labels=new ArrayList<>();
-                for (int i = 0; i < 2; i++) {
+                int size=labels.size()>1?2:labels.size();
+                for (int i = 0; i < size; i++) {
                     labels.add(s.get(i));
                 }
                 ((MyViewHolder) holder).doctor_labels.setLabels(labels);
@@ -164,12 +168,12 @@ public class DoctorAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
         }
     }
 
-    public void AddHeaderItem(List<DoctorBean> items) {
+    public void AddHeaderItem(List<DoctorEntity> items) {
         doctorBeen.addAll(0, items);
         notifyDataSetChanged();
     }
 
-    public void AddFooterItem(List<DoctorBean> items) {
+    public void AddFooterItem(List<DoctorEntity> items) {
         doctorBeen.addAll(items);
         notifyDataSetChanged();
     }
@@ -203,6 +207,8 @@ public class DoctorAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
             doctor_pdrs = (TextView) itemView.findViewById(R.id.doctor_pdrs);
             doctor_ljsq = (Button) itemView.findViewById(R.id.doctor_ljsq);
             doctor_labels = (LabelsView) itemView.findViewById(R.id.doctor_labels);
+            itemView.setOnClickListener(DoctorAdapter.this);
+            doctor_ljsq.setOnClickListener(DoctorAdapter.this);
         }
 
     }

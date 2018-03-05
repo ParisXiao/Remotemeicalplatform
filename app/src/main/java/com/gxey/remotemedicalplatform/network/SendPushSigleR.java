@@ -7,7 +7,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 
 import com.gxey.remotemedicalplatform.activity.LoginActivity;
-import com.gxey.remotemedicalplatform.activity.OverConsultationActivity;
+import com.gxey.remotemedicalplatform.activity.secondactivity.ActivityMyOverConsultation;
 import com.gxey.remotemedicalplatform.javaben.DoctorEntity;
 import com.gxey.remotemedicalplatform.model.LocationConfig;
 import com.gxey.remotemedicalplatform.utils.ActivityStack;
@@ -33,7 +33,7 @@ public class SendPushSigleR {
 
     private Context context;
     public static final List<DoctorEntity> list = new ArrayList<>();
-    public SendPushSigleR(Context context) {
+    public  SendPushSigleR(Context context) {
         this.context = context.getApplicationContext();
         initDoctorList();
 
@@ -110,8 +110,8 @@ public class SendPushSigleR {
 
             @Override
             public void OnReceived(JSONArray args) {
-                if(OverConsultationActivity.client!=null){
-                    OverConsultationActivity.client.receivSignal(args);
+                if(ActivityMyOverConsultation.client!=null){
+                    ActivityMyOverConsultation.client.receivSignal(args);
                 }
 
 
@@ -122,8 +122,8 @@ public class SendPushSigleR {
 
             @Override
             public void OnReceived(JSONArray args) {
-                if(OverConsultationActivity.activity!=null){
-                    OverConsultationActivity.activity.getMessage(args);
+                if(ActivityMyOverConsultation.activity!=null){
+                    ActivityMyOverConsultation.activity.getMessage(args);
                 }
 
 
@@ -137,8 +137,8 @@ public class SendPushSigleR {
 
             @Override
             public void OnReceived(JSONArray args) {
-                if(OverConsultationActivity.activity!=null){
-                    OverConsultationActivity.activity.getMessage(args);
+                if(ActivityMyOverConsultation.activity!=null){
+                    ActivityMyOverConsultation.activity.getMessage(args);
                 }
 
 
@@ -150,8 +150,8 @@ public class SendPushSigleR {
 
             @Override
             public void OnReceived(JSONArray args) {
-                if(OverConsultationActivity.activity!=null){
-                    OverConsultationActivity.activity.acceptMemberCallBack();
+                if(ActivityMyOverConsultation.activity!=null){
+                    ActivityMyOverConsultation.activity.acceptMemberCallBack();
                 }
 
 
@@ -162,8 +162,8 @@ public class SendPushSigleR {
 
             @Override
             public void OnReceived(JSONArray args) {
-                if(OverConsultationActivity.activity!=null){
-                    OverConsultationActivity.activity.isendLeaveCallBack();
+                if(ActivityMyOverConsultation.activity!=null){
+                    ActivityMyOverConsultation.activity.isendLeaveCallBack();
                 }
 
 
@@ -174,8 +174,8 @@ public class SendPushSigleR {
 
             @Override
             public void OnReceived(JSONArray args) {
-                if(OverConsultationActivity.activity!=null){
-                    OverConsultationActivity.activity.unAcceptMemberCallBack();
+                if(ActivityMyOverConsultation.activity!=null){
+                    ActivityMyOverConsultation.activity.unAcceptMemberCallBack();
                 }
 
 
@@ -186,8 +186,8 @@ public class SendPushSigleR {
 
             @Override
             public void OnReceived(JSONArray args) {
-                if(OverConsultationActivity.activity!=null){
-                    OverConsultationActivity.activity.sendCaseDualCallBack();
+                if(ActivityMyOverConsultation.activity!=null){
+                    ActivityMyOverConsultation.activity.sendCaseDualCallBack();
                 }
 
 
@@ -201,7 +201,7 @@ public class SendPushSigleR {
                     try {
                         JSONObject jsonObject =  args.getJSONObject(0);
                         String connectionId =jsonObject.getString("ConnectionId");
-                        OverConsultationActivity.activity.initSDP(connectionId);
+                        ActivityMyOverConsultation.activity.initSDP(connectionId);
 
                     } catch (JSONException e) {
                         e.printStackTrace();

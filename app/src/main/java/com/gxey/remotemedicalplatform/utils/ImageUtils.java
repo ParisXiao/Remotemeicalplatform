@@ -6,6 +6,7 @@ import android.graphics.BitmapFactory;
 import android.text.TextUtils;
 import android.widget.ImageView;
 
+import com.gxey.remotemedicalplatform.R;
 import com.makeramen.roundedimageview.RoundedImageView;
 import com.squareup.picasso.Picasso;
 
@@ -25,12 +26,19 @@ public class ImageUtils {
                 .into(imageView);
     }
 
+    public static void loadHeadImg(Context context, String url, ImageView imageView) {
+        Picasso.with(context)
+                .load(url)
+                .placeholder(R.drawable.touxiang)
+                .error(R.drawable.touxiang)
+                .into(imageView);
+    }
 
     /**
      * 按比例缩小图片的像素以达到压缩的目的
      *
-     * @author JPH
      * @param imgPath
+     * @author JPH
      * @date 2014-12-5下午11:30:59
      */
     public static String compressImageByPixel(String imgPath) {
@@ -53,7 +61,7 @@ public class ImageUtils {
         newOpts.inPurgeable = true;// 同时设置才会有效
         newOpts.inInputShareable = true;// 。当系统内存不够时候图片自动被回收
         bitmap = BitmapFactory.decodeFile(imgPath, newOpts);
-        String path = JFileHelper.getSDCardPath()+"/temp.jpg";
+        String path = JFileHelper.getSDCardPath() + "/temp.jpg";
         return compressImageByQuality(bitmap, path);// 压缩好比例大小后再进行质量压缩
     }
 
@@ -61,11 +69,9 @@ public class ImageUtils {
     /**
      * 多线程压缩图片的质量
      *
+     * @param bitmap  内存中的图片
+     * @param imgPath 图片的保存路径
      * @author JPH
-     * @param bitmap
-     *            内存中的图片
-     * @param imgPath
-     *            图片的保存路径
      * @date 2014-12-5下午11:30:43
      */
     public static String compressImageByQuality(final Bitmap bitmap,
@@ -99,16 +105,16 @@ public class ImageUtils {
     }
 
 
-    public static void setImageBitmapUrl(Context context,RoundedImageView iv, String url) {
-        if(!TextUtils.isEmpty(url)){
-            Picasso.with(context).load(url).resize(iv.getLayoutParams().width,iv.getLayoutParams().height).into(iv);
+    public static void setImageBitmapUrl(Context context, RoundedImageView iv, String url) {
+        if (!TextUtils.isEmpty(url)) {
+            Picasso.with(context).load(url).resize(iv.getLayoutParams().width, iv.getLayoutParams().height).into(iv);
         }
 
     }
 
-    public static void setImageBitmapUrl(Context context,ImageView iv, String url) {
-        if(!TextUtils.isEmpty(url)){
-            Picasso.with(context).load(url).resize(iv.getLayoutParams().width,iv.getLayoutParams().height).into(iv);
+    public static void setImageBitmapUrl(Context context, ImageView iv, String url) {
+        if (!TextUtils.isEmpty(url)) {
+            Picasso.with(context).load(url).resize(iv.getLayoutParams().width, iv.getLayoutParams().height).into(iv);
         }
     }
 

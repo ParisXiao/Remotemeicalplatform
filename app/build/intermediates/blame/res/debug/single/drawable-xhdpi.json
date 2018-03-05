@@ -1,347 +1,215 @@
 [
     {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\changbeiyao.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\changbeiyao.png"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\guaduan.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\guaduan.png"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_icon_dark_focused.9.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_icon_dark_focused.9.png"
+    },
+    {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_icon_light_disabled.9.png",
         "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_icon_light_disabled.9.png"
     },
     {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_text_light_normal.9.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_text_light_normal.9.png"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\dianzibingli_menu.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\dianzibingli_menu.png"
     },
     {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_icon_dark_focused.9.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_icon_dark_focused.9.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\dianzibingli_menu.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\dianzibingli_menu.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\jiantou_bai.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\src\\main\\res\\drawable-xhdpi\\jiantou_bai.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\xiaoxi_sy.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\xiaoxi_sy.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ziliao.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\ziliao.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\yizhu_sy.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\yizhu_sy.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\jiazhushi.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\src\\main\\res\\drawable-xhdpi\\jiazhushi.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\jiankangbaogao_sy.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\src\\main\\res\\drawable-xhdpi\\jiankangbaogao_sy.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\menzhenbingli.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\src\\main\\res\\drawable-xhdpi\\menzhenbingli.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_icon_light_disabled.9.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_icon_light_disabled.9.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\touxiang.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\touxiang.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\qianjin.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\qianjin.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\dianzibingli.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\dianzibingli.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_icon_dark_disabled.9.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_icon_dark_disabled.9.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\fanhui.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\fanhui.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\jiankangdanan.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\jiankangdanan.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\jiankangbaogao.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\jiankangbaogao.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_text_dark_focused.9.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_text_dark_focused.9.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_icon_light_pressed.9.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_icon_light_pressed.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_text_dark_disabled.9.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_text_dark_disabled.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\liaotian.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\liaotian.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_icon_dark_normal.9.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_icon_dark_normal.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\fankui.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\src\\main\\res\\drawable-xhdpi\\fankui.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_icon_light_normal.9.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_icon_light_normal.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\jietu.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\jietu.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\logo_sy.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\logo_sy.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\jietu.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\jietu.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_text_light_normal.9.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_text_light_normal.9.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_text_light_focused.9.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_text_light_focused.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_text_dark_focused.9.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_text_dark_focused.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_icon_light_disabled.9.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_icon_light_disabled.9.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_text_dark_normal.9.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_text_dark_normal.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_text_dark_disabled.9.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_text_dark_disabled.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_icon_light_pressed.9.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_icon_light_pressed.9.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_text_dark_focused.9.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_text_dark_focused.9.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\yongyaojianyi_sy.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\yongyaojianyi_sy.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\jiebnxixni.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\jiebnxixni.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_icon_dark_focused.9.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_icon_dark_focused.9.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_icon_light_normal.9.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_icon_light_normal.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\quanzi.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\src\\main\\res\\drawable-xhdpi\\quanzi.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_text_dark_normal.9.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_text_dark_normal.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\liaotian.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\src\\main\\res\\drawable-xhdpi\\liaotian.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_icon_light_normal.9.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_icon_light_normal.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_text_dark_pressed.9.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_text_dark_pressed.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\gengduo.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\src\\main\\res\\drawable-xhdpi\\gengduo.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_text_light_pressed.9.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_text_light_pressed.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\guanggao_one.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\src\\main\\res\\drawable-xhdpi\\guanggao_one.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_icon_dark_pressed.9.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_icon_dark_pressed.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\dingdan.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\dingdan.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\gaunggao_two.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\gaunggao_two.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_text_dark_disabled.9.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_text_dark_disabled.9.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\dianzibingli.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\dianzibingli.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_text_dark_focused.9.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_text_dark_focused.9.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\xianguanyiyanbingli.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\xianguanyiyanbingli.png"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_text_dark_focused.9.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_text_dark_focused.9.png"
     },
     {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\xiangguanyiyuanyizhu.png",
         "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\xiangguanyiyuanyizhu.png"
     },
     {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\yongyaojianyi_sy.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\src\\main\\res\\drawable-xhdpi\\yongyaojianyi_sy.png"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_text_dark_disabled.9.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_text_dark_disabled.9.png"
     },
     {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_icon_dark_disabled.9.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_icon_dark_disabled.9.png"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\xiaoguo_you.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\xiaoguo_you.png"
     },
     {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\quanzi.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\quanzi.png"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\touxiang.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\touxiang.png"
     },
     {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\sousuo.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\sousuo.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\xiaoxi.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\src\\main\\res\\drawable-xhdpi\\xiaoxi.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_icon_dark_focused.9.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_icon_dark_focused.9.png"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\xiaoxi_sy.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\xiaoxi_sy.png"
     },
     {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\jiebnxixni.png",
         "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\jiebnxixni.png"
     },
     {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\jiankangbaogao.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\jiankangbaogao.png"
+    },
+    {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\yuanchengzhenliao.png",
         "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\yuanchengzhenliao.png"
     },
     {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\jiantou_bai.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\jiantou_bai.png"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\yizhu_sy.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\yizhu_sy.png"
     },
     {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\jiwangshi.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\jiwangshi.png"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_text_light_normal.9.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_text_light_normal.9.png"
     },
     {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\menzhenbingli.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\menzhenbingli.png"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_text_light_disabled.9.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_text_light_disabled.9.png"
     },
     {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\fasong.png",
         "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\fasong.png"
     },
     {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\guaduan.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\guaduan.png"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\xiaoguo_zuo.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\xiaoguo_zuo.png"
     },
     {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\jiazhushi.png",
         "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\jiazhushi.png"
     },
     {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\dianzibingli.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\dianzibingli.png"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\quanzi.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\quanzi.png"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_icon_light_focused.9.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_icon_light_focused.9.png"
+    },
+    {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_text_light_pressed.9.png",
         "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_text_light_pressed.9.png"
     },
     {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_text_light_pressed.9.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_text_light_pressed.9.png"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\fenzhenzhaunzhen.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\fenzhenzhaunzhen.png"
     },
     {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_icon_dark_normal.9.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_icon_dark_normal.9.png"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\gaunggao_two.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\gaunggao_two.png"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_text_dark_focused.9.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_text_dark_focused.9.png"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\jiankangdanan.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\jiankangdanan.png"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_text_light_pressed.9.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_text_light_pressed.9.png"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\pop_touxiang.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\pop_touxiang.png"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_text_dark_disabled.9.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_text_dark_disabled.9.png"
     },
     {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\xianguanyiyanbingli.png",
         "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\xianguanyiyanbingli.png"
     },
     {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_text_dark_pressed.9.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_text_dark_pressed.9.png"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_icon_light_normal.9.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_icon_light_normal.9.png"
     },
     {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\logo_sy.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\src\\main\\res\\drawable-xhdpi\\logo_sy.png"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\liaotian.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\liaotian.png"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\guanyuwomen.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\guanyuwomen.png"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\fanhui.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\fanhui.png"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\jietu.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\jietu.png"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_full_open_on_phone.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_full_open_on_phone.png"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\logo_sy.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\logo_sy.png"
     },
     {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_icon_light_focused.9.png",
         "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_icon_light_focused.9.png"
     },
     {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\guanbi.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\guanbi.png"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\sandiangouyao_sy.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\sandiangouyao_sy.png"
     },
     {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\sousuo.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\src\\main\\res\\drawable-xhdpi\\sousuo.png"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_text_light_normal.9.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_text_light_normal.9.png"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\yongyaozixun.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\yongyaozixun.png"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_icon_dark_normal.9.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_icon_dark_normal.9.png"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_icon_light_disabled.9.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_icon_light_disabled.9.png"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\yizhu.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\yizhu.png"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_text_light_focused.9.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_text_light_focused.9.png"
     },
     {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\guominshi.png",
         "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\guominshi.png"
     },
     {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_text_light_normal.9.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_text_light_normal.9.png"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\tupian.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\tupian.png"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\guanbi.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\guanbi.png"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_text_dark_pressed.9.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_text_dark_pressed.9.png"
     },
     {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\tijianshuju.png",
         "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\tijianshuju.png"
     },
     {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\yongyaozixun.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\src\\main\\res\\drawable-xhdpi\\yongyaozixun.png"
-    },
-    {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_icon_dark_disabled.9.png",
         "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_icon_dark_disabled.9.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\dingdan.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\dingdan.png"
     },
     {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_text_light_focused.9.png",
@@ -352,32 +220,32 @@
         "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\zhenliaojilu_sy.png"
     },
     {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_text_light_pressed.9.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_text_light_pressed.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\guaduan.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\src\\main\\res\\drawable-xhdpi\\guaduan.png"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_icon_dark_disabled.9.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_icon_dark_disabled.9.png"
     },
     {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_icon_light_normal.9.png",
         "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_icon_light_normal.9.png"
     },
     {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_full_open_on_phone.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_full_open_on_phone.png"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\jiantou_bai.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\jiantou_bai.png"
     },
     {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\gengduo.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\gengduo.png"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\canjiqingkuang.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\canjiqingkuang.png"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_icon_dark_normal.9.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_icon_dark_normal.9.png"
     },
     {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\zhenliaojilu.png",
         "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\zhenliaojilu.png"
     },
     {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\changbeiyao.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\changbeiyao.png"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\jiwangshi.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\jiwangshi.png"
     },
     {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\xiaoxi.png",
@@ -388,8 +256,12 @@
         "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_icon_dark_pressed.9.png"
     },
     {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\yizhu_sy.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\src\\main\\res\\drawable-xhdpi\\yizhu_sy.png"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_icon_dark_focused.9.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_icon_dark_focused.9.png"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\qianjin.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\qianjin.png"
     },
     {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\tijianshuju_sy.png",
@@ -404,580 +276,24 @@
         "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\shipinwenzhen_sy.png"
     },
     {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\pop_guanbi.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\pop_guanbi.png"
+    },
+    {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\yongyaojianyi_sy.png",
         "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\yongyaojianyi_sy.png"
     },
     {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_text_light_disabled.9.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_text_light_disabled.9.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\xiaoguo_zuo.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\xiaoguo_zuo.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_icon_dark_pressed.9.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_icon_dark_pressed.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\dianzibingli_sy.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\dianzibingli_sy.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\yuanchengzhenliao.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\yuanchengzhenliao.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_icon_light_focused.9.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_icon_light_focused.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_icon_light_pressed.9.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_icon_light_pressed.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\bangzhu.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\bangzhu.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_icon_light_disabled.9.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_icon_light_disabled.9.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_text_light_normal.9.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_text_light_normal.9.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_text_light_disabled.9.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_text_light_disabled.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\fankui.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\fankui.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\sousuo.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\sousuo.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\guanyuwomen.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\guanyuwomen.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\menzhenbingli.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\menzhenbingli.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_icon_light_disabled.9.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_icon_light_disabled.9.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_text_light_pressed.9.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_text_light_pressed.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\tijianshuju_sy.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\src\\main\\res\\drawable-xhdpi\\tijianshuju_sy.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\jietu.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\src\\main\\res\\drawable-xhdpi\\jietu.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_text_dark_normal.9.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_text_dark_normal.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\guaduan.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\guaduan.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\liaotian.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\liaotian.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\shipinwenzhen_sy.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\src\\main\\res\\drawable-xhdpi\\shipinwenzhen_sy.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\jiwangshi.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\src\\main\\res\\drawable-xhdpi\\jiwangshi.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_icon_dark_focused.9.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_icon_dark_focused.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_text_dark_normal.9.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_text_dark_normal.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\guanbi.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\src\\main\\res\\drawable-xhdpi\\guanbi.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\guanggao_one.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\guanggao_one.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\yichuanshi.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\src\\main\\res\\drawable-xhdpi\\yichuanshi.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\bangzhu.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\src\\main\\res\\drawable-xhdpi\\bangzhu.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_text_dark_focused.9.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_text_dark_focused.9.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\shenghuohuanjing.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\shenghuohuanjing.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_text_dark_disabled.9.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_text_dark_disabled.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\xiaoguo_you.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\xiaoguo_you.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_text_dark_normal.9.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_text_dark_normal.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\touxiang.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\touxiang.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\zhenliaojilu_sy.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\zhenliaojilu_sy.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\jiankangbaogao.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\jiankangbaogao.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_text_light_normal.9.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_text_light_normal.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_text_light_disabled.9.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_text_light_disabled.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\xianguanyiyanbingli.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\src\\main\\res\\drawable-xhdpi\\xianguanyiyanbingli.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\tijianshuju.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\src\\main\\res\\drawable-xhdpi\\tijianshuju.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_icon_light_disabled.9.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_icon_light_disabled.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_icon_light_pressed.9.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_icon_light_pressed.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\gaunggao_two.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\gaunggao_two.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\tijianshuju_sy.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\tijianshuju_sy.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_icon_light_normal.9.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_icon_light_normal.9.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\guominshi.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\guominshi.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\fanhui.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\fanhui.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_full_open_on_phone.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_full_open_on_phone.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_text_dark_focused.9.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_text_dark_focused.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\sandiangouyao_sy.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\sandiangouyao_sy.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\xiaoguo_you.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\xiaoguo_you.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\yongyaozixun.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\yongyaozixun.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\dianzibingli_sy.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\src\\main\\res\\drawable-xhdpi\\dianzibingli_sy.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\yizhu.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\yizhu.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\touxiang.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\src\\main\\res\\drawable-xhdpi\\touxiang.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\gaunggao_two.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\src\\main\\res\\drawable-xhdpi\\gaunggao_two.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_icon_light_focused.9.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_icon_light_focused.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_text_dark_pressed.9.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_text_dark_pressed.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\guanbi.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\guanbi.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_icon_dark_disabled.9.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_icon_dark_disabled.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_text_light_focused.9.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_text_light_focused.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_icon_dark_focused.9.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_icon_dark_focused.9.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_text_light_disabled.9.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_text_light_disabled.9.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\xiaoxi.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\xiaoxi.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\zhenliaojilu_sy.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\src\\main\\res\\drawable-xhdpi\\zhenliaojilu_sy.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\canjiqingkuang.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\canjiqingkuang.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\tupian.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\tupian.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\shipinwenzhen_sy.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\shipinwenzhen_sy.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_text_dark_pressed.9.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_text_dark_pressed.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\qianjin.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\qianjin.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\yizhu_sy.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\yizhu_sy.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\fankui.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\fankui.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\jiankangbaogao_sy.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\jiankangbaogao_sy.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\fasong.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\src\\main\\res\\drawable-xhdpi\\fasong.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_text_light_focused.9.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_text_light_focused.9.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_icon_dark_normal.9.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_icon_dark_normal.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_icon_dark_disabled.9.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_icon_dark_disabled.9.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\fenzhenzhaunzhen.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\fenzhenzhaunzhen.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_icon_light_focused.9.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_icon_light_focused.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\fanhui.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\src\\main\\res\\drawable-xhdpi\\fanhui.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\dingdan.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\src\\main\\res\\drawable-xhdpi\\dingdan.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\zhenliaojilu.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\src\\main\\res\\drawable-xhdpi\\zhenliaojilu.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\gengduo.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\gengduo.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\logo_sy.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\logo_sy.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_text_dark_pressed.9.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_text_dark_pressed.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\changbeiyao.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\changbeiyao.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_text_dark_normal.9.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_text_dark_normal.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\dianzibingli_menu.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\dianzibingli_menu.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\zhenliaojilu.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\zhenliaojilu.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\jiebnxixni.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\src\\main\\res\\drawable-xhdpi\\jiebnxixni.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\tijianshuju.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\tijianshuju.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\xiangguanyiyuanyizhu.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\src\\main\\res\\drawable-xhdpi\\xiangguanyiyuanyizhu.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\dianzibingli.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\src\\main\\res\\drawable-xhdpi\\dianzibingli.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\yuanchengzhenliao.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\src\\main\\res\\drawable-xhdpi\\yuanchengzhenliao.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\guominshi.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\src\\main\\res\\drawable-xhdpi\\guominshi.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_text_light_disabled.9.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_text_light_disabled.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\qianjin.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\src\\main\\res\\drawable-xhdpi\\qianjin.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\tupian.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\src\\main\\res\\drawable-xhdpi\\tupian.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\dianzibingli_menu.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\src\\main\\res\\drawable-xhdpi\\dianzibingli_menu.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\xiaoguo_zuo.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\xiaoguo_zuo.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ziliao.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\src\\main\\res\\drawable-xhdpi\\ziliao.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\quanzi.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\quanzi.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_icon_light_focused.9.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_icon_light_focused.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\canjiqingkuang.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\src\\main\\res\\drawable-xhdpi\\canjiqingkuang.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_icon_dark_normal.9.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_icon_dark_normal.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_full_open_on_phone.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_full_open_on_phone.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_icon_light_focused.9.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_icon_light_focused.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\fenzhenzhaunzhen.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\fenzhenzhaunzhen.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\jiankangdanan.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\jiankangdanan.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_text_light_pressed.9.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_text_light_pressed.9.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\jiankangbaogao_sy.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\jiankangbaogao_sy.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\xiaoguo_you.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\src\\main\\res\\drawable-xhdpi\\xiaoguo_you.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_text_light_focused.9.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_text_light_focused.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\guanyuwomen.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\guanyuwomen.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\fasong.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\fasong.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_icon_light_pressed.9.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_icon_light_pressed.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\fenzhenzhaunzhen.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\src\\main\\res\\drawable-xhdpi\\fenzhenzhaunzhen.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_icon_light_normal.9.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_icon_light_normal.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_icon_dark_normal.9.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_icon_dark_normal.9.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\bangzhu.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\bangzhu.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_text_light_focused.9.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_text_light_focused.9.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\yichuanshi.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\yichuanshi.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_text_light_normal.9.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_text_light_normal.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\tupian.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\tupian.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\canjiqingkuang.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\canjiqingkuang.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\guanyuwomen.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\src\\main\\res\\drawable-xhdpi\\guanyuwomen.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\yizhu.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\yizhu.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_icon_dark_disabled.9.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_icon_dark_disabled.9.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_icon_dark_focused.9.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_icon_dark_focused.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\sandiangouyao_sy.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\src\\main\\res\\drawable-xhdpi\\sandiangouyao_sy.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\jiantou_bai.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\jiantou_bai.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\shenghuohuanjing.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\src\\main\\res\\drawable-xhdpi\\shenghuohuanjing.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_icon_dark_normal.9.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_icon_dark_normal.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\changbeiyao.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\src\\main\\res\\drawable-xhdpi\\changbeiyao.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\jiwangshi.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\jiwangshi.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_icon_dark_pressed.9.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_icon_dark_pressed.9.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\xiaoxi_sy.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\xiaoxi_sy.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\jiankangdanan.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\src\\main\\res\\drawable-xhdpi\\jiankangdanan.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\sandiangouyao_sy.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\sandiangouyao_sy.png"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_text_dark_normal.9.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_text_dark_normal.9.png"
     },
     {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ziliao.png",
         "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\ziliao.png"
     },
     {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_icon_dark_pressed.9.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_icon_dark_pressed.9.png"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\jiankangbaogao_sy.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\jiankangbaogao_sy.png"
     },
     {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_text_dark_pressed.9.png",
@@ -988,59 +304,55 @@
         "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\yichuanshi.png"
     },
     {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_icon_dark_pressed.9.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_icon_dark_pressed.9.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_text_dark_disabled.9.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_text_dark_disabled.9.png"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\dianzibingli_sy.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\dianzibingli_sy.png"
     },
     {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\shenghuohuanjing.png",
         "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\shenghuohuanjing.png"
     },
     {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_icon_light_pressed.9.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_icon_light_pressed.9.png"
+    },
+    {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_text_light_disabled.9.png",
         "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_text_light_disabled.9.png"
     },
     {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\jiazhushi.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\jiazhushi.png"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_icon_dark_pressed.9.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_icon_dark_pressed.9.png"
     },
     {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\yizhu.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\src\\main\\res\\drawable-xhdpi\\yizhu.png"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\bangzhu.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\bangzhu.png"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\gengduo.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\gengduo.png"
     },
     {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_google_signin_btn_icon_light_pressed.9.png",
         "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_google_signin_btn_icon_light_pressed.9.png"
     },
     {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\xiaoguo_zuo.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\src\\main\\res\\drawable-xhdpi\\xiaoguo_zuo.png"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\dingdan.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\dingdan.png"
     },
     {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\xiangguanyiyuanyizhu.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\xiangguanyiyuanyizhu.png"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\fankui.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\fankui.png"
     },
     {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\dianzibingli_sy.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\dianzibingli_sy.png"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\sousuo.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\sousuo.png"
     },
     {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_text_dark_disabled.9.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_text_dark_disabled.9.png"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\menzhenbingli.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\menzhenbingli.png"
     },
     {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\xiaoxi_sy.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\src\\main\\res\\drawable-xhdpi\\xiaoxi_sy.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\yongyaozixun.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xhdpi\\yongyaozixun.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\jiankangbaogao.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform-master\\app\\src\\main\\res\\drawable-xhdpi\\jiankangbaogao.png"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_text_dark_normal.9.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-xhdpi\\common_plus_signin_btn_text_dark_normal.9.png"
     }
 ]

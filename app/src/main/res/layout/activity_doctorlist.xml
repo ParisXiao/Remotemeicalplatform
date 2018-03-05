@@ -29,7 +29,7 @@
             android:imeOptions="actionSearch"
             android:paddingRight="20dp"
             android:singleLine="true"
-            android:textColor="@color/background" />
+            android:textColor="@color/text_black" />
 
         <ImageButton
             android:id="@+id/ys_btn_sousuo"

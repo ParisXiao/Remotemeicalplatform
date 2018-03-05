@@ -6,15 +6,30 @@
     android:background="@color/white"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/margin"
+        android:id="@+id/linear_head"
+        >
+        <com.makeramen.roundedimageview.RoundedImageView
+            app:riv_oval="true"
+            android:id="@+id/doc_img"
+            android:src="@drawable/touxiang"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/send_name"
+            android:text="@string/xiaoxi"
+            />
+    </LinearLayout>
 
-    <com.makeramen.roundedimageview.RoundedImageView
-        app:riv_oval="true"
-        android:id="@+id/doc_img"
-        android:layout_marginLeft="20dp"
-        android:src="@mipmap/ic_launcher"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        />
 
     <ImageView
         android:src="@mipmap/ic_launcher"

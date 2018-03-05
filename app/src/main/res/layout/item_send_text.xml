@@ -7,15 +7,29 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_alignParentRight="true"
+    android:layout_marginRight="@dimen/margin"
+    android:id="@+id/linear_head"
+    >
     <com.makeramen.roundedimageview.RoundedImageView
-        android:layout_marginRight="20dp"
         app:riv_oval="true"
         android:id="@+id/doc_img"
-        android:layout_alignParentRight="true"
-        android:src="@mipmap/ic_launcher"
+        android:src="@drawable/touxiang"
         android:layout_width="40dp"
         android:layout_height="40dp"
         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/send_name"
+        android:text="@string/xiaoxi"
+        />
+</LinearLayout>
 
     <TextView
         android:layout_marginLeft="10dp"
@@ -27,10 +41,10 @@
         android:paddingBottom="5dp"
         android:paddingRight="5dp"
         android:layout_centerVertical="true"
-        android:background="@mipmap/myy_send_me"
+        android:background="@drawable/liaotiankaung"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/tv_content"
-        android:layout_toLeftOf="@+id/doc_img"
-        android:layout_toStartOf="@+id/doc_img" />
+        android:layout_toLeftOf="@+id/linear_head"
+        android:layout_toStartOf="@+id/linear_head" />
 </RelativeLayout>

@@ -3,20 +3,26 @@ package com.gxey.remotemedicalplatform.activity.secondactivity;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
+import android.graphics.Color;
 import android.graphics.Point;
+import android.graphics.drawable.ColorDrawable;
 import android.media.AudioManager;
 import android.opengl.GLSurfaceView;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.ListView;
+import android.widget.PopupWindow;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.gxey.remotemedicalplatform.R;
 import com.gxey.remotemedicalplatform.activity.BaseActivity;
 import com.gxey.remotemedicalplatform.activity.EvaluationActivity;
+import com.gxey.remotemedicalplatform.adapter.MessageAdapter;
 import com.gxey.remotemedicalplatform.javaben.DoctorEntity;
 import com.gxey.remotemedicalplatform.javaben.MessageEntity;
 import com.gxey.remotemedicalplatform.network.HttpSubseiber;
@@ -40,6 +46,8 @@ import fr.pchab.webrtcclient.PeerConnectionParameters;
 import fr.pchab.webrtcclient.SignalaUtils;
 import fr.pchab.webrtcclient.WebRtcClient;
 import me.iwf.photopicker.PhotoPicker;
+
+import static android.view.Gravity.TOP;
 
 /**
  * Created by xusongsong on 2016/12/26.
@@ -97,6 +105,7 @@ public class ActivityMyOverConsultation extends BaseActivity implements View.OnC
     private String mSocketAddress;
     private String callerId;
     private List<MessageEntity> listMessage = new ArrayList<>();
+    private MessageAdapter messageAdapter;
 
     @Override
     protected int getLayoutId() {
@@ -169,6 +178,47 @@ public class ActivityMyOverConsultation extends BaseActivity implements View.OnC
         activity = this;
     }
 
+    private void initPopupWindow(View v) {
+// 用于PopupWindow的View
+        View contentView = LayoutInflater.from(this).inflate(R.layout.layout_popup_msg, null, false);
+        // 创建PopupWindow对象，其中：
+        // 第一个参数是用于PopupWindow中的View，第二个参数是PopupWindow的宽度，
+        // 第三个参数是PopupWindow的高度，第四个参数指定PopupWindow能否获得焦点
+        final PopupWindow window = new PopupWindow(contentView, contentView.getWidth(), contentView.getHeight(), true);
+        // 设置PopupWindow的背景
+        window.setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+        // 设置PopupWindow是否能响应外部点击事件
+        window.setOutsideTouchable(true);
+        window.setAnimationStyle(R.style.popupwindow_anim);
+        // 设置PopupWindow是否能响应点击事件
+        window.setTouchable(true);
+        ImageView exit;
+        final ListView msglist;
+        exit = (ImageView) contentView.findViewById(R.id.popup_exit);
+        msglist = (ListView) contentView.findViewById(R.id.popup_listview);
+        exit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                window.dismiss();
+            }
+        });
+        messageAdapter = new MessageAdapter(listMessage, this);
+        msglist.setAdapter(messageAdapter);
+        msglist.post(new Runnable() {
+            @Override
+            public void run() {
+                msglist.setSelection(messageAdapter.getCount() - 1);
+            }
+        });
+        // 显示PopupWindow，其中：
+        // 第一个参数是PopupWindow的锚点，第二和第三个参数分别是PopupWindow相对锚点的x、y偏移
+//        window.showAsDropDown(reLiaotian);
+        // 或者也可以调用此方法显示PopupWindow，其中：
+        // 第一个参数是PopupWindow的父View，第二个参数是PopupWindow相对父View的位置，
+        // 第三和第四个参数分别是PopupWindow相对父View的x、y偏移
+        window.showAtLocation(reLiaotian, TOP, 0, 0);
+
+    }
 
     private void initVideo() {
         glviewCall.setPreserveEGLContextOnPause(true);
@@ -393,9 +443,9 @@ public class ActivityMyOverConsultation extends BaseActivity implements View.OnC
     }
 
 
-//    public void sendCaseDualCallBack() {
-//        mTVPrescription.setVisibility(View.VISIBLE);
-//    }
+        public void sendCaseDualCallBack() {
+        GLTextMid.setVisibility(View.VISIBLE);
+    }
 
     public void initSDP(String connectionId) {
         client.initOffe(connectionId);

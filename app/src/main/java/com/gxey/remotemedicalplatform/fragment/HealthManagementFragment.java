@@ -1,9 +1,6 @@
 package com.gxey.remotemedicalplatform.fragment;
 
-import android.content.BroadcastReceiver;
-import android.content.Context;
 import android.content.Intent;
-import android.content.IntentFilter;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -16,8 +13,6 @@ import com.gxey.remotemedicalplatform.activity.secondactivity.ActivityDoctorList
 import com.gxey.remotemedicalplatform.activity.secondactivity.ActivityFenZhen;
 import com.gxey.remotemedicalplatform.activity.secondactivity.ActivityHeathDangAn;
 import com.gxey.remotemedicalplatform.activity.secondactivity.ActivityHeathDianZi;
-import com.gxey.remotemedicalplatform.javaben.DoctorEntity;
-import com.gxey.remotemedicalplatform.network.SendPushSigleR;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -85,16 +80,16 @@ public class HealthManagementFragment extends BaseFragment implements View.OnCli
     protected void initView(View view) {
 //        jiankang = (TextView)view.findViewById(R.id.jiankang);
         init();
-        regDoctorList();
+//        regDoctorList();
     }
 
-    private MyBroadCastReceiver myBroadCastReceiver;
-
-    private void regDoctorList() {
-        myBroadCastReceiver = new MyBroadCastReceiver();
-        IntentFilter intentFilter = new IntentFilter(SendPushSigleR.DOCTORLISTCHEOSE);
-        getActivity().registerReceiver(myBroadCastReceiver, intentFilter);
-    }
+//    private MyBroadCastReceiver myBroadCastReceiver;
+//
+//    private void regDoctorList() {
+//        myBroadCastReceiver = new MyBroadCastReceiver();
+//        IntentFilter intentFilter = new IntentFilter(SendPushSigleR.DOCTORLISTCHEOSE);
+//        getActivity().registerReceiver(myBroadCastReceiver, intentFilter);
+//    }
 
     @Override
     public void onClick(View v) {
@@ -136,32 +131,32 @@ public class HealthManagementFragment extends BaseFragment implements View.OnCli
         unbinder.unbind();
     }
 
-    class MyBroadCastReceiver extends BroadcastReceiver {
-
-        @Override
-        public void onReceive(Context context, Intent intent) {
-
-            upDateDoctorInfo();
-        }
-    }
-
-    private void upDateDoctorInfo() {
-        mTVDotor.setText(SendPushSigleR.list.size() + "");
-        int num = 0;
-        for (DoctorEntity entity : SendPushSigleR.list) {
-            if (entity.getSN().equals("0")) {
-                num++;
-            }
-        }
-        mTVDoctorNUmber.setText(num + "");
-    }
+//    class MyBroadCastReceiver extends BroadcastReceiver {
+//
+//        @Override
+//        public void onReceive(Context context, Intent intent) {
+//
+//            upDateDoctorInfo();
+//        }
+//    }
+//
+//    private void upDateDoctorInfo() {
+//        mTVDotor.setText(SendPushSigleR.list.size() + "");
+//        int num = 0;
+//        for (DoctorEntity entity : SendPushSigleR.list) {
+//            if (entity.getSN().equals("0")) {
+//                num++;
+//            }
+//        }
+//        mTVDoctorNUmber.setText(num + "");
+//    }
 
     @Override
     public void onDestroy() {
         super.onDestroy();
-        if (myBroadCastReceiver != null) {
-            getActivity().unregisterReceiver(myBroadCastReceiver);
-        }
+//        if (myBroadCastReceiver != null) {
+//            getActivity().unregisterReceiver(myBroadCastReceiver);
+//        }
 
     }
 

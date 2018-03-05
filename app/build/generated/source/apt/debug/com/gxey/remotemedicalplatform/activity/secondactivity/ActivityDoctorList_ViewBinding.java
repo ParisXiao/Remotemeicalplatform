@@ -35,6 +35,7 @@ public class ActivityDoctorList_ViewBinding<T extends ActivityDoctorList> implem
     target.recyclerViewDoctor = Utils.findRequiredViewAsType(source, R.id.recyclerView_doctor, "field 'recyclerViewDoctor'", RecyclerView.class);
     target.layRefreshDoctor = Utils.findRequiredViewAsType(source, R.id.lay_refresh_doctor, "field 'layRefreshDoctor'", SwipeRefreshLayout.class);
     target.emptyLayoutDoctor = Utils.findRequiredViewAsType(source, R.id.emptyLayout_doctor, "field 'emptyLayoutDoctor'", EmptyLayout.class);
+    target.ysBtnSousuo = Utils.findRequiredViewAsType(source, R.id.ys_btn_sousuo, "field 'ysBtnSousuo'", ImageButton.class);
   }
 
   @Override
@@ -54,6 +55,7 @@ public class ActivityDoctorList_ViewBinding<T extends ActivityDoctorList> implem
     target.recyclerViewDoctor = null;
     target.layRefreshDoctor = null;
     target.emptyLayoutDoctor = null;
+    target.ysBtnSousuo = null;
 
     this.target = null;
   }
