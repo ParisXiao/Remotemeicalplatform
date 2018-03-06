@@ -1,11 +1,11 @@
 [
     {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\selsct_img.xml",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\layout\\selsct_img.xml"
-    },
-    {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_popup_shenqing.xml",
         "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\layout\\layout_popup_shenqing.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\selsct_img.xml",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\layout\\selsct_img.xml"
     },
     {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_yichuan.xml",
@@ -56,12 +56,12 @@
         "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\me.iwf.photopicker\\PhotoPicker\\0.9.5\\res\\layout\\__picker_item_photo.xml"
     },
     {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_fre_me.xml",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\layout\\item_fre_me.xml"
-    },
-    {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_web_circle.xml",
         "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\layout\\activity_web_circle.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_fre_me.xml",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\layout\\item_fre_me.xml"
     },
     {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
@@ -72,16 +72,16 @@
         "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\layout\\item_doctorlist.xml"
     },
     {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_dangan.xml",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\layout\\activity_dangan.xml"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_medical_application.xml",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\layout\\item_medical_application.xml"
     },
     {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_send_text.xml",
         "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\layout\\item_send_text.xml"
     },
     {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_medical_application.xml",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\layout\\item_medical_application.xml"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_dangan.xml",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\layout\\activity_dangan.xml"
     },
     {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_actionbar.xml",

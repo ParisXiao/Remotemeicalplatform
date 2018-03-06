@@ -24,12 +24,12 @@
         "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xxxhdpi\\fenzhenzhaunzhen.png"
     },
     {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\logo_sy.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xxxhdpi\\logo_sy.png"
-    },
-    {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\pop_touxiang.png",
         "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xxxhdpi\\pop_touxiang.png"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\logo_sy.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xxxhdpi\\logo_sy.png"
     },
     {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\jiankangdanan.png",
@@ -48,16 +48,16 @@
         "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xxxhdpi\\gaunggao_two.png"
     },
     {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\pop_guanbi.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xxxhdpi\\pop_guanbi.png"
+    },
+    {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\xiaoxi.png",
         "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xxxhdpi\\xiaoxi.png"
     },
     {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\myy_send_me.png",
         "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xxxhdpi\\myy_send_me.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\pop_guanbi.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-xxxhdpi\\pop_guanbi.png"
     },
     {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\yongyaozixun.png",

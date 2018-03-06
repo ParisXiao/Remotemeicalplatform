@@ -111,7 +111,7 @@ public class ActivityYiChuan extends BaseActivity implements View.OnClickListene
 
                 if (res % 2 == 0) {
                     // 失败
-                    emptyLayoutYichuan.showError("加载失败，点击重新加载"); // 显示失败
+                    emptyLayoutYichuan.showError("重新加载"); // 显示失败
                 } else {
                     // 成功
                     emptyLayoutYichuan.showSuccess();

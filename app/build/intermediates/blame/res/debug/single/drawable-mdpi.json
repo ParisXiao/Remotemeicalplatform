@@ -20,24 +20,24 @@
         "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-mdpi\\quanzi.png"
     },
     {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_plus_signin_btn_icon_light_focused.9.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-mdpi\\common_plus_signin_btn_icon_light_focused.9.png"
-    },
-    {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\yizhu.png",
         "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-mdpi\\yizhu.png"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_plus_signin_btn_icon_light_focused.9.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-mdpi\\common_plus_signin_btn_icon_light_focused.9.png"
     },
     {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\guanyuwomen.png",
         "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-mdpi\\guanyuwomen.png"
     },
     {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_google_signin_btn_text_light_focused.9.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-mdpi\\common_google_signin_btn_text_light_focused.9.png"
-    },
-    {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ziliao.png",
         "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-mdpi\\ziliao.png"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_google_signin_btn_text_light_focused.9.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-mdpi\\common_google_signin_btn_text_light_focused.9.png"
     },
     {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\fasong.png",
@@ -342,6 +342,10 @@
     {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\pop_touxiang.png",
         "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable-mdpi\\pop_touxiang.png"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.github.erizet.signala\\signala-longpolling\\0.20\\res\\drawable-mdpi\\ic_launcher.png"
     },
     {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\menzhenbingli.png",

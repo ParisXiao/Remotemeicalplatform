@@ -20,6 +20,7 @@ import com.gxey.remotemedicalplatform.db.MySQLiteOpenHelper;
 import com.gxey.remotemedicalplatform.javaben.LogBen;
 import com.gxey.remotemedicalplatform.network.HttpClientHelper;
 import com.gxey.remotemedicalplatform.network.HttpSubseiber;
+import com.gxey.remotemedicalplatform.utils.PreferenceUtils;
 import com.yanzhenjie.permission.AndPermission;
 
 import fr.pchab.webrtcclient.SignalaUtils;
@@ -157,6 +158,7 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
                 @Override
                 public void onSucceed(LogBen data) {
                     dismisDialog();
+                    PreferenceUtils.getInstance(LoginActivity.this).saveString("UserName",data.getUName());
                     mConfig.setUserGUID(data.getID());
                     mConfig.setUserName(data.getUName());
                     mConfig.setStoreID(data.getStoreID());

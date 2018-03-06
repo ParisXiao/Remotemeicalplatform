@@ -11,6 +11,7 @@ import android.widget.TextView;
 
 import com.gxey.remotemedicalplatform.R;
 import com.gxey.remotemedicalplatform.inter.ActionBarClickListener;
+import com.gxey.remotemedicalplatform.utils.PreferenceUtils;
 import com.gxey.remotemedicalplatform.widget.TranslucentActionBar;
 import com.gxey.remotemedicalplatform.widget.TranslucentScrollView;
 
@@ -88,7 +89,7 @@ public class MyFragment extends BaseFragment implements ActionBarClickListener, 
     }
 
     public void init(View view) {
-
+        textZcdl.setText(PreferenceUtils.getInstance(getActivity()).getString("UserName",""));
 //        tvPersonalInformation.setOnClickListener(new View.OnClickListener() {
 //            @Override
 //            public void onClick(View view) {

@@ -104,14 +104,14 @@ public class MainActivity extends BaseActivity {
         //设置默认颜色
         my_bottom_bar
                 .setInActiveColor(R.color.lin2)//设置未选中的Item的颜色，包括图片和文字
-                .setActiveColor(R.color.hometextcoler)//设置选中
+                .setActiveColor(R.color.background_green)//设置选中
               .setBarBackgroundColor(R.color.white);//背景
 
         //添加选项
-        my_bottom_bar.addItem(new BottomNavigationItem(R.mipmap.tablebar, "首页"))
-                .addItem(new BottomNavigationItem(R.mipmap.tablebar2, "健康管理"))
-                .addItem(new BottomNavigationItem(R.mipmap.table3, "药品商城"))
-                .addItem(new BottomNavigationItem(R.mipmap.table4, "我的"))
+        my_bottom_bar.addItem(new BottomNavigationItem(R.mipmap.shouye_xuanzhong, "首页"))
+                .addItem(new BottomNavigationItem(R.mipmap.guanli_moren, "健康管理"))
+                .addItem(new BottomNavigationItem(R.mipmap.sahngcehng_xuanzhong, "商城"))
+                .addItem(new BottomNavigationItem(R.mipmap.wode_moren, "我的"))
                 .initialise();//初始化BottomNavigationButton,所有设置需在调用该方法前完成
 
 

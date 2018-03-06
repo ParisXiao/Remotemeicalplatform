@@ -4,18 +4,37 @@
     android:layout_height="match_parent"
     android:gravity="center"
     >
-<ImageView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:src="@drawable/jiazaishibai"
-    />
-    <Button
-        android:id="@+id/btnReset"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/theme_btn_green_yuanjiao"
-        android:text="加载失败,点击重试"
-        android:textSize="@dimen/textsize"
-        android:textColor="@color/background_write"
-        />
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@drawable/shape_btn_write"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/cuowu"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="加载失败"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            />
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/theme_btn_green_yuanjiao"
+            android:text="点击重试"
+            android:textSize="@dimen/textsize"
+            android:textColor="@color/background_write"
+            android:layout_marginBottom="10dp"
+            />
+    </LinearLayout>
+
+
 </LinearLayout>

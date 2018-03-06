@@ -1,33 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="200dp"
-    android:layout_height="wrap_content"
-   >
-    <ImageView
-        android:id="@+id/popup_sq_exit"
-        android:layout_width="wrap_content"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="240dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:src="@drawable/pop_guanbi" />
-
-
+        android:gravity="center"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <ImageView
+                android:id="@+id/popup_sq_exit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pop_guanbi"
+                android:layout_alignParentRight="true"
+                android:padding="5dp"
+                />
+        </RelativeLayout>
         <ImageView
             android:id="@+id/popup_sq_head"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="120dp"
             android:layout_centerHorizontal="true"
             android:scaleType="fitXY"
-            android:layout_marginTop="20dp"
             android:src="@drawable/pop_touxiang" />
 
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:gravity="center_horizontal"
             android:layout_below="@+id/popup_sq_head"
-            >
+            android:gravity="center_horizontal"
+            android:background="@color/background"
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/pop_yisheng"
@@ -36,7 +48,7 @@
                 android:layout_marginTop="10dp"
                 android:text="你选择的是：李医生"
                 android:textColor="@color/background_green"
-                android:textSize="@dimen/text_title" />
+                android:textSize="@dimen/text_big" />
 
             <TextView
                 android:id="@+id/pop_dengdai"
@@ -45,23 +57,25 @@
                 android:layout_marginTop="10dp"
                 android:gravity="center"
                 android:text="你选择的是：李医生打算打的的那几年的"
-                android:textColor="@color/background_green"
                 android:textSize="@dimen/text_title" />
+
             <Button
                 android:id="@+id/pop_quxiao"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin"
+                android:layout_marginRight="@dimen/margin"
                 android:layout_marginTop="10dp"
+                android:background="@drawable/theme_btn_green"
                 android:text="@string/quxiaoshengqing"
                 android:textColor="@color/background_write"
                 android:textSize="@dimen/text_big"
-                android:background="@drawable/theme_btn_green"
-                android:layout_marginLeft="@dimen/margin"
-                android:layout_marginRight="@dimen/margin"
-
+                android:layout_marginBottom="20dp"
                 />
         </LinearLayout>
 
 
+    </LinearLayout>
 
-</RelativeLayout>
+
+</LinearLayout>

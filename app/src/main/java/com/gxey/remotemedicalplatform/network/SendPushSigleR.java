@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 
 import com.gxey.remotemedicalplatform.activity.LoginActivity;
+import com.gxey.remotemedicalplatform.activity.secondactivity.ActivityDoctorList;
 import com.gxey.remotemedicalplatform.activity.secondactivity.ActivityMyOverConsultation;
 import com.gxey.remotemedicalplatform.javaben.DoctorEntity;
 import com.gxey.remotemedicalplatform.model.LocationConfig;
@@ -150,8 +151,8 @@ public class SendPushSigleR {
 
             @Override
             public void OnReceived(JSONArray args) {
-                if(ActivityMyOverConsultation.activity!=null){
-                    ActivityMyOverConsultation.activity.acceptMemberCallBack();
+                if(ActivityDoctorList.activityDoctor!=null){
+                    ActivityDoctorList.activityDoctor.acceptMemberCallBack();
                 }
 
 
@@ -174,8 +175,8 @@ public class SendPushSigleR {
 
             @Override
             public void OnReceived(JSONArray args) {
-                if(ActivityMyOverConsultation.activity!=null){
-                    ActivityMyOverConsultation.activity.unAcceptMemberCallBack();
+                if(ActivityDoctorList.activityDoctor!=null){
+                    ActivityDoctorList.activityDoctor.unAcceptMemberCallBack();
                 }
 
 

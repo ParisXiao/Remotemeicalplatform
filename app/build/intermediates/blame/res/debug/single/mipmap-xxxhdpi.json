@@ -8,6 +8,10 @@
         "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\mipmap-xxxhdpi\\guanli_xuanzhong.png"
     },
     {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\sahngcehng_xuanzhong.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\mipmap-xxxhdpi\\sahngcehng_xuanzhong.png"
+    },
+    {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\fasong.png",
         "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\mipmap-xxxhdpi\\fasong.png"
     },
@@ -18,10 +22,6 @@
     {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\arrow.png",
         "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\mipmap-xxxhdpi\\arrow.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\shangcehng_moren.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\mipmap-xxxhdpi\\shangcehng_moren.png"
     },
     {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\doc.png",
@@ -104,6 +104,10 @@
         "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\mipmap-xxxhdpi\\homeimg3.png"
     },
     {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\zaiwushuju.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\mipmap-xxxhdpi\\zaiwushuju.png"
+    },
+    {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\my2.png",
         "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\mipmap-xxxhdpi\\my2.png"
     },
@@ -128,12 +132,16 @@
         "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\mipmap-xxxhdpi\\shouye_xuanzhong.png"
     },
     {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\shangcheng_xuanzhong.png",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\mipmap-xxxhdpi\\shangcheng_xuanzhong.png"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\sahngcehng_moren.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\mipmap-xxxhdpi\\sahngcehng_moren.png"
     },
     {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\shouye_moren.png",
         "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\mipmap-xxxhdpi\\shouye_moren.png"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\cuowu.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\mipmap-xxxhdpi\\cuowu.png"
     },
     {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\jiankang2.png",

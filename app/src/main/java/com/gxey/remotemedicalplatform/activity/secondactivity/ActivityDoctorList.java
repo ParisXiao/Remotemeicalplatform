@@ -12,13 +12,17 @@ import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.text.Html;
 import android.text.TextUtils;
+import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
+import android.view.ViewGroup;
+import android.view.WindowManager;
 import android.view.inputmethod.EditorInfo;
 import android.widget.Button;
 import android.widget.EditText;
@@ -38,6 +42,7 @@ import com.gxey.remotemedicalplatform.network.SendPushSigleR;
 import com.gxey.remotemedicalplatform.utils.AndroidUtil;
 import com.gxey.remotemedicalplatform.utils.MyStrUtil;
 import com.gxey.remotemedicalplatform.utils.ScreenUtils;
+import com.gxey.remotemedicalplatform.utils.SizeUtils;
 import com.gxey.remotemedicalplatform.widget.EmptyLayout;
 
 import org.json.JSONArray;
@@ -92,6 +97,7 @@ public class ActivityDoctorList extends BaseActivity implements View.OnClickList
     private String Type = "0";// 1.离线，2.全部,0.在线
     private  PopupWindow window;
     private DoctorEntity doctorEntity;
+    public static ActivityDoctorList activityDoctor;
 
 
     @Override
@@ -144,6 +150,7 @@ public class ActivityDoctorList extends BaseActivity implements View.OnClickList
 
             }
         });
+        activityDoctor=this;
     }
 
     private void getDoctor(String userName) {
@@ -168,7 +175,7 @@ public class ActivityDoctorList extends BaseActivity implements View.OnClickList
 
             @Override
             public void onFail(String msg) {
-                emptyLayoutDoctor.showError("加载失败，点击重新加载"); // 显示失败
+                emptyLayoutDoctor.showError("重新加载"); // 显示失败
                 AndroidUtil.showToast(ActivityDoctorList.this, msg, 0);
             }
         });
@@ -228,6 +235,7 @@ public class ActivityDoctorList extends BaseActivity implements View.OnClickList
     @Override
     protected void onDestroy() {
         super.onDestroy();
+        activityDoctor=null;
         // SignalaUtils.getInstance(this).getHub().
         if(myBroadCastReceiver!=null){
             unregisterReceiver(myBroadCastReceiver);
@@ -301,35 +309,47 @@ public class ActivityDoctorList extends BaseActivity implements View.OnClickList
             }
         });
     }
+
+    public void backgroundAlpha(float bgAlpha) {
+        WindowManager.LayoutParams lp = getWindow().getAttributes();
+        lp.alpha = bgAlpha; //0.0-1.0
+        getWindow().setAttributes(lp);
+    }
     private void initPopupWindow(View v,DoctorEntity doctorEntity) {
+        DisplayMetrics dm = new DisplayMetrics();
+        getWindowManager().getDefaultDisplay().getMetrics(dm);
+        int screenHeight =dm.heightPixels;
+        // 将pixels转为dip
+        int xoffInDip = SizeUtils.px2dip(getApplicationContext(),screenHeight);
 // 用于PopupWindow的View
         View contentView = LayoutInflater.from(this).inflate(R.layout.layout_popup_shenqing, null, false);
         // 创建PopupWindow对象，其中：
         // 第一个参数是用于PopupWindow中的View，第二个参数是PopupWindow的宽度，
         // 第三个参数是PopupWindow的高度，第四个参数指定PopupWindow能否获得焦点
-        window = new PopupWindow(contentView, contentView.getWidth(), contentView.getHeight(), true);
+        window = new PopupWindow(contentView,  ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT, true);
         // 设置PopupWindow的背景
         window.setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
         // 设置PopupWindow是否能响应外部点击事件
-        window.setOutsideTouchable(true);
+//        window.setOutsideTouchable(true);
         window.setAnimationStyle(R.style.popupwindow_anim);
         // 设置PopupWindow是否能响应点击事件
         window.setTouchable(true);
         ImageView exit = (ImageView) contentView.findViewById(R.id.popup_sq_exit);
         TextView yisheng= (TextView) contentView.findViewById(R.id.pop_yisheng);
         TextView paidui= (TextView) contentView.findViewById(R.id.pop_dengdai);
-        yisheng.setText(R.string.ninxuanze+doctorEntity.getUserName());
+        yisheng.setText("您选择的是："+doctorEntity.getUserName());
         int time=0;
         if (!MyStrUtil.isEmpty(doctorEntity.getSN())){
             time = Integer.parseInt(doctorEntity.getSN()) * 5;
         }
-        String textSource = "您前面还有<font color='#67e300'>"+doctorEntity.getSN()+"</font>人在排队，大约需要等待<font color='#67e300'><big>"+time+"</font>分钟";
-        paidui.setText(textSource);
+        String textSource = "您前面还有<font color='#67e300'><big>"+doctorEntity.getSN()+"</big></font>人在排队，大约需要等待<font color='#67e300'><big>"+time+"</big></font>分钟";
+        paidui.setText(Html.fromHtml(textSource));
         Button quxiao= (Button) contentView.findViewById(R.id.pop_quxiao);
         exit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 sendCancleDotor();
+                backgroundAlpha(1f);
                 AndroidUtil.showToast(ActivityDoctorList.this, "您取消了排队", 0);
                 window.dismiss();
             }
@@ -338,6 +358,7 @@ public class ActivityDoctorList extends BaseActivity implements View.OnClickList
             @Override
             public void onClick(View v) {
                 sendCancleDotor();
+                backgroundAlpha(1f);
                 AndroidUtil.showToast(ActivityDoctorList.this, "您取消了排队", 0);
                 window.dismiss();
             }
@@ -348,8 +369,8 @@ public class ActivityDoctorList extends BaseActivity implements View.OnClickList
         // 或者也可以调用此方法显示PopupWindow，其中：
         // 第一个参数是PopupWindow的父View，第二个参数是PopupWindow相对父View的位置，
         // 第三和第四个参数分别是PopupWindow相对父View的x、y偏移
-        window.showAtLocation(v, Gravity.CENTER, 0, 0);
-
+        window.showAtLocation(v, Gravity.CENTER, 0,0);
+        backgroundAlpha(0.5f);
     }
     /**
      * 患者选择医生
@@ -374,7 +395,6 @@ public class ActivityDoctorList extends BaseActivity implements View.OnClickList
         JSONArray jsonArray = new JSONArray();
         jsonArray.put(doctorEntity.getConnectionId());
         SignalaUtils.getInstance(this).sendMessage("sendCancelDoctor", jsonArray);
-        finish();
     }
     /**
      * 通知患者视频

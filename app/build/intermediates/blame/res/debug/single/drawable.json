@@ -188,6 +188,10 @@
         "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progressbarstyle.xml",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\progressbarstyle.xml"
+    },
+    {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\hometexthape.xml",
         "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\hometexthape.xml"
     },

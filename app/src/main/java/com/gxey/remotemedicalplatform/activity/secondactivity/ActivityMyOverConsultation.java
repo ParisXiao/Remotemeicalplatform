@@ -10,8 +10,10 @@ import android.media.AudioManager;
 import android.opengl.GLSurfaceView;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ListView;
@@ -46,8 +48,6 @@ import fr.pchab.webrtcclient.PeerConnectionParameters;
 import fr.pchab.webrtcclient.SignalaUtils;
 import fr.pchab.webrtcclient.WebRtcClient;
 import me.iwf.photopicker.PhotoPicker;
-
-import static android.view.Gravity.TOP;
 
 /**
  * Created by xusongsong on 2016/12/26.
@@ -130,7 +130,7 @@ public class ActivityMyOverConsultation extends BaseActivity implements View.OnC
                 if (!TextUtils.isEmpty(str)) {
                     GLEditSay.setText("");
                     sendMeaage(1, str);
-
+                    initPopupWindow(v);
                 }
 
             }
@@ -174,7 +174,12 @@ public class ActivityMyOverConsultation extends BaseActivity implements View.OnC
 //                mLVMesage.setSelection(messageAdapter.getCount() - 1);
 //            }
 //        });
-
+        GLBtnLiaotian.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                initPopupWindow(v);
+            }
+        });
         activity = this;
     }
 
@@ -184,7 +189,7 @@ public class ActivityMyOverConsultation extends BaseActivity implements View.OnC
         // 创建PopupWindow对象，其中：
         // 第一个参数是用于PopupWindow中的View，第二个参数是PopupWindow的宽度，
         // 第三个参数是PopupWindow的高度，第四个参数指定PopupWindow能否获得焦点
-        final PopupWindow window = new PopupWindow(contentView, contentView.getWidth(), contentView.getHeight(), true);
+        final PopupWindow window = new PopupWindow(contentView, ViewGroup.LayoutParams.MATCH_PARENT,  ViewGroup.LayoutParams.WRAP_CONTENT, true);
         // 设置PopupWindow的背景
         window.setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
         // 设置PopupWindow是否能响应外部点击事件
@@ -216,7 +221,7 @@ public class ActivityMyOverConsultation extends BaseActivity implements View.OnC
         // 或者也可以调用此方法显示PopupWindow，其中：
         // 第一个参数是PopupWindow的父View，第二个参数是PopupWindow相对父View的位置，
         // 第三和第四个参数分别是PopupWindow相对父View的x、y偏移
-        window.showAtLocation(reLiaotian, TOP, 0, 0);
+        window.showAtLocation(reLiaotian, Gravity.TOP, 0, 0);
 
     }
 
@@ -283,15 +288,13 @@ public class ActivityMyOverConsultation extends BaseActivity implements View.OnC
 
     @Override
     protected void initData() {
-
+        startCam();
+        isVideo = true;
     }
 
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
-            case R.id.oc_tv8:
-                sendCancleDotor();
-                break;
             case R.id.glview_call:
                 videoConverter();
                 break;
@@ -443,7 +446,7 @@ public class ActivityMyOverConsultation extends BaseActivity implements View.OnC
     }
 
 
-        public void sendCaseDualCallBack() {
+    public void sendCaseDualCallBack() {
         GLTextMid.setVisibility(View.VISIBLE);
     }
 

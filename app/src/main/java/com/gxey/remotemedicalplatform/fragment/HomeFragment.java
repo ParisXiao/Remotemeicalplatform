@@ -5,20 +5,26 @@ import android.os.Handler;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.text.TextUtils;
+import android.util.Log;
+import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.inputmethod.EditorInfo;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.gxey.remotemedicalplatform.R;
 import com.gxey.remotemedicalplatform.adapter.HomeRecycleAdapter;
-import com.gxey.remotemedicalplatform.utils.KeyboardUtil;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
+
+import static com.gxey.remotemedicalplatform.utils.KeyboardUtil.hideInputMethod;
 
 /**
  * Created by xusongsong on 2016/12/21.
@@ -76,26 +82,22 @@ public class HomeFragment extends BaseFragment implements SwipeRefreshLayout.OnR
 
     @Override
     protected void initData() {
-        sousuoSy.setFocusable(true);
-        sousuoSy.setFocusableInTouchMode(true);
-        sousuoSy.requestFocus();//获取焦点 光标出现
-        sousuoSy.setOnFocusChangeListener(new android.view.View.OnFocusChangeListener() {
+        sousuoSy.setOnEditorActionListener(new TextView.OnEditorActionListener() {
+            public boolean onEditorAction(TextView v, int actionId,
+                                          KeyEvent event) {
+                Log.d("Edit", "" + actionId + "," + event);
+                if (actionId == EditorInfo.IME_ACTION_SEARCH
+                        || (event != null && event.getKeyCode() == KeyEvent.KEYCODE_SEARCH)) {
+                    String search = sousuoSy.getText().toString();
+                    if (!TextUtils.isEmpty(search)) {
 
-            @Override
-            public void onFocusChange(View v, boolean hasFocus) {
-
-                if (hasFocus) {
-                    // 获得焦点
-                    sousuoSy.setCursorVisible(true);
-                    KeyboardUtil.showKeyboard(v);
-                } else {
-                    // 失去焦点
-                    KeyboardUtil.hideKeyboard(v);
+                        hideInputMethod(getActivity(), v);
+                    }
+                    //do something;
+                    return true;
                 }
-
+                return false;
             }
-
-
         });
     }
 

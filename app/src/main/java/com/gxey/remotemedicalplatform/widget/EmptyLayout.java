@@ -46,7 +46,7 @@ public class EmptyLayout extends FrameLayout {
         //数据为空时的布局
         int emptyLayout = ta.getResourceId(R.styleable.EmptyLayout_elEmptyLayout, R.layout.layout_empty);
         mEmptyView = View.inflate(context, emptyLayout, null);
-        mEmptyText = (TextView) mEmptyView.findViewById(R.id.tvEmptyText);
+//        mEmptyText = (TextView) mEmptyView.findViewById(R.id.tvEmptyText);
         addView(mEmptyView, params);
 
         //加载中的布局
