@@ -5,7 +5,7 @@ android {
         enabled = true
     }
     compileSdkVersion 23
-    buildToolsVersion '23.0.1'
+    buildToolsVersion '27.0.3'
     defaultConfig {
         applicationId "com.gxey.remotemedicalplatform"
         minSdkVersion 15

@@ -2,7 +2,10 @@ package com.gxey.remotemedicalplatform.activity.secondactivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
@@ -48,6 +51,8 @@ public class ActivityFamily extends BaseActivity implements View.OnClickListener
     EmptyLayout EmptyLayoutJiazu;
     @BindView(R.id.linear_jiazi)
     LinearLayout linearJiazi;
+    @BindView(R.id.swipe_jiazu)
+    SwipeRefreshLayout swipeJiazu;
 
 
     @Override
@@ -63,14 +68,42 @@ public class ActivityFamily extends BaseActivity implements View.OnClickListener
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
         ScreenUtils.setStatusBarLightMode(this, R.color.black);
-        getData();
+
+        swipeJiazu.post(new Runnable() {
+            @Override
+            public void run() {
+                swipeJiazu.setRefreshing(true);
+            }
+        });
+
+
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                getData();
+            }
+        }, 2000);
         //绑定
         EmptyLayoutJiazu.bindView(linearJiazi);
         EmptyLayoutJiazu.setOnButtonClick(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 //重新加载数据
-                getData();
+
+
+            }
+        });
+        swipeJiazu.setColorSchemeResources(R.color.colorPrimary, R.color.colorPrimaryDark);
+        swipeJiazu.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override
+            public void onRefresh() {
+                new Handler().postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        getData();
+                    }
+                }, 2000);
+
             }
         });
     }
@@ -91,7 +124,8 @@ public class ActivityFamily extends BaseActivity implements View.OnClickListener
                 if (MyHttpHelper.isConllection(ActivityFamily.this)) {
                     String[] key = new String[]{};
                     Map<String, String> map = new HashMap<String, String>();
-                    String result = MyHttpHelper.GetMessage(ActivityFamily.this, UrlConfig.SelFamilyHistory, key, map);
+                    String result = MyHttpHelper.GetMessage(ActivityFamily.this, UrlConfig.SelHistoryOfJW, key, map);
+                    Log.d("MyHttp","httpResult："+result);
                     if (!MyStrUtil.isEmpty(result)) {
                         JSONObject jsonObject;
                         try {
@@ -102,7 +136,7 @@ public class ActivityFamily extends BaseActivity implements View.OnClickListener
 //                                成功
                                 JSONObject jsonObject2 = new JSONObject(jsonObject.getString("result"));
                                 if (!MyStrUtil.isEmpty(jsonObject2)) {
-
+                                    subscriber.onNext(1);
                                 } else {
                                     subscriber.onNext(0);
                                 }
@@ -136,21 +170,27 @@ public class ActivityFamily extends BaseActivity implements View.OnClickListener
 
             @Override
             public void onNext(Integer integer) {
+
                 switch (integer) {
                     case 0:
                         EmptyLayoutJiazu.showEmpty("暂无数据！");
+                        swipeJiazu.setRefreshing(false);
                         break;
                     case 1:
                         EmptyLayoutJiazu.showSuccess();
+                        swipeJiazu.setRefreshing(false);
                         break;
                     case 2:
                         EmptyLayoutJiazu.showError("加载出错！");
+                        swipeJiazu.setRefreshing(false);
                         ToastUtils.s(ActivityFamily.this, msg);
                         break;
                     case 3:
                         EmptyLayoutJiazu.showError("网络无连接！");
+                        swipeJiazu.setRefreshing(false);
                         break;
                     case 4:
+                        swipeJiazu.setRefreshing(false);
                         ToastUtils.s(ActivityFamily.this, msg);
                         Intent intent = new Intent(ActivityFamily.this, LoginActivity.class);
                         startActivity(intent);

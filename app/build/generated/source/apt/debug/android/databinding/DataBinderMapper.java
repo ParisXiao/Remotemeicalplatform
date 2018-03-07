@@ -1,8 +1,8 @@
 
 package android.databinding;
 import com.gxey.remotemedicalplatform.BR;
-class DataBinderMapper {
-    final static int TARGET_MIN_SDK = 15;
+class DataBinderMapper  {
+    final static int TARGET_MIN_SDK = 22;
     public DataBinderMapper() {
     }
     public android.databinding.ViewDataBinding getDataBinder(android.databinding.DataBindingComponent bindingComponent, android.view.View view, int layoutId) {

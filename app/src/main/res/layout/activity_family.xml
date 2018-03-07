@@ -7,15 +7,23 @@
 
     <include layout="@layout/layout_actionbar" />
 
-    <com.gxey.remotemedicalplatform.widget.EmptyLayout
-        android:id="@+id/EmptyLayout_jiazu"
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_jiazu"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <LinearLayout
-            android:id="@+id/linear_jiazi"
+        <com.gxey.remotemedicalplatform.widget.EmptyLayout
+            android:id="@+id/EmptyLayout_jiazu"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"></LinearLayout>
-    </com.gxey.remotemedicalplatform.widget.EmptyLayout>
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/linear_jiazi"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"></LinearLayout>
+        </com.gxey.remotemedicalplatform.widget.EmptyLayout>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+
 </LinearLayout>

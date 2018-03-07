@@ -1,4 +1,7 @@
-#Wed Mar 07 15:56:19 CST 2018
-base.0=E\:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+#Thu Mar 08 00:30:50 CST 2018
+base.0=D\:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_173038f38cddc64cc3f219fe7a50fa24c488d419
+renamed.1=classes2.dex
 renamed.0=classes.dex
-file.0=E\:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+file.1=D\:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_545ce8fe4292a90a8d90c16b82ff99332b09613d\\classes.dex
+base.1=D\:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_545ce8fe4292a90a8d90c16b82ff99332b09613d
+file.0=D\:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_173038f38cddc64cc3f219fe7a50fa24c488d419\\classes.dex

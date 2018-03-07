@@ -1,86 +1,30 @@
 package android.databinding;
 import android.os.Build.VERSION;
 import android.os.Build.VERSION_CODES;
+import android.databinding.BindingConversion;
 public class DynamicUtil {
-    @SuppressWarnings("deprecation")
-    public static int getColorFromResource(final android.view.View view, final int resourceId) {
-        if (VERSION.SDK_INT >= VERSION_CODES.M) {
-            return view.getContext().getColor(resourceId);
-        }
-        return view.getResources().getColor(resourceId);
+    public static int safeUnbox(java.lang.Integer boxed) {
+        return boxed == null ? 0 : (int)boxed;
     }
-    @SuppressWarnings("deprecation")
-    public static android.content.res.ColorStateList getColorStateListFromResource(final android.view.View view, final int resourceId) {
-        if (VERSION.SDK_INT >= VERSION_CODES.M) {
-            return view.getContext().getColorStateList(resourceId);
-        }
-        return view.getResources().getColorStateList(resourceId);
+    public static long safeUnbox(java.lang.Long boxed) {
+        return boxed == null ? 0L : (long)boxed;
     }
-    @SuppressWarnings("deprecation")
-    public static android.graphics.drawable.Drawable getDrawableFromResource(final android.view.View view, final int resourceId) {
-        if (VERSION.SDK_INT >= VERSION_CODES.LOLLIPOP) {
-            return view.getContext().getDrawable(resourceId);
-        }
-        return view.getResources().getDrawable(resourceId);
+    public static short safeUnbox(java.lang.Short boxed) {
+        return boxed == null ? 0 : (short)boxed;
     }
-    public static boolean parse(String str, boolean fallback) {
-        if (str == null) {
-            return fallback;
-        }
-        return Boolean.parseBoolean(str);
+    public static byte safeUnbox(java.lang.Byte boxed) {
+        return boxed == null ? 0 : (byte)boxed;
     }
-    public static byte parse(String str, byte fallback) {
-        try {
-            return Byte.parseByte(str);
-        }
-        catch (NumberFormatException e) {
-            return fallback;
-        }
+    public static char safeUnbox(java.lang.Character boxed) {
+        return boxed == null ? '\u0000' : (char)boxed;
     }
-    public static short parse(String str, short fallback) {
-        try {
-            return Short.parseShort(str);
-        }
-        catch (NumberFormatException e) {
-            return fallback;
-        }
+    public static double safeUnbox(java.lang.Double boxed) {
+        return boxed == null ? 0.0 : (double)boxed;
     }
-    public static int parse(String str, int fallback) {
-        try {
-            return Integer.parseInt(str);
-        }
-        catch (NumberFormatException e) {
-            return fallback;
-        }
+    public static float safeUnbox(java.lang.Float boxed) {
+        return boxed == null ? 0f : (float)boxed;
     }
-    public static long parse(String str, long fallback) {
-        try {
-            return Long.parseLong(str);
-        }
-        catch (NumberFormatException e) {
-            return fallback;
-        }
-    }
-    public static float parse(String str, float fallback) {
-        try {
-            return Float.parseFloat(str);
-        }
-        catch (NumberFormatException e) {
-            return fallback;
-        }
-    }
-    public static double parse(String str, double fallback) {
-        try {
-            return Double.parseDouble(str);
-        }
-        catch (NumberFormatException e) {
-            return fallback;
-        }
-    }
-    public static char parse(String str, char fallback) {
-        if (str == null || str.isEmpty()) {
-            return fallback;
-        }
-        return str.charAt(0);
+    public static boolean safeUnbox(java.lang.Boolean boxed) {
+        return boxed == null ? false : (boolean)boxed;
     }
 }

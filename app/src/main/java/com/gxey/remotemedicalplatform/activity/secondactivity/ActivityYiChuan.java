@@ -1,5 +1,6 @@
 package com.gxey.remotemedicalplatform.activity.secondactivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v4.widget.SwipeRefreshLayout;
@@ -13,17 +14,31 @@ import android.widget.Toast;
 
 import com.gxey.remotemedicalplatform.R;
 import com.gxey.remotemedicalplatform.activity.BaseActivity;
+import com.gxey.remotemedicalplatform.activity.LoginActivity;
 import com.gxey.remotemedicalplatform.adapter.YiChuanAdapter;
 import com.gxey.remotemedicalplatform.bean.YiChuanBean;
+import com.gxey.remotemedicalplatform.mynetwork.MyHttpHelper;
+import com.gxey.remotemedicalplatform.newconfig.UrlConfig;
+import com.gxey.remotemedicalplatform.utils.MyStrUtil;
 import com.gxey.remotemedicalplatform.utils.ScreenUtils;
+import com.gxey.remotemedicalplatform.utils.ToastUtils;
 import com.gxey.remotemedicalplatform.widget.EmptyLayout;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Random;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import rx.Observable;
+import rx.Subscriber;
+import rx.android.schedulers.AndroidSchedulers;
+import rx.schedulers.Schedulers;
 
 import static com.gxey.remotemedicalplatform.R.id.toolbar_left_btn;
 
@@ -61,10 +76,9 @@ public class ActivityYiChuan extends BaseActivity implements View.OnClickListene
         toolbarMid.setText(R.string.yichaunbingshi);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
-        ScreenUtils.setStatusBarLightMode(this, R.color.black);
+        ScreenUtils.setStatusBarLightMode(ActivityYiChuan.this, R.color.black);
         yiChuanBeen = new ArrayList<>();
-        loadData();
-
+        getData();
         recyclerViewYichuan.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
         recyclerViewYichuan.setAdapter(adapter = new YiChuanAdapter(this, yiChuanBeen));
         //绑定
@@ -73,14 +87,13 @@ public class ActivityYiChuan extends BaseActivity implements View.OnClickListene
             @Override
             public void onClick(View v) {
                 //重新加载数据
-                loadData();
+                getData();
             }
         });
         swipeYichuan.setColorSchemeResources(R.color.colorPrimary, R.color.colorPrimaryDark);
         swipeYichuan.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
-                loadData();
                 swipeYichuan.setRefreshing(false);
 
             }
@@ -98,31 +111,85 @@ public class ActivityYiChuan extends BaseActivity implements View.OnClickListene
         });
     }
 
-    private void loadData() {
-        //模拟加载数据
-        emptyLayoutYichuan.showLoading("正在加载，请稍后");
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-//                为了防止重复调用
-                handler.removeCallbacks(this);
-                Random r = new Random();
-                int res = r.nextInt(10);
+    String msg;
 
-                if (res % 2 == 0) {
-                    // 失败
-                    emptyLayoutYichuan.showError("重新加载"); // 显示失败
-                } else {
-                    // 成功
-                    emptyLayoutYichuan.showSuccess();
-                    for (int i = 0; i < 10; i++) {
-                        yiChuanBeen.add(new YiChuanBean("神经病", "2018-03-02"));
+    private void getData() {
+
+        Observable.create(new Observable.OnSubscribe<Integer>() {
+
+            @Override
+            public void call(Subscriber<? super Integer> subscriber) {
+                if (MyHttpHelper.isConllection(ActivityYiChuan.this)) {
+                    String[] key = new String[]{};
+                    Map<String, String> map = new HashMap<String, String>();
+                    String result = MyHttpHelper.GetMessage(ActivityYiChuan.this, UrlConfig.SelHistoryOfHeredity, key, map);
+                    if (!MyStrUtil.isEmpty(result)) {
+                        JSONObject jsonObject;
+                        try {
+                            jsonObject = new JSONObject(result);
+                            String code = jsonObject.getString("code");
+                            msg = jsonObject.getString("desc");
+                            if (code.equals("0")) {
+//                                成功
+                                JSONObject jsonObject2 = new JSONObject(jsonObject.getString("result"));
+                                if (!MyStrUtil.isEmpty(jsonObject2)) {
+
+                                } else {
+                                    subscriber.onNext(0);
+                                }
+                            } else if (code.equals("1")) {
+                                subscriber.onNext(4);
+//                                离线
+                            } else {
+//                                失败
+                                subscriber.onNext(2);
+                            }
+
+                        } catch (JSONException e1) {
+                            // TODO Auto-generated catch block
+                            e1.printStackTrace();
+                        }
                     }
+                } else {
+                    subscriber.onNext(3);
                 }
-                adapter.notifyDataSetChanged();
-//                }
             }
-        }, 3000);
+        }).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(new Subscriber<Integer>() {
+            @Override
+            public void onCompleted() {
+
+            }
+
+            @Override
+            public void onError(Throwable e) {
+
+            }
+
+            @Override
+            public void onNext(Integer integer) {
+                switch (integer) {
+                    case 0:
+                        emptyLayoutYichuan.showEmpty("暂无数据！");
+                        break;
+                    case 1:
+                        emptyLayoutYichuan.showSuccess();
+                        break;
+                    case 2:
+                        emptyLayoutYichuan.showError("加载出错！");
+                        ToastUtils.s(ActivityYiChuan.this, msg);
+                        break;
+                    case 3:
+                        emptyLayoutYichuan.showError("网络无连接！");
+                        break;
+                    case 4:
+                        ToastUtils.s(ActivityYiChuan.this, msg);
+                        Intent intent = new Intent(ActivityYiChuan.this, LoginActivity.class);
+                        startActivity(intent);
+                        finish();
+                        break;
+                }
+            }
+        });
     }
 
     private void initLoadMoreListener() {

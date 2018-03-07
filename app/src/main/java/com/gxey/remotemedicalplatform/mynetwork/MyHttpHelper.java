@@ -5,6 +5,7 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.util.Log;
 
+import com.gxey.remotemedicalplatform.activity.secondactivity.ActivityFamily;
 import com.gxey.remotemedicalplatform.newconfig.UserConfig;
 import com.gxey.remotemedicalplatform.utils.Base64Utils;
 import com.gxey.remotemedicalplatform.utils.PreferenceUtils;
@@ -31,8 +32,7 @@ public class MyHttpHelper {
 
     /**
      * 查看返回数据结构
-     *
-     * @param context 上下文
+     *  @param context 上下文
      * @param key     参数 key集合
      * @param vally   参数key对应数据
      */
@@ -55,13 +55,14 @@ public class MyHttpHelper {
             OkHttpClient client = new OkHttpClient();
             client.newBuilder().connectTimeout(10, TimeUnit.SECONDS).writeTimeout(10, TimeUnit.SECONDS).readTimeout(30, TimeUnit.SECONDS);
             try {
-                RequestBody body = RequestBody.create(JSON, new String("{'data':'" + Base64Utils.getBase64(mJson.toString()) + "'}"));
+                RequestBody body = RequestBody.create(JSON, new String( Base64Utils.getBase64(mJson.toString())));
                 Request request = new Request.Builder()
                         .url(Url)
                         .post(body)
                         .build();
                 Response response = client.newCall(request).execute();
-                Log.d(TAG, "body:" + new String("{'data':'" + Base64Utils.getBase64(mJson.toString()) + "'}"));
+                Log.d(TAG, "json:" + mJson.toString());
+                Log.d(TAG, "body:" + new String(Base64Utils.getBase64(mJson.toString()) ));
                 Log.d(TAG, "response:" + response);
 
                 if (response.isSuccessful()) {
