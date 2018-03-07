@@ -80,6 +80,10 @@ public class ActivityHeathDangAn extends BaseActivity implements View.OnClickLis
                         Intent intent = new Intent(ActivityHeathDangAn.this, ActivityMyMsg.class);
                         startActivity(intent);
                         break;
+                    case 1:
+                        Intent intent1 = new Intent(ActivityHeathDangAn.this, ActivityFamily.class);
+                        startActivity(intent1);
+                        break;
                     case 2:
                         Intent intent2 = new Intent(ActivityHeathDangAn.this, ActivityYiChuan.class);
                         startActivity(intent2);

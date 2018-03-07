@@ -10,7 +10,7 @@ import rx.Subscriber;
 public class HttpSubseiber<T>{
     public  interface  ResponseHandler<T>{
 
-        abstract void onSucceed(T data);
+        public abstract void onSucceed(T data);
         public abstract void onFail(String msg);
 
     }

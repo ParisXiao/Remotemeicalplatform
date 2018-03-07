@@ -182,6 +182,12 @@
             android:name="com.gxey.remotemedicalplatform.activity.secondactivity.ActivityMyOverConsultation"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gxey.remotemedicalplatform.activity.secondactivity.ActivityFamily"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeWrite"
+            android:windowSoftInputMode="adjustPan|stateUnchanged" />
 
         <meta-data
             android:name="com.google.android.gms.version"

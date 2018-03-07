@@ -10,11 +10,39 @@ public class LogBen {
     private  String PositionID;
     private  String UName;
     private  String UNum;
+    private  String HeadImg;
     private  String Sex;
+    private  String SFZH;
+
+    public String getSFZH() {
+        return SFZH;
+    }
+
+    public void setSFZH(String SFZH) {
+        this.SFZH = SFZH;
+    }
+
+    public String getAge() {
+        return Age;
+    }
+
+    public void setAge(String age) {
+        Age = age;
+    }
+
+    private  String Age;
     private  String MobileNum;
     private  String Addr;
     private  String password;
     private  String StoreID;
+
+    public String getHeadImg() {
+        return HeadImg;
+    }
+
+    public void setHeadImg(String headImg) {
+        HeadImg = headImg;
+    }
 
     public String getStoreID() {
         return StoreID;

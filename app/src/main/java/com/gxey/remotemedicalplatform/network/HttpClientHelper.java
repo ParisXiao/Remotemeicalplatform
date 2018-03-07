@@ -186,7 +186,7 @@ public class HttpClientHelper {
     /**
      * 用户注册
      */
-    public void getRegistered(String LoginName,String PassWord,String Sex,String UName ,String UNum,String Captcha, HttpSubseiber.ResponseHandler<String>response){
+    public void getRegistered(String LoginName,String PassWord,String Sex,String UName ,String UNum,String Captcha, HttpSubseiber.ResponseHandler<String> response){
         HashMap<String,Object> hashMap = new HashMap<>();
         hashMap.put("LoginName",LoginName);
         hashMap.put("PassWord",PassWord);

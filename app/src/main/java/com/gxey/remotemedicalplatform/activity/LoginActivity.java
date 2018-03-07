@@ -14,6 +14,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.gxey.remotemedicalplatform.newconfig.UserConfig;
 import com.gxey.remotemedicalplatform.R;
 import com.gxey.remotemedicalplatform.db.Information;
 import com.gxey.remotemedicalplatform.db.MySQLiteOpenHelper;
@@ -158,7 +159,15 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
                 @Override
                 public void onSucceed(LogBen data) {
                     dismisDialog();
-                    PreferenceUtils.getInstance(LoginActivity.this).saveString("UserName",data.getUName());
+                    PreferenceUtils.getInstance(LoginActivity.this).saveString(UserConfig.UserName,data.getUName());
+                    PreferenceUtils.getInstance(LoginActivity.this).saveString(UserConfig.UserId,data.getID());
+                    PreferenceUtils.getInstance(LoginActivity.this).saveString(UserConfig.RealName,data.getUNum());
+                    PreferenceUtils.getInstance(LoginActivity.this).saveString(UserConfig.HeadImg,data.getHeadImg() );
+                    PreferenceUtils.getInstance(LoginActivity.this).saveString(UserConfig.Sex,data.getSex());
+                    PreferenceUtils.getInstance(LoginActivity.this).saveString(UserConfig.Address,data.getAddr());
+                    PreferenceUtils.getInstance(LoginActivity.this).saveString(UserConfig.Phone,data.getMobileNum());
+                    PreferenceUtils.getInstance(LoginActivity.this).saveString(UserConfig.SFZH,data.getSFZH());
+                    PreferenceUtils.getInstance(LoginActivity.this).saveString(UserConfig.Age,data.getAge());
                     mConfig.setUserGUID(data.getID());
                     mConfig.setUserName(data.getUName());
                     mConfig.setStoreID(data.getStoreID());
