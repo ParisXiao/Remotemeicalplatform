@@ -38,6 +38,7 @@ public class TiWenAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
     private LayoutInflater mInflater;
     private Context context;
     private List<TiWenBean> list = new ArrayList<>();
+    private List<TiWenBean> listLast = new ArrayList<>();
     private static final int TYPE_ITEM = 0;
     private static final int TYPE_FOOTER = 1;
     private static final int TYPE_Charts = 2;
@@ -130,9 +131,23 @@ public class TiWenAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
             List<Column> columnList = new ArrayList<>(); //柱子列表
             List<SubcolumnValue> subcolumnValueList;     //子柱列表（即一个柱子，因为一个柱子可分为多个子柱）
             List<AxisValue> axisValues = new ArrayList<>();
-            for (int i = 0; i < list.size(); i++) {
+            if (list.size()>7){
+                listLast.add(list.get(list.size()-1));
+                listLast.add(list.get(list.size()-2));
+                listLast.add(list.get(list.size()-3));
+                listLast.add(list.get(list.size()-4));
+                listLast.add(list.get(list.size()-5));
+                listLast.add(list.get(list.size()-6));
+                listLast.add(list.get(list.size()-7));
+            }else {
+                for (int i = 0; i < list.size(); i++) {
+                    listLast.add(list.get(i));
+                }
+            }
+
+            for (int i = 0; i < listLast.size(); i++) {
                 subcolumnValueList = new ArrayList<>();
-                subcolumnValueList.add(new SubcolumnValue(Float.valueOf(list.get(i).getTemperature()), ChartUtils.pickColor()));
+                subcolumnValueList.add(new SubcolumnValue(Float.valueOf(listLast.get(i).getTemperature()), ChartUtils.pickColor()));
 
                 Column column = new Column(subcolumnValueList);
                 column.setHasLabels(true);                    //设置列标签
@@ -141,13 +156,13 @@ public class TiWenAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
                 columnList.add(column);
 
                 //设置坐标值
-                axisValues.add(new AxisValue(i).setLabel(TimeUtils.MyDateMD(list.get(i).getAddtime())));
+                axisValues.add(new AxisValue(i).setLabel(TimeUtils.MyDateMD(listLast.get(i).getAddtime())));
             }
             ColumnChartData  mColumnChartData = new ColumnChartData(columnList);
              /*===== 坐标轴相关设置 =====*/
             Axis axisX = new Axis(axisValues); //将自定义x轴显示值传入构造函数
             Axis axisY = new Axis().setHasLines(true); //setHasLines是设置线条
-            axisX.setName("日期");    //设置横轴名称
+            axisX.setName("日期(最近一周)");    //设置横轴名称
             axisY.setName("体温（℃）");    //设置竖轴名称
             mColumnChartData.setAxisXBottom(axisX); //设置横轴
             mColumnChartData.setAxisYLeft(axisY);   //设置竖轴
