@@ -16,6 +16,7 @@ import com.gxey.remotemedicalplatform.bean.TiWenBean;
 import com.gxey.remotemedicalplatform.mynetwork.MyHttpHelper;
 import com.gxey.remotemedicalplatform.newconfig.UrlConfig;
 import com.gxey.remotemedicalplatform.utils.MyStrUtil;
+import com.gxey.remotemedicalplatform.utils.TimeUtils;
 import com.gxey.remotemedicalplatform.utils.ToastUtils;
 
 import org.json.JSONArray;
@@ -40,12 +41,10 @@ import rx.schedulers.Schedulers;
  */
 
 public class FragmentTiWen extends BaseFragment {
-    @BindView(R.id.HistogramView)
-    com.gxey.remotemedicalplatform.widget.HistogramView HistogramView;
     @BindView(R.id.RecyclerView)
     android.support.v7.widget.RecyclerView recyclerView;
     @BindView(R.id.EmptyLayout)
-    com.gxey.remotemedicalplatform.widget.EmptyLayout EmptyLayout;
+    com.gxey.remotemedicalplatform.widget.EmptyLayout emptyLayout;
     @BindView(R.id.SwipeRefreshLayout)
     android.support.v4.widget.SwipeRefreshLayout swipeRefreshLayout;
     Unbinder unbinder;
@@ -66,6 +65,7 @@ public class FragmentTiWen extends BaseFragment {
     }
 
     private void initLoad() {
+
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
@@ -79,12 +79,12 @@ public class FragmentTiWen extends BaseFragment {
                 swipeRefreshLayout.setRefreshing(true);
             }
         });
-        EmptyLayout.showLoading();
-        EmptyLayout.bindView(recyclerView);
-        EmptyLayout.setOnButtonClick(new View.OnClickListener() {
+        emptyLayout.showLoading();
+        emptyLayout.bindView(recyclerView);
+        emptyLayout.setOnButtonClick(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                EmptyLayout.showLoading();
+                emptyLayout.showLoading();
                 //重新加载数据
                 new Handler().postDelayed(new Runnable() {
                     @Override
@@ -98,7 +98,7 @@ public class FragmentTiWen extends BaseFragment {
         swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
-                EmptyLayout.showLoading();
+                emptyLayout.showLoading();
                 new Handler().postDelayed(new Runnable() {
                     @Override
                     public void run() {
@@ -181,23 +181,23 @@ public class FragmentTiWen extends BaseFragment {
                     case 0:
                         swipeRefreshLayout.setRefreshing(false);
                         adapter.notifyDataSetChanged();
-                        EmptyLayout.showEmpty("暂无数据！");
+                        emptyLayout.showEmpty("暂无数据！");
                         break;
                     case 1:
                         swipeRefreshLayout.setRefreshing(false);
                         adapter.notifyDataSetChanged();
-                        EmptyLayout.showSuccess();
+                        emptyLayout.showSuccess();
                         break;
                     case 2:
                         swipeRefreshLayout.setRefreshing(false);
                         adapter.notifyDataSetChanged();
-                        EmptyLayout.showError("加载出错！");
+                        emptyLayout.showError("加载出错！");
                         ToastUtils.s( getActivity(), msg);
                         break;
                     case 3:
                         swipeRefreshLayout.setRefreshing(false);
                         adapter.notifyDataSetChanged();
-                        EmptyLayout.showError("网络无连接！");
+                        emptyLayout.showError("网络无连接！");
                         break;
                     case 4:
                         swipeRefreshLayout.setRefreshing(false);

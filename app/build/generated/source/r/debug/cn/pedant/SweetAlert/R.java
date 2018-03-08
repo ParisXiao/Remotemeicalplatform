@@ -485,7 +485,7 @@ public final class R {
         public static final int abc_search_dropdown_item_icons_2line = 0x7f04001f;
         public static final int abc_search_view = 0x7f040020;
         public static final int alert_dialog = 0x7f040044;
-        public static final int support_simple_spinner_dropdown_item = 0x7f040087;
+        public static final int support_simple_spinner_dropdown_item = 0x7f040088;
     }
     public static final class string {
         public static final int LOADING = 0x7f070046;

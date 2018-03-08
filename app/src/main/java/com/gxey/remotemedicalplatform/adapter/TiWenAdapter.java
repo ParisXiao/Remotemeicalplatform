@@ -11,12 +11,20 @@ import android.widget.TextView;
 
 import com.gxey.remotemedicalplatform.R;
 import com.gxey.remotemedicalplatform.bean.TiWenBean;
+import com.gxey.remotemedicalplatform.utils.TimeUtils;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import lecho.lib.hellocharts.model.Axis;
+import lecho.lib.hellocharts.model.AxisValue;
+import lecho.lib.hellocharts.model.Column;
+import lecho.lib.hellocharts.model.ColumnChartData;
+import lecho.lib.hellocharts.model.SubcolumnValue;
+import lecho.lib.hellocharts.model.Viewport;
+import lecho.lib.hellocharts.util.ChartUtils;
 
 /**
  * 申诉记录适配器
@@ -32,6 +40,7 @@ public class TiWenAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
     private List<TiWenBean> list = new ArrayList<>();
     private static final int TYPE_ITEM = 0;
     private static final int TYPE_FOOTER = 1;
+    private static final int TYPE_Charts = 2;
 
     //上拉加载更多
     public static final int PULLUP_LOAD_MORE = 0;
@@ -58,6 +67,8 @@ public class TiWenAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
         if (position + 1 == getItemCount()) {
             //最后一个item设置为footerView
             return TYPE_FOOTER;
+        } else if (position == 0) {
+            return TYPE_Charts;
         } else {
             return TYPE_ITEM;
         }
@@ -73,6 +84,10 @@ public class TiWenAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
             View itemView = mInflater.inflate(R.layout.recycleview_footview, parent, false);
 
             return new FooterViewHolder(itemView);
+        } else if (viewType == TYPE_Charts) {
+            View itemView = mInflater.inflate(R.layout.recycleview_charts, parent, false);
+
+            return new ChartsViewHolder(itemView);
         }
         return null;
 
@@ -110,12 +125,55 @@ public class TiWenAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
 
             }
 
+        }else if (holder instanceof ChartsViewHolder) {
+            ChartsViewHolder chartsViewHolder= (ChartsViewHolder) holder;
+            List<Column> columnList = new ArrayList<>(); //柱子列表
+            List<SubcolumnValue> subcolumnValueList;     //子柱列表（即一个柱子，因为一个柱子可分为多个子柱）
+            List<AxisValue> axisValues = new ArrayList<>();
+            for (int i = 0; i < list.size(); i++) {
+                subcolumnValueList = new ArrayList<>();
+                subcolumnValueList.add(new SubcolumnValue(Float.valueOf(list.get(i).getTemperature()), ChartUtils.pickColor()));
+
+                Column column = new Column(subcolumnValueList);
+                column.setHasLabels(true);                    //设置列标签
+//            column.setHasLabelsOnlyForSelected(true);       //只有当点击时才显示列标签
+
+                columnList.add(column);
+
+                //设置坐标值
+                axisValues.add(new AxisValue(i).setLabel(TimeUtils.MyDateMD(list.get(i).getAddtime())));
+            }
+            ColumnChartData  mColumnChartData = new ColumnChartData(columnList);
+             /*===== 坐标轴相关设置 =====*/
+            Axis axisX = new Axis(axisValues); //将自定义x轴显示值传入构造函数
+            Axis axisY = new Axis().setHasLines(true); //setHasLines是设置线条
+            axisX.setName("日期");    //设置横轴名称
+            axisY.setName("体温（℃）");    //设置竖轴名称
+            mColumnChartData.setAxisXBottom(axisX); //设置横轴
+            mColumnChartData.setAxisYLeft(axisY);   //设置竖轴
+
+            //以上所有设置的数据、坐标配置都已存放到mColumnChartData中，接下来给mColumnChartView设置这些配置
+            ((ChartsViewHolder) holder).chart.setColumnChartData(mColumnChartData);
+             /*===== 设置竖轴最大值 =====*/
+            //法一：
+            Viewport v =   ((ChartsViewHolder) holder).chart.getMaximumViewport();
+            v.top = 42;
+            ((ChartsViewHolder) holder).chart.setCurrentViewport(v);
         }
     }
 
     @Override
     public int getItemCount() {
         return list.size() + 1;
+    }
+
+    public class ChartsViewHolder extends RecyclerView.ViewHolder {
+        @BindView(R.id.chart)
+        lecho.lib.hellocharts.view.ColumnChartView chart;
+        public ChartsViewHolder(View itemView) {
+            super(itemView);
+            ButterKnife.bind(this, itemView);
+        }
     }
 
     public class FooterViewHolder extends RecyclerView.ViewHolder {
@@ -161,6 +219,7 @@ public class TiWenAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
         TextView itemClTime;
         @BindView(R.id.item_cl_bz)
         TextView itemClBz;
+
         public MyViewHolder(View itemView) {
             super(itemView);
             ButterKnife.bind(this, itemView);

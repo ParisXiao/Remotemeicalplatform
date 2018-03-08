@@ -12,7 +12,7 @@
             android:useLevel="false"
             android:startColor="#6BD3FF"
             android:centerY="0.50"
-            android:centerColor="#FF7121"
+            android:centerColor="#ffffff"
             android:endColor="#67e300" />
     </shape>
 </animated-rotate>

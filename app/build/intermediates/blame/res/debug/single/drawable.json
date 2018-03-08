@@ -244,6 +244,10 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\91d430d9ff3106b5ebf2e749f27d0a597428ba33\\output\\res\\drawable\\warning_circle.xml"
     },
     {
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_tiao_green.xml",
+        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\shape_tiao_green.xml"
+    },
+    {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\e089ba40d2249b941afe1bd559b8998c3003910f\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
     },

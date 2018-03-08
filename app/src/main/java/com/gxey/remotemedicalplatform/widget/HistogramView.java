@@ -31,14 +31,14 @@ public class HistogramView extends View {
     private Paint paint;// 矩形画笔 柱状图的样式信息
     private List<String> progress = new ArrayList<>();// 7
     // 条，显示各个柱状的数据
-    private List<Long> aniProgress=new ArrayList<>();// 实现动画的值
+    private List<Long> aniProgress=null;// 实现动画的值
     private final int TRUE = 1;// 在柱状图上显示数字
     private int[] text=null;// 设置点击事件，显示哪一条柱状的信息
     private Bitmap bitmap;
     // 坐标轴左侧的数标
-    private List<String> ySteps=new ArrayList<>();
+    private List<String> ySteps=null;
     // 坐标轴底部的星期数
-    private  List<String> xDays=new ArrayList<>();
+    private  List<String> xDays=null;
     private long danwei;//单位
     private int flag;// 是否使用动画
 
@@ -47,15 +47,27 @@ public class HistogramView extends View {
     public HistogramView(Context context) {
         super(context);
         init();
+        initData();
     }
 
     public HistogramView(Context context, AttributeSet attrs) {
         super(context, attrs);
         init();
+        initData();
+    }
+    public void setData(long danwei,List<Long> aniProgress,List<String> ySteps,List<String> xDays){
+        this.danwei=danwei;
+        this.aniProgress=aniProgress;
+        this.ySteps=ySteps;
+        this.xDays=xDays;
+    }
+    public void initData(){
+        aniProgress=new ArrayList<>();
+        ySteps=new ArrayList<>();
+        xDays=new ArrayList<>();
     }
 
     private void init() {
-
 //        ySteps = new String[] { "10k", "7.5k", "5k", "2.5k", "0" };
 //        xDays = new String[] { "周一", "周二", "周三", "周四", "周五", "周六", "周日" };
         text = new int[] { 1, 1, 1, 1, 1, 1, 1,1, 1, 1, 1, 1, 1 };
