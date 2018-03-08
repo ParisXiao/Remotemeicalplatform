@@ -4,6 +4,14 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\49e47b9b8c08cafe19a40fb6756d1b80e8344423\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
     },
     {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5d312417355e924f41e749cdd4d91033c8ff6233\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5d312417355e924f41e749cdd4d91033c8ff6233\\output\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
+    },
+    {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\49e47b9b8c08cafe19a40fb6756d1b80e8344423\\output\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
     }

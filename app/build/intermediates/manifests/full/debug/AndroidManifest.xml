@@ -67,7 +67,12 @@
             android:name="com.gxey.remotemedicalplatform.activity.PersonalInformationActivity"
             android:windowSoftInputMode="adjustPan|stateHidden" />
         <!-- 圈子列表 -->
-        <activity android:name="com.gxey.remotemedicalplatform.activity.CircleActivity" />
+        <activity
+            android:name="com.gxey.remotemedicalplatform.activity.CircleActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden|stateUnchanged" />
         <!-- 附近药房 -->
         <activity android:name="com.gxey.remotemedicalplatform.activity.storesActivity" />
         <!-- 修改密码 -->
@@ -184,6 +189,30 @@
             android:screenOrientation="portrait" />
         <activity
             android:name="com.gxey.remotemedicalplatform.activity.secondactivity.ActivityFamily"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeWrite"
+            android:windowSoftInputMode="adjustPan|stateUnchanged" />
+        <activity
+            android:name="com.gxey.remotemedicalplatform.activity.secondactivity.ActivityGuoMing"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeWrite"
+            android:windowSoftInputMode="adjustPan|stateUnchanged" />
+        <activity
+            android:name="com.gxey.remotemedicalplatform.activity.secondactivity.ActivityHuanJing"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeWrite"
+            android:windowSoftInputMode="adjustPan|stateUnchanged" />
+        <activity
+            android:name="com.gxey.remotemedicalplatform.activity.secondactivity.ActivityChangBeiYao"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeWrite"
+            android:windowSoftInputMode="adjustPan|stateUnchanged" />
+        <activity
+            android:name="com.gxey.remotemedicalplatform.activity.secondactivity.ActivityTiJian"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"
             android:theme="@style/AppThemeWrite"

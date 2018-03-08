@@ -4,40 +4,16 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\76935a1921f71a97a4d5da81c8a5320209f5542f\\output\\res\\drawable\\__picker_bg_material_item.xml"
     },
     {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_light.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e089ba40d2249b941afe1bd559b8998c3003910f\\output\\res\\drawable\\common_plus_signin_btn_text_light.xml"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9ca9bafbbb5077d9276ce107071f34079491cab3\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_oval_dot_dark.xml",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\shape_oval_dot_dark.xml"
-    },
-    {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\img1.xml",
         "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\img1.xml"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_btn_green.xml",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\shape_btn_green.xml"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9ca9bafbbb5077d9276ce107071f34079491cab3\\output\\res\\drawable\\abc_btn_colored_material.xml"
     },
     {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9ca9bafbbb5077d9276ce107071f34079491cab3\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
     },
     {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\editshape2.xml",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\editshape2.xml"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\hometext2hape1.xml",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\hometext2hape1.xml"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_back.xml",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\btn_back.xml"
     },
     {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\hometext3hape.xml",
@@ -48,8 +24,328 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9ca9bafbbb5077d9276ce107071f34079491cab3\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
     },
     {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9b74c5f43c30d7cfb83895d6ce86894c242d565c\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9ca9bafbbb5077d9276ce107071f34079491cab3\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9ca9bafbbb5077d9276ce107071f34079491cab3\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\blue_button_background.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\91d430d9ff3106b5ebf2e749f27d0a597428ba33\\output\\res\\drawable\\blue_button_background.xml"
+    },
+    {
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9ca9bafbbb5077d9276ce107071f34079491cab3\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9b74c5f43c30d7cfb83895d6ce86894c242d565c\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\__picker_bg_material_item.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\44a3c7139512166761d45672d7fd13f651e6c737\\output\\res\\drawable\\__picker_bg_material_item.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_background.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\91d430d9ff3106b5ebf2e749f27d0a597428ba33\\output\\res\\drawable\\dialog_background.xml"
+    },
+    {
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9ca9bafbbb5077d9276ce107071f34079491cab3\\output\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9ca9bafbbb5077d9276ce107071f34079491cab3\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9b74c5f43c30d7cfb83895d6ce86894c242d565c\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9ca9bafbbb5077d9276ce107071f34079491cab3\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\510c426d74283a76c8a29bbebc8b841e369dd717\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\510c426d74283a76c8a29bbebc8b841e369dd717\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9b74c5f43c30d7cfb83895d6ce86894c242d565c\\output\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9b74c5f43c30d7cfb83895d6ce86894c242d565c\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9b74c5f43c30d7cfb83895d6ce86894c242d565c\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e089ba40d2249b941afe1bd559b8998c3003910f\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\success_circle.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8f6c38e5d9c0b9cec6c7498a8f2485761ca3e516\\output\\res\\drawable\\success_circle.xml"
+    },
+    {
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\theme_btn_write.xml",
+        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\theme_btn_write.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\510c426d74283a76c8a29bbebc8b841e369dd717\\output\\res\\drawable\\common_plus_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9b74c5f43c30d7cfb83895d6ce86894c242d565c\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_btn_green_yuanjiao.xml",
+        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\shape_btn_green_yuanjiao.xml"
+    },
+    {
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\hometext4hape.xml",
+        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\hometext4hape.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\textview.xml",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\textview.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\error_center_x.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\91d430d9ff3106b5ebf2e749f27d0a597428ba33\\output\\res\\drawable\\error_center_x.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_btn_write.xml",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\shape_btn_write.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\hometext5hape.xml",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\hometext5hape.xml"
+    },
+    {
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\gray_button_background.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8f6c38e5d9c0b9cec6c7498a8f2485761ca3e516\\output\\res\\drawable\\gray_button_background.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9b74c5f43c30d7cfb83895d6ce86894c242d565c\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9b74c5f43c30d7cfb83895d6ce86894c242d565c\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\__picker_checkbox_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\76935a1921f71a97a4d5da81c8a5320209f5542f\\output\\res\\drawable\\__picker_checkbox_bg.xml"
+    },
+    {
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9ca9bafbbb5077d9276ce107071f34079491cab3\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progressbarstyle.xml",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\progressbarstyle.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\hometexthape.xml",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\hometexthape.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\editshape.xml",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\editshape.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\editshape2.xml",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\editshape2.xml"
+    },
+    {
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_oval_dot_orage.xml",
+        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\shape_oval_dot_orage.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_label.xml",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\shape_label.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9b74c5f43c30d7cfb83895d6ce86894c242d565c\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9b74c5f43c30d7cfb83895d6ce86894c242d565c\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9b74c5f43c30d7cfb83895d6ce86894c242d565c\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5d312417355e924f41e749cdd4d91033c8ff6233\\output\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\__picker_camera.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\44a3c7139512166761d45672d7fd13f651e6c737\\output\\res\\drawable\\__picker_camera.xml"
+    },
+    {
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9ca9bafbbb5077d9276ce107071f34079491cab3\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9b74c5f43c30d7cfb83895d6ce86894c242d565c\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_oval_dot_dark.xml",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\shape_oval_dot_dark.xml"
+    },
+    {
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_btn_sousuo.xml",
+        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\shape_btn_sousuo.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_btn_green.xml",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\shape_btn_green.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9b74c5f43c30d7cfb83895d6ce86894c242d565c\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_btn_popup.xml",
+        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\shape_btn_popup.xml"
+    },
+    {
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\editshape4.xml",
+        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\editshape4.xml"
+    },
+    {
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9ca9bafbbb5077d9276ce107071f34079491cab3\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9b74c5f43c30d7cfb83895d6ce86894c242d565c\\output\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\warning_circle.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\91d430d9ff3106b5ebf2e749f27d0a597428ba33\\output\\res\\drawable\\warning_circle.xml"
+    },
+    {
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e089ba40d2249b941afe1bd559b8998c3003910f\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\__picker_photo_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\44a3c7139512166761d45672d7fd13f651e6c737\\output\\res\\drawable\\__picker_photo_bg.xml"
+    },
+    {
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\theme_btn_green_yuanjiao.xml",
+        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\theme_btn_green_yuanjiao.xml"
+    },
+    {
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9ca9bafbbb5077d9276ce107071f34079491cab3\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\__picker_camera.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\76935a1921f71a97a4d5da81c8a5320209f5542f\\output\\res\\drawable\\__picker_camera.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9b74c5f43c30d7cfb83895d6ce86894c242d565c\\output\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9b74c5f43c30d7cfb83895d6ce86894c242d565c\\output\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9b74c5f43c30d7cfb83895d6ce86894c242d565c\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\red_button_background.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\91d430d9ff3106b5ebf2e749f27d0a597428ba33\\output\\res\\drawable\\red_button_background.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9b74c5f43c30d7cfb83895d6ce86894c242d565c\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\red_button_background.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8f6c38e5d9c0b9cec6c7498a8f2485761ca3e516\\output\\res\\drawable\\red_button_background.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9b74c5f43c30d7cfb83895d6ce86894c242d565c\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\warning_sigh.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\91d430d9ff3106b5ebf2e749f27d0a597428ba33\\output\\res\\drawable\\warning_sigh.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\510c426d74283a76c8a29bbebc8b841e369dd717\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9ca9bafbbb5077d9276ce107071f34079491cab3\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9b74c5f43c30d7cfb83895d6ce86894c242d565c\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9b74c5f43c30d7cfb83895d6ce86894c242d565c\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e089ba40d2249b941afe1bd559b8998c3003910f\\output\\res\\drawable\\common_plus_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9ca9bafbbb5077d9276ce107071f34079491cab3\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\editshape5.xml",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\editshape5.xml"
+    },
+    {
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_oval_dot_dark.xml",
+        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\shape_oval_dot_dark.xml"
+    },
+    {
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9ca9bafbbb5077d9276ce107071f34079491cab3\\output\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_btn_green.xml",
+        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\shape_btn_green.xml"
+    },
+    {
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\editshape2.xml",
+        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\editshape2.xml"
+    },
+    {
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\hometext2hape1.xml",
+        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\hometext2hape1.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\510c426d74283a76c8a29bbebc8b841e369dd717\\output\\res\\drawable\\common_plus_signin_btn_icon_dark.xml"
     },
     {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
@@ -64,36 +360,36 @@
         "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\theme_btn_green.xml"
     },
     {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9ca9bafbbb5077d9276ce107071f34079491cab3\\output\\res\\drawable\\abc_textfield_search_material.xml"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\hometext3hape.xml",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\hometext3hape.xml"
     },
     {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9ca9bafbbb5077d9276ce107071f34079491cab3\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\510c426d74283a76c8a29bbebc8b841e369dd717\\output\\res\\drawable\\common_plus_signin_btn_icon_light.xml"
     },
     {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\blue_button_background.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\8f6c38e5d9c0b9cec6c7498a8f2485761ca3e516\\output\\res\\drawable\\blue_button_background.xml"
     },
     {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\theme_btn_green_yuanjiao.xml",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\theme_btn_green_yuanjiao.xml"
+    },
+    {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\e089ba40d2249b941afe1bd559b8998c3003910f\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
     },
     {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9ca9bafbbb5077d9276ce107071f34079491cab3\\output\\res\\drawable\\abc_dialog_material_background.xml"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_btn_popup.xml",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\shape_btn_popup.xml"
     },
     {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9ca9bafbbb5077d9276ce107071f34079491cab3\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\star_rating_bar_full.xml",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\star_rating_bar_full.xml"
     },
     {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\e089ba40d2249b941afe1bd559b8998c3003910f\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9ca9bafbbb5077d9276ce107071f34079491cab3\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
@@ -112,36 +408,48 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\e089ba40d2249b941afe1bd559b8998c3003910f\\output\\res\\drawable\\common_plus_signin_btn_icon_light.xml"
     },
     {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9ca9bafbbb5077d9276ce107071f34079491cab3\\output\\res\\drawable\\abc_btn_radio_material.xml"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\theme_btn_green.xml",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\theme_btn_green.xml"
     },
     {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e089ba40d2249b941afe1bd559b8998c3003910f\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9b74c5f43c30d7cfb83895d6ce86894c242d565c\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9ca9bafbbb5077d9276ce107071f34079491cab3\\output\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_label.xml",
         "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\shape_label.xml"
     },
     {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\editshape4.xml",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\editshape4.xml"
+    },
+    {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9ca9bafbbb5077d9276ce107071f34079491cab3\\output\\res\\drawable\\abc_edit_text_material.xml"
     },
     {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\success_circle.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8f6c38e5d9c0b9cec6c7498a8f2485761ca3e516\\output\\res\\drawable\\success_circle.xml"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\theme_btn_write.xml",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\theme_btn_write.xml"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\img1.xml",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\img1.xml"
     },
     {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\star_rating_bar_full.xml",
         "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\star_rating_bar_full.xml"
     },
     {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9b74c5f43c30d7cfb83895d6ce86894c242d565c\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9ca9bafbbb5077d9276ce107071f34079491cab3\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9b74c5f43c30d7cfb83895d6ce86894c242d565c\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_background.xml",
@@ -164,6 +472,14 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\8f6c38e5d9c0b9cec6c7498a8f2485761ca3e516\\output\\res\\drawable\\success_bow.xml"
     },
     {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_btn_green_yuanjiao.xml",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\shape_btn_green_yuanjiao.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9b74c5f43c30d7cfb83895d6ce86894c242d565c\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\editshape.xml",
         "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\editshape.xml"
     },
@@ -172,8 +488,8 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\49e47b9b8c08cafe19a40fb6756d1b80e8344423\\output\\res\\drawable\\design_snackbar_background.xml"
     },
     {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_btn_green_yuanjiao.xml",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\shape_btn_green_yuanjiao.xml"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9b74c5f43c30d7cfb83895d6ce86894c242d565c\\output\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
@@ -184,8 +500,16 @@
         "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\textviewbk.xml"
     },
     {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\hometext4hape.xml",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\hometext4hape.xml"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9b74c5f43c30d7cfb83895d6ce86894c242d565c\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9b74c5f43c30d7cfb83895d6ce86894c242d565c\\output\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\__picker_delete.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\44a3c7139512166761d45672d7fd13f651e6c737\\output\\res\\drawable\\__picker_delete.xml"
     },
     {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_dark.xml",
@@ -196,32 +520,56 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\8f6c38e5d9c0b9cec6c7498a8f2485761ca3e516\\output\\res\\drawable\\error_circle.xml"
     },
     {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_oval_dot_orage.xml",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\shape_oval_dot_orage.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_tiao_green.xml",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\shape_tiao_green.xml"
+    },
+    {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9ca9bafbbb5077d9276ce107071f34079491cab3\\output\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9b74c5f43c30d7cfb83895d6ce86894c242d565c\\output\\res\\drawable\\abc_ic_clear_material.xml"
     },
     {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9ca9bafbbb5077d9276ce107071f34079491cab3\\output\\res\\drawable\\abc_text_cursor_material.xml"
     },
     {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_btn_say.xml",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\shape_btn_say.xml"
+    },
+    {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\editshape5.xml",
         "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\editshape5.xml"
     },
     {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\gray_button_background.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8f6c38e5d9c0b9cec6c7498a8f2485761ca3e516\\output\\res\\drawable\\gray_button_background.xml"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\glview.xml",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\glview.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\textviewbk.xml",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\textviewbk.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\gray_button_background.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\91d430d9ff3106b5ebf2e749f27d0a597428ba33\\output\\res\\drawable\\gray_button_background.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\success_bow.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\91d430d9ff3106b5ebf2e749f27d0a597428ba33\\output\\res\\drawable\\success_bow.xml"
     },
     {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9ca9bafbbb5077d9276ce107071f34079491cab3\\output\\res\\drawable\\abc_ic_clear_material.xml"
     },
     {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\__picker_checkbox_bg.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\76935a1921f71a97a4d5da81c8a5320209f5542f\\output\\res\\drawable\\__picker_checkbox_bg.xml"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9ca9bafbbb5077d9276ce107071f34079491cab3\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\hometext2hape.xml",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\hometext2hape.xml"
     },
     {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
@@ -240,36 +588,36 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\e089ba40d2249b941afe1bd559b8998c3003910f\\output\\res\\drawable\\common_plus_signin_btn_icon_dark.xml"
     },
     {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_oval_dot_orage.xml",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\shape_oval_dot_orage.xml"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\error_circle.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\91d430d9ff3106b5ebf2e749f27d0a597428ba33\\output\\res\\drawable\\error_circle.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\editshape3.xml",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\editshape3.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_btn_sousuo.xml",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\shape_btn_sousuo.xml"
     },
     {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9ca9bafbbb5077d9276ce107071f34079491cab3\\output\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\510c426d74283a76c8a29bbebc8b841e369dd717\\output\\res\\drawable\\common_plus_signin_btn_text_light.xml"
+    },
+    {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\hometexthape.xml",
         "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\hometexthape.xml"
     },
     {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9ca9bafbbb5077d9276ce107071f34079491cab3\\output\\res\\drawable\\abc_btn_check_material.xml"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9b74c5f43c30d7cfb83895d6ce86894c242d565c\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_btn_sousuo.xml",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\shape_btn_sousuo.xml"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_btn_popup.xml",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\shape_btn_popup.xml"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\editshape4.xml",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\editshape4.xml"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9ca9bafbbb5077d9276ce107071f34079491cab3\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\510c426d74283a76c8a29bbebc8b841e369dd717\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
     },
     {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\hometext2hape.xml",
@@ -280,28 +628,20 @@
         "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\btn_back.xml"
     },
     {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9b74c5f43c30d7cfb83895d6ce86894c242d565c\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9ca9bafbbb5077d9276ce107071f34079491cab3\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
     {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9b74c5f43c30d7cfb83895d6ce86894c242d565c\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\warning_sigh.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\8f6c38e5d9c0b9cec6c7498a8f2485761ca3e516\\output\\res\\drawable\\warning_sigh.xml"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e089ba40d2249b941afe1bd559b8998c3003910f\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\theme_btn_green_yuanjiao.xml",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\theme_btn_green_yuanjiao.xml"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9ca9bafbbb5077d9276ce107071f34079491cab3\\output\\res\\drawable\\abc_btn_borderless_material.xml"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\__picker_camera.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\76935a1921f71a97a4d5da81c8a5320209f5542f\\output\\res\\drawable\\__picker_camera.xml"
     },
     {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
@@ -320,10 +660,6 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\8f6c38e5d9c0b9cec6c7498a8f2485761ca3e516\\output\\res\\drawable\\error_center_x.xml"
     },
     {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\red_button_background.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8f6c38e5d9c0b9cec6c7498a8f2485761ca3e516\\output\\res\\drawable\\red_button_background.xml"
-    },
-    {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\49e47b9b8c08cafe19a40fb6756d1b80e8344423\\output\\res\\drawable\\design_fab_background.xml"
     },
@@ -332,12 +668,32 @@
         "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\shape_btn_write.xml"
     },
     {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\__picker_checkbox_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\44a3c7139512166761d45672d7fd13f651e6c737\\output\\res\\drawable\\__picker_checkbox_bg.xml"
+    },
+    {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9ca9bafbbb5077d9276ce107071f34079491cab3\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
     },
     {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9ca9bafbbb5077d9276ce107071f34079491cab3\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\hometext4hape.xml",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\hometext4hape.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\hometext2hape1.xml",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\hometext2hape1.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9b74c5f43c30d7cfb83895d6ce86894c242d565c\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\success_circle.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\91d430d9ff3106b5ebf2e749f27d0a597428ba33\\output\\res\\drawable\\success_circle.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\theme_btn_write.xml",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\theme_btn_write.xml"
     },
     {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
@@ -354,5 +710,9 @@
     {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\textview.xml",
         "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\drawable\\textview.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5d312417355e924f41e749cdd4d91033c8ff6233\\output\\res\\drawable\\design_fab_background.xml"
     }
 ]

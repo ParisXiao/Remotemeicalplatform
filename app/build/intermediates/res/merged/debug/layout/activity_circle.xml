@@ -4,20 +4,9 @@
     android:background="@color/white"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <LinearLayout
-        android:background="@color/colortitle"
-        android:layout_width="match_parent"
-        android:layout_height="45dp">
-        <ImageView
-            android:id="@+id/back"
-            android:src="@mipmap/back"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp"
-            android:paddingTop="10dp"
-            android:paddingBottom="10dp"
-            android:layout_width="60dp"
-            android:layout_height="match_parent" />
-    </LinearLayout>
+    <include
+        layout="@layout/layout_actionbar"
+        />
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">

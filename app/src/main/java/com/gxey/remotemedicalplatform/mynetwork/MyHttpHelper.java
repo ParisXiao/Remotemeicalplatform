@@ -5,7 +5,6 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.util.Log;
 
-import com.gxey.remotemedicalplatform.activity.secondactivity.ActivityFamily;
 import com.gxey.remotemedicalplatform.newconfig.UserConfig;
 import com.gxey.remotemedicalplatform.utils.Base64Utils;
 import com.gxey.remotemedicalplatform.utils.PreferenceUtils;
@@ -47,7 +46,8 @@ public class MyHttpHelper {
             String Data = mJsonData.toString();
             Log.d(TAG, "Data : " + Data);
             JSONObject mJson = new JSONObject();
-            mJson.put("userid", PreferenceUtils.getInstance(context).getString(UserConfig.UserId));
+            mJson.put("userid", "");
+//            mJson.put("userid", PreferenceUtils.getInstance(context).getString(UserConfig.UserId));
             mJson.put("token", PreferenceUtils.getInstance(context).getString(UserConfig.Token));
             mJson.put("platform", "APP");
             mJson.put("data", mJsonData);

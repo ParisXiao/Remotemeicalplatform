@@ -1,5 +1,6 @@
 package com.gxey.remotemedicalplatform.fragment;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,6 +11,10 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.gxey.remotemedicalplatform.R;
+import com.gxey.remotemedicalplatform.activity.WebCircleActivity;
+import com.gxey.remotemedicalplatform.activity.WebHelpActivity;
+import com.gxey.remotemedicalplatform.activity.WebIndexActivity;
+import com.gxey.remotemedicalplatform.activity.WebOpinionActivity;
 import com.gxey.remotemedicalplatform.inter.ActionBarClickListener;
 import com.gxey.remotemedicalplatform.utils.PreferenceUtils;
 import com.gxey.remotemedicalplatform.widget.TranslucentActionBar;
@@ -23,7 +28,7 @@ import butterknife.Unbinder;
  * Created by xusongsong on 2016/12/21.
  */
 
-public class MyFragment extends BaseFragment implements ActionBarClickListener, TranslucentScrollView.TranslucentChangedListener,View.OnClickListener {
+public class MyFragment extends BaseFragment implements ActionBarClickListener, TranslucentScrollView.TranslucentChangedListener, View.OnClickListener {
 
 
     @BindView(R.id.img_head)
@@ -89,58 +94,10 @@ public class MyFragment extends BaseFragment implements ActionBarClickListener, 
     }
 
     public void init(View view) {
-        textZcdl.setText(PreferenceUtils.getInstance(getActivity()).getString("UserName",""));
-//        tvPersonalInformation.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                startActivity(new Intent(getActivity(), PersonalInformationActivity.class));
-//            }
-//        });
-//        circle.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent= new Intent(getActivity(), WebCircleActivity.class);
-//                startActivity(intent);
-//            }
-//        });
-//        fankui.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent= new Intent(getActivity(), WebOpinionActivity.class);
-//                startActivity(intent);
-//            }
-//        });
-//        yongyao.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent= new Intent(getActivity(), WebMedicationActivity.class);
-//                startActivity(intent);
-//            }
-//        });
-//        zhengliao.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent= new Intent(getActivity(), WebMyDiagnosisActivity.class);
-//                startActivity(intent);
-//            }
-//        });
-//        help.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent= new Intent(getActivity(), WebHelpActivity.class);
-//                startActivity(intent);
-//            }
-//        });
-//        index.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent= new Intent(getActivity(), WebIndexActivity.class);
-//                startActivity(intent);
-//            }
-//        });
+        textZcdl.setText(PreferenceUtils.getInstance(getActivity()).getString("UserName", ""));
         //初始actionBar
-        tranactionbar= (TranslucentActionBar) view.findViewById(R.id.actionbar);
-        transcrollview= (TranslucentScrollView) view.findViewById(R.id.transcrollview);
+        tranactionbar = (TranslucentActionBar) view.findViewById(R.id.actionbar);
+        transcrollview = (TranslucentScrollView) view.findViewById(R.id.transcrollview);
         tranactionbar.setData("个人中心", 0, null, 0, null, null);
         //开启渐变
         tranactionbar.setNeedTranslucent();
@@ -153,14 +110,20 @@ public class MyFragment extends BaseFragment implements ActionBarClickListener, 
         transcrollview.setTransView(tranactionbar);
         //设置ActionBar键渐变颜色
         transcrollview.setTransColor(getResources().getColor(R.color.background_green));
-        headZoom= (RelativeLayout) view.findViewById(R.id.head_zoom);
+        headZoom = (RelativeLayout) view.findViewById(R.id.head_zoom);
         //关联伸缩的视图
         transcrollview.setPullZoomView(headZoom);
     }
 
     @Override
     protected void initData() {
-
+            reBangzhu.setOnClickListener(this);
+            reDingdan.setOnClickListener(this);
+            reFankui.setOnClickListener(this);
+            reGuanyu.setOnClickListener(this);
+            reQuanzi.setOnClickListener(this);
+            reXiaoxi.setOnClickListener(this);
+            reZiliao.setOnClickListener(this);
     }
 
 
@@ -195,7 +158,23 @@ public class MyFragment extends BaseFragment implements ActionBarClickListener, 
 
     @Override
     public void onClick(View v) {
-        switch (v.getId()){
+        switch (v.getId()) {
+            case R.id.re_quanzi:
+                Intent intent = new Intent(getActivity(), WebCircleActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.re_bangzhu:
+                Intent intent1 = new Intent(getActivity(), WebHelpActivity.class);
+                startActivity(intent1);
+                break;
+            case R.id.re_guanyu:
+                Intent intent2 = new Intent(getActivity(), WebIndexActivity.class);
+                startActivity(intent2);
+                break;
+            case R.id.re_fankui:
+                Intent intent3= new Intent(getActivity(), WebOpinionActivity.class);
+                startActivity(intent3);
+                break;
 
         }
     }

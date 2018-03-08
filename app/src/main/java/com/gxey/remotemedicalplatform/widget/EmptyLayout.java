@@ -95,7 +95,7 @@ public class EmptyLayout extends FrameLayout {
 
     public void showError(String text) {
         if (mBindView != null) mBindView.setVisibility(View.GONE);
-        if (!TextUtils.isEmpty(text)) mBtnReset.setText(text);
+         mBtnReset.setText("重新加载");
         setGone();
         mErrorView.setVisibility(View.VISIBLE);
     }

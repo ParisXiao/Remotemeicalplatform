@@ -5,12 +5,35 @@ package com.gxey.remotemedicalplatform.bean;
  */
 
 public class YiChuanBean {
+    private String id;
     private String yi_name;
     private String yi_time;
+    private String UserId;
+    private String AddUserId;
 
-    public YiChuanBean(String yi_name, String yi_time) {
-        this.yi_name = yi_name;
-        this.yi_time = yi_time;
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+
+    public String getUserId() {
+        return UserId;
+    }
+
+    public void setUserId(String userId) {
+        UserId = userId;
+    }
+
+    public String getAddUserId() {
+        return AddUserId;
+    }
+
+    public void setAddUserId(String addUserId) {
+        AddUserId = addUserId;
     }
 
     public String getYi_name() {

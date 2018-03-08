@@ -1,8 +1,8 @@
 package com.gxey.remotemedicalplatform.activity;
 
 import android.Manifest;
-import android.app.FragmentManager;
-import android.app.FragmentTransaction;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.content.Intent;
 import android.view.MotionEvent;
 import android.view.View;
@@ -93,7 +93,7 @@ public class MainActivity extends BaseActivity {
 
     }
     private void setDefaultFragment() {
-        FragmentManager fm = getFragmentManager();
+        FragmentManager fm = getSupportFragmentManager();
         FragmentTransaction transaction = fm.beginTransaction();
         transaction.replace(R.id.main_liner, HomeFragment.newInstance("Home"));
         transaction.commit();
@@ -117,7 +117,7 @@ public class MainActivity extends BaseActivity {
 
 
         my_bottom_bar.setTabSelectedListener(new BottomNavigationBar.OnTabSelectedListener() {
-            FragmentManager fm = getFragmentManager() ;
+            FragmentManager fm = getSupportFragmentManager() ;
             //开启事务
             FragmentTransaction transaction = fm.beginTransaction();
             @Override

@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
@@ -69,14 +68,10 @@ public class ActivityFamily extends BaseActivity implements View.OnClickListener
         getSupportActionBar().setDisplayShowTitleEnabled(false);
         ScreenUtils.setStatusBarLightMode(this, R.color.black);
 
-        swipeJiazu.post(new Runnable() {
-            @Override
-            public void run() {
-                swipeJiazu.setRefreshing(true);
-            }
-        });
+        initLoad();
+    }
 
-
+    private void initLoad() {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
@@ -84,19 +79,32 @@ public class ActivityFamily extends BaseActivity implements View.OnClickListener
             }
         }, 2000);
         //绑定
+        swipeJiazu.post(new Runnable() {
+            @Override
+            public void run() {
+                swipeJiazu.setRefreshing(true);
+            }
+        });
+        EmptyLayoutJiazu.showLoading();
         EmptyLayoutJiazu.bindView(linearJiazi);
         EmptyLayoutJiazu.setOnButtonClick(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                EmptyLayoutJiazu.showLoading();
                 //重新加载数据
-
-
+                new Handler().postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        getData();
+                    }
+                }, 2000);
             }
         });
         swipeJiazu.setColorSchemeResources(R.color.colorPrimary, R.color.colorPrimaryDark);
         swipeJiazu.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
+                EmptyLayoutJiazu.showLoading();
                 new Handler().postDelayed(new Runnable() {
                     @Override
                     public void run() {
@@ -116,7 +124,7 @@ public class ActivityFamily extends BaseActivity implements View.OnClickListener
     String msg;
 
     private void getData() {
-
+        EmptyLayoutJiazu.showLoading();
         Observable.create(new Observable.OnSubscribe<Integer>() {
 
             @Override
@@ -124,8 +132,7 @@ public class ActivityFamily extends BaseActivity implements View.OnClickListener
                 if (MyHttpHelper.isConllection(ActivityFamily.this)) {
                     String[] key = new String[]{};
                     Map<String, String> map = new HashMap<String, String>();
-                    String result = MyHttpHelper.GetMessage(ActivityFamily.this, UrlConfig.SelHistoryOfJW, key, map);
-                    Log.d("MyHttp","httpResult："+result);
+                    String result = MyHttpHelper.GetMessage(ActivityFamily.this, UrlConfig.SelTemperature, key, map);
                     if (!MyStrUtil.isEmpty(result)) {
                         JSONObject jsonObject;
                         try {

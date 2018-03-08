@@ -64,7 +64,12 @@
             android:name=".activity.PersonalInformationActivity"
             android:windowSoftInputMode="adjustPan|stateHidden"></activity>
         <!--圈子列表-->
-        <activity android:name=".activity.CircleActivity"></activity>
+        <activity android:name=".activity.CircleActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden|stateUnchanged"
+            ></activity>
         <!--附近药房-->
         <activity android:name=".activity.storesActivity"></activity>
         <!--修改密码-->
@@ -187,6 +192,26 @@
             android:screenOrientation="portrait"
             android:theme="@style/AppThemeWrite"
             android:windowSoftInputMode="adjustPan|stateUnchanged" />
+        <activity android:name=".activity.secondactivity.ActivityGuoMing"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeWrite"
+            android:windowSoftInputMode="adjustPan|stateUnchanged"/>
+        <activity android:name=".activity.secondactivity.ActivityHuanJing"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeWrite"
+            android:windowSoftInputMode="adjustPan|stateUnchanged"/>
+        <activity android:name=".activity.secondactivity.ActivityChangBeiYao"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeWrite"
+            android:windowSoftInputMode="adjustPan|stateUnchanged"/>
+        <activity android:name=".activity.secondactivity.ActivityTiJian"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeWrite"
+            android:windowSoftInputMode="adjustPan|stateUnchanged"/>
 
         <meta-data
             android:name="com.google.android.gms.version"

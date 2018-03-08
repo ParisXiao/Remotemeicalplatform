@@ -1,6 +1,7 @@
 package com.gxey.remotemedicalplatform.fragment;
 
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,7 +17,7 @@ import butterknife.Unbinder;
  * Created by simple on 16/12/16.
  */
 
-public abstract class BaseFragment extends android.app.Fragment{
+public abstract class BaseFragment extends Fragment {
     public LocationConfig mConfig;
     public HttpClientHelper mHttpHelper;
     Unbinder unbinder;

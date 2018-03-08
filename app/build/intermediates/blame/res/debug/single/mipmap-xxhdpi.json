@@ -1,5 +1,49 @@
 [
     {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\zaiwushuju.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\mipmap-xxhdpi\\zaiwushuju.png"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\sahngcehng_xuanzhong.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\mipmap-xxhdpi\\sahngcehng_xuanzhong.png"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\shouye_moren.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\mipmap-xxhdpi\\shouye_moren.png"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\guanli_xuanzhong.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\mipmap-xxhdpi\\guanli_xuanzhong.png"
+    },
+    {
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\zaiwushuju.png",
+        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\mipmap-xxhdpi\\zaiwushuju.png"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\banner_dot_select.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\mipmap-xxhdpi\\banner_dot_select.png"
+    },
+    {
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\banner_dot_select.png",
+        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\mipmap-xxhdpi\\banner_dot_select.png"
+    },
+    {
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\wode_xuanzhong.png",
+        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\mipmap-xxhdpi\\wode_xuanzhong.png"
+    },
+    {
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\guanli_xuanzhong.png",
+        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\mipmap-xxhdpi\\guanli_xuanzhong.png"
+    },
+    {
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\banner_dot_normal.png",
+        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\mipmap-xxhdpi\\banner_dot_normal.png"
+    },
+    {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\guanli_moren.png",
         "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\mipmap-xxhdpi\\guanli_moren.png"
     },
@@ -20,10 +64,6 @@
         "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\mipmap-xxhdpi\\shouye_xuanzhong.png"
     },
     {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\zaiwushuju.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\mipmap-xxhdpi\\zaiwushuju.png"
-    },
-    {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\sahngcehng_moren.png",
         "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\mipmap-xxhdpi\\sahngcehng_moren.png"
     },
@@ -32,23 +72,35 @@
         "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\mipmap-xxhdpi\\shouye_moren.png"
     },
     {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\banner_dot_select.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\mipmap-xxhdpi\\banner_dot_select.png"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\banner_dot_normal.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\mipmap-xxhdpi\\banner_dot_normal.png"
     },
     {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\wode_xuanzhong.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\mipmap-xxhdpi\\wode_xuanzhong.png"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\wode_xuanzhong.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\mipmap-xxhdpi\\wode_xuanzhong.png"
     },
     {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\banner_dot_normal.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\mipmap-xxhdpi\\banner_dot_normal.png"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\guanli_moren.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\mipmap-xxhdpi\\guanli_moren.png"
     },
     {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\guanli_xuanzhong.png",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\mipmap-xxhdpi\\guanli_xuanzhong.png"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\cuowu.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\mipmap-xxhdpi\\cuowu.png"
     },
     {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\sahngcehng_xuanzhong.png",
         "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\mipmap-xxhdpi\\sahngcehng_xuanzhong.png"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\shouye_xuanzhong.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\mipmap-xxhdpi\\shouye_xuanzhong.png"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\sahngcehng_moren.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\mipmap-xxhdpi\\sahngcehng_moren.png"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\wode_moren.png",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\mipmap-xxhdpi\\wode_moren.png"
     }
 ]

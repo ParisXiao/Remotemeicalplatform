@@ -1,5 +1,9 @@
 [
     {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\home_bg.jpg",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\mipmap-xxxhdpi\\home_bg.jpg"
+    },
+    {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\home_bg.jpg",
         "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\mipmap-xxxhdpi\\home_bg.jpg"
     }

@@ -24,6 +24,7 @@ import com.gxey.remotemedicalplatform.utils.ScreenUtils;
 import com.gxey.remotemedicalplatform.utils.ToastUtils;
 import com.gxey.remotemedicalplatform.widget.EmptyLayout;
 
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -31,7 +32,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Random;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -78,23 +78,51 @@ public class ActivityYiChuan extends BaseActivity implements View.OnClickListene
         getSupportActionBar().setDisplayShowTitleEnabled(false);
         ScreenUtils.setStatusBarLightMode(ActivityYiChuan.this, R.color.black);
         yiChuanBeen = new ArrayList<>();
-        getData();
+        initLoad();
         recyclerViewYichuan.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
         recyclerViewYichuan.setAdapter(adapter = new YiChuanAdapter(this, yiChuanBeen));
+
+    }
+    private void initLoad(){
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                getData();
+            }
+        }, 2000);
         //绑定
+        swipeYichuan.post(new Runnable() {
+            @Override
+            public void run() {
+                swipeYichuan.setRefreshing(true);
+            }
+        });
+        emptyLayoutYichuan.showLoading();
         emptyLayoutYichuan.bindView(recyclerViewYichuan);
         emptyLayoutYichuan.setOnButtonClick(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                emptyLayoutYichuan.showLoading();
                 //重新加载数据
-                getData();
+                new Handler().postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        getData();
+                    }
+                }, 2000);
             }
         });
         swipeYichuan.setColorSchemeResources(R.color.colorPrimary, R.color.colorPrimaryDark);
         swipeYichuan.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
-                swipeYichuan.setRefreshing(false);
+                emptyLayoutYichuan.showLoading();
+                new Handler().postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        getData();
+                    }
+                }, 2000);
 
             }
         });
@@ -102,7 +130,9 @@ public class ActivityYiChuan extends BaseActivity implements View.OnClickListene
 
     @Override
     protected void initData() {
-        initLoadMoreListener();
+        adapter.changeMoreStatus(adapter.NO_LOAD_MORE);
+//        initLoadMoreListener();
+
         adapter.setOnItemClickListener(new YiChuanAdapter.OnRecyclerViewItemClickListener() {
             @Override
             public void onClick(View view, YiChuanAdapter.ViewName viewName, int position) {
@@ -131,9 +161,20 @@ public class ActivityYiChuan extends BaseActivity implements View.OnClickListene
                             msg = jsonObject.getString("desc");
                             if (code.equals("0")) {
 //                                成功
-                                JSONObject jsonObject2 = new JSONObject(jsonObject.getString("result"));
-                                if (!MyStrUtil.isEmpty(jsonObject2)) {
+                                JSONArray jsonArray = new JSONArray(jsonObject.getString("result"));
+                                if (jsonArray.length()>0) {
+                                    for (int i = 0; i < jsonArray.length(); i++) {
+                                        YiChuanBean yiChuanBean =new YiChuanBean();
+                                        JSONObject temp = (JSONObject) jsonArray.get(i);
+                                        yiChuanBean.setId(temp.getString("Id"));
+                                        yiChuanBean.setYi_name(temp.getString("DiseaseName"));
+                                        yiChuanBean.setYi_time(temp.getString("PutInStorageTime"));
+                                        yiChuanBean.setAddUserId(temp.getString("AddUserId"));
+                                        yiChuanBean.setUserId(temp.getString("UserId"));
+                                        yiChuanBeen.add(yiChuanBean);
 
+                                    }
+                                    subscriber.onNext(1);
                                 } else {
                                     subscriber.onNext(0);
                                 }
@@ -169,19 +210,28 @@ public class ActivityYiChuan extends BaseActivity implements View.OnClickListene
             public void onNext(Integer integer) {
                 switch (integer) {
                     case 0:
+                        swipeYichuan.setRefreshing(false);
+                        adapter.notifyDataSetChanged();
                         emptyLayoutYichuan.showEmpty("暂无数据！");
                         break;
                     case 1:
+                        swipeYichuan.setRefreshing(false);
+                        adapter.notifyDataSetChanged();
                         emptyLayoutYichuan.showSuccess();
                         break;
                     case 2:
+                        swipeYichuan.setRefreshing(false);
+                        adapter.notifyDataSetChanged();
                         emptyLayoutYichuan.showError("加载出错！");
                         ToastUtils.s(ActivityYiChuan.this, msg);
                         break;
                     case 3:
+                        swipeYichuan.setRefreshing(false);
+                        adapter.notifyDataSetChanged();
                         emptyLayoutYichuan.showError("网络无连接！");
                         break;
                     case 4:
+                        swipeYichuan.setRefreshing(false);
                         ToastUtils.s(ActivityYiChuan.this, msg);
                         Intent intent = new Intent(ActivityYiChuan.this, LoginActivity.class);
                         startActivity(intent);
@@ -212,7 +262,7 @@ public class ActivityYiChuan extends BaseActivity implements View.OnClickListene
                         public void run() {
                             List<YiChuanBean> yiChuanBeen = new ArrayList<YiChuanBean>();
                             for (int i = 0; i < 10; i++) {
-                                yiChuanBeen.add(new YiChuanBean("神经病", "2018-03-02"));
+//                                yiChuanBeen.add(new YiChuanBean("神经病", "2018-03-02"));
                             }
                             adapter.AddFooterItem(yiChuanBeen);
                             //设置回到上拉加载更多
