@@ -132,7 +132,7 @@ public class ActivityFamily extends BaseActivity implements View.OnClickListener
                 if (MyHttpHelper.isConllection(ActivityFamily.this)) {
                     String[] key = new String[]{};
                     Map<String, String> map = new HashMap<String, String>();
-                    String result = MyHttpHelper.GetMessage(ActivityFamily.this, UrlConfig.SelCardiogram, key, map);
+                    String result = MyHttpHelper.GetMessage(ActivityFamily.this, UrlConfig.SelHistoryOfJW, key, map);
                     if (!MyStrUtil.isEmpty(result)) {
                         JSONObject jsonObject;
                         try {

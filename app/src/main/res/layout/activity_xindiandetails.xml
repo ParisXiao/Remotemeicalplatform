@@ -10,5 +10,7 @@
     <ImageView
         android:id="@+id/xindiantuImg"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:padding="@dimen/margin"
+        />
 </LinearLayout>

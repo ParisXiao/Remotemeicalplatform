@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_write"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_actionbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        >
+
+        <RelativeLayout
+            android:id="@+id/re_tiwen"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:id="@+id/tiwen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textSize="@dimen/textsize"
+                android:textColor="@color/text_gray"
+                android:text="疾病史" />
+            <View
+                android:id="@+id/tiwen_line"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/background_green"
+                android:visibility="invisible"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/re_xinlv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.2"
+            >
+            <TextView
+                android:id="@+id/xinlv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textSize="@dimen/textsize"
+                android:textColor="@color/text_gray"
+                android:text="手术史" />
+            <View
+                android:id="@+id/xinlv_line"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/background_green"
+                android:visibility="invisible"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/re_xuetang"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.2"
+            >
+            <TextView
+                android:id="@+id/xuetang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textSize="@dimen/textsize"
+                android:textColor="@color/text_gray"
+                android:text="外伤史" />
+            <View
+                android:id="@+id/xuetang_line"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/background_green"
+                android:visibility="invisible"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/re_xindiantu"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.2"
+            >
+            <TextView
+                android:id="@+id/xindiantu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textSize="@dimen/textsize"
+                android:textColor="@color/text_gray"
+                android:text="输血史" />
+            <View
+                android:id="@+id/xindiantu_line"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/background_green"
+                android:visibility="invisible"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/ViewPager_tijian"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+</LinearLayout>

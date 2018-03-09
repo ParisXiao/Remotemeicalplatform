@@ -1,11 +1,15 @@
 [
     {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\selsct_img.xml",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\layout\\selsct_img.xml"
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_jibing.xml",
+        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\layout\\item_jibing.xml"
     },
     {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9ca9bafbbb5077d9276ce107071f34079491cab3\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\selsct_img.xml",
+        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\layout\\selsct_img.xml"
     },
     {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_yichuan.xml",
@@ -162,6 +166,10 @@
     {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_fre_doctor_img.xml",
         "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\layout\\item_fre_doctor_img.xml"
+    },
+    {
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_xindiantu.xml",
+        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\layout\\item_xindiantu.xml"
     },
     {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
@@ -408,6 +416,10 @@
         "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\layout\\item_changbeiyao.xml"
     },
     {
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_xindiandetails.xml",
+        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\layout\\activity_xindiandetails.xml"
+    },
+    {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_over_myconsultation.xml",
         "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\layout\\activity_over_myconsultation.xml"
     },
@@ -632,6 +644,10 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\76935a1921f71a97a4d5da81c8a5320209f5542f\\output\\res\\layout\\__picker_item_directory.xml"
     },
     {
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_jiwangshi.xml",
+        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\layout\\activity_jiwangshi.xml"
+    },
+    {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9ca9bafbbb5077d9276ce107071f34079491cab3\\output\\res\\layout\\abc_action_menu_item_layout.xml"
     },
@@ -794,6 +810,10 @@
     {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_guoming.xml",
         "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\layout\\activity_guoming.xml"
+    },
+    {
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_xueya.xml",
+        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\layout\\item_xueya.xml"
     },
     {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fenzhen.xml",
@@ -1066,6 +1086,10 @@
     {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_actionbar.xml",
         "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\layout\\layout_actionbar.xml"
+    },
+    {
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_xindiantu.xml",
+        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\layout\\fragment_xindiantu.xml"
     },
     {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_home_type5.xml",

@@ -21,5 +21,5 @@ public class UrlConfig {
     public final static String SelBlood=POST+"api/HealthManage/SelBlood";//血压和心率 （其中 Pulse 代表 心率）
     public final static String SelBloodTang=POST+"api/HealthManage/SelBloodTang";//血糖
     public final static String SelCardiogram=POST+"api/HealthManage/SelCardiogram";//心电图
-    public final static String SelMedicalExaminationReport=POST+"api/HealthManage/SelMedicalExaminationReport";//心电图
+    public final static String SelMedicalExaminationReport=POST+"api/HealthManage/SelMedicalExaminationReport";//健康报告
 }
