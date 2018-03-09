@@ -27,7 +27,7 @@
                 android:textSize="@dimen/text_title"
                 android:layout_centerVertical="true"
                 android:textColor="@color/background_green"
-                android:text="体温测量数据"
+                android:text="血压测量数据"
                 />
         </RelativeLayout>
         <View
@@ -50,10 +50,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="@dimen/text_title"
-                android:text="体温（℃）"
+                android:text="收缩压（mmHg）"
                 />
             <TextView
-                android:id="@+id/item_cl_name"
+                android:id="@+id/item_ss_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
@@ -62,7 +62,75 @@
                 android:text="神经病"
                 />
         </RelativeLayout>
-
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginRight="@dimen/margin"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_title"
+                android:text="舒张压（mmHg）"
+                />
+            <TextView
+                android:id="@+id/item_sz_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:textSize="@dimen/text_title"
+                android:textColor="@color/text_black"
+                android:text="神经病"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginRight="@dimen/margin"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_title"
+                android:text="收缩压结果"
+                />
+            <TextView
+                android:id="@+id/item_ss_jg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:textSize="@dimen/text_title"
+                android:textColor="@color/text_black"
+                android:text="神经病"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginRight="@dimen/margin"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_title"
+                android:text="舒张压结果"
+                />
+            <TextView
+                android:id="@+id/item_sz_jg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:textSize="@dimen/text_title"
+                android:textColor="@color/text_black"
+                android:text="神经病"
+                />
+        </RelativeLayout>
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

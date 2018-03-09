@@ -16,7 +16,6 @@ import com.gxey.remotemedicalplatform.bean.TiWenBean;
 import com.gxey.remotemedicalplatform.mynetwork.MyHttpHelper;
 import com.gxey.remotemedicalplatform.newconfig.UrlConfig;
 import com.gxey.remotemedicalplatform.utils.MyStrUtil;
-import com.gxey.remotemedicalplatform.utils.TimeUtils;
 import com.gxey.remotemedicalplatform.utils.ToastUtils;
 
 import org.json.JSONArray;
@@ -79,7 +78,7 @@ public class FragmentTiWen extends BaseFragment {
                 swipeRefreshLayout.setRefreshing(true);
             }
         });
-        emptyLayout.showLoading();
+//        emptyLayout.showLoading();
         emptyLayout.bindView(recyclerView);
         emptyLayout.setOnButtonClick(new View.OnClickListener() {
             @Override

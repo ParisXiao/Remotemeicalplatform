@@ -1,11 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content">
-    <lecho.lib.hellocharts.view.ColumnChartView
-        android:id="@+id/chart"
+    <TextView
+        android:id="@+id/chartview_name"
         android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:layout_margin="10dp"/>
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_black"
+        android:textSize="@dimen/textsize"
+        android:text="收缩压"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp"
+        />
+    <com.gxey.remotemedicalplatform.widget.ChartView
+        android:id="@+id/chartview"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        app:bgcolor="#ffffff"
+        app:interval="50dp"
+        app:isScroll="false"
+        app:linecolor="#02bbb7"
+        app:xylinecolor="#e2e2e2"
+        app:xylinewidth="1dp"
+        app:xytextcolor="#7e7e7e"
+        app:xytextsize="12sp" />
 
 </LinearLayout>

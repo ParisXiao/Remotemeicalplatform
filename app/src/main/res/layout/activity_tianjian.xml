@@ -73,9 +73,32 @@
                 android:layout_centerInParent="true"
                 android:textSize="@dimen/textsize"
                 android:textColor="@color/text_gray"
-                android:text="血压和心率" />
+                android:text="血压" />
             <View
                 android:id="@+id/xueya_line"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/background_green"
+                android:visibility="invisible"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/re_xinlv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.2"
+            >
+            <TextView
+                android:id="@+id/xinlv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textSize="@dimen/textsize"
+                android:textColor="@color/text_gray"
+                android:text="心率" />
+            <View
+                android:id="@+id/xinlv_line"
                 android:layout_width="match_parent"
                 android:layout_height="2dp"
                 android:layout_alignParentBottom="true"

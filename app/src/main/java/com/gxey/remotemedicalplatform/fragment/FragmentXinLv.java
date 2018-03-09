@@ -11,8 +11,8 @@ import android.view.ViewGroup;
 
 import com.gxey.remotemedicalplatform.R;
 import com.gxey.remotemedicalplatform.activity.LoginActivity;
-import com.gxey.remotemedicalplatform.adapter.XueYaAdapter;
-import com.gxey.remotemedicalplatform.bean.XueYaBean;
+import com.gxey.remotemedicalplatform.adapter.XinLvAdapter;
+import com.gxey.remotemedicalplatform.bean.XinLvBean;
 import com.gxey.remotemedicalplatform.mynetwork.MyHttpHelper;
 import com.gxey.remotemedicalplatform.newconfig.UrlConfig;
 import com.gxey.remotemedicalplatform.utils.MyStrUtil;
@@ -39,7 +39,7 @@ import rx.schedulers.Schedulers;
  * Created by Administrator on 2018-03-08.
  */
 
-public class FragmentXueYa extends BaseFragment {
+public class FragmentXinLv extends BaseFragment {
     @BindView(R.id.RecyclerView)
     android.support.v7.widget.RecyclerView recyclerView;
     @BindView(R.id.EmptyLayout)
@@ -47,8 +47,8 @@ public class FragmentXueYa extends BaseFragment {
     @BindView(R.id.SwipeRefreshLayout)
     android.support.v4.widget.SwipeRefreshLayout swipeRefreshLayout;
     Unbinder unbinder;
-    private XueYaAdapter adapter;
-    private List<XueYaBean> list;
+    private XinLvAdapter adapter;
+    private List<XinLvBean> list;
 
     @Override
     protected int getLayoutId() {
@@ -60,7 +60,7 @@ public class FragmentXueYa extends BaseFragment {
         list = new ArrayList<>();
         initLoad();
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity(), LinearLayoutManager.VERTICAL, false));
-        recyclerView.setAdapter(adapter = new XueYaAdapter(getActivity(), list));
+        recyclerView.setAdapter(adapter = new XinLvAdapter(getActivity(), list));
     }
 
     private void initLoad() {
@@ -131,15 +131,12 @@ public class FragmentXueYa extends BaseFragment {
                                 JSONArray jsonArray = new JSONArray(jsonObject.getString("result"));
                                 if (jsonArray.length()>0) {
                                     for (int i = 0; i < jsonArray.length(); i++) {
-                                        XueYaBean Bean =new XueYaBean();
+                                        XinLvBean Bean =new XinLvBean();
                                         JSONObject temp = (JSONObject) jsonArray.get(i);
                                         Bean.setId(temp.getString("ID"));
                                         Bean.setHealthID(temp.getString("HealthID"));
                                         Bean.setDeviceID(temp.getString("DeviceID"));
-                                        Bean.setSystolic(temp.getString("Systolic"));
-                                        Bean.setDiastolic(temp.getString("Diastolic"));
-                                        Bean.setSystolicRemark(temp.getString("SystolicRemark"));
-                                        Bean.setDiastolicRemark(temp.getString("DiastolicRemark"));
+                                        Bean.setPulse(temp.getString("Pulse"));
                                         Bean.setRemark(temp.getString("Remark"));
                                         Bean.setAddtime(temp.getString("AddTime"));
                                         list.add(Bean);
@@ -218,9 +215,9 @@ public class FragmentXueYa extends BaseFragment {
         adapter.changeMoreStatus(adapter.NO_LOAD_MORE);
 //        initLoadMoreListener();
 
-        adapter.setOnItemClickListener(new XueYaAdapter.OnRecyclerViewItemClickListener() {
+        adapter.setOnItemClickListener(new XinLvAdapter.OnRecyclerViewItemClickListener() {
             @Override
-            public void onClick(View view, XueYaAdapter.ViewName viewName, int position) {
+            public void onClick(View view, XinLvAdapter.ViewName viewName, int position) {
 
             }
         });

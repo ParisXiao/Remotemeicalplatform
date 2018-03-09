@@ -10,7 +10,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.gxey.remotemedicalplatform.R;
-import com.gxey.remotemedicalplatform.bean.TiWenBean;
+import com.gxey.remotemedicalplatform.bean.XueTangBean;
 import com.gxey.remotemedicalplatform.utils.TimeUtils;
 import com.gxey.remotemedicalplatform.widget.ChartView;
 
@@ -27,14 +27,14 @@ import butterknife.ButterKnife;
  * Created by Administrator on 2017/12/12 0012.
  */
 
-public class TiWenAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> implements View.OnClickListener {
+public class XueTangAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> implements View.OnClickListener {
 
 
 
     private LayoutInflater mInflater;
     private Context context;
-    private List<TiWenBean> list = new ArrayList<>();
-    private List<TiWenBean> listLast = new ArrayList<>();
+    private List<XueTangBean> list = new ArrayList<>();
+    private List<XueTangBean> listLast = new ArrayList<>();
     private static final int TYPE_ITEM = 0;
     private static final int TYPE_FOOTER = 1;
     private static final int TYPE_Charts = 2;
@@ -50,7 +50,7 @@ public class TiWenAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
     private int mLoadMoreStatus = 0;
 
 
-    public TiWenAdapter(Context context, List<TiWenBean> list) {
+    public XueTangAdapter(Context context, List<XueTangBean> list) {
         this.context = context;
         this.list = list;
         this.mInflater = LayoutInflater.from(context);
@@ -93,7 +93,9 @@ public class TiWenAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
     @Override
     public void onBindViewHolder(final RecyclerView.ViewHolder holder, final int position) {
         if (holder instanceof MyViewHolder) {
-            ((MyViewHolder) holder).itemClName.setText(list.get(position).getTemperature());
+            ((MyViewHolder) holder).itemTitle.setText("血糖测量数据");
+            ((MyViewHolder) holder).itemNameText.setText("血糖比例（毫克/分升）");
+            ((MyViewHolder) holder).itemClName.setText(list.get(position).getBloodsugar());
             ((MyViewHolder) holder).itemYscl.setText(list.get(position).getDeviceID());
             ((MyViewHolder) holder).itemClTime.setText(list.get(position).getAddtime());
             ((MyViewHolder) holder).itemClBz.setText(list.get(position).getRemark());
@@ -122,13 +124,13 @@ public class TiWenAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
 
             }
 
-        }else if (holder instanceof ChartsViewHolder) {
-            if (list.size()>7){
+        } else if (holder instanceof ChartsViewHolder) {
+            if (list.size() > 7) {
                 for (int i = 0; i < 7; i++) {
-                    listLast.add(i,list.get(list.size()-i-1));
+                    listLast.add(i, list.get(list.size() - i - 1));
                 }
 
-            }else {
+            } else {
                 for (int i = 0; i < list.size(); i++) {
                     listLast.add(list.get(i));
                 }
@@ -141,15 +143,15 @@ public class TiWenAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
             Map<String, Float> value = new HashMap<>();
             for (int i = 0; i < listLast.size(); i++) {
                 xValue.add(TimeUtils.MyDateMD(listLast.get(i).getAddtime()));
-                value.put(TimeUtils.MyDateMD(listLast.get(i).getAddtime()), Float.valueOf(listLast.get(i).getTemperature()));//60--240
+                value.put(TimeUtils.MyDateMD(listLast.get(i).getAddtime()), Float.valueOf(listLast.get(i).getBloodsugar()));//60--240
             }
 
-            for (int i = 0; i < 22; i++) {
-                yValue.add((float) (i*2));
+            for (int i = 0; i < 20; i++) {
+                yValue.add((float) i);
             }
 
             ((ChartsViewHolder) holder).chart.setValue(value, xValue, yValue);
-            ((ChartsViewHolder) holder).chartName.setText("体温图");
+       ((ChartsViewHolder) holder).chartName.setText("血糖图");
 
 
         }
@@ -185,12 +187,12 @@ public class TiWenAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
         }
     }
 
-    public void AddHeaderItem(List<TiWenBean> items) {
+    public void AddHeaderItem(List<XueTangBean> items) {
         list.addAll(0, items);
         notifyDataSetChanged();
     }
 
-    public void AddFooterItem(List<TiWenBean> items) {
+    public void AddFooterItem(List<XueTangBean> items) {
         list.addAll(items);
         notifyDataSetChanged();
     }
@@ -206,6 +208,8 @@ public class TiWenAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
     }
 
     class MyViewHolder extends RecyclerView.ViewHolder {
+        @BindView(R.id.item_title)
+        TextView itemTitle;
         @BindView(R.id.item_cl_name)
         TextView itemClName;
         @BindView(R.id.item_yscl)
@@ -214,6 +218,8 @@ public class TiWenAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
         TextView itemClTime;
         @BindView(R.id.item_cl_bz)
         TextView itemClBz;
+        @BindView(R.id.item_name_text)
+        TextView itemNameText;
 
         public MyViewHolder(View itemView) {
             super(itemView);

@@ -10,7 +10,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.gxey.remotemedicalplatform.R;
-import com.gxey.remotemedicalplatform.bean.TiWenBean;
+import com.gxey.remotemedicalplatform.bean.XueYaBean;
 import com.gxey.remotemedicalplatform.utils.TimeUtils;
 import com.gxey.remotemedicalplatform.widget.ChartView;
 
@@ -27,17 +27,18 @@ import butterknife.ButterKnife;
  * Created by Administrator on 2017/12/12 0012.
  */
 
-public class TiWenAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> implements View.OnClickListener {
+public class XueYaAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> implements View.OnClickListener {
 
 
 
     private LayoutInflater mInflater;
     private Context context;
-    private List<TiWenBean> list = new ArrayList<>();
-    private List<TiWenBean> listLast = new ArrayList<>();
+    private List<XueYaBean> list = new ArrayList<>();
+    private List<XueYaBean> listLast = new ArrayList<>();
     private static final int TYPE_ITEM = 0;
     private static final int TYPE_FOOTER = 1;
-    private static final int TYPE_Charts = 2;
+    private static final int TYPE_ChartsSystolic = 2;
+    private static final int TYPE_ChartsDiastolic = 3;
 
     //上拉加载更多
     public static final int PULLUP_LOAD_MORE = 0;
@@ -50,7 +51,7 @@ public class TiWenAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
     private int mLoadMoreStatus = 0;
 
 
-    public TiWenAdapter(Context context, List<TiWenBean> list) {
+    public XueYaAdapter(Context context, List<XueYaBean> list) {
         this.context = context;
         this.list = list;
         this.mInflater = LayoutInflater.from(context);
@@ -65,7 +66,9 @@ public class TiWenAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
             //最后一个item设置为footerView
             return TYPE_FOOTER;
         } else if (position == 0) {
-            return TYPE_Charts;
+            return TYPE_ChartsSystolic;
+        } else if (position == 1) {
+            return TYPE_ChartsDiastolic;
         } else {
             return TYPE_ITEM;
         }
@@ -74,17 +77,21 @@ public class TiWenAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         if (viewType == TYPE_ITEM) {
-            View itemView = mInflater.inflate(R.layout.item_tiwen, parent, false);
+            View itemView = mInflater.inflate(R.layout.item_xueya, parent, false);
 
             return new MyViewHolder(itemView);
         } else if (viewType == TYPE_FOOTER) {
             View itemView = mInflater.inflate(R.layout.recycleview_footview, parent, false);
 
             return new FooterViewHolder(itemView);
-        } else if (viewType == TYPE_Charts) {
+        } else if (viewType == TYPE_ChartsSystolic) {
             View itemView = mInflater.inflate(R.layout.recycleview_charts, parent, false);
 
-            return new ChartsViewHolder(itemView);
+            return new ChartsView1Holder(itemView);
+        } else if (viewType == TYPE_ChartsDiastolic) {
+            View itemView = mInflater.inflate(R.layout.recycleview_charts, parent, false);
+
+            return new ChartsView2Holder(itemView);
         }
         return null;
 
@@ -93,7 +100,10 @@ public class TiWenAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
     @Override
     public void onBindViewHolder(final RecyclerView.ViewHolder holder, final int position) {
         if (holder instanceof MyViewHolder) {
-            ((MyViewHolder) holder).itemClName.setText(list.get(position).getTemperature());
+            ((MyViewHolder) holder).itemSsName.setText(list.get(position).getSystolic());
+            ((MyViewHolder) holder).itemSzName.setText(list.get(position).getDiastolic());
+            ((MyViewHolder) holder).itemSsJg.setText(list.get(position).getSystolicRemark());
+            ((MyViewHolder) holder).itemSzJg.setText(list.get(position).getDiastolicRemark());
             ((MyViewHolder) holder).itemYscl.setText(list.get(position).getDeviceID());
             ((MyViewHolder) holder).itemClTime.setText(list.get(position).getAddtime());
             ((MyViewHolder) holder).itemClBz.setText(list.get(position).getRemark());
@@ -122,13 +132,13 @@ public class TiWenAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
 
             }
 
-        }else if (holder instanceof ChartsViewHolder) {
-            if (list.size()>7){
+        } else if (holder instanceof ChartsView1Holder) {
+            if (list.size() > 7) {
                 for (int i = 0; i < 7; i++) {
-                    listLast.add(i,list.get(list.size()-i-1));
+                    listLast.add(i, list.get(list.size() - i - 1));
                 }
 
-            }else {
+            } else {
                 for (int i = 0; i < list.size(); i++) {
                     listLast.add(list.get(i));
                 }
@@ -141,16 +151,45 @@ public class TiWenAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
             Map<String, Float> value = new HashMap<>();
             for (int i = 0; i < listLast.size(); i++) {
                 xValue.add(TimeUtils.MyDateMD(listLast.get(i).getAddtime()));
-                value.put(TimeUtils.MyDateMD(listLast.get(i).getAddtime()), Float.valueOf(listLast.get(i).getTemperature()));//60--240
+                value.put(TimeUtils.MyDateMD(listLast.get(i).getAddtime()), Float.valueOf(listLast.get(i).getSystolic()));//60--240
             }
 
-            for (int i = 0; i < 22; i++) {
-                yValue.add((float) (i*2));
+            for (int i = 0; i < 26; i++) {
+                yValue.add((float) (i * 4));
             }
 
-            ((ChartsViewHolder) holder).chart.setValue(value, xValue, yValue);
-            ((ChartsViewHolder) holder).chartName.setText("体温图");
+            ((ChartsView1Holder) holder).chart.setValue(value, xValue, yValue);
+            ((ChartsView1Holder) holder).chartName.setText("收缩压图");
 
+
+        } else if (holder instanceof ChartsView2Holder) {
+            if (list.size() > 7) {
+                for (int i = 0; i < 7; i++) {
+                    listLast.add(i, list.get(list.size() - i - 1));
+                }
+
+            } else {
+                for (int i = 0; i < list.size(); i++) {
+                    listLast.add(list.get(i));
+                }
+            }
+            //x轴坐标对应的数据
+            List<String> xValue = new ArrayList<>();
+            //y轴坐标对应的数据
+            List<Float> yValue = new ArrayList<>();
+            //折线对应的数据
+            Map<String, Float> value = new HashMap<>();
+            for (int i = 0; i < listLast.size(); i++) {
+                xValue.add(TimeUtils.MyDateMD(listLast.get(i).getAddtime()));
+                value.put(TimeUtils.MyDateMD(listLast.get(i).getAddtime()), Float.valueOf(listLast.get(i).getDiastolic()));//60--240
+            }
+
+            for (int i = 0; i < 26; i++) {
+                yValue.add((float) (i * 5));
+            }
+
+            ((ChartsView2Holder) holder).chart.setValue(value, xValue, yValue);
+            ((ChartsView2Holder) holder).chartName.setText("舒张压图");
 
         }
     }
@@ -160,12 +199,24 @@ public class TiWenAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
         return list.size() + 1;
     }
 
-    public class ChartsViewHolder extends RecyclerView.ViewHolder {
+    public class ChartsView1Holder extends RecyclerView.ViewHolder {
+        @BindView(R.id.chartview_name)
+        TextView chartName;
+        @BindView(R.id.chartview)
+        ChartView chart;
+
+        public ChartsView1Holder(View itemView) {
+            super(itemView);
+            ButterKnife.bind(this, itemView);
+        }
+    }
+
+    public class ChartsView2Holder extends RecyclerView.ViewHolder {
         @BindView(R.id.chartview)
         ChartView chart;
         @BindView(R.id.chartview_name)
         TextView chartName;
-        public ChartsViewHolder(View itemView) {
+        public ChartsView2Holder(View itemView) {
             super(itemView);
             ButterKnife.bind(this, itemView);
         }
@@ -185,12 +236,12 @@ public class TiWenAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
         }
     }
 
-    public void AddHeaderItem(List<TiWenBean> items) {
+    public void AddHeaderItem(List<XueYaBean> items) {
         list.addAll(0, items);
         notifyDataSetChanged();
     }
 
-    public void AddFooterItem(List<TiWenBean> items) {
+    public void AddFooterItem(List<XueYaBean> items) {
         list.addAll(items);
         notifyDataSetChanged();
     }
@@ -206,8 +257,16 @@ public class TiWenAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
     }
 
     class MyViewHolder extends RecyclerView.ViewHolder {
-        @BindView(R.id.item_cl_name)
-        TextView itemClName;
+        @BindView(R.id.item_ss_name)
+        TextView itemSsName;
+        @BindView(R.id.item_sz_name)
+        TextView itemSzName;
+        @BindView(R.id.item_ss_jg)
+        TextView itemSsJg;
+        @BindView(R.id.item_sz_jg)
+        TextView itemSzJg;
+        @BindView(R.id.item_ys_text)
+        TextView itemYsText;
         @BindView(R.id.item_yscl)
         TextView itemYscl;
         @BindView(R.id.item_cl_time)

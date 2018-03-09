@@ -10,14 +10,11 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.gxey.remotemedicalplatform.R;
-import com.gxey.remotemedicalplatform.bean.TiWenBean;
-import com.gxey.remotemedicalplatform.utils.TimeUtils;
+import com.gxey.remotemedicalplatform.bean.XinDianTuBean;
 import com.gxey.remotemedicalplatform.widget.ChartView;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -27,14 +24,13 @@ import butterknife.ButterKnife;
  * Created by Administrator on 2017/12/12 0012.
  */
 
-public class TiWenAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> implements View.OnClickListener {
-
+public class XinDianTuAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> implements View.OnClickListener {
 
 
     private LayoutInflater mInflater;
     private Context context;
-    private List<TiWenBean> list = new ArrayList<>();
-    private List<TiWenBean> listLast = new ArrayList<>();
+    private List<XinDianTuBean> list = new ArrayList<>();
+    private List<XinDianTuBean> listLast = new ArrayList<>();
     private static final int TYPE_ITEM = 0;
     private static final int TYPE_FOOTER = 1;
     private static final int TYPE_Charts = 2;
@@ -50,7 +46,7 @@ public class TiWenAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
     private int mLoadMoreStatus = 0;
 
 
-    public TiWenAdapter(Context context, List<TiWenBean> list) {
+    public XinDianTuAdapter(Context context, List<XinDianTuBean> list) {
         this.context = context;
         this.list = list;
         this.mInflater = LayoutInflater.from(context);
@@ -64,8 +60,6 @@ public class TiWenAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
         if (position + 1 == getItemCount()) {
             //最后一个item设置为footerView
             return TYPE_FOOTER;
-        } else if (position == 0) {
-            return TYPE_Charts;
         } else {
             return TYPE_ITEM;
         }
@@ -74,17 +68,13 @@ public class TiWenAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         if (viewType == TYPE_ITEM) {
-            View itemView = mInflater.inflate(R.layout.item_tiwen, parent, false);
+            View itemView = mInflater.inflate(R.layout.item_xindiantu, parent, false);
 
             return new MyViewHolder(itemView);
         } else if (viewType == TYPE_FOOTER) {
             View itemView = mInflater.inflate(R.layout.recycleview_footview, parent, false);
 
             return new FooterViewHolder(itemView);
-        } else if (viewType == TYPE_Charts) {
-            View itemView = mInflater.inflate(R.layout.recycleview_charts, parent, false);
-
-            return new ChartsViewHolder(itemView);
         }
         return null;
 
@@ -93,11 +83,25 @@ public class TiWenAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
     @Override
     public void onBindViewHolder(final RecyclerView.ViewHolder holder, final int position) {
         if (holder instanceof MyViewHolder) {
-            ((MyViewHolder) holder).itemClName.setText(list.get(position).getTemperature());
-            ((MyViewHolder) holder).itemYscl.setText(list.get(position).getDeviceID());
-            ((MyViewHolder) holder).itemClTime.setText(list.get(position).getAddtime());
-            ((MyViewHolder) holder).itemClBz.setText(list.get(position).getRemark());
-
+            if (list.get(position).getIsException().equals("1")){
+                ((MyViewHolder) holder).itemSfyc.setText("异常");
+                ((MyViewHolder) holder).itemSfyc.setTextColor(context.getResources().getColor(R.color.red));
+            }else {
+                ((MyViewHolder) holder).itemSfyc.setText("正常");
+            }
+            ((MyViewHolder) holder).itemSbInfo.setText(list.get(position).getDeviceID());
+            ((MyViewHolder) holder).itemCsTime.setText(list.get(position).getAddtime());
+            ((MyViewHolder) holder).itemStartTime.setText(list.get(position).getStartTime());
+            ((MyViewHolder) holder).itemEndTime.setText(list.get(position).getEndTime());
+            if (list.get(position).getExceptionStartTime().equals("1900-01-01 00:00:00")){
+                ((MyViewHolder) holder).itemYcstartTime.setText("");
+                ((MyViewHolder) holder).itemYcendTime.setText("");
+            }else {
+                ((MyViewHolder) holder).itemYcstartTime.setText(list.get(position).getExceptionStartTime());
+                ((MyViewHolder) holder).itemYcendTime.setText(list.get(position).getExceptionEndTime());
+            }
+            ((MyViewHolder) holder).itemBjInfo.setText(list.get(position).getAlertInfo());
+            ((MyViewHolder) holder).itemClick.setTag(position);
             ((MyViewHolder) holder).itemView.setTag(position);
 
         } else if (holder instanceof FooterViewHolder) {
@@ -122,36 +126,6 @@ public class TiWenAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
 
             }
 
-        }else if (holder instanceof ChartsViewHolder) {
-            if (list.size()>7){
-                for (int i = 0; i < 7; i++) {
-                    listLast.add(i,list.get(list.size()-i-1));
-                }
-
-            }else {
-                for (int i = 0; i < list.size(); i++) {
-                    listLast.add(list.get(i));
-                }
-            }
-            //x轴坐标对应的数据
-            List<String> xValue = new ArrayList<>();
-            //y轴坐标对应的数据
-            List<Float> yValue = new ArrayList<>();
-            //折线对应的数据
-            Map<String, Float> value = new HashMap<>();
-            for (int i = 0; i < listLast.size(); i++) {
-                xValue.add(TimeUtils.MyDateMD(listLast.get(i).getAddtime()));
-                value.put(TimeUtils.MyDateMD(listLast.get(i).getAddtime()), Float.valueOf(listLast.get(i).getTemperature()));//60--240
-            }
-
-            for (int i = 0; i < 22; i++) {
-                yValue.add((float) (i*2));
-            }
-
-            ((ChartsViewHolder) holder).chart.setValue(value, xValue, yValue);
-            ((ChartsViewHolder) holder).chartName.setText("体温图");
-
-
         }
     }
 
@@ -165,6 +139,7 @@ public class TiWenAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
         ChartView chart;
         @BindView(R.id.chartview_name)
         TextView chartName;
+
         public ChartsViewHolder(View itemView) {
             super(itemView);
             ButterKnife.bind(this, itemView);
@@ -185,12 +160,12 @@ public class TiWenAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
         }
     }
 
-    public void AddHeaderItem(List<TiWenBean> items) {
+    public void AddHeaderItem(List<XinDianTuBean> items) {
         list.addAll(0, items);
         notifyDataSetChanged();
     }
 
-    public void AddFooterItem(List<TiWenBean> items) {
+    public void AddFooterItem(List<XinDianTuBean> items) {
         list.addAll(items);
         notifyDataSetChanged();
     }
@@ -206,18 +181,39 @@ public class TiWenAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
     }
 
     class MyViewHolder extends RecyclerView.ViewHolder {
-        @BindView(R.id.item_cl_name)
-        TextView itemClName;
-        @BindView(R.id.item_yscl)
-        TextView itemYscl;
-        @BindView(R.id.item_cl_time)
-        TextView itemClTime;
-        @BindView(R.id.item_cl_bz)
-        TextView itemClBz;
+
+        @BindView(R.id.item_title)
+        TextView itemTitle;
+        @BindView(R.id.item_click)
+        TextView itemClick;
+        @BindView(R.id.item_name_text)
+        TextView itemNameText;
+        @BindView(R.id.item_sfyc)
+        TextView itemSfyc;
+        @BindView(R.id.item_ys_text)
+        TextView itemYsText;
+        @BindView(R.id.item_start_time)
+        TextView itemStartTime;
+        @BindView(R.id.item_time_text)
+        TextView itemTimeText;
+        @BindView(R.id.item_end_time)
+        TextView itemEndTime;
+        @BindView(R.id.item_ycstart_time)
+        TextView itemYcstartTime;
+        @BindView(R.id.item_ycend_time)
+        TextView itemYcendTime;
+        @BindView(R.id.item_bj_info)
+        TextView itemBjInfo;
+        @BindView(R.id.item_sb_info)
+        TextView itemSbInfo;
+        @BindView(R.id.item_cs_time)
+        TextView itemCsTime;
 
         public MyViewHolder(View itemView) {
             super(itemView);
             ButterKnife.bind(this, itemView);
+            itemClick.setOnClickListener(XinDianTuAdapter.this);
+
         }
 
     }
@@ -246,9 +242,9 @@ public class TiWenAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
         int position = (int) v.getTag();
         if (mOnItemClickListener != null) {
             switch (v.getId()) {
-//                case R.id.item_baogao_chakan:
-//                    mOnItemClickListener.onClick(v, ViewName.Button, position);
-//                    break;
+                case R.id.item_click:
+                    mOnItemClickListener.onClick(v, ViewName.Button, position);
+                    break;
                 default:
                     mOnItemClickListener.onClick(v, ViewName.ITEM, position);
                     break;

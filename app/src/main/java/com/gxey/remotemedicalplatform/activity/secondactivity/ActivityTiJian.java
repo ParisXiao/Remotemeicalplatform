@@ -14,6 +14,7 @@ import com.gxey.remotemedicalplatform.activity.BaseActivity;
 import com.gxey.remotemedicalplatform.adapter.TabFragmentPagerAdapter;
 import com.gxey.remotemedicalplatform.fragment.FragmentTiWen;
 import com.gxey.remotemedicalplatform.fragment.FragmentXinDianTu;
+import com.gxey.remotemedicalplatform.fragment.FragmentXinLv;
 import com.gxey.remotemedicalplatform.fragment.FragmentXueTang;
 import com.gxey.remotemedicalplatform.fragment.FragmentXueYa;
 import com.gxey.remotemedicalplatform.fragment.FragmentXueYang;
@@ -70,6 +71,12 @@ public class ActivityTiJian extends BaseActivity implements View.OnClickListener
     RelativeLayout reXuetang;
     @BindView(R.id.re_xindiantu)
     RelativeLayout reXindiantu;
+    @BindView(R.id.xinlv)
+    TextView xinlv;
+    @BindView(R.id.xinlv_line)
+    View xinlvLine;
+    @BindView(R.id.re_xinlv)
+    RelativeLayout reXinlv;
     private List<Fragment> list;
     private TabFragmentPagerAdapter adapter;
 
@@ -94,6 +101,7 @@ public class ActivityTiJian extends BaseActivity implements View.OnClickListener
         reTiwen.setOnClickListener(this);
         reXueyang.setOnClickListener(this);
         reXueya.setOnClickListener(this);
+        reXinlv.setOnClickListener(this);
         reXuetang.setOnClickListener(this);
         reXindiantu.setOnClickListener(this);
         ViewPagerTijian.setOnPageChangeListener(new MyPagerChangeListener());
@@ -102,6 +110,7 @@ public class ActivityTiJian extends BaseActivity implements View.OnClickListener
         list.add(new FragmentTiWen());
         list.add(new FragmentXueYang());
         list.add(new FragmentXueYa());
+        list.add(new FragmentXinLv());
         list.add(new FragmentXueTang());
         list.add(new FragmentXinDianTu());
         adapter = new TabFragmentPagerAdapter(getSupportFragmentManager(), list);
@@ -125,63 +134,93 @@ public class ActivityTiJian extends BaseActivity implements View.OnClickListener
                 finish();
                 break;
             case R.id.re_tiwen:
+                ViewPagerTijian.setCurrentItem(0);
                 tiwen.setTextColor(getResources().getColor(R.color.background_green));
                 xueyang.setTextColor(getResources().getColor(R.color.text_gray));
                 xuetang.setTextColor(getResources().getColor(R.color.text_gray));
                 xindiantu.setTextColor(getResources().getColor(R.color.text_gray));
                 xueya.setTextColor(getResources().getColor(R.color.text_gray));
+                xinlv.setTextColor(getResources().getColor(R.color.text_gray));
                 tiwenLine.setVisibility(View.VISIBLE);
                 xindiantuLine.setVisibility(View.INVISIBLE);
                 xuetangLine.setVisibility(View.INVISIBLE);
                 xueyaLine.setVisibility(View.INVISIBLE);
+                xinlvLine.setVisibility(View.INVISIBLE);
                 xueyangLine.setVisibility(View.INVISIBLE);
                 break;
             case R.id.re_xueyang:
+                ViewPagerTijian.setCurrentItem(1);
                 tiwen.setTextColor(getResources().getColor(R.color.text_gray));
                 xueyang.setTextColor(getResources().getColor(R.color.background_green));
                 xuetang.setTextColor(getResources().getColor(R.color.text_gray));
                 xindiantu.setTextColor(getResources().getColor(R.color.text_gray));
                 xueya.setTextColor(getResources().getColor(R.color.text_gray));
+                xinlv.setTextColor(getResources().getColor(R.color.text_gray));
                 tiwenLine.setVisibility(View.INVISIBLE);
                 xindiantuLine.setVisibility(View.INVISIBLE);
                 xuetangLine.setVisibility(View.INVISIBLE);
                 xueyaLine.setVisibility(View.INVISIBLE);
+                xinlvLine.setVisibility(View.INVISIBLE);
                 xueyangLine.setVisibility(View.VISIBLE);
                 break;
             case R.id.re_xueya:
+                ViewPagerTijian.setCurrentItem(2);
                 tiwen.setTextColor(getResources().getColor(R.color.text_gray));
                 xueyang.setTextColor(getResources().getColor(R.color.text_gray));
                 xuetang.setTextColor(getResources().getColor(R.color.text_gray));
                 xindiantu.setTextColor(getResources().getColor(R.color.text_gray));
                 xueya.setTextColor(getResources().getColor(R.color.background_green));
+                xinlv.setTextColor(getResources().getColor(R.color.text_gray));
                 tiwenLine.setVisibility(View.INVISIBLE);
                 xindiantuLine.setVisibility(View.INVISIBLE);
                 xuetangLine.setVisibility(View.INVISIBLE);
                 xueyaLine.setVisibility(View.VISIBLE);
+                xinlvLine.setVisibility(View.INVISIBLE);
                 xueyangLine.setVisibility(View.INVISIBLE);
                 break;
+            case R.id.re_xinlv:
+                ViewPagerTijian.setCurrentItem(3);
+                tiwen.setTextColor(getResources().getColor(R.color.text_gray));
+                xueyang.setTextColor(getResources().getColor(R.color.text_gray));
+                xuetang.setTextColor(getResources().getColor(R.color.text_gray));
+                xindiantu.setTextColor(getResources().getColor(R.color.text_gray));
+                xueya.setTextColor(getResources().getColor(R.color.text_gray));
+                xinlv.setTextColor(getResources().getColor(R.color.background_green));
+                tiwenLine.setVisibility(View.INVISIBLE);
+                xindiantuLine.setVisibility(View.INVISIBLE);
+                xuetangLine.setVisibility(View.INVISIBLE);
+                xueyaLine.setVisibility(View.INVISIBLE);
+                xueyangLine.setVisibility(View.INVISIBLE);
+                xinlvLine.setVisibility(View.VISIBLE);
+                break;
             case R.id.re_xuetang:
+                ViewPagerTijian.setCurrentItem(4);
                 tiwen.setTextColor(getResources().getColor(R.color.text_gray));
                 xueyang.setTextColor(getResources().getColor(R.color.text_gray));
                 xuetang.setTextColor(getResources().getColor(R.color.background_green));
                 xindiantu.setTextColor(getResources().getColor(R.color.text_gray));
                 xueya.setTextColor(getResources().getColor(R.color.text_gray));
+                xinlv.setTextColor(getResources().getColor(R.color.text_gray));
                 tiwenLine.setVisibility(View.INVISIBLE);
                 xindiantuLine.setVisibility(View.INVISIBLE);
                 xuetangLine.setVisibility(View.VISIBLE);
                 xueyaLine.setVisibility(View.INVISIBLE);
+                xinlvLine.setVisibility(View.INVISIBLE);
                 xueyangLine.setVisibility(View.INVISIBLE);
                 break;
             case R.id.re_xindiantu:
+                ViewPagerTijian.setCurrentItem(5);
                 tiwen.setTextColor(getResources().getColor(R.color.text_gray));
                 xueyang.setTextColor(getResources().getColor(R.color.text_gray));
                 xuetang.setTextColor(getResources().getColor(R.color.text_gray));
                 xindiantu.setTextColor(getResources().getColor(R.color.background_green));
                 xueya.setTextColor(getResources().getColor(R.color.text_gray));
+                xinlv.setTextColor(getResources().getColor(R.color.text_gray));
                 tiwenLine.setVisibility(View.INVISIBLE);
                 xindiantuLine.setVisibility(View.VISIBLE);
                 xuetangLine.setVisibility(View.INVISIBLE);
                 xueyaLine.setVisibility(View.INVISIBLE);
+                xinlvLine.setVisibility(View.INVISIBLE);
                 xueyangLine.setVisibility(View.INVISIBLE);
                 break;
         }
@@ -209,8 +248,10 @@ public class ActivityTiJian extends BaseActivity implements View.OnClickListener
                     xuetang.setTextColor(getResources().getColor(R.color.text_gray));
                     xindiantu.setTextColor(getResources().getColor(R.color.text_gray));
                     xueya.setTextColor(getResources().getColor(R.color.text_gray));
+                    xinlv.setTextColor(getResources().getColor(R.color.text_gray));
                     tiwenLine.setVisibility(View.VISIBLE);
                     xindiantuLine.setVisibility(View.INVISIBLE);
+                    xinlvLine.setVisibility(View.INVISIBLE);
                     xuetangLine.setVisibility(View.INVISIBLE);
                     xueyaLine.setVisibility(View.INVISIBLE);
                     xueyangLine.setVisibility(View.INVISIBLE);
@@ -221,10 +262,12 @@ public class ActivityTiJian extends BaseActivity implements View.OnClickListener
                     xuetang.setTextColor(getResources().getColor(R.color.text_gray));
                     xindiantu.setTextColor(getResources().getColor(R.color.text_gray));
                     xueya.setTextColor(getResources().getColor(R.color.text_gray));
+                    xinlv.setTextColor(getResources().getColor(R.color.text_gray));
                     tiwenLine.setVisibility(View.INVISIBLE);
                     xindiantuLine.setVisibility(View.INVISIBLE);
                     xuetangLine.setVisibility(View.INVISIBLE);
                     xueyaLine.setVisibility(View.INVISIBLE);
+                    xinlvLine.setVisibility(View.INVISIBLE);
                     xueyangLine.setVisibility(View.VISIBLE);
                     break;
                 case 2:
@@ -233,35 +276,55 @@ public class ActivityTiJian extends BaseActivity implements View.OnClickListener
                     xuetang.setTextColor(getResources().getColor(R.color.text_gray));
                     xindiantu.setTextColor(getResources().getColor(R.color.text_gray));
                     xueya.setTextColor(getResources().getColor(R.color.background_green));
+                    xinlv.setTextColor(getResources().getColor(R.color.text_gray));
                     tiwenLine.setVisibility(View.INVISIBLE);
                     xindiantuLine.setVisibility(View.INVISIBLE);
                     xuetangLine.setVisibility(View.INVISIBLE);
+                    xinlvLine.setVisibility(View.INVISIBLE);
                     xueyaLine.setVisibility(View.VISIBLE);
                     xueyangLine.setVisibility(View.INVISIBLE);
                     break;
                 case 3:
                     tiwen.setTextColor(getResources().getColor(R.color.text_gray));
                     xueyang.setTextColor(getResources().getColor(R.color.text_gray));
-                    xuetang.setTextColor(getResources().getColor(R.color.background_green));
+                    xinlv.setTextColor(getResources().getColor(R.color.background_green));
                     xindiantu.setTextColor(getResources().getColor(R.color.text_gray));
                     xueya.setTextColor(getResources().getColor(R.color.text_gray));
+                    xuetang.setTextColor(getResources().getColor(R.color.text_gray));
                     tiwenLine.setVisibility(View.INVISIBLE);
                     xindiantuLine.setVisibility(View.INVISIBLE);
-                    xuetangLine.setVisibility(View.VISIBLE);
+                    xuetangLine.setVisibility(View.INVISIBLE);
+                    xinlvLine.setVisibility(View.VISIBLE);
                     xueyaLine.setVisibility(View.INVISIBLE);
                     xueyangLine.setVisibility(View.INVISIBLE);
                     break;
                 case 4:
                     tiwen.setTextColor(getResources().getColor(R.color.text_gray));
                     xueyang.setTextColor(getResources().getColor(R.color.text_gray));
+                    xuetang.setTextColor(getResources().getColor(R.color.background_green));
+                    xindiantu.setTextColor(getResources().getColor(R.color.text_gray));
+                    xueya.setTextColor(getResources().getColor(R.color.text_gray));
+                    xinlv.setTextColor(getResources().getColor(R.color.text_gray));
+                    tiwenLine.setVisibility(View.INVISIBLE);
+                    xindiantuLine.setVisibility(View.INVISIBLE);
+                    xuetangLine.setVisibility(View.VISIBLE);
+                    xueyaLine.setVisibility(View.INVISIBLE);
+                    xueyangLine.setVisibility(View.INVISIBLE);
+                    xinlvLine.setVisibility(View.INVISIBLE);
+                    break;
+                case 5:
+                    tiwen.setTextColor(getResources().getColor(R.color.text_gray));
+                    xueyang.setTextColor(getResources().getColor(R.color.text_gray));
                     xuetang.setTextColor(getResources().getColor(R.color.text_gray));
                     xindiantu.setTextColor(getResources().getColor(R.color.background_green));
                     xueya.setTextColor(getResources().getColor(R.color.text_gray));
+                    xinlv.setTextColor(getResources().getColor(R.color.text_gray));
                     tiwenLine.setVisibility(View.INVISIBLE);
                     xindiantuLine.setVisibility(View.VISIBLE);
                     xuetangLine.setVisibility(View.INVISIBLE);
                     xueyaLine.setVisibility(View.INVISIBLE);
                     xueyangLine.setVisibility(View.INVISIBLE);
+                    xinlvLine.setVisibility(View.INVISIBLE);
                     break;
             }
         }

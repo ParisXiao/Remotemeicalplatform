@@ -27,7 +27,18 @@
                 android:textSize="@dimen/text_title"
                 android:layout_centerVertical="true"
                 android:textColor="@color/background_green"
-                android:text="体温测量数据"
+                android:text="心电测量数据"
+                />
+            <TextView
+                android:id="@+id/item_click"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_title"
+                android:textColor="#1571FA"
+                android:gravity="center"
+                android:text="详情"
+                android:layout_alignParentRight="true"
+                android:drawableRight="@drawable/jiantou"
                 />
         </RelativeLayout>
         <View
@@ -50,10 +61,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="@dimen/text_title"
-                android:text="体温（℃）"
+                android:text="是否异常"
                 />
             <TextView
-                android:id="@+id/item_cl_name"
+                android:id="@+id/item_sfyc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
@@ -75,10 +86,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="@dimen/text_title"
-                android:text="测量设备ID"
+                android:text="开始时间"
                 />
             <TextView
-                android:id="@+id/item_yscl"
+                android:id="@+id/item_start_time"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="@dimen/text_title"
@@ -99,10 +110,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="@dimen/text_title"
-                android:text="测量时间"
+                android:text="结束时间"
                 />
             <TextView
-                android:id="@+id/item_cl_time"
+                android:id="@+id/item_end_time"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="@dimen/text_title"
@@ -116,7 +127,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:layout_marginBottom="20dp"
             android:layout_marginLeft="@dimen/margin"
             android:layout_marginRight="@dimen/margin"
             >
@@ -124,10 +134,107 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="@dimen/text_title"
-                android:text="备注"
+                android:text="异常开始时间"
                 />
             <TextView
-                android:id="@+id/item_cl_bz"
+                android:id="@+id/item_ycstart_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_title"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/text_black"
+                android:text="2018-03-03"
+                />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginRight="@dimen/margin"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_title"
+                android:text="异常结束时间"
+                />
+            <TextView
+                android:id="@+id/item_ycend_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_title"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/text_black"
+                android:text="2018-03-03"
+                />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginRight="@dimen/margin"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_title"
+                android:text="报警信息"
+                />
+            <TextView
+                android:id="@+id/item_bj_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_title"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/text_black"
+                android:text="2018-03-03"
+                />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginRight="@dimen/margin"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_title"
+                android:text="测量设备ID"
+                />
+            <TextView
+                android:id="@+id/item_sb_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_title"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/text_black"
+                android:text="2018-03-03"
+                />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="@dimen/margin"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginRight="@dimen/margin"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_title"
+                android:text="上传时间"
+                />
+            <TextView
+                android:id="@+id/item_cs_time"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="@dimen/text_title"
