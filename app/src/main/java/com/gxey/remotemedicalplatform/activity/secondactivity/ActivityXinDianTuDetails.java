@@ -1,5 +1,6 @@
 package com.gxey.remotemedicalplatform.activity.secondactivity;
 
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
@@ -9,7 +10,6 @@ import android.widget.TextView;
 
 import com.gxey.remotemedicalplatform.R;
 import com.gxey.remotemedicalplatform.activity.BaseActivity;
-import com.gxey.remotemedicalplatform.utils.Base64Utils;
 import com.gxey.remotemedicalplatform.utils.MyStrUtil;
 import com.gxey.remotemedicalplatform.utils.ScreenUtils;
 
@@ -51,7 +51,7 @@ public class ActivityXinDianTuDetails extends BaseActivity implements View.OnCli
     protected void initData() {
         String ecg=getIntent().getStringExtra("ecg");
         if (!MyStrUtil.isEmpty(ecg))
-        xindiantuImg.setImageBitmap(Base64Utils.base64ToBitmap(ecg));
+        xindiantuImg.setImageURI(Uri.parse(ecg));
     }
 
     @Override
