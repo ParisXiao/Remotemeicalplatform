@@ -5,57 +5,85 @@ package com.gxey.remotemedicalplatform.bean;
  */
 
 public class HealthBGBean {
-    private String baogaoDanhao;
-    private String baogaoHZname;
-    private String baogaoYSname;
-    private String baogaoZuZhi;
-    private String baogaoTime;
+    private String id;
+    private String organizationname;
+    private String measurementtime;
+    private String measuringdoctorname;
+    private String physicalexaminationid;
+    private String userid;
+    private String url;
+    private String uname;
+    private String fullname;
 
-    public HealthBGBean(String baogaoDanhao, String baogaoHZname, String baogaoYSname, String baogaoZuZhi, String baogaoTime) {
-        this.baogaoDanhao = baogaoDanhao;
-        this.baogaoHZname = baogaoHZname;
-        this.baogaoYSname = baogaoYSname;
-        this.baogaoZuZhi = baogaoZuZhi;
-        this.baogaoTime = baogaoTime;
+    public String getId() {
+        return id;
     }
 
-    public String getBaogaoDanhao() {
-        return baogaoDanhao;
+    public void setId(String id) {
+        this.id = id;
     }
 
-    public void setBaogaoDanhao(String baogaoDanhao) {
-        this.baogaoDanhao = baogaoDanhao;
+    public String getMeasurementtime() {
+        return measurementtime;
     }
 
-    public String getBaogaoHZname() {
-        return baogaoHZname;
+    public void setMeasurementtime(String measurementtime) {
+        this.measurementtime = measurementtime;
     }
 
-    public void setBaogaoHZname(String baogaoHZname) {
-        this.baogaoHZname = baogaoHZname;
+    public String getOrganizationname() {
+        return organizationname;
     }
 
-    public String getBaogaoYSname() {
-        return baogaoYSname;
+    public void setOrganizationname(String organizationname) {
+        this.organizationname = organizationname;
     }
 
-    public void setBaogaoYSname(String baogaoYSname) {
-        this.baogaoYSname = baogaoYSname;
+    public String getMeasuringdoctorname() {
+        return measuringdoctorname;
     }
 
-    public String getBaogaoZuZhi() {
-        return baogaoZuZhi;
+    public void setMeasuringdoctorname(String measuringdoctorname) {
+        this.measuringdoctorname = measuringdoctorname;
     }
 
-    public void setBaogaoZuZhi(String baogaoZuZhi) {
-        this.baogaoZuZhi = baogaoZuZhi;
+    public String getPhysicalexaminationid() {
+        return physicalexaminationid;
     }
 
-    public String getBaogaoTime() {
-        return baogaoTime;
+    public void setPhysicalexaminationid(String physicalexaminationid) {
+        this.physicalexaminationid = physicalexaminationid;
     }
 
-    public void setBaogaoTime(String baogaoTime) {
-        this.baogaoTime = baogaoTime;
+    public String getUserid() {
+        return userid;
+    }
+
+    public void setUserid(String userid) {
+        this.userid = userid;
+    }
+
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
+
+    public String getUname() {
+        return uname;
+    }
+
+    public void setUname(String uname) {
+        this.uname = uname;
+    }
+
+    public String getFullname() {
+        return fullname;
+    }
+
+    public void setFullname(String fullname) {
+        this.fullname = fullname;
     }
 }

@@ -89,7 +89,8 @@ public class YiZhuAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
     public void onBindViewHolder(final RecyclerView.ViewHolder holder, final int position) {
         if (holder instanceof MyViewHolder) {
 
-            if (!MyStrUtil.isEmpty(yiZhuBeen.get(position).getYizhu_icon())) {
+            if (!MyStrUtil.isEmpty(yiZhuBeen.get(position).getHeadimg())) {
+
                 ImageOptions imageOptions = new ImageOptions.Builder()
 //                .setSize(DensityUtil.dip2px(120), DensityUtil.dip2px(120))
 //                .setRadius(DensityUtil.dip2px(5))
@@ -98,24 +99,31 @@ public class YiZhuAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
                         // 加载中或错误图片的ScaleType
                         //.setPlaceholderScaleType(ImageView.ScaleType.MATRIX)
                         .setImageScaleType(ImageView.ScaleType.CENTER_CROP)
-//                   .setLoadingDrawableId(R.mipmap.ic_launcher)
-//                  .setFailureDrawableId(R.mipmap.ic_launcher)
+                   .setLoadingDrawableId(R.drawable.touxiang)
+                  .setFailureDrawableId(R.drawable.touxiang)
                         .build();
-                x.image().bind(((MyViewHolder) holder).yizhuHead, yiZhuBeen.get(position).getYizhu_icon().toString(), imageOptions, new CustomBitmapLoadCallBack(((MyViewHolder) holder).yizhuHead));
+                x.image().bind(((MyViewHolder) holder).yizhuHead, yiZhuBeen.get(position).getHeadimg().toString(), imageOptions, new CustomBitmapLoadCallBack(((MyViewHolder) holder).yizhuHead));
 //
             } else {
                 ((MyViewHolder) holder).yizhuHead.setImageResource(R.drawable.touxiang);
             }
-            ((MyViewHolder) holder).yizhuName.setText(yiZhuBeen.get(position).getYizhu_name());
-            ((MyViewHolder) holder).yizhuContent.setText(yiZhuBeen.get(position).getYizhu_content());
-            ((MyViewHolder) holder).yizhuNo.setText(yiZhuBeen.get(position).getYizhu_no());
-            ((MyViewHolder) holder).yizhuTime.setText(yiZhuBeen.get(position).getYizhu_time());
-            if (!MyStrUtil.isEmpty(yiZhuBeen.get(position).getYizhu_labels())) {
-                List<String> s = Arrays.asList(yiZhuBeen.get(position).getYizhu_labels().split(","));
+            ((MyViewHolder) holder).yizhuName.setText(yiZhuBeen.get(position).getDoctorname());
+            ((MyViewHolder) holder).yizhuContent.setText(yiZhuBeen.get(position).getContent());
+            ((MyViewHolder) holder).yizhuNo.setText(yiZhuBeen.get(position).getNumber());
+            ((MyViewHolder) holder).yizhuTime.setText(yiZhuBeen.get(position).getOpentoldtime());
+            if (!MyStrUtil.isEmpty(yiZhuBeen.get(position).getPositionname())) {
+                List<String> s = Arrays.asList(yiZhuBeen.get(position).getPositionname().split(","));
                 ArrayList<String> labels = new ArrayList<>();
-                for (int i = 0; i < 2; i++) {
-                    labels.add(s.get(i));
+                if (s.size()>2){
+                    for (int i = 0; i < 2; i++) {
+                        labels.add(s.get(i));
+                    }
+                }else {
+                    for (int i = 0; i < s.size(); i++) {
+                        labels.add(s.get(i));
+                    }
                 }
+
                 ((MyViewHolder) holder).yizhuLabels.setLabels(labels);
             }
             ((MyViewHolder) holder).itemView.setTag(position);

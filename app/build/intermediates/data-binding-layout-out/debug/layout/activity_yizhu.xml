@@ -20,14 +20,77 @@
             app:elEmptyLayout="@layout/layout_empty"
             app:elErrorLayout="@layout/layout_error"
             app:elLoadingLayout="@layout/layout_loading">
-
-
-            <android.support.v7.widget.RecyclerView
-                android:id="@+id/recyclerView_yizhu"
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:paddingBottom="5dp"
-                android:scrollbars="vertical"></android.support.v7.widget.RecyclerView>
+                android:orientation="vertical"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@color/background_write"
+                    android:id="@+id/re_time"
+                    android:visibility="gone"
+                    >
+                    <TextView
+                        android:id="@+id/text_zhi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/text_big"
+                        android:text="至"
+                        android:textColor="@color/background_green"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        />
+                    <TextView
+                        android:id="@+id/start_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/shape_time_green"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:paddingRight="@dimen/margin"
+                        android:paddingLeft="@dimen/margin"
+                        android:text="2018-03-10"
+                        android:textColor="@color/text_black"
+                        android:textSize="@dimen/textsize"
+                        android:layout_toLeftOf="@+id/text_zhi"
+                        android:layout_marginRight="@dimen/margin"
+                        />
+                    <TextView
+                        android:id="@+id/end_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/shape_time_green"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:paddingRight="@dimen/margin"
+                        android:paddingLeft="@dimen/margin"
+                        android:text="2018-03-10"
+                        android:textColor="@color/text_black"
+                        android:textSize="@dimen/textsize"
+                        android:layout_toRightOf="@+id/text_zhi"
+                        android:layout_marginLeft="@dimen/margin"
+                        />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@color/background_fgx"
+                        android:layout_below="@+id/text_zhi"
+                        android:layout_marginTop="10dp"
+                        />
+                </RelativeLayout>
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recyclerView_yizhu"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingBottom="5dp"
+                    android:scrollbars="vertical"></android.support.v7.widget.RecyclerView>
+            </LinearLayout>
+
+
         </com.gxey.remotemedicalplatform.widget.EmptyLayout>
 
 

@@ -1,569 +1,571 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:2:1-233:12
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:2:1-233:12
 	package
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:4:5-45
-		INJECTED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml
-		INJECTED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:4:5-45
+		INJECTED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml
+		INJECTED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml
-		INJECTED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml
+		INJECTED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml
+		INJECTED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:3:5-51
 	xmlns:android
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml
-		INJECTED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml
+		INJECTED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml
+		INJECTED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml
 uses-feature#android.hardware.camera
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:6:5-60
-MERGED from [Remotemeicalplatform:webrtc-client:unspecified] D:\MyWork\SmartHospital\Remotemeicalplatform\webrtc-client\build\intermediates\bundles\default\AndroidManifest.xml:11:5-60
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:6:5-60
+MERGED from [Remotemeicalplatform:webrtc-client:unspecified] E:\XLworkspace\GongXinWang\Remotemeicalplatform\webrtc-client\build\intermediates\bundles\default\AndroidManifest.xml:11:5-60
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:6:19-57
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:6:19-57
 uses-feature#android.hardware.camera.autofocus
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:7:5-70
-MERGED from [Remotemeicalplatform:webrtc-client:unspecified] D:\MyWork\SmartHospital\Remotemeicalplatform\webrtc-client\build\intermediates\bundles\default\AndroidManifest.xml:12:5-70
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:7:5-70
+MERGED from [Remotemeicalplatform:webrtc-client:unspecified] E:\XLworkspace\GongXinWang\Remotemeicalplatform\webrtc-client\build\intermediates\bundles\default\AndroidManifest.xml:12:5-70
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:7:19-67
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:7:19-67
 uses-feature#0x00020000
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:8:5-10:35
-MERGED from [Remotemeicalplatform:webrtc-client:unspecified] D:\MyWork\SmartHospital\Remotemeicalplatform\webrtc-client\build\intermediates\bundles\default\AndroidManifest.xml:13:5-15:35
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:8:5-10:35
+MERGED from [Remotemeicalplatform:webrtc-client:unspecified] E:\XLworkspace\GongXinWang\Remotemeicalplatform\webrtc-client\build\intermediates\bundles\default\AndroidManifest.xml:13:5-15:35
 	android:glEsVersion
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:9:9-41
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:9:9-41
 	android:required
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:10:9-32
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:10:9-32
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:12:5-79
-MERGED from [com.github.erizet.signala:signala-longpolling:0.20] C:\Users\Administrator\.android\build-cache\e2558f479c7d196b16fe4bfd385e56b74c041d89\output\AndroidManifest.xml:4:5-78
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:12:5-79
+MERGED from [com.github.erizet.signala:signala-longpolling:0.20] C:\Users\Administrator\.android\build-cache\af71a7bf115ba38361a7b6864077bf6b013167b1\output\AndroidManifest.xml:4:5-78
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:12:22-76
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:12:22-76
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:13:5-75
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:13:5-75
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:13:22-72
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:13:22-72
 uses-permission#android.permission.INTERNET
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:14:5-67
-MERGED from [Remotemeicalplatform:webrtc-client:unspecified] D:\MyWork\SmartHospital\Remotemeicalplatform\webrtc-client\build\intermediates\bundles\default\AndroidManifest.xml:20:5-67
-MERGED from [com.github.erizet.signala:signala-longpolling:0.20] C:\Users\Administrator\.android\build-cache\e2558f479c7d196b16fe4bfd385e56b74c041d89\output\AndroidManifest.xml:5:2-63
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:14:5-67
+MERGED from [Remotemeicalplatform:webrtc-client:unspecified] E:\XLworkspace\GongXinWang\Remotemeicalplatform\webrtc-client\build\intermediates\bundles\default\AndroidManifest.xml:20:5-67
+MERGED from [com.github.erizet.signala:signala-longpolling:0.20] C:\Users\Administrator\.android\build-cache\af71a7bf115ba38361a7b6864077bf6b013167b1\output\AndroidManifest.xml:5:2-63
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:14:22-64
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:14:22-64
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:15:5-81
-MERGED from [Remotemeicalplatform:webrtc-client:unspecified] D:\MyWork\SmartHospital\Remotemeicalplatform\webrtc-client\build\intermediates\bundles\default\AndroidManifest.xml:22:5-81
-MERGED from [me.iwf.photopicker:PhotoPicker:0.9.5] C:\Users\Administrator\.android\build-cache\76935a1921f71a97a4d5da81c8a5320209f5542f\output\AndroidManifest.xml:9:5-81
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:15:5-81
+MERGED from [Remotemeicalplatform:webrtc-client:unspecified] E:\XLworkspace\GongXinWang\Remotemeicalplatform\webrtc-client\build\intermediates\bundles\default\AndroidManifest.xml:22:5-81
+MERGED from [me.iwf.photopicker:PhotoPicker:0.9.5] C:\Users\Administrator\.android\build-cache\44a3c7139512166761d45672d7fd13f651e6c737\output\AndroidManifest.xml:9:5-81
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:15:22-78
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:15:22-78
 uses-permission#android.permission.CAMERA
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:16:5-65
-MERGED from [Remotemeicalplatform:webrtc-client:unspecified] D:\MyWork\SmartHospital\Remotemeicalplatform\webrtc-client\build\intermediates\bundles\default\AndroidManifest.xml:17:5-65
-MERGED from [me.iwf.photopicker:PhotoPicker:0.9.5] C:\Users\Administrator\.android\build-cache\76935a1921f71a97a4d5da81c8a5320209f5542f\output\AndroidManifest.xml:11:5-65
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:16:5-65
+MERGED from [Remotemeicalplatform:webrtc-client:unspecified] E:\XLworkspace\GongXinWang\Remotemeicalplatform\webrtc-client\build\intermediates\bundles\default\AndroidManifest.xml:17:5-65
+MERGED from [me.iwf.photopicker:PhotoPicker:0.9.5] C:\Users\Administrator\.android\build-cache\44a3c7139512166761d45672d7fd13f651e6c737\output\AndroidManifest.xml:11:5-65
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:16:22-62
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:16:22-62
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:17:5-71
-MERGED from [Remotemeicalplatform:webrtc-client:unspecified] D:\MyWork\SmartHospital\Remotemeicalplatform\webrtc-client\build\intermediates\bundles\default\AndroidManifest.xml:19:5-71
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:17:5-71
+MERGED from [Remotemeicalplatform:webrtc-client:unspecified] E:\XLworkspace\GongXinWang\Remotemeicalplatform\webrtc-client\build\intermediates\bundles\default\AndroidManifest.xml:19:5-71
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:17:22-68
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:17:22-68
 uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:18:5-80
-MERGED from [Remotemeicalplatform:webrtc-client:unspecified] D:\MyWork\SmartHospital\Remotemeicalplatform\webrtc-client\build\intermediates\bundles\default\AndroidManifest.xml:18:5-80
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:18:5-80
+MERGED from [Remotemeicalplatform:webrtc-client:unspecified] E:\XLworkspace\GongXinWang\Remotemeicalplatform\webrtc-client\build\intermediates\bundles\default\AndroidManifest.xml:18:5-80
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:18:22-77
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:18:22-77
 application
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:20:5-231:19
-MERGED from [com.ashokvarma.android:bottom-navigation-bar:1.2.0] C:\Users\Administrator\.android\build-cache\78d774ea52ea04fedcf96dc0c81788ecd6428191\output\AndroidManifest.xml:11:5-13:38
-MERGED from [cn.pedant.sweetalert:library:1.3] C:\Users\Administrator\.android\build-cache\8f6c38e5d9c0b9cec6c7498a8f2485761ca3e516\output\AndroidManifest.xml:11:5-20
-MERGED from [com.pnikosis:materialish-progress:1.0] C:\Users\Administrator\.android\build-cache\5fb9eb1d7eaf8c22ee950a26e757d2143929e7dd\output\AndroidManifest.xml:11:5-15:19
-MERGED from [Remotemeicalplatform:webrtc-client:unspecified] D:\MyWork\SmartHospital\Remotemeicalplatform\webrtc-client\build\intermediates\bundles\default\AndroidManifest.xml:24:5-47
-MERGED from [com.github.erizet.signala:signala-longpolling:0.20] C:\Users\Administrator\.android\build-cache\e2558f479c7d196b16fe4bfd385e56b74c041d89\output\AndroidManifest.xml:7:5-8:19
-MERGED from [com.github.erizet.signala:parallel-basic-http-client:0.20] C:\Users\Administrator\.android\build-cache\c7c200e6d620a10e1f4662c229b7ab350440ef54\output\AndroidManifest.xml:5:5-6:19
-MERGED from [com.github.erizet.signala:signala:0.20] C:\Users\Administrator\.android\build-cache\4c35a38c65bdf4db5d3387bbf95df92133ede5d4\output\AndroidManifest.xml:5:5-6:19
-MERGED from [io.pristine:libjingle:9694] C:\Users\Administrator\.android\build-cache\9f1db6feeeb2c31d0690dfc3d786d909e450f139\output\AndroidManifest.xml:11:5-12:19
-MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] C:\Users\Administrator\.android\build-cache\30cf377538848832ff59f9072b6b59d2114495b5\output\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Administrator\.android\build-cache\43fa752ce92b1b3ce373132d436150d24b08d706\output\AndroidManifest.xml:20:5-24:19
-MERGED from [me.iwf.photopicker:PhotoPicker:0.9.5] C:\Users\Administrator\.android\build-cache\76935a1921f71a97a4d5da81c8a5320209f5542f\output\AndroidManifest.xml:13:5-23:19
-MERGED from [com.android.support:design:23.4.0] C:\Users\Administrator\.android\build-cache\49e47b9b8c08cafe19a40fb6756d1b80e8344423\output\AndroidManifest.xml:22:5-20
-MERGED from [com.github.donkingliang:LabelsView:1.2.0] C:\Users\Administrator\.android\build-cache\94661d818f9b93f5124fe5c543ccd98f72315f9f\output\AndroidManifest.xml:11:5-15:19
-MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\Administrator\.android\build-cache\9ca9bafbbb5077d9276ce107071f34079491cab3\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\Administrator\.android\build-cache\0ed24ebec2750a90b1ab91a9efbaf1848fbbb169\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\Administrator\.android\build-cache\fdbe52b428556b9d726c7b89c05d8928329cd86a\output\AndroidManifest.xml:23:5-20
-MERGED from [org.xutils:xutils:3.2.2] C:\Users\Administrator\.android\build-cache\ffea74b2b869309e1a1aa86d979a68f1cb670abe\output\AndroidManifest.xml:12:5-20
-MERGED from [com.android.support:cardview-v7:23.0.0] C:\Users\Administrator\.android\build-cache\000fea08daaed5dea3011a140c04726f739a02e0\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:24.2.1] C:\Users\Administrator\.android\build-cache\9675d1e80f55903e3c088a3f0988b31f62d0c737\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\Administrator\.android\build-cache\c02ccd2b518ad01f39c539f22eecfd5234f9d336\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\Administrator\.android\build-cache\6347c90bea26ce13d17a49158d3a283138b595f4\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\Administrator\.android\build-cache\91fbf46a8added6585f18e64b0b40d4f0a394c27\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\Administrator\.android\build-cache\c895375460dff8603573130be657cbe3a9395758\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:24.2.1] C:\Users\Administrator\.android\build-cache\b0d6966b32f7eb839849c5912f6a3112701b0f6a\output\AndroidManifest.xml:25:5-20
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:20:5-231:19
+MERGED from [com.ashokvarma.android:bottom-navigation-bar:1.2.0] C:\Users\Administrator\.android\build-cache\7bc4e2744b0d8fc71c93796bae959c46649cc99a\output\AndroidManifest.xml:11:5-13:38
+MERGED from [cn.pedant.sweetalert:library:1.3] C:\Users\Administrator\.android\build-cache\91d430d9ff3106b5ebf2e749f27d0a597428ba33\output\AndroidManifest.xml:11:5-20
+MERGED from [com.pnikosis:materialish-progress:1.0] C:\Users\Administrator\.android\build-cache\1735729ab2c277b1a7369658d96569d843827ad6\output\AndroidManifest.xml:11:5-15:19
+MERGED from [Remotemeicalplatform:webrtc-client:unspecified] E:\XLworkspace\GongXinWang\Remotemeicalplatform\webrtc-client\build\intermediates\bundles\default\AndroidManifest.xml:24:5-47
+MERGED from [com.github.erizet.signala:signala-longpolling:0.20] C:\Users\Administrator\.android\build-cache\af71a7bf115ba38361a7b6864077bf6b013167b1\output\AndroidManifest.xml:7:5-8:19
+MERGED from [com.github.erizet.signala:parallel-basic-http-client:0.20] C:\Users\Administrator\.android\build-cache\c245fc147f0ed70066102fbe4e4a0f2078cdb345\output\AndroidManifest.xml:5:5-6:19
+MERGED from [com.github.erizet.signala:signala:0.20] C:\Users\Administrator\.android\build-cache\b6fc98dd83ec0e857a06a69d8c6cd59fb540cce0\output\AndroidManifest.xml:5:5-6:19
+MERGED from [io.pristine:libjingle:9694] C:\Users\Administrator\.android\build-cache\9346180e391dede49c94a0c95823feb1384b67f0\output\AndroidManifest.xml:11:5-12:19
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] C:\Users\Administrator\.android\build-cache\5b31e910aa08abd04f334ced5e4752e0c3644f18\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Administrator\.android\build-cache\6347d061bbc4fa128404d8e9c0438038b7386057\output\AndroidManifest.xml:20:5-24:19
+MERGED from [me.iwf.photopicker:PhotoPicker:0.9.5] C:\Users\Administrator\.android\build-cache\44a3c7139512166761d45672d7fd13f651e6c737\output\AndroidManifest.xml:13:5-23:19
+MERGED from [com.android.support:design:23.4.0] C:\Users\Administrator\.android\build-cache\5d312417355e924f41e749cdd4d91033c8ff6233\output\AndroidManifest.xml:22:5-20
+MERGED from [com.github.donkingliang:LabelsView:1.2.0] C:\Users\Administrator\.android\build-cache\b10b47c7c288c1552a10c6b0aedef4618ca16f42\output\AndroidManifest.xml:11:5-15:19
+MERGED from [org.xutils:xutils:3.2.2] C:\Users\Administrator\.android\build-cache\bcc1974e3f12426fd1631ab4af4574c59955d9f7\output\AndroidManifest.xml:12:5-20
+MERGED from [com.android.support:cardview-v7:23.0.0] C:\Users\Administrator\.android\build-cache\ae14934c9363d68939573ac26f9399eff7a60f3f\output\AndroidManifest.xml:22:5-20
+MERGED from [Remotemeicalplatform:timelibrary:1.1.1] E:\XLworkspace\GongXinWang\Remotemeicalplatform\timelibrary\build\intermediates\bundles\default\AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\Administrator\.android\build-cache\9b74c5f43c30d7cfb83895d6ce86894c242d565c\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\Administrator\.android\build-cache\f719547a64374ff757adf560cfef856429cae3c5\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\Administrator\.android\build-cache\f4832a6cdaa429f63161f3eef9233ca4c4fdbeba\output\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.2.1] C:\Users\Administrator\.android\build-cache\89582fa63080ead2f61fdf106e7b33f1cff327f3\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\Administrator\.android\build-cache\572f457ecfccd956ab0c9b6c1ec40ba5ca3e7afc\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\Administrator\.android\build-cache\91262af4534a2db8478f8dfa1ae1d9dc921d5991\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\Administrator\.android\build-cache\37d0e718210806c4eaf851d38727c7d07f35d6b1\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\Administrator\.android\build-cache\aa13edc96c417cfd7525fa046d4efb0fe93f226d\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.1] C:\Users\Administrator\.android\build-cache\708626dc28534f71107868accb6db6b79f957977\output\AndroidManifest.xml:25:5-20
 	android:label
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:24:9-41
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:24:9-41
 	android:supportsRtl
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:25:9-35
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:25:9-35
 	android:allowBackup
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:22:9-35
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:22:9-35
 	android:icon
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:23:9-35
-		REJECTED from [com.pnikosis:materialish-progress:1.0] C:\Users\Administrator\.android\build-cache\5fb9eb1d7eaf8c22ee950a26e757d2143929e7dd\output\AndroidManifest.xml:13:9-45
-		REJECTED from [com.github.erizet.signala:signala-longpolling:0.20] C:\Users\Administrator\.android\build-cache\e2558f479c7d196b16fe4bfd385e56b74c041d89\output\AndroidManifest.xml:7:18-54
-		REJECTED from [com.github.erizet.signala:parallel-basic-http-client:0.20] C:\Users\Administrator\.android\build-cache\c7c200e6d620a10e1f4662c229b7ab350440ef54\output\AndroidManifest.xml:5:45-81
-		REJECTED from [com.github.erizet.signala:signala:0.20] C:\Users\Administrator\.android\build-cache\4c35a38c65bdf4db5d3387bbf95df92133ede5d4\output\AndroidManifest.xml:5:18-54
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:23:9-35
+		REJECTED from [com.pnikosis:materialish-progress:1.0] C:\Users\Administrator\.android\build-cache\1735729ab2c277b1a7369658d96569d843827ad6\output\AndroidManifest.xml:13:9-45
+		REJECTED from [com.github.erizet.signala:signala-longpolling:0.20] C:\Users\Administrator\.android\build-cache\af71a7bf115ba38361a7b6864077bf6b013167b1\output\AndroidManifest.xml:7:18-54
+		REJECTED from [com.github.erizet.signala:parallel-basic-http-client:0.20] C:\Users\Administrator\.android\build-cache\c245fc147f0ed70066102fbe4e4a0f2078cdb345\output\AndroidManifest.xml:5:45-81
+		REJECTED from [com.github.erizet.signala:signala:0.20] C:\Users\Administrator\.android\build-cache\b6fc98dd83ec0e857a06a69d8c6cd59fb540cce0\output\AndroidManifest.xml:5:18-54
 	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:26:9-40
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:26:9-40
 	tools:replace
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:27:9-37
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:27:9-37
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:21:9-53
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:21:9-53
 activity#com.gxey.remotemedicalplatform.activity.LoginActivity
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:31:9-42:20
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:31:9-42:20
 	android:screenOrientation
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:34:13-49
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:34:13-49
 	android:windowSoftInputMode
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:36:13-67
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:36:13-67
 	android:configChanges
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:33:13-63
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:33:13-63
 	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:35:13-44
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:35:13-44
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:32:13-51
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:32:13-51
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:37:13-41:29
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:37:13-41:29
 action#android.intent.action.MAIN
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:38:17-69
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:38:17-69
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:38:25-66
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:38:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:40:17-77
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:40:17-77
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:40:27-74
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:40:27-74
 activity#com.gxey.remotemedicalplatform.activity.MainActivity
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:43:9-48:81
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:43:9-48:81
 	android:screenOrientation
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:46:13-49
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:46:13-49
 	android:windowSoftInputMode
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:48:13-69
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:48:13-69
 	android:configChanges
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:45:13-63
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:45:13-63
 	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:47:13-44
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:47:13-44
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:44:13-50
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:44:13-50
 activity#com.gxey.remotemedicalplatform.activity.secondactivity.ActivityHeathDangAn
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:49:9-53:52
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:49:9-53:52
 	android:screenOrientation
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:52:13-49
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:52:13-49
 	android:configChanges
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:51:13-63
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:51:13-63
 	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:53:13-49
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:53:13-49
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:50:13-72
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:50:13-72
 activity#com.gxey.remotemedicalplatform.activity.RegisteredActivity
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:55:9-74
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:55:9-74
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:55:19-62
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:55:19-62
 activity#com.gxey.remotemedicalplatform.activity.BackPasswordActivity
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:57:9-76
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:57:9-76
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:57:19-64
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:57:19-64
 activity#com.gxey.remotemedicalplatform.activity.CircleTopicactivity
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:59:9-75
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:59:9-75
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:59:19-63
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:59:19-63
 activity#com.gxey.remotemedicalplatform.activity.EvaluationActivity
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:61:9-74
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:61:9-74
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:61:19-62
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:61:19-62
 activity#com.gxey.remotemedicalplatform.activity.PersonalInformationActivity
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:63:9-65:76
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:63:9-65:76
 	android:windowSoftInputMode
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:65:13-64
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:65:13-64
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:64:13-65
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:64:13-65
 activity#com.gxey.remotemedicalplatform.activity.CircleActivity
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:67:9-72:25
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:67:9-72:25
 	android:screenOrientation
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:69:13-49
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:69:13-49
 	android:windowSoftInputMode
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:71:13-69
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:71:13-69
 	android:configChanges
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:68:13-63
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:68:13-63
 	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:70:13-44
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:70:13-44
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:67:19-58
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:67:19-58
 activity#com.gxey.remotemedicalplatform.activity.storesActivity
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:74:9-70
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:74:9-70
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:74:19-58
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:74:19-58
 activity#com.gxey.remotemedicalplatform.activity.ChangePasswordActivity
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:76:9-78
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:76:9-78
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:76:19-66
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:76:19-66
 activity#com.gxey.remotemedicalplatform.activity.MedicalApplicationActivity
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:78:9-80:76
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:78:9-80:76
 	android:windowSoftInputMode
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:80:13-64
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:80:13-64
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:79:13-64
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:79:13-64
 activity#com.gxey.remotemedicalplatform.activity.CircleListActivity
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:82:9-74
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:82:9-74
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:82:19-62
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:82:19-62
 activity#com.gxey.remotemedicalplatform.activity.OverConsultationActivity
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:84:9-86:76
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:84:9-86:76
 	android:windowSoftInputMode
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:86:13-64
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:86:13-64
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:85:13-62
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:85:13-62
 activity#com.gxey.remotemedicalplatform.activity.HelpActivity
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:88:9-68
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:88:9-68
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:88:19-56
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:88:19-56
 activity#com.gxey.remotemedicalplatform.activity.FrequencyActivity
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:91:9-73
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:91:9-73
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:91:19-61
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:91:19-61
 activity#com.gxey.remotemedicalplatform.activity.WebCircleActivity
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:94:9-73
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:94:9-73
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:94:19-61
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:94:19-61
 activity#com.gxey.remotemedicalplatform.activity.WebInformationActivity
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:96:9-78
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:96:9-78
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:96:19-66
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:96:19-66
 activity#com.gxey.remotemedicalplatform.activity.WebHealthRecordsActivity
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:98:9-80
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:98:9-80
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:98:19-68
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:98:19-68
 activity#com.gxey.remotemedicalplatform.activity.WebMyDiagnosisActivity
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:100:9-78
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:100:9-78
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:100:19-66
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:100:19-66
 activity#com.gxey.remotemedicalplatform.activity.WebOpinionActivity
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:102:9-74
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:102:9-74
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:102:19-62
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:102:19-62
 activity#com.gxey.remotemedicalplatform.activity.WebMedicationActivity
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:104:9-77
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:104:9-77
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:104:19-65
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:104:19-65
 activity#com.gxey.remotemedicalplatform.activity.WebHelpActivity
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:106:9-71
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:106:9-71
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:106:19-59
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:106:19-59
 activity#com.gxey.remotemedicalplatform.activity.WebIndexActivity
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:108:9-72
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:108:9-72
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:108:19-60
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:108:19-60
 activity#com.gxey.remotemedicalplatform.activity.WebAgreementActivity
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:110:9-76
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:110:9-76
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:110:19-64
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:110:19-64
 activity#com.gxey.remotemedicalplatform.activity.WebSearchActivity
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:112:9-73
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:112:9-73
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:112:19-61
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:112:19-61
 activity#com.gxey.remotemedicalplatform.activity.WebHomeGoods1
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:113:9-69
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:113:9-69
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:113:19-57
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:113:19-57
 activity#com.gxey.remotemedicalplatform.activity.ActivityDrugStore
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:117:9-73
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:117:9-73
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:117:19-61
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:117:19-61
 activity#com.gxey.remotemedicalplatform.activity.ActivityImageShow
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:119:9-64
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:119:9-64
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:119:19-61
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:119:19-61
 activity#com.gxey.remotemedicalplatform.activity.WebDemoActivity
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:120:9-62
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:120:9-62
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:120:19-59
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:120:19-59
 activity#com.gxey.remotemedicalplatform.activity.WebBannerbenActgvity
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:123:9-67
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:123:9-67
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:123:19-64
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:123:19-64
 activity#me.iwf.photopicker.PhotoPickerActivity
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:125:9-127:66
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:125:9-127:66
 	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:127:13-63
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:127:13-63
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:126:13-66
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:126:13-66
 activity#me.iwf.photopicker.PhotoPagerActivity
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:129:9-131:66
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:129:9-131:66
 	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:131:13-63
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:131:13-63
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:130:13-65
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:130:13-65
 activity#com.gxey.remotemedicalplatform.activity.secondactivity.ActivityMyMsg
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:134:9-138:52
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:134:9-138:52
 	android:screenOrientation
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:137:13-49
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:137:13-49
 	android:configChanges
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:136:13-63
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:136:13-63
 	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:138:13-49
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:138:13-49
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:135:13-66
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:135:13-66
 activity#com.gxey.remotemedicalplatform.activity.secondactivity.ActivityHeathDianZi
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:139:9-143:52
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:139:9-143:52
 	android:screenOrientation
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:142:13-49
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:142:13-49
 	android:configChanges
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:141:13-63
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:141:13-63
 	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:143:13-49
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:143:13-49
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:140:13-72
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:140:13-72
 activity#com.gxey.remotemedicalplatform.activity.secondactivity.ActivityDoctorList
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:144:9-149:70
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:144:9-149:70
 	android:screenOrientation
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:147:13-49
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:147:13-49
 	android:windowSoftInputMode
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:149:13-67
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:149:13-67
 	android:configChanges
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:146:13-63
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:146:13-63
 	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:148:13-49
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:148:13-49
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:145:13-71
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:145:13-71
 activity#com.gxey.remotemedicalplatform.activity.secondactivity.ActivityYiZhu
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:150:9-155:70
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:150:9-155:70
 	android:screenOrientation
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:153:13-49
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:153:13-49
 	android:windowSoftInputMode
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:155:13-67
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:155:13-67
 	android:configChanges
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:152:13-63
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:152:13-63
 	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:154:13-49
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:154:13-49
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:151:13-66
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:151:13-66
 activity#com.gxey.remotemedicalplatform.activity.secondactivity.ActivityFenZhen
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:156:9-161:70
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:156:9-161:70
 	android:screenOrientation
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:159:13-49
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:159:13-49
 	android:windowSoftInputMode
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:161:13-67
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:161:13-67
 	android:configChanges
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:158:13-63
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:158:13-63
 	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:160:13-49
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:160:13-49
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:157:13-68
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:157:13-68
 activity#com.gxey.remotemedicalplatform.activity.secondactivity.ActivityDZDetails
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:162:9-167:70
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:162:9-167:70
 	android:screenOrientation
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:165:13-49
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:165:13-49
 	android:windowSoftInputMode
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:167:13-67
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:167:13-67
 	android:configChanges
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:164:13-63
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:164:13-63
 	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:166:13-49
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:166:13-49
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:163:13-70
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:163:13-70
 activity#com.gxey.remotemedicalplatform.activity.secondactivity.ActivityHealthBaoGao
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:168:9-173:70
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:168:9-173:70
 	android:screenOrientation
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:171:13-49
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:171:13-49
 	android:windowSoftInputMode
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:173:13-67
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:173:13-67
 	android:configChanges
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:170:13-63
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:170:13-63
 	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:172:13-49
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:172:13-49
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:169:13-73
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:169:13-73
 activity#com.gxey.remotemedicalplatform.activity.secondactivity.ActivityYiChuan
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:174:9-179:70
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:174:9-179:70
 	android:screenOrientation
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:177:13-49
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:177:13-49
 	android:windowSoftInputMode
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:179:13-67
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:179:13-67
 	android:configChanges
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:176:13-63
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:176:13-63
 	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:178:13-49
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:178:13-49
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:175:13-68
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:175:13-68
 activity#com.gxey.remotemedicalplatform.activity.secondactivity.ActivityYiZhuDetails
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:180:9-185:70
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:180:9-185:70
 	android:screenOrientation
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:183:13-49
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:183:13-49
 	android:windowSoftInputMode
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:185:13-67
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:185:13-67
 	android:configChanges
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:182:13-63
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:182:13-63
 	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:184:13-49
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:184:13-49
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:181:13-73
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:181:13-73
 activity#com.gxey.remotemedicalplatform.activity.secondactivity.ActivityMyOverConsultation
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:186:9-189:10
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:186:9-189:10
 	android:screenOrientation
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:188:13-49
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:188:13-49
 	android:configChanges
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:187:13-63
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:187:13-63
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:186:19-85
-activity#com.gxey.remotemedicalplatform.activity.secondactivity.ActivityFamily
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:190:9-194:70
-	android:screenOrientation
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:192:13-49
-	android:windowSoftInputMode
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:194:13-67
-	android:configChanges
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:191:13-63
-	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:193:13-49
-	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:190:19-73
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:186:19-85
 activity#com.gxey.remotemedicalplatform.activity.secondactivity.ActivityGuoMing
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:195:9-199:69
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:190:9-194:69
 	android:screenOrientation
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:197:13-49
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:192:13-49
 	android:windowSoftInputMode
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:199:13-67
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:194:13-67
 	android:configChanges
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:196:13-63
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:191:13-63
 	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:198:13-49
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:193:13-49
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:195:19-74
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:190:19-74
 activity#com.gxey.remotemedicalplatform.activity.secondactivity.ActivityHuanJing
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:200:9-204:69
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:195:9-199:69
 	android:screenOrientation
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:202:13-49
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:197:13-49
 	android:windowSoftInputMode
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:204:13-67
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:199:13-67
 	android:configChanges
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:201:13-63
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:196:13-63
 	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:203:13-49
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:198:13-49
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:200:19-75
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:195:19-75
 activity#com.gxey.remotemedicalplatform.activity.secondactivity.ActivityChangBeiYao
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:205:9-209:69
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:200:9-204:69
 	android:screenOrientation
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:207:13-49
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:202:13-49
 	android:windowSoftInputMode
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:209:13-67
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:204:13-67
 	android:configChanges
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:206:13-63
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:201:13-63
 	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:208:13-49
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:203:13-49
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:205:19-78
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:200:19-78
 activity#com.gxey.remotemedicalplatform.activity.secondactivity.ActivityTiJian
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:210:9-214:69
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:205:9-209:69
 	android:screenOrientation
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:212:13-49
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:207:13-49
 	android:windowSoftInputMode
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:214:13-67
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:209:13-67
 	android:configChanges
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:211:13-63
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:206:13-63
 	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:213:13-49
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:208:13-49
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:210:19-73
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:205:19-73
 activity#com.gxey.remotemedicalplatform.activity.secondactivity.ActivityXinDianTuDetails
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:215:9-219:69
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:210:9-214:69
 	android:screenOrientation
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:217:13-49
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:212:13-49
 	android:windowSoftInputMode
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:219:13-67
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:214:13-67
 	android:configChanges
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:216:13-63
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:211:13-63
 	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:218:13-49
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:213:13-49
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:215:19-83
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:210:19-83
 activity#com.gxey.remotemedicalplatform.activity.secondactivity.ActivityJiWangShi
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:220:9-225:15
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:215:9-220:15
 	android:screenOrientation
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:222:13-49
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:217:13-49
 	android:windowSoftInputMode
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:224:13-67
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:219:13-67
 	android:configChanges
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:221:13-63
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:216:13-63
 	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:223:13-49
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:218:13-49
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:220:19-76
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:215:19-76
+activity#com.gxey.remotemedicalplatform.activity.secondactivity.ActivityJiaZu
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:221:9-225:69
+	android:screenOrientation
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:223:13-49
+	android:windowSoftInputMode
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:225:13-67
+	android:configChanges
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:222:13-63
+	android:theme
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:224:13-49
+	android:name
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:221:19-72
 meta-data#com.google.android.gms.version
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:228:9-230:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Administrator\.android\build-cache\43fa752ce92b1b3ce373132d436150d24b08d706\output\AndroidManifest.xml:21:9-23:69
+ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:228:9-230:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Administrator\.android\build-cache\6347d061bbc4fa128404d8e9c0438038b7386057\output\AndroidManifest.xml:21:9-23:69
 	android:value
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:230:13-66
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:230:13-66
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:229:13-58
+		ADDED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml:229:13-58
 uses-sdk
-INJECTED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [io.reactivex:rxandroid:1.2.1] C:\Users\Administrator\.android\build-cache\2b9e5a6dc3bc263df53475958c59a6099c4807a3\output\AndroidManifest.xml:19:5-43
-MERGED from [com.jakewharton:butterknife:8.4.0] C:\Users\Administrator\.android\build-cache\4370edfe2f9f0484f82c289f5f46667ab8987423\output\AndroidManifest.xml:5:5-43
-MERGED from [com.orhanobut:logger:1.15] C:\Users\Administrator\.android\build-cache\498dc6613c34c858780aa1c7017fbc8bb14499a2\output\AndroidManifest.xml:6:5-43
-MERGED from [com.ashokvarma.android:bottom-navigation-bar:1.2.0] C:\Users\Administrator\.android\build-cache\78d774ea52ea04fedcf96dc0c81788ecd6428191\output\AndroidManifest.xml:7:5-9:41
-MERGED from [cn.pedant.sweetalert:library:1.3] C:\Users\Administrator\.android\build-cache\8f6c38e5d9c0b9cec6c7498a8f2485761ca3e516\output\AndroidManifest.xml:7:5-9:41
-MERGED from [com.pnikosis:materialish-progress:1.0] C:\Users\Administrator\.android\build-cache\5fb9eb1d7eaf8c22ee950a26e757d2143929e7dd\output\AndroidManifest.xml:7:5-9:41
-MERGED from [com.makeramen:roundedimageview:2.3.0] C:\Users\Administrator\.android\build-cache\bbc5966903d7375d2c765c22ce41f098fda63aea\output\AndroidManifest.xml:7:5-43
-MERGED from [com.yanzhenjie:permission:1.0.4] C:\Users\Administrator\.android\build-cache\3a356e6825bb36560c628476a5cacc1c2cdd7c12\output\AndroidManifest.xml:6:5-8:41
-MERGED from [com.yanzhenjie.alertdialog:alertdialog:1.0.0] C:\Users\Administrator\.android\build-cache\820682e607870cc102581150fc9c3e164019b179\output\AndroidManifest.xml:6:5-8:41
-MERGED from [Remotemeicalplatform:webrtc-client:unspecified] D:\MyWork\SmartHospital\Remotemeicalplatform\webrtc-client\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.erizet.signala:signala-longpolling:0.20] C:\Users\Administrator\.android\build-cache\e2558f479c7d196b16fe4bfd385e56b74c041d89\output\AndroidManifest.xml:3:5-72
-MERGED from [com.github.erizet.signala:parallel-basic-http-client:0.20] C:\Users\Administrator\.android\build-cache\c7c200e6d620a10e1f4662c229b7ab350440ef54\output\AndroidManifest.xml:3:5-72
-MERGED from [com.github.erizet.signala:signala:0.20] C:\Users\Administrator\.android\build-cache\4c35a38c65bdf4db5d3387bbf95df92133ede5d4\output\AndroidManifest.xml:3:5-72
-MERGED from [io.pristine:libjingle:9694] C:\Users\Administrator\.android\build-cache\9f1db6feeeb2c31d0690dfc3d786d909e450f139\output\AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] C:\Users\Administrator\.android\build-cache\30cf377538848832ff59f9072b6b59d2114495b5\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\Administrator\.android\build-cache\e089ba40d2249b941afe1bd559b8998c3003910f\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Administrator\.android\build-cache\43fa752ce92b1b3ce373132d436150d24b08d706\output\AndroidManifest.xml:18:5-42
-MERGED from [me.iwf.photopicker:PhotoPicker:0.9.5] C:\Users\Administrator\.android\build-cache\76935a1921f71a97a4d5da81c8a5320209f5542f\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:design:23.4.0] C:\Users\Administrator\.android\build-cache\49e47b9b8c08cafe19a40fb6756d1b80e8344423\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:23.4.0] C:\Users\Administrator\.android\build-cache\232b114c34dd1f00aecfb5b32db5b847360bd301\output\AndroidManifest.xml:20:5-43
-MERGED from [com.github.chrisbanes:PhotoView:1.3.0] C:\Users\Administrator\.android\build-cache\fc9b8ac9770df77ac654f0c420855a7fbb6a5df4\output\AndroidManifest.xml:8:5-10:41
-MERGED from [com.github.donkingliang:LabelsView:1.2.0] C:\Users\Administrator\.android\build-cache\94661d818f9b93f5124fe5c543ccd98f72315f9f\output\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\Administrator\.android\build-cache\9ca9bafbbb5077d9276ce107071f34079491cab3\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\Administrator\.android\build-cache\0ed24ebec2750a90b1ab91a9efbaf1848fbbb169\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\Administrator\.android\build-cache\fdbe52b428556b9d726c7b89c05d8928329cd86a\output\AndroidManifest.xml:21:5-43
-MERGED from [org.xutils:xutils:3.2.2] C:\Users\Administrator\.android\build-cache\ffea74b2b869309e1a1aa86d979a68f1cb670abe\output\AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support:cardview-v7:23.0.0] C:\Users\Administrator\.android\build-cache\000fea08daaed5dea3011a140c04726f739a02e0\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.databinding:adapters:1.3.1] C:\Users\Administrator\.android\build-cache\e6ff73666cce3c2625f766ecb02d7dcafe132822\output\AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.databinding:library:1.3.1] C:\Users\Administrator\.android\build-cache\4fbb11a751182eaf6550e3b256689d4874636466\output\AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support:support-v4:24.2.1] C:\Users\Administrator\.android\build-cache\9675d1e80f55903e3c088a3f0988b31f62d0c737\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\Administrator\.android\build-cache\c02ccd2b518ad01f39c539f22eecfd5234f9d336\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\Administrator\.android\build-cache\6347c90bea26ce13d17a49158d3a283138b595f4\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\Administrator\.android\build-cache\91fbf46a8added6585f18e64b0b40d4f0a394c27\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\Administrator\.android\build-cache\c895375460dff8603573130be657cbe3a9395758\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:24.2.1] C:\Users\Administrator\.android\build-cache\b0d6966b32f7eb839849c5912f6a3112701b0f6a\output\AndroidManifest.xml:21:5-23:58
+INJECTED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [io.reactivex:rxandroid:1.2.1] C:\Users\Administrator\.android\build-cache\14939dd50c8380915a079a0f54930f53b0aa63bd\output\AndroidManifest.xml:19:5-43
+MERGED from [com.jakewharton:butterknife:8.4.0] C:\Users\Administrator\.android\build-cache\fbe8e742726aba3c0343da983af9293158c0fd88\output\AndroidManifest.xml:5:5-43
+MERGED from [com.orhanobut:logger:1.15] C:\Users\Administrator\.android\build-cache\2bb17fd90e74e9801e172a5cbaf8819ca4040928\output\AndroidManifest.xml:6:5-43
+MERGED from [com.ashokvarma.android:bottom-navigation-bar:1.2.0] C:\Users\Administrator\.android\build-cache\7bc4e2744b0d8fc71c93796bae959c46649cc99a\output\AndroidManifest.xml:7:5-9:41
+MERGED from [cn.pedant.sweetalert:library:1.3] C:\Users\Administrator\.android\build-cache\91d430d9ff3106b5ebf2e749f27d0a597428ba33\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.pnikosis:materialish-progress:1.0] C:\Users\Administrator\.android\build-cache\1735729ab2c277b1a7369658d96569d843827ad6\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.makeramen:roundedimageview:2.3.0] C:\Users\Administrator\.android\build-cache\42f9ac976ee92f27441250ba36a05331a648923b\output\AndroidManifest.xml:7:5-43
+MERGED from [com.yanzhenjie:permission:1.0.4] C:\Users\Administrator\.android\build-cache\6a30d4356cf9a291473b84f83e72cb9e35979570\output\AndroidManifest.xml:6:5-8:41
+MERGED from [com.yanzhenjie.alertdialog:alertdialog:1.0.0] C:\Users\Administrator\.android\build-cache\3220324cc6c0029e3883f9d7bca07ef3f467aea5\output\AndroidManifest.xml:6:5-8:41
+MERGED from [Remotemeicalplatform:webrtc-client:unspecified] E:\XLworkspace\GongXinWang\Remotemeicalplatform\webrtc-client\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.erizet.signala:signala-longpolling:0.20] C:\Users\Administrator\.android\build-cache\af71a7bf115ba38361a7b6864077bf6b013167b1\output\AndroidManifest.xml:3:5-72
+MERGED from [com.github.erizet.signala:parallel-basic-http-client:0.20] C:\Users\Administrator\.android\build-cache\c245fc147f0ed70066102fbe4e4a0f2078cdb345\output\AndroidManifest.xml:3:5-72
+MERGED from [com.github.erizet.signala:signala:0.20] C:\Users\Administrator\.android\build-cache\b6fc98dd83ec0e857a06a69d8c6cd59fb540cce0\output\AndroidManifest.xml:3:5-72
+MERGED from [io.pristine:libjingle:9694] C:\Users\Administrator\.android\build-cache\9346180e391dede49c94a0c95823feb1384b67f0\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] C:\Users\Administrator\.android\build-cache\5b31e910aa08abd04f334ced5e4752e0c3644f18\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\Administrator\.android\build-cache\510c426d74283a76c8a29bbebc8b841e369dd717\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Administrator\.android\build-cache\6347d061bbc4fa128404d8e9c0438038b7386057\output\AndroidManifest.xml:18:5-42
+MERGED from [me.iwf.photopicker:PhotoPicker:0.9.5] C:\Users\Administrator\.android\build-cache\44a3c7139512166761d45672d7fd13f651e6c737\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:23.4.0] C:\Users\Administrator\.android\build-cache\5d312417355e924f41e749cdd4d91033c8ff6233\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.4.0] C:\Users\Administrator\.android\build-cache\f542411a0c18fdab4577a1d5bf7b9af9ea564f69\output\AndroidManifest.xml:20:5-43
+MERGED from [com.github.chrisbanes:PhotoView:1.3.0] C:\Users\Administrator\.android\build-cache\2e211184a13fc19cf02bcf53da4c8eb5a47b3734\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.donkingliang:LabelsView:1.2.0] C:\Users\Administrator\.android\build-cache\b10b47c7c288c1552a10c6b0aedef4618ca16f42\output\AndroidManifest.xml:7:5-9:41
+MERGED from [org.xutils:xutils:3.2.2] C:\Users\Administrator\.android\build-cache\bcc1974e3f12426fd1631ab4af4574c59955d9f7\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:cardview-v7:23.0.0] C:\Users\Administrator\.android\build-cache\ae14934c9363d68939573ac26f9399eff7a60f3f\output\AndroidManifest.xml:20:5-43
+MERGED from [Remotemeicalplatform:timelibrary:1.1.1] E:\XLworkspace\GongXinWang\Remotemeicalplatform\timelibrary\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\Administrator\.android\build-cache\9b74c5f43c30d7cfb83895d6ce86894c242d565c\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\Administrator\.android\build-cache\f719547a64374ff757adf560cfef856429cae3c5\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\Administrator\.android\build-cache\f4832a6cdaa429f63161f3eef9233ca4c4fdbeba\output\AndroidManifest.xml:21:5-43
+MERGED from [com.android.databinding:adapters:1.3.1] C:\Users\Administrator\.android\build-cache\0e3f7d0506997e79872870a140007b746d6b3863\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.databinding:library:1.3.1] C:\Users\Administrator\.android\build-cache\a71232a913497a0c28ffd1909cb7aedb51e598fb\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-v4:24.2.1] C:\Users\Administrator\.android\build-cache\89582fa63080ead2f61fdf106e7b33f1cff327f3\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\Administrator\.android\build-cache\572f457ecfccd956ab0c9b6c1ec40ba5ca3e7afc\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\Administrator\.android\build-cache\91262af4534a2db8478f8dfa1ae1d9dc921d5991\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\Administrator\.android\build-cache\37d0e718210806c4eaf851d38727c7d07f35d6b1\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\Administrator\.android\build-cache\aa13edc96c417cfd7525fa046d4efb0fe93f226d\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:24.2.1] C:\Users\Administrator\.android\build-cache\708626dc28534f71107868accb6db6b79f957977\output\AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:24.2.1] C:\Users\Administrator\.android\build-cache\9ca9bafbbb5077d9276ce107071f34079491cab3\output\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:24.2.1] C:\Users\Administrator\.android\build-cache\9b74c5f43c30d7cfb83895d6ce86894c242d565c\output\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		INJECTED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml
-		INJECTED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml
+		INJECTED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml
+		INJECTED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml
-		INJECTED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml
+		INJECTED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml
+		INJECTED from E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [Remotemeicalplatform:webrtc-client:unspecified] D:\MyWork\SmartHospital\Remotemeicalplatform\webrtc-client\build\intermediates\bundles\default\AndroidManifest.xml:21:5-68
+ADDED from [Remotemeicalplatform:webrtc-client:unspecified] E:\XLworkspace\GongXinWang\Remotemeicalplatform\webrtc-client\build\intermediates\bundles\default\AndroidManifest.xml:21:5-68
 	android:name
-		ADDED from [Remotemeicalplatform:webrtc-client:unspecified] D:\MyWork\SmartHospital\Remotemeicalplatform\webrtc-client\build\intermediates\bundles\default\AndroidManifest.xml:21:22-65
+		ADDED from [Remotemeicalplatform:webrtc-client:unspecified] E:\XLworkspace\GongXinWang\Remotemeicalplatform\webrtc-client\build\intermediates\bundles\default\AndroidManifest.xml:21:22-65
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from [me.iwf.photopicker:PhotoPicker:0.9.5] C:\Users\Administrator\.android\build-cache\76935a1921f71a97a4d5da81c8a5320209f5542f\output\AndroidManifest.xml:10:5-80
+ADDED from [me.iwf.photopicker:PhotoPicker:0.9.5] C:\Users\Administrator\.android\build-cache\44a3c7139512166761d45672d7fd13f651e6c737\output\AndroidManifest.xml:10:5-80
 	android:name
-		ADDED from [me.iwf.photopicker:PhotoPicker:0.9.5] C:\Users\Administrator\.android\build-cache\76935a1921f71a97a4d5da81c8a5320209f5542f\output\AndroidManifest.xml:10:22-77
+		ADDED from [me.iwf.photopicker:PhotoPicker:0.9.5] C:\Users\Administrator\.android\build-cache\44a3c7139512166761d45672d7fd13f651e6c737\output\AndroidManifest.xml:10:22-77
 provider#android.support.v4.content.FileProvider
-ADDED from [me.iwf.photopicker:PhotoPicker:0.9.5] C:\Users\Administrator\.android\build-cache\76935a1921f71a97a4d5da81c8a5320209f5542f\output\AndroidManifest.xml:14:9-22:20
+ADDED from [me.iwf.photopicker:PhotoPicker:0.9.5] C:\Users\Administrator\.android\build-cache\44a3c7139512166761d45672d7fd13f651e6c737\output\AndroidManifest.xml:14:9-22:20
 	android:authorities
-		ADDED from [me.iwf.photopicker:PhotoPicker:0.9.5] C:\Users\Administrator\.android\build-cache\76935a1921f71a97a4d5da81c8a5320209f5542f\output\AndroidManifest.xml:16:13-60
+		ADDED from [me.iwf.photopicker:PhotoPicker:0.9.5] C:\Users\Administrator\.android\build-cache\44a3c7139512166761d45672d7fd13f651e6c737\output\AndroidManifest.xml:16:13-60
 	android:grantUriPermissions
-		ADDED from [me.iwf.photopicker:PhotoPicker:0.9.5] C:\Users\Administrator\.android\build-cache\76935a1921f71a97a4d5da81c8a5320209f5542f\output\AndroidManifest.xml:18:13-47
+		ADDED from [me.iwf.photopicker:PhotoPicker:0.9.5] C:\Users\Administrator\.android\build-cache\44a3c7139512166761d45672d7fd13f651e6c737\output\AndroidManifest.xml:18:13-47
 	android:exported
-		ADDED from [me.iwf.photopicker:PhotoPicker:0.9.5] C:\Users\Administrator\.android\build-cache\76935a1921f71a97a4d5da81c8a5320209f5542f\output\AndroidManifest.xml:17:13-37
+		ADDED from [me.iwf.photopicker:PhotoPicker:0.9.5] C:\Users\Administrator\.android\build-cache\44a3c7139512166761d45672d7fd13f651e6c737\output\AndroidManifest.xml:17:13-37
 	android:name
-		ADDED from [me.iwf.photopicker:PhotoPicker:0.9.5] C:\Users\Administrator\.android\build-cache\76935a1921f71a97a4d5da81c8a5320209f5542f\output\AndroidManifest.xml:15:13-67
+		ADDED from [me.iwf.photopicker:PhotoPicker:0.9.5] C:\Users\Administrator\.android\build-cache\44a3c7139512166761d45672d7fd13f651e6c737\output\AndroidManifest.xml:15:13-67
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [me.iwf.photopicker:PhotoPicker:0.9.5] C:\Users\Administrator\.android\build-cache\76935a1921f71a97a4d5da81c8a5320209f5542f\output\AndroidManifest.xml:19:13-21:67
+ADDED from [me.iwf.photopicker:PhotoPicker:0.9.5] C:\Users\Administrator\.android\build-cache\44a3c7139512166761d45672d7fd13f651e6c737\output\AndroidManifest.xml:19:13-21:67
 	android:resource
-		ADDED from [me.iwf.photopicker:PhotoPicker:0.9.5] C:\Users\Administrator\.android\build-cache\76935a1921f71a97a4d5da81c8a5320209f5542f\output\AndroidManifest.xml:21:17-64
+		ADDED from [me.iwf.photopicker:PhotoPicker:0.9.5] C:\Users\Administrator\.android\build-cache\44a3c7139512166761d45672d7fd13f651e6c737\output\AndroidManifest.xml:21:17-64
 	android:name
-		ADDED from [me.iwf.photopicker:PhotoPicker:0.9.5] C:\Users\Administrator\.android\build-cache\76935a1921f71a97a4d5da81c8a5320209f5542f\output\AndroidManifest.xml:20:17-67
+		ADDED from [me.iwf.photopicker:PhotoPicker:0.9.5] C:\Users\Administrator\.android\build-cache\44a3c7139512166761d45672d7fd13f651e6c737\output\AndroidManifest.xml:20:17-67

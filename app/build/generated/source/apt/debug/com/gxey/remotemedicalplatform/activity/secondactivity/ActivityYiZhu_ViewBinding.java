@@ -8,6 +8,7 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import butterknife.Unbinder;
 import butterknife.internal.Utils;
@@ -30,6 +31,9 @@ public class ActivityYiZhu_ViewBinding<T extends ActivityYiZhu> implements Unbin
     target.emptyLayoutYizhu = Utils.findRequiredViewAsType(source, R.id.emptyLayout_yizhu, "field 'emptyLayoutYizhu'", EmptyLayout.class);
     target.swipeYizhu = Utils.findRequiredViewAsType(source, R.id.swipe_yizhu, "field 'swipeYizhu'", SwipeRefreshLayout.class);
     target.toolbarRight = Utils.findRequiredViewAsType(source, R.id.toolbar_right, "field 'toolbarRight'", TextView.class);
+    target.startTime = Utils.findRequiredViewAsType(source, R.id.start_time, "field 'startTime'", TextView.class);
+    target.endTime = Utils.findRequiredViewAsType(source, R.id.end_time, "field 'endTime'", TextView.class);
+    target.reTime = Utils.findRequiredViewAsType(source, R.id.re_time, "field 'reTime'", RelativeLayout.class);
   }
 
   @Override
@@ -45,6 +49,9 @@ public class ActivityYiZhu_ViewBinding<T extends ActivityYiZhu> implements Unbin
     target.emptyLayoutYizhu = null;
     target.swipeYizhu = null;
     target.toolbarRight = null;
+    target.startTime = null;
+    target.endTime = null;
+    target.reTime = null;
 
     this.target = null;
   }

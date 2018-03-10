@@ -22,4 +22,12 @@ public class UrlConfig {
     public final static String SelBloodTang=POST+"api/HealthManage/SelBloodTang";//血糖
     public final static String SelCardiogram=POST+"api/HealthManage/SelCardiogram";//心电图
     public final static String SelMedicalExaminationReport=POST+"api/HealthManage/SelMedicalExaminationReport";//健康报告
+
+    public final static String SelApply=POST+"api/ReferralManage/SelApply";//分诊转诊
+
+    public final static String SelExhort=POST+"api/ElectronicArchivesManage/SelExhort";//医嘱
+    public final static String SelElectronicMedicalRecord=POST+"api/ElectronicArchivesManage/SelElectronicMedicalRecord";//电子病历
+    public final static String SelPatientChart=POST+"api/ElectronicArchivesManage/SelPatientChart";//门诊病历
+    public final static String SelCorrelationHospitalExhort=POST+"api/ElectronicArchivesManage/SelCorrelationHospitalExhort";//相关病历或医嘱
+    public final static String SelCorrelationHospitalExhort_Img=POST+"api/ElectronicArchivesManage/SelCorrelationHospitalExhort_Img";//相关病历或医嘱详情
 }

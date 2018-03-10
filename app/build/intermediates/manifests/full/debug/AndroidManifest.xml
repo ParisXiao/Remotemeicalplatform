@@ -188,12 +188,6 @@
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.gxey.remotemedicalplatform.activity.secondactivity.ActivityFamily"
-            android:configChanges="keyboardHidden|orientation"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppThemeWrite"
-            android:windowSoftInputMode="adjustPan|stateUnchanged" />
-        <activity
             android:name="com.gxey.remotemedicalplatform.activity.secondactivity.ActivityGuoMing"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"
@@ -225,6 +219,12 @@
             android:windowSoftInputMode="adjustPan|stateUnchanged" />
         <activity
             android:name="com.gxey.remotemedicalplatform.activity.secondactivity.ActivityJiWangShi"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeWrite"
+            android:windowSoftInputMode="adjustPan|stateUnchanged" />
+        <activity
+            android:name="com.gxey.remotemedicalplatform.activity.secondactivity.ActivityJiaZu"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"
             android:theme="@style/AppThemeWrite"

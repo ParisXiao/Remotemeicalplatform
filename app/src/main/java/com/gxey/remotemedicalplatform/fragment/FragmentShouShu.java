@@ -12,7 +12,6 @@ import android.view.ViewGroup;
 import com.gxey.remotemedicalplatform.R;
 import com.gxey.remotemedicalplatform.activity.LoginActivity;
 import com.gxey.remotemedicalplatform.adapter.ShouShuShiAdapter;
-import com.gxey.remotemedicalplatform.adapter.ShouShuShiAdapter;
 import com.gxey.remotemedicalplatform.bean.JiWangShiBean;
 import com.gxey.remotemedicalplatform.mynetwork.MyHttpHelper;
 import com.gxey.remotemedicalplatform.newconfig.UrlConfig;
@@ -122,7 +121,7 @@ public class FragmentShouShu extends BaseFragment {
                 if (MyHttpHelper.isConllection( getActivity())) {
                     String[] key = new String[]{};
                     Map<String, String> map = new HashMap<String, String>();
-                    String result = MyHttpHelper.GetMessage( getActivity(), UrlConfig.SelBlood, key, map);
+                    String result = MyHttpHelper.GetMessage( getActivity(), UrlConfig.SelHistoryOfJW, key, map);
                     if (!MyStrUtil.isEmpty(result)) {
                         JSONObject jsonObject;
                         try {
@@ -132,7 +131,7 @@ public class FragmentShouShu extends BaseFragment {
                             if (code.equals("0")) {
 //                                成功
                                 JSONObject jsonObject1 = new JSONObject(jsonObject.getString("result"));
-                                JSONArray jsonArray = new JSONArray(jsonObject1.getString("HistoryOfDisease"));
+                                JSONArray jsonArray = new JSONArray(jsonObject1.getString("Surgery"));
                                 List<JiWangShiBean.SurgeryBean> surgeryBeans=new ArrayList<>();
                                 if (jsonArray.length()>0) {
                                     for (int i = 0; i < jsonArray.length(); i++) {

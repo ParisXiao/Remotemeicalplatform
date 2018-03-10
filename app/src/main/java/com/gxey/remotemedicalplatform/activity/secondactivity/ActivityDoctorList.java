@@ -166,6 +166,7 @@ public class ActivityDoctorList extends BaseActivity implements View.OnClickList
                     doctorEntity.setDivision(entity.getManageDeptName());
                     doctorEntity.setHeadImg(entity.getHeadImg());
                     doctorEntity.setConnectionId(entity.getID());
+                    doctorEntity.setLogout(false);
                     doctorEntity.setPosition(entity.getPositionName());
                     doctorBeen.add(doctorEntity);
                 }

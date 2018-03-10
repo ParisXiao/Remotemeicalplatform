@@ -68,6 +68,7 @@ public class SendPushSigleR {
                             entity.setPosition(json.getString("Position"));
                             entity.setUserName(json.getString("Username"));
                             entity.setSN(json.getString("SN"));
+                            entity.setLogout(true);
                             entity.setRoomID(json.getString("RoomID"));
 
                         } catch (Exception e) {

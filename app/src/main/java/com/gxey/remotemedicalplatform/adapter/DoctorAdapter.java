@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.donkingliang.labels.LabelsView;
@@ -86,22 +87,14 @@ public class DoctorAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
         if (holder instanceof MyViewHolder) {
 
             if (!MyStrUtil.isEmpty(doctorBeen.get(position).getHeadImg())) {
-//                ImageOptions imageOptions = new ImageOptions.Builder()
-////                .setSize(DensityUtil.dip2px(120), DensityUtil.dip2px(120))
-////                .setRadius(DensityUtil.dip2px(5))
-//                        // 如果ImageView的大小不是定义为wrap_content, 不要crop.
-//                        .setCrop(true)
-//                        // 加载中或错误图片的ScaleType
-//                        //.setPlaceholderScaleType(ImageView.ScaleType.MATRIX)
-//                        .setImageScaleType(ImageView.ScaleType.CENTER_CROP)
-////                   .setLoadingDrawableId(R.mipmap.ic_launcher)
-//                  .setFailureDrawableId(R.drawable.touxiang)
-//                        .build();
-//                x.image().bind(((MyViewHolder) holder).doctor_icon, doctorBeen.get(position).getHeadImg().toString(), imageOptions, new CustomBitmapLoadCallBack(((MyViewHolder) holder).doctor_icon));
-////
                 ImageUtils.loadHeadImg(context,doctorBeen.get(position).getHeadImg(), ((MyViewHolder) holder).doctor_icon);
             } else {
                 ((MyViewHolder) holder).doctor_icon.setImageResource(R.drawable.touxiang);
+            }
+            if (doctorBeen.get(position).isLogout()){
+                ((MyViewHolder) holder).reLogout.setVisibility(View.VISIBLE);
+            }else {
+                ((MyViewHolder) holder).reLogout.setVisibility(View.INVISIBLE);
             }
             ((MyViewHolder) holder).doctor_name.setText(doctorBeen.get(position).getUserName());
             ((MyViewHolder) holder).doctor_content.setText("未知");
@@ -196,6 +189,7 @@ public class DoctorAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
         TextView doctor_pdrs;
         Button doctor_ljsq;
         LabelsView doctor_labels;
+        RelativeLayout reLogout;
 
         public MyViewHolder(View itemView) {
             super(itemView);
@@ -207,6 +201,7 @@ public class DoctorAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
             doctor_pdrs = (TextView) itemView.findViewById(R.id.doctor_pdrs);
             doctor_ljsq = (Button) itemView.findViewById(R.id.doctor_ljsq);
             doctor_labels = (LabelsView) itemView.findViewById(R.id.doctor_labels);
+            reLogout = (RelativeLayout) itemView.findViewById(R.id.re_logout);
             itemView.setOnClickListener(DoctorAdapter.this);
             doctor_ljsq.setOnClickListener(DoctorAdapter.this);
         }

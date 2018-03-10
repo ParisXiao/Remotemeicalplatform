@@ -94,8 +94,11 @@
             android:background="@color/background_fgx" />
 
         <RelativeLayout
+            android:id="@+id/re_logout"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            >
 
             <TextView
                 android:id="@+id/doctor_pdrs"

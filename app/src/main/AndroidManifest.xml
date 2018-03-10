@@ -187,11 +187,6 @@
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"
        />
-        <activity android:name=".activity.secondactivity.ActivityFamily"
-            android:configChanges="keyboardHidden|orientation"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppThemeWrite"
-            android:windowSoftInputMode="adjustPan|stateUnchanged" />
         <activity android:name=".activity.secondactivity.ActivityGuoMing"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"
@@ -223,6 +218,11 @@
             android:theme="@style/AppThemeWrite"
             android:windowSoftInputMode="adjustPan|stateUnchanged"
             />
+        <activity android:name=".activity.secondactivity.ActivityJiaZu"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeWrite"
+            android:windowSoftInputMode="adjustPan|stateUnchanged"/>
 
 
         <meta-data

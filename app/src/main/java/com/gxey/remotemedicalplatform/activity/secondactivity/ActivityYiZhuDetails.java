@@ -54,7 +54,7 @@ public class ActivityYiZhuDetails extends BaseActivity implements View.OnClickLi
     protected void initView() {
         toolbarLeftBtn.setVisibility(View.VISIBLE);
         toolbarLeftBtn.setOnClickListener(this);
-        toolbarMid.setText(R.string.zhuanzhendan);
+        toolbarMid.setText(R.string.yizhuxiangqing);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
         ScreenUtils.setStatusBarLightMode(this, R.color.black);

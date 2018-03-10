@@ -114,6 +114,7 @@ public class ActivityMyOverConsultation extends BaseActivity implements View.OnC
 
     @Override
     protected void initView() {
+        entity = (DoctorEntity) getIntent().getSerializableExtra("entity");
         initVideo();
         //initGetMessage();
         // initAcceptMemberCallBack();

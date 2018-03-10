@@ -11,7 +11,7 @@ import android.view.ViewGroup;
 
 import com.gxey.remotemedicalplatform.R;
 import com.gxey.remotemedicalplatform.activity.LoginActivity;
-import com.gxey.remotemedicalplatform.adapter.JiBingShiAdapter;
+import com.gxey.remotemedicalplatform.adapter.WaiShangShiAdapter;
 import com.gxey.remotemedicalplatform.bean.JiWangShiBean;
 import com.gxey.remotemedicalplatform.mynetwork.MyHttpHelper;
 import com.gxey.remotemedicalplatform.newconfig.UrlConfig;
@@ -47,8 +47,8 @@ public class FragmentWaiShang extends BaseFragment {
     @BindView(R.id.SwipeRefreshLayout)
     SwipeRefreshLayout swipeRefreshLayout;
     Unbinder unbinder;
-    private JiBingShiAdapter adapter;
-    private JiWangShiBean list;
+    private WaiShangShiAdapter adapter;
+    private List<JiWangShiBean.TraumaBean> list;
 
 
 
@@ -59,10 +59,10 @@ public class FragmentWaiShang extends BaseFragment {
 
     @Override
     protected void initView(View view) {
-        list = new JiWangShiBean();
+        list = new ArrayList<>();
         initLoad();
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity(), LinearLayoutManager.VERTICAL, false));
-//        recyclerView.setAdapter(adapter = new JiBingShiAdapter(getActivity(), list));
+        recyclerView.setAdapter(adapter = new WaiShangShiAdapter(getActivity(), list));
     }
 
     private void initLoad() {
@@ -121,7 +121,7 @@ public class FragmentWaiShang extends BaseFragment {
                 if (MyHttpHelper.isConllection( getActivity())) {
                     String[] key = new String[]{};
                     Map<String, String> map = new HashMap<String, String>();
-                    String result = MyHttpHelper.GetMessage( getActivity(), UrlConfig.SelBlood, key, map);
+                    String result = MyHttpHelper.GetMessage( getActivity(), UrlConfig.SelHistoryOfJW, key, map);
                     if (!MyStrUtil.isEmpty(result)) {
                         JSONObject jsonObject;
                         try {
@@ -131,24 +131,22 @@ public class FragmentWaiShang extends BaseFragment {
                             if (code.equals("0")) {
 //                                成功
                                 JSONObject jsonObject1 = new JSONObject(jsonObject.getString("result"));
-                                JSONArray jsonArray = new JSONArray(jsonObject1.getString("HistoryOfDisease"));
-                                List<JiWangShiBean.HistoryOfDiseaseBean> historyOfDiseaseBeans=new ArrayList<>();
+                                JSONArray jsonArray = new JSONArray(jsonObject1.getString("Trauma"));
                                 if (jsonArray.length()>0) {
 
                                     for (int i = 0; i < jsonArray.length(); i++) {
-                                        JiWangShiBean.HistoryOfDiseaseBean Bean =new JiWangShiBean.HistoryOfDiseaseBean();
+                                        JiWangShiBean.TraumaBean Bean =new JiWangShiBean.TraumaBean();
                                         JSONObject temp = (JSONObject) jsonArray.get(i);
                                         Bean.setId(temp.getString("Id"));
-                                        Bean.setNameofThedisease(temp.getString("NameofThedisease"));
-                                        Bean.setTimeofdiagnosis(temp.getString("Timeofdiagnosis"));
-                                        Bean.setIsitcured(temp.getString("Isitcured"));
+                                        Bean.setNameoftrauma(temp.getString("Nameoftrauma"));
+                                        Bean.setTraumaTime(temp.getString("TraumaTime"));
+                                        Bean.setDes(temp.getString("Des"));
                                         Bean.setStorageTime(temp.getString("StorageTime"));
                                         Bean.setUserId(temp.getString("UserId"));
                                         Bean.setAddUserId(temp.getString("AddUserId"));
-                                        historyOfDiseaseBeans.add(Bean);
+                                        list.add(Bean);
 
                                     }
-                                    list.setHistoryOfDisease(historyOfDiseaseBeans);
                                     subscriber.onNext(1);
                                 } else {
                                     subscriber.onNext(0);
@@ -222,9 +220,9 @@ public class FragmentWaiShang extends BaseFragment {
         adapter.changeMoreStatus(adapter.NO_LOAD_MORE);
 //        initLoadMoreListener();
 
-        adapter.setOnItemClickListener(new JiBingShiAdapter.OnRecyclerViewItemClickListener() {
+        adapter.setOnItemClickListener(new WaiShangShiAdapter.OnRecyclerViewItemClickListener() {
             @Override
-            public void onClick(View view, JiBingShiAdapter.ViewName viewName, int position) {
+            public void onClick(View view, WaiShangShiAdapter.ViewName viewName, int position) {
 
             }
         });

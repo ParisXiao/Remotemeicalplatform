@@ -26,9 +26,9 @@ public class ActivityHealthBaoGao_ViewBinding<T extends ActivityHealthBaoGao> im
     target.toolbarMid = Utils.findRequiredViewAsType(source, R.id.toolbar_mid, "field 'toolbarMid'", TextView.class);
     target.toolbarLeftBtn = Utils.findRequiredViewAsType(source, R.id.toolbar_left_btn, "field 'toolbarLeftBtn'", ImageButton.class);
     target.toolbar = Utils.findRequiredViewAsType(source, R.id.toolbar, "field 'toolbar'", Toolbar.class);
-    target.recyclerViewHealthbaogao = Utils.findRequiredViewAsType(source, R.id.recyclerView_healthbaogao, "field 'recyclerViewHealthbaogao'", RecyclerView.class);
-    target.emptyLayoutHealthbaogao = Utils.findRequiredViewAsType(source, R.id.emptyLayout_healthbaogao, "field 'emptyLayoutHealthbaogao'", EmptyLayout.class);
-    target.swipeHealthbaogao = Utils.findRequiredViewAsType(source, R.id.swipe_healthbaogao, "field 'swipeHealthbaogao'", SwipeRefreshLayout.class);
+    target.recyclerViewYichuan = Utils.findRequiredViewAsType(source, R.id.recyclerView_yichuan, "field 'recyclerViewYichuan'", RecyclerView.class);
+    target.emptyLayoutYichuan = Utils.findRequiredViewAsType(source, R.id.emptyLayout_yichuan, "field 'emptyLayoutYichuan'", EmptyLayout.class);
+    target.swipeYichuan = Utils.findRequiredViewAsType(source, R.id.swipe_yichuan, "field 'swipeYichuan'", SwipeRefreshLayout.class);
   }
 
   @Override
@@ -40,9 +40,9 @@ public class ActivityHealthBaoGao_ViewBinding<T extends ActivityHealthBaoGao> im
     target.toolbarMid = null;
     target.toolbarLeftBtn = null;
     target.toolbar = null;
-    target.recyclerViewHealthbaogao = null;
-    target.emptyLayoutHealthbaogao = null;
-    target.swipeHealthbaogao = null;
+    target.recyclerViewYichuan = null;
+    target.emptyLayoutYichuan = null;
+    target.swipeYichuan = null;
 
     this.target = null;
   }

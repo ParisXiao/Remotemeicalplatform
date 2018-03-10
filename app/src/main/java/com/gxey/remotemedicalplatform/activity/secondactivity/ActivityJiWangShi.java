@@ -15,13 +15,7 @@ import com.gxey.remotemedicalplatform.adapter.TabFragmentPagerAdapter;
 import com.gxey.remotemedicalplatform.fragment.FragmentJiBing;
 import com.gxey.remotemedicalplatform.fragment.FragmentShouShu;
 import com.gxey.remotemedicalplatform.fragment.FragmentShuXue;
-import com.gxey.remotemedicalplatform.fragment.FragmentTiWen;
 import com.gxey.remotemedicalplatform.fragment.FragmentWaiShang;
-import com.gxey.remotemedicalplatform.fragment.FragmentXinDianTu;
-import com.gxey.remotemedicalplatform.fragment.FragmentXinLv;
-import com.gxey.remotemedicalplatform.fragment.FragmentXueTang;
-import com.gxey.remotemedicalplatform.fragment.FragmentXueYa;
-import com.gxey.remotemedicalplatform.fragment.FragmentXueYang;
 import com.gxey.remotemedicalplatform.utils.ScreenUtils;
 
 import java.util.ArrayList;
@@ -135,9 +129,10 @@ public class ActivityJiWangShi extends BaseActivity implements View.OnClickListe
             case R.id.re_xinlv:
                 ViewPagerTijian.setCurrentItem(1);
                 tiwen.setTextColor(getResources().getColor(R.color.text_gray));
+                xinlv.setTextColor(getResources().getColor(R.color.background_green));
                 xuetang.setTextColor(getResources().getColor(R.color.text_gray));
                 xindiantu.setTextColor(getResources().getColor(R.color.text_gray));
-                xinlv.setTextColor(getResources().getColor(R.color.background_green));
+
                 tiwenLine.setVisibility(View.INVISIBLE);
                 xindiantuLine.setVisibility(View.INVISIBLE);
                 xuetangLine.setVisibility(View.INVISIBLE);
@@ -147,9 +142,9 @@ public class ActivityJiWangShi extends BaseActivity implements View.OnClickListe
             case R.id.re_xuetang:
                 ViewPagerTijian.setCurrentItem(2);
                 tiwen.setTextColor(getResources().getColor(R.color.text_gray));
-                xuetang.setTextColor(getResources().getColor(R.color.background_green));
                 xindiantu.setTextColor(getResources().getColor(R.color.text_gray));
                 xinlv.setTextColor(getResources().getColor(R.color.text_gray));
+                xuetang.setTextColor(getResources().getColor(R.color.background_green));
                 tiwenLine.setVisibility(View.INVISIBLE);
                 xindiantuLine.setVisibility(View.INVISIBLE);
                 xuetangLine.setVisibility(View.VISIBLE);

@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.3"
+        sha1="6389d6c60171be75b82ebd80936d52fb3dd7a289">
+        <dex dex="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_edeaf8561e38b86aeaa4a33e2e77d7f490114e9c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.3"
         sha1="12920f9016b8b05acbc2af7cdc13cef6946fe7d3">
-        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_545ce8fe4292a90a8d90c16b82ff99332b09613d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.3"
-        sha1="67bb86b9cdf93f81353bbc1b30706e7fec1e6b36">
-        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_173038f38cddc64cc3f219fe7a50fa24c488d419\classes.dex" />
+        <dex dex="E:\XLworkspace\GongXinWang\Remotemeicalplatform\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_b77954e12e38d90f892acbeecfe2588e09cc18b2\classes.dex" />
     </item>
 
 </items>

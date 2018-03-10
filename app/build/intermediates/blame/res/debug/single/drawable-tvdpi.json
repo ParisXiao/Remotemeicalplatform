@@ -1,7 +1,7 @@
 [
     {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_text_light_normal.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e089ba40d2249b941afe1bd559b8998c3003910f\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_text_light_normal.9.png"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_text_dark_pressed.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\510c426d74283a76c8a29bbebc8b841e369dd717\\output\\res\\drawable-tvdpi\\common_google_signin_btn_text_dark_pressed.9.png"
     },
     {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_icon_dark_disabled.9.png",
@@ -12,148 +12,12 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\510c426d74283a76c8a29bbebc8b841e369dd717\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_text_light_focused.9.png"
     },
     {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_text_dark_focused.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e089ba40d2249b941afe1bd559b8998c3003910f\\output\\res\\drawable-tvdpi\\common_google_signin_btn_text_dark_focused.9.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_icon_dark_focused.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e089ba40d2249b941afe1bd559b8998c3003910f\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_icon_dark_focused.9.png"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_text_light_disabled.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\510c426d74283a76c8a29bbebc8b841e369dd717\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_text_light_disabled.9.png"
     },
     {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_icon_light_disabled.9.png",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\510c426d74283a76c8a29bbebc8b841e369dd717\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_icon_light_disabled.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_text_light_focused.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\510c426d74283a76c8a29bbebc8b841e369dd717\\output\\res\\drawable-tvdpi\\common_google_signin_btn_text_light_focused.9.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_icon_light_disabled.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e089ba40d2249b941afe1bd559b8998c3003910f\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_icon_light_disabled.9.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_text_light_normal.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e089ba40d2249b941afe1bd559b8998c3003910f\\output\\res\\drawable-tvdpi\\common_google_signin_btn_text_light_normal.9.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_text_light_pressed.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e089ba40d2249b941afe1bd559b8998c3003910f\\output\\res\\drawable-tvdpi\\common_google_signin_btn_text_light_pressed.9.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_text_light_focused.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e089ba40d2249b941afe1bd559b8998c3003910f\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_text_light_focused.9.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_text_light_pressed.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e089ba40d2249b941afe1bd559b8998c3003910f\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_text_light_pressed.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_icon_dark_disabled.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\510c426d74283a76c8a29bbebc8b841e369dd717\\output\\res\\drawable-tvdpi\\common_google_signin_btn_icon_dark_disabled.9.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_icon_light_focused.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e089ba40d2249b941afe1bd559b8998c3003910f\\output\\res\\drawable-tvdpi\\common_google_signin_btn_icon_light_focused.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_icon_dark_pressed.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\510c426d74283a76c8a29bbebc8b841e369dd717\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_icon_dark_pressed.9.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_full_open_on_phone.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e089ba40d2249b941afe1bd559b8998c3003910f\\output\\res\\drawable-tvdpi\\common_full_open_on_phone.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_text_light_disabled.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\510c426d74283a76c8a29bbebc8b841e369dd717\\output\\res\\drawable-tvdpi\\common_google_signin_btn_text_light_disabled.9.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_text_light_focused.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e089ba40d2249b941afe1bd559b8998c3003910f\\output\\res\\drawable-tvdpi\\common_google_signin_btn_text_light_focused.9.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_icon_dark_normal.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e089ba40d2249b941afe1bd559b8998c3003910f\\output\\res\\drawable-tvdpi\\common_google_signin_btn_icon_dark_normal.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_icon_light_pressed.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\510c426d74283a76c8a29bbebc8b841e369dd717\\output\\res\\drawable-tvdpi\\common_google_signin_btn_icon_light_pressed.9.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_icon_dark_disabled.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e089ba40d2249b941afe1bd559b8998c3003910f\\output\\res\\drawable-tvdpi\\common_google_signin_btn_icon_dark_disabled.9.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_text_dark_normal.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e089ba40d2249b941afe1bd559b8998c3003910f\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_text_dark_normal.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_full_open_on_phone.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\510c426d74283a76c8a29bbebc8b841e369dd717\\output\\res\\drawable-tvdpi\\common_full_open_on_phone.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_icon_light_disabled.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e089ba40d2249b941afe1bd559b8998c3003910f\\output\\res\\drawable-tvdpi\\common_google_signin_btn_icon_light_disabled.9.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_icon_light_focused.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e089ba40d2249b941afe1bd559b8998c3003910f\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_icon_light_focused.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_text_dark_normal.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\510c426d74283a76c8a29bbebc8b841e369dd717\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_text_dark_normal.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_text_dark_focused.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\510c426d74283a76c8a29bbebc8b841e369dd717\\output\\res\\drawable-tvdpi\\common_google_signin_btn_text_dark_focused.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_icon_light_normal.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\510c426d74283a76c8a29bbebc8b841e369dd717\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_icon_light_normal.9.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_icon_light_normal.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e089ba40d2249b941afe1bd559b8998c3003910f\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_icon_light_normal.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_text_dark_normal.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\510c426d74283a76c8a29bbebc8b841e369dd717\\output\\res\\drawable-tvdpi\\common_google_signin_btn_text_dark_normal.9.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_text_dark_focused.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e089ba40d2249b941afe1bd559b8998c3003910f\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_text_dark_focused.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_icon_dark_focused.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\510c426d74283a76c8a29bbebc8b841e369dd717\\output\\res\\drawable-tvdpi\\common_google_signin_btn_icon_dark_focused.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_text_light_normal.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\510c426d74283a76c8a29bbebc8b841e369dd717\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_text_light_normal.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_text_dark_pressed.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\510c426d74283a76c8a29bbebc8b841e369dd717\\output\\res\\drawable-tvdpi\\common_google_signin_btn_text_dark_pressed.9.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_icon_light_pressed.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e089ba40d2249b941afe1bd559b8998c3003910f\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_icon_light_pressed.9.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_text_dark_disabled.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e089ba40d2249b941afe1bd559b8998c3003910f\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_text_dark_disabled.9.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_icon_dark_pressed.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e089ba40d2249b941afe1bd559b8998c3003910f\\output\\res\\drawable-tvdpi\\common_google_signin_btn_icon_dark_pressed.9.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_text_light_disabled.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e089ba40d2249b941afe1bd559b8998c3003910f\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_text_light_disabled.9.png"
-    },
-    {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_text_light_disabled.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\510c426d74283a76c8a29bbebc8b841e369dd717\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_text_light_disabled.9.png"
     },
     {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_text_dark_focused.9.png",
@@ -164,16 +28,12 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\510c426d74283a76c8a29bbebc8b841e369dd717\\output\\res\\drawable-tvdpi\\common_google_signin_btn_icon_light_normal.9.png"
     },
     {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_text_dark_pressed.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e089ba40d2249b941afe1bd559b8998c3003910f\\output\\res\\drawable-tvdpi\\common_google_signin_btn_text_dark_pressed.9.png"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_text_light_focused.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\510c426d74283a76c8a29bbebc8b841e369dd717\\output\\res\\drawable-tvdpi\\common_google_signin_btn_text_light_focused.9.png"
     },
     {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_icon_light_focused.9.png",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\510c426d74283a76c8a29bbebc8b841e369dd717\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_icon_light_focused.9.png"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_text_light_disabled.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e089ba40d2249b941afe1bd559b8998c3003910f\\output\\res\\drawable-tvdpi\\common_google_signin_btn_text_light_disabled.9.png"
     },
     {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_text_light_pressed.9.png",
@@ -184,10 +44,6 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\510c426d74283a76c8a29bbebc8b841e369dd717\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_text_dark_disabled.9.png"
     },
     {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_text_dark_disabled.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e089ba40d2249b941afe1bd559b8998c3003910f\\output\\res\\drawable-tvdpi\\common_google_signin_btn_text_dark_disabled.9.png"
-    },
-    {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_icon_dark_normal.9.png",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\510c426d74283a76c8a29bbebc8b841e369dd717\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_icon_dark_normal.9.png"
     },
@@ -196,12 +52,16 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\510c426d74283a76c8a29bbebc8b841e369dd717\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_icon_light_pressed.9.png"
     },
     {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_icon_dark_disabled.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\510c426d74283a76c8a29bbebc8b841e369dd717\\output\\res\\drawable-tvdpi\\common_google_signin_btn_icon_dark_disabled.9.png"
+    },
+    {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_icon_light_focused.9.png",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\510c426d74283a76c8a29bbebc8b841e369dd717\\output\\res\\drawable-tvdpi\\common_google_signin_btn_icon_light_focused.9.png"
     },
     {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_icon_light_pressed.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e089ba40d2249b941afe1bd559b8998c3003910f\\output\\res\\drawable-tvdpi\\common_google_signin_btn_icon_light_pressed.9.png"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_icon_dark_pressed.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\510c426d74283a76c8a29bbebc8b841e369dd717\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_icon_dark_pressed.9.png"
     },
     {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_icon_dark_normal.9.png",
@@ -224,40 +84,48 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\510c426d74283a76c8a29bbebc8b841e369dd717\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_icon_dark_focused.9.png"
     },
     {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_icon_light_normal.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e089ba40d2249b941afe1bd559b8998c3003910f\\output\\res\\drawable-tvdpi\\common_google_signin_btn_icon_light_normal.9.png"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_text_light_disabled.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\510c426d74283a76c8a29bbebc8b841e369dd717\\output\\res\\drawable-tvdpi\\common_google_signin_btn_text_light_disabled.9.png"
     },
     {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_text_dark_pressed.9.png",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\510c426d74283a76c8a29bbebc8b841e369dd717\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_text_dark_pressed.9.png"
     },
     {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_icon_light_pressed.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\510c426d74283a76c8a29bbebc8b841e369dd717\\output\\res\\drawable-tvdpi\\common_google_signin_btn_icon_light_pressed.9.png"
+    },
+    {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_icon_light_disabled.9.png",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\510c426d74283a76c8a29bbebc8b841e369dd717\\output\\res\\drawable-tvdpi\\common_google_signin_btn_icon_light_disabled.9.png"
     },
     {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_icon_dark_disabled.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e089ba40d2249b941afe1bd559b8998c3003910f\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_icon_dark_disabled.9.png"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_full_open_on_phone.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\510c426d74283a76c8a29bbebc8b841e369dd717\\output\\res\\drawable-tvdpi\\common_full_open_on_phone.png"
     },
     {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_icon_dark_pressed.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e089ba40d2249b941afe1bd559b8998c3003910f\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_icon_dark_pressed.9.png"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_text_dark_normal.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\510c426d74283a76c8a29bbebc8b841e369dd717\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_text_dark_normal.9.png"
     },
     {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_text_dark_normal.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e089ba40d2249b941afe1bd559b8998c3003910f\\output\\res\\drawable-tvdpi\\common_google_signin_btn_text_dark_normal.9.png"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_text_dark_focused.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\510c426d74283a76c8a29bbebc8b841e369dd717\\output\\res\\drawable-tvdpi\\common_google_signin_btn_text_dark_focused.9.png"
     },
     {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_icon_dark_focused.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e089ba40d2249b941afe1bd559b8998c3003910f\\output\\res\\drawable-tvdpi\\common_google_signin_btn_icon_dark_focused.9.png"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_icon_light_normal.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\510c426d74283a76c8a29bbebc8b841e369dd717\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_icon_light_normal.9.png"
     },
     {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_icon_dark_normal.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e089ba40d2249b941afe1bd559b8998c3003910f\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_icon_dark_normal.9.png"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_text_dark_normal.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\510c426d74283a76c8a29bbebc8b841e369dd717\\output\\res\\drawable-tvdpi\\common_google_signin_btn_text_dark_normal.9.png"
     },
     {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_text_dark_pressed.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e089ba40d2249b941afe1bd559b8998c3003910f\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_text_dark_pressed.9.png"
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_icon_dark_focused.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\510c426d74283a76c8a29bbebc8b841e369dd717\\output\\res\\drawable-tvdpi\\common_google_signin_btn_icon_dark_focused.9.png"
+    },
+    {
+        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_text_light_normal.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\510c426d74283a76c8a29bbebc8b841e369dd717\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_text_light_normal.9.png"
     },
     {
         "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_icon_dark_pressed.9.png",

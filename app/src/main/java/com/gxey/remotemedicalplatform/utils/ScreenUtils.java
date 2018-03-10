@@ -10,8 +10,6 @@ import android.view.ViewGroup;
 import android.view.Window;
 import android.view.WindowManager;
 
-import com.gxey.remotemedicalplatform.activity.secondactivity.ActivityFamily;
-
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 

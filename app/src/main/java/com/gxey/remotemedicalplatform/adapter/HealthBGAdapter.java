@@ -11,6 +11,8 @@ import android.widget.TextView;
 
 import com.gxey.remotemedicalplatform.R;
 import com.gxey.remotemedicalplatform.bean.HealthBGBean;
+import com.gxey.remotemedicalplatform.newconfig.UserConfig;
+import com.gxey.remotemedicalplatform.utils.PreferenceUtils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -80,11 +82,11 @@ public class HealthBGAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
     @Override
     public void onBindViewHolder(final RecyclerView.ViewHolder holder, final int position) {
         if (holder instanceof MyViewHolder) {
-            ((MyViewHolder) holder).itemBaogaoDanhao.setText(healthBGBeen.get(position).getBaogaoDanhao());
-            ((MyViewHolder) holder).itemBaogaoHzname.setText(healthBGBeen.get(position).getBaogaoHZname());
-            ((MyViewHolder) holder).itemBaogaoYsname.setText(healthBGBeen.get(position).getBaogaoYSname());
-            ((MyViewHolder) holder).itemBaogaoZuzhi.setText(healthBGBeen.get(position).getBaogaoZuZhi());
-            ((MyViewHolder) holder).itemBaogaoTime.setText(healthBGBeen.get(position).getBaogaoTime());
+            ((MyViewHolder) holder).itemBaogaoDanhao.setText(healthBGBeen.get(position).getPhysicalexaminationid());
+            ((MyViewHolder) holder).itemBaogaoHzname.setText(PreferenceUtils.getInstance(context).getString(UserConfig.RealName));
+            ((MyViewHolder) holder).itemBaogaoYsname.setText(healthBGBeen.get(position).getMeasuringdoctorname());
+            ((MyViewHolder) holder).itemBaogaoZuzhi.setText(healthBGBeen.get(position).getOrganizationname());
+            ((MyViewHolder) holder).itemBaogaoTime.setText(healthBGBeen.get(position).getMeasurementtime());
 
             ((MyViewHolder) holder).itemBaogaoChakan.setTag(position);
 
@@ -171,6 +173,7 @@ public class HealthBGAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
         public MyViewHolder(View itemView) {
             super(itemView);
             ButterKnife.bind(this, itemView);
+            itemBaogaoChakan.setOnClickListener(HealthBGAdapter.this);
         }
 
     }

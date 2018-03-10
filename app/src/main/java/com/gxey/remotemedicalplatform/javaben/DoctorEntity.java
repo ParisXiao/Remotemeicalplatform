@@ -8,6 +8,15 @@ import java.io.Serializable;
 
 public class DoctorEntity implements Serializable{
     private String RoomID;
+    private boolean Logout;
+
+    public boolean isLogout() {
+        return Logout;
+    }
+
+    public void setLogout(boolean logout) {
+        Logout = logout;
+    }
 
     public String getRoomID() {
         return RoomID;

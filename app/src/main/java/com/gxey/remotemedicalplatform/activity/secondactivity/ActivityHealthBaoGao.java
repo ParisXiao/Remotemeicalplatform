@@ -1,5 +1,6 @@
 package com.gxey.remotemedicalplatform.activity.secondactivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v4.widget.SwipeRefreshLayout;
@@ -13,17 +14,31 @@ import android.widget.Toast;
 
 import com.gxey.remotemedicalplatform.R;
 import com.gxey.remotemedicalplatform.activity.BaseActivity;
+import com.gxey.remotemedicalplatform.activity.LoginActivity;
 import com.gxey.remotemedicalplatform.adapter.HealthBGAdapter;
 import com.gxey.remotemedicalplatform.bean.HealthBGBean;
+import com.gxey.remotemedicalplatform.mynetwork.MyHttpHelper;
+import com.gxey.remotemedicalplatform.newconfig.UrlConfig;
+import com.gxey.remotemedicalplatform.utils.MyStrUtil;
 import com.gxey.remotemedicalplatform.utils.ScreenUtils;
+import com.gxey.remotemedicalplatform.utils.ToastUtils;
 import com.gxey.remotemedicalplatform.widget.EmptyLayout;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
-import java.util.Random;
+import java.util.Map;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import rx.Observable;
+import rx.Subscriber;
+import rx.android.schedulers.AndroidSchedulers;
+import rx.schedulers.Schedulers;
 
 import static com.gxey.remotemedicalplatform.R.id.toolbar_left_btn;
 
@@ -39,49 +54,75 @@ public class ActivityHealthBaoGao extends BaseActivity implements View.OnClickLi
     ImageButton toolbarLeftBtn;
     @BindView(R.id.toolbar)
     Toolbar toolbar;
-    @BindView(R.id.recyclerView_healthbaogao)
-    RecyclerView recyclerViewHealthbaogao;
-    @BindView(R.id.emptyLayout_healthbaogao)
-    EmptyLayout emptyLayoutHealthbaogao;
-    @BindView(R.id.swipe_healthbaogao)
-    SwipeRefreshLayout swipeHealthbaogao;
+    @BindView(R.id.recyclerView_yichuan)
+    RecyclerView recyclerViewYichuan;
+    @BindView(R.id.emptyLayout_yichuan)
+    EmptyLayout emptyLayoutYichuan;
+    @BindView(R.id.swipe_yichuan)
+    SwipeRefreshLayout swipeYichuan;
     private HealthBGAdapter adapter;
-    private List<HealthBGBean> healthBGBeen;
+    private List<HealthBGBean> list;
     private Handler handler = new Handler();
 
     @Override
     protected int getLayoutId() {
-        return R.layout.activity_health_baogao;
+        return R.layout.activity_yichuan;
     }
 
     @Override
     protected void initView() {
         toolbarLeftBtn.setVisibility(View.VISIBLE);
         toolbarLeftBtn.setOnClickListener(this);
-        toolbarMid.setText(R.string.jkbaogaoliebiao);
+        toolbarMid.setText("健康报告");
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
-        ScreenUtils.setStatusBarLightMode(this, R.color.black);
-        healthBGBeen = new ArrayList<>();
-        loadData();
+        ScreenUtils.setStatusBarLightMode(ActivityHealthBaoGao.this, R.color.black);
+        list = new ArrayList<>();
+        initLoad();
+        recyclerViewYichuan.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
+        recyclerViewYichuan.setAdapter(adapter = new HealthBGAdapter(this, list));
 
-        recyclerViewHealthbaogao.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
-        recyclerViewHealthbaogao.setAdapter(adapter = new HealthBGAdapter(this, healthBGBeen));
-        //绑定
-        emptyLayoutHealthbaogao.bindView(recyclerViewHealthbaogao);
-        emptyLayoutHealthbaogao.setOnButtonClick(new View.OnClickListener() {
+    }
+    private void initLoad(){
+        new Handler().postDelayed(new Runnable() {
             @Override
-            public void onClick(View v) {
-                //重新加载数据
-                loadData();
+            public void run() {
+                getData();
+            }
+        }, 2000);
+        //绑定
+        swipeYichuan.post(new Runnable() {
+            @Override
+            public void run() {
+                swipeYichuan.setRefreshing(true);
             }
         });
-        swipeHealthbaogao.setColorSchemeResources(R.color.colorPrimary, R.color.colorPrimaryDark);
-        swipeHealthbaogao.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+        emptyLayoutYichuan.showLoading();
+        emptyLayoutYichuan.bindView(recyclerViewYichuan);
+        emptyLayoutYichuan.setOnButtonClick(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                emptyLayoutYichuan.showLoading();
+                //重新加载数据
+                new Handler().postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        getData();
+                    }
+                }, 2000);
+            }
+        });
+        swipeYichuan.setColorSchemeResources(R.color.colorPrimary, R.color.colorPrimaryDark);
+        swipeYichuan.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
-                loadData();
-                swipeHealthbaogao.setRefreshing(false);
+                emptyLayoutYichuan.showLoading();
+                new Handler().postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        getData();
+                    }
+                }, 2000);
 
             }
         });
@@ -89,7 +130,9 @@ public class ActivityHealthBaoGao extends BaseActivity implements View.OnClickLi
 
     @Override
     protected void initData() {
-        initLoadMoreListener();
+        adapter.changeMoreStatus(adapter.NO_LOAD_MORE);
+//        initLoadMoreListener();
+
         adapter.setOnItemClickListener(new HealthBGAdapter.OnRecyclerViewItemClickListener() {
             @Override
             public void onClick(View view, HealthBGAdapter.ViewName viewName, int position) {
@@ -98,36 +141,112 @@ public class ActivityHealthBaoGao extends BaseActivity implements View.OnClickLi
         });
     }
 
-    private void loadData() {
-        //模拟加载数据
-        emptyLayoutHealthbaogao.showLoading("正在加载，请稍后");
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-//                为了防止重复调用
-                handler.removeCallbacks(this);
-                Random r = new Random();
-                int res = r.nextInt(10);
+    String msg;
 
-                if (res % 2 == 0) {
-                    // 失败
-                    emptyLayoutHealthbaogao.showError("重新加载"); // 显示失败
-                } else {
-                    // 成功
-                    emptyLayoutHealthbaogao.showSuccess();
-                    for (int i = 0; i < 10; i++) {
-                        healthBGBeen.add(new HealthBGBean("15454451215", "张三", "肖某某", "重庆大药房", "2018-03-02"));
+    private void getData() {
+
+        Observable.create(new Observable.OnSubscribe<Integer>() {
+
+            @Override
+            public void call(Subscriber<? super Integer> subscriber) {
+                if (MyHttpHelper.isConllection(ActivityHealthBaoGao.this)) {
+                    String[] key = new String[]{};
+                    Map<String, String> map = new HashMap<String, String>();
+                    String result = MyHttpHelper.GetMessage(ActivityHealthBaoGao.this, UrlConfig.SelMedicalExaminationReport, key, map);
+                    if (!MyStrUtil.isEmpty(result)) {
+                        JSONObject jsonObject;
+                        try {
+                            jsonObject = new JSONObject(result);
+                            String code = jsonObject.getString("code");
+                            msg = jsonObject.getString("desc");
+                            if (code.equals("0")) {
+//                                成功
+                                JSONArray jsonArray = new JSONArray(jsonObject.getString("result"));
+                                if (jsonArray.length()>0) {
+                                    for (int i = 0; i < jsonArray.length(); i++) {
+                                        HealthBGBean Bean =new HealthBGBean();
+                                        JSONObject temp = (JSONObject) jsonArray.get(i);
+                                        Bean.setId(temp.getString("id"));
+                                        Bean.setPhysicalexaminationid(temp.getString("physicalexaminationid"));
+                                        Bean.setMeasurementtime(temp.getString("measurementtime"));
+                                        Bean.setMeasuringdoctorname(temp.getString("measuringdoctorname"));
+                                        Bean.setOrganizationname(temp.getString("organizationname"));
+                                        Bean.setUserid(temp.getString("userid"));
+                                        Bean.setUrl(temp.getString("url"));
+                                        list.add(Bean);
+
+                                    }
+                                    subscriber.onNext(1);
+                                } else {
+                                    subscriber.onNext(0);
+                                }
+                            } else if (code.equals("1")) {
+                                subscriber.onNext(4);
+//                                离线
+                            } else {
+//                                失败
+                                subscriber.onNext(2);
+                            }
+
+                        } catch (JSONException e1) {
+                            // TODO Auto-generated catch block
+                            e1.printStackTrace();
+                        }
                     }
+                } else {
+                    subscriber.onNext(3);
                 }
-                adapter.notifyDataSetChanged();
-//                }
             }
-        }, 3000);
+        }).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(new Subscriber<Integer>() {
+            @Override
+            public void onCompleted() {
+
+            }
+
+            @Override
+            public void onError(Throwable e) {
+
+            }
+
+            @Override
+            public void onNext(Integer integer) {
+                switch (integer) {
+                    case 0:
+                        swipeYichuan.setRefreshing(false);
+                        adapter.notifyDataSetChanged();
+                        emptyLayoutYichuan.showEmpty("暂无数据！");
+                        break;
+                    case 1:
+                        swipeYichuan.setRefreshing(false);
+                        adapter.notifyDataSetChanged();
+                        emptyLayoutYichuan.showSuccess();
+                        break;
+                    case 2:
+                        swipeYichuan.setRefreshing(false);
+                        adapter.notifyDataSetChanged();
+                        emptyLayoutYichuan.showError("加载出错！");
+                        ToastUtils.s(ActivityHealthBaoGao.this, msg);
+                        break;
+                    case 3:
+                        swipeYichuan.setRefreshing(false);
+                        adapter.notifyDataSetChanged();
+                        emptyLayoutYichuan.showError("网络无连接！");
+                        break;
+                    case 4:
+                        swipeYichuan.setRefreshing(false);
+                        ToastUtils.s(ActivityHealthBaoGao.this, msg);
+                        Intent intent = new Intent(ActivityHealthBaoGao.this, LoginActivity.class);
+                        startActivity(intent);
+                        finish();
+                        break;
+                }
+            }
+        });
     }
 
     private void initLoadMoreListener() {
         adapter.changeMoreStatus(adapter.NO_LOAD_MORE);
-        recyclerViewHealthbaogao.setOnScrollListener(new RecyclerView.OnScrollListener() {
+        recyclerViewYichuan.setOnScrollListener(new RecyclerView.OnScrollListener() {
             int lastVisibleItem;
 
             @Override
@@ -143,14 +262,14 @@ public class ActivityHealthBaoGao extends BaseActivity implements View.OnClickLi
                     new Handler().postDelayed(new Runnable() {
                         @Override
                         public void run() {
-                            List<HealthBGBean> healthBGBeen = new ArrayList<HealthBGBean>();
-                            for (int i = 0; i < 10; i++) {
-                                healthBGBeen.add(new HealthBGBean("15454451215", "张三", "肖某某", "重庆大药房", "2018-03-02"));
-                            }
-                            adapter.AddFooterItem(healthBGBeen);
+//                            List<YiChuanBean> list = new ArrayList<YiChuanBean>();
+//                            for (int i = 0; i < 10; i++) {
+////                                list.add(new YiChuanBean("神经病", "2018-03-02"));
+//                            }
+//                            adapter.AddFooterItem(list);
                             //设置回到上拉加载更多
                             adapter.changeMoreStatus(adapter.PULLUP_LOAD_MORE);
-                            Toast.makeText(ActivityHealthBaoGao.this, "更新了 " + healthBGBeen.size() + " 条数据", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(ActivityHealthBaoGao.this, "更新了 " + list.size() + " 条数据", Toast.LENGTH_SHORT).show();
                         }
                     }, 3000);
 

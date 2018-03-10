@@ -11,7 +11,7 @@ import android.view.ViewGroup;
 
 import com.gxey.remotemedicalplatform.R;
 import com.gxey.remotemedicalplatform.activity.LoginActivity;
-import com.gxey.remotemedicalplatform.adapter.JiBingShiAdapter;
+import com.gxey.remotemedicalplatform.adapter.ShuXueShiAdapter;
 import com.gxey.remotemedicalplatform.bean.JiWangShiBean;
 import com.gxey.remotemedicalplatform.mynetwork.MyHttpHelper;
 import com.gxey.remotemedicalplatform.newconfig.UrlConfig;
@@ -47,8 +47,8 @@ public class FragmentShuXue extends BaseFragment {
     @BindView(R.id.SwipeRefreshLayout)
     SwipeRefreshLayout swipeRefreshLayout;
     Unbinder unbinder;
-    private JiBingShiAdapter adapter;
-    private List<JiWangShiBean.SurgeryBean> list;
+    private ShuXueShiAdapter adapter;
+    private List<JiWangShiBean.BloodTransfusionBean> list;
 
 
 
@@ -62,7 +62,7 @@ public class FragmentShuXue extends BaseFragment {
         list = new ArrayList<>();
         initLoad();
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity(), LinearLayoutManager.VERTICAL, false));
-//        recyclerView.setAdapter(adapter = new JiBingShiAdapter(getActivity(), list));
+        recyclerView.setAdapter(adapter = new ShuXueShiAdapter(getActivity(), list));
     }
 
     private void initLoad() {
@@ -121,7 +121,7 @@ public class FragmentShuXue extends BaseFragment {
                 if (MyHttpHelper.isConllection( getActivity())) {
                     String[] key = new String[]{};
                     Map<String, String> map = new HashMap<String, String>();
-                    String result = MyHttpHelper.GetMessage( getActivity(), UrlConfig.SelBlood, key, map);
+                    String result = MyHttpHelper.GetMessage( getActivity(), UrlConfig.SelHistoryOfJW, key, map);
                     if (!MyStrUtil.isEmpty(result)) {
                         JSONObject jsonObject;
                         try {
@@ -131,19 +131,20 @@ public class FragmentShuXue extends BaseFragment {
                             if (code.equals("0")) {
 //                                成功
                                 JSONObject jsonObject1 = new JSONObject(jsonObject.getString("result"));
-                                JSONArray jsonArray = new JSONArray(jsonObject1.getString("HistoryOfDisease"));
+                                JSONArray jsonArray = new JSONArray(jsonObject1.getString("BloodTransfusion"));
                                 if (jsonArray.length()>0) {
                                     for (int i = 0; i < jsonArray.length(); i++) {
-                                        JiWangShiBean.HistoryOfDiseaseBean Bean =new JiWangShiBean.HistoryOfDiseaseBean();
+                                        JiWangShiBean.BloodTransfusionBean Bean =new JiWangShiBean.BloodTransfusionBean();
                                         JSONObject temp = (JSONObject) jsonArray.get(i);
                                         Bean.setId(temp.getString("Id"));
-                                        Bean.setNameofThedisease(temp.getString("NameofThedisease"));
-                                        Bean.setTimeofdiagnosis(temp.getString("Timeofdiagnosis"));
-                                        Bean.setIsitcured(temp.getString("Isitcured"));
+                                        Bean.setBloodtransFusion(temp.getString("BloodtransFusion"));
+                                        Bean.setTimeofbloodtransfusion(temp.getString("Timeofbloodtransfusion"));
+                                        Bean.setReason(temp.getString("Reason"));
                                         Bean.setStorageTime(temp.getString("StorageTime"));
                                         Bean.setUserId(temp.getString("UserId"));
                                         Bean.setAddUserId(temp.getString("AddUserId"));
-//                                        list.add(Bean);
+                                        Bean.setPasthistoryID(temp.getString("PasthistoryID"));
+                                        list.add(Bean);
 
                                     }
                                     subscriber.onNext(1);
@@ -219,9 +220,9 @@ public class FragmentShuXue extends BaseFragment {
         adapter.changeMoreStatus(adapter.NO_LOAD_MORE);
 //        initLoadMoreListener();
 
-        adapter.setOnItemClickListener(new JiBingShiAdapter.OnRecyclerViewItemClickListener() {
+        adapter.setOnItemClickListener(new ShuXueShiAdapter.OnRecyclerViewItemClickListener() {
             @Override
-            public void onClick(View view, JiBingShiAdapter.ViewName viewName, int position) {
+            public void onClick(View view, ShuXueShiAdapter.ViewName viewName, int position) {
 
             }
         });
