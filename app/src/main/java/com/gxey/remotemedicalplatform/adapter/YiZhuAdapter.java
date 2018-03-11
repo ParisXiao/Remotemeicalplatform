@@ -14,6 +14,7 @@ import com.donkingliang.labels.LabelsView;
 import com.gxey.remotemedicalplatform.R;
 import com.gxey.remotemedicalplatform.bean.YiZhuBean;
 import com.gxey.remotemedicalplatform.inter.CustomBitmapLoadCallBack;
+import com.gxey.remotemedicalplatform.utils.ImageUtils;
 import com.gxey.remotemedicalplatform.utils.MyStrUtil;
 import com.makeramen.roundedimageview.RoundedImageView;
 
@@ -91,19 +92,7 @@ public class YiZhuAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
 
             if (!MyStrUtil.isEmpty(yiZhuBeen.get(position).getHeadimg())) {
 
-                ImageOptions imageOptions = new ImageOptions.Builder()
-//                .setSize(DensityUtil.dip2px(120), DensityUtil.dip2px(120))
-//                .setRadius(DensityUtil.dip2px(5))
-                        // 如果ImageView的大小不是定义为wrap_content, 不要crop.
-                        .setCrop(true)
-                        // 加载中或错误图片的ScaleType
-                        //.setPlaceholderScaleType(ImageView.ScaleType.MATRIX)
-                        .setImageScaleType(ImageView.ScaleType.CENTER_CROP)
-                   .setLoadingDrawableId(R.drawable.touxiang)
-                  .setFailureDrawableId(R.drawable.touxiang)
-                        .build();
-                x.image().bind(((MyViewHolder) holder).yizhuHead, yiZhuBeen.get(position).getHeadimg().toString(), imageOptions, new CustomBitmapLoadCallBack(((MyViewHolder) holder).yizhuHead));
-//
+                ImageUtils.loadHeadImg(context,yiZhuBeen.get(position).getHeadimg(),((MyViewHolder) holder).yizhuHead);
             } else {
                 ((MyViewHolder) holder).yizhuHead.setImageResource(R.drawable.touxiang);
             }
@@ -169,6 +158,7 @@ public class YiZhuAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
         public FooterViewHolder(View itemView) {
             super(itemView);
             ButterKnife.bind(this, itemView);
+
         }
     }
 
@@ -209,6 +199,7 @@ public class YiZhuAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
         public MyViewHolder(View itemView) {
             super(itemView);
             ButterKnife.bind(this, itemView);
+            itemView.setOnClickListener(YiZhuAdapter.this );
         }
 
     }

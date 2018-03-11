@@ -8,6 +8,7 @@ import android.widget.TextView;
 
 import com.gxey.remotemedicalplatform.R;
 import com.gxey.remotemedicalplatform.activity.BaseActivity;
+import com.gxey.remotemedicalplatform.bean.DianZiBLBean;
 import com.gxey.remotemedicalplatform.utils.ScreenUtils;
 
 import butterknife.BindView;
@@ -54,6 +55,7 @@ public class ActivityDZDetails extends BaseActivity implements View.OnClickListe
     TextView dzBz;
     @BindView(R.id.dz_shijian)
     TextView dzShijian;
+    private DianZiBLBean dianZiBLBean=new DianZiBLBean();
 
     @Override
     protected int getLayoutId() {
@@ -64,7 +66,7 @@ public class ActivityDZDetails extends BaseActivity implements View.OnClickListe
     protected void initView() {
         toolbarLeftBtn.setVisibility(View.VISIBLE);
         toolbarLeftBtn.setOnClickListener(this);
-        toolbarMid.setText(R.string.dianzibingli);
+        toolbarMid.setText("电子病历详情");
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
         ScreenUtils.setStatusBarLightMode(this, R.color.black);
@@ -72,6 +74,25 @@ public class ActivityDZDetails extends BaseActivity implements View.OnClickListe
 
     @Override
     protected void initData() {
+        dianZiBLBean= (DianZiBLBean) getIntent().getSerializableExtra("DZBL");
+        dzBlh.setText(dianZiBLBean.getCaseNumber());
+        if (dianZiBLBean.getPeriod()==1){
+            dzChuzhen.setText("初诊");
+        }else if (dianZiBLBean.getPeriod()==2){
+            dzChuzhen.setText("复诊");
+        }
+        dzZhenzhuang.setText(dianZiBLBean.getMainSuit());
+        dzYisheng.setText(dianZiBLBean.getDoctorId());
+        dzJiwangshi.setText(dianZiBLBean.getHistoryOfPastIllness());
+        dzGerenshi.setText(dianZiBLBean.getPersonalHistory());
+        dzJiazushi.setText(dianZiBLBean.getFHx());
+        dzTigejc.setText(dianZiBLBean.getPhysicalExamination());
+        dzFuzhujc.setText(dianZiBLBean.getAssistant());
+        dzZhenduan.setText(dianZiBLBean.getDiagnosis());
+        dzTsbz.setText(dianZiBLBean.getSpecial());
+        dzClyj.setText(dianZiBLBean.getHandlingSuggestion());
+        dzBz.setText(dianZiBLBean.getRemarks());
+        dzShijian.setText(dianZiBLBean.getBoardingTime());
 
     }
 

@@ -33,7 +33,7 @@ public class LogBen {
     private  String Age;
     private  String MobileNum;
     private  String Addr;
-    private  String password;
+    private  String Password;
     private  String StoreID;
 
     public String getHeadImg() {
@@ -109,10 +109,10 @@ public class LogBen {
     }
 
     public String getPassword() {
-        return password;
+        return Password;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public void setPassword(String Password) {
+        this.Password = Password;
     }
 }

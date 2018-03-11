@@ -181,6 +181,8 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
                     cv.put(Information.MobileNum,data.getMobileNum());
                     cv.put(Information.Addr,data.getAddr());
                     cv.put(Information.password,mpwd);
+                    PreferenceUtils.getInstance(LoginActivity.this).saveString(UserConfig.Token,data.getPassword());
+
                     boolean flag = mySQLiteOpenHelper.insertData(cv);
                     Intent intent = new Intent(LoginActivity.this,MainActivity.class);
                     startActivity(intent);

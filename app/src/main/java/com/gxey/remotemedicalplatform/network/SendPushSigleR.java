@@ -203,7 +203,7 @@ public class SendPushSigleR {
                     try {
                         JSONObject jsonObject =  args.getJSONObject(0);
                         String connectionId =jsonObject.getString("ConnectionId");
-                        ActivityMyOverConsultation.activity.initSDP(connectionId);
+                        ActivityDoctorList.activityDoctor.initSDP(connectionId);
 
                     } catch (JSONException e) {
                         e.printStackTrace();

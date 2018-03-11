@@ -1,5 +1,6 @@
 package com.gxey.remotemedicalplatform.activity.secondactivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v4.widget.SwipeRefreshLayout;
@@ -13,17 +14,33 @@ import android.widget.Toast;
 
 import com.gxey.remotemedicalplatform.R;
 import com.gxey.remotemedicalplatform.activity.BaseActivity;
+import com.gxey.remotemedicalplatform.activity.LoginActivity;
 import com.gxey.remotemedicalplatform.adapter.FenZhenAdapter;
 import com.gxey.remotemedicalplatform.bean.FenZhenBean;
+import com.gxey.remotemedicalplatform.bean.YiZhuBean;
+import com.gxey.remotemedicalplatform.mynetwork.MyHttpHelper;
+import com.gxey.remotemedicalplatform.newconfig.UrlConfig;
+import com.gxey.remotemedicalplatform.utils.MyStrUtil;
 import com.gxey.remotemedicalplatform.utils.ScreenUtils;
+import com.gxey.remotemedicalplatform.utils.ToastUtils;
 import com.gxey.remotemedicalplatform.widget.EmptyLayout;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Random;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import rx.Observable;
+import rx.Subscriber;
+import rx.android.schedulers.AndroidSchedulers;
+import rx.schedulers.Schedulers;
 
 import static com.gxey.remotemedicalplatform.R.id.toolbar_left_btn;
 
@@ -47,7 +64,7 @@ public class ActivityFenZhen extends BaseActivity implements View.OnClickListene
     @BindView(R.id.swipe_fenzhen)
     SwipeRefreshLayout swipeFenzhen;
     private FenZhenAdapter adapter;
-    private List<FenZhenBean> fenZhenBeen;
+    private List<FenZhenBean> list;
     private Handler handler=new Handler();
     @Override
     protected int getLayoutId() {
@@ -58,118 +75,192 @@ public class ActivityFenZhen extends BaseActivity implements View.OnClickListene
     protected void initView() {
         toolbarLeftBtn.setVisibility(View.VISIBLE);
         toolbarLeftBtn.setOnClickListener(this);
-        toolbarRight.setVisibility(View.VISIBLE);
-        toolbarRight.setText(R.string.shuaixuan);
-        toolbarRight.setTextColor(getResources().getColor(R.color.background_green));
         toolbarMid.setText(R.string.fenzhenzhuanzhen);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
         ScreenUtils.setStatusBarLightMode(this, R.color.black);
-        fenZhenBeen=new ArrayList<>();
-        loadData();
-
+        list=new ArrayList<>();
+        initLoad();
         recyclerViewFenzhen.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
-        recyclerViewFenzhen.setAdapter(adapter = new FenZhenAdapter(this,fenZhenBeen));
+        recyclerViewFenzhen.setAdapter(adapter = new FenZhenAdapter(this,list));
         //绑定
+    }
+    private void initLoad() {
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                getData();
+            }
+        }, 1000);
+        //绑定
+        swipeFenzhen.post(new Runnable() {
+            @Override
+            public void run() {
+                swipeFenzhen.setRefreshing(true);
+            }
+        });
+        emptyLayoutFenzhen.showLoading();
         emptyLayoutFenzhen.bindView(recyclerViewFenzhen);
         emptyLayoutFenzhen.setOnButtonClick(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                emptyLayoutFenzhen.showLoading();
                 //重新加载数据
-                loadData();
+                new Handler().postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        getData();
+                    }
+                }, 1000);
             }
         });
         swipeFenzhen.setColorSchemeResources(R.color.colorPrimary, R.color.colorPrimaryDark);
         swipeFenzhen.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
-                loadData();
-                swipeFenzhen.setRefreshing(false);
+                emptyLayoutFenzhen.showLoading();
+                new Handler().postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        getData();
+                    }
+                }, 1000);
 
+            }
+        });
+    }
+
+    String msg;
+
+    private void getData() {
+
+        Observable.create(new Observable.OnSubscribe<Integer>() {
+
+            @Override
+            public void call(Subscriber<? super Integer> subscriber) {
+                if (MyHttpHelper.isConllection(ActivityFenZhen.this)) {
+                    String[] key = new String[]{};
+                    Map<String, String> map = new HashMap<String, String>();
+                    String result = MyHttpHelper.GetMessage(ActivityFenZhen.this, UrlConfig.SelApply, key, map);
+                    if (!MyStrUtil.isEmpty(result)) {
+                        JSONObject jsonObject;
+                        try {
+                            jsonObject = new JSONObject(result);
+                            String code = jsonObject.getString("code");
+                            msg = jsonObject.getString("desc");
+                            if (code.equals("0")) {
+//                                成功
+                                JSONArray jsonArray = new JSONArray(jsonObject.getString("result"));
+                                if (jsonArray.length() > 0) {
+                                    for (int i = 0; i < jsonArray.length(); i++) {
+                                        FenZhenBean Bean = new FenZhenBean();
+                                        JSONObject temp = (JSONObject) jsonArray.get(i);
+                                        Bean.setApplyFor(temp.getString("ApplyFor"));
+                                        Bean.setAuditPerson(temp.getString("AuditPerson"));
+                                        Bean.setAuditState(temp.getString("AuditState"));
+                                        Bean.setAuditTime(temp.getString("AuditTime"));
+                                        Bean.setClinicTime(temp.getString("ClinicTime"));
+                                        Bean.setDoctor(temp.getString("Doctor"));
+                                        Bean.setOffice(temp.getString("Office"));
+                                        Bean.setOpinion(temp.getString("Opinion"));
+                                        Bean.setReadState(temp.getString("ReadState"));
+                                        Bean.setRegisterTime(temp.getString("RegisterTime"));
+                                        Bean.setRegiStrant(temp.getString("RegiStrant"));
+                                        Bean.setRemark(temp.getString("Remark"));
+                                        Bean.setRollout(temp.getString("Rollout"));
+                                        Bean.setRuleId(temp.getString("RuleId"));
+                                        Bean.setServiceCharge(temp.getString("ServiceCharge"));
+                                        Bean.setSickness(temp.getString("Sickness"));
+                                        Bean.setTahospital(temp.getString("Tahospital"));
+                                        Bean.setUserId(temp.getString("UserId"));
+                                        list.add(Bean);
+
+                                    }
+                                    subscriber.onNext(1);
+                                } else {
+                                    subscriber.onNext(0);
+                                }
+                            } else if (code.equals("1")) {
+                                subscriber.onNext(4);
+//                                离线
+                            } else {
+//                                失败
+                                subscriber.onNext(2);
+                            }
+
+                        } catch (JSONException e1) {
+                            // TODO Auto-generated catch block
+                            e1.printStackTrace();
+                        }
+                    }
+                } else {
+                    subscriber.onNext(3);
+                }
+            }
+        }).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(new Subscriber<Integer>() {
+            @Override
+            public void onCompleted() {
+
+            }
+
+            @Override
+            public void onError(Throwable e) {
+
+            }
+
+            @Override
+            public void onNext(Integer integer) {
+                switch (integer) {
+                    case 0:
+                        swipeFenzhen.setRefreshing(false);
+                        adapter.notifyDataSetChanged();
+                        emptyLayoutFenzhen.showEmpty("暂无数据！");
+                        break;
+                    case 1:
+                        swipeFenzhen.setRefreshing(false);
+                        adapter.notifyDataSetChanged();
+                        emptyLayoutFenzhen.showSuccess();
+                        break;
+                    case 2:
+                        swipeFenzhen.setRefreshing(false);
+                        adapter.notifyDataSetChanged();
+                        emptyLayoutFenzhen.showError("加载出错！");
+                        ToastUtils.s(ActivityFenZhen.this, msg);
+                        break;
+                    case 3:
+                        swipeFenzhen.setRefreshing(false);
+                        adapter.notifyDataSetChanged();
+                        emptyLayoutFenzhen.showError("网络无连接！");
+                        break;
+                    case 4:
+                        swipeFenzhen.setRefreshing(false);
+                        ToastUtils.s(ActivityFenZhen.this, msg);
+                        Intent intent = new Intent(ActivityFenZhen.this, LoginActivity.class);
+                        startActivity(intent);
+                        finish();
+                        break;
+                }
             }
         });
     }
 
     @Override
     protected void initData() {
-        initLoadMoreListener();
+//        initLoadMoreListener();
+        adapter.changeMoreStatus(adapter.NO_LOAD_MORE);
         adapter.setOnItemClickListener(new FenZhenAdapter.OnRecyclerViewItemClickListener() {
             @Override
             public void onClick(View view, FenZhenAdapter.ViewName viewName, int position) {
+                if (viewName== FenZhenAdapter.ViewName.ITEM){
+                    Intent intent=new Intent(ActivityFenZhen.this,ActivityFZDetails.class);
+                    intent.putExtra("FenZhen",list.get(position));
+                    startActivity(intent);
 
+                }
             }
         });
     }
-    private void loadData() {
-        //模拟加载数据
-        emptyLayoutFenzhen.showLoading("正在加载，请稍后");
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-//                为了防止重复调用
-                handler.removeCallbacks(this);
-                Random r = new Random();
-                int res = r.nextInt(10);
 
-                if (res % 2 == 0) {
-                    // 失败
-                    emptyLayoutFenzhen.showError("重新加载"); // 显示失败
-                } else {
-                    // 成功
-                    emptyLayoutFenzhen.showSuccess();
-                    for (int i = 0; i < 10; i++) {
-                        fenZhenBeen.add(new FenZhenBean("大同药房","2018-03-02","仁爱医院","外科","肖某某"));
-                    }
-                }
-                adapter.notifyDataSetChanged();
-//                }
-            }
-        }, 3000);
-    }
-    private void initLoadMoreListener() {
-        adapter.changeMoreStatus(adapter.NO_LOAD_MORE);
-        recyclerViewFenzhen.setOnScrollListener(new RecyclerView.OnScrollListener() {
-            int lastVisibleItem ;
-            @Override
-            public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
-                super.onScrollStateChanged(recyclerView, newState);
-                adapter.changeMoreStatus(adapter.PULLUP_LOAD_MORE);
-                //判断RecyclerView的状态 是空闲时，同时，是最后一个可见的ITEM时才加载
-                if(newState==RecyclerView.SCROLL_STATE_IDLE&&lastVisibleItem+1==adapter.getItemCount()){
-
-                    //设置正在加载更多
-                    adapter.changeMoreStatus(adapter.LOADING_MORE);
-
-                    new Handler().postDelayed(new Runnable() {
-                        @Override
-                        public void run() {
-                            List<FenZhenBean> fenZhenBeen=new ArrayList<FenZhenBean>();
-                            for (int i = 0; i < 10; i++) {
-                                fenZhenBeen.add(new FenZhenBean("大同药房","2018-03-02","仁爱医院","外科","肖某某"));
-                            }
-                            adapter.AddFooterItem(fenZhenBeen);
-                            //设置回到上拉加载更多
-                            adapter.changeMoreStatus(adapter.PULLUP_LOAD_MORE);
-                            Toast.makeText(ActivityFenZhen.this, "更新了 "+fenZhenBeen.size()+" 条数据", Toast.LENGTH_SHORT).show();
-                        }
-                    }, 3000);
-
-
-                }
-
-            }
-
-            @Override
-            public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
-                super.onScrolled(recyclerView, dx, dy);
-
-                LinearLayoutManager layoutManager = (LinearLayoutManager) recyclerView.getLayoutManager();
-                //最后一个可见的ITEM
-                lastVisibleItem=layoutManager.findLastVisibleItemPosition();
-            }
-        });
-
-    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

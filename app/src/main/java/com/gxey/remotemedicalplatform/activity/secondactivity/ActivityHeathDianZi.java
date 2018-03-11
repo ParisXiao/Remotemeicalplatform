@@ -81,8 +81,20 @@ public class ActivityHeathDianZi extends BaseActivity implements View.OnClickLis
                         startActivity(intent1);
                         break;
                     case 1:
-                        Intent intent2=new Intent(ActivityHeathDianZi.this,ActivityDZDetails.class);
+                        Intent intent2=new Intent(ActivityHeathDianZi.this,ActivityDZBL.class);
                         startActivity(intent2);
+                        break;
+                    case 2:
+                        Intent intent3=new Intent(ActivityHeathDianZi.this,ActivityMZBL.class);
+                        startActivity(intent3);
+                        break;
+                    case 3:
+                        Intent intent4=new Intent(ActivityHeathDianZi.this,ActivityXGBL.class);
+                        startActivity(intent4);
+                        break;
+                    case 4:
+                        Intent intent5=new Intent(ActivityHeathDianZi.this,ActivityXGYZ.class);
+                        startActivity(intent5);
                         break;
 
                 }

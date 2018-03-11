@@ -10,6 +10,7 @@ import android.media.AudioManager;
 import android.opengl.GLSurfaceView;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -54,10 +55,8 @@ import me.iwf.photopicker.PhotoPicker;
  * 视频咨询界面
  */
 
-public class ActivityMyOverConsultation extends BaseActivity implements View.OnClickListener, WebRtcClient.RtcListener {
+public class ActivityMyOverConsultation extends BaseActivity implements View.OnClickListener,WebRtcClient.RtcListener {
 
-    @BindView(R.id.glview_call)
-    GLSurfaceView glviewCall;
     @BindView(R.id.GL_text_left)
     TextView GLTextLeft;
     @BindView(R.id.GL_text_mid)
@@ -79,33 +78,27 @@ public class ActivityMyOverConsultation extends BaseActivity implements View.OnC
     @BindView(R.id.GL_btn_over)
     ImageView GLBtnOver;
     private DoctorEntity entity;
-    private final static int VIDEO_CALL_SENT = 666;
     private static final String VIDEO_CODEC_VP9 = "VP9";
     private static final String AUDIO_CODEC_OPUS = "opus";
-    // Local preview screen position before call is connected.
-    private static final int LOCAL_X_CONNECTING = 0;
-    private static final int LOCAL_Y_CONNECTING = 0;
-    private static final int LOCAL_WIDTH_CONNECTING = 100;
-    private static final int LOCAL_HEIGHT_CONNECTING = 100;
-    // Local preview screen position after call is connected.
+    static final int LOCAL_HEIGHT_CONNECTED = 25;
+    private static final int LOCAL_WIDTH_CONNECTED = 25;
     private static final int LOCAL_X_CONNECTED = 72;
     private static final int LOCAL_Y_CONNECTED = 72;
-    private static final int LOCAL_WIDTH_CONNECTED = 25;
-    private static final int LOCAL_HEIGHT_CONNECTED = 25;
-    // Remote video screen position
+    private static final int REMOTE_HEIGHT = 100;
+    private static final int REMOTE_WIDTH = 100;
     private static final int REMOTE_X = 0;
     private static final int REMOTE_Y = 0;
-    private static final int REMOTE_WIDTH = 100;
-    private static final int REMOTE_HEIGHT = 100;
     private VideoRendererGui.ScalingType scalingType = VideoRendererGui.ScalingType.SCALE_ASPECT_FILL;
+    private GLSurfaceView vsv;
     private VideoRenderer.Callbacks localRender;
     private VideoRenderer.Callbacks remoteRender;
     public static WebRtcClient client;
     public static ActivityMyOverConsultation activity;
-    private String mSocketAddress;
-    private String callerId;
     private List<MessageEntity> listMessage = new ArrayList<>();
     private MessageAdapter messageAdapter;
+    private String connectionId="";
+    private boolean isShow=false;
+    private PopupWindow window;
 
     @Override
     protected int getLayoutId() {
@@ -114,8 +107,13 @@ public class ActivityMyOverConsultation extends BaseActivity implements View.OnC
 
     @Override
     protected void initView() {
+        activity = this;
         entity = (DoctorEntity) getIntent().getSerializableExtra("entity");
+        connectionId=getIntent().getStringExtra("connectionId");
+        Log.d("connectionId",connectionId);
         initVideo();
+        initAudio();
+
         //initGetMessage();
         // initAcceptMemberCallBack();
         //initsendLeaveCallBack();
@@ -151,6 +149,7 @@ public class ActivityMyOverConsultation extends BaseActivity implements View.OnC
         GLBtnSendimg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 PhotoPicker.builder()
                         .setPhotoCount(1)
                         .setShowCamera(true)
@@ -166,6 +165,7 @@ public class ActivityMyOverConsultation extends BaseActivity implements View.OnC
             @Override
             public void onClick(View v) {
                 screenshot();
+
             }
         });
 
@@ -178,10 +178,17 @@ public class ActivityMyOverConsultation extends BaseActivity implements View.OnC
         GLBtnLiaotian.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                initPopupWindow(v);
+                if (isShow){
+                    isShow=false;
+                    window.dismiss();
+                }else {
+                    isShow=true;
+                    initPopupWindow(v);
+                }
+
             }
         });
-        activity = this;
+
     }
 
     private void initPopupWindow(View v) {
@@ -190,7 +197,7 @@ public class ActivityMyOverConsultation extends BaseActivity implements View.OnC
         // 创建PopupWindow对象，其中：
         // 第一个参数是用于PopupWindow中的View，第二个参数是PopupWindow的宽度，
         // 第三个参数是PopupWindow的高度，第四个参数指定PopupWindow能否获得焦点
-        final PopupWindow window = new PopupWindow(contentView, ViewGroup.LayoutParams.MATCH_PARENT,  ViewGroup.LayoutParams.WRAP_CONTENT, true);
+        window = new PopupWindow(contentView, ViewGroup.LayoutParams.MATCH_PARENT,  ViewGroup.LayoutParams.WRAP_CONTENT, true);
         // 设置PopupWindow的背景
         window.setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
         // 设置PopupWindow是否能响应外部点击事件
@@ -227,36 +234,27 @@ public class ActivityMyOverConsultation extends BaseActivity implements View.OnC
     }
 
     private void initVideo() {
-        glviewCall.setPreserveEGLContextOnPause(true);
-        glviewCall.setKeepScreenOn(true);
-        glviewCall.setOnClickListener(this);
-        VideoRendererGui.setView(glviewCall, new Runnable() {
+        vsv = (GLSurfaceView) findViewById(R.id.glview_call);
+        vsv.setPreserveEGLContextOnPause(true);
+        vsv.setKeepScreenOn(true);
+        vsv.setOnClickListener(this);
+
+        // local and remote render
+        VideoRendererGui.setView(vsv, new Runnable() {
             @Override
             public void run() {
                 init();
             }
         });
-
-        // local and remote render
         remoteRender = VideoRendererGui.create(
                 REMOTE_X, REMOTE_Y,
                 REMOTE_WIDTH, REMOTE_HEIGHT, scalingType, false);
         localRender = VideoRendererGui.create(
-                LOCAL_X_CONNECTING, LOCAL_Y_CONNECTING,
-                LOCAL_WIDTH_CONNECTING, LOCAL_HEIGHT_CONNECTING, scalingType, true);
-
-        final Intent intent = getIntent();
-        final String action = intent.getAction();
-
-        if (Intent.ACTION_VIEW.equals(action)) {
-            final List<String> segments = intent.getData().getPathSegments();
-            callerId = segments.get(0);
-        }
+                LOCAL_X_CONNECTED, LOCAL_Y_CONNECTED,
+                LOCAL_WIDTH_CONNECTED, LOCAL_HEIGHT_CONNECTED, scalingType, true);
     }
 
     private void initAudio() {
-
-
         AudioManager audioManager = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
         audioManager.setMode(AudioManager.MODE_NORMAL);
         audioManager.setSpeakerphoneOn(true);
@@ -265,17 +263,19 @@ public class ActivityMyOverConsultation extends BaseActivity implements View.OnC
     @Override
     public void onPause() {
         super.onPause();
-        glviewCall.onPause();
-//        if (client != null) {
-//            client.onPause();
-//        }
+        vsv.onPause();
+        if (client != null) {
+            client.onPause();
+        }
     }
 
     @Override
     public void onResume() {
         super.onResume();
-        glviewCall.onResume();
-
+        vsv.onResume();
+        if (client != null) {
+            client.onResume();
+        }
     }
 
     @Override
@@ -289,8 +289,7 @@ public class ActivityMyOverConsultation extends BaseActivity implements View.OnC
 
     @Override
     protected void initData() {
-        startCam();
-        isVideo = true;
+
     }
 
     @Override
@@ -299,7 +298,6 @@ public class ActivityMyOverConsultation extends BaseActivity implements View.OnC
             case R.id.glview_call:
                 videoConverter();
                 break;
-
         }
     }
 
@@ -375,31 +373,16 @@ public class ActivityMyOverConsultation extends BaseActivity implements View.OnC
     }
 
 
-    /**
-     * 通知医生取消排队
-     */
-    private void sendCancleDotor() {
-        JSONArray jsonArray = new JSONArray();
-        jsonArray.put(entity.getConnectionId());
-        SignalaUtils.getInstance(this).sendMessage("sendCancelDoctor", jsonArray);
-        finish();
-    }
 
     private void init() {
         Point displaySize = new Point();
         getWindowManager().getDefaultDisplay().getSize(displaySize);
         PeerConnectionParameters params = new PeerConnectionParameters(
-                true, false, 240, 320, 30, 1, VIDEO_CODEC_VP9, true, 1, AUDIO_CODEC_OPUS, true);
-
-        client = new WebRtcClient(this, this, mSocketAddress, params, VideoRendererGui.getEGLContext());
-        runOnUiThread(new Runnable() {
-            @Override
-            public void run() {
-
-                sendLinkDoctor();
-            }
-        });
+                true, false, 240, 320, 15, 1, VIDEO_CODEC_VP9, true, 1, AUDIO_CODEC_OPUS, true);
+        client = new WebRtcClient(this, localRender,remoteRender, this, params, VideoRendererGui.getEGLContext());
+        client.initOffe(connectionId);
     }
+
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, final Intent data) {
@@ -411,6 +394,7 @@ public class ActivityMyOverConsultation extends BaseActivity implements View.OnC
                     @Override
                     public void onSucceed(String data) {
                         sendMeaage(2, data);
+
                     }
 
                     @Override
@@ -428,36 +412,17 @@ public class ActivityMyOverConsultation extends BaseActivity implements View.OnC
 
     private boolean isVideo = false;
 
-    /**
-     * 通知患者视频
-     */
-    public void acceptMemberCallBack() {
-        startCam();
-        isVideo = true;
-//        mmRLWait.setVisibility(View.GONE);
-    }
-
-
-    /**
-     * 通知患者退出排队
-     */
-    public void unAcceptMemberCallBack() {
-        AndroidUtil.showToast(ActivityMyOverConsultation.this, "医生通知退出排队", 0);
-        finish();
-    }
-
 
     public void sendCaseDualCallBack() {
         GLTextMid.setVisibility(View.VISIBLE);
     }
 
-    public void initSDP(String connectionId) {
-        client.initOffe(connectionId);
-    }
 
 
     public void getMessage(JSONArray args) {
-
+        if (!isShow) {
+            GLBtnLiaotian.performClick();
+        }
         MessageEntity messageEntity = new MessageEntity();
         for (int i = 0; i < args.length(); i++) {
             try {
@@ -479,15 +444,15 @@ public class ActivityMyOverConsultation extends BaseActivity implements View.OnC
             }
 
         }
-//        if (messageEntity.getConnectionId().equals(entity.getConnectionId())) {
-//            listMessage.add(messageEntity);
-//            runOnUiThread(new Runnable() {
-//                @Override
-//                public void run() {
-//                    messageAdapter.notifyDataSetChanged();
-//                }
-//            });
-//        }
+        if (messageEntity.getConnectionId().equals(entity.getConnectionId())) {
+            listMessage.add(messageEntity);
+            runOnUiThread(new Runnable() {
+                @Override
+                public void run() {
+                    messageAdapter.notifyDataSetChanged();
+                }
+            });
+        }
     }
 
 
@@ -498,6 +463,9 @@ public class ActivityMyOverConsultation extends BaseActivity implements View.OnC
      * @param str
      */
     private void sendMeaage(int type, String str) {
+        if (!isShow) {
+            GLBtnLiaotian.performClick();
+        }
         JSONArray jsonArray = new JSONArray();
         JSONObject json = new JSONObject();
         try {
@@ -521,30 +489,6 @@ public class ActivityMyOverConsultation extends BaseActivity implements View.OnC
 //        messageAdapter.notifyDataSetChanged();
 
     }
-
-
-    public void startCam() {
-        // Camera settings
-        client.start("android_test");
-        initAudio();
-    }
-
-    /**
-     * 患者选择医生
-     */
-    public void sendLinkDoctor() {
-
-        JSONArray jsonArray = new JSONArray();
-        JSONObject json = new JSONObject();
-        try {
-            json.put("targetid", entity.getConnectionId());
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        jsonArray.put(json);
-        SignalaUtils.getInstance(this).sendMessage("sendLinkDoctor", jsonArray);
-    }
-
     @Override
     public void onCallReady(String callId) {
 
@@ -563,33 +507,17 @@ public class ActivityMyOverConsultation extends BaseActivity implements View.OnC
 
     @Override
     public void onLocalStream(MediaStream localStream) {
-        localStream.videoTracks.get(0).addRenderer(new VideoRenderer(localRender));
-        VideoRendererGui.update(localRender,
-                LOCAL_X_CONNECTING, LOCAL_Y_CONNECTING,
-                LOCAL_WIDTH_CONNECTING, LOCAL_HEIGHT_CONNECTING,
-                scalingType, false);
+
     }
 
     @Override
     public void onAddRemoteStream(MediaStream remoteStream, int endPoint) {
         isLink = true;
-        remoteStream.videoTracks.get(0).addRenderer(new VideoRenderer(remoteRender));
-        VideoRendererGui.update(remoteRender,
-                REMOTE_X, REMOTE_Y,
-                REMOTE_WIDTH, REMOTE_HEIGHT, scalingType, false);
-        VideoRendererGui.update(localRender,
-                LOCAL_X_CONNECTED, LOCAL_Y_CONNECTED,
-                LOCAL_WIDTH_CONNECTED, LOCAL_HEIGHT_CONNECTED,
-                scalingType, false);
     }
 
     @Override
     public void onRemoveRemoteStream(int endPoint) {
         isLink = false;
-        VideoRendererGui.update(localRender,
-                LOCAL_X_CONNECTING, LOCAL_Y_CONNECTING,
-                LOCAL_WIDTH_CONNECTING, LOCAL_HEIGHT_CONNECTING,
-                scalingType, false);
     }
 
 

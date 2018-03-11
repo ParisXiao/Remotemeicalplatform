@@ -1,122 +1,122 @@
 [
     {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9b74c5f43c30d7cfb83895d6ce86894c242d565c\\output\\res\\anim\\abc_slide_in_bottom.xml"
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\49e47b9b8c08cafe19a40fb6756d1b80e8344423\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
     },
     {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9b74c5f43c30d7cfb83895d6ce86894c242d565c\\output\\res\\anim\\abc_fade_out.xml"
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_right_in_a.xml",
+        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\anim\\push_right_in_a.xml"
     },
     {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9b74c5f43c30d7cfb83895d6ce86894c242d565c\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\modal_in.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8f6c38e5d9c0b9cec6c7498a8f2485761ca3e516\\output\\res\\anim\\modal_in.xml"
     },
     {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9b74c5f43c30d7cfb83895d6ce86894c242d565c\\output\\res\\anim\\abc_slide_in_top.xml"
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\modal_out.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8f6c38e5d9c0b9cec6c7498a8f2485761ca3e516\\output\\res\\anim\\modal_out.xml"
     },
     {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\error_x_in.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\91d430d9ff3106b5ebf2e749f27d0a597428ba33\\output\\res\\anim\\error_x_in.xml"
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\49e47b9b8c08cafe19a40fb6756d1b80e8344423\\output\\res\\anim\\design_fab_out.xml"
     },
     {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5d312417355e924f41e749cdd4d91033c8ff6233\\output\\res\\anim\\design_fab_out.xml"
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\success_bow_roate.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8f6c38e5d9c0b9cec6c7498a8f2485761ca3e516\\output\\res\\anim\\success_bow_roate.xml"
     },
     {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_right_in_a.xml",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\anim\\push_right_in_a.xml"
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\error_frame_in.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8f6c38e5d9c0b9cec6c7498a8f2485761ca3e516\\output\\res\\anim\\error_frame_in.xml"
     },
     {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_left_out_a.xml",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\anim\\push_left_out_a.xml"
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\success_mask_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8f6c38e5d9c0b9cec6c7498a8f2485761ca3e516\\output\\res\\anim\\success_mask_layout.xml"
     },
     {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9b74c5f43c30d7cfb83895d6ce86894c242d565c\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\49e47b9b8c08cafe19a40fb6756d1b80e8344423\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
     },
     {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9b74c5f43c30d7cfb83895d6ce86894c242d565c\\output\\res\\anim\\abc_fade_in.xml"
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\error_x_in.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8f6c38e5d9c0b9cec6c7498a8f2485761ca3e516\\output\\res\\anim\\error_x_in.xml"
     },
     {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\success_bow_roate.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\91d430d9ff3106b5ebf2e749f27d0a597428ba33\\output\\res\\anim\\success_bow_roate.xml"
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\49e47b9b8c08cafe19a40fb6756d1b80e8344423\\output\\res\\anim\\design_fab_in.xml"
     },
     {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\modal_out.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\91d430d9ff3106b5ebf2e749f27d0a597428ba33\\output\\res\\anim\\modal_out.xml"
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9ca9bafbbb5077d9276ce107071f34079491cab3\\output\\res\\anim\\abc_fade_out.xml"
     },
     {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pop_win_content_fade_out.xml",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\timelibrary\\build\\intermediates\\bundles\\default\\res\\anim\\pop_win_content_fade_out.xml"
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_left_in_a.xml",
+        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\anim\\push_left_in_a.xml"
     },
     {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pop_win_content_fade_in.xml",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\timelibrary\\build\\intermediates\\bundles\\default\\res\\anim\\pop_win_content_fade_in.xml"
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pop_exit_anim.xml",
+        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\anim\\pop_exit_anim.xml"
     },
     {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_right_out_a.xml",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\anim\\push_right_out_a.xml"
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9ca9bafbbb5077d9276ce107071f34079491cab3\\output\\res\\anim\\abc_popup_enter.xml"
     },
     {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9b74c5f43c30d7cfb83895d6ce86894c242d565c\\output\\res\\anim\\abc_popup_exit.xml"
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pop_win_content_fade_out.xml",
+        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\timelibrary\\build\\intermediates\\bundles\\default\\res\\anim\\pop_win_content_fade_out.xml"
     },
     {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pop_exit_anim.xml",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\anim\\pop_exit_anim.xml"
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_right_out_a.xml",
+        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\anim\\push_right_out_a.xml"
     },
     {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_left_in_a.xml",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\anim\\push_left_in_a.xml"
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9ca9bafbbb5077d9276ce107071f34079491cab3\\output\\res\\anim\\abc_popup_exit.xml"
     },
     {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\success_mask_layout.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\91d430d9ff3106b5ebf2e749f27d0a597428ba33\\output\\res\\anim\\success_mask_layout.xml"
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9ca9bafbbb5077d9276ce107071f34079491cab3\\output\\res\\anim\\abc_slide_in_bottom.xml"
     },
     {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9b74c5f43c30d7cfb83895d6ce86894c242d565c\\output\\res\\anim\\abc_popup_enter.xml"
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pop_enter_anim.xml",
+        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\anim\\pop_enter_anim.xml"
     },
     {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5d312417355e924f41e749cdd4d91033c8ff6233\\output\\res\\anim\\design_fab_in.xml"
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9ca9bafbbb5077d9276ce107071f34079491cab3\\output\\res\\anim\\abc_slide_in_top.xml"
     },
     {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5d312417355e924f41e749cdd4d91033c8ff6233\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9ca9bafbbb5077d9276ce107071f34079491cab3\\output\\res\\anim\\abc_slide_out_top.xml"
     },
     {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5d312417355e924f41e749cdd4d91033c8ff6233\\output\\res\\anim\\design_snackbar_out.xml"
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\49e47b9b8c08cafe19a40fb6756d1b80e8344423\\output\\res\\anim\\design_snackbar_out.xml"
     },
     {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\modal_in.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\91d430d9ff3106b5ebf2e749f27d0a597428ba33\\output\\res\\anim\\modal_in.xml"
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9ca9bafbbb5077d9276ce107071f34079491cab3\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
     },
     {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5d312417355e924f41e749cdd4d91033c8ff6233\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9ca9bafbbb5077d9276ce107071f34079491cab3\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     },
     {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pop_enter_anim.xml",
-        "source": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\src\\main\\res\\anim\\pop_enter_anim.xml"
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9ca9bafbbb5077d9276ce107071f34079491cab3\\output\\res\\anim\\abc_fade_in.xml"
     },
     {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9b74c5f43c30d7cfb83895d6ce86894c242d565c\\output\\res\\anim\\abc_slide_out_bottom.xml"
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\49e47b9b8c08cafe19a40fb6756d1b80e8344423\\output\\res\\anim\\design_snackbar_in.xml"
     },
     {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9b74c5f43c30d7cfb83895d6ce86894c242d565c\\output\\res\\anim\\abc_slide_out_top.xml"
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pop_win_content_fade_in.xml",
+        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\timelibrary\\build\\intermediates\\bundles\\default\\res\\anim\\pop_win_content_fade_in.xml"
     },
     {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\error_frame_in.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\91d430d9ff3106b5ebf2e749f27d0a597428ba33\\output\\res\\anim\\error_frame_in.xml"
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_left_out_a.xml",
+        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\anim\\push_left_out_a.xml"
     },
     {
-        "merged": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5d312417355e924f41e749cdd4d91033c8ff6233\\output\\res\\anim\\design_snackbar_in.xml"
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9ca9bafbbb5077d9276ce107071f34079491cab3\\output\\res\\anim\\abc_slide_out_bottom.xml"
     }
 ]

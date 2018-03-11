@@ -33,7 +33,6 @@ import android.widget.TextView;
 
 import com.gxey.remotemedicalplatform.R;
 import com.gxey.remotemedicalplatform.activity.BaseActivity;
-import com.gxey.remotemedicalplatform.activity.OverConsultationActivity;
 import com.gxey.remotemedicalplatform.adapter.DoctorAdapter;
 import com.gxey.remotemedicalplatform.javaben.DoctorEntity;
 import com.gxey.remotemedicalplatform.javaben.WDoctorEntity;
@@ -98,6 +97,7 @@ public class ActivityDoctorList extends BaseActivity implements View.OnClickList
     private  PopupWindow window;
     private DoctorEntity doctorEntity;
     public static ActivityDoctorList activityDoctor;
+    public String contectid="";
 
 
     @Override
@@ -401,9 +401,18 @@ public class ActivityDoctorList extends BaseActivity implements View.OnClickList
      * 通知患者视频
      */
     public void acceptMemberCallBack(){
-        Intent intent = new Intent(ActivityDoctorList.this,OverConsultationActivity.class);
-        intent.putExtra("entity",doctorEntity);
-        startActivity(intent);
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                Intent intent = new Intent(ActivityDoctorList.this,ActivityMyOverConsultation.class);
+                intent.putExtra("entity",doctorEntity);
+                intent.putExtra("connectionId",contectid);
+                contectid="";
+                startActivity(intent);
+                window.dismiss();
+            }
+        },2000);
+
     }
 
 
@@ -420,7 +429,10 @@ public class ActivityDoctorList extends BaseActivity implements View.OnClickList
         // TODO: add setContentView(...) invocation
         ButterKnife.bind(this);
     }
+    public void initSDP(String connectionId) {
+        contectid=connectionId;
 
+    }
 
     private void initLoadMoreListener() {
         adapter.changeMoreStatus(adapter.NO_LOAD_MORE);

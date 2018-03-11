@@ -73,9 +73,9 @@ public class ActivityYiZhu extends BaseActivity implements View.OnClickListener 
     RelativeLayout reTime;
     private YiZhuAdapter adapter;
     private List<YiZhuBean> yiZhuBeen;
-    private boolean isShow=false;
-    private String begintime="";
-    private String endtime="";
+    private boolean isShow = false;
+    private String begintime = "";
+    private String endtime = "";
 
     @Override
     protected int getLayoutId() {
@@ -99,11 +99,12 @@ public class ActivityYiZhu extends BaseActivity implements View.OnClickListener 
         recyclerViewYizhu.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
         recyclerViewYizhu.setAdapter(adapter = new YiZhuAdapter(this, yiZhuBeen));
     }
-    private void initLoad(){
+
+    private void initLoad() {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                getData(begintime,endtime);
+                getData(begintime, endtime);
             }
         }, 2000);
         //绑定
@@ -123,7 +124,7 @@ public class ActivityYiZhu extends BaseActivity implements View.OnClickListener 
                 new Handler().postDelayed(new Runnable() {
                     @Override
                     public void run() {
-                        getData(begintime,endtime);
+                        getData(begintime, endtime);
                     }
                 }, 2000);
             }
@@ -136,13 +137,14 @@ public class ActivityYiZhu extends BaseActivity implements View.OnClickListener 
                 new Handler().postDelayed(new Runnable() {
                     @Override
                     public void run() {
-                        getData(begintime,endtime);
+                        getData(begintime, endtime);
                     }
                 }, 2000);
 
             }
         });
     }
+
     String msg;
 
     private void getData(final String begin, final String end) {
@@ -152,10 +154,10 @@ public class ActivityYiZhu extends BaseActivity implements View.OnClickListener 
             @Override
             public void call(Subscriber<? super Integer> subscriber) {
                 if (MyHttpHelper.isConllection(ActivityYiZhu.this)) {
-                    String[] key = new String[]{"begtime","endtime"};
+                    String[] key = new String[]{"begtime", "endtime"};
                     Map<String, String> map = new HashMap<String, String>();
-                    map.put("begtime",begin);
-                    map.put("endtime",end);
+                    map.put("begtime", begin);
+                    map.put("endtime", end);
                     String result = MyHttpHelper.GetMessage(ActivityYiZhu.this, UrlConfig.SelExhort, key, map);
                     if (!MyStrUtil.isEmpty(result)) {
                         JSONObject jsonObject;
@@ -166,9 +168,9 @@ public class ActivityYiZhu extends BaseActivity implements View.OnClickListener 
                             if (code.equals("0")) {
 //                                成功
                                 JSONArray jsonArray = new JSONArray(jsonObject.getString("result"));
-                                if (jsonArray.length()>0) {
+                                if (jsonArray.length() > 0) {
                                     for (int i = 0; i < jsonArray.length(); i++) {
-                                        YiZhuBean Bean =new YiZhuBean();
+                                        YiZhuBean Bean = new YiZhuBean();
                                         JSONObject temp = (JSONObject) jsonArray.get(i);
                                         Bean.setId(temp.getString("id"));
                                         Bean.setNumber(temp.getString("number"));
@@ -254,6 +256,7 @@ public class ActivityYiZhu extends BaseActivity implements View.OnClickListener 
             }
         });
     }
+
     @Override
     protected void initData() {
 //        initLoadMoreListener();
@@ -262,31 +265,43 @@ public class ActivityYiZhu extends BaseActivity implements View.OnClickListener 
         adapter.setOnItemClickListener(new YiZhuAdapter.OnRecyclerViewItemClickListener() {
             @Override
             public void onClick(View view, YiZhuAdapter.ViewName viewName, int position) {
+                if (viewName == YiZhuAdapter.ViewName.ITEM) {
+                    Intent intent = new Intent(ActivityYiZhu.this, ActivityYiZhuDetails.class);
+                    intent.putExtra("YiZhu",yiZhuBeen.get(position));
+                    startActivity(intent);
+                }
 
             }
         });
         toolbarRight.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (isShow){
-                    if (!TimeUtils.isDateOneBigger(begintime,endtime)){
-                        isShow=false;
+                if (isShow) {
+                    if (MyStrUtil.isEmpty(begintime)){
+                        begintime=TimeUtils.ms2DateOnlyDay(System.currentTimeMillis());
+                    }
+                    if (MyStrUtil.isEmpty(endtime)){
+                        endtime=TimeUtils.ms2DateOnlyDay(System.currentTimeMillis());
+                    }
+                    if (!TimeUtils.isDateOneBigger(begintime, endtime)) {
+                        isShow = false;
                         toolbarRight.setText("筛选");
                         reTime.setVisibility(View.GONE);
                         emptyLayoutYizhu.showLoading();
+
                         //重新加载数据
                         new Handler().postDelayed(new Runnable() {
                             @Override
                             public void run() {
-                                getData(begintime,endtime);
+                                getData(begintime, endtime);
                             }
                         }, 2000);
-                    }else {
-                        ToastUtils.s(ActivityYiZhu.this,"结束时间不能比开始时间早！");
+                    } else {
+                        ToastUtils.s(ActivityYiZhu.this, "结束时间不能比开始时间早！");
                     }
 
-                }else {
-                    isShow=true;
+                } else {
+                    isShow = true;
                     toolbarRight.setText("确定");
                     reTime.setVisibility(View.VISIBLE);
                 }
@@ -298,7 +313,7 @@ public class ActivityYiZhu extends BaseActivity implements View.OnClickListener 
                 DatePickerPopWin pickerPopWin = new DatePickerPopWin.Builder(ActivityYiZhu.this, new DatePickerPopWin.OnDatePickedListener() {
                     @Override
                     public void onDatePickCompleted(int year, int month, int day, String dateDesc) {
-                       begintime=dateDesc;
+                        begintime = dateDesc;
                         startTime.setText(dateDesc);
                     }
                 }).textConfirm("确定") //text of confirm button
@@ -320,7 +335,7 @@ public class ActivityYiZhu extends BaseActivity implements View.OnClickListener 
                 DatePickerPopWin pickerPopWin = new DatePickerPopWin.Builder(ActivityYiZhu.this, new DatePickerPopWin.OnDatePickedListener() {
                     @Override
                     public void onDatePickCompleted(int year, int month, int day, String dateDesc) {
-                        endtime=dateDesc;
+                        endtime = dateDesc;
                         endTime.setText(dateDesc);
                     }
                 }).textConfirm("确定") //text of confirm button
@@ -336,12 +351,7 @@ public class ActivityYiZhu extends BaseActivity implements View.OnClickListener 
                 pickerPopWin.showPopWin(ActivityYiZhu.this);
             }
         });
-        adapter.setOnItemClickListener(new YiZhuAdapter.OnRecyclerViewItemClickListener() {
-            @Override
-            public void onClick(View view, YiZhuAdapter.ViewName viewName, int position) {
 
-            }
-        });
     }
 
 

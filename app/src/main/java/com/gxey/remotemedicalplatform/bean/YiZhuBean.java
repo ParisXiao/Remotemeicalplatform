@@ -1,10 +1,12 @@
 package com.gxey.remotemedicalplatform.bean;
 
+import java.io.Serializable;
+
 /**
  * Created by Administrator on 2018-03-02.
  */
 
-public class YiZhuBean {
+public class YiZhuBean implements Serializable {
 
     /**
      * id : c7ca6ad6-31ef-40e4-97e5-89cc2b4f027e

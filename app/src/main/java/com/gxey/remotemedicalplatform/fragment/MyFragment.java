@@ -1,6 +1,8 @@
 package com.gxey.remotemedicalplatform.fragment;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,10 +13,12 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.gxey.remotemedicalplatform.R;
+import com.gxey.remotemedicalplatform.activity.LoginActivity;
 import com.gxey.remotemedicalplatform.activity.WebCircleActivity;
 import com.gxey.remotemedicalplatform.activity.WebHelpActivity;
 import com.gxey.remotemedicalplatform.activity.WebIndexActivity;
 import com.gxey.remotemedicalplatform.activity.WebOpinionActivity;
+import com.gxey.remotemedicalplatform.db.MySQLiteOpenHelper;
 import com.gxey.remotemedicalplatform.inter.ActionBarClickListener;
 import com.gxey.remotemedicalplatform.utils.PreferenceUtils;
 import com.gxey.remotemedicalplatform.widget.TranslucentActionBar;
@@ -117,13 +121,15 @@ public class MyFragment extends BaseFragment implements ActionBarClickListener, 
 
     @Override
     protected void initData() {
-            reBangzhu.setOnClickListener(this);
-            reDingdan.setOnClickListener(this);
-            reFankui.setOnClickListener(this);
-            reGuanyu.setOnClickListener(this);
-            reQuanzi.setOnClickListener(this);
-            reXiaoxi.setOnClickListener(this);
-            reZiliao.setOnClickListener(this);
+        reBangzhu.setOnClickListener(this);
+        reDingdan.setOnClickListener(this);
+        reFankui.setOnClickListener(this);
+        reGuanyu.setOnClickListener(this);
+        reQuanzi.setOnClickListener(this);
+        reXiaoxi.setOnClickListener(this);
+        reZiliao.setOnClickListener(this);
+        btnLogout.setOnClickListener(this);
+
     }
 
 
@@ -172,8 +178,19 @@ public class MyFragment extends BaseFragment implements ActionBarClickListener, 
                 startActivity(intent2);
                 break;
             case R.id.re_fankui:
-                Intent intent3= new Intent(getActivity(), WebOpinionActivity.class);
+                Intent intent3 = new Intent(getActivity(), WebOpinionActivity.class);
                 startActivity(intent3);
+                break;
+            case R.id. btn_logout:
+                SharedPreferences sp = getActivity().getSharedPreferences("saveUserNamePwd", Context.MODE_PRIVATE);
+                SharedPreferences.Editor editor = sp.edit();
+                editor.clear();
+                editor.commit();
+                MySQLiteOpenHelper sqLiteOpenHelper = new MySQLiteOpenHelper(getActivity());
+                sqLiteOpenHelper.deleteAll();
+                getActivity().finish();
+                Intent intent4= new Intent(getActivity(), LoginActivity.class);
+                startActivity(intent4);
                 break;
 
         }

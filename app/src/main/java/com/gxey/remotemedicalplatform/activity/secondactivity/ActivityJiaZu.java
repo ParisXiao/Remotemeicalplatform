@@ -150,9 +150,10 @@ public class ActivityJiaZu extends BaseActivity implements View.OnClickListener 
             @Override
             public void call(Subscriber<? super Integer> subscriber) {
                 if (MyHttpHelper.isConllection(ActivityJiaZu.this)) {
-                    String[] key = new String[]{};
+                    String[] key = new String[]{"type"};
                     Map<String, String> map = new HashMap<String, String>();
-                    String result = MyHttpHelper.GetMessage(ActivityJiaZu.this, UrlConfig.SelApply, key, map);
+                    map.put("type","2");
+                    String result = MyHttpHelper.GetMessage(ActivityJiaZu.this, UrlConfig.SelFamilyHistory   , key, map);
                     if (!MyStrUtil.isEmpty(result)) {
                         JSONObject jsonObject;
                         try {

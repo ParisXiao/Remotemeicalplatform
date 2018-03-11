@@ -8,6 +8,7 @@ import android.widget.TextView;
 
 import com.gxey.remotemedicalplatform.R;
 import com.gxey.remotemedicalplatform.activity.BaseActivity;
+import com.gxey.remotemedicalplatform.bean.FenZhenBean;
 import com.gxey.remotemedicalplatform.utils.ScreenUtils;
 
 import butterknife.BindView;
@@ -29,8 +30,8 @@ public class ActivityFZDetails extends BaseActivity implements View.OnClickListe
     Toolbar toolbar;
     @BindView(R.id.zz_sqdh)
     TextView zzSqdh;
-    @BindView(R.id.zz_chuzhen)
-    TextView zzChuzhen;
+//    @BindView(R.id.zz_chuzhen)
+//    TextView zzChuzhen;
     @BindView(R.id.zz_zhenzhuang)
     TextView zzZhenzhuang;
     @BindView(R.id.zz_zhuanchu)
@@ -47,6 +48,7 @@ public class ActivityFZDetails extends BaseActivity implements View.OnClickListe
     TextView zzShenhe;
     @BindView(R.id.zz_shijian)
     TextView zzShijian;
+    private FenZhenBean fenZhenBean=new FenZhenBean();
 
     @Override
     protected int getLayoutId() {
@@ -65,6 +67,22 @@ public class ActivityFZDetails extends BaseActivity implements View.OnClickListe
 
     @Override
     protected void initData() {
+        fenZhenBean= (FenZhenBean) getIntent().getSerializableExtra("FenZhen");
+        zzSqdh.setText(fenZhenBean.getApplyFor());
+        zzZhenzhuang.setText(fenZhenBean.getSickness());
+        zzZhuanchu.setText(fenZhenBean.getRollout());
+        zzZhuanru.setText(fenZhenBean.getTahospital());
+        zzKeshi.setText(fenZhenBean.getOffice());
+        zzYisheng.setText(fenZhenBean.getDoctor());
+        zzJztime.setText(fenZhenBean.getClinicTime());
+        if (fenZhenBean.getAuditState().equals("0")){
+            zzShenhe.setText("未审核");
+        }else  if(fenZhenBean.getAuditState().equals("1")){
+            zzShenhe.setText("审核通过");
+        }else  if(fenZhenBean.getAuditState().equals("2")){
+            zzShenhe.setText("审核不通过");
+        }
+        zzShijian.setText(fenZhenBean.getAuditTime());
 
     }
 

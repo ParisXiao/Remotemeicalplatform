@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "E:\\XLworkspace\\GongXinWang\\Remotemeicalplatform\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "outputFile": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\060f61cfe57d0b45f3bb4d772bd6608d14f01590\\output\\res\\values\\values.xml",
+                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\475d3501415fc350a6e62023f65c1fbe6a25554d\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

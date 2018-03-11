@@ -80,11 +80,11 @@ public class FenZhenAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
     @Override
     public void onBindViewHolder(final RecyclerView.ViewHolder holder, final int position) {
         if (holder instanceof MyViewHolder) {
-            ((MyViewHolder) holder).itemFenzhenZhuanchu.setText(fenZhenBeen.get(position).getYaofang());
-            ((MyViewHolder) holder).itemFenzhenTime.setText(fenZhenBeen.get(position).getTime());
-            ((MyViewHolder) holder).itemFenzhenYiyuan.setText(fenZhenBeen.get(position).getYiyuan());
-            ((MyViewHolder) holder).itemFenzhenWaike.setText(fenZhenBeen.get(position).getWaike());
-            ((MyViewHolder) holder).itemFenzhenYisheng.setText(fenZhenBeen.get(position).getYisheng());
+            ((MyViewHolder) holder).itemFenzhenZhuanchu.setText(fenZhenBeen.get(position).getRollout());
+            ((MyViewHolder) holder).itemFenzhenTime.setText(fenZhenBeen.get(position).getClinicTime());
+            ((MyViewHolder) holder).itemFenzhenYiyuan.setText(fenZhenBeen.get(position).getTahospital());
+            ((MyViewHolder) holder).itemFenzhenWaike.setText(fenZhenBeen.get(position).getOffice());
+            ((MyViewHolder) holder).itemFenzhenYisheng.setText(fenZhenBeen.get(position).getDoctor());
 
             ((MyViewHolder) holder).itemView.setTag(position);
 
@@ -168,6 +168,7 @@ public class FenZhenAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
         public MyViewHolder(View itemView) {
             super(itemView);
             ButterKnife.bind(this, itemView);
+            itemView.setOnClickListener(FenZhenAdapter.this);
         }
 
     }

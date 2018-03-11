@@ -75,15 +75,9 @@
         <!--修改密码-->
         <activity android:name=".activity.ChangePasswordActivity"></activity>
         <!--申请医疗-->
-        <activity
-            android:name=".activity.MedicalApplicationActivity"
-            android:windowSoftInputMode="adjustPan|stateHidden"></activity>
         <!--话题圈子-->
         <activity android:name=".activity.CircleListActivity"></activity>
         <!--申请等待-->
-        <activity
-            android:name=".activity.OverConsultationActivity"
-            android:windowSoftInputMode="adjustPan|stateHidden"></activity>
         <!--帮助-->
         <activity android:name=".activity.HelpActivity"></activity>
 
@@ -219,6 +213,39 @@
             android:windowSoftInputMode="adjustPan|stateUnchanged"
             />
         <activity android:name=".activity.secondactivity.ActivityJiaZu"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeWrite"
+            android:windowSoftInputMode="adjustPan|stateUnchanged"/>
+        <activity android:name=".activity.secondactivity.ActivityDZBL"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeWrite"
+            android:windowSoftInputMode="adjustPan|stateUnchanged"
+            />
+        <activity android:name=".activity.secondactivity.ActivityMZDetails"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeWrite"
+            android:windowSoftInputMode="adjustPan|stateUnchanged"
+            />
+        <activity android:name=".activity.secondactivity.ActivityMZBL"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeWrite"
+            android:windowSoftInputMode="adjustPan|stateUnchanged"
+            />
+        <activity android:name=".activity.secondactivity.ActivityXGYZDetails"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeWrite"
+            android:windowSoftInputMode="adjustPan|stateUnchanged"/>
+        <activity android:name=".activity.secondactivity.ActivityXGYZ"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeWrite"
+            android:windowSoftInputMode="adjustPan|stateUnchanged"/>
+        <activity android:name=".activity.secondactivity.ActivityXGBL"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"
             android:theme="@style/AppThemeWrite"

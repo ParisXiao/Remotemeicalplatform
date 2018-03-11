@@ -44,6 +44,9 @@ public class MySQLiteOpenHelper extends SQLiteOpenHelper {
     public boolean insertData(ContentValues cv){
         return mDatabase.insert(Information.TABLE_Information, null, cv)>0;
     }
+    public void deleteAll() {
+        mDatabase.delete(Information.TABLE_Information, null, new String[]{});
+    }
 //   /**
 //     * 查询所有数据
 //     * @return

@@ -1,360 +1,358 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <include
-        layout="@layout/layout_actionbar"/>
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_actionbar" />
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scrollbars="vertical"
-        >
+        android:scrollbars="vertical">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@color/background"
-            android:orientation="vertical"
-            >
+            android:orientation="vertical">
+
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/background_write"
-                >
+                android:background="@color/background_write">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="@dimen/textsize"
-                    android:text="@string/shenqingdanhao"
-                    android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
                     android:layout_marginLeft="@dimen/margin"
-                    />
+                    android:layout_marginTop="10dp"
+                    android:text="@string/shenqingdanhao"
+                    android:textSize="@dimen/textsize" />
+
                 <TextView
                     android:id="@+id/zz_sqdh"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="@dimen/textsize"
-                    android:textColor="@color/text_black"
-                    android:text="141242414"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginBottom="10dp"
                     android:layout_alignParentRight="true"
+                    android:layout_marginBottom="10dp"
                     android:layout_marginRight="@dimen/margin"
-                    />
+                    android:layout_marginTop="10dp"
+                    android:text="141242414"
+                    android:textColor="@color/text_black"
+                    android:textSize="@dimen/textsize" />
+
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
-                    android:background="@color/background_fgx"
                     android:layout_below="@+id/zz_sqdh"
-                    android:layout_marginRight="@dimen/margin"
                     android:layout_marginLeft="@dimen/margin"
-                    />
+                    android:layout_marginRight="@dimen/margin"
+                    android:background="@color/background_fgx" />
             </RelativeLayout>
+
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/background_write"
-                >
+                android:background="@color/background_write">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="@dimen/textsize"
-                    android:text="@string/jibingmingcheng"
-                    android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
                     android:layout_marginLeft="@dimen/margin"
-                    />
-                <TextView
-                    android:id="@+id/zz_chuzhen"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="@dimen/textsize"
-                    android:textColor="@color/text_yellow"
-                    android:text="初诊"
                     android:layout_marginTop="10dp"
-                    android:layout_marginBottom="10dp"
-                    android:layout_alignParentRight="true"
-                    android:layout_marginRight="@dimen/margin"
-                    />
-                <View
-                    android:layout_width="2dp"
-                    android:layout_height="20dp"
-                    android:background="@color/background_fgx"
-                    android:layout_toLeftOf="@id/zz_chuzhen"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginBottom="10dp"
-                    android:layout_marginRight="10dp"
-                    android:id="@+id/zz_chuzhen_fgx"
-                    />
+                    android:text="@string/jibingmingcheng"
+                    android:textSize="@dimen/textsize" />
+                <!--<TextView-->
+                <!--android:id="@+id/zz_chuzhen"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textSize="@dimen/textsize"-->
+                <!--android:textColor="@color/text_yellow"-->
+                <!--android:text="初诊"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:layout_marginBottom="10dp"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:layout_marginRight="@dimen/margin"-->
+                <!--/>-->
+                <!--<View-->
+                <!--android:layout_width="2dp"-->
+                <!--android:layout_height="20dp"-->
+                <!--android:background="@color/background_fgx"-->
+                <!--android:layout_toLeftOf="@id/zz_chuzhen"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:layout_marginBottom="10dp"-->
+                <!--android:layout_marginRight="10dp"-->
+                <!--android:id="@+id/zz_chuzhen_fgx"-->
+                <!--/>-->
                 <TextView
                     android:id="@+id/zz_zhenzhuang"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="@dimen/textsize"
-                    android:textColor="@color/background_green"
-                    android:text="头疼"
-                    android:layout_marginTop="10dp"
+                    android:layout_alignParentRight="true"
                     android:layout_marginBottom="10dp"
-                    android:layout_toLeftOf="@+id/zz_chuzhen_fgx"
-                    android:layout_marginRight="10dp"
-                    />
+                    android:layout_marginRight="@dimen/margin"
+                    android:layout_marginTop="10dp"
+                    android:text="头疼"
+                    android:textColor="@color/background_green"
+                    android:textSize="@dimen/textsize" />
+
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
-                    android:background="@color/background_fgx"
-                    android:layout_below="@+id/zz_chuzhen"
-                    android:layout_marginRight="@dimen/margin"
+                    android:layout_below="@+id/zz_zhenzhuang"
                     android:layout_marginLeft="@dimen/margin"
+                    android:layout_marginRight="@dimen/margin"
+                    android:background="@color/background_fgx"
 
                     />
             </RelativeLayout>
+
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/background_write"
-                >
+                android:background="@color/background_write">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="@dimen/textsize"
-                    android:text="@string/zhuanchujigou"
-                    android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
                     android:layout_marginLeft="@dimen/margin"
-                    />
+                    android:layout_marginTop="10dp"
+                    android:text="@string/zhuanchujigou"
+                    android:textSize="@dimen/textsize" />
+
                 <TextView
                     android:id="@+id/zz_zhuanchu"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="@dimen/textsize"
-                    android:textColor="@color/background_green"
-                    android:text="大同药房"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginBottom="10dp"
                     android:layout_alignParentRight="true"
+                    android:layout_marginBottom="10dp"
                     android:layout_marginRight="@dimen/margin"
-                    />
+                    android:layout_marginTop="10dp"
+                    android:text="大同药房"
+                    android:textColor="@color/background_green"
+                    android:textSize="@dimen/textsize" />
+
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
-                    android:background="@color/background_fgx"
                     android:layout_below="@+id/zz_zhuanchu"
-                    android:layout_marginRight="@dimen/margin"
                     android:layout_marginLeft="@dimen/margin"
-                    />
+                    android:layout_marginRight="@dimen/margin"
+                    android:background="@color/background_fgx" />
             </RelativeLayout>
+
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/background_write"
-                >
+                android:background="@color/background_write">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="@dimen/textsize"
-                    android:text="@string/zhuanrujigou"
-                    android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
                     android:layout_marginLeft="@dimen/margin"
-                    />
+                    android:layout_marginTop="10dp"
+                    android:text="@string/zhuanrujigou"
+                    android:textSize="@dimen/textsize" />
+
                 <TextView
                     android:id="@+id/zz_zhuanru"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="@dimen/textsize"
-                    android:textColor="@color/background_green"
-                    android:text="仁爱医院"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginBottom="10dp"
                     android:layout_alignParentRight="true"
+                    android:layout_marginBottom="10dp"
                     android:layout_marginRight="@dimen/margin"
-                    />
+                    android:layout_marginTop="10dp"
+                    android:text="仁爱医院"
+                    android:textColor="@color/background_green"
+                    android:textSize="@dimen/textsize" />
+
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
-                    android:background="@color/background_fgx"
                     android:layout_below="@+id/zz_zhuanru"
-                    android:layout_marginRight="@dimen/margin"
                     android:layout_marginLeft="@dimen/margin"
-                    />
+                    android:layout_marginRight="@dimen/margin"
+                    android:background="@color/background_fgx" />
             </RelativeLayout>
+
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/background_write"
-                >
+                android:background="@color/background_write">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="@dimen/textsize"
-                    android:text="@string/zhuanrukeshi"
-                    android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
                     android:layout_marginLeft="@dimen/margin"
-                    />
+                    android:layout_marginTop="10dp"
+                    android:text="@string/zhuanrukeshi"
+                    android:textSize="@dimen/textsize" />
+
                 <TextView
                     android:id="@+id/zz_keshi"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="@dimen/textsize"
-                    android:textColor="@color/background_green"
-                    android:text="外科"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginBottom="10dp"
                     android:layout_alignParentRight="true"
+                    android:layout_marginBottom="10dp"
                     android:layout_marginRight="@dimen/margin"
-                    />
+                    android:layout_marginTop="10dp"
+                    android:text="外科"
+                    android:textColor="@color/background_green"
+                    android:textSize="@dimen/textsize" />
+
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
-                    android:background="@color/background_fgx"
                     android:layout_below="@+id/zz_keshi"
-                    android:layout_marginRight="@dimen/margin"
                     android:layout_marginLeft="@dimen/margin"
-                    />
+                    android:layout_marginRight="@dimen/margin"
+                    android:background="@color/background_fgx" />
             </RelativeLayout>
+
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/background_write"
-                >
+                android:background="@color/background_write">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="@dimen/textsize"
-                    android:text="@string/jiuzhenshijian"
-                    android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
                     android:layout_marginLeft="@dimen/margin"
-                    />
+                    android:layout_marginTop="10dp"
+                    android:text="@string/jiuzhenshijian"
+                    android:textSize="@dimen/textsize" />
+
                 <TextView
                     android:id="@+id/zz_jztime"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="@dimen/textsize"
-                    android:textColor="@color/background_green"
-                    android:text="2018-03-03"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginBottom="10dp"
                     android:layout_alignParentRight="true"
+                    android:layout_marginBottom="10dp"
                     android:layout_marginRight="@dimen/margin"
-                    />
+                    android:layout_marginTop="10dp"
+                    android:text="2018-03-03"
+                    android:textColor="@color/background_green"
+                    android:textSize="@dimen/textsize" />
+
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
-                    android:background="@color/background_fgx"
                     android:layout_below="@+id/zz_jztime"
-                    android:layout_marginRight="@dimen/margin"
                     android:layout_marginLeft="@dimen/margin"
-                    />
+                    android:layout_marginRight="@dimen/margin"
+                    android:background="@color/background_fgx" />
             </RelativeLayout>
 
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/background_write"
-                >
+                android:background="@color/background_write">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="@dimen/textsize"
-                    android:text="@string/yuyueyisheng"
-                    android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
                     android:layout_marginLeft="@dimen/margin"
-                    />
+                    android:layout_marginTop="10dp"
+                    android:text="@string/yuyueyisheng"
+                    android:textSize="@dimen/textsize" />
+
                 <TextView
                     android:id="@+id/zz_yisheng"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="@dimen/textsize"
-                    android:textColor="@color/background_green"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="@dimen/margin"
+                    android:layout_marginTop="10dp"
                     android:text="肖某某"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginBottom="10dp"
-                    android:layout_alignParentRight="true"
-                    android:layout_marginRight="@dimen/margin"
-                    />
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="@color/background_fgx"
-                    android:layout_below="@+id/dz_tigejc"
-                    android:layout_marginRight="@dimen/margin"
-                    android:layout_marginLeft="@dimen/margin"
-                    />
-            </RelativeLayout>
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/background_write"
-                >
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="@dimen/textsize"
-                    android:text="@string/zhuanrujigoushenhe"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginBottom="10dp"
-                    android:layout_marginLeft="@dimen/margin"
-                    />
-                <TextView
-                    android:id="@+id/zz_shenhe"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="@dimen/textsize"
                     android:textColor="@color/background_green"
-                    android:text="审核通过"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginBottom="10dp"
-                    android:layout_alignParentRight="true"
-                    android:layout_marginRight="@dimen/margin"
-                    />
+                    android:textSize="@dimen/textsize" />
+
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
-                    android:background="@color/background_fgx"
-                    android:layout_below="@+id/dz_fuzhujc"
-                    android:layout_marginRight="@dimen/margin"
+                    android:layout_below="@+id/dz_tigejc"
                     android:layout_marginLeft="@dimen/margin"
-                    />
+                    android:layout_marginRight="@dimen/margin"
+                    android:background="@color/background_fgx" />
             </RelativeLayout>
 
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/background_write"
-                >
+                android:background="@color/background_write">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="@dimen/textsize"
-                    android:text="@string/shenqingshijian"
-                    android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
                     android:layout_marginLeft="@dimen/margin"
-                    />
+                    android:layout_marginTop="10dp"
+                    android:text="@string/zhuanrujigoushenhe"
+                    android:textSize="@dimen/textsize" />
+
+                <TextView
+                    android:id="@+id/zz_shenhe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="@dimen/margin"
+                    android:layout_marginTop="10dp"
+                    android:text="审核通过"
+                    android:textColor="@color/background_green"
+                    android:textSize="@dimen/textsize" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/dz_fuzhujc"
+                    android:layout_marginLeft="@dimen/margin"
+                    android:layout_marginRight="@dimen/margin"
+                    android:background="@color/background_fgx" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/background_write">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="@dimen/margin"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/shenqingshijian"
+                    android:textSize="@dimen/textsize" />
+
                 <TextView
                     android:id="@+id/zz_shijian"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="@dimen/textsize"
-                    android:textColor="@color/text_black"
-                    android:text="2018-03-03"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginBottom="10dp"
                     android:layout_alignParentRight="true"
+                    android:layout_marginBottom="10dp"
                     android:layout_marginRight="@dimen/margin"
-                    />
+                    android:layout_marginTop="10dp"
+                    android:text="2018-03-03"
+                    android:textColor="@color/text_black"
+                    android:textSize="@dimen/textsize" />
+
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
-                    android:background="@color/background_fgx"
                     android:layout_below="@+id/zz_shijian"
-                    android:layout_marginRight="@dimen/margin"
                     android:layout_marginLeft="@dimen/margin"
-                    />
+                    android:layout_marginRight="@dimen/margin"
+                    android:background="@color/background_fgx" />
             </RelativeLayout>
         </LinearLayout>
 

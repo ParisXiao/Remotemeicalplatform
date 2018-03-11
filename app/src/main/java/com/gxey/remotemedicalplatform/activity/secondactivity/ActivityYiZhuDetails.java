@@ -8,6 +8,7 @@ import android.widget.TextView;
 
 import com.gxey.remotemedicalplatform.R;
 import com.gxey.remotemedicalplatform.activity.BaseActivity;
+import com.gxey.remotemedicalplatform.bean.YiZhuBean;
 import com.gxey.remotemedicalplatform.utils.ScreenUtils;
 
 import butterknife.BindView;
@@ -44,6 +45,7 @@ public class ActivityYiZhuDetails extends BaseActivity implements View.OnClickLi
     TextView yizhudetailsJigou;
     @BindView(R.id.yizhudetails_time)
     TextView yizhudetailsTime;
+    private YiZhuBean yiZhuBean=new YiZhuBean();
 
     @Override
     protected int getLayoutId() {
@@ -62,7 +64,15 @@ public class ActivityYiZhuDetails extends BaseActivity implements View.OnClickLi
 
     @Override
     protected void initData() {
-
+        yiZhuBean= (YiZhuBean) getIntent().getSerializableExtra("YiZhu");
+        yizhudetailsContent.setText(yiZhuBean.getContent());
+        yizhudetailsID.setText(yiZhuBean.getDoctorid());
+        yizhudetailsYisheng.setText(yiZhuBean.getDoctorname());
+        yizhudetailsStarttime.setText(yiZhuBean.getThestarttime());
+        yizhudetailsQixiao.setText(yiZhuBean.getTermofvalidity());
+        yizhudetailsPl.setText(yiZhuBean.getFrequency());
+        yizhudetailsJigou.setText(yiZhuBean.getOrganizename());
+        yizhudetailsTime.setText(yiZhuBean.getOpentoldtime());
     }
 
     @Override

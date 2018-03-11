@@ -24,7 +24,6 @@ public class ActivityFZDetails_ViewBinding<T extends ActivityFZDetails> implemen
     target.toolbarLeftBtn = Utils.findRequiredViewAsType(source, R.id.toolbar_left_btn, "field 'toolbarLeftBtn'", ImageButton.class);
     target.toolbar = Utils.findRequiredViewAsType(source, R.id.toolbar, "field 'toolbar'", Toolbar.class);
     target.zzSqdh = Utils.findRequiredViewAsType(source, R.id.zz_sqdh, "field 'zzSqdh'", TextView.class);
-    target.zzChuzhen = Utils.findRequiredViewAsType(source, R.id.zz_chuzhen, "field 'zzChuzhen'", TextView.class);
     target.zzZhenzhuang = Utils.findRequiredViewAsType(source, R.id.zz_zhenzhuang, "field 'zzZhenzhuang'", TextView.class);
     target.zzZhuanchu = Utils.findRequiredViewAsType(source, R.id.zz_zhuanchu, "field 'zzZhuanchu'", TextView.class);
     target.zzZhuanru = Utils.findRequiredViewAsType(source, R.id.zz_zhuanru, "field 'zzZhuanru'", TextView.class);
@@ -45,7 +44,6 @@ public class ActivityFZDetails_ViewBinding<T extends ActivityFZDetails> implemen
     target.toolbarLeftBtn = null;
     target.toolbar = null;
     target.zzSqdh = null;
-    target.zzChuzhen = null;
     target.zzZhenzhuang = null;
     target.zzZhuanchu = null;
     target.zzZhuanru = null;
