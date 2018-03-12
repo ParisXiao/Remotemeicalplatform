@@ -30,4 +30,14 @@ public class UrlConfig {
     public final static String SelPatientChart=POST+"api/ElectronicArchivesManage/SelPatientChart";//门诊病历
     public final static String SelCorrelationHospitalExhort=POST+"api/ElectronicArchivesManage/SelCorrelationHospitalExhort";//相关病历或医嘱
     public final static String SelCorrelationHospitalExhort_Img=POST+"api/ElectronicArchivesManage/SelCorrelationHospitalExhort_Img";//相关病历或医嘱详情
+
+    /**
+     * 老接口
+     */
+    public final static String OLDPOST="http://183.230.180.239:58081/";
+
+    public final static String GetBanner=OLDPOST+"api/UData/GetBanner";//广告图片
+    public final static String GetNews=OLDPOST+"api/UData/GetNews";//新闻列表
+
+
 }

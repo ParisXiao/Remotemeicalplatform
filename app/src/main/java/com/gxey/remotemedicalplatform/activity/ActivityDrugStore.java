@@ -59,7 +59,7 @@ public class ActivityDrugStore extends BaseActivity {
         extraHeaders.put("DeviceID",LocationConfig.getInstance().getDeviceId());
        // wView.loadUrl(ApiConstant.H5BASE+ApiConstant.help,extraHeaders);
 
-        wView.loadUrl("http://wxapi.gxwdyf.com/myshop/myshop.html",extraHeaders);
+        wView.loadUrl("http://shop.guanaida.com:8888/m-wap/",extraHeaders);
         wView.addJavascriptInterface(this, "userHead");
         wView.setWebViewClient(new WebViewClient(){
             @Override

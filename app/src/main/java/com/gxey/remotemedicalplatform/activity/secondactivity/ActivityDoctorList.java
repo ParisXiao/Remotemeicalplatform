@@ -154,7 +154,7 @@ public class ActivityDoctorList extends BaseActivity implements View.OnClickList
     }
 
     private void getDoctor(String userName) {
-        emptyLayoutDoctor.showLoading("正在加载，请稍后");
+        emptyLayoutDoctor.showLoading(this);
         mHttpHelper.getDoctor(userName, Type, new HttpSubseiber.ResponseHandler<List<WDoctorEntity>>() {
             @Override
             public void onSucceed(List<WDoctorEntity> data) {

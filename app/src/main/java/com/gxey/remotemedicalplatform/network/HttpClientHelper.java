@@ -210,8 +210,9 @@ public class HttpClientHelper {
 /*
 * 首页banner
 * */
-public void homebanner(HttpSubseiber.ResponseHandler<List<Bannerben>> response){
+public void homebanner(String Type,HttpSubseiber.ResponseHandler<List<Bannerben>> response){
     HashMap<String,Object> hashMap = new HashMap<>();
+    hashMap.put("Type",Type);
     Observable observable = webApi.homebanner(getRequestBody(hashMap));
     toSubscribe(observable,new HttpSubseiber<List<Bannerben>>().getSubseiber(response));
 

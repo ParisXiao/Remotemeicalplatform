@@ -85,7 +85,7 @@ public class FragmentWaiShang extends BaseFragment {
         emptyLayout.setOnButtonClick(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                emptyLayout.showLoading();
+                emptyLayout.showLoading(getActivity());
                 //重新加载数据
                 new Handler().postDelayed(new Runnable() {
                     @Override
@@ -99,7 +99,7 @@ public class FragmentWaiShang extends BaseFragment {
         swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
-                emptyLayout.showLoading();
+                emptyLayout.showLoading(getActivity());
                 new Handler().postDelayed(new Runnable() {
                     @Override
                     public void run() {

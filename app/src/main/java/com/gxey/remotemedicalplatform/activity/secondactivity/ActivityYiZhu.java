@@ -114,12 +114,12 @@ public class ActivityYiZhu extends BaseActivity implements View.OnClickListener 
                 swipeYizhu.setRefreshing(true);
             }
         });
-        emptyLayoutYizhu.showLoading();
+        emptyLayoutYizhu.showLoading(this);
         emptyLayoutYizhu.bindView(recyclerViewYizhu);
         emptyLayoutYizhu.setOnButtonClick(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                emptyLayoutYizhu.showLoading();
+                emptyLayoutYizhu.showLoading(ActivityYiZhu.this);
                 //重新加载数据
                 new Handler().postDelayed(new Runnable() {
                     @Override
@@ -133,7 +133,7 @@ public class ActivityYiZhu extends BaseActivity implements View.OnClickListener 
         swipeYizhu.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
-                emptyLayoutYizhu.showLoading();
+                emptyLayoutYizhu.showLoading(ActivityYiZhu.this);
                 new Handler().postDelayed(new Runnable() {
                     @Override
                     public void run() {
@@ -287,7 +287,7 @@ public class ActivityYiZhu extends BaseActivity implements View.OnClickListener 
                         isShow = false;
                         toolbarRight.setText("筛选");
                         reTime.setVisibility(View.GONE);
-                        emptyLayoutYizhu.showLoading();
+                        emptyLayoutYizhu.showLoading(ActivityYiZhu.this);
 
                         //重新加载数据
                         new Handler().postDelayed(new Runnable() {

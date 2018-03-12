@@ -12,7 +12,7 @@
         android:orientation="vertical"
         android:gravity="center"
         >
-        <ProgressBar
+        <SweetAlertDialog
             android:id="@+id/progress_wheel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

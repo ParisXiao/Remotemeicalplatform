@@ -1,6 +1,7 @@
 package com.gxey.remotemedicalplatform.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
@@ -11,16 +12,29 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.gxey.remotemedicalplatform.R;
+import com.gxey.remotemedicalplatform.activity.WebBannerbenActgvity;
+import com.gxey.remotemedicalplatform.javaben.Bannerben;
+import com.gxey.remotemedicalplatform.javaben.HomeNewsBen;
+import com.gxey.remotemedicalplatform.utils.ImageUtils;
+import com.gxey.remotemedicalplatform.widget.RollHeaderView;
 import com.gxey.remotemedicalplatform.widget.SlideShowView;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by Administrator on 2015/11/24.
  */
 public class HomeRecycleAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     private Context context;
-    private String[] sy_menu=new String[]{"视频问诊","健康报告","电子病历","用药建议","诊疗记录","医嘱","体检数据","闪电购药"};
-    private int[] sy_menu_img=new int[]{R.drawable.shipinwenzhen_sy,R.drawable.jiankangbaogao_sy,R.drawable.dianzibingli_sy
-    ,R.drawable.yongyaojianyi_sy,R.drawable.zhenliaojilu_sy,R.drawable.yizhu_sy,R.drawable.tijianshuju_sy,R.drawable.sandiangouyao_sy};
+    private List<Bannerben> HBlist = new ArrayList<>();
+    private List<Bannerben> ZClist = new ArrayList<>();
+    private List<Bannerben> NEWlist = new ArrayList<>();
+    private List<HomeNewsBen> ZCNewslist = new ArrayList<>();
+    private List<HomeNewsBen> HealthNewslist = new ArrayList<>();
+    private String[] sy_menu = new String[]{"视频问诊", "健康报告", "电子病历", "用药建议", "诊疗记录", "医嘱", "体检数据", "闪电购药"};
+    private int[] sy_menu_img = new int[]{R.drawable.shipinwenzhen_sy, R.drawable.jiankangbaogao_sy, R.drawable.dianzibingli_sy
+            , R.drawable.yongyaojianyi_sy, R.drawable.zhenliaojilu_sy, R.drawable.yizhu_sy, R.drawable.tijianshuju_sy, R.drawable.sandiangouyao_sy};
 
     public Type1ItemClickListener type1ItemClickListener;
     public Type2ItemClickListener type2ItemClickListener;
@@ -38,8 +52,13 @@ public class HomeRecycleAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
     public static final int TYPE_TYPE5 = 0xff05;
     public static final int TYPE_TYPE6 = 0xff06;
 
-    public HomeRecycleAdapter(Context context) {
+    public HomeRecycleAdapter(Context context, List<Bannerben> HBlist, List<Bannerben> ZClist, List<Bannerben> NEWlist, List<HomeNewsBen> ZCNewslist, List<HomeNewsBen> healthNewslist) {
         this.context = context;
+        this.HBlist = HBlist;
+        this.ZClist = ZClist;
+        this.NEWlist = NEWlist;
+        this.ZCNewslist = ZCNewslist;
+        this.HealthNewslist = healthNewslist;
     }
 
     @Override
@@ -87,7 +106,7 @@ public class HomeRecycleAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
 
     @Override
     public int getItemCount() {
-        return 30;
+        return 18+ZCNewslist.size()+HealthNewslist.size();
     }
 
     @Override
@@ -106,17 +125,17 @@ public class HomeRecycleAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
             return TYPE_TYPE3;
         } else if (position == 13) {
             return TYPE_TYPE6;
-        } else if (14 <= position && position <= 17) {
+        } else if (14 <= position && position <= (14 + ZCNewslist.size()-1)) {
             return TYPE_TYPE4;
-        } else if (position == 18) {
+        } else if (position == (14 + ZCNewslist.size())) {
             return TYPE_TYPE6;
-        } else if (position == 19) {
+        } else if (position == (14 + ZCNewslist.size()) + 1) {
             return TYPE_TYPE2;
-        } else if (position == 20) {
+        } else if (position == (14 + ZCNewslist.size() ) + 2) {
             return TYPE_TYPE6;
-        } else if (position == 21) {
+        } else if (position == (14 + ZCNewslist.size() ) + 3) {
             return TYPE_TYPE3;
-        } else if (position == 22) {
+        } else if (position == (14 + ZCNewslist.size() ) + 4) {
             return TYPE_TYPE6;
         } else {
             return TYPE_TYPE5;
@@ -159,15 +178,25 @@ public class HomeRecycleAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
     /////////////////////////////
 
     private void bindTypeSlider(HolderSlider holder, int position) {
-        String img = "http://pic16.nipic.com/20110921/7247268_215811562102_2.jpg";
-        String[] imgs= new String[]{img,img,img,img,img,img,img};
-        holder.slideShowView.setImageUrls(imgs);
-        holder.slideShowView.startPlay();
+        List<String> list = new ArrayList<String>();
+        for (int i = 0; i < HBlist.size(); i++) {
+            list.add(HBlist.get(i).getImgUrl());
+        }
+        holder.slideShowView.setImgUrlData(list);
+        holder.slideShowView.setOnHeaderViewClickListener(new RollHeaderView.HeaderViewClickListener() {
+            @Override
+            public void HeaderViewClick(int position) {
+                Bannerben bannerben = HBlist.get(position);
+                Intent intent = new Intent(context, WebBannerbenActgvity.class);
+                intent.putExtra("url", bannerben.getLinkUrl());
+                context.startActivity(intent);
+            }
+        });
     }
 
     private void bindType1(HolderType1 holder, int position) {
         for (int i = 0; i < sy_menu_img.length; i++) {
-            if (position-1==i){
+            if (position - 1 == i) {
                 holder.menu_img.setImageResource(sy_menu_img[i]);
                 holder.menu_text.setText(sy_menu[i]);
             }
@@ -175,27 +204,61 @@ public class HomeRecycleAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
     }
 
     private void bindType2(HolderType2 holder, int position) {
-//        String img = "http://pica.nipic.com/2007-10-09/200710994020530_2.jpg";
-//        x.image().bind(holder.item_img_type2, img, new ImageOptions.Builder().build(), new CustomBitmapLoadCallBack(holder.item_img_type2));
-        if (position==10){
-            holder.item_img_type2.setImageResource(R.drawable.guanggao_one);
-        }else if(position==19){
-            holder.item_img_type2.setImageResource(R.drawable.gaunggao_two);
+        if (ZClist.size() > 0) {
+            String img = ZClist.get(0).getImgUrl();
+            if (position == 10) {
+                ImageUtils.load(context, img, holder.item_img_type2);
+                holder.item_img_type2.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(context, WebBannerbenActgvity.class);
+                        intent.putExtra("url", ZClist.get(0).getLinkUrl());
+                        context.startActivity(intent);
+                    }
+                });
+
+            }
+        }
+        if (NEWlist.size() > 0) {
+            String img2 = NEWlist.get(0).getImgUrl();
+            if (position == (14 + NEWlist.size() ) + 3) {
+                ImageUtils.load(context, img2, holder.item_img_type2);
+                holder.item_img_type2.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(context, WebBannerbenActgvity.class);
+                        intent.putExtra("url", NEWlist.get(0).getLinkUrl());
+                        context.startActivity(intent);
+                    }
+                });
+            }
         }
     }
 
     private void bindType3(HolderType3 holder, int position) {
-        if (position==12){
+        if (position == 12) {
             holder.item_type3_title.setText(R.string.zhengcejiedu);
-        }else if (position==21){
+        } else if (position ==  (14 + ZCNewslist.size() - 1) + 4) {
             holder.item_type3_title.setText(R.string.jiankangtoutaio);
         }
     }
 
     private void bindType4(HolderType4 holder, int position) {
+        for (int i = 0; i < ZCNewslist.size(); i++) {
+            holder.item_type4_title.setText(ZCNewslist.get(i).getTitle());
+            holder.item_type4_content.setText(ZCNewslist.get(i).getContent());
+            holder.item_type4_time.setText(ZCNewslist.get(i).getReleaseTime());
+        }
     }
 
     private void bindType5(HolderType5 holder, int position) {
+
+        for (int i = 0; i < HealthNewslist.size(); i++) {
+            holder.item_type5_title.setText(HealthNewslist.get(i).getTitle());
+            holder.item_type5_content.setText(HealthNewslist.get(i).getContent());
+            ImageUtils.load(context,HealthNewslist.get(i).getImgUrl(), holder.item_type5_headimg);
+
+        }
     }
 
     private void bindType6(HolderType6 holder, int position) {
@@ -204,11 +267,11 @@ public class HomeRecycleAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
 /////////////////////////////
 
     public class HolderSlider extends RecyclerView.ViewHolder {
-        public SlideShowView slideShowView;
+        public RollHeaderView slideShowView;
 
         public HolderSlider(View itemView) {
             super(itemView);
-            slideShowView = (SlideShowView) itemView.findViewById(R.id.slideShowView);
+            slideShowView = (RollHeaderView) itemView.findViewById(R.id.slideShowView);
         }
     }
 
@@ -325,15 +388,16 @@ public class HomeRecycleAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
         public TextView item_type4_content;
         public TextView item_type4_yuandu;
         public TextView item_type4_dianzan;
+        public TextView item_type4_time;
 
         public HolderType4(View itemView, Type4ItemClickListener type4ItemClickListener) {
             super(itemView);
             this.type4ItemClickListener = type4ItemClickListener;
-            itemView.setOnClickListener(this);
             item_type4_title = (TextView) itemView.findViewById(R.id.item_type4_title);
             item_type4_content = (TextView) itemView.findViewById(R.id.item_type4_content);
             item_type4_yuandu = (TextView) itemView.findViewById(R.id.item_type4_yuandu);
             item_type4_dianzan = (TextView) itemView.findViewById(R.id.item_type4_dianzan);
+            item_type4_time = (TextView) itemView.findViewById(R.id.item_type4_time);
         }
 
         @Override
@@ -362,6 +426,7 @@ public class HomeRecycleAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
         public Type5ItemClickListener type5ItemClickListener;
         public TextView item_type5_title;
         public TextView item_type5_content;
+        public ImageView item_type5_headimg;
 
         public HolderType5(View itemView, Type5ItemClickListener type5ItemClickListener) {
             super(itemView);
@@ -369,6 +434,7 @@ public class HomeRecycleAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
             itemView.setOnClickListener(this);
             item_type5_title = (TextView) itemView.findViewById(R.id.item_type5_title);
             item_type5_content = (TextView) itemView.findViewById(R.id.item_type5_content);
+            item_type5_headimg = (ImageView) itemView.findViewById(R.id.item_type5_img);
         }
 
         @Override

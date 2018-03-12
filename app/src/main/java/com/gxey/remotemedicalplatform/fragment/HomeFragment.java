@@ -1,36 +1,35 @@
 package com.gxey.remotemedicalplatform.fragment;
 
 import android.os.Bundle;
-import android.os.Handler;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.text.TextUtils;
-import android.util.Log;
-import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.inputmethod.EditorInfo;
 import android.widget.EditText;
 import android.widget.ImageView;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.gxey.remotemedicalplatform.R;
 import com.gxey.remotemedicalplatform.adapter.HomeRecycleAdapter;
+import com.gxey.remotemedicalplatform.javaben.Bannerben;
+import com.gxey.remotemedicalplatform.javaben.HomeNewsBen;
+import com.gxey.remotemedicalplatform.network.HttpClientHelper;
+import com.gxey.remotemedicalplatform.network.HttpSubseiber;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
 
-import static com.gxey.remotemedicalplatform.utils.KeyboardUtil.hideInputMethod;
-
 /**
  * Created by xusongsong on 2016/12/21.
  */
 
-public class HomeFragment extends BaseFragment implements SwipeRefreshLayout.OnRefreshListener{
+public class HomeFragment extends BaseFragment implements SwipeRefreshLayout.OnRefreshListener {
     @BindView(R.id.sousuo_sy)
     EditText sousuoSy;
     @BindView(R.id.xiaoxi_sy)
@@ -41,6 +40,12 @@ public class HomeFragment extends BaseFragment implements SwipeRefreshLayout.OnR
     SwipeRefreshLayout layRefresh;
     Unbinder unbinder;
     private HomeRecycleAdapter adapter;
+    private List<Bannerben> HBlist=null;
+    private List<Bannerben> ZClist=null;
+    private List<Bannerben> NEWlist=null;
+    private List<HomeNewsBen> ZCNewslist=null;
+    private List<HomeNewsBen> HealthNewslist=null;
+
     public static HomeFragment newInstance(String param1) {
         HomeFragment fragment = new HomeFragment();
         Bundle args = new Bundle();
@@ -63,44 +68,140 @@ public class HomeFragment extends BaseFragment implements SwipeRefreshLayout.OnR
         layRefresh.setColorSchemeResources(R.color.colorPrimary, R.color.colorPrimaryDark);
         layRefresh.setOnRefreshListener(this);
 
-        recyclerViewSy.setLayoutManager(new GridLayoutManager(recyclerViewSy.getContext(),8, GridLayoutManager.VERTICAL, false));
-
-        recyclerViewSy.setAdapter(adapter = new HomeRecycleAdapter(getActivity()));
-        adapter.setType1ItemClickListener(new HomeRecycleAdapter.Type1ItemClickListener() {
-            @Override
-            public void onItemClick(View view, int position) {
-                Toast.makeText(getActivity(),"点击了"+position,Toast.LENGTH_SHORT).show();
-            }
-        });
-
+        recyclerViewSy.setLayoutManager(new GridLayoutManager(recyclerViewSy.getContext(), 8, GridLayoutManager.VERTICAL, false));
 
 
 
 
     }
-
 
     @Override
     protected void initData() {
-        sousuoSy.setOnEditorActionListener(new TextView.OnEditorActionListener() {
-            public boolean onEditorAction(TextView v, int actionId,
-                                          KeyEvent event) {
-                Log.d("Edit", "" + actionId + "," + event);
-                if (actionId == EditorInfo.IME_ACTION_SEARCH
-                        || (event != null && event.getKeyCode() == KeyEvent.KEYCODE_SEARCH)) {
-                    String search = sousuoSy.getText().toString();
-                    if (!TextUtils.isEmpty(search)) {
+        layRefresh.post(new Runnable() {
+            @Override
+            public void run() {
+                layRefresh.setRefreshing(true);
+            }
+        });
+        getData();
 
-                        hideInputMethod(getActivity(), v);
+
+    }
+
+
+
+    private void getData() {
+
+        activity.showLoadDialog();
+        HBlist = new ArrayList<Bannerben>();
+        ZClist = new ArrayList<Bannerben>();
+        NEWlist = new ArrayList<Bannerben>();
+        String homebannerType = "0";
+
+        HttpClientHelper.getInstance().homebanner(homebannerType, new HttpSubseiber.ResponseHandler<List<Bannerben>>() {
+            @Override
+            public void onSucceed(List<Bannerben> data) {
+                HomeFragment.this.HBlist=data;
+                String ZCbannerType = "1";
+
+                HttpClientHelper.getInstance().homebanner(ZCbannerType, new HttpSubseiber.ResponseHandler<List<Bannerben>>() {
+                    @Override
+                    public void onSucceed(List<Bannerben> data) {
+                        HomeFragment.this. ZClist = data;
+
+                        String bannerType = "2";
+
+                        HttpClientHelper.getInstance().homebanner(bannerType, new HttpSubseiber.ResponseHandler<List<Bannerben>>() {
+                            @Override
+                            public void onSucceed(List<Bannerben> data) {
+
+                                HomeFragment.this.NEWlist=data;
+                                getZCNews("1");
+
+
+                            }
+
+                            @Override
+                            public void onFail(String msg) {
+                                activity.dismisDialog();
+                                layRefresh.setRefreshing(false);
+
+                            }
+                        });
                     }
-                    //do something;
-                    return true;
-                }
-                return false;
+
+                    @Override
+                    public void onFail(String msg) {
+                        activity.dismisDialog();
+                        layRefresh.setRefreshing(false);
+
+                    }
+                });
+            }
+
+            @Override
+            public void onFail(String msg) {
+                activity.dismisDialog();
+                layRefresh.setRefreshing(false);
+
+            }
+        });
+
+
+    }
+    private void getZCNews(String PageIndex){
+        ZCNewslist=new ArrayList<>();
+        String ZCType = "1";
+        String ZCPageSize = "5";
+        HttpClientHelper.getInstance().GetNews(ZCType, PageIndex, ZCPageSize, new HttpSubseiber.ResponseHandler<List<HomeNewsBen>>() {
+            @Override
+            public void onSucceed(List<HomeNewsBen> data) {
+
+
+                HomeFragment.this.ZCNewslist=data;
+
+                getHealthNews("1");
+            }
+
+
+            @Override
+            public void onFail(String msg) {
+                activity.dismisDialog();
+                layRefresh.setRefreshing(false);
             }
         });
     }
+    private void getHealthNews(String PageIndex){
+        HealthNewslist=new ArrayList<>();
+        String Type = "2";
+        String PageSize = "10";
 
+
+        HttpClientHelper.getInstance().GetNews(Type, PageIndex, PageSize, new HttpSubseiber.ResponseHandler<List<HomeNewsBen>>() {
+            @Override
+            public void onSucceed(List<HomeNewsBen> data) {
+
+                HomeFragment.this.HealthNewslist=data;
+                recyclerViewSy.setAdapter(adapter = new HomeRecycleAdapter(getActivity(),HBlist,ZClist,NEWlist,ZCNewslist,HealthNewslist));
+                adapter.setType1ItemClickListener(new HomeRecycleAdapter.Type1ItemClickListener() {
+                    @Override
+                    public void onItemClick(View view, int position) {
+                        Toast.makeText(getActivity(), "点击了" + position, Toast.LENGTH_SHORT).show();
+                    }
+                });
+                activity.dismisDialog();
+                adapter.notifyDataSetChanged();
+                layRefresh.setRefreshing(false);
+            }
+
+
+            @Override
+            public void onFail(String msg) {
+                activity.dismisDialog();
+                layRefresh.setRefreshing(false);
+            }
+        });
+    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -118,12 +219,6 @@ public class HomeFragment extends BaseFragment implements SwipeRefreshLayout.OnR
 
     @Override
     public void onRefresh() {
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                layRefresh.setRefreshing(false);
-                adapter.notifyDataSetChanged();
-            }
-        }, 1000);
+        getData();
     }
 }

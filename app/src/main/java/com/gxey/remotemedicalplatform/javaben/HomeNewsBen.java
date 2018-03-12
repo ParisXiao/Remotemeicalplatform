@@ -9,6 +9,24 @@ public class HomeNewsBen {
     private String Title;
     private String Content;
     private String LikeUrl;
+    private String ImgUrl;
+    private String ReleaseTime;
+
+    public String getImgUrl() {
+        return ImgUrl;
+    }
+
+    public void setImgUrl(String imgUrl) {
+        ImgUrl = imgUrl;
+    }
+
+    public String getReleaseTime() {
+        return ReleaseTime;
+    }
+
+    public void setReleaseTime(String releaseTime) {
+        ReleaseTime = releaseTime;
+    }
 
     public String getLikeUrl() {
         return LikeUrl;

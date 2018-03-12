@@ -97,12 +97,12 @@ public class ActivityYiChuan extends BaseActivity implements View.OnClickListene
                 swipeYichuan.setRefreshing(true);
             }
         });
-        emptyLayoutYichuan.showLoading();
+        emptyLayoutYichuan.showLoading(this);
         emptyLayoutYichuan.bindView(recyclerViewYichuan);
         emptyLayoutYichuan.setOnButtonClick(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                emptyLayoutYichuan.showLoading();
+                emptyLayoutYichuan.showLoading(ActivityYiChuan.this);
                 //重新加载数据
                 new Handler().postDelayed(new Runnable() {
                     @Override
@@ -116,7 +116,7 @@ public class ActivityYiChuan extends BaseActivity implements View.OnClickListene
         swipeYichuan.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
-                emptyLayoutYichuan.showLoading();
+                emptyLayoutYichuan.showLoading(ActivityYiChuan.this);
                 new Handler().postDelayed(new Runnable() {
                     @Override
                     public void run() {

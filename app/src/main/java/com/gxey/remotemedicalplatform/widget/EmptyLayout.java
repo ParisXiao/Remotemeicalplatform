@@ -2,6 +2,7 @@ package com.gxey.remotemedicalplatform.widget;
 
 import android.content.Context;
 import android.content.res.TypedArray;
+import android.graphics.Color;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.view.Gravity;
@@ -11,6 +12,8 @@ import android.widget.FrameLayout;
 import android.widget.TextView;
 
 import com.gxey.remotemedicalplatform.R;
+
+import cn.pedant.SweetAlert.SweetAlertDialog;
 
 /**
  * Created by Administrator on 2016/5/13 0013.
@@ -64,7 +67,27 @@ public class EmptyLayout extends FrameLayout {
         //全部隐藏
         setGone();
     }
+    private SweetAlertDialog mDialog;
+    public void showLoadDialog(Context context){
+        if(mDialog==null){
+            mDialog = new SweetAlertDialog(context, SweetAlertDialog.PROGRESS_TYPE);
+            mDialog.getProgressHelper().setBarColor(Color.parseColor("#A5DC86"));
+            mDialog.setTitleText("加载中");
+            mDialog.setCancelable(false);
+        }
+        if(!mDialog.isShowing()){
+            mDialog.show();
+        }
 
+
+    }
+
+    public void dismisDialog(){
+        if(mDialog!=null){
+            mDialog.dismiss();
+        }
+
+    }
     public void setEmptyView(int resId) {
         setEmptyView(View.inflate(mContext, resId, null));
     }
@@ -107,8 +130,8 @@ public class EmptyLayout extends FrameLayout {
         mLoadingView.setVisibility(View.VISIBLE);
     }
 
-    public void showLoading() {
-        showLoading(null);
+    public void showLoading(Context context) {
+        showLoadDialog(context);
     }
 
     public void setOnButtonClick(OnClickListener listener) {
@@ -122,11 +145,13 @@ public class EmptyLayout extends FrameLayout {
         mEmptyView.setVisibility(View.GONE);
         mErrorView.setVisibility(View.GONE);
         mLoadingView.setVisibility(View.GONE);
+        dismisDialog();
     }
 
     public void showSuccess() {
         if (mBindView != null) mBindView.setVisibility(View.VISIBLE);
         setGone();
+
     }
 
 }

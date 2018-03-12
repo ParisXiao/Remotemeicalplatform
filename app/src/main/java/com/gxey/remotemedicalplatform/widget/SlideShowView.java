@@ -19,6 +19,7 @@ import android.widget.LinearLayout;
 
 import com.gxey.remotemedicalplatform.R;
 import com.gxey.remotemedicalplatform.inter.CustomBitmapLoadCallBack;
+import com.gxey.remotemedicalplatform.javaben.Bannerben;
 import com.gxey.remotemedicalplatform.utils.MyStrUtil;
 
 import org.xutils.image.ImageOptions;
@@ -54,7 +55,7 @@ public class SlideShowView extends FrameLayout {
     private OnClickListener goListener;
 
     //自定义轮播图的资源
-    private String[] imageUrls;
+    private Bannerben[] imageUrls;
     //    private int[] imageSrcs;
     //放轮播图片的ImageView 的list
     private List<ImageView> imageViewsList;
@@ -139,7 +140,7 @@ public class SlideShowView extends FrameLayout {
         // 热点个数与图片特殊相等
         for (int i = 0; i < imageUrls.length; i++) {
             ImageView view =  new ImageView(context);
-            view.setTag(imageUrls[i]);
+            view.setTag(imageUrls[i].getImgUrl());
 //        	if(i==0)//给一个默认图
 //        		view.setBackgroundResource(R.drawable.defalt);
             view.setLayoutParams(new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT));
@@ -195,7 +196,7 @@ public class SlideShowView extends FrameLayout {
         public Object instantiateItem(ViewGroup container, int position) {
             ImageView imageView = imageViewsList.get(position);
 
-            if (!MyStrUtil.isEmpty(imageUrls)) {
+            if (!MyStrUtil.isEmpty(imageUrls[position].getImgUrl())) {
                     //TODO load img
                 ImageOptions imageOptions = new ImageOptions.Builder()
 //                .setSize(DensityUtil.dip2px(120), DensityUtil.dip2px(120))
@@ -350,17 +351,17 @@ public class SlideShowView extends FrameLayout {
         destoryBitmaps();
     }
 
-    public void setImageSrcs(int[] imageSrcs) {
-        if (MyStrUtil.isEmpty(imageSrcs)) {
-            return;
-        }
-        imageUrls = new String[imageSrcs.length];
-        for (int i = 0; i < imageSrcs.length; i++) {
-            imageUrls[i] = imageSrcs[i]+"";
-        }
-    }
+//    public void setImageSrcs(int[] imageSrcs) {
+//        if (MyStrUtil.isEmpty(imageSrcs)) {
+//            return;
+//        }
+//        imageUrls = new Bannerben[imageSrcs.length];
+//        for (int i = 0; i < imageSrcs.length; i++) {
+//            imageUrls[i] = imageSrcs[i]+"";
+//        }
+//    }
 
-    public void setImageUrls(String[] imageUrls) {
+    public void setImageUrls(Bannerben[] imageUrls) {
         this.imageUrls = imageUrls;
     }
 

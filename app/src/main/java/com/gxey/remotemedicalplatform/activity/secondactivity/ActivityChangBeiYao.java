@@ -96,12 +96,12 @@ public class ActivityChangBeiYao extends BaseActivity implements View.OnClickLis
                 swipeYichuan.setRefreshing(true);
             }
         });
-        emptyLayoutYichuan.showLoading();
+        emptyLayoutYichuan.showLoading(this);
         emptyLayoutYichuan.bindView(recyclerViewYichuan);
         emptyLayoutYichuan.setOnButtonClick(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                emptyLayoutYichuan.showLoading();
+                emptyLayoutYichuan.showLoading(ActivityChangBeiYao.this);
                 //重新加载数据
                 new Handler().postDelayed(new Runnable() {
                     @Override
@@ -115,7 +115,7 @@ public class ActivityChangBeiYao extends BaseActivity implements View.OnClickLis
         swipeYichuan.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
-                emptyLayoutYichuan.showLoading();
+                emptyLayoutYichuan.showLoading(ActivityChangBeiYao.this);
                 new Handler().postDelayed(new Runnable() {
                     @Override
                     public void run() {

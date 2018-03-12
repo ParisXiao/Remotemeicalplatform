@@ -98,12 +98,12 @@ public class ActivityDZBL extends BaseActivity implements View.OnClickListener {
                 swipeFenzhen.setRefreshing(true);
             }
         });
-        emptyLayoutFenzhen.showLoading();
+        emptyLayoutFenzhen.showLoading(this);
         emptyLayoutFenzhen.bindView(recyclerViewFenzhen);
         emptyLayoutFenzhen.setOnButtonClick(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                emptyLayoutFenzhen.showLoading();
+                emptyLayoutFenzhen.showLoading(ActivityDZBL.this);
                 //重新加载数据
                 new Handler().postDelayed(new Runnable() {
                     @Override
@@ -117,7 +117,7 @@ public class ActivityDZBL extends BaseActivity implements View.OnClickListener {
         swipeFenzhen.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
-                emptyLayoutFenzhen.showLoading();
+                emptyLayoutFenzhen.showLoading(ActivityDZBL.this);
                 new Handler().postDelayed(new Runnable() {
                     @Override
                     public void run() {
