@@ -8,6 +8,9 @@ import android.widget.TextView;
 import com.gxey.remotemedicalplatform.R;
 import com.gxey.remotemedicalplatform.activity.BaseActivity;
 import com.gxey.remotemedicalplatform.inter.ActionBarClickListener;
+import com.gxey.remotemedicalplatform.newconfig.UserConfig;
+import com.gxey.remotemedicalplatform.utils.ImageUtils;
+import com.gxey.remotemedicalplatform.utils.PreferenceUtils;
 import com.gxey.remotemedicalplatform.widget.TranslucentActionBar;
 import com.gxey.remotemedicalplatform.widget.TranslucentScrollView;
 
@@ -110,7 +113,42 @@ public class ActivityMyMsg extends BaseActivity implements ActionBarClickListene
 
     @Override
     protected void initData() {
+        ImageUtils.loadHeadImg(this, PreferenceUtils.getInstance(this).getString(UserConfig.HeadImg),msgHead);
+        msgName.setText(PreferenceUtils.getInstance(this).getString(UserConfig.UserName));
+        msgRealname.setText(PreferenceUtils.getInstance(this).getString(UserConfig.RealName));
+        if (PreferenceUtils.getInstance(this).getString(UserConfig.Sex).equals("M")){
+            msgXingbie.setText("男");
+        }else {
+            msgXingbie.setText("女");
+        }
 
+        msgAddress.setText(PreferenceUtils.getInstance(this).getString(UserConfig.Address));
+        msgXingbie.setText(PreferenceUtils.getInstance(this).getString(UserConfig.Sex));
+        msgSfNo.setText(PreferenceUtils.getInstance(this).getString(UserConfig.SFZH));
+        msgPhone.setText(PreferenceUtils.getInstance(this).getString(UserConfig.Phone));
+        msgBirthday.setText("");
+        msgGuoji.setText("");
+        msgJiguan.setText("");
+        msgMinzu.setText("");
+        msgHeight.setText("");
+        msgWeight.setText("");
+        msgBuchang.setText("");
+        msgXuexing.setText("");
+        msgRH.setText("");
+        msgWenhua.setText("");
+        msgChangzhu.setText("");
+        msgMarry.setText("");
+        msgWeixin.setText("");
+        msgJinjiname.setText("");
+        msgJinjiphone.setText("");
+        msgCompany.setText("");
+        msgJob.setText("");
+        msgJobfl.setText("");
+        msgBaolushi.setText("");
+        msgJkkh.setText("");
+        msgSbkh.setText("");
+        msgYblx.setText("");
+        msgZffs.setText("");
     }
 
     @Override

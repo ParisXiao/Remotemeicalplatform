@@ -11,6 +11,8 @@ import android.widget.TextView;
 
 import com.gxey.remotemedicalplatform.R;
 import com.gxey.remotemedicalplatform.activity.BaseActivity;
+import com.gxey.remotemedicalplatform.activity.WebMedicationActivity;
+import com.gxey.remotemedicalplatform.activity.WebMyDiagnosisActivity;
 import com.gxey.remotemedicalplatform.adapter.AdapterMenu;
 import com.gxey.remotemedicalplatform.bean.BeanMenu;
 import com.gxey.remotemedicalplatform.utils.ScreenUtils;
@@ -95,6 +97,14 @@ public class ActivityHeathDianZi extends BaseActivity implements View.OnClickLis
                     case 4:
                         Intent intent5=new Intent(ActivityHeathDianZi.this,ActivityXGYZ.class);
                         startActivity(intent5);
+                        break;
+                    case 5:
+                        Intent intent6= new Intent(ActivityHeathDianZi.this, WebMedicationActivity.class);
+                        startActivity(intent6);
+                        break;
+                    case 6:
+                        Intent intent7= new Intent(ActivityHeathDianZi.this, WebMyDiagnosisActivity.class);
+                        startActivity(intent7);
                         break;
 
                 }

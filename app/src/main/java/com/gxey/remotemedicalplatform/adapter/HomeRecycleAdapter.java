@@ -106,7 +106,7 @@ public class HomeRecycleAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
 
     @Override
     public int getItemCount() {
-        return 18+ZCNewslist.size()+HealthNewslist.size();
+        return 19+ZCNewslist.size()+HealthNewslist.size();
     }
 
     @Override
@@ -393,6 +393,7 @@ public class HomeRecycleAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
         public HolderType4(View itemView, Type4ItemClickListener type4ItemClickListener) {
             super(itemView);
             this.type4ItemClickListener = type4ItemClickListener;
+            itemView.setOnClickListener(this);
             item_type4_title = (TextView) itemView.findViewById(R.id.item_type4_title);
             item_type4_content = (TextView) itemView.findViewById(R.id.item_type4_content);
             item_type4_yuandu = (TextView) itemView.findViewById(R.id.item_type4_yuandu);

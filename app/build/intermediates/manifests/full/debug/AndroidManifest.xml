@@ -48,7 +48,7 @@
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme"
-            android:windowSoftInputMode="stateHidden|stateUnchanged" />
+            android:windowSoftInputMode="adjustPan|stateUnchanged" />
         <activity
             android:name="com.gxey.remotemedicalplatform.activity.secondactivity.ActivityHeathDangAn"
             android:configChanges="keyboardHidden|orientation"
@@ -255,6 +255,24 @@
             android:windowSoftInputMode="adjustPan|stateUnchanged" />
         <activity
             android:name="com.gxey.remotemedicalplatform.activity.secondactivity.ActivityXGBL"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeWrite"
+            android:windowSoftInputMode="adjustPan|stateUnchanged" />
+        <activity
+            android:name="com.gxey.remotemedicalplatform.activity.secondactivity.ActivityCanJi"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeWrite"
+            android:windowSoftInputMode="adjustPan|stateUnchanged" />
+        <activity
+            android:name="com.gxey.remotemedicalplatform.activity.secondactivity.ActivityZCNews"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeWrite"
+            android:windowSoftInputMode="adjustPan|stateUnchanged" />
+        <activity
+            android:name="com.gxey.remotemedicalplatform.activity.secondactivity.ActivityHealthNews"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"
             android:theme="@style/AppThemeWrite"

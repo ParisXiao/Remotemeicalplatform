@@ -16,9 +16,14 @@ import com.gxey.remotemedicalplatform.R;
 import com.gxey.remotemedicalplatform.activity.BaseActivity;
 import com.gxey.remotemedicalplatform.activity.LoginActivity;
 import com.gxey.remotemedicalplatform.activity.WebBannerbenActgvity;
-import com.gxey.remotemedicalplatform.adapter.HealthBGAdapter;
-import com.gxey.remotemedicalplatform.bean.HealthBGBean;
+import com.gxey.remotemedicalplatform.adapter.ZCNewsAdapter;
+import com.gxey.remotemedicalplatform.adapter.ZCNewsAdapter;
+import com.gxey.remotemedicalplatform.bean.JiaZuBean;
+import com.gxey.remotemedicalplatform.fragment.HomeFragment;
+import com.gxey.remotemedicalplatform.javaben.HomeNewsBen;
 import com.gxey.remotemedicalplatform.mynetwork.MyHttpHelper;
+import com.gxey.remotemedicalplatform.network.HttpClientHelper;
+import com.gxey.remotemedicalplatform.network.HttpSubseiber;
 import com.gxey.remotemedicalplatform.newconfig.UrlConfig;
 import com.gxey.remotemedicalplatform.utils.MyStrUtil;
 import com.gxey.remotemedicalplatform.utils.ScreenUtils;
@@ -47,7 +52,7 @@ import static com.gxey.remotemedicalplatform.R.id.toolbar_left_btn;
  * Created by Administrator on 2018/3/2 0002.
  */
 
-public class ActivityHealthBaoGao extends BaseActivity implements View.OnClickListener {
+public class ActivityZCNews extends BaseActivity implements View.OnClickListener {
 
     @BindView(R.id.toolbar_mid)
     TextView toolbarMid;
@@ -61,8 +66,8 @@ public class ActivityHealthBaoGao extends BaseActivity implements View.OnClickLi
     EmptyLayout emptyLayoutYichuan;
     @BindView(R.id.swipe_yichuan)
     SwipeRefreshLayout swipeYichuan;
-    private HealthBGAdapter adapter;
-    private List<HealthBGBean> list;
+    private ZCNewsAdapter adapter;
+    private List<HomeNewsBen> list;
     private Handler handler = new Handler();
 
     @Override
@@ -74,21 +79,21 @@ public class ActivityHealthBaoGao extends BaseActivity implements View.OnClickLi
     protected void initView() {
         toolbarLeftBtn.setVisibility(View.VISIBLE);
         toolbarLeftBtn.setOnClickListener(this);
-        toolbarMid.setText("健康报告");
+        toolbarMid.setText("政策解读");
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
-        ScreenUtils.setStatusBarLightMode(ActivityHealthBaoGao.this, R.color.black);
+        ScreenUtils.setStatusBarLightMode(ActivityZCNews.this, R.color.black);
         list = new ArrayList<>();
         initLoad();
         recyclerViewYichuan.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
-        recyclerViewYichuan.setAdapter(adapter = new HealthBGAdapter(this, list));
+
 
     }
     private void initLoad(){
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                getData();
+              getZCNews("");
             }
         }, 2000);
         //绑定
@@ -103,12 +108,12 @@ public class ActivityHealthBaoGao extends BaseActivity implements View.OnClickLi
         emptyLayoutYichuan.setOnButtonClick(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                emptyLayoutYichuan.showLoading(ActivityHealthBaoGao.this);
+                emptyLayoutYichuan.showLoading(ActivityZCNews.this);
                 //重新加载数据
                 new Handler().postDelayed(new Runnable() {
                     @Override
                     public void run() {
-                        getData();
+                        getZCNews("");
                     }
                 }, 2000);
             }
@@ -117,11 +122,11 @@ public class ActivityHealthBaoGao extends BaseActivity implements View.OnClickLi
         swipeYichuan.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
-                emptyLayoutYichuan.showLoading(ActivityHealthBaoGao.this);
+                emptyLayoutYichuan.showLoading(ActivityZCNews.this);
                 new Handler().postDelayed(new Runnable() {
                     @Override
                     public void run() {
-                        getData();
+                        getZCNews("");
                     }
                 }, 2000);
 
@@ -131,118 +136,42 @@ public class ActivityHealthBaoGao extends BaseActivity implements View.OnClickLi
 
     @Override
     protected void initData() {
-        adapter.changeMoreStatus(adapter.NO_LOAD_MORE);
+
 //        initLoadMoreListener();
 
-        adapter.setOnItemClickListener(new HealthBGAdapter.OnRecyclerViewItemClickListener() {
-            @Override
-            public void onClick(View view, HealthBGAdapter.ViewName viewName, int position) {
-                Intent intent = new Intent(ActivityHealthBaoGao.this, WebBannerbenActgvity.class);
-                intent.putExtra("url", list.get(position).getUrl());
-                startActivity(intent);
-            }
-        });
+
     }
 
-    String msg;
-
-    private void getData() {
-
-        Observable.create(new Observable.OnSubscribe<Integer>() {
-
+    private void getZCNews(String PageIndex) {
+        String ZCType = "1";
+        String ZCPageSize = "";
+        HttpClientHelper.getInstance().GetNews(ZCType, PageIndex, ZCPageSize, new HttpSubseiber.ResponseHandler<List<HomeNewsBen>>() {
             @Override
-            public void call(Subscriber<? super Integer> subscriber) {
-                if (MyHttpHelper.isConllection(ActivityHealthBaoGao.this)) {
-                    String[] key = new String[]{};
-                    Map<String, String> map = new HashMap<String, String>();
-                    String result = MyHttpHelper.GetMessage(ActivityHealthBaoGao.this, UrlConfig.SelMedicalExaminationReport, key, map);
-                    if (!MyStrUtil.isEmpty(result)) {
-                        JSONObject jsonObject;
-                        try {
-                            jsonObject = new JSONObject(result);
-                            String code = jsonObject.getString("code");
-                            msg = jsonObject.getString("desc");
-                            if (code.equals("0")) {
-//                                成功
-                                JSONArray jsonArray = new JSONArray(jsonObject.getString("result"));
-                                if (jsonArray.length()>0) {
-                                    for (int i = 0; i < jsonArray.length(); i++) {
-                                        HealthBGBean Bean =new HealthBGBean();
-                                        JSONObject temp = (JSONObject) jsonArray.get(i);
-                                        Bean.setId(temp.getString("id"));
-                                        Bean.setPhysicalexaminationid(temp.getString("physicalexaminationid"));
-                                        Bean.setMeasurementtime(temp.getString("measurementtime"));
-                                        Bean.setMeasuringdoctorname(temp.getString("measuringdoctorname"));
-                                        Bean.setOrganizationname(temp.getString("organizationname"));
-                                        Bean.setUserid(temp.getString("userid"));
-                                        Bean.setUrl(temp.getString("url"));
-                                        list.add(Bean);
-
-                                    }
-                                    subscriber.onNext(1);
-                                } else {
-                                    subscriber.onNext(0);
-                                }
-                            } else if (code.equals("1")) {
-                                subscriber.onNext(4);
-//                                离线
-                            } else {
-//                                失败
-                                subscriber.onNext(2);
-                            }
-
-                        } catch (JSONException e1) {
-                            // TODO Auto-generated catch block
-                            e1.printStackTrace();
-                        }
-                    }
-                } else {
-                    subscriber.onNext(3);
-                }
-            }
-        }).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(new Subscriber<Integer>() {
-            @Override
-            public void onCompleted() {
-
-            }
-
-            @Override
-            public void onError(Throwable e) {
-
-            }
-
-            @Override
-            public void onNext(Integer integer) {
-                switch (integer) {
-                    case 0:
-                        swipeYichuan.setRefreshing(false);
-                        adapter.notifyDataSetChanged();
-                        emptyLayoutYichuan.showEmpty("暂无数据！");
-                        break;
-                    case 1:
-                        swipeYichuan.setRefreshing(false);
-                        adapter.notifyDataSetChanged();
-                        emptyLayoutYichuan.showSuccess();
-                        break;
-                    case 2:
-                        swipeYichuan.setRefreshing(false);
-                        adapter.notifyDataSetChanged();
-                        emptyLayoutYichuan.showError("加载出错！");
-                        ToastUtils.s(ActivityHealthBaoGao.this, msg);
-                        break;
-                    case 3:
-                        swipeYichuan.setRefreshing(false);
-                        adapter.notifyDataSetChanged();
-                        emptyLayoutYichuan.showError("网络无连接！");
-                        break;
-                    case 4:
-                        swipeYichuan.setRefreshing(false);
-                        ToastUtils.s(ActivityHealthBaoGao.this, msg);
-                        Intent intent = new Intent(ActivityHealthBaoGao.this, LoginActivity.class);
+            public void onSucceed(List<HomeNewsBen> data) {
+                emptyLayoutYichuan.showSuccess();
+                swipeYichuan.setRefreshing(false);
+                list = data;
+                recyclerViewYichuan.setAdapter(adapter = new ZCNewsAdapter(ActivityZCNews.this, list));
+                adapter.changeMoreStatus(adapter.NO_LOAD_MORE);
+                adapter.notifyDataSetChanged();
+                adapter.setOnItemClickListener(new ZCNewsAdapter.OnRecyclerViewItemClickListener() {
+                    @Override
+                    public void onClick(View view, ZCNewsAdapter.ViewName viewName, int position) {
+                        Intent intent = new Intent(ActivityZCNews.this, WebBannerbenActgvity.class);
+                        intent.putExtra("url", list.get(position).getLikeUrl());
                         startActivity(intent);
-                        finish();
-                        break;
-                }
+                    }
+                });
+            }
+
+
+            @Override
+            public void onFail(String msg) {
+
+                swipeYichuan.setRefreshing(false);
+                adapter.notifyDataSetChanged();
+                emptyLayoutYichuan.showError("加载出错！");
+                ToastUtils.s(ActivityZCNews.this, msg);
             }
         });
     }
@@ -272,7 +201,7 @@ public class ActivityHealthBaoGao extends BaseActivity implements View.OnClickLi
 //                            adapter.AddFooterItem(list);
                             //设置回到上拉加载更多
                             adapter.changeMoreStatus(adapter.PULLUP_LOAD_MORE);
-                            Toast.makeText(ActivityHealthBaoGao.this, "更新了 " + list.size() + " 条数据", Toast.LENGTH_SHORT).show();
+//                            Toast.makeText(ActivityZCNews.this, "更新了 " + list.size() + " 条数据", Toast.LENGTH_SHORT).show();
                         }
                     }, 3000);
 

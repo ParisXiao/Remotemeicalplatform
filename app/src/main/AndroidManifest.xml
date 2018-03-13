@@ -45,7 +45,7 @@
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme"
-            android:windowSoftInputMode="stateHidden|stateUnchanged"></activity>
+            android:windowSoftInputMode="adjustPan|stateUnchanged"></activity>
         <activity
             android:name=".activity.secondactivity.ActivityHeathDangAn"
             android:configChanges="keyboardHidden|orientation"
@@ -246,6 +246,21 @@
             android:theme="@style/AppThemeWrite"
             android:windowSoftInputMode="adjustPan|stateUnchanged"/>
         <activity android:name=".activity.secondactivity.ActivityXGBL"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeWrite"
+            android:windowSoftInputMode="adjustPan|stateUnchanged"/>
+        <activity android:name=".activity.secondactivity.ActivityCanJi"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeWrite"
+            android:windowSoftInputMode="adjustPan|stateUnchanged"/>
+        <activity android:name=".activity.secondactivity.ActivityZCNews"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeWrite"
+            android:windowSoftInputMode="adjustPan|stateUnchanged"/>
+        <activity android:name=".activity.secondactivity.ActivityHealthNews"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"
             android:theme="@style/AppThemeWrite"

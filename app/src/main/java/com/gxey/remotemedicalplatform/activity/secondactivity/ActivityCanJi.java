@@ -15,9 +15,10 @@ import android.widget.Toast;
 import com.gxey.remotemedicalplatform.R;
 import com.gxey.remotemedicalplatform.activity.BaseActivity;
 import com.gxey.remotemedicalplatform.activity.LoginActivity;
-import com.gxey.remotemedicalplatform.activity.WebBannerbenActgvity;
-import com.gxey.remotemedicalplatform.adapter.HealthBGAdapter;
-import com.gxey.remotemedicalplatform.bean.HealthBGBean;
+import com.gxey.remotemedicalplatform.adapter.CanJiAdapter;
+import com.gxey.remotemedicalplatform.adapter.CanJiAdapter;
+import com.gxey.remotemedicalplatform.bean.CanJiBean;
+import com.gxey.remotemedicalplatform.bean.GuoMingBean;
 import com.gxey.remotemedicalplatform.mynetwork.MyHttpHelper;
 import com.gxey.remotemedicalplatform.newconfig.UrlConfig;
 import com.gxey.remotemedicalplatform.utils.MyStrUtil;
@@ -47,7 +48,7 @@ import static com.gxey.remotemedicalplatform.R.id.toolbar_left_btn;
  * Created by Administrator on 2018/3/2 0002.
  */
 
-public class ActivityHealthBaoGao extends BaseActivity implements View.OnClickListener {
+public class ActivityCanJi extends BaseActivity implements View.OnClickListener {
 
     @BindView(R.id.toolbar_mid)
     TextView toolbarMid;
@@ -61,27 +62,27 @@ public class ActivityHealthBaoGao extends BaseActivity implements View.OnClickLi
     EmptyLayout emptyLayoutYichuan;
     @BindView(R.id.swipe_yichuan)
     SwipeRefreshLayout swipeYichuan;
-    private HealthBGAdapter adapter;
-    private List<HealthBGBean> list;
+    private CanJiAdapter adapter;
+    private List<CanJiBean> guoMingBeen;
     private Handler handler = new Handler();
 
     @Override
     protected int getLayoutId() {
-        return R.layout.activity_yichuan;
+        return R.layout.activity_guoming;
     }
 
     @Override
     protected void initView() {
         toolbarLeftBtn.setVisibility(View.VISIBLE);
         toolbarLeftBtn.setOnClickListener(this);
-        toolbarMid.setText("健康报告");
+        toolbarMid.setText("残疾情况");
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
-        ScreenUtils.setStatusBarLightMode(ActivityHealthBaoGao.this, R.color.black);
-        list = new ArrayList<>();
+        ScreenUtils.setStatusBarLightMode(ActivityCanJi.this, R.color.black);
+        guoMingBeen = new ArrayList<>();
         initLoad();
         recyclerViewYichuan.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
-        recyclerViewYichuan.setAdapter(adapter = new HealthBGAdapter(this, list));
+        recyclerViewYichuan.setAdapter(adapter = new CanJiAdapter(this, guoMingBeen));
 
     }
     private void initLoad(){
@@ -103,7 +104,7 @@ public class ActivityHealthBaoGao extends BaseActivity implements View.OnClickLi
         emptyLayoutYichuan.setOnButtonClick(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                emptyLayoutYichuan.showLoading(ActivityHealthBaoGao.this);
+                emptyLayoutYichuan.showLoading(ActivityCanJi.this);
                 //重新加载数据
                 new Handler().postDelayed(new Runnable() {
                     @Override
@@ -117,7 +118,7 @@ public class ActivityHealthBaoGao extends BaseActivity implements View.OnClickLi
         swipeYichuan.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
-                emptyLayoutYichuan.showLoading(ActivityHealthBaoGao.this);
+                emptyLayoutYichuan.showLoading(ActivityCanJi.this);
                 new Handler().postDelayed(new Runnable() {
                     @Override
                     public void run() {
@@ -134,12 +135,10 @@ public class ActivityHealthBaoGao extends BaseActivity implements View.OnClickLi
         adapter.changeMoreStatus(adapter.NO_LOAD_MORE);
 //        initLoadMoreListener();
 
-        adapter.setOnItemClickListener(new HealthBGAdapter.OnRecyclerViewItemClickListener() {
+        adapter.setOnItemClickListener(new CanJiAdapter.OnRecyclerViewItemClickListener() {
             @Override
-            public void onClick(View view, HealthBGAdapter.ViewName viewName, int position) {
-                Intent intent = new Intent(ActivityHealthBaoGao.this, WebBannerbenActgvity.class);
-                intent.putExtra("url", list.get(position).getUrl());
-                startActivity(intent);
+            public void onClick(View view, CanJiAdapter.ViewName viewName, int position) {
+
             }
         });
     }
@@ -152,10 +151,10 @@ public class ActivityHealthBaoGao extends BaseActivity implements View.OnClickLi
 
             @Override
             public void call(Subscriber<? super Integer> subscriber) {
-                if (MyHttpHelper.isConllection(ActivityHealthBaoGao.this)) {
+                if (MyHttpHelper.isConllection(ActivityCanJi.this)) {
                     String[] key = new String[]{};
                     Map<String, String> map = new HashMap<String, String>();
-                    String result = MyHttpHelper.GetMessage(ActivityHealthBaoGao.this, UrlConfig.SelMedicalExaminationReport, key, map);
+                    String result = MyHttpHelper.GetMessage(ActivityCanJi.this, UrlConfig.SelDisability, key, map);
                     if (!MyStrUtil.isEmpty(result)) {
                         JSONObject jsonObject;
                         try {
@@ -167,16 +166,14 @@ public class ActivityHealthBaoGao extends BaseActivity implements View.OnClickLi
                                 JSONArray jsonArray = new JSONArray(jsonObject.getString("result"));
                                 if (jsonArray.length()>0) {
                                     for (int i = 0; i < jsonArray.length(); i++) {
-                                        HealthBGBean Bean =new HealthBGBean();
+                                        CanJiBean GuoMingBean =new CanJiBean();
                                         JSONObject temp = (JSONObject) jsonArray.get(i);
-                                        Bean.setId(temp.getString("id"));
-                                        Bean.setPhysicalexaminationid(temp.getString("physicalexaminationid"));
-                                        Bean.setMeasurementtime(temp.getString("measurementtime"));
-                                        Bean.setMeasuringdoctorname(temp.getString("measuringdoctorname"));
-                                        Bean.setOrganizationname(temp.getString("organizationname"));
-                                        Bean.setUserid(temp.getString("userid"));
-                                        Bean.setUrl(temp.getString("url"));
-                                        list.add(Bean);
+                                        GuoMingBean.setId(temp.getString("Id"));
+                                        GuoMingBean.setDisability(temp.getString("Disability"));
+                                        GuoMingBean.setPutInStorageTime(temp.getString("PutInStorageTime"));
+                                        GuoMingBean.setAddUserId(temp.getString("AddUserId"));
+                                        GuoMingBean.setUserId(temp.getString("UserId"));
+                                        guoMingBeen.add(GuoMingBean);
 
                                     }
                                     subscriber.onNext(1);
@@ -228,7 +225,7 @@ public class ActivityHealthBaoGao extends BaseActivity implements View.OnClickLi
                         swipeYichuan.setRefreshing(false);
                         adapter.notifyDataSetChanged();
                         emptyLayoutYichuan.showError("加载出错！");
-                        ToastUtils.s(ActivityHealthBaoGao.this, msg);
+                        ToastUtils.s(ActivityCanJi.this, msg);
                         break;
                     case 3:
                         swipeYichuan.setRefreshing(false);
@@ -237,8 +234,8 @@ public class ActivityHealthBaoGao extends BaseActivity implements View.OnClickLi
                         break;
                     case 4:
                         swipeYichuan.setRefreshing(false);
-                        ToastUtils.s(ActivityHealthBaoGao.this, msg);
-                        Intent intent = new Intent(ActivityHealthBaoGao.this, LoginActivity.class);
+                        ToastUtils.s(ActivityCanJi.this, msg);
+                        Intent intent = new Intent(ActivityCanJi.this, LoginActivity.class);
                         startActivity(intent);
                         finish();
                         break;
@@ -247,51 +244,6 @@ public class ActivityHealthBaoGao extends BaseActivity implements View.OnClickLi
         });
     }
 
-    private void initLoadMoreListener() {
-        adapter.changeMoreStatus(adapter.NO_LOAD_MORE);
-        recyclerViewYichuan.setOnScrollListener(new RecyclerView.OnScrollListener() {
-            int lastVisibleItem;
-
-            @Override
-            public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
-                super.onScrollStateChanged(recyclerView, newState);
-                adapter.changeMoreStatus(adapter.PULLUP_LOAD_MORE);
-                //判断RecyclerView的状态 是空闲时，同时，是最后一个可见的ITEM时才加载
-                if (newState == RecyclerView.SCROLL_STATE_IDLE && lastVisibleItem + 1 == adapter.getItemCount()) {
-
-                    //设置正在加载更多
-                    adapter.changeMoreStatus(adapter.LOADING_MORE);
-
-                    new Handler().postDelayed(new Runnable() {
-                        @Override
-                        public void run() {
-//                            List<YiChuanBean> list = new ArrayList<YiChuanBean>();
-//                            for (int i = 0; i < 10; i++) {
-////                                list.add(new YiChuanBean("神经病", "2018-03-02"));
-//                            }
-//                            adapter.AddFooterItem(list);
-                            //设置回到上拉加载更多
-                            adapter.changeMoreStatus(adapter.PULLUP_LOAD_MORE);
-                            Toast.makeText(ActivityHealthBaoGao.this, "更新了 " + list.size() + " 条数据", Toast.LENGTH_SHORT).show();
-                        }
-                    }, 3000);
-
-
-                }
-
-            }
-
-            @Override
-            public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
-                super.onScrolled(recyclerView, dx, dy);
-
-                LinearLayoutManager layoutManager = (LinearLayoutManager) recyclerView.getLayoutManager();
-                //最后一个可见的ITEM
-                lastVisibleItem = layoutManager.findLastVisibleItemPosition();
-            }
-        });
-
-    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -5,21 +5,15 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.donkingliang.labels.LabelsView;
 import com.gxey.remotemedicalplatform.R;
-import com.gxey.remotemedicalplatform.javaben.DoctorEntity;
-import com.gxey.remotemedicalplatform.utils.ImageUtils;
-import com.gxey.remotemedicalplatform.utils.MyStrUtil;
+import com.gxey.remotemedicalplatform.bean.CanJiBean;
+import com.gxey.remotemedicalplatform.bean.CanJiBean;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 import butterknife.BindView;
@@ -30,10 +24,12 @@ import butterknife.ButterKnife;
  * Created by Administrator on 2017/12/12 0012.
  */
 
-public class DoctorAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> implements View.OnClickListener {
+public class CanJiAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> implements View.OnClickListener {
+
+
     private LayoutInflater mInflater;
     private Context context;
-    private List<DoctorEntity> doctorBeen = new ArrayList<>();
+    private List<CanJiBean> guoMingBeen = new ArrayList<>();
     private static final int TYPE_ITEM = 0;
     private static final int TYPE_FOOTER = 1;
 
@@ -48,9 +44,9 @@ public class DoctorAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
     private int mLoadMoreStatus = 0;
 
 
-    public DoctorAdapter(Context context, List<DoctorEntity> doctorBeen) {
+    public CanJiAdapter(Context context, List<CanJiBean> guoMingBeen) {
         this.context = context;
-        this.doctorBeen = doctorBeen;
+        this.guoMingBeen = guoMingBeen;
         this.mInflater = LayoutInflater.from(context);
 
 
@@ -70,7 +66,7 @@ public class DoctorAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         if (viewType == TYPE_ITEM) {
-            View itemView = mInflater.inflate(R.layout.item_doctorlist, parent, false);
+            View itemView = mInflater.inflate(R.layout.item_yichuan, parent, false);
 
             return new MyViewHolder(itemView);
         } else if (viewType == TYPE_FOOTER) {
@@ -85,39 +81,13 @@ public class DoctorAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
     @Override
     public void onBindViewHolder(final RecyclerView.ViewHolder holder, final int position) {
         if (holder instanceof MyViewHolder) {
+            ((MyViewHolder) holder).itemTitle.setText("残疾情况");
+            ((MyViewHolder) holder).itemName.setText("残疾描述");
+            ((MyViewHolder) holder).itemTime.setText("入库时间");
+            ((MyViewHolder) holder).itemYichuanYcname.setText(guoMingBeen.get(position).getDisability());
+            ((MyViewHolder) holder).itemYichuanTime.setText(guoMingBeen.get(position).getPutInStorageTime());
 
-            if (!MyStrUtil.isEmpty(doctorBeen.get(position).getHeadImg())) {
-                ImageUtils.loadHeadImg(context,doctorBeen.get(position).getHeadImg(), ((MyViewHolder) holder).doctor_icon);
-            } else {
-                ((MyViewHolder) holder).doctor_icon.setImageResource(R.drawable.touxiang);
-            }
-            if (doctorBeen.get(position).isLogout()){
-                ((MyViewHolder) holder).reLogout.setVisibility(View.VISIBLE);
-                ((MyViewHolder) holder).fgx.setVisibility(View.VISIBLE);
-            }else {
-                ((MyViewHolder) holder).reLogout.setVisibility(View.GONE);
-                ((MyViewHolder) holder).fgx.setVisibility(View.GONE);
-            }
-            ((MyViewHolder) holder).doctor_name.setText(doctorBeen.get(position).getUserName());
-            ((MyViewHolder) holder).doctor_content.setText("未知");
-            ((MyViewHolder) holder).doctor_keshi.setText(doctorBeen.get(position).getDivision());
-            if (!MyStrUtil.isEmpty(doctorBeen.get(position).getSN())){
-                ((MyViewHolder) holder).doctor_pdrs.setText(doctorBeen.get(position).getSN());
-            }else {
-                ((MyViewHolder) holder).doctor_pdrs.setText("0");
-            }
-
-            if (!MyStrUtil.isEmpty(doctorBeen.get(position).getPosition())){
-               List<String> s= Arrays.asList(doctorBeen.get(position).getPosition().split(","));
-                ArrayList<String> labels=new ArrayList<>();
-                int size=labels.size()>1?2:labels.size();
-                for (int i = 0; i < size; i++) {
-                    labels.add(s.get(i));
-                }
-                ((MyViewHolder) holder).doctor_labels.setLabels(labels);
-            }
             ((MyViewHolder) holder).itemView.setTag(position);
-            ((MyViewHolder) holder).doctor_ljsq.setTag(position);
 
         } else if (holder instanceof FooterViewHolder) {
 
@@ -146,7 +116,7 @@ public class DoctorAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
 
     @Override
     public int getItemCount() {
-        return doctorBeen.size()+1;
+        return guoMingBeen.size() + 1;
     }
 
     public class FooterViewHolder extends RecyclerView.ViewHolder {
@@ -163,13 +133,13 @@ public class DoctorAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
         }
     }
 
-    public void AddHeaderItem(List<DoctorEntity> items) {
-        doctorBeen.addAll(0, items);
+    public void AddHeaderItem(List<CanJiBean> items) {
+        guoMingBeen.addAll(0, items);
         notifyDataSetChanged();
     }
 
-    public void AddFooterItem(List<DoctorEntity> items) {
-        doctorBeen.addAll(items);
+    public void AddFooterItem(List<CanJiBean> items) {
+        guoMingBeen.addAll(items);
         notifyDataSetChanged();
     }
 
@@ -184,30 +154,20 @@ public class DoctorAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
     }
 
     class MyViewHolder extends RecyclerView.ViewHolder {
-        ImageView doctor_icon;
-        TextView doctor_name;
-        TextView doctor_keshi;
-        TextView doctor_content;
-        TextView doctor_pdrs;
-        Button doctor_ljsq;
-        LabelsView doctor_labels;
-        RelativeLayout reLogout;
-        View fgx;
+        @BindView(R.id.item_yichuan_ycname)
+        TextView itemYichuanYcname;
+        @BindView(R.id.item_yichuan_time)
+        TextView itemYichuanTime;
+        @BindView(R.id.item_baogao_danhao_text)
+        TextView itemTitle;
+        @BindView(R.id.item_name_text)
+        TextView itemName;
+        @BindView(R.id.item_time_text)
+        TextView itemTime;
 
         public MyViewHolder(View itemView) {
             super(itemView);
-            //将全局的监听赋值给接口
-            doctor_icon = (ImageView) itemView.findViewById(R.id.doctor_head);
-            doctor_name = (TextView) itemView.findViewById(R.id.doctor_name);
-            doctor_keshi = (TextView) itemView.findViewById(R.id.doctor_keshi);
-            doctor_content = (TextView) itemView.findViewById(R.id.doctor_content);
-            doctor_pdrs = (TextView) itemView.findViewById(R.id.doctor_pdrs);
-            doctor_ljsq = (Button) itemView.findViewById(R.id.doctor_ljsq);
-            doctor_labels = (LabelsView) itemView.findViewById(R.id.doctor_labels);
-            reLogout = (RelativeLayout) itemView.findViewById(R.id.re_logout);
-            fgx  = (View) itemView.findViewById(R.id.doctor_fgx);
-            itemView.setOnClickListener(DoctorAdapter.this);
-            doctor_ljsq.setOnClickListener(DoctorAdapter.this);
+            ButterKnife.bind(this, itemView);
         }
 
     }
@@ -236,9 +196,9 @@ public class DoctorAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
         int position = (int) v.getTag();
         if (mOnItemClickListener != null) {
             switch (v.getId()) {
-                case R.id.doctor_ljsq:
-                    mOnItemClickListener.onClick(v, ViewName.Button, position);
-                    break;
+//                case R.id.item_baogao_chakan:
+//                    mOnItemClickListener.onClick(v, ViewName.Button, position);
+//                    break;
                 default:
                     mOnItemClickListener.onClick(v, ViewName.ITEM, position);
                     break;

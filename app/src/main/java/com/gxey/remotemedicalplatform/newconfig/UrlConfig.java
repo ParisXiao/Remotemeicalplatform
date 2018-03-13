@@ -17,6 +17,7 @@ public class UrlConfig {
     public final static String SelEnvironment=POST+"api/HealthManage/SelEnvironment";//生活环境
     public final static String SelFamilyPermanentMedicine=POST+"api/HealthManage/SelFamilyPermanentMedicine";//家庭常备药
     public final static String SelOxygen=POST+"api/HealthManage/SelOxygen";//体检数据血氧
+    public final static String SelDisability=POST+"api/HealthManage/SelDisability";//残疾情况
     public final static String SelTemperature=POST+"api/HealthManage/SelTemperature";//体温
     public final static String SelBlood=POST+"api/HealthManage/SelBlood";//血压和心率 （其中 Pulse 代表 心率）
     public final static String SelBloodTang=POST+"api/HealthManage/SelBloodTang";//血糖

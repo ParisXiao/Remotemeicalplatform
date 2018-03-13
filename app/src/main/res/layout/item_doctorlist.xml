@@ -88,16 +88,18 @@
         </LinearLayout>
 
         <View
+            android:id="@+id/doctor_fgx"
             android:layout_width="match_parent"
             android:layout_height="2dp"
             android:layout_marginTop="5dp"
+            android:visibility="gone"
             android:background="@color/background_fgx" />
 
         <RelativeLayout
             android:id="@+id/re_logout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:visibility="invisible"
+            android:visibility="gone"
             >
 
             <TextView
