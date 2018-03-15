@@ -5,13 +5,12 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.gxey.remotemedicalplatform.R;
 import com.gxey.remotemedicalplatform.activity.BaseActivity;
 import com.gxey.remotemedicalplatform.activity.LoginActivity;
-import com.gxey.remotemedicalplatform.adapter.XGYZdapter;
-import com.gxey.remotemedicalplatform.bean.DianZiBLBean;
 import com.gxey.remotemedicalplatform.bean.XiangGuanYZBean;
 import com.gxey.remotemedicalplatform.mynetwork.MyHttpHelper;
 import com.gxey.remotemedicalplatform.newconfig.UrlConfig;
@@ -46,39 +45,14 @@ public class ActivityXGYZDetails extends BaseActivity implements View.OnClickLis
     ImageButton toolbarLeftBtn;
     @BindView(R.id.toolbar)
     Toolbar toolbar;
-    @BindView(R.id.dz_blh)
-    TextView dzBlh;
-    @BindView(R.id.dz_chuzhen)
-    TextView dzChuzhen;
-    @BindView(R.id.dz_zhenzhuang)
-    TextView dzZhenzhuang;
-    @BindView(R.id.dz_yisheng)
-    TextView dzYisheng;
-    @BindView(R.id.dz_jiwangshi)
-    TextView dzJiwangshi;
-    @BindView(R.id.dz_gerenshi)
-    TextView dzGerenshi;
-    @BindView(R.id.dz_jiazushi)
-    TextView dzJiazushi;
-    @BindView(R.id.dz_tigejc)
-    TextView dzTigejc;
-    @BindView(R.id.dz_fuzhujc)
-    TextView dzFuzhujc;
-    @BindView(R.id.dz_zhenduan)
-    TextView dzZhenduan;
-    @BindView(R.id.dz_tsbz)
-    TextView dzTsbz;
-    @BindView(R.id.dz_clyj)
-    TextView dzClyj;
-    @BindView(R.id.dz_bz)
-    TextView dzBz;
-    @BindView(R.id.dz_shijian)
-    TextView dzShijian;
-    private XiangGuanYZBean dianZiBLBean=new XiangGuanYZBean();
+    @BindView(R.id.xg_img)
+    ImageView xgImg;
+    private XiangGuanYZBean dianZiBLBean = new XiangGuanYZBean();
+    private String url;
 
     @Override
     protected int getLayoutId() {
-        return R.layout.activity_dzblxq;
+        return R.layout.activityxgdetails;
     }
 
     @Override
@@ -93,9 +67,10 @@ public class ActivityXGYZDetails extends BaseActivity implements View.OnClickLis
 
     @Override
     protected void initData() {
-        dianZiBLBean= (XiangGuanYZBean) getIntent().getSerializableExtra("XGYZ");
+        dianZiBLBean = (XiangGuanYZBean) getIntent().getSerializableExtra("XGYZ");
         getData(dianZiBLBean.getID());
     }
+
     String msg;
 
     private void getData(final String id) {
@@ -108,8 +83,7 @@ public class ActivityXGYZDetails extends BaseActivity implements View.OnClickLis
                     String[] key = new String[]{"id"};
 
                     Map<String, String> map = new HashMap<String, String>();
-
-                    map.put("id",id);
+                    map.put("id", id);
                     String result = MyHttpHelper.GetMessage(ActivityXGYZDetails.this, UrlConfig.SelCorrelationHospitalExhort_Img, key, map);
                     if (!MyStrUtil.isEmpty(result)) {
                         JSONObject jsonObject;
@@ -122,26 +96,7 @@ public class ActivityXGYZDetails extends BaseActivity implements View.OnClickLis
                                 JSONArray jsonArray = new JSONArray(jsonObject.getString("result"));
                                 if (jsonArray.length() > 0) {
                                     for (int i = 0; i < jsonArray.length(); i++) {
-                                        XiangGuanYZBean Bean = new XiangGuanYZBean();
-                                        JSONObject temp = (JSONObject) jsonArray.get(i);
-                                        Bean.setID(temp.getString("ID"));
-                                        Bean.setCaseNumber(temp.getString("CaseNumber"));
-                                        Bean.setThePatientId(temp.getString("ThePatientId"));
-                                        Bean.setDoctorId(temp.getString("DoctorId"));
-                                        Bean.setMainSuit(temp.getString("MainSuit"));
-                                        Bean.setHistoryOfPresentIllness(temp.getString("HistoryOfPresentIllness"));
-                                        Bean.setHistoryOfPastIllness(temp.getString("HistoryOfPastIllness"));
-                                        Bean.setHandlingSuggestion(temp.getString("HandlingSuggestion"));
-                                        Bean.setPersonalHistory(temp.getString("PersonalHistory"));
-                                        Bean.setFHx(temp.getString("FHx"));
-                                        Bean.setPhysicalExamination(temp.getString("PhysicalExamination"));
-                                        Bean.setDiagnosis(temp.getString("Diagnosis"));
-//                                        Bean.setPeriod(temp.getInt("Period"));
-                                        Bean.setSpecial(temp.getString("Special"));
-                                        Bean.setRemarks(temp.getString("Remarks"));
-                                        Bean.setBoardingTime(temp.getString("BoardingTime"));
-                                        Bean.setAdministrativeOrTechnicalOfficesid(temp.getString("AdministrativeOrTechnicalOfficesid"));
-//                                        list.add(Bean);
+
 
                                     }
                                     subscriber.onNext(1);

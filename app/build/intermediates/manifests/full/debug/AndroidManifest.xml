@@ -277,6 +277,12 @@
             android:screenOrientation="portrait"
             android:theme="@style/AppThemeWrite"
             android:windowSoftInputMode="adjustPan|stateUnchanged" />
+        <activity
+            android:name="com.gxey.remotemedicalplatform.activity.secondactivity.ActivityPDF"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeWrite"
+            android:windowSoftInputMode="adjustPan|stateUnchanged" />
 
         <meta-data
             android:name="com.google.android.gms.version"

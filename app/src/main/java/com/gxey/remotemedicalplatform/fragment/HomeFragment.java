@@ -48,7 +48,6 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
-import qiu.niorgai.StatusBarCompat;
 
 import static com.gxey.remotemedicalplatform.utils.KeyboardUtil.hideInputMethod;
 

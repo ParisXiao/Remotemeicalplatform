@@ -3,42 +3,6 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\b23fa9a4e81bd9cc67f1ef7c9f36621b534771c1\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.3"
-        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
-        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a730e4957c3bce48bcc9568a911d1d73db890518\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\b2cc956e8fa45bfff200dcd28d480e436fdcd013\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.3"
-        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
-        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_12e7e4cc0809e0dda542dfeeb66e2d78351b703c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\cb554da619a59a083c0798257a8acfddbdb42c34\output\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.3"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_0d6c0728ffa7b25d78fe8e01f5998399555e401e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\b56980dab4a9ee66fd1e0a5cefe3946d9b7ba4bb\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.3"
-        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
-        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_22ddce4f4ef7d2415b9d446259eb11f333bcf5c4\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
@@ -48,120 +12,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Administrator\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
+        jar="C:\Users\Administrator\.android\build-cache\7e7c438e268d26d3626d0b861cd728a5476b154d\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.3"
-        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
-        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.1_6571692a1f659e717f9a1d6072e55d78c628698d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\c09f8805bd360631d118066e4528920b2012ca9c\output\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.3"
-        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
-        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_8ffdc7f97af29aeb35f1ed6bd5f440001a000c2d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\43e1747b84e8f9af4debb0fb37c549cee7ef6e0c\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.3"
-        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
-        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9316591822137f8fde8f0858a7cdcb14c14d56af\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\54b61240d022bb0cb98fab1c1047c27f44d4420d\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.3"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_82d05f4d9732e396f51567a695dac70aaf4ac1b8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\b56980dab4a9ee66fd1e0a5cefe3946d9b7ba4bb\output\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.3"
-        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
-        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_6ab0c4cbeb5ea15ff5e97d046b4deea9af43ed3d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\be7ee39c59ffbe266817d4a5230e99b7c06fb223\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.3"
-        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
-        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5d7fc6a315bab27f55993a7aab9307ce68b78249\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\be7ee39c59ffbe266817d4a5230e99b7c06fb223\output\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.3"
-        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
-        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_582de5343cf5f77f2686540b79d8b5733b98d355\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\c09f8805bd360631d118066e4528920b2012ca9c\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.3"
-        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
-        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a3d690b69fdee27eb461ccae88827706e13af3b5\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\3586cace93a2b1f683a8d4cb5d506434d2f385f0\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.3"
-        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
-        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5e12afee543f5e7ab704e3a3f3de88d980786da1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\f16805ae6e6dd8dc787f1dd240f9f7781a203947\output\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.3"
-        sha1="f83b00041ecfba705603fec40363416c7de69719">
-        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_acb10066bc9a0b2b1d2b508bf1a47821d8f66f59\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\2c756a07762035fdcf6f09b661b9d87ad0799ac2\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.3"
-        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
-        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_79401e6b549341e7007e85d527aa0214c24c155c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\f16805ae6e6dd8dc787f1dd240f9f7781a203947\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.3"
-        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
-        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7dea71422d7f7ac9b363c716a634c3ec111b6135\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\d29d58ce009fde6e7155384a2f46e600715a34b4\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.3"
-        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
-        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_997b7a89b9a38b26b06125b53b687df100d500b2\classes.dex" />
+        sha1="97a90b867543905c0717d04f6a60532c9405aa33">
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7488b88e4a82b91c0ece8d0cb93aa043932bfe1c\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -169,17 +25,17 @@
         jumboMode="true"
         optimize="true"
         revision="26.0.3"
-        sha1="ad16e0a42f4896118a357456b796ca3f3c5001a3">
+        sha1="63c18582b08b5625ce7f9064818a41ca5b5a4495">
         <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_173038f38cddc64cc3f219fe7a50fa24c488d419\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Administrator\.android\build-cache\cb554da619a59a083c0798257a8acfddbdb42c34\output\jars\classes.jar"
+        jar="C:\Users\Administrator\.android\build-cache\fa21d04efd50449ec2cb8d495057af6930fe9c32\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.3"
-        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
-        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9465fc9739dd8d13eed1d4cf66f147478cc4dc79\classes.dex" />
+        sha1="2caa90c11fc6559f3718fcd10011f1ac631a76cf">
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_79fcfad077c215ee6a1db78b7e93d5f8620c4591\classes.dex" />
     </item>
 
 </items>

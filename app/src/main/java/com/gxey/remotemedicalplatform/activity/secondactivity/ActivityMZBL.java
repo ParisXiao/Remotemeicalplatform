@@ -165,7 +165,6 @@ public class ActivityMZBL extends BaseActivity implements View.OnClickListener {
                                         Bean.setPersonalHistory(temp.getString("PersonalHistory"));
                                         Bean.setFHx(temp.getString("FHx"));
                                         Bean.setPhysicalExamination(temp.getString("PhysicalExamination"));
-                                        Bean.setDiagnosis(temp.getString("Diagnosis"));
                                         Bean.setPeriod(temp.getInt("Period"));
                                         Bean.setSpecial(temp.getString("Special"));
                                         Bean.setRemarks(temp.getString("Remarks"));

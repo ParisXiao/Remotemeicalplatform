@@ -13,7 +13,9 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.gxey.remotemedicalplatform.R;
+import com.gxey.remotemedicalplatform.activity.ActivityDrugStore;
 import com.gxey.remotemedicalplatform.activity.LoginActivity;
+import com.gxey.remotemedicalplatform.activity.MainActivity;
 import com.gxey.remotemedicalplatform.activity.PersonalInformationActivity;
 import com.gxey.remotemedicalplatform.activity.WebCircleActivity;
 import com.gxey.remotemedicalplatform.activity.WebHelpActivity;
@@ -166,6 +168,10 @@ public class MyFragment extends BaseFragment implements ActionBarClickListener, 
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
+            case R.id.re_dingdan:
+                Intent intent0 = new Intent(getActivity(), ActivityDrugStore.class);
+                startActivity(intent0);
+                break;
             case R.id.re_ziliao:
                 startActivity(new Intent(getActivity(), PersonalInformationActivity.class));
                 break;

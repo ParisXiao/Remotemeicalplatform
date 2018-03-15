@@ -137,8 +137,8 @@ public class ActivityHealthBaoGao extends BaseActivity implements View.OnClickLi
         adapter.setOnItemClickListener(new HealthBGAdapter.OnRecyclerViewItemClickListener() {
             @Override
             public void onClick(View view, HealthBGAdapter.ViewName viewName, int position) {
-                Intent intent = new Intent(ActivityHealthBaoGao.this, WebBannerbenActgvity.class);
-                intent.putExtra("url", list.get(position).getUrl());
+                Intent intent = new Intent(ActivityHealthBaoGao.this, ActivityPDF.class);
+                intent.putExtra("PDF", list.get(position).getUrl());
                 startActivity(intent);
             }
         });

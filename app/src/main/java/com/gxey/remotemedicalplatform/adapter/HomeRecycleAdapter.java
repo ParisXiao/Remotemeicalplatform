@@ -246,7 +246,7 @@ public class HomeRecycleAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
     private void bindType4(HolderType4 holder, int position) {
             holder.item_type4_title.setText(ZCNewslist.get(position - 14).getTitle());
             holder.item_type4_content.setText(ZCNewslist.get(position - 14).getContent());
-            String time=ZCNewslist.get(position - 14).getReleaseTime().substring(0,9);
+            String time=ZCNewslist.get(position - 14).getReleaseTime().substring(0,10);
             holder.item_type4_time.setText(time);
     }
 

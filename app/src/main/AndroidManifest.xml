@@ -265,6 +265,11 @@
             android:screenOrientation="portrait"
             android:theme="@style/AppThemeWrite"
             android:windowSoftInputMode="adjustPan|stateUnchanged"/>
+        <activity android:name=".activity.secondactivity.ActivityPDF"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeWrite"
+            android:windowSoftInputMode="adjustPan|stateUnchanged"/>
 
 
         <meta-data

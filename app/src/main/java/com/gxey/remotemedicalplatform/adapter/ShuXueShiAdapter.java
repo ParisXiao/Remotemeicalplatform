@@ -68,7 +68,7 @@ public class ShuXueShiAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         if (viewType == TYPE_ITEM) {
-            View itemView = mInflater.inflate(R.layout.item_jibing, parent, false);
+            View itemView = mInflater.inflate(R.layout.item_shuxue, parent, false);
 
             return new MyViewHolder(itemView);
         } else if (viewType == TYPE_FOOTER) {

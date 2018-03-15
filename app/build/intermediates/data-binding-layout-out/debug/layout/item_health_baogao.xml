@@ -34,6 +34,9 @@
                 android:layout_height="wrap_content"
                 android:textSize="@dimen/text_title"
                 android:text="1515951515"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:layout_toLeftOf="@+id/item_baogao_chakan"
                 android:layout_centerVertical="true"
                 android:layout_toRightOf="@+id/item_baogao_danhao_text"
                 />
