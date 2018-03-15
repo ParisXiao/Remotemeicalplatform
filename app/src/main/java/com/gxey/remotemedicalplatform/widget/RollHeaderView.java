@@ -64,7 +64,7 @@ public class RollHeaderView extends FrameLayout implements OnPageChangeListener 
 
         //让banner的高度是屏幕的1/4
         ViewGroup.LayoutParams vParams = mViewPager.getLayoutParams();
-        vParams.height = (int) (DisplayUtil.getMobileHeight(mContext) * 0.25);
+        vParams.height = (int) (DisplayUtil.getMobileHeight(mContext) * 0.33);
         mViewPager.setLayoutParams(vParams);
     }
 

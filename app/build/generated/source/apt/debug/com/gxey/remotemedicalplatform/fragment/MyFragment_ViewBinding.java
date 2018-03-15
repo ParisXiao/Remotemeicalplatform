@@ -33,8 +33,6 @@ public class MyFragment_ViewBinding<T extends MyFragment> implements Unbinder {
     target.reGuanyu = Utils.findRequiredViewAsType(source, R.id.re_guanyu, "field 'reGuanyu'", RelativeLayout.class);
     target.imgBangzhu = Utils.findRequiredViewAsType(source, R.id.img_bangzhu, "field 'imgBangzhu'", ImageView.class);
     target.reBangzhu = Utils.findRequiredViewAsType(source, R.id.re_bangzhu, "field 'reBangzhu'", RelativeLayout.class);
-    target.imgXiaoxi = Utils.findRequiredViewAsType(source, R.id.img_xiaoxi, "field 'imgXiaoxi'", ImageView.class);
-    target.reXiaoxi = Utils.findRequiredViewAsType(source, R.id.re_xiaoxi, "field 'reXiaoxi'", RelativeLayout.class);
     target.imgFankui = Utils.findRequiredViewAsType(source, R.id.img_fankui, "field 'imgFankui'", ImageView.class);
     target.reFankui = Utils.findRequiredViewAsType(source, R.id.re_fankui, "field 'reFankui'", RelativeLayout.class);
     target.btnLogout = Utils.findRequiredViewAsType(source, R.id.btn_logout, "field 'btnLogout'", Button.class);
@@ -58,8 +56,6 @@ public class MyFragment_ViewBinding<T extends MyFragment> implements Unbinder {
     target.reGuanyu = null;
     target.imgBangzhu = null;
     target.reBangzhu = null;
-    target.imgXiaoxi = null;
-    target.reXiaoxi = null;
     target.imgFankui = null;
     target.reFankui = null;
     target.btnLogout = null;

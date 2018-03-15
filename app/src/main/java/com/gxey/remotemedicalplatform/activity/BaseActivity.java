@@ -1,11 +1,14 @@
 package com.gxey.remotemedicalplatform.activity;
 
 import android.graphics.Color;
+import android.net.http.SslError;
 import android.os.Bundle;
 import android.os.Environment;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.webkit.SslErrorHandler;
+import android.webkit.WebView;
 
 import com.gxey.remotemedicalplatform.model.LocationConfig;
 import com.gxey.remotemedicalplatform.network.HttpClientHelper;
@@ -84,6 +87,7 @@ public abstract class BaseActivity extends AppCompatActivity {
         }
 
     }
+
     /**
      * 获取状态栏高度
      *

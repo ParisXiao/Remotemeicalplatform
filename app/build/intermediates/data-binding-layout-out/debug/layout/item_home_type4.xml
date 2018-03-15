@@ -41,21 +41,6 @@
         android:layout_marginLeft="@dimen/margin"
        >
 
-        <TextView
-            android:id="@+id/item_type4_yuandu"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="阅读：123"
-            android:textSize="@dimen/textsize" />
-
-        <TextView
-            android:id="@+id/item_type4_dianzan"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_toRightOf="@+id/item_type4_yuandu"
-            android:text="点赞：123"
-            android:textSize="@dimen/textsize" />
 
         <TextView
             android:id="@+id/item_type4_time"

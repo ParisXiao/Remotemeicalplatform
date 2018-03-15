@@ -25,7 +25,9 @@ import android.widget.TextView;
 import com.gxey.remotemedicalplatform.R;
 import com.gxey.remotemedicalplatform.activity.BaseActivity;
 import com.gxey.remotemedicalplatform.activity.EvaluationActivity;
+import com.gxey.remotemedicalplatform.activity.WebBannerbenActgvity;
 import com.gxey.remotemedicalplatform.adapter.MessageAdapter;
+import com.gxey.remotemedicalplatform.common.ApiConstant;
 import com.gxey.remotemedicalplatform.javaben.DoctorEntity;
 import com.gxey.remotemedicalplatform.javaben.MessageEntity;
 import com.gxey.remotemedicalplatform.network.HttpSubseiber;
@@ -119,6 +121,31 @@ public class ActivityMyOverConsultation extends BaseActivity implements View.OnC
         //initsendLeaveCallBack();
         // initUnAcceptMemberCallBack();
         // initSendCaseDualCallBack();
+        GLTextLeft.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(ActivityMyOverConsultation.this,ActivityHeathDangAn.class);
+                startActivity(intent);
+            }
+        });
+        GLTextRight.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(ActivityMyOverConsultation.this,ActivityHeathDianZi.class);
+                startActivity(intent);
+            }
+        });
+        GLTextMid.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (GLTextMid.getVisibility() == View.VISIBLE) {
+                    Intent intent = new Intent(ActivityMyOverConsultation.this, WebBannerbenActgvity.class);
+                    intent.putExtra("url", ApiConstant.H5BASE + ApiConstant.Recordbills + mConfig.getRoomID());
+                    startActivity(intent);
+
+                }
+            }
+        });
         /**
          * 发送消息
          */

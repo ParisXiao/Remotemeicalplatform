@@ -1,25 +1,30 @@
 package com.gxey.remotemedicalplatform.fragment;
 
 import android.content.Intent;
+import android.graphics.Color;
+import android.os.Build;
 import android.os.Bundle;
+import android.support.design.widget.AppBarLayout;
+import android.support.design.widget.CollapsingToolbarLayout;
+import android.support.design.widget.CoordinatorLayout;
 import android.support.v4.widget.SwipeRefreshLayout;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.Toolbar;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.WindowManager;
 import android.view.inputmethod.EditorInfo;
 import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.gxey.remotemedicalplatform.R;
 import com.gxey.remotemedicalplatform.activity.ActivityDrugStore;
-import com.gxey.remotemedicalplatform.activity.MainActivity;
 import com.gxey.remotemedicalplatform.activity.WebBannerbenActgvity;
 import com.gxey.remotemedicalplatform.activity.WebMedicationActivity;
 import com.gxey.remotemedicalplatform.activity.WebMyDiagnosisActivity;
@@ -33,19 +38,17 @@ import com.gxey.remotemedicalplatform.activity.secondactivity.ActivityYiZhu;
 import com.gxey.remotemedicalplatform.activity.secondactivity.ActivityZCNews;
 import com.gxey.remotemedicalplatform.adapter.HomeRecycleAdapter;
 import com.gxey.remotemedicalplatform.javaben.Bannerben;
-import com.gxey.remotemedicalplatform.javaben.DoctorEntity;
 import com.gxey.remotemedicalplatform.javaben.HomeNewsBen;
 import com.gxey.remotemedicalplatform.network.HttpClientHelper;
 import com.gxey.remotemedicalplatform.network.HttpSubseiber;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
+import qiu.niorgai.StatusBarCompat;
 
 import static com.gxey.remotemedicalplatform.utils.KeyboardUtil.hideInputMethod;
 
@@ -56,8 +59,8 @@ import static com.gxey.remotemedicalplatform.utils.KeyboardUtil.hideInputMethod;
 public class HomeFragment extends BaseFragment implements SwipeRefreshLayout.OnRefreshListener {
     @BindView(R.id.sousuo_sy)
     EditText sousuoSy;
-    @BindView(R.id.xiaoxi_sy)
-    ImageView xiaoxiSy;
+    //    @BindView(R.id.xiaoxi_sy)
+//    ImageView xiaoxiSy;
     @BindView(R.id.recyclerView_sy)
     RecyclerView recyclerViewSy;
     @BindView(R.id.lay_refresh)
@@ -259,10 +262,10 @@ public class HomeFragment extends BaseFragment implements SwipeRefreshLayout.OnR
                 adapter.setType3ItemClickListener(new HomeRecycleAdapter.Type3ItemClickListener() {
                     @Override
                     public void onItemClick(View view, int position) {
-                        if (position==12){
+                        if (position == 12) {
                             Intent intent = new Intent(getActivity(), ActivityZCNews.class);
                             startActivity(intent);
-                        }else {
+                        } else {
                             Intent intent = new Intent(getActivity(), ActivityHealthNews.class);
                             startActivity(intent);
                         }
@@ -280,9 +283,9 @@ public class HomeFragment extends BaseFragment implements SwipeRefreshLayout.OnR
                 adapter.setType5ItemClickListener(new HomeRecycleAdapter.Type5ItemClickListener() {
                     @Override
                     public void onItemClick(View view, int position) {
-                        Log.d("Type5", position + "size"+HealthNewslist.size());
+                        Log.d("Type5", position + "size" + HealthNewslist.size());
                         Intent intent = new Intent(getActivity(), WebBannerbenActgvity.class);
-                        intent.putExtra("url", HealthNewslist.get(position - (14 + ZCNewslist.size()+5)).getLikeUrl());
+                        intent.putExtra("url", HealthNewslist.get(position - (14 + ZCNewslist.size() + 5)).getLikeUrl());
                         startActivity(intent);
                     }
                 });

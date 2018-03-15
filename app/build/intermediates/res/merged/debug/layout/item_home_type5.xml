@@ -5,10 +5,11 @@
     android:layout_height="wrap_content">
     <ImageView
         android:id="@+id/item_type5_img"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:src="@drawable/test_listicon"
-        android:layout_margin="@dimen/margin"
+        android:layout_margin="10dp"
+        android:scaleType="fitXY"
         />
     <LinearLayout
         android:layout_width="match_parent"

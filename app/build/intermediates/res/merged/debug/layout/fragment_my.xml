@@ -243,44 +243,44 @@
                         android:background="@color/background_fgx" />
                 </RelativeLayout>
 
-                <RelativeLayout
-                    android:id="@+id/re_xiaoxi"
-                    android:background="@color/background_write"
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/height_my">
+                <!--<RelativeLayout-->
+                    <!--android:id="@+id/re_xiaoxi"-->
+                    <!--android:background="@color/background_write"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="@dimen/height_my">-->
 
-                    <ImageView
-                        android:id="@+id/img_xiaoxi"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_centerVertical="true"
-                        android:layout_marginLeft="@dimen/margin"
-                        android:src="@drawable/xiaoxi" />
+                    <!--<ImageView-->
+                        <!--android:id="@+id/img_xiaoxi"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_centerVertical="true"-->
+                        <!--android:layout_marginLeft="@dimen/margin"-->
+                        <!--android:src="@drawable/xiaoxi" />-->
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_centerVertical="true"
-                        android:layout_marginLeft="@dimen/margin"
-                        android:layout_toRightOf="@+id/img_xiaoxi"
-                        android:text="@string/xiaoxi"
-                        android:textColor="@color/text_black"
-                        android:textSize="@dimen/text_my" />
+                    <!--<TextView-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_centerVertical="true"-->
+                        <!--android:layout_marginLeft="@dimen/margin"-->
+                        <!--android:layout_toRightOf="@+id/img_xiaoxi"-->
+                        <!--android:text="@string/xiaoxi"-->
+                        <!--android:textColor="@color/text_black"-->
+                        <!--android:textSize="@dimen/text_my" />-->
 
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentRight="true"
-                        android:layout_centerVertical="true"
-                        android:src="@drawable/jiantou" />
+                    <!--<ImageView-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_alignParentRight="true"-->
+                        <!--android:layout_centerVertical="true"-->
+                        <!--android:src="@drawable/jiantou" />-->
 
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="1dp"
-                        android:layout_alignParentBottom="true"
-                        android:layout_marginLeft="@dimen/margin"
-                        android:background="@color/background_fgx" />
-                </RelativeLayout>
+                    <!--<View-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="1dp"-->
+                        <!--android:layout_alignParentBottom="true"-->
+                        <!--android:layout_marginLeft="@dimen/margin"-->
+                        <!--android:background="@color/background_fgx" />-->
+                <!--</RelativeLayout>-->
 
                 <RelativeLayout
                     android:id="@+id/re_fankui"

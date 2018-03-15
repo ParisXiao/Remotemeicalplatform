@@ -60,10 +60,10 @@ public class MyFragment extends BaseFragment implements ActionBarClickListener, 
     ImageView imgBangzhu;
     @BindView(R.id.re_bangzhu)
     RelativeLayout reBangzhu;
-    @BindView(R.id.img_xiaoxi)
-    ImageView imgXiaoxi;
-    @BindView(R.id.re_xiaoxi)
-    RelativeLayout reXiaoxi;
+//    @BindView(R.id.img_xiaoxi)
+//    ImageView imgXiaoxi;
+//    @BindView(R.id.re_xiaoxi)
+//    RelativeLayout reXiaoxi;
     @BindView(R.id.img_fankui)
     ImageView imgFankui;
     @BindView(R.id.re_fankui)
@@ -127,7 +127,7 @@ public class MyFragment extends BaseFragment implements ActionBarClickListener, 
         reFankui.setOnClickListener(this);
         reGuanyu.setOnClickListener(this);
         reQuanzi.setOnClickListener(this);
-        reXiaoxi.setOnClickListener(this);
+//        reXiaoxi.setOnClickListener(this);
         reZiliao.setOnClickListener(this);
         btnLogout.setOnClickListener(this);
 

@@ -159,10 +159,10 @@ public class ZCNewsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
         TextView itemType4Title;
         @BindView(R.id.item_type4_content)
         TextView itemType4Content;
-        @BindView(R.id.item_type4_yuandu)
-        TextView itemType4Yuandu;
-        @BindView(R.id.item_type4_dianzan)
-        TextView itemType4Dianzan;
+//        @BindView(R.id.item_type4_yuandu)
+//        TextView itemType4Yuandu;
+//        @BindView(R.id.item_type4_dianzan)
+//        TextView itemType4Dianzan;
         @BindView(R.id.item_type4_time)
         TextView itemType4Time;
 

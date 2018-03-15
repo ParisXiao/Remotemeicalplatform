@@ -1,1 +1,1 @@
-include ':app', ':timelibrary', ':webrtc-client'
+include ':app', ':timelibrary', ':webrtc-client', ':statusbarlibrary'

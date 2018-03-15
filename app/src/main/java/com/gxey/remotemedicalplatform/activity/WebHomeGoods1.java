@@ -1,10 +1,12 @@
 package com.gxey.remotemedicalplatform.activity;
 
 import android.content.Intent;
+import android.net.http.SslError;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
+import android.webkit.SslErrorHandler;
 import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
@@ -73,6 +75,19 @@ public class WebHomeGoods1 extends BaseActivity {
 
                 }
                 return true;
+            }
+            @Override
+            public void onReceivedSslError(WebView view, SslErrorHandler handler, SslError error) {
+                if (error.getPrimaryError() == SslError.SSL_DATE_INVALID
+                        || error.getPrimaryError() == SslError.SSL_EXPIRED
+                        || error.getPrimaryError() == SslError.SSL_INVALID
+                        || error.getPrimaryError() == SslError.SSL_UNTRUSTED) {
+                    handler.proceed();
+                } else {
+                    handler.cancel();
+                }
+
+                super.onReceivedSslError(view, handler, error);
             }
         });
 

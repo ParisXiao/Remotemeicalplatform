@@ -244,21 +244,18 @@ public class HomeRecycleAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
     }
 
     private void bindType4(HolderType4 holder, int position) {
-        for (int i = 0; i < ZCNewslist.size(); i++) {
-            holder.item_type4_title.setText(ZCNewslist.get(i).getTitle());
-            holder.item_type4_content.setText(ZCNewslist.get(i).getContent());
-            holder.item_type4_time.setText(ZCNewslist.get(i).getReleaseTime());
-        }
+            holder.item_type4_title.setText(ZCNewslist.get(position - 14).getTitle());
+            holder.item_type4_content.setText(ZCNewslist.get(position - 14).getContent());
+            String time=ZCNewslist.get(position - 14).getReleaseTime().substring(0,9);
+            holder.item_type4_time.setText(time);
     }
 
     private void bindType5(HolderType5 holder, int position) {
 
-        for (int i = 0; i < HealthNewslist.size(); i++) {
-            holder.item_type5_title.setText(HealthNewslist.get(i).getTitle());
-            holder.item_type5_content.setText(HealthNewslist.get(i).getContent());
-            ImageUtils.load(context,HealthNewslist.get(i).getImgUrl(), holder.item_type5_headimg);
+            holder.item_type5_title.setText(HealthNewslist.get(position - (14 + ZCNewslist.size()+5)).getTitle());
+            holder.item_type5_content.setText(HealthNewslist.get(position - (14 + ZCNewslist.size()+5)).getContent());
+            ImageUtils.load(context,HealthNewslist.get(position - (14 + ZCNewslist.size()+5)).getImgUrl(), holder.item_type5_headimg);
 
-        }
     }
 
     private void bindType6(HolderType6 holder, int position) {
@@ -386,8 +383,8 @@ public class HomeRecycleAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
         public Type4ItemClickListener type4ItemClickListener;
         public TextView item_type4_title;
         public TextView item_type4_content;
-        public TextView item_type4_yuandu;
-        public TextView item_type4_dianzan;
+//        public TextView item_type4_yuandu;
+//        public TextView item_type4_dianzan;
         public TextView item_type4_time;
 
         public HolderType4(View itemView, Type4ItemClickListener type4ItemClickListener) {
@@ -396,8 +393,8 @@ public class HomeRecycleAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
             itemView.setOnClickListener(this);
             item_type4_title = (TextView) itemView.findViewById(R.id.item_type4_title);
             item_type4_content = (TextView) itemView.findViewById(R.id.item_type4_content);
-            item_type4_yuandu = (TextView) itemView.findViewById(R.id.item_type4_yuandu);
-            item_type4_dianzan = (TextView) itemView.findViewById(R.id.item_type4_dianzan);
+//            item_type4_yuandu = (TextView) itemView.findViewById(R.id.item_type4_yuandu);
+//            item_type4_dianzan = (TextView) itemView.findViewById(R.id.·item_type4_dianzan);
             item_type4_time = (TextView) itemView.findViewById(R.id.item_type4_time);
         }
 

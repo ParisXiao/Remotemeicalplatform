@@ -1,4 +1,4 @@
-#Tue Mar 13 22:53:53 CST 2018
+#Thu Mar 15 17:05:15 CST 2018
 base.0=D\:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_173038f38cddc64cc3f219fe7a50fa24c488d419
 renamed.1=classes2.dex
 renamed.0=classes.dex
