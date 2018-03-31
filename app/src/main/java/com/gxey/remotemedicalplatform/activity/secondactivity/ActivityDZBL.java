@@ -132,7 +132,7 @@ public class ActivityDZBL extends BaseActivity implements View.OnClickListener {
     String msg;
 
     private void getData() {
-
+        list.clear();
         Observable.create(new Observable.OnSubscribe<Integer>() {
 
             @Override
@@ -166,7 +166,7 @@ public class ActivityDZBL extends BaseActivity implements View.OnClickListener {
                                         Bean.setFHx(temp.getString("FHx"));
                                         Bean.setPhysicalExamination(temp.getString("PhysicalExamination"));
                                         Bean.setDiagnosis(temp.getString("Diagnosis"));
-                                        Bean.setPeriod(temp.getInt("Period"));
+                                        Bean.setPeriod(temp.getString("Period"));
                                         Bean.setSpecial(temp.getString("Special"));
                                         Bean.setRemarks(temp.getString("Remarks"));
                                         Bean.setBoardingTime(temp.getString("BoardingTime"));

@@ -32,7 +32,7 @@ public class HomeRecycleAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
     private List<Bannerben> NEWlist = new ArrayList<>();
     private List<HomeNewsBen> ZCNewslist = new ArrayList<>();
     private List<HomeNewsBen> HealthNewslist = new ArrayList<>();
-    private String[] sy_menu = new String[]{"视频问诊", "健康报告", "电子病历", "用药建议", "诊疗记录", "医嘱", "体检数据", "闪电购药"};
+    private String[] sy_menu = new String[]{"视频问诊", "健康报告", "综合病历", "用药建议", "诊疗记录", "医嘱", "体检数据", "闪电购药"};
     private int[] sy_menu_img = new int[]{R.drawable.shipinwenzhen_sy, R.drawable.jiankangbaogao_sy, R.drawable.dianzibingli_sy
             , R.drawable.yongyaojianyi_sy, R.drawable.zhenliaojilu_sy, R.drawable.yizhu_sy, R.drawable.tijianshuju_sy, R.drawable.sandiangouyao_sy};
 

@@ -11,6 +11,7 @@ import android.widget.TextView;
 
 import com.gxey.remotemedicalplatform.R;
 import com.gxey.remotemedicalplatform.activity.BaseActivity;
+import com.gxey.remotemedicalplatform.activity.PersonalInformationActivity;
 import com.gxey.remotemedicalplatform.adapter.AdapterMenu;
 import com.gxey.remotemedicalplatform.bean.BeanMenu;
 import com.gxey.remotemedicalplatform.utils.ScreenUtils;
@@ -77,7 +78,7 @@ public class ActivityHeathDangAn extends BaseActivity implements View.OnClickLis
             public void onItemClick(View view, int position) {
                 switch (position) {
                     case 0:
-                        Intent intent = new Intent(ActivityHeathDangAn.this, ActivityMyMsg.class);
+                        Intent intent = new Intent(ActivityHeathDangAn.this, PersonalInformationActivity.class);
                         startActivity(intent);
                         break;
                     case 1:

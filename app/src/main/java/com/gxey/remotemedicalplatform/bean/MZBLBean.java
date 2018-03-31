@@ -45,7 +45,7 @@ public class MZBLBean implements Serializable {
     private String Special;
     private String HandlingSuggestion;
     private String Remarks;
-    private int Period;
+    private String Period;
     private String BoardingTime;
 
     public String getID() {
@@ -176,11 +176,11 @@ public class MZBLBean implements Serializable {
         this.Remarks = Remarks;
     }
 
-    public int getPeriod() {
+    public String getPeriod() {
         return Period;
     }
 
-    public void setPeriod(int period) {
+    public void setPeriod(String period) {
         Period = period;
     }
 

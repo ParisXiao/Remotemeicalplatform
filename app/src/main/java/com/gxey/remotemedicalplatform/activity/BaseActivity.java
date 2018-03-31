@@ -76,6 +76,7 @@ public abstract class BaseActivity extends AppCompatActivity {
     }
         if(!mDialog.isShowing()){
             mDialog.show();
+            mDialog.setCanceledOnTouchOutside(true);
         }
 
 

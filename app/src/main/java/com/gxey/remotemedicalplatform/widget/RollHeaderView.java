@@ -232,7 +232,7 @@ public class RollHeaderView extends FrameLayout implements OnPageChangeListener 
                     return true;
                 }
             });
-            Picasso.with(mContext).load(mUrlList.get(position % mUrlList.size())).error(R.mipmap.ic_launcher).into(iv);
+            Picasso.with(mContext).load(mUrlList.get(position % mUrlList.size())).error(R.drawable.gaunggao_two).into(iv);
             ((ViewPager) container).addView(iv);
 
             return iv;
@@ -250,9 +250,14 @@ public class RollHeaderView extends FrameLayout implements OnPageChangeListener 
 
     @Override
     public void onPageSelected(int position) {
-        dotList.get(prePosition).setBackgroundResource(R.mipmap.banner_dot_normal);
-        dotList.get(position % dotList.size()).setBackgroundResource(R.mipmap.banner_dot_select);
-        prePosition = position % dotList.size();
+        try {
+            dotList.get(prePosition).setBackgroundResource(R.mipmap.banner_dot_normal);
+            dotList.get(position % dotList.size()).setBackgroundResource(R.mipmap.banner_dot_select);
+            prePosition = position % dotList.size();
+        }catch (Exception e){
+
+        }
+
     }
 
     @Override

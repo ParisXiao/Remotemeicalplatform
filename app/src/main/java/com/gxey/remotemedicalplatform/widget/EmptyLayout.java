@@ -71,13 +71,14 @@ public class EmptyLayout extends FrameLayout {
     public void showLoadDialog(Context context){
         if(mDialog==null){
             mDialog = new SweetAlertDialog(context, SweetAlertDialog.PROGRESS_TYPE);
-            mDialog.setCanceledOnTouchOutside(true);
+
             mDialog.getProgressHelper().setBarColor(Color.parseColor("#A5DC86"));
             mDialog.setTitleText("加载中");
             mDialog.setCancelable(false);
         }
         if(!mDialog.isShowing()){
             mDialog.show();
+            mDialog.setCanceledOnTouchOutside(true);
         }
 
 

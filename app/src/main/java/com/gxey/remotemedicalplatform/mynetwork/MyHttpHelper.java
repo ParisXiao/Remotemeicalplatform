@@ -67,9 +67,11 @@ public class MyHttpHelper {
                 Log.d(TAG, "response:" + response);
 
                 if (response.isSuccessful()) {
-                    String result = Base64Utils.getFromBase64(response.body().string());
+                    String result= response.body().string();
+                    String resultBase64 = Base64Utils.getFromBase64(result);
                     Log.d(TAG, "result:" + result);
-                    return result;
+                    Log.d(TAG, "resultBase64:" +resultBase64);
+                    return resultBase64;
                 }
             } catch (Exception e) {
                 Log.d(TAG, e.toString());

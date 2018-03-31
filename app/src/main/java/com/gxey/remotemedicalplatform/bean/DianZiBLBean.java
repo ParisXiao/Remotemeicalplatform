@@ -44,7 +44,7 @@ public class DianZiBLBean implements Serializable {
     private String Special;
     private String HandlingSuggestion;
     private String Remarks;
-    private int Period;
+    private String Period;
     private String BoardingTime;
     private String Assistant;
 
@@ -160,12 +160,12 @@ public class DianZiBLBean implements Serializable {
         this.Remarks = Remarks;
     }
 
-    public int getPeriod() {
+    public String getPeriod() {
         return Period;
     }
 
-    public void setPeriod(int Period) {
-        this.Period = Period;
+    public void setPeriod(String period) {
+        Period = period;
     }
 
     public String getBoardingTime() {

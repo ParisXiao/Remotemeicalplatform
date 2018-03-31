@@ -4,6 +4,10 @@
         "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\layout\\item_jibing.xml"
     },
     {
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_image.xml",
+        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\layout\\item_image.xml"
+    },
+    {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9ca9bafbbb5077d9276ce107071f34079491cab3\\output\\res\\layout\\abc_list_menu_item_radio.xml"
     },
@@ -30,10 +34,6 @@
     {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\__picker_activity_photo_pager.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\76935a1921f71a97a4d5da81c8a5320209f5542f\\output\\res\\layout\\__picker_activity_photo_pager.xml"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_custom.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b23fa9a4e81bd9cc67f1ef7c9f36621b534771c1\\output\\res\\layout\\notification_template_big_media_custom.xml"
     },
     {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_circle_list.xml",
@@ -74,10 +74,6 @@
     {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\__picker_item_directory.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\76935a1921f71a97a4d5da81c8a5320209f5542f\\output\\res\\layout\\__picker_item_directory.xml"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\3586cace93a2b1f683a8d4cb5d506434d2f385f0\\output\\res\\layout\\design_bottom_navigation_item.xml"
     },
     {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\recycleview_footview.xml",
@@ -126,10 +122,6 @@
     {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\__picker_activity_photo_picker.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\76935a1921f71a97a4d5da81c8a5320209f5542f\\output\\res\\layout\\__picker_activity_photo_picker.xml"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_custom_big.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b23fa9a4e81bd9cc67f1ef7c9f36621b534771c1\\output\\res\\layout\\notification_template_custom_big.xml"
     },
     {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
@@ -216,10 +208,6 @@
         "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\layout\\layout_popup_shenqing.xml"
     },
     {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b23fa9a4e81bd9cc67f1ef7c9f36621b534771c1\\output\\res\\layout\\notification_template_lines_media.xml"
-    },
-    {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9ca9bafbbb5077d9276ce107071f34079491cab3\\output\\res\\layout\\notification_media_cancel_action.xml"
     },
@@ -270,10 +258,6 @@
     {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_tianjian.xml",
         "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\layout\\activity_tianjian.xml"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow_custom.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b23fa9a4e81bd9cc67f1ef7c9f36621b534771c1\\output\\res\\layout\\notification_template_big_media_narrow_custom.xml"
     },
     {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_send_text.xml",
@@ -374,10 +358,6 @@
     {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bottom_navigation_bar_container.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\78d774ea52ea04fedcf96dc0c81788ecd6428191\\output\\res\\layout\\bottom_navigation_bar_container.xml"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b23fa9a4e81bd9cc67f1ef7c9f36621b534771c1\\output\\res\\layout\\notification_action.xml"
     },
     {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\__picker_toolbar.xml",
@@ -492,12 +472,12 @@
         "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\layout\\acctivity_login.xml"
     },
     {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9ca9bafbbb5077d9276ce107071f34079491cab3\\output\\res\\layout\\notification_template_part_chronometer.xml"
-    },
-    {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_shuxue.xml",
         "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\layout\\item_shuxue.xml"
+    },
+    {
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9ca9bafbbb5077d9276ce107071f34079491cab3\\output\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tabcontent.xml",
@@ -506,10 +486,6 @@
     {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_tiwen.xml",
         "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\layout\\item_tiwen.xml"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b23fa9a4e81bd9cc67f1ef7c9f36621b534771c1\\output\\res\\layout\\notification_template_media_custom.xml"
     },
     {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_circle_list.xml",
@@ -536,12 +512,12 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9ca9bafbbb5077d9276ce107071f34079491cab3\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_yichuan.xml",
-        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\layout\\activity_yichuan.xml"
-    },
-    {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9ca9bafbbb5077d9276ce107071f34079491cab3\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_yichuan.xml",
+        "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\layout\\activity_yichuan.xml"
     },
     {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\alert_dialog.xml",
@@ -554,10 +530,6 @@
     {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_evaluation.xml",
         "source": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\src\\main\\res\\layout\\activity_evaluation.xml"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b23fa9a4e81bd9cc67f1ef7c9f36621b534771c1\\output\\res\\layout\\notification_action_tombstone.xml"
     },
     {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_yizhu.xml",
@@ -622,14 +594,6 @@
     {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\__picker_picker_fragment_image_pager.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\76935a1921f71a97a4d5da81c8a5320209f5542f\\output\\res\\layout\\__picker_picker_fragment_image_pager.xml"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\3586cace93a2b1f683a8d4cb5d506434d2f385f0\\output\\res\\layout\\design_text_input_password_icon.xml"
-    },
-    {
-        "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b23fa9a4e81bd9cc67f1ef7c9f36621b534771c1\\output\\res\\layout\\notification_template_icon_group.xml"
     },
     {
         "merged": "D:\\MyWork\\SmartHospital\\Remotemeicalplatform\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",

@@ -5,7 +5,8 @@ package com.gxey.remotemedicalplatform.newconfig;
  */
 
 public class UrlConfig {
-        public final static String POST="http://183.230.180.239:58081/";
+//        public final static String POST="http://183.230.180.239:58081/";
+        public final static String POST="http://healthapi.gxwdyf.com/";
 
     /**
      * 家族史

@@ -125,6 +125,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="@dimen/text_title"
                 android:text="备注"
+                android:id="@+id/text_beizhu"
                 />
             <TextView
                 android:id="@+id/item_cl_bz"
@@ -132,7 +133,9 @@
                 android:layout_height="wrap_content"
                 android:textSize="@dimen/text_title"
                 android:layout_alignParentRight="true"
+                android:layout_below="@+id/text_beizhu"
                 android:textColor="@color/text_black"
+                android:layout_marginTop="5dp"
                 android:text="2018-03-03"
                 />
 

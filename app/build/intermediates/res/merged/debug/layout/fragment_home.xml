@@ -33,6 +33,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:focusable="true"
+
             >
 
             <ImageView
@@ -42,35 +43,42 @@
                 android:layout_centerVertical="true"
                 android:layout_marginLeft="10dp"
                 android:src="@drawable/logo_sy" />
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_toRightOf="@+id/logo_sy"
+    android:layout_marginLeft="@dimen/margin"
+    android:layout_marginRight="@dimen/margin"
+    android:background="@drawable/shape_btn_sousuo"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    >
+    <EditText
+        android:id="@+id/sousuo_sy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:hint="@string/hitn_soosuo"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textColor="@color/text_black"
+        android:imeOptions="actionSearch"
+        android:background="@null"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"/>
 
-            <EditText
-                android:id="@+id/sousuo_sy"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_centerVertical="true"
-                android:layout_marginLeft="@dimen/margin"
-                android:layout_marginRight="@dimen/margin"
-                android:layout_marginTop="10dp"
-                android:hint="@string/hitn_soosuo"
-                android:singleLine="true"
-                android:ellipsize="end"
-                android:textColor="@color/text_black"
-                android:imeOptions="actionSearch"
-                android:layout_toRightOf="@+id/logo_sy"
-                android:background="@drawable/shape_btn_sousuo"
-                android:drawableRight="@drawable/sousuo"
-                android:paddingRight="40dp"
-                android:paddingLeft="20dp"/>
+    <ImageView
+        android:id="@+id/sousuoaction_sy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/sousuo" />
+</RelativeLayout>
 
-            <!--<ImageView-->
-                <!--android:id="@+id/xiaoxi_sy"-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:layout_alignParentRight="true"-->
-                <!--android:layout_centerVertical="true"-->
-                <!--android:padding="10dp"-->
-                <!--android:layout_marginRight="10dp"-->
-                <!--android:src="@drawable/xiaoxi_sy" />-->
         </RelativeLayout>
 
     </android.support.v7.widget.Toolbar>

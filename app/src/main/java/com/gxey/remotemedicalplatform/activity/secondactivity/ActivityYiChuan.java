@@ -144,7 +144,7 @@ public class ActivityYiChuan extends BaseActivity implements View.OnClickListene
     String msg;
 
     private void getData() {
-
+        yiChuanBeen.clear();
         Observable.create(new Observable.OnSubscribe<Integer>() {
 
             @Override

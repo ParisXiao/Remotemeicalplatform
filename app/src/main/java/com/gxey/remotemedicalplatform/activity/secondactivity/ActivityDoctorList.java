@@ -109,8 +109,6 @@ public class ActivityDoctorList extends BaseActivity implements View.OnClickList
     protected void initView() {
         toolbarLeftBtn.setVisibility(View.VISIBLE);
         toolbarLeftBtn.setOnClickListener(this);
-        toolbarRight.setVisibility(View.VISIBLE);
-        toolbarRight.setText(R.string.shuaixuan);
         toolbarRight.setTextColor(getResources().getColor(R.color.background_green));
         toolbarMid.setText(R.string.yisheng);
         setSupportActionBar(toolbar);

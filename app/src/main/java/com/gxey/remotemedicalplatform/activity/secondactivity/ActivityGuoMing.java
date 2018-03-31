@@ -144,7 +144,7 @@ public class ActivityGuoMing extends BaseActivity implements View.OnClickListene
     String msg;
 
     private void getData() {
-
+        guoMingBeen.clear();
         Observable.create(new Observable.OnSubscribe<Integer>() {
 
             @Override

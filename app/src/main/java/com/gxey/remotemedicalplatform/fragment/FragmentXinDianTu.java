@@ -11,6 +11,7 @@ import android.view.ViewGroup;
 
 import com.gxey.remotemedicalplatform.R;
 import com.gxey.remotemedicalplatform.activity.LoginActivity;
+import com.gxey.remotemedicalplatform.activity.secondactivity.ActivityImg;
 import com.gxey.remotemedicalplatform.activity.secondactivity.ActivityXinDianTuDetails;
 import com.gxey.remotemedicalplatform.adapter.XinDianTuAdapter;
 import com.gxey.remotemedicalplatform.bean.XinDianTuBean;
@@ -113,7 +114,7 @@ public class FragmentXinDianTu extends BaseFragment {
     String msg;
 
     private void getData() {
-
+        list.clear();
         Observable.create(new Observable.OnSubscribe<Integer>() {
 
             @Override
@@ -227,8 +228,8 @@ public class FragmentXinDianTu extends BaseFragment {
             public void onClick(View view, XinDianTuAdapter.ViewName viewName, int position) {
                 if (viewName == XinDianTuAdapter.ViewName.Button) {
                     if (!MyStrUtil.isEmpty(list.get(position).getEcg())) {
-                        Intent intent = new Intent(getActivity(), ActivityXinDianTuDetails.class);
-                        intent.putExtra("ecg", list.get(position).getEcg());
+                        Intent intent = new Intent(getActivity(), ActivityImg.class);
+                        intent.putExtra("XDT", list.get(position).getEcg());
                         startActivity(intent);
                     }else {
                         ToastUtils.s(getActivity(),"本次没有心电图");

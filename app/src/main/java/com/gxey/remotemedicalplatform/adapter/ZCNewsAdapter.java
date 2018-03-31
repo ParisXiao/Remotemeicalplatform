@@ -84,7 +84,8 @@ public class ZCNewsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
     public void onBindViewHolder(final RecyclerView.ViewHolder holder, final int position) {
         if (holder instanceof MyViewHolder) {
             ((MyViewHolder) holder).itemType4Title.setText(list.get(position).getTitle());
-            ((MyViewHolder) holder).itemType4Time.setText(list.get(position).getReleaseTime());
+            String time=list.get(position).getReleaseTime().substring(0,10);
+            ((MyViewHolder) holder).itemType4Time.setText(time);
             ((MyViewHolder) holder).itemType4Content.setText(list.get(position).getContent());
             ((MyViewHolder) holder).itemView.setTag(position);
 

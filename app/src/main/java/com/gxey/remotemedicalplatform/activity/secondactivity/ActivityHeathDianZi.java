@@ -54,7 +54,7 @@ public class ActivityHeathDianZi extends BaseActivity implements View.OnClickLis
     protected void initView() {
         toolbarLeftBtn.setVisibility(View.VISIBLE);
         toolbarLeftBtn.setOnClickListener(this);
-        toolbarMid.setText(R.string.dianzibingli);
+        toolbarMid.setText("综合病历");
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
         ScreenUtils.setStatusBarLightMode(this,R.color.black);

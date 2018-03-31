@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">公信e药测试</string>
+    <string name="app_name">公信e药</string>
     <string-array name="spingarr">
         <item>全科</item>
         <item>口腔科</item>

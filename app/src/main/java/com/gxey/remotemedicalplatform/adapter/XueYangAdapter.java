@@ -95,12 +95,12 @@ public class XueYangAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
         if (holder instanceof MyViewHolder) {
             ((MyViewHolder) holder).itemTitle.setText("血氧测量数据");
             ((MyViewHolder) holder).itemNameText.setText("血氧浓度（%）");
-            ((MyViewHolder) holder).itemClName.setText(list.get(position).getBloodoxygen());
-            ((MyViewHolder) holder).itemYscl.setText(list.get(position).getDeviceID());
-            ((MyViewHolder) holder).itemClTime.setText(list.get(position).getAddtime());
-            ((MyViewHolder) holder).itemClBz.setText(list.get(position).getRemark());
+            ((MyViewHolder) holder).itemClName.setText(list.get(position-1).getBloodoxygen());
+            ((MyViewHolder) holder).itemYscl.setText(list.get(position-1).getDeviceID());
+            ((MyViewHolder) holder).itemClTime.setText(list.get(position-1).getAddtime());
+            ((MyViewHolder) holder).itemClBz.setText(list.get(position-1).getRemark());
 
-            ((MyViewHolder) holder).itemView.setTag(position);
+            ((MyViewHolder) holder).itemView.setTag(position-1);
 
         } else if (holder instanceof FooterViewHolder) {
 
@@ -125,32 +125,32 @@ public class XueYangAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
             }
 
         } else if (holder instanceof ChartsViewHolder) {
-            if (list.size() > 7) {
-                for (int i = 0; i < 7; i++) {
-                    listLast.add(i, list.get(list.size() - i - 1));
-                }
-
-            } else {
-                for (int i = 0; i < list.size(); i++) {
-                    listLast.add(list.get(i));
-                }
-            }
+//            if (list.size() > 7) {
+//                for (int i = 0; i < 7; i++) {
+//                    listLast.add(i, list.get(list.size() - i - 1));
+//                }
+//
+//            } else {
+//                for (int i = 0; i < list.size(); i++) {
+//                    listLast.add(list.get(i));
+//                }
+//            }
             //x轴坐标对应的数据
             List<String> xValue = new ArrayList<>();
             //y轴坐标对应的数据
             List<Float> yValue = new ArrayList<>();
             //折线对应的数据
             Map<String, Float> value = new HashMap<>();
-            for (int i = 0; i < listLast.size(); i++) {
-                xValue.add(TimeUtils.MyDateMD(listLast.get(i).getAddtime()));
-                value.put(TimeUtils.MyDateMD(listLast.get(i).getAddtime()), Float.valueOf(listLast.get(i).getBloodoxygen()));//60--240
+            for (int i = 0; i < list.size(); i++) {
+                xValue.add(TimeUtils.MyDateMD(list.get(i).getAddtime()));
+                value.put(TimeUtils.MyDateMD(list.get(i).getAddtime()), Float.valueOf(list.get(i).getBloodoxygen()));//60--240
             }
 
-            for (int i = 0; i < 26; i++) {
-                yValue.add((float) (i * 4));
+            for (int i = 0; i < 10; i++) {
+                yValue.add((float) (i * 5));
             }
 
-            ((ChartsViewHolder) holder).chart.setValue(value, xValue, yValue);
+            ((ChartsViewHolder) holder).chart.setValue(70,value, xValue, yValue);
        ((ChartsViewHolder) holder).chartName.setText("血氧图");
 
 
@@ -159,7 +159,7 @@ public class XueYangAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
 
     @Override
     public int getItemCount() {
-        return list.size() + 1;
+        return list.size() + 2;
     }
 
     public class ChartsViewHolder extends RecyclerView.ViewHolder {

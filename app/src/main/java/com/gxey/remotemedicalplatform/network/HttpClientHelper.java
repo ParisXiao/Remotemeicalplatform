@@ -73,7 +73,7 @@ public class HttpClientHelper {
     private HttpClientHelper() {
         //手动创建一个OkHttpClient并设置超时时间
         builder = new OkHttpClient.Builder();
-        if (AppConstant.isDebug) {
+//        if (AppConstant.isDebug) {
             HttpLoggingInterceptor loggingInterceptor =
                     new HttpLoggingInterceptor(new HttpLoggingInterceptor.Logger() {
                         @Override
@@ -93,7 +93,7 @@ public class HttpClientHelper {
             loggingInterceptor.setLevel(HttpLoggingInterceptor.Level.BODY);
             builder.addInterceptor(loggingInterceptor);
             builder.addInterceptor(loggingHead);
-        }
+//        }
 
         builder.connectTimeout(DEFAULT_TIMEOUT, TimeUnit.SECONDS);
         String url;
@@ -259,7 +259,7 @@ public void homebanner(String Type,HttpSubseiber.ResponseHandler<List<Bannerben>
     /*
    * 修改个人信息
   * */
-    public void person(String ID,String LoginName,String PassWord,String Sex,String UName,String UNum,String Introduce,String Images,String StoreID,HttpSubseiber.ResponseHandler<String> response){
+    public void person(String ID,String LoginName,String PassWord,String Sex,String UName,String UNum,String Introduce,String Images,String StoreID,String sfzh,  HttpSubseiber.ResponseHandler<String> response){
         HashMap<String,Object> hashMap = new HashMap<>();
         hashMap.put("LoginName",LoginName);
         hashMap.put("PassWord",PassWord);
@@ -270,6 +270,7 @@ public void homebanner(String Type,HttpSubseiber.ResponseHandler<List<Bannerben>
         hashMap.put("Introduce",Introduce);
         hashMap.put("Images",Images);
         hashMap.put("StoreID",StoreID);
+        hashMap.put("SFZH",sfzh);
         Observable observable = webApi.person(getRequestBody(hashMap));
         toSubscribe(observable,new HttpSubseiber<String>().getSubseiber(response));
 

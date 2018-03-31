@@ -14,6 +14,7 @@ import com.github.barteksc.pdfviewer.listener.OnPageChangeListener;
 import com.gxey.remotemedicalplatform.R;
 import com.gxey.remotemedicalplatform.activity.BaseActivity;
 import com.gxey.remotemedicalplatform.utils.MyStrUtil;
+import com.gxey.remotemedicalplatform.utils.ToastUtils;
 import com.gxey.remotemedicalplatform.widget.EmptyLayout;
 
 import java.io.File;
@@ -68,6 +69,7 @@ public class ActivityPDF extends BaseActivity implements View.OnClickListener, O
 
     @Override
     protected void initData() {
+        path = Environment.getExternalStorageDirectory()+"";
         url = getIntent().getStringExtra("PDF");
         emptyLayout.setOnButtonClick(new View.OnClickListener() {
             @Override
@@ -125,6 +127,14 @@ public class ActivityPDF extends BaseActivity implements View.OnClickListener, O
                         o.write(bytes, 0, len);
                         sum += len;
                         int progress = (int) (sum * 1.0f / total * 100);
+                        if (progress==100){
+                            runOnUiThread(new Runnable() {
+                                @Override
+                                public void run() {
+                                    ToastUtils.s(ActivityPDF.this,"下载完成");
+                                }
+                            });
+                        }
                     }
                     o.flush();
 
@@ -133,6 +143,7 @@ public class ActivityPDF extends BaseActivity implements View.OnClickListener, O
                     runOnUiThread(new Runnable() {
                         @Override
                         public void run() {
+                            ToastUtils.s(ActivityPDF.this,"下载失败");
                             emptyLayout.showError();
                         }
                     });
@@ -160,12 +171,11 @@ public class ActivityPDF extends BaseActivity implements View.OnClickListener, O
     }
 
     private void showPDF() {
-        path = Environment.getExternalStorageDirectory() +
-                "/temp";
+
         File file = new File(path, "Health.pdf");
         pdfView.fromFile(file)
                 //                .pages(0, 0, 0, 0, 0, 0) // 默认全部显示，pages属性可以过滤性显示
-                .defaultPage(1)//默认展示第一页
+                .defaultPage(0)//默认展示第一页
                 .onPageChange(this)//监听页面切换
                 .load();
     }
@@ -188,6 +198,6 @@ public class ActivityPDF extends BaseActivity implements View.OnClickListener, O
 
     @Override
     public void onPageChanged(int i, int i1) {
-        text.setText(i + "/" + i1);
+        text.setText((i+1) + "/" + i1);
     }
 }

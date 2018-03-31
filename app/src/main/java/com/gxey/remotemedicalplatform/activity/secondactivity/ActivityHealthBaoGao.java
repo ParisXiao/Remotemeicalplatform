@@ -137,9 +137,12 @@ public class ActivityHealthBaoGao extends BaseActivity implements View.OnClickLi
         adapter.setOnItemClickListener(new HealthBGAdapter.OnRecyclerViewItemClickListener() {
             @Override
             public void onClick(View view, HealthBGAdapter.ViewName viewName, int position) {
+                if (!MyStrUtil.isEmpty(list.get(position).getUrl())){
                 Intent intent = new Intent(ActivityHealthBaoGao.this, ActivityPDF.class);
                 intent.putExtra("PDF", list.get(position).getUrl());
-                startActivity(intent);
+                startActivity(intent);}else {
+                    ToastUtils.s(ActivityHealthBaoGao.this,"该项没有详情");
+                }
             }
         });
     }
@@ -147,7 +150,7 @@ public class ActivityHealthBaoGao extends BaseActivity implements View.OnClickLi
     String msg;
 
     private void getData() {
-
+        list.clear();
         Observable.create(new Observable.OnSubscribe<Integer>() {
 
             @Override

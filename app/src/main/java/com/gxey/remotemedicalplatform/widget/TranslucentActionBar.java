@@ -38,14 +38,14 @@ public final class TranslucentActionBar extends LinearLayout {
 
     public TranslucentActionBar(Context context, AttributeSet attrs) {
         super(context, attrs);
-        init();
+        init(context);
     }
 
     public TranslucentActionBar(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
     }
 
-    private void init() {
+    private void init(Context context) {
         setOrientation(HORIZONTAL);
 
         View contentView = inflate(getContext(), R.layout.actionbar_trans, this);
@@ -134,11 +134,11 @@ public final class TranslucentActionBar extends LinearLayout {
             tvActionbarRight.setVisibility(View.GONE);
         }
 
-        if (resIdLeft == 0) {
-            ivActionbarLeft.setVisibility(View.GONE);
-        } else {
-            ivActionbarLeft.setVisibility(View.VISIBLE);
-        }
+//        if (resIdLeft == 0) {
+//            ivActionbarLeft.setVisibility(View.GONE);
+//        } else {
+//            ivActionbarLeft.setVisibility(View.VISIBLE);
+//        }
 
         if (resIdRight == 0) {
             tvActionbarRight.setVisibility(View.GONE);

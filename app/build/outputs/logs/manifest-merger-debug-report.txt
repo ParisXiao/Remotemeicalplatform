@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:2:1-280:12
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:2:1-294:12
 	package
 		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:4:5-45
 		INJECTED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml
@@ -70,7 +70,7 @@ MERGED from [Remotemeicalplatform:webrtc-client:unspecified] D:\MyWork\SmartHosp
 	android:name
 		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:18:22-77
 application
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:20:5-278:19
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:20:5-292:19
 MERGED from [com.ashokvarma.android:bottom-navigation-bar:1.2.0] C:\Users\Administrator\.android\build-cache\78d774ea52ea04fedcf96dc0c81788ecd6428191\output\AndroidManifest.xml:11:5-13:38
 MERGED from [cn.pedant.sweetalert:library:1.3] C:\Users\Administrator\.android\build-cache\8f6c38e5d9c0b9cec6c7498a8f2485761ca3e516\output\AndroidManifest.xml:11:5-20
 MERGED from [com.pnikosis:materialish-progress:1.0] C:\Users\Administrator\.android\build-cache\5fb9eb1d7eaf8c22ee950a26e757d2143929e7dd\output\AndroidManifest.xml:11:5-15:19
@@ -600,13 +600,37 @@ ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidMani
 		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:271:13-49
 	android:name
 		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:268:19-70
+activity#com.gxey.remotemedicalplatform.activity.secondactivity.ActivityFZDetails
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:273:9-277:69
+	android:screenOrientation
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:275:13-49
+	android:windowSoftInputMode
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:277:13-67
+	android:configChanges
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:274:13-63
+	android:theme
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:276:13-49
+	android:name
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:273:19-76
+activity#com.gxey.remotemedicalplatform.activity.secondactivity.ActivityImg
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:278:9-282:69
+	android:screenOrientation
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:280:13-49
+	android:windowSoftInputMode
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:282:13-67
+	android:configChanges
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:279:13-63
+	android:theme
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:281:13-49
+	android:name
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:278:19-70
 meta-data#com.google.android.gms.version
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:275:9-277:69
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:285:9-287:69
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Administrator\.android\build-cache\43fa752ce92b1b3ce373132d436150d24b08d706\output\AndroidManifest.xml:21:9-23:69
 	android:value
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:277:13-66
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:287:13-66
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:276:13-58
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:286:13-58
 uses-sdk
 INJECTED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [io.reactivex:rxandroid:1.2.1] C:\Users\Administrator\.android\build-cache\2b9e5a6dc3bc263df53475958c59a6099c4807a3\output\AndroidManifest.xml:19:5-43

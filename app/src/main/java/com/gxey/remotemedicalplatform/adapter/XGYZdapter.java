@@ -82,13 +82,11 @@ public class XGYZdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> im
     @Override
     public void onBindViewHolder(final RecyclerView.ViewHolder holder, final int position) {
         if (holder instanceof MyViewHolder) {
-            ((MyViewHolder) holder).itemDzblId.setText(list.get(position).getCaseNumber());
-            ((MyViewHolder) holder).itemDzblJg.setText(list.get(position).getDiagnosis());
-            if (list.get(position).getPeriod()==1){
-                ((MyViewHolder) holder).itemDzblCz.setText("初诊");
-            }else  if (list.get(position).getPeriod()==2){
-                ((MyViewHolder) holder).itemDzblCz.setText("复诊");
-            }
+            ((MyViewHolder) holder).text_dianzi.setText("病人姓名");
+            ((MyViewHolder) holder).item_fenzhen_zhuanru.setText("相关单位");
+            ((MyViewHolder) holder).itemDzblId.setText(list.get(position).getThePatientId());
+            ((MyViewHolder) holder).itemDzblJg.setText(list.get(position).getHospitalid());
+            ((MyViewHolder) holder).itemDzblCz.setText(list.get(position).getAdministrativeOrTechnicalOfficesid());
 
             ((MyViewHolder) holder).itemDzblTime.setText(list.get(position).getBoardingTime());
 
@@ -159,13 +157,18 @@ public class XGYZdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> im
     }
 
     class MyViewHolder extends RecyclerView.ViewHolder {
+        @BindView(R.id.item_fenzhen_zhuanru)
+        TextView item_fenzhen_zhuanru;
         @BindView(R.id.item_dzbl_id)
         TextView itemDzblId;
+        @BindView(R.id.text_dianzi)
+        TextView text_dianzi;
         @BindView(R.id.item_dzbl_jg)
         TextView itemDzblJg;
         @BindView(R.id.item_dzbl_cz)
         TextView itemDzblCz;
         @BindView(R.id.item_dzbl_time)
+
         TextView itemDzblTime;
 
         public MyViewHolder(View itemView) {

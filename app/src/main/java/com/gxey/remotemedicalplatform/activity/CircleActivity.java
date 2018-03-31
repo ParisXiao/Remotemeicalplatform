@@ -19,7 +19,7 @@ import butterknife.ButterKnife;
  * 圈子列表
  */
 
-public class CircleActivity extends BaseActivity implements View.OnClickListener {
+public class  CircleActivity extends BaseActivity implements View.OnClickListener {
 
 
     @BindView(R.id.new_cir)

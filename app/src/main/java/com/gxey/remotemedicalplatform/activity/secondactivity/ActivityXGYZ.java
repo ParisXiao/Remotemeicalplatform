@@ -132,7 +132,7 @@ public class ActivityXGYZ extends BaseActivity implements View.OnClickListener {
     String msg;
 
     private void getData() {
-
+        list.clear();
         Observable.create(new Observable.OnSubscribe<Integer>() {
 
             @Override
@@ -156,22 +156,12 @@ public class ActivityXGYZ extends BaseActivity implements View.OnClickListener {
                                         XiangGuanYZBean Bean = new XiangGuanYZBean();
                                         JSONObject temp = (JSONObject) jsonArray.get(i);
                                         Bean.setID(temp.getString("ID"));
-                                        Bean.setCaseNumber(temp.getString("CaseNumber"));
                                         Bean.setThePatientId(temp.getString("ThePatientId"));
                                         Bean.setDoctorId(temp.getString("DoctorId"));
-                                        Bean.setMainSuit(temp.getString("MainSuit"));
-                                        Bean.setHistoryOfPresentIllness(temp.getString("HistoryOfPresentIllness"));
-                                        Bean.setHistoryOfPastIllness(temp.getString("HistoryOfPastIllness"));
-                                        Bean.setHandlingSuggestion(temp.getString("HandlingSuggestion"));
-                                        Bean.setPersonalHistory(temp.getString("PersonalHistory"));
-                                        Bean.setFHx(temp.getString("FHx"));
-                                        Bean.setPhysicalExamination(temp.getString("PhysicalExamination"));
-                                        Bean.setDiagnosis(temp.getString("Diagnosis"));
-//                                        Bean.setPeriod(temp.getInt("Period"));
-                                        Bean.setSpecial(temp.getString("Special"));
+                                        Bean.setHospitalid(temp.getString("HospitalId"));
                                         Bean.setRemarks(temp.getString("Remarks"));
                                         Bean.setBoardingTime(temp.getString("BoardingTime"));
-                                        Bean.setAdministrativeOrTechnicalOfficesid(temp.getString("AdministrativeOrTechnicalOfficesid"));
+                                        Bean.setAdministrativeOrTechnicalOfficesid(temp.getString("AdministrativeOrTechnicalOfficesId"));
                                         list.add(Bean);
 
                                     }

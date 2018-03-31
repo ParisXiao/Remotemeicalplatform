@@ -155,7 +155,7 @@
                     android:layout_height="wrap_content"
                     android:textSize="@dimen/text_manager"
                     android:textColor="@color/text_black"
-                    android:text="@string/dianzibingli" />
+                    android:text="综合病历" />
 
                 <TextView
                     android:layout_width="wrap_content"

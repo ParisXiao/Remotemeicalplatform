@@ -146,7 +146,7 @@ public class ActivityCanJi extends BaseActivity implements View.OnClickListener 
     String msg;
 
     private void getData() {
-
+        guoMingBeen.clear();
         Observable.create(new Observable.OnSubscribe<Integer>() {
 
             @Override

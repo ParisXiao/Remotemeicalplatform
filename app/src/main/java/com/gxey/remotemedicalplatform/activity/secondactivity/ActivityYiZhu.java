@@ -148,7 +148,7 @@ public class ActivityYiZhu extends BaseActivity implements View.OnClickListener 
     String msg;
 
     private void getData(final String begin, final String end) {
-
+        yiZhuBeen.clear();
         Observable.create(new Observable.OnSubscribe<Integer>() {
 
             @Override
@@ -259,6 +259,8 @@ public class ActivityYiZhu extends BaseActivity implements View.OnClickListener 
 
     @Override
     protected void initData() {
+        startTime.setText(TimeUtils.ms2DateOnlyDay(System.currentTimeMillis()));
+        endTime.setText(TimeUtils.ms2DateOnlyDay(System.currentTimeMillis()));
 //        initLoadMoreListener();
         adapter.changeMoreStatus(adapter.NO_LOAD_MORE);
 

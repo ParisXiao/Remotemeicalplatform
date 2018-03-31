@@ -167,8 +167,8 @@ public class RegisteredActivity extends BaseActivity {
                 reEdPihon.getText().toString(),
                 pass.getText().toString(),
                 six1,
-                reEdUsername.getText().toString(),
                 reEdName.getText().toString(),
+                reEdUsername.getText().toString(),
                 reEdValidation.getText().toString(), new HttpSubseiber.ResponseHandler<String>() {
             @Override
             public void onSucceed(String data) {

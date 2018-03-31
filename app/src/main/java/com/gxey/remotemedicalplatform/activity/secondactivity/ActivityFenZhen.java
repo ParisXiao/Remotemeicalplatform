@@ -133,7 +133,7 @@ public class ActivityFenZhen extends BaseActivity implements View.OnClickListene
     String msg;
 
     private void getData() {
-
+        list.clear();
         Observable.create(new Observable.OnSubscribe<Integer>() {
 
             @Override
@@ -155,24 +155,18 @@ public class ActivityFenZhen extends BaseActivity implements View.OnClickListene
                                     for (int i = 0; i < jsonArray.length(); i++) {
                                         FenZhenBean Bean = new FenZhenBean();
                                         JSONObject temp = (JSONObject) jsonArray.get(i);
-                                        Bean.setApplyFor(temp.getString("ApplyFor"));
-                                        Bean.setAuditPerson(temp.getString("AuditPerson"));
-                                        Bean.setAuditState(temp.getString("AuditState"));
-                                        Bean.setAuditTime(temp.getString("AuditTime"));
-                                        Bean.setClinicTime(temp.getString("ClinicTime"));
-                                        Bean.setDoctor(temp.getString("Doctor"));
-                                        Bean.setOffice(temp.getString("Office"));
-                                        Bean.setOpinion(temp.getString("Opinion"));
-                                        Bean.setReadState(temp.getString("ReadState"));
-                                        Bean.setRegisterTime(temp.getString("RegisterTime"));
-                                        Bean.setRegiStrant(temp.getString("RegiStrant"));
-                                        Bean.setRemark(temp.getString("Remark"));
-                                        Bean.setRollout(temp.getString("Rollout"));
-                                        Bean.setRuleId(temp.getString("RuleId"));
-                                        Bean.setServiceCharge(temp.getString("ServiceCharge"));
-                                        Bean.setSickness(temp.getString("Sickness"));
-                                        Bean.setTahospital(temp.getString("Tahospital"));
-                                        Bean.setUserId(temp.getString("UserId"));
+                                        Bean.setApplyFor(temp.getString("applyfor"));
+                                        Bean.setAuditState(temp.getString("auditstate"));
+                                        Bean.setClinicTime(temp.getString("clinictime"));
+                                        Bean.setDoctor(temp.getString("doctor"));
+                                        Bean.setOffice(temp.getString("office"));
+                                        Bean.setRegisterTime(temp.getString("registertime"));
+                                        Bean.setRemark(temp.getString("remark"));
+                                        Bean.setRollout(temp.getString("rolloutname"));
+                                        Bean.setServiceCharge(temp.getString("servicecharge"));
+                                        Bean.setSickness(temp.getString("sickness"));
+                                        Bean.setTahospital(temp.getString("tahospital"));
+                                        Bean.setUserId(temp.getString("userid"));
                                         list.add(Bean);
 
                                     }

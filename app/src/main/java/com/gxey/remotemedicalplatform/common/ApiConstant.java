@@ -9,10 +9,13 @@ public class ApiConstant {
 
 //    public static final String H5BASE="http://211.149.217.223:8083";
     public static final String H5BASE="https://h.gxwdyf.com/";
+//    public static final String H5BASE="http://api.guanaida.com:8088/";
 
     public static final String DEBUGBASE = "http://211.149.217.223:8088/";
 
 //    public static final String BASE = "http://211.149.217.223:8091/";
+//    public static final String BASE = "http://api.guanaida.com:8088/";
+//    public static final String BASE = "https://h.gxwdyf.com:8011/";
     public static final String BASE = "https://h.gxwdyf.com/webapi/";
 
     public static final String LOGIN="api/Member/LoginMember";

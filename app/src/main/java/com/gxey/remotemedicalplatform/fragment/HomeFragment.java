@@ -1,26 +1,19 @@
 package com.gxey.remotemedicalplatform.fragment;
 
 import android.content.Intent;
-import android.graphics.Color;
-import android.os.Build;
 import android.os.Bundle;
-import android.support.design.widget.AppBarLayout;
-import android.support.design.widget.CollapsingToolbarLayout;
-import android.support.design.widget.CoordinatorLayout;
 import android.support.v4.widget.SwipeRefreshLayout;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.Toolbar;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.WindowManager;
 import android.view.inputmethod.EditorInfo;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.gxey.remotemedicalplatform.R;
@@ -33,6 +26,7 @@ import com.gxey.remotemedicalplatform.activity.secondactivity.ActivityDZBL;
 import com.gxey.remotemedicalplatform.activity.secondactivity.ActivityDoctorList;
 import com.gxey.remotemedicalplatform.activity.secondactivity.ActivityHealthBaoGao;
 import com.gxey.remotemedicalplatform.activity.secondactivity.ActivityHealthNews;
+import com.gxey.remotemedicalplatform.activity.secondactivity.ActivityHeathDianZi;
 import com.gxey.remotemedicalplatform.activity.secondactivity.ActivityTiJian;
 import com.gxey.remotemedicalplatform.activity.secondactivity.ActivityYiZhu;
 import com.gxey.remotemedicalplatform.activity.secondactivity.ActivityZCNews;
@@ -65,6 +59,8 @@ public class HomeFragment extends BaseFragment implements SwipeRefreshLayout.OnR
     @BindView(R.id.lay_refresh)
     SwipeRefreshLayout layRefresh;
     Unbinder unbinder;
+    @BindView(R.id.sousuoaction_sy)
+    ImageView sousuoactionSy;
     private HomeRecycleAdapter adapter;
     private List<Bannerben> HBlist = null;
     private List<Bannerben> ZClist = null;
@@ -99,6 +95,7 @@ public class HomeFragment extends BaseFragment implements SwipeRefreshLayout.OnR
             layRefresh.post(new Runnable() {
                 @Override
                 public void run() {
+                    getData();
                     layRefresh.setRefreshing(true);
                 }
             });
@@ -116,7 +113,18 @@ public class HomeFragment extends BaseFragment implements SwipeRefreshLayout.OnR
 
 
     private void getData() {
-
+        sousuoactionSy.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String search = sousuoSy.getText().toString();
+                if (!TextUtils.isEmpty(search)) {
+                    Intent intent = new Intent(getActivity(), WebSearchActivity.class);
+                    intent.putExtra("search", search + "");
+                    startActivity(intent);
+                    hideInputMethod(getActivity(), v);
+                }
+            }
+        });
         HBlist = new ArrayList<Bannerben>();
         ZClist = new ArrayList<Bannerben>();
         NEWlist = new ArrayList<Bannerben>();
@@ -237,7 +245,7 @@ public class HomeFragment extends BaseFragment implements SwipeRefreshLayout.OnR
                             Intent intent = new Intent(getActivity(), ActivityHealthBaoGao.class);
                             startActivity(intent);
                         } else if (position == 3) {
-                            Intent intent = new Intent(getActivity(), ActivityDZBL.class);
+                            Intent intent = new Intent(getActivity(), ActivityHeathDianZi.class);
                             startActivity(intent);
                         } else if (position == 4) {
                             Intent intent = new Intent(getActivity(), WebMedicationActivity.class);

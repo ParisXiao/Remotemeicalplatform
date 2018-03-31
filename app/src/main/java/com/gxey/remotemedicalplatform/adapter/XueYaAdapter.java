@@ -100,15 +100,15 @@ public class XueYaAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
     @Override
     public void onBindViewHolder(final RecyclerView.ViewHolder holder, final int position) {
         if (holder instanceof MyViewHolder) {
-            ((MyViewHolder) holder).itemSsName.setText(list.get(position).getSystolic());
-            ((MyViewHolder) holder).itemSzName.setText(list.get(position).getDiastolic());
-            ((MyViewHolder) holder).itemSsJg.setText(list.get(position).getSystolicRemark());
-            ((MyViewHolder) holder).itemSzJg.setText(list.get(position).getDiastolicRemark());
-            ((MyViewHolder) holder).itemYscl.setText(list.get(position).getDeviceID());
-            ((MyViewHolder) holder).itemClTime.setText(list.get(position).getAddtime());
-            ((MyViewHolder) holder).itemClBz.setText(list.get(position).getRemark());
+            ((MyViewHolder) holder).itemSsName.setText(list.get(position-1).getSystolic());
+            ((MyViewHolder) holder).itemSzName.setText(list.get(position-1).getDiastolic());
+            ((MyViewHolder) holder).itemSsJg.setText(list.get(position-1).getSystolicRemark());
+            ((MyViewHolder) holder).itemSzJg.setText(list.get(position-1).getDiastolicRemark());
+            ((MyViewHolder) holder).itemYscl.setText(list.get(position-1).getDeviceID());
+            ((MyViewHolder) holder).itemClTime.setText(list.get(position-1).getAddtime());
+            ((MyViewHolder) holder).itemClBz.setText(list.get(position-1).getRemark());
 
-            ((MyViewHolder) holder).itemView.setTag(position);
+            ((MyViewHolder) holder).itemView.setTag(position-1);
 
         } else if (holder instanceof FooterViewHolder) {
 
@@ -149,16 +149,16 @@ public class XueYaAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
             List<Float> yValue = new ArrayList<>();
             //折线对应的数据
             Map<String, Float> value = new HashMap<>();
-            for (int i = 0; i < listLast.size(); i++) {
-                xValue.add(TimeUtils.MyDateMD(listLast.get(i).getAddtime()));
-                value.put(TimeUtils.MyDateMD(listLast.get(i).getAddtime()), Float.valueOf(listLast.get(i).getSystolic()));//60--240
+            for (int i = 0; i < list.size(); i++) {
+                xValue.add(TimeUtils.MyDateMD(list.get(i).getAddtime()));
+                value.put(TimeUtils.MyDateMD(list.get(i).getAddtime()), Float.valueOf(list.get(i).getSystolic()));//60--240
             }
 
-            for (int i = 0; i < 26; i++) {
-                yValue.add((float) (i * 4));
+            for (int i = 0; i < 20; i++) {
+                yValue.add((float) (i * 10));
             }
 
-            ((ChartsView1Holder) holder).chart.setValue(value, xValue, yValue);
+            ((ChartsView1Holder) holder).chart.setValue(0,value, xValue, yValue);
             ((ChartsView1Holder) holder).chartName.setText("收缩压图");
 
 
@@ -179,16 +179,16 @@ public class XueYaAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
             List<Float> yValue = new ArrayList<>();
             //折线对应的数据
             Map<String, Float> value = new HashMap<>();
-            for (int i = 0; i < listLast.size(); i++) {
-                xValue.add(TimeUtils.MyDateMD(listLast.get(i).getAddtime()));
-                value.put(TimeUtils.MyDateMD(listLast.get(i).getAddtime()), Float.valueOf(listLast.get(i).getDiastolic()));//60--240
+            for (int i = 0; i < list.size(); i++) {
+                xValue.add(TimeUtils.MyDateMD(list.get(i).getAddtime()));
+                value.put(TimeUtils.MyDateMD(list.get(i).getAddtime()), Float.valueOf(list.get(i).getDiastolic()));//60--240
             }
 
-            for (int i = 0; i < 26; i++) {
-                yValue.add((float) (i * 5));
+            for (int i = 0; i < 20; i++) {
+                yValue.add((float) (i *5));
             }
 
-            ((ChartsView2Holder) holder).chart.setValue(value, xValue, yValue);
+            ((ChartsView2Holder) holder).chart.setValue(0,value, xValue, yValue);
             ((ChartsView2Holder) holder).chartName.setText("舒张压图");
 
         }
@@ -196,7 +196,7 @@ public class XueYaAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
 
     @Override
     public int getItemCount() {
-        return list.size() + 1;
+        return list.size() + 2;
     }
 
     public class ChartsView1Holder extends RecyclerView.ViewHolder {

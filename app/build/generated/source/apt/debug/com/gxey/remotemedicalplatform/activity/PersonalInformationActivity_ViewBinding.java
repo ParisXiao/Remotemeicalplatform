@@ -37,6 +37,7 @@ public class PersonalInformationActivity_ViewBinding<T extends PersonalInformati
     target.mRGSix = Utils.findRequiredViewAsType(source, R.id.rg_six, "field 'mRGSix'", RadioGroup.class);
     target.radio_man = Utils.findRequiredViewAsType(source, R.id.re_radio_man, "field 'radio_man'", RadioButton.class);
     target.radio_wuman = Utils.findRequiredViewAsType(source, R.id.re_radio_wuman, "field 'radio_wuman'", RadioButton.class);
+    target.sfzh = Utils.findRequiredViewAsType(source, R.id.sfzh, "field 'sfzh'", EditText.class);
   }
 
   @Override
@@ -60,6 +61,7 @@ public class PersonalInformationActivity_ViewBinding<T extends PersonalInformati
     target.mRGSix = null;
     target.radio_man = null;
     target.radio_wuman = null;
+    target.sfzh = null;
 
     this.target = null;
   }

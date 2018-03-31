@@ -9,7 +9,7 @@ public class AppConstant {
     /**
      * 测试模式下，isDebug=true,发布isDebug改为false
      */
-    public static final boolean isDebug = true;
+    public static final boolean isDebug = false;
 
     public static final String  SIGNALA = "https://h.gxwdyf.com:5083/signalr/hubs/";
     public static final String  TESTSIGNALA = "http://211.149.217.223:8089/signalr/hubs/";

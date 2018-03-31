@@ -28,7 +28,7 @@ public class MyStrUtil {
             }
         } else if (obj instanceof String) {
             String str = (String) obj;
-            if ((str == null) || str.equals("")) {
+            if ((str == null) || str.equals("")||str.equals("null")) {
                 return true;
             } else {
                 return false;

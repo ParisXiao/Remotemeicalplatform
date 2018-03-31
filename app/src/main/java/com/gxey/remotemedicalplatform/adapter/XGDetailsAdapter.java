@@ -5,19 +5,17 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.gxey.remotemedicalplatform.R;
-import com.gxey.remotemedicalplatform.bean.XinLvBean;
-import com.gxey.remotemedicalplatform.utils.TimeUtils;
-import com.gxey.remotemedicalplatform.widget.ChartView;
+import com.gxey.remotemedicalplatform.bean.DianZiBLBean;
+import com.gxey.remotemedicalplatform.utils.ImageUtils;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -27,17 +25,15 @@ import butterknife.ButterKnife;
  * Created by Administrator on 2017/12/12 0012.
  */
 
-public class XinLvAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> implements View.OnClickListener {
+public class XGDetailsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> implements View.OnClickListener {
 
 
 
     private LayoutInflater mInflater;
     private Context context;
-    private List<XinLvBean> list = new ArrayList<>();
-    private List<XinLvBean> listLast = new ArrayList<>();
+    private List<String> list = new ArrayList<>();
     private static final int TYPE_ITEM = 0;
     private static final int TYPE_FOOTER = 1;
-    private static final int TYPE_Charts = 2;
 
     //上拉加载更多
     public static final int PULLUP_LOAD_MORE = 0;
@@ -50,7 +46,7 @@ public class XinLvAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
     private int mLoadMoreStatus = 0;
 
 
-    public XinLvAdapter(Context context, List<XinLvBean> list) {
+    public XGDetailsAdapter(Context context, List<String> list) {
         this.context = context;
         this.list = list;
         this.mInflater = LayoutInflater.from(context);
@@ -64,8 +60,6 @@ public class XinLvAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
         if (position + 1 == getItemCount()) {
             //最后一个item设置为footerView
             return TYPE_FOOTER;
-        } else if (position == 0) {
-            return TYPE_Charts;
         } else {
             return TYPE_ITEM;
         }
@@ -74,17 +68,13 @@ public class XinLvAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         if (viewType == TYPE_ITEM) {
-            View itemView = mInflater.inflate(R.layout.item_tiwen, parent, false);
+            View itemView = mInflater.inflate(R.layout.item_image, parent, false);
 
             return new MyViewHolder(itemView);
         } else if (viewType == TYPE_FOOTER) {
             View itemView = mInflater.inflate(R.layout.recycleview_footview, parent, false);
 
             return new FooterViewHolder(itemView);
-        } else if (viewType == TYPE_Charts) {
-            View itemView = mInflater.inflate(R.layout.recycleview_charts, parent, false);
-
-            return new ChartsViewHolder(itemView);
         }
         return null;
 
@@ -93,14 +83,9 @@ public class XinLvAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
     @Override
     public void onBindViewHolder(final RecyclerView.ViewHolder holder, final int position) {
         if (holder instanceof MyViewHolder) {
-            ((MyViewHolder) holder).itemTitle.setText("心率测量数据");
-            ((MyViewHolder) holder).itemNameText.setText("心跳速率（每分钟/次）");
-            ((MyViewHolder) holder).itemClName.setText(list.get(position-1).getPulse());
-            ((MyViewHolder) holder).itemYscl.setText(list.get(position-1).getDeviceID());
-            ((MyViewHolder) holder).itemClTime.setText(list.get(position-1).getAddtime());
-            ((MyViewHolder) holder).itemClBz.setText(list.get(position-1).getRemark());
+            ImageUtils.load(context,"http://test.gxwdyf.com"+list.get(position), ((MyViewHolder) holder).xg_img);
 
-            ((MyViewHolder) holder).itemView.setTag(position-1);
+            ((MyViewHolder) holder).itemView.setTag(position);
 
         } else if (holder instanceof FooterViewHolder) {
 
@@ -124,53 +109,12 @@ public class XinLvAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
 
             }
 
-        } else if (holder instanceof ChartsViewHolder) {
-            if (list.size() > 7) {
-                for (int i = 0; i < 7; i++) {
-                    listLast.add(i, list.get(list.size() - i - 1));
-                }
-
-            } else {
-                for (int i = 0; i < list.size(); i++) {
-                    listLast.add(list.get(i));
-                }
-            }
-            //x轴坐标对应的数据
-            List<String> xValue = new ArrayList<>();
-            //y轴坐标对应的数据
-            List<Float> yValue = new ArrayList<>();
-            //折线对应的数据
-            Map<String, Float> value = new HashMap<>();
-            for (int i = 0; i < list.size(); i++) {
-                xValue.add(TimeUtils.MyDateMD(list.get(i).getAddtime()));
-                value.put(TimeUtils.MyDateMD(list.get(i).getAddtime()), Float.valueOf(list.get(i).getPulse()));//60--240
-            }
-
-            for (int i = 0; i < 14; i++) {
-                yValue.add((float) (i * 5));
-            }
-
-            ((ChartsViewHolder) holder).chart.setValue(50,value, xValue, yValue);
-       ((ChartsViewHolder) holder).chartName.setText("心率图");
-
-
         }
     }
 
     @Override
     public int getItemCount() {
-        return list.size() + 2;
-    }
-
-    public class ChartsViewHolder extends RecyclerView.ViewHolder {
-        @BindView(R.id.chartview)
-        ChartView chart;
-        @BindView(R.id.chartview_name)
-        TextView chartName;
-        public ChartsViewHolder(View itemView) {
-            super(itemView);
-            ButterKnife.bind(this, itemView);
-        }
+        return list.size() + 1;
     }
 
     public class FooterViewHolder extends RecyclerView.ViewHolder {
@@ -187,12 +131,12 @@ public class XinLvAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
         }
     }
 
-    public void AddHeaderItem(List<XinLvBean> items) {
+    public void AddHeaderItem(List<String> items) {
         list.addAll(0, items);
         notifyDataSetChanged();
     }
 
-    public void AddFooterItem(List<XinLvBean> items) {
+    public void AddFooterItem(List<String> items) {
         list.addAll(items);
         notifyDataSetChanged();
     }
@@ -208,22 +152,13 @@ public class XinLvAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
     }
 
     class MyViewHolder extends RecyclerView.ViewHolder {
-        @BindView(R.id.item_title)
-        TextView itemTitle;
-        @BindView(R.id.item_cl_name)
-        TextView itemClName;
-        @BindView(R.id.item_yscl)
-        TextView itemYscl;
-        @BindView(R.id.item_cl_time)
-        TextView itemClTime;
-        @BindView(R.id.item_cl_bz)
-        TextView itemClBz;
-        @BindView(R.id.item_name_text)
-        TextView itemNameText;
+        @BindView(R.id.xg_img)
+        ImageView xg_img;
 
         public MyViewHolder(View itemView) {
             super(itemView);
             ButterKnife.bind(this, itemView);
+            itemView.setOnClickListener(XGDetailsAdapter.this);
         }
 
     }
@@ -252,9 +187,6 @@ public class XinLvAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
         int position = (int) v.getTag();
         if (mOnItemClickListener != null) {
             switch (v.getId()) {
-//                case R.id.item_baogao_chakan:
-//                    mOnItemClickListener.onClick(v, ViewName.Button, position);
-//                    break;
                 default:
                     mOnItemClickListener.onClick(v, ViewName.ITEM, position);
                     break;

@@ -123,6 +123,7 @@ public class ChangePasswordActivity extends BaseActivity implements View.OnClick
             public void onSucceed(String data) {
                 dismisDialog();
                 Toast.makeText(ChangePasswordActivity.this,"密码更改成功！",Toast.LENGTH_LONG).show();
+                finish();
             }
 
             @Override

@@ -9,6 +9,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.text.TextUtils;
+import android.text.method.NumberKeyListener;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
@@ -25,9 +26,14 @@ import com.gxey.remotemedicalplatform.javaben.StoresBen;
 import com.gxey.remotemedicalplatform.model.ApiModel;
 import com.gxey.remotemedicalplatform.network.HttpClientHelper;
 import com.gxey.remotemedicalplatform.network.HttpSubseiber;
+import com.gxey.remotemedicalplatform.newconfig.UserConfig;
 import com.gxey.remotemedicalplatform.utils.AndroidUtil;
+import com.gxey.remotemedicalplatform.utils.IDCardUtil;
 import com.gxey.remotemedicalplatform.utils.ImageUtils;
+import com.gxey.remotemedicalplatform.utils.MyStrUtil;
+import com.gxey.remotemedicalplatform.utils.PreferenceUtils;
 
+import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -70,6 +76,8 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
     RadioButton radio_man;
     @BindView(R.id.re_radio_wuman)
     RadioButton radio_wuman;
+    @BindView(R.id.sfzh)
+    EditText sfzh;
 
     private String path;
     private String password;
@@ -90,6 +98,7 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
     private String myStoreID;
     private String myParentId;
     private String jianjie;
+    private String SFnum;
 
     private String MobileNum;
     ApiModel api;
@@ -136,6 +145,7 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
         super.onCreate(savedInstanceState);
 
         inipren();
+        sfzh.setText(PreferenceUtils.getInstance(PersonalInformationActivity.this).getString(UserConfig.SFZH));
         mystro();
     }
 
@@ -201,11 +211,11 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
                            public void onSucceed(List<StoresBen> data) {
                                list.addAll(data);
 
-                              Log.e("----------------", list.size()+"=============");
-                               for(int i = 0 ;i < list.size(); i++){
-                                   Log.e("----------------", list.get(i).getId()+"=============");
-                                   if ( myParentId.equals(list.get(i).getId()) )
-                                   mendianid.setText(list.get(i).getName());
+                               Log.e("----------------", list.size() + "=============");
+                               for (int i = 0; i < list.size(); i++) {
+                                   Log.e("----------------", list.get(i).getId() + "=============");
+                                   if (myParentId.equals(list.get(i).getId()))
+                                       mendianid.setText(list.get(i).getName());
                                }
 
                            }
@@ -223,7 +233,7 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
         MySQLiteOpenHelper oh = new MySQLiteOpenHelper(this);
         SQLiteDatabase db = oh.getWritableDatabase();
         Cursor cursor = db.query("Information", null, null, null, null, null, null);
-        if (cursor.moveToFirst()){
+        if (cursor.moveToFirst()) {
 //            UNum = cursor.getString(cursor.getColumnIndex("UNum"));
 //            Id = cursor.getString(cursor.getColumnIndex("Id"));
 //            UName = cursor.getString(cursor.getColumnIndex("UName"));
@@ -245,46 +255,57 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
 
     @Override
     protected void initData() {
+            sfzh.setKeyListener(new NumberKeyListener() {
+                @Override
+                public int getInputType() {
+                    return android.text.InputType.TYPE_CLASS_PHONE;
+                }
 
+                @Override
+                protected char[] getAcceptedChars() {
+                    char[] numberChars = { '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', 'X' };
+                    return numberChars;
+                }
+            });
     }
 
 
     @Override
     public void onClick(View v) {
-        switch (v.getId()){
-            case R.id.xg :
-                Intent intent = new Intent(PersonalInformationActivity.this,ChangePasswordActivity.class);
+        switch (v.getId()) {
+            case R.id.xg:
+                Intent intent = new Intent(PersonalInformationActivity.this, ChangePasswordActivity.class);
                 startActivity(intent);
-            break;
-            case R.id.mendian :
-                Intent intent2 = new Intent(PersonalInformationActivity.this,storesActivity.class);
+                break;
+            case R.id.mendian:
+                Intent intent2 = new Intent(PersonalInformationActivity.this, storesActivity.class);
 
                 startActivityForResult(intent2, REQUEST_CODE);
                 break;
-            case R.id.re_tv_registered :
+            case R.id.re_tv_registered:
                 initperson();
                 break;
-            case R.id.back :
+            case R.id.back:
                 finish();
                 break;
             case R.id.iv_1:
-                number="0";
+                number = "0";
                 statrSelect();
 
                 break;
             case R.id.iv_2:
-                number="1";
+                number = "1";
                 statrSelect();
                 break;
             case R.id.iv_3:
-                number="2";
+                number = "2";
                 statrSelect();
                 break;
 
         }
     }
 
-    private void statrSelect(){
+    private void statrSelect() {
         PhotoPicker.builder()
                 .setPhotoCount(1)
                 .setShowCamera(true)
@@ -296,96 +317,114 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 
-            if (resultCode == RESULT_OK && requestCode == PhotoPicker.REQUEST_CODE) {
-                if (data != null) {
-                    ArrayList<String> photos =
-                            data.getStringArrayListExtra(PhotoPicker.KEY_SELECTED_PHOTOS);
-                    mHttpHelper.upLoadImg(photos.get(0), new HttpSubseiber.ResponseHandler<String>() {
-                        @Override
-                        public void onSucceed(String data) {
+        if (resultCode == RESULT_OK && requestCode == PhotoPicker.REQUEST_CODE) {
+            if (data != null) {
+                ArrayList<String> photos =
+                        data.getStringArrayListExtra(PhotoPicker.KEY_SELECTED_PHOTOS);
+                mHttpHelper.upLoadImg(photos.get(0), new HttpSubseiber.ResponseHandler<String>() {
+                    @Override
+                    public void onSucceed(String data) {
 
-                            setImage(data);
-                        }
+                        setImage(data);
+                    }
 
-                        @Override
-                        public void onFail(String msg) {
+                    @Override
+                    public void onFail(String msg) {
 
-                            AndroidUtil.showToast(PersonalInformationActivity.this,msg,0);
-                        }
-                    });
+                        AndroidUtil.showToast(PersonalInformationActivity.this, msg, 0);
+                    }
+                });
 
-                }
-
+            }
 
 
         }
-        if (resultCode==REQUEST_CODE){
+        if (resultCode == REQUEST_CODE) {
 
-                Bundle bundle = data.getExtras();
-                String name = bundle.getString("name");
-                 id = bundle.getString("ParentId");
-            Log.d("-------huilai",id+"=====");
+            Bundle bundle = data.getExtras();
+            String name = bundle.getString("name");
+            id = bundle.getString("ParentId");
+            Log.d("-------huilai", id + "=====");
 //                String name = intent.getStringExtra("name");
 
-                mendianid.setText(name);
+            mendianid.setText(name);
 
         }
         super.onActivityResult(requestCode, resultCode, data);
     }
 
-    private void setImage(String url){
-        if (number.equals("0")){
-            patn2=url;
-            ImageUtils.load(this,url,mIV1);
+    private void setImage(String url) {
+        if (number.equals("0")) {
+            patn2 = url;
+            ImageUtils.load(this, url, mIV1);
         }
-        if (number.equals("1")){
-            patn3=url;
-            ImageUtils.load(this,url,mIV2);
+        if (number.equals("1")) {
+            patn3 = url;
+            ImageUtils.load(this, url, mIV2);
         }
-        if (number.equals("2")){
-            patn4=url;
-            ImageUtils.load(this,url,mIV3);
+        if (number.equals("2")) {
+            patn4 = url;
+            ImageUtils.load(this, url, mIV3);
         }
     }
 
-    public void initperson(){
+    public void initperson() {
         showLoadDialog();
 
-        Log.e("------上传",id+"=======");
-         jianjie = gerenjianjei.getText().toString();
-         UName = nicheng.getText().toString();
-         UNum = yonghuming.getText().toString();
+        Log.e("------上传", id + "=======");
+        jianjie = gerenjianjei.getText().toString();
+        UName = nicheng.getText().toString();
+        UNum = yonghuming.getText().toString();
+        SFnum=sfzh.getText().toString();
 //        UCode = nicheng.getText().toString();
-        String url="";
-        if(!TextUtils.isEmpty(patn2)){
-            url=url+patn2+",";
+        if (!MyStrUtil.isEmpty(SFnum)){
+            try {
+                if (!IDCardUtil.IDCardValidate(SFnum)){
+                            Toast.makeText(PersonalInformationActivity.this, "请输入正确身份证号", Toast.LENGTH_SHORT).show();
+                            dismisDialog();
+
+                    return;
+                }
+            } catch (ParseException e) {
+                e.printStackTrace();
+            }
+
+        }else {
+            Toast.makeText(PersonalInformationActivity.this, "请输入身份证号", Toast.LENGTH_SHORT).show();
+            dismisDialog();
+            return;
+        }
+        String url = "";
+        if (!TextUtils.isEmpty(patn2)) {
+            url = url + patn2 + ",";
         }
 
-        if(!TextUtils.isEmpty(patn3)){
-            url=url+patn3+",";
+        if (!TextUtils.isEmpty(patn3)) {
+            url = url + patn3 + ",";
         }
-        if(!TextUtils.isEmpty(patn4)){
-            url=url+patn4+",";
+        if (!TextUtils.isEmpty(patn4)) {
+            url = url + patn4 + ",";
         }
-        if(!TextUtils.isEmpty(url)){
-            url = url.substring(0,url.length()-1);
+        if (!TextUtils.isEmpty(url)) {
+            url = url.substring(0, url.length() - 1);
         }
-        HttpClientHelper.getInstance().person(mConfig.getUserGUID(),MobileNum, password, sex, UName, UNum, jianjie, url, id, new HttpSubseiber.ResponseHandler<String>() {
+        HttpClientHelper.getInstance().person(mConfig.getUserGUID(), MobileNum, password, sex, UName, UNum, jianjie, url, id, SFnum,new HttpSubseiber.ResponseHandler<String>() {
             @Override
             public void onSucceed(String data) {
-                Toast.makeText(PersonalInformationActivity.this,"修改成功" ,Toast.LENGTH_LONG);
-                  dismisDialog();
+                Toast.makeText(PersonalInformationActivity.this, "修改成功", Toast.LENGTH_LONG);
+                dismisDialog();
                 dialog();
             }
 
             @Override
             public void onFail(String msg) {
-                Toast.makeText(PersonalInformationActivity.this,"修改失败",Toast.LENGTH_LONG);
-                  dismisDialog();
+                Toast.makeText(PersonalInformationActivity.this, "修改失败", Toast.LENGTH_LONG);
+                dismisDialog();
             }
         });
 
     }
+
     private void dialog() {
         AlertDialog.Builder builder = new AlertDialog.Builder(PersonalInformationActivity.this);
         builder.setTitle("提示");

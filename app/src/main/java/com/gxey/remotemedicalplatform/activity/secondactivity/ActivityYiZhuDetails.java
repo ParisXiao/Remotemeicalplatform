@@ -66,7 +66,7 @@ public class ActivityYiZhuDetails extends BaseActivity implements View.OnClickLi
     protected void initData() {
         yiZhuBean= (YiZhuBean) getIntent().getSerializableExtra("YiZhu");
         yizhudetailsContent.setText(yiZhuBean.getContent());
-        yizhudetailsID.setText(yiZhuBean.getDoctorid());
+        yizhudetailsID.setText(yiZhuBean.getNumber());
         yizhudetailsYisheng.setText(yiZhuBean.getDoctorname());
         yizhudetailsStarttime.setText(yiZhuBean.getThestarttime());
         yizhudetailsQixiao.setText(yiZhuBean.getTermofvalidity());

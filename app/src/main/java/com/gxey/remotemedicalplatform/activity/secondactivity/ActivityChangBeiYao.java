@@ -143,7 +143,7 @@ public class ActivityChangBeiYao extends BaseActivity implements View.OnClickLis
     String msg;
 
     private void getData() {
-
+        list.clear();
         Observable.create(new Observable.OnSubscribe<Integer>() {
 
             @Override

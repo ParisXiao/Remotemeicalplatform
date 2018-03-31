@@ -9,6 +9,6 @@ public class AppConstant {
     /**
      * 测试模式下，isDebug=true,发布isDebug改为false
      */
-    public static final boolean isDebug = true;
+    public static final boolean isDebug = false;
 
 }

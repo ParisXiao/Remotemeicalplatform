@@ -31,6 +31,8 @@ import java.util.Map;
  * Created by xiaoyunfei on 16/11/29.
  */
 public class ChartView extends View {
+    //y轴初始值
+    private float yInit = 0;
     //xy坐标轴颜色
     private int xylinecolor = 0xffe2e2e2;
     //xy坐标轴宽度
@@ -238,13 +240,13 @@ public class ChartView extends View {
         //绘制节点对应的原点
         for (int i = 0; i < xValue.size(); i++) {
             float x = xInit + interval * i;
-            float y = yOri - yOri * (1 - 0.1f) * value.get(xValue.get(i)) / yValue.get(yValue.size() - 1);
+            float y = yOri - yOri * (1 - 0.1f) * (value.get(xValue.get(i))-yInit)/ yValue.get(yValue.size() - 1);
             //绘制选中的点
             if (i == selectIndex - 1) {
                 linePaint.setStyle(Paint.Style.FILL);
-                linePaint.setColor(0xffd0f3f2);
+                linePaint.setColor(0xff67e300);
                 canvas.drawCircle(x, y, dp7, linePaint);
-                linePaint.setColor(0xff81dddb);
+                linePaint.setColor(0xff67e300);
                 canvas.drawCircle(x, y, dp4, linePaint);
                 drawFloatTextBox(canvas, x, y - dp7, value.get(xValue.get(i)));
             }
@@ -305,11 +307,11 @@ public class ChartView extends View {
         //绘制折线
         Path path = new Path();
         float x = xInit + interval * 0;
-        float y = yOri - yOri * (1 - 0.1f) * value.get(xValue.get(0)) / yValue.get(yValue.size() - 1);
+        float y = yOri - yOri * (1 - 0.1f) * (value.get(xValue.get(0))-yInit) / yValue.get(yValue.size() - 1);
         path.moveTo(x, y);
         for (int i = 1; i < xValue.size(); i++) {
             x = xInit + interval * i;
-            y = yOri - yOri * (1 - 0.1f) * value.get(xValue.get(i)) / yValue.get(yValue.size() - 1);
+            y = yOri - yOri * (1 - 0.1f) * (value.get(xValue.get(i))-yInit)  / yValue.get(yValue.size() - 1);
             path.lineTo(x, y);
         }
         canvas.drawPath(path, linePaint);
@@ -338,7 +340,7 @@ public class ChartView extends View {
             canvas.drawLine(xOri, yOri - yLength * i + xylinewidth / 2, xOri + length, yOri - yLength * i + xylinewidth / 2, xyPaint);
             xyTextPaint.setColor(xytextcolor);
             //绘制Y轴文本
-            String text = yValue.get(i) + "";
+            String text = (yValue.get(i) + yInit)+"";
             Rect rect = getTextBounds(text, xyTextPaint);
             canvas.drawText(text, 0, text.length(), xOri - xylinewidth - dpToPx(2) - rect.width(), yOri - yLength * i + rect.height() / 2, xyTextPaint);
         }
@@ -388,18 +390,18 @@ public class ChartView extends View {
                 startX = event.getX();
                 break;
             case MotionEvent.ACTION_MOVE:
-                if (interval * xValue.size() > width - xOri) {//当期的宽度不足以呈现全部数据
-                    float dis = event.getX() - startX;
-                    startX = event.getX();
-                    if (xInit + dis < minXInit) {
-                        xInit = minXInit;
-                    } else if (xInit + dis > maxXInit) {
-                        xInit = maxXInit;
-                    } else {
-                        xInit = xInit + dis;
-                    }
-                    invalidate();
-                }
+//                if (interval * xValue.size() > width - xOri) {//当期的宽度不足以呈现全部数据
+//                    float dis = event.getX() - startX;
+//                    startX = event.getX();
+//                    if (xInit + dis < minXInit) {
+//                        xInit = minXInit;
+//                    } else if (xInit + dis > maxXInit) {
+//                        xInit = maxXInit;
+//                    } else {
+//                        xInit = xInit + dis;
+//                    }
+//                    invalidate();
+//                }
                 break;
             case MotionEvent.ACTION_UP:
                 clickAction(event);
@@ -499,7 +501,7 @@ public class ChartView extends View {
         for (int i = 0; i < xValue.size(); i++) {
             //节点
             float x = xInit + interval * i;
-            float y = yOri - yOri * (1 - 0.1f) * value.get(xValue.get(i)) / yValue.get(yValue.size() - 1);
+            float y = yOri - yOri * (1 - 0.1f) * (value.get(xValue.get(0))-yInit)  / yValue.get(yValue.size() - 1);
             if (eventX >= x - dp8 && eventX <= x + dp8 &&
                     eventY >= y - dp8 && eventY <= y + dp8 && selectIndex != i + 1) {//每个节点周围8dp都是可点击区域
                 selectIndex = i + 1;
@@ -568,7 +570,8 @@ public class ChartView extends View {
         invalidate();
     }
 
-    public void setValue(Map<String, Float> value, List<String> xValue, List<Float> yValue) {
+    public void setValue(float yInit, Map<String, Float> value, List<String> xValue, List<Float> yValue) {
+        this.yInit=yInit;
         this.value = value;
         this.xValue = xValue;
         this.yValue = yValue;

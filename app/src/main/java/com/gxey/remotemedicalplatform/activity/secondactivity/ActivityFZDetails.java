@@ -82,7 +82,7 @@ public class ActivityFZDetails extends BaseActivity implements View.OnClickListe
         }else  if(fenZhenBean.getAuditState().equals("2")){
             zzShenhe.setText("审核不通过");
         }
-        zzShijian.setText(fenZhenBean.getAuditTime());
+        zzShijian.setText(fenZhenBean.getRegisterTime());
 
     }
 

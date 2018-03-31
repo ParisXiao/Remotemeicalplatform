@@ -270,11 +270,25 @@
             android:screenOrientation="portrait"
             android:theme="@style/AppThemeWrite"
             android:windowSoftInputMode="adjustPan|stateUnchanged"/>
+        <activity android:name=".activity.secondactivity.ActivityFZDetails"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeWrite"
+            android:windowSoftInputMode="adjustPan|stateUnchanged"/>
+        <activity android:name=".activity.secondactivity.ActivityImg"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeWrite"
+            android:windowSoftInputMode="adjustPan|stateUnchanged"/>
 
 
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
+
+
+
+
     </application>
 
 </manifest>

@@ -143,7 +143,7 @@ public class ActivityHuanJing extends BaseActivity implements View.OnClickListen
     String msg;
 
     private void getData() {
-
+        huanJingBeen.clear();
         Observable.create(new Observable.OnSubscribe<Integer>() {
 
             @Override

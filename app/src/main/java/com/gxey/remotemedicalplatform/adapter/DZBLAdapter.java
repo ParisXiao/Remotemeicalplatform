@@ -84,9 +84,9 @@ public class DZBLAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> i
         if (holder instanceof MyViewHolder) {
             ((MyViewHolder) holder).itemDzblId.setText(list.get(position).getCaseNumber());
             ((MyViewHolder) holder).itemDzblJg.setText(list.get(position).getDiagnosis());
-            if (list.get(position).getPeriod()==1){
+            if (list.get(position).getPeriod().equals("1")){
                 ((MyViewHolder) holder).itemDzblCz.setText("初诊");
-            }else  if (list.get(position).getPeriod()==2){
+            }else  if (list.get(position).getPeriod().equals("1")){
                 ((MyViewHolder) holder).itemDzblCz.setText("复诊");
             }
 

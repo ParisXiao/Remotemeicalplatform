@@ -93,12 +93,12 @@ public class TiWenAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
     @Override
     public void onBindViewHolder(final RecyclerView.ViewHolder holder, final int position) {
         if (holder instanceof MyViewHolder) {
-            ((MyViewHolder) holder).itemClName.setText(list.get(position).getTemperature());
-            ((MyViewHolder) holder).itemYscl.setText(list.get(position).getDeviceID());
-            ((MyViewHolder) holder).itemClTime.setText(list.get(position).getAddtime());
-            ((MyViewHolder) holder).itemClBz.setText(list.get(position).getRemark());
+            ((MyViewHolder) holder).itemClName.setText(list.get(position-1).getTemperature());
+            ((MyViewHolder) holder).itemYscl.setText(list.get(position-1).getDeviceID());
+            ((MyViewHolder) holder).itemClTime.setText(list.get(position-1).getAddtime());
+            ((MyViewHolder) holder).itemClBz.setText(list.get(position-1).getRemark());
 
-            ((MyViewHolder) holder).itemView.setTag(position);
+            ((MyViewHolder) holder).itemView.setTag(position-1);
 
         } else if (holder instanceof FooterViewHolder) {
 
@@ -139,16 +139,16 @@ public class TiWenAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
             List<Float> yValue = new ArrayList<>();
             //折线对应的数据
             Map<String, Float> value = new HashMap<>();
-            for (int i = 0; i < listLast.size(); i++) {
-                xValue.add(TimeUtils.MyDateMD(listLast.get(i).getAddtime()));
-                value.put(TimeUtils.MyDateMD(listLast.get(i).getAddtime()), Float.valueOf(listLast.get(i).getTemperature()));//60--240
+            for (int i = 0; i < list.size(); i++) {
+                xValue.add(TimeUtils.MyDateMD(list.get(i).getAddtime()));
+                value.put(TimeUtils.MyDateMD(list.get(i).getAddtime()), Float.valueOf(list.get(i).getTemperature()));//60--240
             }
 
-            for (int i = 0; i < 22; i++) {
-                yValue.add((float) (i*2));
+            for (int i = 0; i < 10; i++) {
+                yValue.add((float) (i));
             }
 
-            ((ChartsViewHolder) holder).chart.setValue(value, xValue, yValue);
+            ((ChartsViewHolder) holder).chart.setValue(34,value, xValue, yValue);
             ((ChartsViewHolder) holder).chartName.setText("体温图");
 
 
@@ -157,7 +157,7 @@ public class TiWenAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
 
     @Override
     public int getItemCount() {
-        return list.size() + 1;
+        return list.size() + 2;
     }
 
     public class ChartsViewHolder extends RecyclerView.ViewHolder {

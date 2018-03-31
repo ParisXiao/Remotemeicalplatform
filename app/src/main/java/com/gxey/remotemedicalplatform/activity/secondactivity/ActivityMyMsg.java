@@ -123,7 +123,6 @@ public class ActivityMyMsg extends BaseActivity implements ActionBarClickListene
         }
 
         msgAddress.setText(PreferenceUtils.getInstance(this).getString(UserConfig.Address));
-        msgXingbie.setText(PreferenceUtils.getInstance(this).getString(UserConfig.Sex));
         msgSfNo.setText(PreferenceUtils.getInstance(this).getString(UserConfig.SFZH));
         msgPhone.setText(PreferenceUtils.getInstance(this).getString(UserConfig.Phone));
         msgBirthday.setText("");
@@ -153,7 +152,7 @@ public class ActivityMyMsg extends BaseActivity implements ActionBarClickListene
 
     @Override
     public void onLeftClick() {
-
+        finish();
     }
 
     @Override

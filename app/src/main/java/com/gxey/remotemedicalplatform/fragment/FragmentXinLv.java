@@ -111,7 +111,7 @@ public class FragmentXinLv extends BaseFragment {
     String msg;
 
     private void getData() {
-
+        list.clear();
         Observable.create(new Observable.OnSubscribe<Integer>() {
 
             @Override
@@ -119,7 +119,7 @@ public class FragmentXinLv extends BaseFragment {
                 if (MyHttpHelper.isConllection( getActivity())) {
                     String[] key = new String[]{};
                     Map<String, String> map = new HashMap<String, String>();
-                    String result = MyHttpHelper.GetMessage( getActivity(), UrlConfig.SelBlood, key, map);
+                    String result = MyHttpHelper.GetMessage( getActivity(), UrlConfig.SelOxygen, key, map);
                     if (!MyStrUtil.isEmpty(result)) {
                         JSONObject jsonObject;
                         try {

@@ -81,9 +81,7 @@ public class BackPasswordActivity extends BaseActivity implements View.OnClickLi
          String captcha = ed_validation.getText().toString();
         switch (v.getId()){
             case R.id.pass_phion_validation:
-                if (TextUtils.isEmpty(name)){
-                     Toast.makeText(BackPasswordActivity.this,"用户名不能为空！",Toast.LENGTH_LONG).show();
-                }else if (TextUtils.isEmpty(phone)){
+               if (TextUtils.isEmpty(phone)){
                     Toast.makeText(BackPasswordActivity.this,"手机号不能为空！",Toast.LENGTH_LONG).show();
                 }else if (phone.length()!=11){
                     Toast.makeText(BackPasswordActivity.this,"请输入正确的手机号码",Toast.LENGTH_LONG).show();
@@ -118,7 +116,7 @@ public class BackPasswordActivity extends BaseActivity implements View.OnClickLi
         String phone = pihon.getText().toString();
         String pass =  new_pass_ok.getText().toString();
         String captcha = ed_validation.getText().toString();
-        HttpClientHelper.getInstance().bacpassword(name, phone, pass, captcha, new HttpSubseiber.ResponseHandler<String>() {
+        HttpClientHelper.getInstance().bacpassword("", phone, pass, captcha, new HttpSubseiber.ResponseHandler<String>() {
             @Override
             public void onSucceed(String data) {
                  dismisDialog();

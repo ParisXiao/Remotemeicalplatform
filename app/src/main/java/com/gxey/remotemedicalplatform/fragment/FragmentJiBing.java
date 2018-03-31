@@ -115,7 +115,7 @@ public class FragmentJiBing extends BaseFragment {
     String msg;
 
     private void getData() {
-
+        list.clear();
         Observable.create(new Observable.OnSubscribe<Integer>() {
 
             @Override

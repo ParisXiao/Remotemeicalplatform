@@ -148,7 +148,7 @@ public class HealthNewsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
         public FooterViewHolder(View itemView) {
             super(itemView);
             ButterKnife.bind(this, itemView);
-            itemView.setOnClickListener(HealthNewsAdapter.this);
+
         }
     }
 
@@ -173,7 +173,7 @@ public class HealthNewsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
         public MyViewHolder(View itemView) {
             super(itemView);
             ButterKnife.bind(this, itemView);
-
+            itemView.setOnClickListener(HealthNewsAdapter.this);
         }
 
     }
