@@ -23,6 +23,7 @@ dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile 'com.github.erizet.signala:signala-longpolling:0.20'
     //compile 'io.pristine:libjingle:9127@aar'
-    compile 'io.pristine:libjingle:9694@aar'
+//    compile 'io.pristine:libjingle:9694@aar'
+    compile 'io.pristine:libjingle:11139@aar'
 
 }

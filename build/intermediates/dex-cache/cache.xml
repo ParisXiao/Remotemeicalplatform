@@ -3,6 +3,15 @@
 
     <item
         is-multidex="true"
+        jar="C:\Users\Administrator\.android\build-cache\3655bccfd89d55f95000273d27c53981df0d11f4\output\jars\libs\libjingle_peerconnection.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.3"
+        sha1="5a3f4d801aa25da4842700efd9470321b02cf7d4">
+        <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\transforms\dex\debug\folders\1000\10\libjingle_peerconnection_18c51e8a18fa97e5f6bbb744601a7a199341a561\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
@@ -25,7 +34,7 @@
         jumboMode="true"
         optimize="true"
         revision="26.0.3"
-        sha1="bef41acfbdecd6be31ba5c639f87df26c561bdb4">
+        sha1="c8a7f32d29da2c88ff89687d8d46233cf7b5d13d">
         <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_173038f38cddc64cc3f219fe7a50fa24c488d419\classes.dex" />
     </item>
     <item

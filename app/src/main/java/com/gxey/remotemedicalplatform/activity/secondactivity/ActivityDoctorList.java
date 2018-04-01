@@ -399,6 +399,13 @@ public class ActivityDoctorList extends BaseActivity implements View.OnClickList
      * 通知患者视频
      */
     public void acceptMemberCallBack(){
+        runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                window.dismiss();
+            }
+        });
+
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
@@ -407,9 +414,9 @@ public class ActivityDoctorList extends BaseActivity implements View.OnClickList
                 intent.putExtra("connectionId",contectid);
                 contectid="";
                 startActivity(intent);
-                window.dismiss();
+                finish();
             }
-        },2000);
+        },1000);
 
     }
 

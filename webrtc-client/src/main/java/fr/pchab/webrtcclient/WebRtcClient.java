@@ -44,14 +44,14 @@ public class WebRtcClient {
     private String RoomID;
     private Context context;
 
-    public WebRtcClient(Context context, VideoRenderer.Callbacks localRender, VideoRenderer.Callbacks remoteRender, RtcListener listener, PeerConnectionParameters params, EGLContext mEGLcontext) {
+    public WebRtcClient(Context context, VideoRenderer.Callbacks localRender, VideoRenderer.Callbacks remoteRender, RtcListener listener, PeerConnectionParameters params) {
         this.mListener = listener;
         this.context = context;
         this.localRender = localRender;
         this.remoteRender = remoteRender;
         this.pcParams = params;
         PeerConnectionFactory.initializeAndroidGlobals(listener, true, true,
-                params.videoCodecHwAcceleration, mEGLcontext);
+                params.videoCodecHwAcceleration);
 
         factory = new PeerConnectionFactory();
         new MessageHandler();
@@ -362,6 +362,8 @@ public class WebRtcClient {
             Log.d(TAG, "onRemoveStream " + mediaStream.label());
             removePeer(id);
         }
+
+
 
         @Override
         public void onDataChannel(DataChannel dataChannel) {

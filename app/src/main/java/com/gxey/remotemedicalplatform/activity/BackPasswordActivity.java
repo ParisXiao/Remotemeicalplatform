@@ -121,6 +121,7 @@ public class BackPasswordActivity extends BaseActivity implements View.OnClickLi
             public void onSucceed(String data) {
                  dismisDialog();
                 Toast.makeText(BackPasswordActivity.this,"密码更改成功！",Toast.LENGTH_LONG).show();
+                finish();
             }
 
             @Override

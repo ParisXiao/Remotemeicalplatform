@@ -36,6 +36,7 @@ import com.gxey.remotemedicalplatform.utils.AndroidUtil;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.webrtc.MediaStream;
+import org.webrtc.RendererCommon;
 import org.webrtc.VideoRenderer;
 import org.webrtc.VideoRendererGui;
 
@@ -57,7 +58,7 @@ import me.iwf.photopicker.PhotoPicker;
  * 视频咨询界面
  */
 
-public class ActivityMyOverConsultation extends BaseActivity implements View.OnClickListener,WebRtcClient.RtcListener {
+public class ActivityMyOverConsultation extends BaseActivity implements View.OnClickListener, WebRtcClient.RtcListener {
 
     @BindView(R.id.GL_text_left)
     TextView GLTextLeft;
@@ -90,7 +91,7 @@ public class ActivityMyOverConsultation extends BaseActivity implements View.OnC
     private static final int REMOTE_WIDTH = 100;
     private static final int REMOTE_X = 0;
     private static final int REMOTE_Y = 0;
-    private VideoRendererGui.ScalingType scalingType = VideoRendererGui.ScalingType.SCALE_ASPECT_FILL;
+    private RendererCommon.ScalingType scalingType = RendererCommon.ScalingType.SCALE_ASPECT_FILL;
     private GLSurfaceView vsv;
     private VideoRenderer.Callbacks localRender;
     private VideoRenderer.Callbacks remoteRender;
@@ -98,8 +99,8 @@ public class ActivityMyOverConsultation extends BaseActivity implements View.OnC
     public static ActivityMyOverConsultation activity;
     private List<MessageEntity> listMessage = new ArrayList<>();
     private MessageAdapter messageAdapter;
-    private String connectionId="";
-    private boolean isShow=false;
+    private String connectionId = "";
+    private boolean isShow = false;
     private PopupWindow window;
 
     @Override
@@ -111,8 +112,8 @@ public class ActivityMyOverConsultation extends BaseActivity implements View.OnC
     protected void initView() {
         activity = this;
         entity = (DoctorEntity) getIntent().getSerializableExtra("entity");
-        connectionId=getIntent().getStringExtra("connectionId");
-        Log.d("connectionId",connectionId);
+        connectionId = getIntent().getStringExtra("connectionId");
+        Log.d("connectionId", connectionId);
         initVideo();
         initAudio();
 
@@ -124,14 +125,14 @@ public class ActivityMyOverConsultation extends BaseActivity implements View.OnC
         GLTextLeft.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(ActivityMyOverConsultation.this,ActivityHeathDangAn.class);
+                Intent intent = new Intent(ActivityMyOverConsultation.this, ActivityHeathDangAn.class);
                 startActivity(intent);
             }
         });
         GLTextRight.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(ActivityMyOverConsultation.this,ActivityHeathDianZi.class);
+                Intent intent = new Intent(ActivityMyOverConsultation.this, ActivityHeathDianZi.class);
                 startActivity(intent);
             }
         });
@@ -205,11 +206,11 @@ public class ActivityMyOverConsultation extends BaseActivity implements View.OnC
         GLBtnLiaotian.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (isShow){
-                    isShow=false;
+                if (isShow) {
+                    isShow = false;
                     window.dismiss();
-                }else {
-                    isShow=true;
+                } else {
+                    isShow = true;
                     initPopupWindow(v);
                 }
 
@@ -224,7 +225,7 @@ public class ActivityMyOverConsultation extends BaseActivity implements View.OnC
         // 创建PopupWindow对象，其中：
         // 第一个参数是用于PopupWindow中的View，第二个参数是PopupWindow的宽度，
         // 第三个参数是PopupWindow的高度，第四个参数指定PopupWindow能否获得焦点
-        window = new PopupWindow(contentView, ViewGroup.LayoutParams.MATCH_PARENT,  ViewGroup.LayoutParams.WRAP_CONTENT, true);
+        window = new PopupWindow(contentView, ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT, true);
         // 设置PopupWindow的背景
         window.setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
         // 设置PopupWindow是否能响应外部点击事件
@@ -373,16 +374,13 @@ public class ActivityMyOverConsultation extends BaseActivity implements View.OnC
     }
 
     private void sendLeaveCallBack() {
-        if (isVideo) {
-            JSONArray jsonArray = new JSONArray();
-            jsonArray.put(mConfig.getRoomID());
-            SignalaUtils.getInstance(this).sendMessage("sendLeave", jsonArray);
-            Intent intent = new Intent(ActivityMyOverConsultation.this, EvaluationActivity.class);
-            intent.putExtra("roomID", client.getRoomID());
-            intent.putExtra("doctorc", entity.getConnectionId());
-            startActivity(intent);
-        }
-
+        JSONArray jsonArray = new JSONArray();
+        jsonArray.put(mConfig.getRoomID());
+        SignalaUtils.getInstance(this).sendMessage("sendLeave", jsonArray);
+        Intent intent = new Intent(ActivityMyOverConsultation.this, EvaluationActivity.class);
+        intent.putExtra("roomID", client.getRoomID());
+        intent.putExtra("doctorc", entity.getConnectionId());
+        startActivity(intent);
         finish();
     }
 
@@ -400,13 +398,12 @@ public class ActivityMyOverConsultation extends BaseActivity implements View.OnC
     }
 
 
-
     private void init() {
         Point displaySize = new Point();
         getWindowManager().getDefaultDisplay().getSize(displaySize);
         PeerConnectionParameters params = new PeerConnectionParameters(
                 true, false, 240, 320, 15, 1, VIDEO_CODEC_VP9, true, 1, AUDIO_CODEC_OPUS, true);
-        client = new WebRtcClient(this, localRender,remoteRender, this, params, VideoRendererGui.getEGLContext());
+        client = new WebRtcClient(this, localRender, remoteRender, this, params);
         client.initOffe(connectionId);
     }
 
@@ -443,7 +440,6 @@ public class ActivityMyOverConsultation extends BaseActivity implements View.OnC
     public void sendCaseDualCallBack() {
         GLTextMid.setVisibility(View.VISIBLE);
     }
-
 
 
     public void getMessage(JSONArray args) {
@@ -516,6 +512,7 @@ public class ActivityMyOverConsultation extends BaseActivity implements View.OnC
 //        messageAdapter.notifyDataSetChanged();
 
     }
+
     @Override
     public void onCallReady(String callId) {
 
