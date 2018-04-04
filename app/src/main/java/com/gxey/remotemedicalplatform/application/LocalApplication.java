@@ -3,9 +3,12 @@ package com.gxey.remotemedicalplatform.application;
 import android.content.Context;
 import android.telephony.TelephonyManager;
 import android.util.DisplayMetrics;
+import android.util.Log;
 
 import com.gxey.remotemedicalplatform.BuildConfig;
 import com.gxey.remotemedicalplatform.model.LocationConfig;
+import com.gxey.remotemedicalplatform.utils.PhoneList;
+import com.gxey.remotemedicalplatform.utils.SystemUtil;
 
 import org.xutils.x;
 
@@ -22,6 +25,8 @@ public class LocalApplication extends BaseApplication{
     public int screenW = 0;
     public int screenH = 0;
 
+    //是否需要rtmp推流
+    public boolean isRTMP=false;
 
 
 
@@ -72,7 +77,10 @@ public class LocalApplication extends BaseApplication{
      */
 
         LocationConfig.getInstance().setDeviceId(telephonyManager.getDeviceId());
-
+        if (PhoneList.phoneRtmp(SystemUtil.getSystemModel())){
+            isRTMP=true;
+            Log.d("rtmp","isRTMP"+isRTMP);
+        }
 
     }
 

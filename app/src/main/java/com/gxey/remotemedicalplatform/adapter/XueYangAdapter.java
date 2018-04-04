@@ -142,8 +142,8 @@ public class XueYangAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
             //折线对应的数据
             Map<String, Float> value = new HashMap<>();
             for (int i = 0; i < list.size(); i++) {
-                xValue.add(TimeUtils.MyDateMD(list.get(i).getAddtime()));
-                value.put(TimeUtils.MyDateMD(list.get(i).getAddtime()), Float.valueOf(list.get(i).getBloodoxygen()));//60--240
+                xValue.add(list.get(i).getAddtime());
+                value.put(list.get(i).getAddtime(), Float.valueOf(list.get(i).getBloodoxygen()));//60--240
             }
 
             for (int i = 0; i < 10; i++) {

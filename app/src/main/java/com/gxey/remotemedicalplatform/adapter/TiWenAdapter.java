@@ -123,16 +123,6 @@ public class TiWenAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
             }
 
         }else if (holder instanceof ChartsViewHolder) {
-            if (list.size()>7){
-                for (int i = 0; i < 7; i++) {
-                    listLast.add(i,list.get(list.size()-i-1));
-                }
-
-            }else {
-                for (int i = 0; i < list.size(); i++) {
-                    listLast.add(list.get(i));
-                }
-            }
             //x轴坐标对应的数据
             List<String> xValue = new ArrayList<>();
             //y轴坐标对应的数据
@@ -140,8 +130,8 @@ public class TiWenAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
             //折线对应的数据
             Map<String, Float> value = new HashMap<>();
             for (int i = 0; i < list.size(); i++) {
-                xValue.add(TimeUtils.MyDateMD(list.get(i).getAddtime()));
-                value.put(TimeUtils.MyDateMD(list.get(i).getAddtime()), Float.valueOf(list.get(i).getTemperature()));//60--240
+                xValue.add(list.get(i).getAddtime());
+                value.put(list.get(i).getAddtime(), Float.valueOf(list.get(i).getTemperature()));//60--240
             }
 
             for (int i = 0; i < 10; i++) {
@@ -185,15 +175,6 @@ public class TiWenAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
         }
     }
 
-    public void AddHeaderItem(List<TiWenBean> items) {
-        list.addAll(0, items);
-        notifyDataSetChanged();
-    }
-
-    public void AddFooterItem(List<TiWenBean> items) {
-        list.addAll(items);
-        notifyDataSetChanged();
-    }
 
     /**
      * 更新加载更多状态

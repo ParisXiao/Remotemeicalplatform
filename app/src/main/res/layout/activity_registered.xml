@@ -71,6 +71,32 @@
             android:layout_height="40dp"
             />
         <TextView
+            android:id="@+id/re_pass_sure"
+            android:layout_below="@+id/re_line"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:text="确认密码："
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/re_line_sure"
+            android:background="@color/line"
+            android:layout_below="@+id/re_ed_pass_sure"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+        <EditText
+            android:id="@+id/re_ed_pass_sure"
+            android:layout_below="@+id/re_line"
+            android:layout_toRightOf="@+id/re_pass"
+            android:layout_marginLeft="35dp"
+            android:background="@null"
+            android:textSize="15dp"
+            android:inputType="numberPassword"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            />
+        <TextView
             android:id="@+id/re_line1"
             android:background="@color/line"
             android:layout_below="@+id/re_ed_username"
@@ -79,14 +105,14 @@
         <TextView
             android:id="@+id/re_name"
             android:textColor="@color/black"
-            android:layout_below="@id/re_line"
+            android:layout_below="@id/re_line_sure"
             android:layout_marginTop="10dp"
             android:text="会员姓名："
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
         <EditText
             android:background="@null"
-            android:layout_below="@id/re_line"
+            android:layout_below="@id/re_line_sure"
             android:textSize="15dp"
             android:gravity="center_vertical"
             android:id="@+id/re_ed_name"
@@ -101,10 +127,34 @@
             android:layout_width="match_parent"
             android:layout_height="1dp" />
         <TextView
+            android:id="@+id/re_sfzh"
+            android:textColor="@color/black"
+            android:layout_below="@id/re_line2"
+            android:layout_marginTop="10dp"
+            android:text="身份证号码："
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:background="@null"
+            android:layout_below="@id/re_line2"
+            android:textSize="15dp"
+            android:gravity="center_vertical"
+            android:id="@+id/re_ed_sfzh"
+            android:layout_marginLeft="75dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+        <TextView
+
+            android:id="@+id/re_line2_sfzh"
+            android:background="@color/line"
+            android:layout_below="@+id/re_ed_sfzh"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+        <TextView
             android:layout_marginTop="15dp"
             android:textColor="@color/black"
             android:id="@+id/re_six"
-            android:layout_below="@+id/re_line2"
+            android:layout_below="@+id/re_line2_sfzh"
             android:text="性别"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
@@ -116,7 +166,7 @@
             android:layout_marginLeft="15dp"
             android:layout_width="wrap_content"
             android:layout_toRightOf="@+id/re_six"
-            android:layout_below="@+id/re_ed_name"
+            android:layout_below="@+id/re_ed_sfzh"
             android:layout_height="wrap_content">
 
             <RadioButton

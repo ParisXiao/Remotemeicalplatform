@@ -78,7 +78,7 @@ public class ActivityHeathDangAn extends BaseActivity implements View.OnClickLis
             public void onItemClick(View view, int position) {
                 switch (position) {
                     case 0:
-                        Intent intent = new Intent(ActivityHeathDangAn.this, PersonalInformationActivity.class);
+                        Intent intent = new Intent(ActivityHeathDangAn.this, ActivityMyMsg.class);
                         startActivity(intent);
                         break;
                     case 1:

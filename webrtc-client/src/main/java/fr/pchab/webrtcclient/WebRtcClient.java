@@ -44,7 +44,7 @@ public class WebRtcClient {
     private String RoomID;
     private Context context;
 
-    public WebRtcClient(Context context, VideoRenderer.Callbacks localRender, VideoRenderer.Callbacks remoteRender, RtcListener listener, PeerConnectionParameters params) {
+    public WebRtcClient(Context context, VideoRenderer.Callbacks localRender, VideoRenderer.Callbacks remoteRender, RtcListener listener, PeerConnectionParameters params,boolean isRtmp) {
         this.mListener = listener;
         this.context = context;
         this.localRender = localRender;
@@ -64,7 +64,10 @@ public class WebRtcClient {
         pcConstraints.mandatory.add(new MediaConstraints.KeyValuePair("OfferToReceiveAudio", "true"));
         pcConstraints.mandatory.add(new MediaConstraints.KeyValuePair("OfferToReceiveVideo", "true"));
         pcConstraints.optional.add(new MediaConstraints.KeyValuePair("DtlsSrtpKeyAgreement", "true"));
-        setCamera();
+        localMS = factory.createLocalMediaStream("ARDAMS");
+        if (!isRtmp){
+            setCamera();
+        }
     }
 
     public String getRoomID() {

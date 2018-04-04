@@ -17,6 +17,10 @@ import android.widget.Toast;
 import com.gxey.remotemedicalplatform.R;
 import com.gxey.remotemedicalplatform.network.HttpClientHelper;
 import com.gxey.remotemedicalplatform.network.HttpSubseiber;
+import com.gxey.remotemedicalplatform.utils.IDCardUtil;
+import com.gxey.remotemedicalplatform.utils.MyStrUtil;
+
+import java.text.ParseException;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -80,6 +84,10 @@ public class RegisteredActivity extends BaseActivity {
     RadioGroup mRGSix;
     @BindView(R.id.re_ed_pass)
     EditText pass;
+    @BindView(R.id.re_ed_pass_sure)
+    EditText PassSure;
+    @BindView(R.id.re_ed_sfzh)
+    EditText Sfzh;
     private TimeCount time;
     private String six;
     private String six1;
@@ -101,11 +109,12 @@ public class RegisteredActivity extends BaseActivity {
             @Override
             public void onClick(View view) {
 
-                if (TextUtils.isEmpty(reEdPihon.getText().toString())){
-                    Toast.makeText(RegisteredActivity.this,"请输入手机号码",Toast.LENGTH_LONG).show();
+                if (TextUtils.isEmpty(reEdPihon.getText().toString())) {
+                    Toast.makeText(RegisteredActivity.this, "请输入手机号码", Toast.LENGTH_LONG).show();
                     return;
-                }if (reEdPihon.getText().toString().length()!=11){
-                    Toast.makeText(RegisteredActivity.this,"请输入正确的手机号码",Toast.LENGTH_LONG).show();
+                }
+                if (reEdPihon.getText().toString().length() != 11) {
+                    Toast.makeText(RegisteredActivity.this, "请输入正确的手机号码", Toast.LENGTH_LONG).show();
                     return;
                 }
                 getVerificationCode();
@@ -118,9 +127,9 @@ public class RegisteredActivity extends BaseActivity {
             public void onCheckedChanged(RadioGroup radioGroup, int i) {
                 RadioButton radioButton = (RadioButton) findViewById(i);
                 six = (String) radioButton.getText();
-                if (six.equals("男")){
+                if (six.equals("男")) {
                     six1 = "M";
-                }else {
+                } else {
                     six1 = "W";
                 }
             }
@@ -130,7 +139,7 @@ public class RegisteredActivity extends BaseActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean isChecked) {
                 if (isChecked) {
                     isOK = true;
-                }else {
+                } else {
                     isOK = false;
                 }
             }
@@ -139,7 +148,7 @@ public class RegisteredActivity extends BaseActivity {
         agreement.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(RegisteredActivity.this,WebAgreementActivity.class);
+                Intent intent = new Intent(RegisteredActivity.this, WebAgreementActivity.class);
                 startActivity(intent);
             }
         });
@@ -166,24 +175,25 @@ public class RegisteredActivity extends BaseActivity {
         HttpClientHelper.getInstance().getRegistered(
                 reEdPihon.getText().toString(),
                 pass.getText().toString(),
+                Sfzh.getText().toString(),
                 six1,
                 reEdName.getText().toString(),
                 reEdUsername.getText().toString(),
                 reEdValidation.getText().toString(), new HttpSubseiber.ResponseHandler<String>() {
-            @Override
-            public void onSucceed(String data) {
+                    @Override
+                    public void onSucceed(String data) {
 
-                Toast.makeText(RegisteredActivity.this, "注册成功",Toast.LENGTH_LONG).show();
-                finish();
+                        Toast.makeText(RegisteredActivity.this, "注册成功", Toast.LENGTH_LONG).show();
+                        finish();
 
-            }
+                    }
 
-            @Override
-            public void onFail(String msg) {
-                Toast.makeText(RegisteredActivity.this,"注册失败",Toast.LENGTH_LONG).show();
+                    @Override
+                    public void onFail(String msg) {
+                        Toast.makeText(RegisteredActivity.this, "注册失败", Toast.LENGTH_LONG).show();
 
-            }
-        });
+                    }
+                });
     }
 
     /**
@@ -198,55 +208,76 @@ public class RegisteredActivity extends BaseActivity {
             @Override
             public void onSucceed(String data) {
 
-                Toast.makeText(RegisteredActivity.this,"验证码获取成功！",Toast.LENGTH_LONG).show();
+                Toast.makeText(RegisteredActivity.this, "验证码获取成功！", Toast.LENGTH_LONG).show();
                 time.start();
 
             }
 
             @Override
             public void onFail(String msg) {
-                Toast.makeText(RegisteredActivity.this,"验证码获取失败",Toast.LENGTH_LONG).show();
+                Toast.makeText(RegisteredActivity.this, "验证码获取失败", Toast.LENGTH_LONG).show();
 
             }
         });
     }
 
 
-    @OnClick({ R.id.re_tv_registered})
+    @OnClick({R.id.re_tv_registered})
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.re_tv_registered://注册
 
-                if(TextUtils.isEmpty(reEdUsername.getText().toString())){
-                    Toast.makeText(RegisteredActivity.this,"请输入用户名",Toast.LENGTH_LONG).show();
+                if (TextUtils.isEmpty(reEdUsername.getText().toString())) {
+                    Toast.makeText(RegisteredActivity.this, "请输入用户名", Toast.LENGTH_LONG).show();
                     return;
                 }
-                if (TextUtils.isEmpty(pass.getText().toString())){
-                    Toast.makeText(RegisteredActivity.this,"请输入密码",Toast.LENGTH_LONG).show();
+                if (TextUtils.isEmpty(pass.getText().toString())) {
+                    Toast.makeText(RegisteredActivity.this, "请输入密码", Toast.LENGTH_LONG).show();
+                    return;
+                }
+                if (TextUtils.isEmpty(PassSure.getText().toString())) {
+                    Toast.makeText(RegisteredActivity.this, "请输入确认密码", Toast.LENGTH_LONG).show();
+                    return;
+                }
+                if (!pass.getText().toString().equals(PassSure.getText().toString())) {
+                    Toast.makeText(RegisteredActivity.this, "两次输入的密码不一致", Toast.LENGTH_LONG).show();
+                    return;
+                }
+                if (!MyStrUtil.isEmpty(Sfzh.getText().toString())){
+                    try {
+                        if (!IDCardUtil.IDCardValidate(Sfzh.getText().toString())){
+                            Toast.makeText(RegisteredActivity.this, "请输入正确身份证号", Toast.LENGTH_SHORT).show();
+                            return;
+                        }
+                    } catch (ParseException e) {
+                        e.printStackTrace();
+                    }
+
+                }else {
+                    Toast.makeText(RegisteredActivity.this, "请输入身份证号", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+                if (TextUtils.isEmpty(reEdName.getText().toString())) {
+                    Toast.makeText(RegisteredActivity.this, "请输入会员姓名", Toast.LENGTH_LONG).show();
                     return;
                 }
 
-                if (TextUtils.isEmpty(reEdName.getText().toString())){
-                    Toast.makeText(RegisteredActivity.this,"请输入会员姓名",Toast.LENGTH_LONG).show();
+                if (TextUtils.isEmpty(six1)) {
+                    Toast.makeText(RegisteredActivity.this, "请选择性别", Toast.LENGTH_LONG).show();
                     return;
                 }
 
-                if (TextUtils.isEmpty(six1)){
-                    Toast.makeText(RegisteredActivity.this,"请选择性别",Toast.LENGTH_LONG).show();
+                if (TextUtils.isEmpty(reEdPihon.getText().toString())) {
+                    Toast.makeText(RegisteredActivity.this, "请输入手机号码", Toast.LENGTH_LONG).show();
                     return;
                 }
 
-                if (TextUtils.isEmpty(reEdPihon.getText().toString())){
-                    Toast.makeText(RegisteredActivity.this,"请输入手机号码",Toast.LENGTH_LONG).show();
+                if (TextUtils.isEmpty(reEdValidation.getText().toString())) {
+                    Toast.makeText(RegisteredActivity.this, "请输入验证码", Toast.LENGTH_LONG).show();
                     return;
                 }
-
-                if (TextUtils.isEmpty(reEdValidation.getText().toString())){
-                    Toast.makeText(RegisteredActivity.this,"请输入验证码",Toast.LENGTH_LONG).show();
-                    return;
-                }
-                if (isOK == false){
-                Toast.makeText(RegisteredActivity.this,"请同意医疗服务协议协议",Toast.LENGTH_LONG).show();
+                if (isOK == false) {
+                    Toast.makeText(RegisteredActivity.this, "请同意医疗服务协议协议", Toast.LENGTH_LONG).show();
                     return;
                 }
 

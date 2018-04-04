@@ -7,7 +7,8 @@ android {
     compileSdkVersion 23
     buildToolsVersion '26.0.3'
     defaultConfig {
-        applicationId "com.gxey.remotemedicalplatform"
+//        applicationId "com.gxey.remotemedicalplatform"
+        applicationId "cn.nodemedia.demo"
         minSdkVersion 15
         targetSdkVersion 22
         versionCode 1
@@ -24,13 +25,18 @@ android {
 
 
 }
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
 allprojects {
     repositories {
         maven { url 'https://jitpack.io' }
     }
 }
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile fileTree(dir: 'libs', include: ['*.jar'])
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
@@ -64,6 +70,6 @@ dependencies {
     compile project(':timelibrary')
     compile project(path: ':webrtc-client')
     compile 'com.github.barteksc:android-pdf-viewer:2.6.1'
-
+    compile (name: 'NodeMediaClient-2.3.7', ext: 'aar')
 
 }

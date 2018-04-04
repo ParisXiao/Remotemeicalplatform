@@ -61,6 +61,8 @@ public class RegisteredActivity_ViewBinding<T extends RegisteredActivity> implem
     target.ll_re_number2 = Utils.findRequiredViewAsType(source, R.id.ll_re_number2, "field 'll_re_number2'", LinearLayout.class);
     target.mRGSix = Utils.findRequiredViewAsType(source, R.id.rg_six, "field 'mRGSix'", RadioGroup.class);
     target.pass = Utils.findRequiredViewAsType(source, R.id.re_ed_pass, "field 'pass'", EditText.class);
+    target.PassSure = Utils.findRequiredViewAsType(source, R.id.re_ed_pass_sure, "field 'PassSure'", EditText.class);
+    target.Sfzh = Utils.findRequiredViewAsType(source, R.id.re_ed_sfzh, "field 'Sfzh'", EditText.class);
   }
 
   @Override
@@ -95,6 +97,8 @@ public class RegisteredActivity_ViewBinding<T extends RegisteredActivity> implem
     target.ll_re_number2 = null;
     target.mRGSix = null;
     target.pass = null;
+    target.PassSure = null;
+    target.Sfzh = null;
 
     view2131624123.setOnClickListener(null);
     view2131624123 = null;

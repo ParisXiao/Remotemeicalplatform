@@ -142,8 +142,8 @@ public class XueTangAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
             //折线对应的数据
             Map<String, Float> value = new HashMap<>();
             for (int i = 0; i < list.size(); i++) {
-                xValue.add(TimeUtils.MyDateMD(list.get(i).getAddtime()));
-                value.put(TimeUtils.MyDateMD(list.get(i).getAddtime()), Float.valueOf(list.get(i).getBloodsugar()));//60--240
+                xValue.add(list.get(i).getAddtime());
+                value.put(list.get(i).getAddtime(), Float.valueOf(list.get(i).getBloodsugar()));//60--240
             }
 
             for (int i = 0; i < 15; i++) {
@@ -187,15 +187,6 @@ public class XueTangAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
         }
     }
 
-    public void AddHeaderItem(List<XueTangBean> items) {
-        list.addAll(0, items);
-        notifyDataSetChanged();
-    }
-
-    public void AddFooterItem(List<XueTangBean> items) {
-        list.addAll(items);
-        notifyDataSetChanged();
-    }
 
     /**
      * 更新加载更多状态

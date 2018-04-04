@@ -2,6 +2,7 @@ package com.gxey.remotemedicalplatform.adapter;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -125,25 +126,16 @@ public class XinLvAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
             }
 
         } else if (holder instanceof ChartsViewHolder) {
-            if (list.size() > 7) {
-                for (int i = 0; i < 7; i++) {
-                    listLast.add(i, list.get(list.size() - i - 1));
-                }
-
-            } else {
-                for (int i = 0; i < list.size(); i++) {
-                    listLast.add(list.get(i));
-                }
-            }
-            //x轴坐标对应的数据
+            //x 轴坐标对应的数据
             List<String> xValue = new ArrayList<>();
             //y轴坐标对应的数据
             List<Float> yValue = new ArrayList<>();
             //折线对应的数据
             Map<String, Float> value = new HashMap<>();
             for (int i = 0; i < list.size(); i++) {
-                xValue.add(TimeUtils.MyDateMD(list.get(i).getAddtime()));
-                value.put(TimeUtils.MyDateMD(list.get(i).getAddtime()), Float.valueOf(list.get(i).getPulse()));//60--240
+                xValue.add(list.get(i).getAddtime());
+                Log.d("Float",Float.valueOf(list.get(i).getPulse())+"");
+                value.put(list.get(i).getAddtime(), Float.valueOf(list.get(i).getPulse()));//60--240
             }
 
             for (int i = 0; i < 14; i++) {
@@ -187,15 +179,7 @@ public class XinLvAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
         }
     }
 
-    public void AddHeaderItem(List<XinLvBean> items) {
-        list.addAll(0, items);
-        notifyDataSetChanged();
-    }
 
-    public void AddFooterItem(List<XinLvBean> items) {
-        list.addAll(items);
-        notifyDataSetChanged();
-    }
 
     /**
      * 更新加载更多状态

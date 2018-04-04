@@ -3508,24 +3508,24 @@ containing a value of this type.
         public static final int ziliao=0x7f0200fc;
     }
     public static final class id {
-        public static final int EmptyLayout=0x7f0e01e7;
+        public static final int EmptyLayout=0x7f0e01ef;
         public static final int EmptyLayout_jiazu=0x7f0e00f1;
-        public static final int GL_btn_getimg=0x7f0e0158;
-        public static final int GL_btn_liaotian=0x7f0e0156;
-        public static final int GL_btn_over=0x7f0e0159;
-        public static final int GL_btn_send=0x7f0e0154;
-        public static final int GL_btn_sendimg=0x7f0e0157;
-        public static final int GL_edit_say=0x7f0e0153;
-        public static final int GL_text_left=0x7f0e014f;
-        public static final int GL_text_mid=0x7f0e0150;
-        public static final int GL_text_right=0x7f0e0151;
+        public static final int GL_btn_getimg=0x7f0e015a;
+        public static final int GL_btn_liaotian=0x7f0e0158;
+        public static final int GL_btn_over=0x7f0e015b;
+        public static final int GL_btn_send=0x7f0e0156;
+        public static final int GL_btn_sendimg=0x7f0e0159;
+        public static final int GL_edit_say=0x7f0e0155;
+        public static final int GL_text_left=0x7f0e0151;
+        public static final int GL_text_mid=0x7f0e0152;
+        public static final int GL_text_right=0x7f0e0153;
         public static final int MULTI=0x7f0e0053;
         public static final int NONE=0x7f0e0054;
-        public static final int RecyclerView=0x7f0e01e8;
+        public static final int RecyclerView=0x7f0e01f0;
         public static final int SINGLE=0x7f0e0055;
-        public static final int SwipeRefreshLayout=0x7f0e01e6;
+        public static final int SwipeRefreshLayout=0x7f0e01ee;
         public static final int ViewPager_tijian=0x7f0e010e;
-        public static final int action0=0x7f0e0273;
+        public static final int action0=0x7f0e027b;
         public static final int action_bar=0x7f0e0083;
         public static final int action_bar_activity_content=0x7f0e0000;
         public static final int action_bar_container=0x7f0e0082;
@@ -3534,7 +3534,7 @@ containing a value of this type.
         public static final int action_bar_subtitle=0x7f0e0063;
         public static final int action_bar_title=0x7f0e0062;
         public static final int action_context_bar=0x7f0e0084;
-        public static final int action_divider=0x7f0e0277;
+        public static final int action_divider=0x7f0e027f;
         public static final int action_menu_divider=0x7f0e0002;
         public static final int action_menu_presenter=0x7f0e0003;
         public static final int action_mode_bar=0x7f0e0080;
@@ -3545,9 +3545,10 @@ containing a value of this type.
         public static final int add=0x7f0e001e;
         public static final int adjust_height=0x7f0e003e;
         public static final int adjust_width=0x7f0e003f;
-        public static final int agreement=0x7f0e0180;
+        public static final int agreement=0x7f0e0188;
         public static final int alertTitle=0x7f0e0071;
         public static final int always=0x7f0e0040;
+        public static final int anniu=0x7f0e0150;
         public static final int apply=0x7f0e0118;
         public static final int auto=0x7f0e004e;
         public static final int back=0x7f0e00a5;
@@ -3557,66 +3558,67 @@ containing a value of this type.
         public static final int beginning=0x7f0e003c;
         public static final int bottom=0x7f0e002d;
         public static final int bottom_navigation_bar=0x7f0e0110;
-        public static final int bottom_navigation_bar_container=0x7f0e01bb;
-        public static final int bottom_navigation_bar_item_container=0x7f0e01bd;
-        public static final int bottom_navigation_bar_overLay=0x7f0e01bc;
-        public static final int btnReset=0x7f0e025d;
-        public static final int btn_cancel=0x7f0e0258;
-        public static final int btn_confirm=0x7f0e0259;
-        public static final int btn_logout=0x7f0e01e5;
-        public static final int btn_pick_photo=0x7f0e0286;
-        public static final int btn_take_photo=0x7f0e0285;
+        public static final int bottom_navigation_bar_container=0x7f0e01c3;
+        public static final int bottom_navigation_bar_item_container=0x7f0e01c5;
+        public static final int bottom_navigation_bar_overLay=0x7f0e01c4;
+        public static final int btnReset=0x7f0e0265;
+        public static final int btn_cancel=0x7f0e0260;
+        public static final int btn_confirm=0x7f0e0261;
+        public static final int btn_logout=0x7f0e01ed;
+        public static final int btn_pick_photo=0x7f0e028e;
+        public static final int btn_take_photo=0x7f0e028d;
         public static final int button=0x7f0e0059;
         public static final int buttonPanel=0x7f0e006c;
-        public static final int cancel_action=0x7f0e0274;
-        public static final int cancel_button=0x7f0e01b9;
+        public static final int camera_preview=0x7f0e014f;
+        public static final int cancel_action=0x7f0e027c;
+        public static final int cancel_button=0x7f0e01c1;
         public static final int center=0x7f0e002e;
         public static final int center_horizontal=0x7f0e002f;
         public static final int center_vertical=0x7f0e0030;
-        public static final int chartview=0x7f0e0280;
-        public static final int chartview_name=0x7f0e027f;
+        public static final int chartview=0x7f0e0288;
+        public static final int chartview_name=0x7f0e0287;
         public static final int checkbox=0x7f0e007a;
-        public static final int chronometer=0x7f0e027a;
+        public static final int chronometer=0x7f0e0282;
         public static final int clamp=0x7f0e0048;
         public static final int clip_horizontal=0x7f0e0037;
         public static final int clip_vertical=0x7f0e0038;
         public static final int collapseActionView=0x7f0e0041;
-        public static final int confirm_button=0x7f0e01ba;
+        public static final int confirm_button=0x7f0e01c2;
         public static final int container=0x7f0e0056;
-        public static final int container_picker=0x7f0e0256;
-        public static final int container_toolbar=0x7f0e0257;
+        public static final int container_picker=0x7f0e025e;
+        public static final int container_toolbar=0x7f0e025f;
         public static final int content=0x7f0e00cc;
         public static final int contentPanel=0x7f0e0072;
-        public static final int content_text=0x7f0e01b8;
+        public static final int content_text=0x7f0e01c0;
         public static final int custom=0x7f0e0078;
         public static final int customPanel=0x7f0e0077;
-        public static final int custom_image=0x7f0e01ad;
+        public static final int custom_image=0x7f0e01b5;
         public static final int dangan_recycler=0x7f0e00d3;
         public static final int dark=0x7f0e004f;
         public static final int dataBinding=0x7f0e0004;
         public static final int decor_content_parent=0x7f0e0081;
         public static final int default_activity_button=0x7f0e0068;
-        public static final int delete=0x7f0e028e;
+        public static final int delete=0x7f0e0296;
         public static final int delete1=0x7f0e00cd;
         public static final int delete2=0x7f0e00ce;
         public static final int delete3=0x7f0e00d0;
-        public static final int design_bottom_sheet=0x7f0e01bf;
-        public static final int design_menu_item_action_area=0x7f0e01c6;
-        public static final int design_menu_item_action_area_stub=0x7f0e01c5;
-        public static final int design_menu_item_text=0x7f0e01c4;
-        public static final int design_navigation_view=0x7f0e01c3;
+        public static final int design_bottom_sheet=0x7f0e01c7;
+        public static final int design_menu_item_action_area=0x7f0e01ce;
+        public static final int design_menu_item_action_area_stub=0x7f0e01cd;
+        public static final int design_menu_item_text=0x7f0e01cc;
+        public static final int design_navigation_view=0x7f0e01cb;
         public static final int disableHome=0x7f0e0012;
-        public static final int doc_img=0x7f0e0209;
-        public static final int doctor_content=0x7f0e01fe;
-        public static final int doctor_fgx=0x7f0e01ff;
-        public static final int doctor_head=0x7f0e01fa;
-        public static final int doctor_keshi=0x7f0e01fd;
-        public static final int doctor_labels=0x7f0e01fc;
-        public static final int doctor_ljsq=0x7f0e0202;
-        public static final int doctor_name=0x7f0e01fb;
-        public static final int doctor_pdrs=0x7f0e0201;
-        public static final int done=0x7f0e028d;
-        public static final int dotLayout=0x7f0e026d;
+        public static final int doc_img=0x7f0e0211;
+        public static final int doctor_content=0x7f0e0206;
+        public static final int doctor_fgx=0x7f0e0207;
+        public static final int doctor_head=0x7f0e0202;
+        public static final int doctor_keshi=0x7f0e0205;
+        public static final int doctor_labels=0x7f0e0204;
+        public static final int doctor_ljsq=0x7f0e020a;
+        public static final int doctor_name=0x7f0e0203;
+        public static final int doctor_pdrs=0x7f0e0209;
+        public static final int done=0x7f0e0295;
+        public static final int dotLayout=0x7f0e0275;
         public static final int dz_blh=0x7f0e00dc;
         public static final int dz_bz=0x7f0e00eb;
         public static final int dz_bz_text=0x7f0e00ea;
@@ -3637,19 +3639,19 @@ containing a value of this type.
         public static final int editText=0x7f0e00f9;
         public static final int editText2=0x7f0e014d;
         public static final int edit_query=0x7f0e0085;
-        public static final int emptyLayout=0x7f0e015a;
+        public static final int emptyLayout=0x7f0e015c;
         public static final int emptyLayout_doctor=0x7f0e00da;
         public static final int emptyLayout_fenzhen=0x7f0e00f4;
         public static final int emptyLayout_healthbaogao=0x7f0e00fe;
         public static final int emptyLayout_yichuan=0x7f0e00fb;
-        public static final int emptyLayout_yizhu=0x7f0e018d;
+        public static final int emptyLayout_yizhu=0x7f0e0195;
         public static final int end=0x7f0e0031;
-        public static final int end_padder=0x7f0e027e;
-        public static final int end_time=0x7f0e0191;
+        public static final int end_padder=0x7f0e0286;
+        public static final int end_time=0x7f0e0199;
         public static final int enterAlways=0x7f0e0019;
         public static final int enterAlwaysCollapsed=0x7f0e001a;
-        public static final int error_frame=0x7f0e01ae;
-        public static final int error_x=0x7f0e01af;
+        public static final int error_frame=0x7f0e01b6;
+        public static final int error_x=0x7f0e01b7;
         public static final int et_search=0x7f0e0114;
         public static final int exitUntilCollapsed=0x7f0e001b;
         public static final int expand_activities_button=0x7f0e0066;
@@ -3658,21 +3660,21 @@ containing a value of this type.
         public static final int fill_horizontal=0x7f0e003a;
         public static final int fill_vertical=0x7f0e0032;
         public static final int fixed=0x7f0e0051;
-        public static final int fixed_bottom_navigation_badge=0x7f0e01c9;
-        public static final int fixed_bottom_navigation_container=0x7f0e01c7;
-        public static final int fixed_bottom_navigation_icon=0x7f0e01c8;
-        public static final int fixed_bottom_navigation_title=0x7f0e01ca;
-        public static final int fj=0x7f0e0164;
-        public static final int gerenjianjei=0x7f0e0169;
+        public static final int fixed_bottom_navigation_badge=0x7f0e01d1;
+        public static final int fixed_bottom_navigation_container=0x7f0e01cf;
+        public static final int fixed_bottom_navigation_icon=0x7f0e01d0;
+        public static final int fixed_bottom_navigation_title=0x7f0e01d2;
+        public static final int fj=0x7f0e0166;
+        public static final int gerenjianjei=0x7f0e016b;
         public static final int glview_call=0x7f0e00f6;
         public static final int head_zoom=0x7f0e011a;
-        public static final int health_dzbl=0x7f0e01cf;
-        public static final int health_fzzz=0x7f0e01d1;
-        public static final int health_jkda=0x7f0e01cb;
-        public static final int health_yczl=0x7f0e01cd;
+        public static final int health_dzbl=0x7f0e01d7;
+        public static final int health_fzzz=0x7f0e01d9;
+        public static final int health_jkda=0x7f0e01d3;
+        public static final int health_yczl=0x7f0e01d5;
         public static final int home=0x7f0e0005;
         public static final int homeAsUp=0x7f0e0013;
-        public static final int huiyaun=0x7f0e015f;
+        public static final int huiyaun=0x7f0e0161;
         public static final int icon=0x7f0e006a;
         public static final int icon_only=0x7f0e004b;
         public static final int ifRoom=0x7f0e0042;
@@ -3681,82 +3683,82 @@ containing a value of this type.
         public static final int img1=0x7f0e00c1;
         public static final int img2=0x7f0e00c5;
         public static final int img3=0x7f0e00cf;
-        public static final int img_bangzhu=0x7f0e01e2;
-        public static final int img_dingdan=0x7f0e01da;
-        public static final int img_fankui=0x7f0e01e4;
-        public static final int img_guanyu=0x7f0e01e0;
-        public static final int img_head=0x7f0e01d7;
-        public static final int img_quanzi=0x7f0e01dc;
-        public static final int img_xindiantu=0x7f0e01e9;
-        public static final int img_ziliao=0x7f0e01de;
-        public static final int info=0x7f0e027d;
-        public static final int item_baogao_chakan=0x7f0e0210;
-        public static final int item_baogao_danhao=0x7f0e020f;
-        public static final int item_baogao_danhao_text=0x7f0e020e;
-        public static final int item_baogao_hzname=0x7f0e0211;
-        public static final int item_baogao_time=0x7f0e0214;
-        public static final int item_baogao_ysname=0x7f0e0212;
-        public static final int item_baogao_zuzhi=0x7f0e0213;
-        public static final int item_bj_info=0x7f0e0242;
-        public static final int item_cl_bz=0x7f0e023b;
-        public static final int item_cl_name=0x7f0e0236;
-        public static final int item_cl_time=0x7f0e0239;
-        public static final int item_click=0x7f0e023c;
-        public static final int item_cs=0x7f0e0222;
-        public static final int item_cs_time=0x7f0e0244;
-        public static final int item_dzbl_cz=0x7f0e01f8;
-        public static final int item_dzbl_id=0x7f0e01f5;
-        public static final int item_dzbl_jg=0x7f0e01f7;
-        public static final int item_dzbl_time=0x7f0e01f9;
-        public static final int item_end_time=0x7f0e023f;
-        public static final int item_fenzhen_time=0x7f0e0204;
-        public static final int item_fenzhen_waike=0x7f0e0206;
-        public static final int item_fenzhen_yisheng=0x7f0e0207;
-        public static final int item_fenzhen_yiyuan=0x7f0e0205;
-        public static final int item_fenzhen_zhuanchu=0x7f0e0203;
-        public static final int item_fenzhen_zhuanru=0x7f0e01f6;
-        public static final int item_jb_name=0x7f0e0226;
-        public static final int item_jb_result=0x7f0e0228;
-        public static final int item_jb_rk=0x7f0e022a;
-        public static final int item_jb_time=0x7f0e0227;
-        public static final int item_jb_zl=0x7f0e0229;
-        public static final int item_jc=0x7f0e0223;
-        public static final int item_lx=0x7f0e01eb;
-        public static final int item_name=0x7f0e01ed;
-        public static final int item_name_text=0x7f0e01ea;
-        public static final int item_rl=0x7f0e0220;
-        public static final int item_sb_info=0x7f0e0243;
-        public static final int item_sfyc=0x7f0e023d;
-        public static final int item_ss_jg=0x7f0e0247;
-        public static final int item_ss_name=0x7f0e0245;
-        public static final int item_start_time=0x7f0e023e;
-        public static final int item_sz_jg=0x7f0e0248;
-        public static final int item_sz_name=0x7f0e0246;
-        public static final int item_tf=0x7f0e021f;
-        public static final int item_time=0x7f0e01ee;
-        public static final int item_time_text=0x7f0e01ec;
-        public static final int item_title=0x7f0e0225;
+        public static final int img_bangzhu=0x7f0e01ea;
+        public static final int img_dingdan=0x7f0e01e2;
+        public static final int img_fankui=0x7f0e01ec;
+        public static final int img_guanyu=0x7f0e01e8;
+        public static final int img_head=0x7f0e01df;
+        public static final int img_quanzi=0x7f0e01e4;
+        public static final int img_xindiantu=0x7f0e01f1;
+        public static final int img_ziliao=0x7f0e01e6;
+        public static final int info=0x7f0e0285;
+        public static final int item_baogao_chakan=0x7f0e0218;
+        public static final int item_baogao_danhao=0x7f0e0217;
+        public static final int item_baogao_danhao_text=0x7f0e0216;
+        public static final int item_baogao_hzname=0x7f0e0219;
+        public static final int item_baogao_time=0x7f0e021c;
+        public static final int item_baogao_ysname=0x7f0e021a;
+        public static final int item_baogao_zuzhi=0x7f0e021b;
+        public static final int item_bj_info=0x7f0e024a;
+        public static final int item_cl_bz=0x7f0e0243;
+        public static final int item_cl_name=0x7f0e023e;
+        public static final int item_cl_time=0x7f0e0241;
+        public static final int item_click=0x7f0e0244;
+        public static final int item_cs=0x7f0e022a;
+        public static final int item_cs_time=0x7f0e024c;
+        public static final int item_dzbl_cz=0x7f0e0200;
+        public static final int item_dzbl_id=0x7f0e01fd;
+        public static final int item_dzbl_jg=0x7f0e01ff;
+        public static final int item_dzbl_time=0x7f0e0201;
+        public static final int item_end_time=0x7f0e0247;
+        public static final int item_fenzhen_time=0x7f0e020c;
+        public static final int item_fenzhen_waike=0x7f0e020e;
+        public static final int item_fenzhen_yisheng=0x7f0e020f;
+        public static final int item_fenzhen_yiyuan=0x7f0e020d;
+        public static final int item_fenzhen_zhuanchu=0x7f0e020b;
+        public static final int item_fenzhen_zhuanru=0x7f0e01fe;
+        public static final int item_jb_name=0x7f0e022e;
+        public static final int item_jb_result=0x7f0e0230;
+        public static final int item_jb_rk=0x7f0e0232;
+        public static final int item_jb_time=0x7f0e022f;
+        public static final int item_jb_zl=0x7f0e0231;
+        public static final int item_jc=0x7f0e022b;
+        public static final int item_lx=0x7f0e01f3;
+        public static final int item_name=0x7f0e01f5;
+        public static final int item_name_text=0x7f0e01f2;
+        public static final int item_rl=0x7f0e0228;
+        public static final int item_sb_info=0x7f0e024b;
+        public static final int item_sfyc=0x7f0e0245;
+        public static final int item_ss_jg=0x7f0e024f;
+        public static final int item_ss_name=0x7f0e024d;
+        public static final int item_start_time=0x7f0e0246;
+        public static final int item_sz_jg=0x7f0e0250;
+        public static final int item_sz_name=0x7f0e024e;
+        public static final int item_tf=0x7f0e0227;
+        public static final int item_time=0x7f0e01f6;
+        public static final int item_time_text=0x7f0e01f4;
+        public static final int item_title=0x7f0e022d;
         public static final int item_touch_helper_previous_elevation=0x7f0e0006;
-        public static final int item_type3_gengduo=0x7f0e0218;
-        public static final int item_type3_title=0x7f0e0217;
-        public static final int item_type4_content=0x7f0e021a;
-        public static final int item_type4_time=0x7f0e021b;
-        public static final int item_type4_title=0x7f0e0219;
-        public static final int item_type5_content=0x7f0e021e;
-        public static final int item_type5_img=0x7f0e021c;
-        public static final int item_type5_title=0x7f0e021d;
-        public static final int item_ycend_time=0x7f0e0241;
-        public static final int item_ycstart_time=0x7f0e0240;
-        public static final int item_yichuan_time=0x7f0e024a;
-        public static final int item_yichuan_ycname=0x7f0e0249;
-        public static final int item_ys_text=0x7f0e0237;
-        public static final int item_yscl=0x7f0e0238;
-        public static final int item_yys=0x7f0e0221;
-        public static final int iv_1=0x7f0e016a;
-        public static final int iv_2=0x7f0e016b;
-        public static final int iv_3=0x7f0e016c;
+        public static final int item_type3_gengduo=0x7f0e0220;
+        public static final int item_type3_title=0x7f0e021f;
+        public static final int item_type4_content=0x7f0e0222;
+        public static final int item_type4_time=0x7f0e0223;
+        public static final int item_type4_title=0x7f0e0221;
+        public static final int item_type5_content=0x7f0e0226;
+        public static final int item_type5_img=0x7f0e0224;
+        public static final int item_type5_title=0x7f0e0225;
+        public static final int item_ycend_time=0x7f0e0249;
+        public static final int item_ycstart_time=0x7f0e0248;
+        public static final int item_yichuan_time=0x7f0e0252;
+        public static final int item_yichuan_ycname=0x7f0e0251;
+        public static final int item_ys_text=0x7f0e023f;
+        public static final int item_yscl=0x7f0e0240;
+        public static final int item_yys=0x7f0e0229;
+        public static final int iv_1=0x7f0e016c;
+        public static final int iv_2=0x7f0e016d;
+        public static final int iv_3=0x7f0e016e;
         public static final int iv_actionbar_left=0x7f0e009f;
-        public static final int iv_content=0x7f0e020c;
+        public static final int iv_content=0x7f0e0214;
         public static final int iv_dir_cover=0x7f0e005a;
         public static final int iv_pager=0x7f0e0060;
         public static final int iv_photo=0x7f0e005d;
@@ -3764,10 +3766,10 @@ containing a value of this type.
         public static final int iv_send_img=0x7f0e014b;
         public static final int lay_actionbar_left=0x7f0e009e;
         public static final int lay_actionbar_right=0x7f0e00a2;
-        public static final int lay_refresh=0x7f0e01d3;
+        public static final int lay_refresh=0x7f0e01db;
         public static final int lay_refresh_doctor=0x7f0e00d9;
         public static final int lay_transroot=0x7f0e009c;
-        public static final int layout_title=0x7f0e025e;
+        public static final int layout_title=0x7f0e0266;
         public static final int left=0x7f0e0033;
         public static final int lg_back=0x7f0e009a;
         public static final int lg_ed_password=0x7f0e0096;
@@ -3779,31 +3781,31 @@ containing a value of this type.
         public static final int lg_tv_login=0x7f0e0098;
         public static final int lg_username=0x7f0e0092;
         public static final int light=0x7f0e0050;
-        public static final int line1=0x7f0e0278;
-        public static final int line3=0x7f0e027c;
+        public static final int line1=0x7f0e0280;
+        public static final int line3=0x7f0e0284;
         public static final int linear=0x7f0e00af;
-        public static final int linear_head=0x7f0e0208;
+        public static final int linear_head=0x7f0e0210;
         public static final int linear_jiazi=0x7f0e00f2;
         public static final int listMode=0x7f0e000f;
         public static final int list_item=0x7f0e0069;
-        public static final int list_view=0x7f0e0181;
-        public static final int ll_dot=0x7f0e028c;
+        public static final int list_view=0x7f0e0189;
+        public static final int ll_dot=0x7f0e0294;
         public static final int ll_re_number2=0x7f0e00bc;
-        public static final int ll_title=0x7f0e018a;
-        public static final int loadLayout=0x7f0e0281;
-        public static final int loading=0x7f0e01ac;
-        public static final int logo_sy=0x7f0e0155;
+        public static final int ll_title=0x7f0e0192;
+        public static final int loadLayout=0x7f0e0289;
+        public static final int loading=0x7f0e01b4;
+        public static final int logo_sy=0x7f0e0157;
         public static final int lv_message=0x7f0e014a;
         public static final int main_liner=0x7f0e010f;
-        public static final int mask_left=0x7f0e01b2;
-        public static final int mask_right=0x7f0e01b1;
+        public static final int mask_left=0x7f0e01ba;
+        public static final int mask_right=0x7f0e01b9;
         public static final int medi_content=0x7f0e00ee;
-        public static final int media_actions=0x7f0e0276;
+        public static final int media_actions=0x7f0e027e;
         public static final int medical_lv=0x7f0e0117;
-        public static final int mendian=0x7f0e0166;
-        public static final int mendianid=0x7f0e0165;
-        public static final int menu_img=0x7f0e0234;
-        public static final int menu_text=0x7f0e0235;
+        public static final int mendian=0x7f0e0168;
+        public static final int mendianid=0x7f0e0167;
+        public static final int menu_img=0x7f0e023c;
+        public static final int menu_text=0x7f0e023d;
         public static final int middle=0x7f0e003d;
         public static final int mini=0x7f0e003b;
         public static final int mirror=0x7f0e0049;
@@ -3842,17 +3844,17 @@ containing a value of this type.
         public static final int msg_zffs=0x7f0e0138;
         public static final int multiply=0x7f0e001f;
         public static final int my_list=0x7f0e00f7;
-        public static final int my_scro=0x7f0e015d;
+        public static final int my_scro=0x7f0e015f;
         public static final int my_slview=0x7f0e00f8;
         public static final int name=0x7f0e00cb;
-        public static final int navigation_header_container=0x7f0e01c2;
+        public static final int navigation_header_container=0x7f0e01ca;
         public static final int never=0x7f0e0043;
         public static final int new_cir=0x7f0e00c0;
         public static final int new_ed_passworld=0x7f0e00b6;
         public static final int new_ed_passworld_ok=0x7f0e00b9;
         public static final int new_passworld=0x7f0e00b5;
         public static final int new_passworld_ok=0x7f0e00b8;
-        public static final int nicheng=0x7f0e0167;
+        public static final int nicheng=0x7f0e0169;
         public static final int none=0x7f0e0014;
         public static final int normal=0x7f0e0010;
         public static final int oc_img=0x7f0e0145;
@@ -3887,86 +3889,92 @@ containing a value of this type.
         public static final int pass_pihon=0x7f0e00aa;
         public static final int pass_username=0x7f0e00a7;
         public static final int pass_validation=0x7f0e00ae;
-        public static final int pbLoad=0x7f0e0282;
-        public static final int pdfView=0x7f0e015b;
+        public static final int pbLoad=0x7f0e028a;
+        public static final int pdfView=0x7f0e015d;
         public static final int photoPagerFragment=0x7f0e0057;
-        public static final int picker_day=0x7f0e025c;
-        public static final int picker_hour=0x7f0e0270;
-        public static final int picker_meridian=0x7f0e0272;
-        public static final int picker_minute=0x7f0e0271;
-        public static final int picker_month=0x7f0e025b;
-        public static final int picker_year=0x7f0e025a;
+        public static final int picker_day=0x7f0e0264;
+        public static final int picker_hour=0x7f0e0278;
+        public static final int picker_meridian=0x7f0e027a;
+        public static final int picker_minute=0x7f0e0279;
+        public static final int picker_month=0x7f0e0263;
+        public static final int picker_year=0x7f0e0262;
         public static final int pin=0x7f0e002c;
-        public static final int pop_dengdai=0x7f0e026a;
-        public static final int pop_layout=0x7f0e0284;
-        public static final int pop_quxiao=0x7f0e026b;
-        public static final int pop_yisheng=0x7f0e0269;
-        public static final int popup_exit=0x7f0e0265;
-        public static final int popup_listview=0x7f0e0266;
-        public static final int popup_sq_exit=0x7f0e0267;
-        public static final int popup_sq_head=0x7f0e0268;
-        public static final int popup_title=0x7f0e0264;
-        public static final int progressWheel=0x7f0e01b6;
+        public static final int pop_dengdai=0x7f0e0272;
+        public static final int pop_layout=0x7f0e028c;
+        public static final int pop_quxiao=0x7f0e0273;
+        public static final int pop_yisheng=0x7f0e0271;
+        public static final int popup_exit=0x7f0e026d;
+        public static final int popup_listview=0x7f0e026e;
+        public static final int popup_sq_exit=0x7f0e026f;
+        public static final int popup_sq_head=0x7f0e0270;
+        public static final int popup_title=0x7f0e026c;
+        public static final int progressWheel=0x7f0e01be;
         public static final int progress_circular=0x7f0e0009;
-        public static final int progress_dialog=0x7f0e01b5;
+        public static final int progress_dialog=0x7f0e01bd;
         public static final int progress_horizontal=0x7f0e000a;
-        public static final int progress_wheel=0x7f0e0262;
+        public static final int progress_wheel=0x7f0e026a;
         public static final int published=0x7f0e00ca;
         public static final int pv_see=0x7f0e0101;
         public static final int radio=0x7f0e007c;
         public static final int ratingBar=0x7f0e00ed;
-        public static final int re_bangzhu=0x7f0e01e1;
-        public static final int re_dingdan=0x7f0e01d9;
-        public static final int re_ed_name=0x7f0e0175;
-        public static final int re_ed_pass=0x7f0e0173;
-        public static final int re_ed_pihon=0x7f0e0178;
-        public static final int re_ed_username=0x7f0e016f;
-        public static final int re_ed_validation=0x7f0e017c;
-        public static final int re_fankui=0x7f0e01e3;
-        public static final int re_guanyu=0x7f0e01df;
-        public static final int re_liaotian=0x7f0e0152;
-        public static final int re_line=0x7f0e0172;
-        public static final int re_line1=0x7f0e0171;
-        public static final int re_line2=0x7f0e0176;
-        public static final int re_line3=0x7f0e017a;
-        public static final int re_line4=0x7f0e017e;
-        public static final int re_logout=0x7f0e0200;
-        public static final int re_name=0x7f0e0174;
+        public static final int re_bangzhu=0x7f0e01e9;
+        public static final int re_dingdan=0x7f0e01e1;
+        public static final int re_ed_name=0x7f0e017a;
+        public static final int re_ed_pass=0x7f0e0175;
+        public static final int re_ed_pass_sure=0x7f0e0178;
+        public static final int re_ed_pihon=0x7f0e0180;
+        public static final int re_ed_sfzh=0x7f0e017d;
+        public static final int re_ed_username=0x7f0e0171;
+        public static final int re_ed_validation=0x7f0e0184;
+        public static final int re_fankui=0x7f0e01eb;
+        public static final int re_guanyu=0x7f0e01e7;
+        public static final int re_liaotian=0x7f0e0154;
+        public static final int re_line=0x7f0e0174;
+        public static final int re_line1=0x7f0e0173;
+        public static final int re_line2=0x7f0e017b;
+        public static final int re_line2_sfzh=0x7f0e017e;
+        public static final int re_line3=0x7f0e0182;
+        public static final int re_line4=0x7f0e0186;
+        public static final int re_line_sure=0x7f0e0177;
+        public static final int re_logout=0x7f0e0208;
+        public static final int re_name=0x7f0e0179;
         public static final int re_number=0x7f0e00bd;
         public static final int re_number11=0x7f0e00be;
-        public static final int re_number2=0x7f0e017d;
+        public static final int re_number2=0x7f0e0185;
         public static final int re_number3=0x7f0e00bf;
-        public static final int re_pass=0x7f0e0170;
-        public static final int re_phion_validation=0x7f0e0179;
-        public static final int re_pihon=0x7f0e0177;
-        public static final int re_quanzi=0x7f0e01db;
-        public static final int re_radio_man=0x7f0e0162;
-        public static final int re_radio_ok=0x7f0e017f;
-        public static final int re_radio_wuman=0x7f0e0163;
-        public static final int re_six=0x7f0e0161;
-        public static final int re_time=0x7f0e018e;
+        public static final int re_pass=0x7f0e0172;
+        public static final int re_pass_sure=0x7f0e0176;
+        public static final int re_phion_validation=0x7f0e0181;
+        public static final int re_pihon=0x7f0e017f;
+        public static final int re_quanzi=0x7f0e01e3;
+        public static final int re_radio_man=0x7f0e0164;
+        public static final int re_radio_ok=0x7f0e0187;
+        public static final int re_radio_wuman=0x7f0e0165;
+        public static final int re_sfzh=0x7f0e017c;
+        public static final int re_six=0x7f0e0163;
+        public static final int re_time=0x7f0e0196;
         public static final int re_tiwen=0x7f0e0102;
         public static final int re_tv_registered=0x7f0e00bb;
-        public static final int re_username=0x7f0e016e;
-        public static final int re_validation=0x7f0e017b;
+        public static final int re_username=0x7f0e0170;
+        public static final int re_validation=0x7f0e0183;
         public static final int re_xindiantu=0x7f0e010b;
         public static final int re_xinlv=0x7f0e0105;
         public static final int re_xuetang=0x7f0e0108;
-        public static final int re_xueya=0x7f0e0185;
-        public static final int re_xueyang=0x7f0e0182;
-        public static final int re_ziliao=0x7f0e01dd;
-        public static final int recyclerView=0x7f0e01ab;
+        public static final int re_xueya=0x7f0e018d;
+        public static final int re_xueyang=0x7f0e018a;
+        public static final int re_ziliao=0x7f0e01e5;
+        public static final int recyclerView=0x7f0e01b3;
         public static final int recyclerView_doctor=0x7f0e00db;
         public static final int recyclerView_fenzhen=0x7f0e00f5;
         public static final int recyclerView_healthbaogao=0x7f0e00ff;
-        public static final int recyclerView_sy=0x7f0e01d4;
+        public static final int recyclerView_sy=0x7f0e01dc;
         public static final int recyclerView_yichuan=0x7f0e00fc;
-        public static final int recyclerView_yizhu=0x7f0e0192;
+        public static final int recyclerView_yizhu=0x7f0e019a;
         public static final int release=0x7f0e00d2;
         public static final int repeat=0x7f0e004a;
-        public static final int rg_six=0x7f0e0160;
+        public static final int rg_six=0x7f0e0162;
         public static final int right=0x7f0e0034;
-        public static final int rl_ll=0x7f0e022f;
+        public static final int rl_ll=0x7f0e0237;
         public static final int rl_wait=0x7f0e013a;
         public static final int rv_photos=0x7f0e0058;
         public static final int screen=0x7f0e0020;
@@ -3987,23 +3995,23 @@ containing a value of this type.
         public static final int search_voice_btn=0x7f0e0090;
         public static final int select=0x7f0e00d1;
         public static final int select_dialog_listview=0x7f0e0091;
-        public static final int send_name=0x7f0e020a;
-        public static final int sfzh=0x7f0e0168;
-        public static final int shifting_bottom_navigation_badge=0x7f0e0289;
-        public static final int shifting_bottom_navigation_container=0x7f0e0287;
-        public static final int shifting_bottom_navigation_icon=0x7f0e0288;
-        public static final int shifting_bottom_navigation_title=0x7f0e028a;
+        public static final int send_name=0x7f0e0212;
+        public static final int sfzh=0x7f0e016a;
+        public static final int shifting_bottom_navigation_badge=0x7f0e0291;
+        public static final int shifting_bottom_navigation_container=0x7f0e028f;
+        public static final int shifting_bottom_navigation_icon=0x7f0e0290;
+        public static final int shifting_bottom_navigation_title=0x7f0e0292;
         public static final int shortcut=0x7f0e007b;
         public static final int showCustom=0x7f0e0015;
         public static final int showHome=0x7f0e0016;
         public static final int showTitle=0x7f0e0017;
-        public static final int slideShowView=0x7f0e0215;
-        public static final int snackbar_action=0x7f0e01c1;
-        public static final int snackbar_text=0x7f0e01c0;
+        public static final int slideShowView=0x7f0e021d;
+        public static final int snackbar_action=0x7f0e01c9;
+        public static final int snackbar_text=0x7f0e01c8;
         public static final int snap=0x7f0e001d;
         public static final int sousuo_doctor=0x7f0e00d4;
-        public static final int sousuo_sy=0x7f0e01d5;
-        public static final int sousuoaction_sy=0x7f0e01d6;
+        public static final int sousuo_sy=0x7f0e01dd;
+        public static final int sousuoaction_sy=0x7f0e01de;
         public static final int spacer=0x7f0e006d;
         public static final int spinner2=0x7f0e0116;
         public static final int split_action_bar=0x7f0e000b;
@@ -4012,56 +4020,56 @@ containing a value of this type.
         public static final int src_over=0x7f0e0023;
         public static final int standard=0x7f0e004c;
         public static final int start=0x7f0e0035;
-        public static final int start_time=0x7f0e0190;
-        public static final int status_bar_latest_event_content=0x7f0e0275;
+        public static final int start_time=0x7f0e0198;
+        public static final int status_bar_latest_event_content=0x7f0e027d;
         public static final int submenuarrow=0x7f0e007d;
         public static final int submit_area=0x7f0e008e;
-        public static final int success_frame=0x7f0e01b0;
-        public static final int success_tick=0x7f0e01b3;
-        public static final int swipeRefresh=0x7f0e01a5;
+        public static final int success_frame=0x7f0e01b8;
+        public static final int success_tick=0x7f0e01bb;
+        public static final int swipeRefresh=0x7f0e01ad;
         public static final int swipe_fenzhen=0x7f0e00f3;
         public static final int swipe_healthbaogao=0x7f0e00fd;
         public static final int swipe_jiazu=0x7f0e00f0;
         public static final int swipe_yichuan=0x7f0e00fa;
-        public static final int swipe_yizhu=0x7f0e018c;
+        public static final int swipe_yizhu=0x7f0e0194;
         public static final int tabMode=0x7f0e0011;
-        public static final int text=0x7f0e015c;
-        public static final int text2=0x7f0e027b;
+        public static final int text=0x7f0e015e;
+        public static final int text2=0x7f0e0283;
         public static final int textSpacerNoButtons=0x7f0e0075;
         public static final int textView2=0x7f0e00a6;
         public static final int textView3=0x7f0e0100;
-        public static final int textView4=0x7f0e020d;
+        public static final int textView4=0x7f0e0215;
         public static final int textView5=0x7f0e009b;
         public static final int textWatcher=0x7f0e000c;
         public static final int text_all=0x7f0e00d6;
-        public static final int text_beizhu=0x7f0e023a;
-        public static final int text_dianzi=0x7f0e01f4;
-        public static final int text_dzbl=0x7f0e01d0;
-        public static final int text_fzzz=0x7f0e01d2;
-        public static final int text_jkda=0x7f0e01cc;
+        public static final int text_beizhu=0x7f0e0242;
+        public static final int text_dianzi=0x7f0e01fc;
+        public static final int text_dzbl=0x7f0e01d8;
+        public static final int text_fzzz=0x7f0e01da;
+        public static final int text_jkda=0x7f0e01d4;
         public static final int text_online=0x7f0e00d7;
         public static final int text_outline=0x7f0e00d8;
-        public static final int text_yczl=0x7f0e01ce;
-        public static final int text_zcdl=0x7f0e01d8;
-        public static final int text_zhi=0x7f0e018f;
-        public static final int time=0x7f0e0279;
+        public static final int text_yczl=0x7f0e01d6;
+        public static final int text_zcdl=0x7f0e01e0;
+        public static final int text_zhi=0x7f0e0197;
+        public static final int time=0x7f0e0281;
         public static final int title=0x7f0e006b;
-        public static final int title_back=0x7f0e025f;
-        public static final int title_name=0x7f0e0260;
-        public static final int title_right=0x7f0e0261;
+        public static final int title_back=0x7f0e0267;
+        public static final int title_name=0x7f0e0268;
+        public static final int title_right=0x7f0e0269;
         public static final int title_template=0x7f0e0070;
-        public static final int title_text=0x7f0e01b7;
+        public static final int title_text=0x7f0e01bf;
         public static final int tiwen=0x7f0e0103;
         public static final int tiwen_line=0x7f0e0104;
         public static final int toolbar=0x7f0e0061;
-        public static final int toolbar_left=0x7f0e0253;
-        public static final int toolbar_left_btn=0x7f0e0252;
-        public static final int toolbar_mid=0x7f0e0251;
-        public static final int toolbar_right=0x7f0e0255;
-        public static final int toolbar_right_btn=0x7f0e0254;
+        public static final int toolbar_left=0x7f0e025b;
+        public static final int toolbar_left_btn=0x7f0e025a;
+        public static final int toolbar_mid=0x7f0e0259;
+        public static final int toolbar_right=0x7f0e025d;
+        public static final int toolbar_right_btn=0x7f0e025c;
         public static final int top=0x7f0e0036;
         public static final int topPanel=0x7f0e006f;
-        public static final int touch_outside=0x7f0e01be;
+        public static final int touch_outside=0x7f0e01c6;
         public static final int transcrollview=0x7f0e0119;
         public static final int tv1=0x7f0e00c2;
         public static final int tv2=0x7f0e00c3;
@@ -4069,100 +4077,100 @@ containing a value of this type.
         public static final int tv4=0x7f0e00c6;
         public static final int tv5=0x7f0e00c7;
         public static final int tv6=0x7f0e00c8;
-        public static final int tvLoadText=0x7f0e0283;
-        public static final int tvLoadingText=0x7f0e0263;
-        public static final int tv_1=0x7f0e022b;
-        public static final int tv_7=0x7f0e0230;
+        public static final int tvLoadText=0x7f0e028b;
+        public static final int tvLoadingText=0x7f0e026b;
+        public static final int tv_1=0x7f0e0233;
+        public static final int tv_7=0x7f0e0238;
         public static final int tv_actionbar_left=0x7f0e00a0;
         public static final int tv_actionbar_right=0x7f0e00a4;
         public static final int tv_actionbar_title=0x7f0e00a1;
-        public static final int tv_cie_day=0x7f0e01f1;
-        public static final int tv_cie_year=0x7f0e01f0;
-        public static final int tv_cir_title=0x7f0e01ef;
-        public static final int tv_content=0x7f0e020b;
-        public static final int tv_cri=0x7f0e01f3;
-        public static final int tv_cri_number=0x7f0e01f2;
+        public static final int tv_cie_day=0x7f0e01f9;
+        public static final int tv_cie_year=0x7f0e01f8;
+        public static final int tv_cir_title=0x7f0e01f7;
+        public static final int tv_content=0x7f0e0213;
+        public static final int tv_cri=0x7f0e01fb;
+        public static final int tv_cri_number=0x7f0e01fa;
         public static final int tv_dir_count=0x7f0e005c;
         public static final int tv_dir_name=0x7f0e005b;
         public static final int tv_doctor_all=0x7f0e0113;
         public static final int tv_doctor_no_line=0x7f0e0112;
         public static final int tv_doctor_on_line=0x7f0e0111;
         public static final int tv_dotor_name=0x7f0e0146;
-        public static final int tv_n2=0x7f0e022e;
-        public static final int tv_n3=0x7f0e022d;
-        public static final int tv_n4=0x7f0e022c;
-        public static final int tv_n5=0x7f0e0233;
-        public static final int tv_n6=0x7f0e0232;
-        public static final int tv_pandui=0x7f0e0231;
+        public static final int tv_n2=0x7f0e0236;
+        public static final int tv_n3=0x7f0e0235;
+        public static final int tv_n4=0x7f0e0234;
+        public static final int tv_n5=0x7f0e023b;
+        public static final int tv_n6=0x7f0e023a;
+        public static final int tv_pandui=0x7f0e0239;
         public static final int tv_prescription=0x7f0e0148;
         public static final int tv_search=0x7f0e0115;
         public static final int tv_sned=0x7f0e014e;
-        public static final int tv_title_name=0x7f0e0188;
-        public static final int type2_img=0x7f0e0216;
+        public static final int tv_title_name=0x7f0e0190;
+        public static final int type2_img=0x7f0e021e;
         public static final int up=0x7f0e000d;
         public static final int useLogo=0x7f0e0018;
         public static final int v_actionbar_right=0x7f0e00a3;
-        public static final int v_dot1=0x7f0e026e;
-        public static final int v_dot2=0x7f0e026f;
+        public static final int v_dot1=0x7f0e0276;
+        public static final int v_dot2=0x7f0e0277;
         public static final int v_selected=0x7f0e005e;
         public static final int v_statusbar=0x7f0e009d;
-        public static final int viewPager=0x7f0e026c;
+        public static final int viewPager=0x7f0e0274;
         public static final int view_offset_helper=0x7f0e000e;
-        public static final int vp=0x7f0e028b;
+        public static final int vp=0x7f0e0293;
         public static final int vp_photos=0x7f0e005f;
-        public static final int warning_frame=0x7f0e01b4;
+        public static final int warning_frame=0x7f0e01bc;
         public static final int webview=0x7f0e00c9;
         public static final int wide=0x7f0e004d;
         public static final int withText=0x7f0e0044;
         public static final int wrap_content=0x7f0e0024;
-        public static final int wv=0x7f0e0189;
+        public static final int wv=0x7f0e0191;
         public static final int x=0x7f0e0045;
-        public static final int xg=0x7f0e016d;
-        public static final int xg_beizhu=0x7f0e01a9;
-        public static final int xg_djsj=0x7f0e01aa;
-        public static final int xg_img=0x7f0e0224;
-        public static final int xg_keshi=0x7f0e01a8;
-        public static final int xg_name=0x7f0e01a6;
-        public static final int xg_yiyuan=0x7f0e01a7;
+        public static final int xg=0x7f0e016f;
+        public static final int xg_beizhu=0x7f0e01b1;
+        public static final int xg_djsj=0x7f0e01b2;
+        public static final int xg_img=0x7f0e022c;
+        public static final int xg_keshi=0x7f0e01b0;
+        public static final int xg_name=0x7f0e01ae;
+        public static final int xg_yiyuan=0x7f0e01af;
         public static final int xindiantu=0x7f0e010c;
-        public static final int xindiantuImg=0x7f0e018b;
+        public static final int xindiantuImg=0x7f0e0193;
         public static final int xindiantu_line=0x7f0e010d;
         public static final int xinlv=0x7f0e0106;
         public static final int xinlv_line=0x7f0e0107;
         public static final int xuetang=0x7f0e0109;
         public static final int xuetang_line=0x7f0e010a;
-        public static final int xueya=0x7f0e0186;
-        public static final int xueya_line=0x7f0e0187;
-        public static final int xueyang=0x7f0e0183;
-        public static final int xueyang_line=0x7f0e0184;
+        public static final int xueya=0x7f0e018e;
+        public static final int xueya_line=0x7f0e018f;
+        public static final int xueyang=0x7f0e018b;
+        public static final int xueyang_line=0x7f0e018c;
         public static final int y=0x7f0e0046;
-        public static final int yizhu_No=0x7f0e024e;
-        public static final int yizhu_content=0x7f0e024f;
-        public static final int yizhu_head=0x7f0e024b;
-        public static final int yizhu_labels=0x7f0e024d;
-        public static final int yizhu_name=0x7f0e024c;
-        public static final int yizhu_time=0x7f0e0250;
-        public static final int yizhudetails_ID=0x7f0e0195;
-        public static final int yizhudetails_content=0x7f0e0194;
-        public static final int yizhudetails_content_text=0x7f0e0193;
-        public static final int yizhudetails_jigou=0x7f0e019a;
-        public static final int yizhudetails_pl=0x7f0e0199;
-        public static final int yizhudetails_qixiao=0x7f0e0198;
-        public static final int yizhudetails_starttime=0x7f0e0197;
-        public static final int yizhudetails_time=0x7f0e019b;
-        public static final int yizhudetails_yisheng=0x7f0e0196;
-        public static final int yongmuming=0x7f0e015e;
+        public static final int yizhu_No=0x7f0e0256;
+        public static final int yizhu_content=0x7f0e0257;
+        public static final int yizhu_head=0x7f0e0253;
+        public static final int yizhu_labels=0x7f0e0255;
+        public static final int yizhu_name=0x7f0e0254;
+        public static final int yizhu_time=0x7f0e0258;
+        public static final int yizhudetails_ID=0x7f0e019d;
+        public static final int yizhudetails_content=0x7f0e019c;
+        public static final int yizhudetails_content_text=0x7f0e019b;
+        public static final int yizhudetails_jigou=0x7f0e01a2;
+        public static final int yizhudetails_pl=0x7f0e01a1;
+        public static final int yizhudetails_qixiao=0x7f0e01a0;
+        public static final int yizhudetails_starttime=0x7f0e019f;
+        public static final int yizhudetails_time=0x7f0e01a3;
+        public static final int yizhudetails_yisheng=0x7f0e019e;
+        public static final int yongmuming=0x7f0e0160;
         public static final int ys_btn_sousuo=0x7f0e00d5;
         public static final int z=0x7f0e0047;
-        public static final int zz_jztime=0x7f0e01a1;
-        public static final int zz_keshi=0x7f0e01a0;
-        public static final int zz_shenhe=0x7f0e01a3;
-        public static final int zz_shijian=0x7f0e01a4;
-        public static final int zz_sqdh=0x7f0e019c;
-        public static final int zz_yisheng=0x7f0e01a2;
-        public static final int zz_zhenzhuang=0x7f0e019d;
-        public static final int zz_zhuanchu=0x7f0e019e;
-        public static final int zz_zhuanru=0x7f0e019f;
+        public static final int zz_jztime=0x7f0e01a9;
+        public static final int zz_keshi=0x7f0e01a8;
+        public static final int zz_shenhe=0x7f0e01ab;
+        public static final int zz_shijian=0x7f0e01ac;
+        public static final int zz_sqdh=0x7f0e01a4;
+        public static final int zz_yisheng=0x7f0e01aa;
+        public static final int zz_zhenzhuang=0x7f0e01a5;
+        public static final int zz_zhuanchu=0x7f0e01a6;
+        public static final int zz_zhuanru=0x7f0e01a7;
     }
     public static final class integer {
         public static final int abc_config_activityDefaultDur=0x7f0b0001;
@@ -4983,35 +4991,35 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionBar_background com.gxey.remotemedicalplatform:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundSplit com.gxey.remotemedicalplatform:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundStacked com.gxey.remotemedicalplatform:backgroundStacked}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetEnd com.gxey.remotemedicalplatform:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.gxey.remotemedicalplatform:contentInsetEndWithActions}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetLeft com.gxey.remotemedicalplatform:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetRight com.gxey.remotemedicalplatform:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetStart com.gxey.remotemedicalplatform:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.gxey.remotemedicalplatform:contentInsetStartWithNavigation}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_customNavigationLayout com.gxey.remotemedicalplatform:customNavigationLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_displayOptions com.gxey.remotemedicalplatform:displayOptions}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_divider com.gxey.remotemedicalplatform:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_elevation com.gxey.remotemedicalplatform:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_height com.gxey.remotemedicalplatform:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_hideOnContentScroll com.gxey.remotemedicalplatform:hideOnContentScroll}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.gxey.remotemedicalplatform:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeLayout com.gxey.remotemedicalplatform:homeLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_icon com.gxey.remotemedicalplatform:icon}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.gxey.remotemedicalplatform:indeterminateProgressStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_itemPadding com.gxey.remotemedicalplatform:itemPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_logo com.gxey.remotemedicalplatform:logo}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_navigationMode com.gxey.remotemedicalplatform:navigationMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_popupTheme com.gxey.remotemedicalplatform:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarPadding com.gxey.remotemedicalplatform:progressBarPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarStyle com.gxey.remotemedicalplatform:progressBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitle com.gxey.remotemedicalplatform:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitleTextStyle com.gxey.remotemedicalplatform:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_title com.gxey.remotemedicalplatform:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_titleTextStyle com.gxey.remotemedicalplatform:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_background cn.nodemedia.demo:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundSplit cn.nodemedia.demo:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundStacked cn.nodemedia.demo:backgroundStacked}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetEnd cn.nodemedia.demo:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetEndWithActions cn.nodemedia.demo:contentInsetEndWithActions}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetLeft cn.nodemedia.demo:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetRight cn.nodemedia.demo:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetStart cn.nodemedia.demo:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation cn.nodemedia.demo:contentInsetStartWithNavigation}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_customNavigationLayout cn.nodemedia.demo:customNavigationLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_displayOptions cn.nodemedia.demo:displayOptions}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_divider cn.nodemedia.demo:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_elevation cn.nodemedia.demo:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_height cn.nodemedia.demo:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_hideOnContentScroll cn.nodemedia.demo:hideOnContentScroll}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeAsUpIndicator cn.nodemedia.demo:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeLayout cn.nodemedia.demo:homeLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_icon cn.nodemedia.demo:icon}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle cn.nodemedia.demo:indeterminateProgressStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_itemPadding cn.nodemedia.demo:itemPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_logo cn.nodemedia.demo:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_navigationMode cn.nodemedia.demo:navigationMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_popupTheme cn.nodemedia.demo:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarPadding cn.nodemedia.demo:progressBarPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarStyle cn.nodemedia.demo:progressBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitle cn.nodemedia.demo:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitleTextStyle cn.nodemedia.demo:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_title cn.nodemedia.demo:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_titleTextStyle cn.nodemedia.demo:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionBar_background
            @see #ActionBar_backgroundSplit
@@ -5054,17 +5062,17 @@ containing a value of this type.
             0x7f010065
         };
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#background}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#background}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:background
+          @attr name cn.nodemedia.demo:background
         */
         public static final int ActionBar_background = 10;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -5072,11 +5080,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.gxey.remotemedicalplatform:backgroundSplit
+          @attr name cn.nodemedia.demo:backgroundSplit
         */
         public static final int ActionBar_backgroundSplit = 12;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#backgroundStacked}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#backgroundStacked}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -5084,11 +5092,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.gxey.remotemedicalplatform:backgroundStacked
+          @attr name cn.nodemedia.demo:backgroundStacked
         */
         public static final int ActionBar_backgroundStacked = 11;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -5100,11 +5108,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:contentInsetEnd
+          @attr name cn.nodemedia.demo:contentInsetEnd
         */
         public static final int ActionBar_contentInsetEnd = 21;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#contentInsetEndWithActions}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#contentInsetEndWithActions}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -5116,11 +5124,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:contentInsetEndWithActions
+          @attr name cn.nodemedia.demo:contentInsetEndWithActions
         */
         public static final int ActionBar_contentInsetEndWithActions = 25;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -5132,11 +5140,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:contentInsetLeft
+          @attr name cn.nodemedia.demo:contentInsetLeft
         */
         public static final int ActionBar_contentInsetLeft = 22;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -5148,11 +5156,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:contentInsetRight
+          @attr name cn.nodemedia.demo:contentInsetRight
         */
         public static final int ActionBar_contentInsetRight = 23;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -5164,11 +5172,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:contentInsetStart
+          @attr name cn.nodemedia.demo:contentInsetStart
         */
         public static final int ActionBar_contentInsetStart = 20;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#contentInsetStartWithNavigation}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#contentInsetStartWithNavigation}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -5180,21 +5188,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:contentInsetStartWithNavigation
+          @attr name cn.nodemedia.demo:contentInsetStartWithNavigation
         */
         public static final int ActionBar_contentInsetStartWithNavigation = 24;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#customNavigationLayout}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#customNavigationLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:customNavigationLayout
+          @attr name cn.nodemedia.demo:customNavigationLayout
         */
         public static final int ActionBar_customNavigationLayout = 13;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#displayOptions}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#displayOptions}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -5212,21 +5220,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>showCustom</code></td><td>0x10</td><td></td></tr>
 <tr><td><code>disableHome</code></td><td>0x20</td><td></td></tr>
 </table>
-          @attr name com.gxey.remotemedicalplatform:displayOptions
+          @attr name cn.nodemedia.demo:displayOptions
         */
         public static final int ActionBar_displayOptions = 3;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#divider}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#divider}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:divider
+          @attr name cn.nodemedia.demo:divider
         */
         public static final int ActionBar_divider = 9;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#elevation}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#elevation}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -5238,11 +5246,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:elevation
+          @attr name cn.nodemedia.demo:elevation
         */
         public static final int ActionBar_elevation = 26;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#height}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#height}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -5254,11 +5262,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:height
+          @attr name cn.nodemedia.demo:height
         */
         public static final int ActionBar_height = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#hideOnContentScroll}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#hideOnContentScroll}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -5268,51 +5276,51 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:hideOnContentScroll
+          @attr name cn.nodemedia.demo:hideOnContentScroll
         */
         public static final int ActionBar_hideOnContentScroll = 19;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:homeAsUpIndicator
+          @attr name cn.nodemedia.demo:homeAsUpIndicator
         */
         public static final int ActionBar_homeAsUpIndicator = 28;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#homeLayout}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#homeLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:homeLayout
+          @attr name cn.nodemedia.demo:homeLayout
         */
         public static final int ActionBar_homeLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#icon}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#icon}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:icon
+          @attr name cn.nodemedia.demo:icon
         */
         public static final int ActionBar_icon = 7;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#indeterminateProgressStyle}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#indeterminateProgressStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:indeterminateProgressStyle
+          @attr name cn.nodemedia.demo:indeterminateProgressStyle
         */
         public static final int ActionBar_indeterminateProgressStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#itemPadding}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#itemPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -5324,21 +5332,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:itemPadding
+          @attr name cn.nodemedia.demo:itemPadding
         */
         public static final int ActionBar_itemPadding = 18;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#logo}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#logo}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:logo
+          @attr name cn.nodemedia.demo:logo
         */
         public static final int ActionBar_logo = 8;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#navigationMode}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#navigationMode}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -5352,21 +5360,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>listMode</code></td><td>1</td><td></td></tr>
 <tr><td><code>tabMode</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.gxey.remotemedicalplatform:navigationMode
+          @attr name cn.nodemedia.demo:navigationMode
         */
         public static final int ActionBar_navigationMode = 2;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#popupTheme}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:popupTheme
+          @attr name cn.nodemedia.demo:popupTheme
         */
         public static final int ActionBar_popupTheme = 27;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#progressBarPadding}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#progressBarPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -5378,21 +5386,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:progressBarPadding
+          @attr name cn.nodemedia.demo:progressBarPadding
         */
         public static final int ActionBar_progressBarPadding = 17;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#progressBarStyle}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#progressBarStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:progressBarStyle
+          @attr name cn.nodemedia.demo:progressBarStyle
         */
         public static final int ActionBar_progressBarStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#subtitle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -5402,21 +5410,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:subtitle
+          @attr name cn.nodemedia.demo:subtitle
         */
         public static final int ActionBar_subtitle = 4;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:subtitleTextStyle
+          @attr name cn.nodemedia.demo:subtitleTextStyle
         */
         public static final int ActionBar_subtitleTextStyle = 6;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#title}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#title}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -5426,17 +5434,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:title
+          @attr name cn.nodemedia.demo:title
         */
         public static final int ActionBar_title = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:titleTextStyle
+          @attr name cn.nodemedia.demo:titleTextStyle
         */
         public static final int ActionBar_titleTextStyle = 5;
         /** Attributes that can be used with a ActionBarLayout.
@@ -5488,12 +5496,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionMode_background com.gxey.remotemedicalplatform:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_backgroundSplit com.gxey.remotemedicalplatform:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_closeItemLayout com.gxey.remotemedicalplatform:closeItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_height com.gxey.remotemedicalplatform:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_subtitleTextStyle com.gxey.remotemedicalplatform:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_titleTextStyle com.gxey.remotemedicalplatform:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_background cn.nodemedia.demo:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_backgroundSplit cn.nodemedia.demo:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_closeItemLayout cn.nodemedia.demo:closeItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_height cn.nodemedia.demo:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_subtitleTextStyle cn.nodemedia.demo:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_titleTextStyle cn.nodemedia.demo:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionMode_background
            @see #ActionMode_backgroundSplit
@@ -5507,17 +5515,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010016, 0x7f010026
         };
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#background}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#background}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:background
+          @attr name cn.nodemedia.demo:background
         */
         public static final int ActionMode_background = 3;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -5525,21 +5533,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.gxey.remotemedicalplatform:backgroundSplit
+          @attr name cn.nodemedia.demo:backgroundSplit
         */
         public static final int ActionMode_backgroundSplit = 4;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#closeItemLayout}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#closeItemLayout}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:closeItemLayout
+          @attr name cn.nodemedia.demo:closeItemLayout
         */
         public static final int ActionMode_closeItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#height}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#height}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -5551,27 +5559,27 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:height
+          @attr name cn.nodemedia.demo:height
         */
         public static final int ActionMode_height = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:subtitleTextStyle
+          @attr name cn.nodemedia.demo:subtitleTextStyle
         */
         public static final int ActionMode_subtitleTextStyle = 2;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:titleTextStyle
+          @attr name cn.nodemedia.demo:titleTextStyle
         */
         public static final int ActionMode_titleTextStyle = 1;
         /** Attributes that can be used with a ActivityChooserView.
@@ -5580,8 +5588,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.gxey.remotemedicalplatform:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.gxey.remotemedicalplatform:initialActivityCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable cn.nodemedia.demo:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_initialActivityCount cn.nodemedia.demo:initialActivityCount}</code></td><td></td></tr>
            </table>
            @see #ActivityChooserView_expandActivityOverflowButtonDrawable
            @see #ActivityChooserView_initialActivityCount
@@ -5590,17 +5598,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010027, 0x7f010028
         };
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#expandActivityOverflowButtonDrawable}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#expandActivityOverflowButtonDrawable}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:expandActivityOverflowButtonDrawable
+          @attr name cn.nodemedia.demo:expandActivityOverflowButtonDrawable
         */
         public static final int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#initialActivityCount}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#initialActivityCount}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
@@ -5610,7 +5618,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:initialActivityCount
+          @attr name cn.nodemedia.demo:initialActivityCount
         */
         public static final int ActivityChooserView_initialActivityCount = 0;
         /** Attributes that can be used with a AlertDialog.
@@ -5620,11 +5628,11 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.gxey.remotemedicalplatform:buttonPanelSideLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_listItemLayout com.gxey.remotemedicalplatform:listItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_listLayout com.gxey.remotemedicalplatform:listLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.gxey.remotemedicalplatform:multiChoiceItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.gxey.remotemedicalplatform:singleChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout cn.nodemedia.demo:buttonPanelSideLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listItemLayout cn.nodemedia.demo:listItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listLayout cn.nodemedia.demo:listLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout cn.nodemedia.demo:multiChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout cn.nodemedia.demo:singleChoiceItemLayout}</code></td><td></td></tr>
            </table>
            @see #AlertDialog_android_layout
            @see #AlertDialog_buttonPanelSideLayout
@@ -5644,53 +5652,53 @@ containing a value of this type.
         */
         public static final int AlertDialog_android_layout = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#buttonPanelSideLayout}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#buttonPanelSideLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:buttonPanelSideLayout
+          @attr name cn.nodemedia.demo:buttonPanelSideLayout
         */
         public static final int AlertDialog_buttonPanelSideLayout = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#listItemLayout}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#listItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:listItemLayout
+          @attr name cn.nodemedia.demo:listItemLayout
         */
         public static final int AlertDialog_listItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#listLayout}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#listLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:listLayout
+          @attr name cn.nodemedia.demo:listLayout
         */
         public static final int AlertDialog_listLayout = 2;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#multiChoiceItemLayout}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#multiChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:multiChoiceItemLayout
+          @attr name cn.nodemedia.demo:multiChoiceItemLayout
         */
         public static final int AlertDialog_multiChoiceItemLayout = 3;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#singleChoiceItemLayout}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#singleChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:singleChoiceItemLayout
+          @attr name cn.nodemedia.demo:singleChoiceItemLayout
         */
         public static final int AlertDialog_singleChoiceItemLayout = 4;
         /** Attributes that can be used with a AppBarLayout.
@@ -5700,8 +5708,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppBarLayout_android_background android:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_elevation com.gxey.remotemedicalplatform:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_expanded com.gxey.remotemedicalplatform:expanded}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_elevation cn.nodemedia.demo:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_expanded cn.nodemedia.demo:expanded}</code></td><td></td></tr>
            </table>
            @see #AppBarLayout_android_background
            @see #AppBarLayout_elevation
@@ -5717,7 +5725,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppBarLayout_android_background = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#elevation}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#elevation}
           attribute's value can be found in the {@link #AppBarLayout} array.
 
 
@@ -5729,11 +5737,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:elevation
+          @attr name cn.nodemedia.demo:elevation
         */
         public static final int AppBarLayout_elevation = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#expanded}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#expanded}
           attribute's value can be found in the {@link #AppBarLayout} array.
 
 
@@ -5743,7 +5751,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:expanded
+          @attr name cn.nodemedia.demo:expanded
         */
         public static final int AppBarLayout_expanded = 2;
         /** Attributes that can be used with a AppBarLayout_LayoutParams.
@@ -5752,8 +5760,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AppBarLayout_LayoutParams_layout_scrollFlags com.gxey.remotemedicalplatform:layout_scrollFlags}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_LayoutParams_layout_scrollInterpolator com.gxey.remotemedicalplatform:layout_scrollInterpolator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_LayoutParams_layout_scrollFlags cn.nodemedia.demo:layout_scrollFlags}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_LayoutParams_layout_scrollInterpolator cn.nodemedia.demo:layout_scrollInterpolator}</code></td><td></td></tr>
            </table>
            @see #AppBarLayout_LayoutParams_layout_scrollFlags
            @see #AppBarLayout_LayoutParams_layout_scrollInterpolator
@@ -5762,7 +5770,7 @@ containing a value of this type.
             0x7f01002f, 0x7f010030
         };
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#layout_scrollFlags}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#layout_scrollFlags}
           attribute's value can be found in the {@link #AppBarLayout_LayoutParams} array.
 
 
@@ -5778,17 +5786,17 @@ containing a value of this type.
 <tr><td><code>enterAlwaysCollapsed</code></td><td>0x8</td><td></td></tr>
 <tr><td><code>snap</code></td><td>0x10</td><td></td></tr>
 </table>
-          @attr name com.gxey.remotemedicalplatform:layout_scrollFlags
+          @attr name cn.nodemedia.demo:layout_scrollFlags
         */
         public static final int AppBarLayout_LayoutParams_layout_scrollFlags = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#layout_scrollInterpolator}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#layout_scrollInterpolator}
           attribute's value can be found in the {@link #AppBarLayout_LayoutParams} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:layout_scrollInterpolator
+          @attr name cn.nodemedia.demo:layout_scrollInterpolator
         */
         public static final int AppBarLayout_LayoutParams_layout_scrollInterpolator = 1;
         /** Attributes that can be used with a AppCompatImageView.
@@ -5798,7 +5806,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatImageView_srcCompat com.gxey.remotemedicalplatform:srcCompat}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatImageView_srcCompat cn.nodemedia.demo:srcCompat}</code></td><td></td></tr>
            </table>
            @see #AppCompatImageView_android_src
            @see #AppCompatImageView_srcCompat
@@ -5813,13 +5821,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatImageView_android_src = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#srcCompat}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#srcCompat}
           attribute's value can be found in the {@link #AppCompatImageView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:srcCompat
+          @attr name cn.nodemedia.demo:srcCompat
         */
         public static final int AppCompatImageView_srcCompat = 1;
         /** Attributes that can be used with a AppCompatSeekBar.
@@ -5829,9 +5837,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatSeekBar_android_thumb android:thumb}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatSeekBar_tickMark com.gxey.remotemedicalplatform:tickMark}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.gxey.remotemedicalplatform:tickMarkTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.gxey.remotemedicalplatform:tickMarkTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatSeekBar_tickMark cn.nodemedia.demo:tickMark}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint cn.nodemedia.demo:tickMarkTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode cn.nodemedia.demo:tickMarkTintMode}</code></td><td></td></tr>
            </table>
            @see #AppCompatSeekBar_android_thumb
            @see #AppCompatSeekBar_tickMark
@@ -5848,17 +5856,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatSeekBar_android_thumb = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#tickMark}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#tickMark}
           attribute's value can be found in the {@link #AppCompatSeekBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:tickMark
+          @attr name cn.nodemedia.demo:tickMark
         */
         public static final int AppCompatSeekBar_tickMark = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#tickMarkTint}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#tickMarkTint}
           attribute's value can be found in the {@link #AppCompatSeekBar} array.
 
 
@@ -5869,11 +5877,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:tickMarkTint
+          @attr name cn.nodemedia.demo:tickMarkTint
         */
         public static final int AppCompatSeekBar_tickMarkTint = 2;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#tickMarkTintMode}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#tickMarkTintMode}
           attribute's value can be found in the {@link #AppCompatSeekBar} array.
 
 
@@ -5890,7 +5898,7 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
-          @attr name com.gxey.remotemedicalplatform:tickMarkTintMode
+          @attr name cn.nodemedia.demo:tickMarkTintMode
         */
         public static final int AppCompatSeekBar_tickMarkTintMode = 3;
         /** Attributes that can be used with a AppCompatTextHelper.
@@ -5968,7 +5976,7 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTextView_textAllCaps com.gxey.remotemedicalplatform:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTextView_textAllCaps cn.nodemedia.demo:textAllCaps}</code></td><td></td></tr>
            </table>
            @see #AppCompatTextView_android_textAppearance
            @see #AppCompatTextView_textAllCaps
@@ -5983,14 +5991,14 @@ containing a value of this type.
         */
         public static final int AppCompatTextView_android_textAppearance = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#textAllCaps}
           attribute's value can be found in the {@link #AppCompatTextView} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name com.gxey.remotemedicalplatform:textAllCaps
+          @attr name cn.nodemedia.demo:textAllCaps
         */
         public static final int AppCompatTextView_textAllCaps = 1;
         /** Attributes that can be used with a AppCompatTheme.
@@ -5999,121 +6007,121 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.gxey.remotemedicalplatform:actionBarDivider}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.gxey.remotemedicalplatform:actionBarItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.gxey.remotemedicalplatform:actionBarPopupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarSize com.gxey.remotemedicalplatform:actionBarSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.gxey.remotemedicalplatform:actionBarSplitStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.gxey.remotemedicalplatform:actionBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.gxey.remotemedicalplatform:actionBarTabBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.gxey.remotemedicalplatform:actionBarTabStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.gxey.remotemedicalplatform:actionBarTabTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.gxey.remotemedicalplatform:actionBarTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.gxey.remotemedicalplatform:actionBarWidgetTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.gxey.remotemedicalplatform:actionButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.gxey.remotemedicalplatform:actionDropDownStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.gxey.remotemedicalplatform:actionMenuTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.gxey.remotemedicalplatform:actionMenuTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.gxey.remotemedicalplatform:actionModeBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.gxey.remotemedicalplatform:actionModeCloseButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.gxey.remotemedicalplatform:actionModeCloseDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.gxey.remotemedicalplatform:actionModeCopyDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.gxey.remotemedicalplatform:actionModeCutDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.gxey.remotemedicalplatform:actionModeFindDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.gxey.remotemedicalplatform:actionModePasteDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.gxey.remotemedicalplatform:actionModePopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.gxey.remotemedicalplatform:actionModeSelectAllDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.gxey.remotemedicalplatform:actionModeShareDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.gxey.remotemedicalplatform:actionModeSplitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.gxey.remotemedicalplatform:actionModeStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.gxey.remotemedicalplatform:actionModeWebSearchDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.gxey.remotemedicalplatform:actionOverflowButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.gxey.remotemedicalplatform:actionOverflowMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.gxey.remotemedicalplatform:activityChooserViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.gxey.remotemedicalplatform:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.gxey.remotemedicalplatform:alertDialogCenterButtons}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.gxey.remotemedicalplatform:alertDialogStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.gxey.remotemedicalplatform:alertDialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarDivider cn.nodemedia.demo:actionBarDivider}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground cn.nodemedia.demo:actionBarItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme cn.nodemedia.demo:actionBarPopupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarSize cn.nodemedia.demo:actionBarSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle cn.nodemedia.demo:actionBarSplitStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarStyle cn.nodemedia.demo:actionBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle cn.nodemedia.demo:actionBarTabBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle cn.nodemedia.demo:actionBarTabStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle cn.nodemedia.demo:actionBarTabTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTheme cn.nodemedia.demo:actionBarTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme cn.nodemedia.demo:actionBarWidgetTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionButtonStyle cn.nodemedia.demo:actionButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle cn.nodemedia.demo:actionDropDownStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance cn.nodemedia.demo:actionMenuTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor cn.nodemedia.demo:actionMenuTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeBackground cn.nodemedia.demo:actionModeBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle cn.nodemedia.demo:actionModeCloseButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable cn.nodemedia.demo:actionModeCloseDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable cn.nodemedia.demo:actionModeCopyDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable cn.nodemedia.demo:actionModeCutDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable cn.nodemedia.demo:actionModeFindDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable cn.nodemedia.demo:actionModePasteDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle cn.nodemedia.demo:actionModePopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable cn.nodemedia.demo:actionModeSelectAllDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable cn.nodemedia.demo:actionModeShareDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground cn.nodemedia.demo:actionModeSplitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeStyle cn.nodemedia.demo:actionModeStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable cn.nodemedia.demo:actionModeWebSearchDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle cn.nodemedia.demo:actionOverflowButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle cn.nodemedia.demo:actionOverflowMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle cn.nodemedia.demo:activityChooserViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle cn.nodemedia.demo:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons cn.nodemedia.demo:alertDialogCenterButtons}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogStyle cn.nodemedia.demo:alertDialogStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogTheme cn.nodemedia.demo:alertDialogTheme}</code></td><td></td></tr>
            <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.gxey.remotemedicalplatform:autoCompleteTextViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.gxey.remotemedicalplatform:borderlessButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.gxey.remotemedicalplatform:buttonBarButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.gxey.remotemedicalplatform:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.gxey.remotemedicalplatform:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.gxey.remotemedicalplatform:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.gxey.remotemedicalplatform:buttonBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonStyle com.gxey.remotemedicalplatform:buttonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.gxey.remotemedicalplatform:buttonStyleSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.gxey.remotemedicalplatform:checkboxStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.gxey.remotemedicalplatform:checkedTextViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorAccent com.gxey.remotemedicalplatform:colorAccent}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.gxey.remotemedicalplatform:colorBackgroundFloating}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.gxey.remotemedicalplatform:colorButtonNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.gxey.remotemedicalplatform:colorControlActivated}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.gxey.remotemedicalplatform:colorControlHighlight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.gxey.remotemedicalplatform:colorControlNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorPrimary com.gxey.remotemedicalplatform:colorPrimary}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.gxey.remotemedicalplatform:colorPrimaryDark}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.gxey.remotemedicalplatform:colorSwitchThumbNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_controlBackground com.gxey.remotemedicalplatform:controlBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.gxey.remotemedicalplatform:dialogPreferredPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dialogTheme com.gxey.remotemedicalplatform:dialogTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.gxey.remotemedicalplatform:dividerHorizontal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dividerVertical com.gxey.remotemedicalplatform:dividerVertical}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.gxey.remotemedicalplatform:dropDownListViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.gxey.remotemedicalplatform:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_editTextBackground com.gxey.remotemedicalplatform:editTextBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_editTextColor com.gxey.remotemedicalplatform:editTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_editTextStyle com.gxey.remotemedicalplatform:editTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.gxey.remotemedicalplatform:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.gxey.remotemedicalplatform:imageButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.gxey.remotemedicalplatform:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.gxey.remotemedicalplatform:listDividerAlertDialog}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.gxey.remotemedicalplatform:listMenuViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.gxey.remotemedicalplatform:listPopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.gxey.remotemedicalplatform:listPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.gxey.remotemedicalplatform:listPreferredItemHeightLarge}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.gxey.remotemedicalplatform:listPreferredItemHeightSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.gxey.remotemedicalplatform:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.gxey.remotemedicalplatform:listPreferredItemPaddingRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_panelBackground com.gxey.remotemedicalplatform:panelBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.gxey.remotemedicalplatform:panelMenuListTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.gxey.remotemedicalplatform:panelMenuListWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.gxey.remotemedicalplatform:popupMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.gxey.remotemedicalplatform:popupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.gxey.remotemedicalplatform:radioButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.gxey.remotemedicalplatform:ratingBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.gxey.remotemedicalplatform:ratingBarStyleIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.gxey.remotemedicalplatform:ratingBarStyleSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.gxey.remotemedicalplatform:searchViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.gxey.remotemedicalplatform:seekBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.gxey.remotemedicalplatform:selectableItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.gxey.remotemedicalplatform:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.gxey.remotemedicalplatform:spinnerDropDownItemStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.gxey.remotemedicalplatform:spinnerStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_switchStyle com.gxey.remotemedicalplatform:switchStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.gxey.remotemedicalplatform:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.gxey.remotemedicalplatform:textAppearanceListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.gxey.remotemedicalplatform:textAppearanceListItemSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.gxey.remotemedicalplatform:textAppearancePopupMenuHeader}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.gxey.remotemedicalplatform:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.gxey.remotemedicalplatform:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.gxey.remotemedicalplatform:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.gxey.remotemedicalplatform:textColorAlertDialogListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.gxey.remotemedicalplatform:textColorSearchUrl}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.gxey.remotemedicalplatform:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.gxey.remotemedicalplatform:toolbarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowActionBar com.gxey.remotemedicalplatform:windowActionBar}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.gxey.remotemedicalplatform:windowActionBarOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.gxey.remotemedicalplatform:windowActionModeOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.gxey.remotemedicalplatform:windowFixedHeightMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.gxey.remotemedicalplatform:windowFixedHeightMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.gxey.remotemedicalplatform:windowFixedWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.gxey.remotemedicalplatform:windowFixedWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.gxey.remotemedicalplatform:windowMinWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.gxey.remotemedicalplatform:windowMinWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.gxey.remotemedicalplatform:windowNoTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle cn.nodemedia.demo:autoCompleteTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle cn.nodemedia.demo:borderlessButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle cn.nodemedia.demo:buttonBarButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle cn.nodemedia.demo:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle cn.nodemedia.demo:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle cn.nodemedia.demo:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarStyle cn.nodemedia.demo:buttonBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonStyle cn.nodemedia.demo:buttonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall cn.nodemedia.demo:buttonStyleSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_checkboxStyle cn.nodemedia.demo:checkboxStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle cn.nodemedia.demo:checkedTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorAccent cn.nodemedia.demo:colorAccent}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating cn.nodemedia.demo:colorBackgroundFloating}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorButtonNormal cn.nodemedia.demo:colorButtonNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlActivated cn.nodemedia.demo:colorControlActivated}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlHighlight cn.nodemedia.demo:colorControlHighlight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlNormal cn.nodemedia.demo:colorControlNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorPrimary cn.nodemedia.demo:colorPrimary}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark cn.nodemedia.demo:colorPrimaryDark}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal cn.nodemedia.demo:colorSwitchThumbNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_controlBackground cn.nodemedia.demo:controlBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding cn.nodemedia.demo:dialogPreferredPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dialogTheme cn.nodemedia.demo:dialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dividerHorizontal cn.nodemedia.demo:dividerHorizontal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dividerVertical cn.nodemedia.demo:dividerVertical}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle cn.nodemedia.demo:dropDownListViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight cn.nodemedia.demo:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextBackground cn.nodemedia.demo:editTextBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextColor cn.nodemedia.demo:editTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextStyle cn.nodemedia.demo:editTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator cn.nodemedia.demo:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_imageButtonStyle cn.nodemedia.demo:imageButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator cn.nodemedia.demo:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog cn.nodemedia.demo:listDividerAlertDialog}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle cn.nodemedia.demo:listMenuViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle cn.nodemedia.demo:listPopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight cn.nodemedia.demo:listPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge cn.nodemedia.demo:listPreferredItemHeightLarge}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall cn.nodemedia.demo:listPreferredItemHeightSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft cn.nodemedia.demo:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight cn.nodemedia.demo:listPreferredItemPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelBackground cn.nodemedia.demo:panelBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme cn.nodemedia.demo:panelMenuListTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth cn.nodemedia.demo:panelMenuListWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_popupMenuStyle cn.nodemedia.demo:popupMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_popupWindowStyle cn.nodemedia.demo:popupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_radioButtonStyle cn.nodemedia.demo:radioButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyle cn.nodemedia.demo:ratingBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator cn.nodemedia.demo:ratingBarStyleIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall cn.nodemedia.demo:ratingBarStyleSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_searchViewStyle cn.nodemedia.demo:searchViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_seekBarStyle cn.nodemedia.demo:seekBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_selectableItemBackground cn.nodemedia.demo:selectableItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless cn.nodemedia.demo:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle cn.nodemedia.demo:spinnerDropDownItemStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_spinnerStyle cn.nodemedia.demo:spinnerStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_switchStyle cn.nodemedia.demo:switchStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu cn.nodemedia.demo:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem cn.nodemedia.demo:textAppearanceListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall cn.nodemedia.demo:textAppearanceListItemSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader cn.nodemedia.demo:textAppearancePopupMenuHeader}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle cn.nodemedia.demo:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle cn.nodemedia.demo:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu cn.nodemedia.demo:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem cn.nodemedia.demo:textColorAlertDialogListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl cn.nodemedia.demo:textColorSearchUrl}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle cn.nodemedia.demo:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_toolbarStyle cn.nodemedia.demo:toolbarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionBar cn.nodemedia.demo:windowActionBar}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay cn.nodemedia.demo:windowActionBarOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay cn.nodemedia.demo:windowActionModeOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor cn.nodemedia.demo:windowFixedHeightMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor cn.nodemedia.demo:windowFixedHeightMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor cn.nodemedia.demo:windowFixedWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor cn.nodemedia.demo:windowFixedWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor cn.nodemedia.demo:windowMinWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor cn.nodemedia.demo:windowMinWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowNoTitle cn.nodemedia.demo:windowNoTitle}</code></td><td></td></tr>
            </table>
            @see #AppCompatTheme_actionBarDivider
            @see #AppCompatTheme_actionBarItemBackground
@@ -6263,37 +6271,37 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0100a4, 0x7f0100a5, 0x7f0100a6
         };
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#actionBarDivider}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#actionBarDivider}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:actionBarDivider
+          @attr name cn.nodemedia.demo:actionBarDivider
         */
         public static final int AppCompatTheme_actionBarDivider = 23;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#actionBarItemBackground}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#actionBarItemBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:actionBarItemBackground
+          @attr name cn.nodemedia.demo:actionBarItemBackground
         */
         public static final int AppCompatTheme_actionBarItemBackground = 24;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#actionBarPopupTheme}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#actionBarPopupTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:actionBarPopupTheme
+          @attr name cn.nodemedia.demo:actionBarPopupTheme
         */
         public static final int AppCompatTheme_actionBarPopupTheme = 17;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#actionBarSize}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#actionBarSize}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6313,111 +6321,111 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.gxey.remotemedicalplatform:actionBarSize
+          @attr name cn.nodemedia.demo:actionBarSize
         */
         public static final int AppCompatTheme_actionBarSize = 22;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#actionBarSplitStyle}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#actionBarSplitStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:actionBarSplitStyle
+          @attr name cn.nodemedia.demo:actionBarSplitStyle
         */
         public static final int AppCompatTheme_actionBarSplitStyle = 19;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#actionBarStyle}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#actionBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:actionBarStyle
+          @attr name cn.nodemedia.demo:actionBarStyle
         */
         public static final int AppCompatTheme_actionBarStyle = 18;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#actionBarTabBarStyle}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#actionBarTabBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:actionBarTabBarStyle
+          @attr name cn.nodemedia.demo:actionBarTabBarStyle
         */
         public static final int AppCompatTheme_actionBarTabBarStyle = 13;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#actionBarTabStyle}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#actionBarTabStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:actionBarTabStyle
+          @attr name cn.nodemedia.demo:actionBarTabStyle
         */
         public static final int AppCompatTheme_actionBarTabStyle = 12;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#actionBarTabTextStyle}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#actionBarTabTextStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:actionBarTabTextStyle
+          @attr name cn.nodemedia.demo:actionBarTabTextStyle
         */
         public static final int AppCompatTheme_actionBarTabTextStyle = 14;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#actionBarTheme}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#actionBarTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:actionBarTheme
+          @attr name cn.nodemedia.demo:actionBarTheme
         */
         public static final int AppCompatTheme_actionBarTheme = 20;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#actionBarWidgetTheme}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#actionBarWidgetTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:actionBarWidgetTheme
+          @attr name cn.nodemedia.demo:actionBarWidgetTheme
         */
         public static final int AppCompatTheme_actionBarWidgetTheme = 21;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#actionButtonStyle}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#actionButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:actionButtonStyle
+          @attr name cn.nodemedia.demo:actionButtonStyle
         */
         public static final int AppCompatTheme_actionButtonStyle = 50;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#actionDropDownStyle}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#actionDropDownStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:actionDropDownStyle
+          @attr name cn.nodemedia.demo:actionDropDownStyle
         */
         public static final int AppCompatTheme_actionDropDownStyle = 46;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#actionMenuTextAppearance}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#actionMenuTextAppearance}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:actionMenuTextAppearance
+          @attr name cn.nodemedia.demo:actionMenuTextAppearance
         */
         public static final int AppCompatTheme_actionMenuTextAppearance = 25;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#actionMenuTextColor}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#actionMenuTextColor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6425,181 +6433,181 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.gxey.remotemedicalplatform:actionMenuTextColor
+          @attr name cn.nodemedia.demo:actionMenuTextColor
         */
         public static final int AppCompatTheme_actionMenuTextColor = 26;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#actionModeBackground}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#actionModeBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:actionModeBackground
+          @attr name cn.nodemedia.demo:actionModeBackground
         */
         public static final int AppCompatTheme_actionModeBackground = 29;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#actionModeCloseButtonStyle}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#actionModeCloseButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:actionModeCloseButtonStyle
+          @attr name cn.nodemedia.demo:actionModeCloseButtonStyle
         */
         public static final int AppCompatTheme_actionModeCloseButtonStyle = 28;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#actionModeCloseDrawable}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#actionModeCloseDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:actionModeCloseDrawable
+          @attr name cn.nodemedia.demo:actionModeCloseDrawable
         */
         public static final int AppCompatTheme_actionModeCloseDrawable = 31;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#actionModeCopyDrawable}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#actionModeCopyDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:actionModeCopyDrawable
+          @attr name cn.nodemedia.demo:actionModeCopyDrawable
         */
         public static final int AppCompatTheme_actionModeCopyDrawable = 33;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#actionModeCutDrawable}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#actionModeCutDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:actionModeCutDrawable
+          @attr name cn.nodemedia.demo:actionModeCutDrawable
         */
         public static final int AppCompatTheme_actionModeCutDrawable = 32;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#actionModeFindDrawable}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#actionModeFindDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:actionModeFindDrawable
+          @attr name cn.nodemedia.demo:actionModeFindDrawable
         */
         public static final int AppCompatTheme_actionModeFindDrawable = 37;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#actionModePasteDrawable}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#actionModePasteDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:actionModePasteDrawable
+          @attr name cn.nodemedia.demo:actionModePasteDrawable
         */
         public static final int AppCompatTheme_actionModePasteDrawable = 34;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#actionModePopupWindowStyle}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#actionModePopupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:actionModePopupWindowStyle
+          @attr name cn.nodemedia.demo:actionModePopupWindowStyle
         */
         public static final int AppCompatTheme_actionModePopupWindowStyle = 39;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#actionModeSelectAllDrawable}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#actionModeSelectAllDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:actionModeSelectAllDrawable
+          @attr name cn.nodemedia.demo:actionModeSelectAllDrawable
         */
         public static final int AppCompatTheme_actionModeSelectAllDrawable = 35;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#actionModeShareDrawable}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#actionModeShareDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:actionModeShareDrawable
+          @attr name cn.nodemedia.demo:actionModeShareDrawable
         */
         public static final int AppCompatTheme_actionModeShareDrawable = 36;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#actionModeSplitBackground}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#actionModeSplitBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:actionModeSplitBackground
+          @attr name cn.nodemedia.demo:actionModeSplitBackground
         */
         public static final int AppCompatTheme_actionModeSplitBackground = 30;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#actionModeStyle}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#actionModeStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:actionModeStyle
+          @attr name cn.nodemedia.demo:actionModeStyle
         */
         public static final int AppCompatTheme_actionModeStyle = 27;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#actionModeWebSearchDrawable}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#actionModeWebSearchDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:actionModeWebSearchDrawable
+          @attr name cn.nodemedia.demo:actionModeWebSearchDrawable
         */
         public static final int AppCompatTheme_actionModeWebSearchDrawable = 38;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#actionOverflowButtonStyle}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#actionOverflowButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:actionOverflowButtonStyle
+          @attr name cn.nodemedia.demo:actionOverflowButtonStyle
         */
         public static final int AppCompatTheme_actionOverflowButtonStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#actionOverflowMenuStyle}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#actionOverflowMenuStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:actionOverflowMenuStyle
+          @attr name cn.nodemedia.demo:actionOverflowMenuStyle
         */
         public static final int AppCompatTheme_actionOverflowMenuStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#activityChooserViewStyle}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#activityChooserViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:activityChooserViewStyle
+          @attr name cn.nodemedia.demo:activityChooserViewStyle
         */
         public static final int AppCompatTheme_activityChooserViewStyle = 58;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#alertDialogButtonGroupStyle}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#alertDialogButtonGroupStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:alertDialogButtonGroupStyle
+          @attr name cn.nodemedia.demo:alertDialogButtonGroupStyle
         */
         public static final int AppCompatTheme_alertDialogButtonGroupStyle = 94;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#alertDialogCenterButtons}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#alertDialogCenterButtons}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6609,27 +6617,27 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:alertDialogCenterButtons
+          @attr name cn.nodemedia.demo:alertDialogCenterButtons
         */
         public static final int AppCompatTheme_alertDialogCenterButtons = 95;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#alertDialogStyle}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#alertDialogStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:alertDialogStyle
+          @attr name cn.nodemedia.demo:alertDialogStyle
         */
         public static final int AppCompatTheme_alertDialogStyle = 93;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#alertDialogTheme}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#alertDialogTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:alertDialogTheme
+          @attr name cn.nodemedia.demo:alertDialogTheme
         */
         public static final int AppCompatTheme_alertDialogTheme = 96;
         /**
@@ -6645,117 +6653,117 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_android_windowIsFloating = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#autoCompleteTextViewStyle}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#autoCompleteTextViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:autoCompleteTextViewStyle
+          @attr name cn.nodemedia.demo:autoCompleteTextViewStyle
         */
         public static final int AppCompatTheme_autoCompleteTextViewStyle = 101;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#borderlessButtonStyle}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#borderlessButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:borderlessButtonStyle
+          @attr name cn.nodemedia.demo:borderlessButtonStyle
         */
         public static final int AppCompatTheme_borderlessButtonStyle = 55;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#buttonBarButtonStyle}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#buttonBarButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:buttonBarButtonStyle
+          @attr name cn.nodemedia.demo:buttonBarButtonStyle
         */
         public static final int AppCompatTheme_buttonBarButtonStyle = 52;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#buttonBarNegativeButtonStyle}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#buttonBarNegativeButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:buttonBarNegativeButtonStyle
+          @attr name cn.nodemedia.demo:buttonBarNegativeButtonStyle
         */
         public static final int AppCompatTheme_buttonBarNegativeButtonStyle = 99;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#buttonBarNeutralButtonStyle}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#buttonBarNeutralButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:buttonBarNeutralButtonStyle
+          @attr name cn.nodemedia.demo:buttonBarNeutralButtonStyle
         */
         public static final int AppCompatTheme_buttonBarNeutralButtonStyle = 100;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#buttonBarPositiveButtonStyle}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#buttonBarPositiveButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:buttonBarPositiveButtonStyle
+          @attr name cn.nodemedia.demo:buttonBarPositiveButtonStyle
         */
         public static final int AppCompatTheme_buttonBarPositiveButtonStyle = 98;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#buttonBarStyle}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#buttonBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:buttonBarStyle
+          @attr name cn.nodemedia.demo:buttonBarStyle
         */
         public static final int AppCompatTheme_buttonBarStyle = 51;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#buttonStyle}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#buttonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:buttonStyle
+          @attr name cn.nodemedia.demo:buttonStyle
         */
         public static final int AppCompatTheme_buttonStyle = 102;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#buttonStyleSmall}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#buttonStyleSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:buttonStyleSmall
+          @attr name cn.nodemedia.demo:buttonStyleSmall
         */
         public static final int AppCompatTheme_buttonStyleSmall = 103;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#checkboxStyle}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#checkboxStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:checkboxStyle
+          @attr name cn.nodemedia.demo:checkboxStyle
         */
         public static final int AppCompatTheme_checkboxStyle = 104;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#checkedTextViewStyle}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#checkedTextViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:checkedTextViewStyle
+          @attr name cn.nodemedia.demo:checkedTextViewStyle
         */
         public static final int AppCompatTheme_checkedTextViewStyle = 105;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#colorAccent}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#colorAccent}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6766,11 +6774,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:colorAccent
+          @attr name cn.nodemedia.demo:colorAccent
         */
         public static final int AppCompatTheme_colorAccent = 85;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#colorBackgroundFloating}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#colorBackgroundFloating}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6781,11 +6789,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:colorBackgroundFloating
+          @attr name cn.nodemedia.demo:colorBackgroundFloating
         */
         public static final int AppCompatTheme_colorBackgroundFloating = 92;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#colorButtonNormal}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#colorButtonNormal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6796,11 +6804,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:colorButtonNormal
+          @attr name cn.nodemedia.demo:colorButtonNormal
         */
         public static final int AppCompatTheme_colorButtonNormal = 89;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#colorControlActivated}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#colorControlActivated}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6811,11 +6819,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:colorControlActivated
+          @attr name cn.nodemedia.demo:colorControlActivated
         */
         public static final int AppCompatTheme_colorControlActivated = 87;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#colorControlHighlight}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#colorControlHighlight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6826,11 +6834,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:colorControlHighlight
+          @attr name cn.nodemedia.demo:colorControlHighlight
         */
         public static final int AppCompatTheme_colorControlHighlight = 88;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#colorControlNormal}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#colorControlNormal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6841,11 +6849,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:colorControlNormal
+          @attr name cn.nodemedia.demo:colorControlNormal
         */
         public static final int AppCompatTheme_colorControlNormal = 86;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#colorPrimary}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#colorPrimary}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6856,11 +6864,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:colorPrimary
+          @attr name cn.nodemedia.demo:colorPrimary
         */
         public static final int AppCompatTheme_colorPrimary = 83;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#colorPrimaryDark}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#colorPrimaryDark}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6871,11 +6879,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:colorPrimaryDark
+          @attr name cn.nodemedia.demo:colorPrimaryDark
         */
         public static final int AppCompatTheme_colorPrimaryDark = 84;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#colorSwitchThumbNormal}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#colorSwitchThumbNormal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6886,21 +6894,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:colorSwitchThumbNormal
+          @attr name cn.nodemedia.demo:colorSwitchThumbNormal
         */
         public static final int AppCompatTheme_colorSwitchThumbNormal = 90;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#controlBackground}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#controlBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:controlBackground
+          @attr name cn.nodemedia.demo:controlBackground
         */
         public static final int AppCompatTheme_controlBackground = 91;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#dialogPreferredPadding}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#dialogPreferredPadding}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6912,51 +6920,51 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:dialogPreferredPadding
+          @attr name cn.nodemedia.demo:dialogPreferredPadding
         */
         public static final int AppCompatTheme_dialogPreferredPadding = 44;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#dialogTheme}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#dialogTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:dialogTheme
+          @attr name cn.nodemedia.demo:dialogTheme
         */
         public static final int AppCompatTheme_dialogTheme = 43;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#dividerHorizontal}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#dividerHorizontal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:dividerHorizontal
+          @attr name cn.nodemedia.demo:dividerHorizontal
         */
         public static final int AppCompatTheme_dividerHorizontal = 57;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#dividerVertical}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#dividerVertical}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:dividerVertical
+          @attr name cn.nodemedia.demo:dividerVertical
         */
         public static final int AppCompatTheme_dividerVertical = 56;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#dropDownListViewStyle}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#dropDownListViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:dropDownListViewStyle
+          @attr name cn.nodemedia.demo:dropDownListViewStyle
         */
         public static final int AppCompatTheme_dropDownListViewStyle = 75;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#dropdownListPreferredItemHeight}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#dropdownListPreferredItemHeight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6968,21 +6976,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:dropdownListPreferredItemHeight
+          @attr name cn.nodemedia.demo:dropdownListPreferredItemHeight
         */
         public static final int AppCompatTheme_dropdownListPreferredItemHeight = 47;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#editTextBackground}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#editTextBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:editTextBackground
+          @attr name cn.nodemedia.demo:editTextBackground
         */
         public static final int AppCompatTheme_editTextBackground = 64;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#editTextColor}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#editTextColor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6990,81 +6998,81 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.gxey.remotemedicalplatform:editTextColor
+          @attr name cn.nodemedia.demo:editTextColor
         */
         public static final int AppCompatTheme_editTextColor = 63;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#editTextStyle}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#editTextStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:editTextStyle
+          @attr name cn.nodemedia.demo:editTextStyle
         */
         public static final int AppCompatTheme_editTextStyle = 106;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:homeAsUpIndicator
+          @attr name cn.nodemedia.demo:homeAsUpIndicator
         */
         public static final int AppCompatTheme_homeAsUpIndicator = 49;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#imageButtonStyle}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#imageButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:imageButtonStyle
+          @attr name cn.nodemedia.demo:imageButtonStyle
         */
         public static final int AppCompatTheme_imageButtonStyle = 65;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#listChoiceBackgroundIndicator}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#listChoiceBackgroundIndicator}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:listChoiceBackgroundIndicator
+          @attr name cn.nodemedia.demo:listChoiceBackgroundIndicator
         */
         public static final int AppCompatTheme_listChoiceBackgroundIndicator = 82;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#listDividerAlertDialog}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#listDividerAlertDialog}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:listDividerAlertDialog
+          @attr name cn.nodemedia.demo:listDividerAlertDialog
         */
         public static final int AppCompatTheme_listDividerAlertDialog = 45;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#listMenuViewStyle}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#listMenuViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:listMenuViewStyle
+          @attr name cn.nodemedia.demo:listMenuViewStyle
         */
         public static final int AppCompatTheme_listMenuViewStyle = 114;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#listPopupWindowStyle}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#listPopupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:listPopupWindowStyle
+          @attr name cn.nodemedia.demo:listPopupWindowStyle
         */
         public static final int AppCompatTheme_listPopupWindowStyle = 76;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#listPreferredItemHeight}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#listPreferredItemHeight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7076,11 +7084,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:listPreferredItemHeight
+          @attr name cn.nodemedia.demo:listPreferredItemHeight
         */
         public static final int AppCompatTheme_listPreferredItemHeight = 70;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#listPreferredItemHeightLarge}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#listPreferredItemHeightLarge}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7092,11 +7100,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:listPreferredItemHeightLarge
+          @attr name cn.nodemedia.demo:listPreferredItemHeightLarge
         */
         public static final int AppCompatTheme_listPreferredItemHeightLarge = 72;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#listPreferredItemHeightSmall}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#listPreferredItemHeightSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7108,11 +7116,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:listPreferredItemHeightSmall
+          @attr name cn.nodemedia.demo:listPreferredItemHeightSmall
         */
         public static final int AppCompatTheme_listPreferredItemHeightSmall = 71;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#listPreferredItemPaddingLeft}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#listPreferredItemPaddingLeft}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7124,11 +7132,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:listPreferredItemPaddingLeft
+          @attr name cn.nodemedia.demo:listPreferredItemPaddingLeft
         */
         public static final int AppCompatTheme_listPreferredItemPaddingLeft = 73;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#listPreferredItemPaddingRight}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#listPreferredItemPaddingRight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7140,31 +7148,31 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:listPreferredItemPaddingRight
+          @attr name cn.nodemedia.demo:listPreferredItemPaddingRight
         */
         public static final int AppCompatTheme_listPreferredItemPaddingRight = 74;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#panelBackground}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#panelBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:panelBackground
+          @attr name cn.nodemedia.demo:panelBackground
         */
         public static final int AppCompatTheme_panelBackground = 79;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#panelMenuListTheme}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#panelMenuListTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:panelMenuListTheme
+          @attr name cn.nodemedia.demo:panelMenuListTheme
         */
         public static final int AppCompatTheme_panelMenuListTheme = 81;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#panelMenuListWidth}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#panelMenuListWidth}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7176,211 +7184,211 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:panelMenuListWidth
+          @attr name cn.nodemedia.demo:panelMenuListWidth
         */
         public static final int AppCompatTheme_panelMenuListWidth = 80;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#popupMenuStyle}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#popupMenuStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:popupMenuStyle
+          @attr name cn.nodemedia.demo:popupMenuStyle
         */
         public static final int AppCompatTheme_popupMenuStyle = 61;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#popupWindowStyle}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#popupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:popupWindowStyle
+          @attr name cn.nodemedia.demo:popupWindowStyle
         */
         public static final int AppCompatTheme_popupWindowStyle = 62;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#radioButtonStyle}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#radioButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:radioButtonStyle
+          @attr name cn.nodemedia.demo:radioButtonStyle
         */
         public static final int AppCompatTheme_radioButtonStyle = 107;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#ratingBarStyle}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#ratingBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:ratingBarStyle
+          @attr name cn.nodemedia.demo:ratingBarStyle
         */
         public static final int AppCompatTheme_ratingBarStyle = 108;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#ratingBarStyleIndicator}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#ratingBarStyleIndicator}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:ratingBarStyleIndicator
+          @attr name cn.nodemedia.demo:ratingBarStyleIndicator
         */
         public static final int AppCompatTheme_ratingBarStyleIndicator = 109;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#ratingBarStyleSmall}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#ratingBarStyleSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:ratingBarStyleSmall
+          @attr name cn.nodemedia.demo:ratingBarStyleSmall
         */
         public static final int AppCompatTheme_ratingBarStyleSmall = 110;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#searchViewStyle}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#searchViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:searchViewStyle
+          @attr name cn.nodemedia.demo:searchViewStyle
         */
         public static final int AppCompatTheme_searchViewStyle = 69;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#seekBarStyle}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#seekBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:seekBarStyle
+          @attr name cn.nodemedia.demo:seekBarStyle
         */
         public static final int AppCompatTheme_seekBarStyle = 111;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#selectableItemBackground}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#selectableItemBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:selectableItemBackground
+          @attr name cn.nodemedia.demo:selectableItemBackground
         */
         public static final int AppCompatTheme_selectableItemBackground = 53;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#selectableItemBackgroundBorderless}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#selectableItemBackgroundBorderless}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:selectableItemBackgroundBorderless
+          @attr name cn.nodemedia.demo:selectableItemBackgroundBorderless
         */
         public static final int AppCompatTheme_selectableItemBackgroundBorderless = 54;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#spinnerDropDownItemStyle}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#spinnerDropDownItemStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:spinnerDropDownItemStyle
+          @attr name cn.nodemedia.demo:spinnerDropDownItemStyle
         */
         public static final int AppCompatTheme_spinnerDropDownItemStyle = 48;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#spinnerStyle}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#spinnerStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:spinnerStyle
+          @attr name cn.nodemedia.demo:spinnerStyle
         */
         public static final int AppCompatTheme_spinnerStyle = 112;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#switchStyle}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#switchStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:switchStyle
+          @attr name cn.nodemedia.demo:switchStyle
         */
         public static final int AppCompatTheme_switchStyle = 113;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#textAppearanceLargePopupMenu}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#textAppearanceLargePopupMenu}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:textAppearanceLargePopupMenu
+          @attr name cn.nodemedia.demo:textAppearanceLargePopupMenu
         */
         public static final int AppCompatTheme_textAppearanceLargePopupMenu = 40;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#textAppearanceListItem}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#textAppearanceListItem}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:textAppearanceListItem
+          @attr name cn.nodemedia.demo:textAppearanceListItem
         */
         public static final int AppCompatTheme_textAppearanceListItem = 77;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#textAppearanceListItemSmall}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#textAppearanceListItemSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:textAppearanceListItemSmall
+          @attr name cn.nodemedia.demo:textAppearanceListItemSmall
         */
         public static final int AppCompatTheme_textAppearanceListItemSmall = 78;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#textAppearancePopupMenuHeader}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#textAppearancePopupMenuHeader}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:textAppearancePopupMenuHeader
+          @attr name cn.nodemedia.demo:textAppearancePopupMenuHeader
         */
         public static final int AppCompatTheme_textAppearancePopupMenuHeader = 42;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#textAppearanceSearchResultSubtitle}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#textAppearanceSearchResultSubtitle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:textAppearanceSearchResultSubtitle
+          @attr name cn.nodemedia.demo:textAppearanceSearchResultSubtitle
         */
         public static final int AppCompatTheme_textAppearanceSearchResultSubtitle = 67;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#textAppearanceSearchResultTitle}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#textAppearanceSearchResultTitle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:textAppearanceSearchResultTitle
+          @attr name cn.nodemedia.demo:textAppearanceSearchResultTitle
         */
         public static final int AppCompatTheme_textAppearanceSearchResultTitle = 66;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#textAppearanceSmallPopupMenu}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#textAppearanceSmallPopupMenu}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:textAppearanceSmallPopupMenu
+          @attr name cn.nodemedia.demo:textAppearanceSmallPopupMenu
         */
         public static final int AppCompatTheme_textAppearanceSmallPopupMenu = 41;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#textColorAlertDialogListItem}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#textColorAlertDialogListItem}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7388,11 +7396,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.gxey.remotemedicalplatform:textColorAlertDialogListItem
+          @attr name cn.nodemedia.demo:textColorAlertDialogListItem
         */
         public static final int AppCompatTheme_textColorAlertDialogListItem = 97;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#textColorSearchUrl}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#textColorSearchUrl}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7400,31 +7408,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.gxey.remotemedicalplatform:textColorSearchUrl
+          @attr name cn.nodemedia.demo:textColorSearchUrl
         */
         public static final int AppCompatTheme_textColorSearchUrl = 68;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#toolbarNavigationButtonStyle}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#toolbarNavigationButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:toolbarNavigationButtonStyle
+          @attr name cn.nodemedia.demo:toolbarNavigationButtonStyle
         */
         public static final int AppCompatTheme_toolbarNavigationButtonStyle = 60;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#toolbarStyle}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#toolbarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:toolbarStyle
+          @attr name cn.nodemedia.demo:toolbarStyle
         */
         public static final int AppCompatTheme_toolbarStyle = 59;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#windowActionBar}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#windowActionBar}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7434,11 +7442,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:windowActionBar
+          @attr name cn.nodemedia.demo:windowActionBar
         */
         public static final int AppCompatTheme_windowActionBar = 2;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#windowActionBarOverlay}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#windowActionBarOverlay}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7448,11 +7456,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:windowActionBarOverlay
+          @attr name cn.nodemedia.demo:windowActionBarOverlay
         */
         public static final int AppCompatTheme_windowActionBarOverlay = 4;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#windowActionModeOverlay}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#windowActionModeOverlay}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7462,11 +7470,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:windowActionModeOverlay
+          @attr name cn.nodemedia.demo:windowActionModeOverlay
         */
         public static final int AppCompatTheme_windowActionModeOverlay = 5;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#windowFixedHeightMajor}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#windowFixedHeightMajor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7481,11 +7489,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:windowFixedHeightMajor
+          @attr name cn.nodemedia.demo:windowFixedHeightMajor
         */
         public static final int AppCompatTheme_windowFixedHeightMajor = 9;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#windowFixedHeightMinor}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#windowFixedHeightMinor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7500,11 +7508,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:windowFixedHeightMinor
+          @attr name cn.nodemedia.demo:windowFixedHeightMinor
         */
         public static final int AppCompatTheme_windowFixedHeightMinor = 7;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#windowFixedWidthMajor}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#windowFixedWidthMajor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7519,11 +7527,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:windowFixedWidthMajor
+          @attr name cn.nodemedia.demo:windowFixedWidthMajor
         */
         public static final int AppCompatTheme_windowFixedWidthMajor = 6;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#windowFixedWidthMinor}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#windowFixedWidthMinor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7538,11 +7546,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:windowFixedWidthMinor
+          @attr name cn.nodemedia.demo:windowFixedWidthMinor
         */
         public static final int AppCompatTheme_windowFixedWidthMinor = 8;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#windowMinWidthMajor}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#windowMinWidthMajor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7557,11 +7565,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:windowMinWidthMajor
+          @attr name cn.nodemedia.demo:windowMinWidthMajor
         */
         public static final int AppCompatTheme_windowMinWidthMajor = 10;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#windowMinWidthMinor}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#windowMinWidthMinor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7576,11 +7584,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:windowMinWidthMinor
+          @attr name cn.nodemedia.demo:windowMinWidthMinor
         */
         public static final int AppCompatTheme_windowMinWidthMinor = 11;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#windowNoTitle}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#windowNoTitle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -7590,7 +7598,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:windowNoTitle
+          @attr name cn.nodemedia.demo:windowNoTitle
         */
         public static final int AppCompatTheme_windowNoTitle = 3;
         /** Attributes that can be used with a BottomNavigationBar.
@@ -7599,13 +7607,13 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #BottomNavigationBar_bnbActiveColor com.gxey.remotemedicalplatform:bnbActiveColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomNavigationBar_bnbAnimationDuration com.gxey.remotemedicalplatform:bnbAnimationDuration}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomNavigationBar_bnbBackgroundColor com.gxey.remotemedicalplatform:bnbBackgroundColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomNavigationBar_bnbBackgroundStyle com.gxey.remotemedicalplatform:bnbBackgroundStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomNavigationBar_bnbElevation com.gxey.remotemedicalplatform:bnbElevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomNavigationBar_bnbInactiveColor com.gxey.remotemedicalplatform:bnbInactiveColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomNavigationBar_bnbMode com.gxey.remotemedicalplatform:bnbMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomNavigationBar_bnbActiveColor cn.nodemedia.demo:bnbActiveColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomNavigationBar_bnbAnimationDuration cn.nodemedia.demo:bnbAnimationDuration}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomNavigationBar_bnbBackgroundColor cn.nodemedia.demo:bnbBackgroundColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomNavigationBar_bnbBackgroundStyle cn.nodemedia.demo:bnbBackgroundStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomNavigationBar_bnbElevation cn.nodemedia.demo:bnbElevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomNavigationBar_bnbInactiveColor cn.nodemedia.demo:bnbInactiveColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomNavigationBar_bnbMode cn.nodemedia.demo:bnbMode}</code></td><td></td></tr>
            </table>
            @see #BottomNavigationBar_bnbActiveColor
            @see #BottomNavigationBar_bnbAnimationDuration
@@ -7620,7 +7628,7 @@ containing a value of this type.
             0x7f0100ab, 0x7f0100ac, 0x7f0100ad
         };
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#bnbActiveColor}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#bnbActiveColor}
           attribute's value can be found in the {@link #BottomNavigationBar} array.
 
 
@@ -7631,11 +7639,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:bnbActiveColor
+          @attr name cn.nodemedia.demo:bnbActiveColor
         */
         public static final int BottomNavigationBar_bnbActiveColor = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#bnbAnimationDuration}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#bnbAnimationDuration}
           attribute's value can be found in the {@link #BottomNavigationBar} array.
 
 
@@ -7645,11 +7653,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:bnbAnimationDuration
+          @attr name cn.nodemedia.demo:bnbAnimationDuration
         */
         public static final int BottomNavigationBar_bnbAnimationDuration = 4;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#bnbBackgroundColor}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#bnbBackgroundColor}
           attribute's value can be found in the {@link #BottomNavigationBar} array.
 
 
@@ -7660,11 +7668,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:bnbBackgroundColor
+          @attr name cn.nodemedia.demo:bnbBackgroundColor
         */
         public static final int BottomNavigationBar_bnbBackgroundColor = 3;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#bnbBackgroundStyle}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#bnbBackgroundStyle}
           attribute's value can be found in the {@link #BottomNavigationBar} array.
 
 
@@ -7678,11 +7686,11 @@ containing a value of this type.
 <tr><td><code>background_style_static</code></td><td>1</td><td></td></tr>
 <tr><td><code>background_style_ripple</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.gxey.remotemedicalplatform:bnbBackgroundStyle
+          @attr name cn.nodemedia.demo:bnbBackgroundStyle
         */
         public static final int BottomNavigationBar_bnbBackgroundStyle = 6;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#bnbElevation}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#bnbElevation}
           attribute's value can be found in the {@link #BottomNavigationBar} array.
 
 
@@ -7694,11 +7702,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:bnbElevation
+          @attr name cn.nodemedia.demo:bnbElevation
         */
         public static final int BottomNavigationBar_bnbElevation = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#bnbInactiveColor}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#bnbInactiveColor}
           attribute's value can be found in the {@link #BottomNavigationBar} array.
 
 
@@ -7709,11 +7717,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:bnbInactiveColor
+          @attr name cn.nodemedia.demo:bnbInactiveColor
         */
         public static final int BottomNavigationBar_bnbInactiveColor = 2;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#bnbMode}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#bnbMode}
           attribute's value can be found in the {@link #BottomNavigationBar} array.
 
 
@@ -7727,7 +7735,7 @@ containing a value of this type.
 <tr><td><code>mode_fixed</code></td><td>1</td><td></td></tr>
 <tr><td><code>mode_shifting</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.gxey.remotemedicalplatform:bnbMode
+          @attr name cn.nodemedia.demo:bnbMode
         */
         public static final int BottomNavigationBar_bnbMode = 5;
         /** Attributes that can be used with a BottomSheetBehavior_Params.
@@ -7736,8 +7744,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #BottomSheetBehavior_Params_behavior_hideable com.gxey.remotemedicalplatform:behavior_hideable}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomSheetBehavior_Params_behavior_peekHeight com.gxey.remotemedicalplatform:behavior_peekHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomSheetBehavior_Params_behavior_hideable cn.nodemedia.demo:behavior_hideable}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomSheetBehavior_Params_behavior_peekHeight cn.nodemedia.demo:behavior_peekHeight}</code></td><td></td></tr>
            </table>
            @see #BottomSheetBehavior_Params_behavior_hideable
            @see #BottomSheetBehavior_Params_behavior_peekHeight
@@ -7746,7 +7754,7 @@ containing a value of this type.
             0x7f0100ae, 0x7f0100af
         };
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#behavior_hideable}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#behavior_hideable}
           attribute's value can be found in the {@link #BottomSheetBehavior_Params} array.
 
 
@@ -7756,11 +7764,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:behavior_hideable
+          @attr name cn.nodemedia.demo:behavior_hideable
         */
         public static final int BottomSheetBehavior_Params_behavior_hideable = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#behavior_peekHeight}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#behavior_peekHeight}
           attribute's value can be found in the {@link #BottomSheetBehavior_Params} array.
 
 
@@ -7772,7 +7780,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:behavior_peekHeight
+          @attr name cn.nodemedia.demo:behavior_peekHeight
         */
         public static final int BottomSheetBehavior_Params_behavior_peekHeight = 0;
         /** Attributes that can be used with a ButtonBarLayout.
@@ -7781,7 +7789,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ButtonBarLayout_allowStacking com.gxey.remotemedicalplatform:allowStacking}</code></td><td></td></tr>
+           <tr><td><code>{@link #ButtonBarLayout_allowStacking cn.nodemedia.demo:allowStacking}</code></td><td></td></tr>
            </table>
            @see #ButtonBarLayout_allowStacking
          */
@@ -7789,7 +7797,7 @@ containing a value of this type.
             0x7f0100b0
         };
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#allowStacking}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#allowStacking}
           attribute's value can be found in the {@link #ButtonBarLayout} array.
 
 
@@ -7799,7 +7807,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:allowStacking
+          @attr name cn.nodemedia.demo:allowStacking
         */
         public static final int ButtonBarLayout_allowStacking = 0;
         /** Attributes that can be used with a CardView.
@@ -7808,17 +7816,17 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CardView_cardBackgroundColor com.gxey.remotemedicalplatform:cardBackgroundColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardCornerRadius com.gxey.remotemedicalplatform:cardCornerRadius}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardElevation com.gxey.remotemedicalplatform:cardElevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardMaxElevation com.gxey.remotemedicalplatform:cardMaxElevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardPreventCornerOverlap com.gxey.remotemedicalplatform:cardPreventCornerOverlap}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardUseCompatPadding com.gxey.remotemedicalplatform:cardUseCompatPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_contentPadding com.gxey.remotemedicalplatform:contentPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_contentPaddingBottom com.gxey.remotemedicalplatform:contentPaddingBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_contentPaddingLeft com.gxey.remotemedicalplatform:contentPaddingLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_contentPaddingRight com.gxey.remotemedicalplatform:contentPaddingRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_contentPaddingTop com.gxey.remotemedicalplatform:contentPaddingTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardBackgroundColor cn.nodemedia.demo:cardBackgroundColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardCornerRadius cn.nodemedia.demo:cardCornerRadius}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardElevation cn.nodemedia.demo:cardElevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardMaxElevation cn.nodemedia.demo:cardMaxElevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardPreventCornerOverlap cn.nodemedia.demo:cardPreventCornerOverlap}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardUseCompatPadding cn.nodemedia.demo:cardUseCompatPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPadding cn.nodemedia.demo:contentPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingBottom cn.nodemedia.demo:contentPaddingBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingLeft cn.nodemedia.demo:contentPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingRight cn.nodemedia.demo:contentPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingTop cn.nodemedia.demo:contentPaddingTop}</code></td><td></td></tr>
            </table>
            @see #CardView_cardBackgroundColor
            @see #CardView_cardCornerRadius
@@ -7838,7 +7846,7 @@ containing a value of this type.
             0x7f0100b9, 0x7f0100ba, 0x7f0100bb
         };
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#cardBackgroundColor}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#cardBackgroundColor}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -7849,11 +7857,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:cardBackgroundColor
+          @attr name cn.nodemedia.demo:cardBackgroundColor
         */
         public static final int CardView_cardBackgroundColor = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#cardCornerRadius}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#cardCornerRadius}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -7865,11 +7873,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:cardCornerRadius
+          @attr name cn.nodemedia.demo:cardCornerRadius
         */
         public static final int CardView_cardCornerRadius = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#cardElevation}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#cardElevation}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -7881,11 +7889,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:cardElevation
+          @attr name cn.nodemedia.demo:cardElevation
         */
         public static final int CardView_cardElevation = 2;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#cardMaxElevation}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#cardMaxElevation}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -7897,11 +7905,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:cardMaxElevation
+          @attr name cn.nodemedia.demo:cardMaxElevation
         */
         public static final int CardView_cardMaxElevation = 3;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#cardPreventCornerOverlap}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#cardPreventCornerOverlap}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -7911,11 +7919,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:cardPreventCornerOverlap
+          @attr name cn.nodemedia.demo:cardPreventCornerOverlap
         */
         public static final int CardView_cardPreventCornerOverlap = 5;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#cardUseCompatPadding}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#cardUseCompatPadding}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -7925,11 +7933,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:cardUseCompatPadding
+          @attr name cn.nodemedia.demo:cardUseCompatPadding
         */
         public static final int CardView_cardUseCompatPadding = 4;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#contentPadding}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#contentPadding}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -7941,11 +7949,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:contentPadding
+          @attr name cn.nodemedia.demo:contentPadding
         */
         public static final int CardView_contentPadding = 6;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#contentPaddingBottom}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#contentPaddingBottom}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -7957,11 +7965,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:contentPaddingBottom
+          @attr name cn.nodemedia.demo:contentPaddingBottom
         */
         public static final int CardView_contentPaddingBottom = 10;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#contentPaddingLeft}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#contentPaddingLeft}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -7973,11 +7981,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:contentPaddingLeft
+          @attr name cn.nodemedia.demo:contentPaddingLeft
         */
         public static final int CardView_contentPaddingLeft = 7;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#contentPaddingRight}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#contentPaddingRight}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -7989,11 +7997,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:contentPaddingRight
+          @attr name cn.nodemedia.demo:contentPaddingRight
         */
         public static final int CardView_contentPaddingRight = 8;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#contentPaddingTop}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#contentPaddingTop}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -8005,7 +8013,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:contentPaddingTop
+          @attr name cn.nodemedia.demo:contentPaddingTop
         */
         public static final int CardView_contentPaddingTop = 9;
         /** Attributes that can be used with a CollapsingAppBarLayout_LayoutParams.
@@ -8014,8 +8022,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CollapsingAppBarLayout_LayoutParams_layout_collapseMode com.gxey.remotemedicalplatform:layout_collapseMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier com.gxey.remotemedicalplatform:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingAppBarLayout_LayoutParams_layout_collapseMode cn.nodemedia.demo:layout_collapseMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier cn.nodemedia.demo:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
            </table>
            @see #CollapsingAppBarLayout_LayoutParams_layout_collapseMode
            @see #CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier
@@ -8024,7 +8032,7 @@ containing a value of this type.
             0x7f0100bc, 0x7f0100bd
         };
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#layout_collapseMode}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#layout_collapseMode}
           attribute's value can be found in the {@link #CollapsingAppBarLayout_LayoutParams} array.
 
 
@@ -8038,11 +8046,11 @@ containing a value of this type.
 <tr><td><code>pin</code></td><td>1</td><td></td></tr>
 <tr><td><code>parallax</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.gxey.remotemedicalplatform:layout_collapseMode
+          @attr name cn.nodemedia.demo:layout_collapseMode
         */
         public static final int CollapsingAppBarLayout_LayoutParams_layout_collapseMode = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#layout_collapseParallaxMultiplier}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#layout_collapseParallaxMultiplier}
           attribute's value can be found in the {@link #CollapsingAppBarLayout_LayoutParams} array.
 
 
@@ -8052,7 +8060,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:layout_collapseParallaxMultiplier
+          @attr name cn.nodemedia.demo:layout_collapseParallaxMultiplier
         */
         public static final int CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier = 1;
         /** Attributes that can be used with a CollapsingToolbarLayout.
@@ -8061,20 +8069,20 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity com.gxey.remotemedicalplatform:collapsedTitleGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance com.gxey.remotemedicalplatform:collapsedTitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim com.gxey.remotemedicalplatform:contentScrim}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity com.gxey.remotemedicalplatform:expandedTitleGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin com.gxey.remotemedicalplatform:expandedTitleMargin}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom com.gxey.remotemedicalplatform:expandedTitleMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd com.gxey.remotemedicalplatform:expandedTitleMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart com.gxey.remotemedicalplatform:expandedTitleMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop com.gxey.remotemedicalplatform:expandedTitleMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance com.gxey.remotemedicalplatform:expandedTitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim com.gxey.remotemedicalplatform:statusBarScrim}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_title com.gxey.remotemedicalplatform:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled com.gxey.remotemedicalplatform:titleEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId com.gxey.remotemedicalplatform:toolbarId}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity cn.nodemedia.demo:collapsedTitleGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance cn.nodemedia.demo:collapsedTitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim cn.nodemedia.demo:contentScrim}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity cn.nodemedia.demo:expandedTitleGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin cn.nodemedia.demo:expandedTitleMargin}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom cn.nodemedia.demo:expandedTitleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd cn.nodemedia.demo:expandedTitleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart cn.nodemedia.demo:expandedTitleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop cn.nodemedia.demo:expandedTitleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance cn.nodemedia.demo:expandedTitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim cn.nodemedia.demo:statusBarScrim}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_title cn.nodemedia.demo:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled cn.nodemedia.demo:titleEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId cn.nodemedia.demo:toolbarId}</code></td><td></td></tr>
            </table>
            @see #CollapsingToolbarLayout_collapsedTitleGravity
            @see #CollapsingToolbarLayout_collapsedTitleTextAppearance
@@ -8098,7 +8106,7 @@ containing a value of this type.
             0x7f0100c9, 0x7f0100ca
         };
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#collapsedTitleGravity}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#collapsedTitleGravity}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -8119,21 +8127,21 @@ containing a value of this type.
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name com.gxey.remotemedicalplatform:collapsedTitleGravity
+          @attr name cn.nodemedia.demo:collapsedTitleGravity
         */
         public static final int CollapsingToolbarLayout_collapsedTitleGravity = 11;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#collapsedTitleTextAppearance}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#collapsedTitleTextAppearance}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:collapsedTitleTextAppearance
+          @attr name cn.nodemedia.demo:collapsedTitleTextAppearance
         */
         public static final int CollapsingToolbarLayout_collapsedTitleTextAppearance = 7;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#contentScrim}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#contentScrim}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -8144,11 +8152,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:contentScrim
+          @attr name cn.nodemedia.demo:contentScrim
         */
         public static final int CollapsingToolbarLayout_contentScrim = 8;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#expandedTitleGravity}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#expandedTitleGravity}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -8169,11 +8177,11 @@ containing a value of this type.
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name com.gxey.remotemedicalplatform:expandedTitleGravity
+          @attr name cn.nodemedia.demo:expandedTitleGravity
         */
         public static final int CollapsingToolbarLayout_expandedTitleGravity = 12;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#expandedTitleMargin}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#expandedTitleMargin}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -8185,11 +8193,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:expandedTitleMargin
+          @attr name cn.nodemedia.demo:expandedTitleMargin
         */
         public static final int CollapsingToolbarLayout_expandedTitleMargin = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#expandedTitleMarginBottom}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#expandedTitleMarginBottom}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -8201,11 +8209,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:expandedTitleMarginBottom
+          @attr name cn.nodemedia.demo:expandedTitleMarginBottom
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginBottom = 5;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#expandedTitleMarginEnd}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#expandedTitleMarginEnd}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -8217,11 +8225,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:expandedTitleMarginEnd
+          @attr name cn.nodemedia.demo:expandedTitleMarginEnd
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginEnd = 4;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#expandedTitleMarginStart}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#expandedTitleMarginStart}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -8233,11 +8241,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:expandedTitleMarginStart
+          @attr name cn.nodemedia.demo:expandedTitleMarginStart
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginStart = 2;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#expandedTitleMarginTop}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#expandedTitleMarginTop}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -8249,21 +8257,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:expandedTitleMarginTop
+          @attr name cn.nodemedia.demo:expandedTitleMarginTop
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginTop = 3;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#expandedTitleTextAppearance}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#expandedTitleTextAppearance}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:expandedTitleTextAppearance
+          @attr name cn.nodemedia.demo:expandedTitleTextAppearance
         */
         public static final int CollapsingToolbarLayout_expandedTitleTextAppearance = 6;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#statusBarScrim}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#statusBarScrim}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -8274,11 +8282,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:statusBarScrim
+          @attr name cn.nodemedia.demo:statusBarScrim
         */
         public static final int CollapsingToolbarLayout_statusBarScrim = 9;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#title}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#title}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -8288,11 +8296,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:title
+          @attr name cn.nodemedia.demo:title
         */
         public static final int CollapsingToolbarLayout_title = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#titleEnabled}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#titleEnabled}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -8302,17 +8310,17 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:titleEnabled
+          @attr name cn.nodemedia.demo:titleEnabled
         */
         public static final int CollapsingToolbarLayout_titleEnabled = 13;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#toolbarId}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#toolbarId}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:toolbarId
+          @attr name cn.nodemedia.demo:toolbarId
         */
         public static final int CollapsingToolbarLayout_toolbarId = 10;
         /** Attributes that can be used with a ColorStateListItem.
@@ -8321,7 +8329,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ColorStateListItem_alpha com.gxey.remotemedicalplatform:alpha}</code></td><td></td></tr>
+           <tr><td><code>{@link #ColorStateListItem_alpha cn.nodemedia.demo:alpha}</code></td><td></td></tr>
            <tr><td><code>{@link #ColorStateListItem_android_alpha android:alpha}</code></td><td></td></tr>
            <tr><td><code>{@link #ColorStateListItem_android_color android:color}</code></td><td></td></tr>
            </table>
@@ -8333,7 +8341,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x010101a5, 0x0101031f, 0x7f0100cb
         };
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#alpha}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#alpha}
           attribute's value can be found in the {@link #ColorStateListItem} array.
 
 
@@ -8343,7 +8351,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:alpha
+          @attr name cn.nodemedia.demo:alpha
         */
         public static final int ColorStateListItem_alpha = 2;
         /**
@@ -8365,8 +8373,8 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
-           <tr><td><code>{@link #CompoundButton_buttonTint com.gxey.remotemedicalplatform:buttonTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #CompoundButton_buttonTintMode com.gxey.remotemedicalplatform:buttonTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #CompoundButton_buttonTint cn.nodemedia.demo:buttonTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #CompoundButton_buttonTintMode cn.nodemedia.demo:buttonTintMode}</code></td><td></td></tr>
            </table>
            @see #CompoundButton_android_button
            @see #CompoundButton_buttonTint
@@ -8382,7 +8390,7 @@ containing a value of this type.
         */
         public static final int CompoundButton_android_button = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#buttonTint}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#buttonTint}
           attribute's value can be found in the {@link #CompoundButton} array.
 
 
@@ -8393,11 +8401,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:buttonTint
+          @attr name cn.nodemedia.demo:buttonTint
         */
         public static final int CompoundButton_buttonTint = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#buttonTintMode}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#buttonTintMode}
           attribute's value can be found in the {@link #CompoundButton} array.
 
 
@@ -8413,7 +8421,7 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name com.gxey.remotemedicalplatform:buttonTintMode
+          @attr name cn.nodemedia.demo:buttonTintMode
         */
         public static final int CompoundButton_buttonTintMode = 2;
         /** Attributes that can be used with a CoordinatorLayout.
@@ -8422,8 +8430,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CoordinatorLayout_keylines com.gxey.remotemedicalplatform:keylines}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.gxey.remotemedicalplatform:statusBarBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_keylines cn.nodemedia.demo:keylines}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_statusBarBackground cn.nodemedia.demo:statusBarBackground}</code></td><td></td></tr>
            </table>
            @see #CoordinatorLayout_keylines
            @see #CoordinatorLayout_statusBarBackground
@@ -8432,23 +8440,23 @@ containing a value of this type.
             0x7f0100ce, 0x7f0100cf
         };
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#keylines}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#keylines}
           attribute's value can be found in the {@link #CoordinatorLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:keylines
+          @attr name cn.nodemedia.demo:keylines
         */
         public static final int CoordinatorLayout_keylines = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#statusBarBackground}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#statusBarBackground}
           attribute's value can be found in the {@link #CoordinatorLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:statusBarBackground
+          @attr name cn.nodemedia.demo:statusBarBackground
         */
         public static final int CoordinatorLayout_statusBarBackground = 1;
         /** Attributes that can be used with a CoordinatorLayout_LayoutParams.
@@ -8458,10 +8466,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #CoordinatorLayout_LayoutParams_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_anchor com.gxey.remotemedicalplatform:layout_anchor}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_anchorGravity com.gxey.remotemedicalplatform:layout_anchorGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_behavior com.gxey.remotemedicalplatform:layout_behavior}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_keyline com.gxey.remotemedicalplatform:layout_keyline}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_anchor cn.nodemedia.demo:layout_anchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_anchorGravity cn.nodemedia.demo:layout_anchorGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_behavior cn.nodemedia.demo:layout_behavior}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_keyline cn.nodemedia.demo:layout_keyline}</code></td><td></td></tr>
            </table>
            @see #CoordinatorLayout_LayoutParams_android_layout_gravity
            @see #CoordinatorLayout_LayoutParams_layout_anchor
@@ -8480,17 +8488,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int CoordinatorLayout_LayoutParams_android_layout_gravity = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#layout_anchor}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#layout_anchor}
           attribute's value can be found in the {@link #CoordinatorLayout_LayoutParams} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:layout_anchor
+          @attr name cn.nodemedia.demo:layout_anchor
         */
         public static final int CoordinatorLayout_LayoutParams_layout_anchor = 2;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#layout_anchorGravity}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#layout_anchorGravity}
           attribute's value can be found in the {@link #CoordinatorLayout_LayoutParams} array.
 
 
@@ -8515,11 +8523,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name com.gxey.remotemedicalplatform:layout_anchorGravity
+          @attr name cn.nodemedia.demo:layout_anchorGravity
         */
         public static final int CoordinatorLayout_LayoutParams_layout_anchorGravity = 4;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#layout_behavior}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#layout_behavior}
           attribute's value can be found in the {@link #CoordinatorLayout_LayoutParams} array.
 
 
@@ -8529,11 +8537,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:layout_behavior
+          @attr name cn.nodemedia.demo:layout_behavior
         */
         public static final int CoordinatorLayout_LayoutParams_layout_behavior = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#layout_keyline}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#layout_keyline}
           attribute's value can be found in the {@link #CoordinatorLayout_LayoutParams} array.
 
 
@@ -8543,7 +8551,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:layout_keyline
+          @attr name cn.nodemedia.demo:layout_keyline
         */
         public static final int CoordinatorLayout_LayoutParams_layout_keyline = 3;
         /** Attributes that can be used with a DesignTheme.
@@ -8552,9 +8560,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme com.gxey.remotemedicalplatform:bottomSheetDialogTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #DesignTheme_bottomSheetStyle com.gxey.remotemedicalplatform:bottomSheetStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #DesignTheme_textColorError com.gxey.remotemedicalplatform:textColorError}</code></td><td></td></tr>
+           <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme cn.nodemedia.demo:bottomSheetDialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #DesignTheme_bottomSheetStyle cn.nodemedia.demo:bottomSheetStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #DesignTheme_textColorError cn.nodemedia.demo:textColorError}</code></td><td></td></tr>
            </table>
            @see #DesignTheme_bottomSheetDialogTheme
            @see #DesignTheme_bottomSheetStyle
@@ -8564,27 +8572,27 @@ containing a value of this type.
             0x7f0100d4, 0x7f0100d5, 0x7f0100d6
         };
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#bottomSheetDialogTheme}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#bottomSheetDialogTheme}
           attribute's value can be found in the {@link #DesignTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:bottomSheetDialogTheme
+          @attr name cn.nodemedia.demo:bottomSheetDialogTheme
         */
         public static final int DesignTheme_bottomSheetDialogTheme = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#bottomSheetStyle}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#bottomSheetStyle}
           attribute's value can be found in the {@link #DesignTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:bottomSheetStyle
+          @attr name cn.nodemedia.demo:bottomSheetStyle
         */
         public static final int DesignTheme_bottomSheetStyle = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#textColorError}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#textColorError}
           attribute's value can be found in the {@link #DesignTheme} array.
 
 
@@ -8595,7 +8603,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:textColorError
+          @attr name cn.nodemedia.demo:textColorError
         */
         public static final int DesignTheme_textColorError = 2;
         /** Attributes that can be used with a DrawerArrowToggle.
@@ -8604,14 +8612,14 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.gxey.remotemedicalplatform:arrowHeadLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.gxey.remotemedicalplatform:arrowShaftLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_barLength com.gxey.remotemedicalplatform:barLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_color com.gxey.remotemedicalplatform:color}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.gxey.remotemedicalplatform:drawableSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.gxey.remotemedicalplatform:gapBetweenBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_spinBars com.gxey.remotemedicalplatform:spinBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_thickness com.gxey.remotemedicalplatform:thickness}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength cn.nodemedia.demo:arrowHeadLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength cn.nodemedia.demo:arrowShaftLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_barLength cn.nodemedia.demo:barLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_color cn.nodemedia.demo:color}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_drawableSize cn.nodemedia.demo:drawableSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars cn.nodemedia.demo:gapBetweenBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_spinBars cn.nodemedia.demo:spinBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_thickness cn.nodemedia.demo:thickness}</code></td><td></td></tr>
            </table>
            @see #DrawerArrowToggle_arrowHeadLength
            @see #DrawerArrowToggle_arrowShaftLength
@@ -8627,7 +8635,7 @@ containing a value of this type.
             0x7f0100db, 0x7f0100dc, 0x7f0100dd, 0x7f0100de
         };
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#arrowHeadLength}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#arrowHeadLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -8639,11 +8647,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:arrowHeadLength
+          @attr name cn.nodemedia.demo:arrowHeadLength
         */
         public static final int DrawerArrowToggle_arrowHeadLength = 4;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#arrowShaftLength}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#arrowShaftLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -8655,11 +8663,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:arrowShaftLength
+          @attr name cn.nodemedia.demo:arrowShaftLength
         */
         public static final int DrawerArrowToggle_arrowShaftLength = 5;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#barLength}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#barLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -8671,11 +8679,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:barLength
+          @attr name cn.nodemedia.demo:barLength
         */
         public static final int DrawerArrowToggle_barLength = 6;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#color}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#color}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -8686,11 +8694,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:color
+          @attr name cn.nodemedia.demo:color
         */
         public static final int DrawerArrowToggle_color = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#drawableSize}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#drawableSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -8702,11 +8710,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:drawableSize
+          @attr name cn.nodemedia.demo:drawableSize
         */
         public static final int DrawerArrowToggle_drawableSize = 2;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#gapBetweenBars}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#gapBetweenBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -8718,11 +8726,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:gapBetweenBars
+          @attr name cn.nodemedia.demo:gapBetweenBars
         */
         public static final int DrawerArrowToggle_gapBetweenBars = 3;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#spinBars}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#spinBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -8732,11 +8740,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:spinBars
+          @attr name cn.nodemedia.demo:spinBars
         */
         public static final int DrawerArrowToggle_spinBars = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#thickness}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#thickness}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -8748,7 +8756,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:thickness
+          @attr name cn.nodemedia.demo:thickness
         */
         public static final int DrawerArrowToggle_thickness = 7;
         /** Attributes that can be used with a EmptyLayout.
@@ -8757,9 +8765,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #EmptyLayout_elEmptyLayout com.gxey.remotemedicalplatform:elEmptyLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #EmptyLayout_elErrorLayout com.gxey.remotemedicalplatform:elErrorLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #EmptyLayout_elLoadingLayout com.gxey.remotemedicalplatform:elLoadingLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #EmptyLayout_elEmptyLayout cn.nodemedia.demo:elEmptyLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #EmptyLayout_elErrorLayout cn.nodemedia.demo:elErrorLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #EmptyLayout_elLoadingLayout cn.nodemedia.demo:elLoadingLayout}</code></td><td></td></tr>
            </table>
            @see #EmptyLayout_elEmptyLayout
            @see #EmptyLayout_elErrorLayout
@@ -8769,33 +8777,33 @@ containing a value of this type.
             0x7f0100df, 0x7f0100e0, 0x7f0100e1
         };
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#elEmptyLayout}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#elEmptyLayout}
           attribute's value can be found in the {@link #EmptyLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:elEmptyLayout
+          @attr name cn.nodemedia.demo:elEmptyLayout
         */
         public static final int EmptyLayout_elEmptyLayout = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#elErrorLayout}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#elErrorLayout}
           attribute's value can be found in the {@link #EmptyLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:elErrorLayout
+          @attr name cn.nodemedia.demo:elErrorLayout
         */
         public static final int EmptyLayout_elErrorLayout = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#elLoadingLayout}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#elLoadingLayout}
           attribute's value can be found in the {@link #EmptyLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:elLoadingLayout
+          @attr name cn.nodemedia.demo:elLoadingLayout
         */
         public static final int EmptyLayout_elLoadingLayout = 2;
         /** Attributes that can be used with a FloatingActionButton.
@@ -8804,14 +8812,14 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #FloatingActionButton_backgroundTint com.gxey.remotemedicalplatform:backgroundTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_backgroundTintMode com.gxey.remotemedicalplatform:backgroundTintMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_borderWidth com.gxey.remotemedicalplatform:borderWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_elevation com.gxey.remotemedicalplatform:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_fabSize com.gxey.remotemedicalplatform:fabSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ com.gxey.remotemedicalplatform:pressedTranslationZ}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_rippleColor com.gxey.remotemedicalplatform:rippleColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_useCompatPadding com.gxey.remotemedicalplatform:useCompatPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_backgroundTint cn.nodemedia.demo:backgroundTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_backgroundTintMode cn.nodemedia.demo:backgroundTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_borderWidth cn.nodemedia.demo:borderWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_elevation cn.nodemedia.demo:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fabSize cn.nodemedia.demo:fabSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ cn.nodemedia.demo:pressedTranslationZ}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_rippleColor cn.nodemedia.demo:rippleColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_useCompatPadding cn.nodemedia.demo:useCompatPadding}</code></td><td></td></tr>
            </table>
            @see #FloatingActionButton_backgroundTint
            @see #FloatingActionButton_backgroundTintMode
@@ -8827,7 +8835,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0100e5, 0x7f0100e6, 0x7f010170, 0x7f010171
         };
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#backgroundTint}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#backgroundTint}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -8838,11 +8846,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:backgroundTint
+          @attr name cn.nodemedia.demo:backgroundTint
         */
         public static final int FloatingActionButton_backgroundTint = 6;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#backgroundTintMode}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#backgroundTintMode}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -8858,11 +8866,11 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name com.gxey.remotemedicalplatform:backgroundTintMode
+          @attr name cn.nodemedia.demo:backgroundTintMode
         */
         public static final int FloatingActionButton_backgroundTintMode = 7;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#borderWidth}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#borderWidth}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -8874,11 +8882,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:borderWidth
+          @attr name cn.nodemedia.demo:borderWidth
         */
         public static final int FloatingActionButton_borderWidth = 4;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#elevation}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#elevation}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -8890,11 +8898,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:elevation
+          @attr name cn.nodemedia.demo:elevation
         */
         public static final int FloatingActionButton_elevation = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#fabSize}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#fabSize}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -8907,11 +8915,11 @@ containing a value of this type.
 <tr><td><code>normal</code></td><td>0</td><td></td></tr>
 <tr><td><code>mini</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.gxey.remotemedicalplatform:fabSize
+          @attr name cn.nodemedia.demo:fabSize
         */
         public static final int FloatingActionButton_fabSize = 2;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#pressedTranslationZ}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#pressedTranslationZ}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -8923,11 +8931,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:pressedTranslationZ
+          @attr name cn.nodemedia.demo:pressedTranslationZ
         */
         public static final int FloatingActionButton_pressedTranslationZ = 3;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#rippleColor}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#rippleColor}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -8938,11 +8946,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:rippleColor
+          @attr name cn.nodemedia.demo:rippleColor
         */
         public static final int FloatingActionButton_rippleColor = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#useCompatPadding}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#useCompatPadding}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -8952,7 +8960,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:useCompatPadding
+          @attr name cn.nodemedia.demo:useCompatPadding
         */
         public static final int FloatingActionButton_useCompatPadding = 5;
         /** Attributes that can be used with a ForegroundLinearLayout.
@@ -8963,7 +8971,7 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #ForegroundLinearLayout_android_foreground android:foreground}</code></td><td></td></tr>
            <tr><td><code>{@link #ForegroundLinearLayout_android_foregroundGravity android:foregroundGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding com.gxey.remotemedicalplatform:foregroundInsidePadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding cn.nodemedia.demo:foregroundInsidePadding}</code></td><td></td></tr>
            </table>
            @see #ForegroundLinearLayout_android_foreground
            @see #ForegroundLinearLayout_android_foregroundGravity
@@ -8985,7 +8993,7 @@ containing a value of this type.
         */
         public static final int ForegroundLinearLayout_android_foregroundGravity = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#foregroundInsidePadding}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#foregroundInsidePadding}
           attribute's value can be found in the {@link #ForegroundLinearLayout} array.
 
 
@@ -8995,7 +9003,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:foregroundInsidePadding
+          @attr name cn.nodemedia.demo:foregroundInsidePadding
         */
         public static final int ForegroundLinearLayout_foregroundInsidePadding = 2;
         /** Attributes that can be used with a LinearLayoutCompat.
@@ -9009,10 +9017,10 @@ containing a value of this type.
            <tr><td><code>{@link #LinearLayoutCompat_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_orientation android:orientation}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_divider com.gxey.remotemedicalplatform:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.gxey.remotemedicalplatform:dividerPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.gxey.remotemedicalplatform:measureWithLargestChild}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_showDividers com.gxey.remotemedicalplatform:showDividers}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_divider cn.nodemedia.demo:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding cn.nodemedia.demo:dividerPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild cn.nodemedia.demo:measureWithLargestChild}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_showDividers cn.nodemedia.demo:showDividers}</code></td><td></td></tr>
            </table>
            @see #LinearLayoutCompat_android_baselineAligned
            @see #LinearLayoutCompat_android_baselineAlignedChildIndex
@@ -9060,17 +9068,17 @@ containing a value of this type.
         */
         public static final int LinearLayoutCompat_android_weightSum = 4;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#divider}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#divider}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:divider
+          @attr name cn.nodemedia.demo:divider
         */
         public static final int LinearLayoutCompat_divider = 5;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#dividerPadding}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#dividerPadding}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -9082,11 +9090,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:dividerPadding
+          @attr name cn.nodemedia.demo:dividerPadding
         */
         public static final int LinearLayoutCompat_dividerPadding = 8;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#measureWithLargestChild}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#measureWithLargestChild}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -9096,11 +9104,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:measureWithLargestChild
+          @attr name cn.nodemedia.demo:measureWithLargestChild
         */
         public static final int LinearLayoutCompat_measureWithLargestChild = 6;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#showDividers}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#showDividers}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -9115,7 +9123,7 @@ containing a value of this type.
 <tr><td><code>middle</code></td><td>2</td><td></td></tr>
 <tr><td><code>end</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name com.gxey.remotemedicalplatform:showDividers
+          @attr name cn.nodemedia.demo:showDividers
         */
         public static final int LinearLayoutCompat_showDividers = 7;
         /** Attributes that can be used with a LinearLayoutCompat_Layout.
@@ -9194,9 +9202,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #LoadingImageView_circleCrop com.gxey.remotemedicalplatform:circleCrop}</code></td><td></td></tr>
-           <tr><td><code>{@link #LoadingImageView_imageAspectRatio com.gxey.remotemedicalplatform:imageAspectRatio}</code></td><td></td></tr>
-           <tr><td><code>{@link #LoadingImageView_imageAspectRatioAdjust com.gxey.remotemedicalplatform:imageAspectRatioAdjust}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoadingImageView_circleCrop cn.nodemedia.demo:circleCrop}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoadingImageView_imageAspectRatio cn.nodemedia.demo:imageAspectRatio}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoadingImageView_imageAspectRatioAdjust cn.nodemedia.demo:imageAspectRatioAdjust}</code></td><td></td></tr>
            </table>
            @see #LoadingImageView_circleCrop
            @see #LoadingImageView_imageAspectRatio
@@ -9206,7 +9214,7 @@ containing a value of this type.
             0x7f0100eb, 0x7f0100ec, 0x7f0100ed
         };
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#circleCrop}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#circleCrop}
           attribute's value can be found in the {@link #LoadingImageView} array.
 
 
@@ -9216,11 +9224,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:circleCrop
+          @attr name cn.nodemedia.demo:circleCrop
         */
         public static final int LoadingImageView_circleCrop = 2;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#imageAspectRatio}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#imageAspectRatio}
           attribute's value can be found in the {@link #LoadingImageView} array.
 
 
@@ -9230,11 +9238,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:imageAspectRatio
+          @attr name cn.nodemedia.demo:imageAspectRatio
         */
         public static final int LoadingImageView_imageAspectRatio = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#imageAspectRatioAdjust}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#imageAspectRatioAdjust}
           attribute's value can be found in the {@link #LoadingImageView} array.
 
 
@@ -9248,7 +9256,7 @@ containing a value of this type.
 <tr><td><code>adjust_width</code></td><td>1</td><td></td></tr>
 <tr><td><code>adjust_height</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.gxey.remotemedicalplatform:imageAspectRatioAdjust
+          @attr name cn.nodemedia.demo:imageAspectRatioAdjust
         */
         public static final int LoadingImageView_imageAspectRatioAdjust = 0;
         /** Attributes that can be used with a LoopView.
@@ -9257,13 +9265,13 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #LoopView_canLoop com.gxey.remotemedicalplatform:canLoop}</code></td><td></td></tr>
-           <tr><td><code>{@link #LoopView_centerTextColor com.gxey.remotemedicalplatform:centerTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #LoopView_drawItemCount com.gxey.remotemedicalplatform:drawItemCount}</code></td><td></td></tr>
-           <tr><td><code>{@link #LoopView_initPosition com.gxey.remotemedicalplatform:initPosition}</code></td><td></td></tr>
-           <tr><td><code>{@link #LoopView_lineColor com.gxey.remotemedicalplatform:lineColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #LoopView_textSize com.gxey.remotemedicalplatform:textSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #LoopView_topBottomTextColor com.gxey.remotemedicalplatform:topBottomTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoopView_canLoop cn.nodemedia.demo:canLoop}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoopView_centerTextColor cn.nodemedia.demo:centerTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoopView_drawItemCount cn.nodemedia.demo:drawItemCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoopView_initPosition cn.nodemedia.demo:initPosition}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoopView_lineColor cn.nodemedia.demo:lineColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoopView_textSize cn.nodemedia.demo:textSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoopView_topBottomTextColor cn.nodemedia.demo:topBottomTextColor}</code></td><td></td></tr>
            </table>
            @see #LoopView_canLoop
            @see #LoopView_centerTextColor
@@ -9278,7 +9286,7 @@ containing a value of this type.
             0x7f0100f2, 0x7f0100f3, 0x7f0100f4
         };
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#canLoop}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#canLoop}
           attribute's value can be found in the {@link #LoopView} array.
 
 
@@ -9288,11 +9296,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:canLoop
+          @attr name cn.nodemedia.demo:canLoop
         */
         public static final int LoopView_canLoop = 4;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#centerTextColor}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#centerTextColor}
           attribute's value can be found in the {@link #LoopView} array.
 
 
@@ -9303,11 +9311,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:centerTextColor
+          @attr name cn.nodemedia.demo:centerTextColor
         */
         public static final int LoopView_centerTextColor = 2;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#drawItemCount}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#drawItemCount}
           attribute's value can be found in the {@link #LoopView} array.
 
 
@@ -9317,11 +9325,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:drawItemCount
+          @attr name cn.nodemedia.demo:drawItemCount
         */
         public static final int LoopView_drawItemCount = 6;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#initPosition}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#initPosition}
           attribute's value can be found in the {@link #LoopView} array.
 
 
@@ -9331,11 +9339,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:initPosition
+          @attr name cn.nodemedia.demo:initPosition
         */
         public static final int LoopView_initPosition = 5;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#lineColor}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#lineColor}
           attribute's value can be found in the {@link #LoopView} array.
 
 
@@ -9346,11 +9354,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:lineColor
+          @attr name cn.nodemedia.demo:lineColor
         */
         public static final int LoopView_lineColor = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#textSize}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#textSize}
           attribute's value can be found in the {@link #LoopView} array.
 
 
@@ -9362,11 +9370,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:textSize
+          @attr name cn.nodemedia.demo:textSize
         */
         public static final int LoopView_textSize = 3;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#topBottomTextColor}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#topBottomTextColor}
           attribute's value can be found in the {@link #LoopView} array.
 
 
@@ -9377,7 +9385,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:topBottomTextColor
+          @attr name cn.nodemedia.demo:topBottomTextColor
         */
         public static final int LoopView_topBottomTextColor = 1;
         /** Attributes that can be used with a MenuGroup.
@@ -9446,9 +9454,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MenuItem_actionLayout com.gxey.remotemedicalplatform:actionLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionProviderClass com.gxey.remotemedicalplatform:actionProviderClass}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionViewClass com.gxey.remotemedicalplatform:actionViewClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionLayout cn.nodemedia.demo:actionLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionProviderClass cn.nodemedia.demo:actionProviderClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionViewClass cn.nodemedia.demo:actionViewClass}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_alphabeticShortcut android:alphabeticShortcut}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checked android:checked}</code></td><td></td></tr>
@@ -9462,7 +9470,7 @@ containing a value of this type.
            <tr><td><code>{@link #MenuItem_android_title android:title}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_titleCondensed android:titleCondensed}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_visible android:visible}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_showAsAction com.gxey.remotemedicalplatform:showAsAction}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_showAsAction cn.nodemedia.demo:showAsAction}</code></td><td></td></tr>
            </table>
            @see #MenuItem_actionLayout
            @see #MenuItem_actionProviderClass
@@ -9490,17 +9498,17 @@ containing a value of this type.
             0x7f0100f8
         };
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#actionLayout}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#actionLayout}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:actionLayout
+          @attr name cn.nodemedia.demo:actionLayout
         */
         public static final int MenuItem_actionLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#actionProviderClass}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#actionProviderClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -9510,11 +9518,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:actionProviderClass
+          @attr name cn.nodemedia.demo:actionProviderClass
         */
         public static final int MenuItem_actionProviderClass = 16;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#actionViewClass}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#actionViewClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -9524,7 +9532,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:actionViewClass
+          @attr name cn.nodemedia.demo:actionViewClass
         */
         public static final int MenuItem_actionViewClass = 15;
         /**
@@ -9606,7 +9614,7 @@ containing a value of this type.
         */
         public static final int MenuItem_android_visible = 4;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#showAsAction}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#showAsAction}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -9622,7 +9630,7 @@ containing a value of this type.
 <tr><td><code>withText</code></td><td>4</td><td></td></tr>
 <tr><td><code>collapseActionView</code></td><td>8</td><td></td></tr>
 </table>
-          @attr name com.gxey.remotemedicalplatform:showAsAction
+          @attr name cn.nodemedia.demo:showAsAction
         */
         public static final int MenuItem_showAsAction = 13;
         /** Attributes that can be used with a MenuView.
@@ -9638,8 +9646,8 @@ containing a value of this type.
            <tr><td><code>{@link #MenuView_android_itemTextAppearance android:itemTextAppearance}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_verticalDivider android:verticalDivider}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuView_preserveIconSpacing com.gxey.remotemedicalplatform:preserveIconSpacing}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuView_subMenuArrow com.gxey.remotemedicalplatform:subMenuArrow}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuView_preserveIconSpacing cn.nodemedia.demo:preserveIconSpacing}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuView_subMenuArrow cn.nodemedia.demo:subMenuArrow}</code></td><td></td></tr>
            </table>
            @see #MenuView_android_headerBackground
            @see #MenuView_android_horizontalDivider
@@ -9699,7 +9707,7 @@ containing a value of this type.
         */
         public static final int MenuView_android_windowAnimationStyle = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#preserveIconSpacing}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#preserveIconSpacing}
           attribute's value can be found in the {@link #MenuView} array.
 
 
@@ -9709,17 +9717,17 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:preserveIconSpacing
+          @attr name cn.nodemedia.demo:preserveIconSpacing
         */
         public static final int MenuView_preserveIconSpacing = 7;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#subMenuArrow}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#subMenuArrow}
           attribute's value can be found in the {@link #MenuView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:subMenuArrow
+          @attr name cn.nodemedia.demo:subMenuArrow
         */
         public static final int MenuView_subMenuArrow = 8;
         /** Attributes that can be used with a NavigationView.
@@ -9731,13 +9739,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #NavigationView_android_background android:background}</code></td><td></td></tr>
            <tr><td><code>{@link #NavigationView_android_fitsSystemWindows android:fitsSystemWindows}</code></td><td></td></tr>
            <tr><td><code>{@link #NavigationView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_elevation com.gxey.remotemedicalplatform:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_headerLayout com.gxey.remotemedicalplatform:headerLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemBackground com.gxey.remotemedicalplatform:itemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemIconTint com.gxey.remotemedicalplatform:itemIconTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemTextAppearance com.gxey.remotemedicalplatform:itemTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemTextColor com.gxey.remotemedicalplatform:itemTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_menu com.gxey.remotemedicalplatform:menu}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_elevation cn.nodemedia.demo:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_headerLayout cn.nodemedia.demo:headerLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemBackground cn.nodemedia.demo:itemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemIconTint cn.nodemedia.demo:itemIconTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemTextAppearance cn.nodemedia.demo:itemTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemTextColor cn.nodemedia.demo:itemTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_menu cn.nodemedia.demo:menu}</code></td><td></td></tr>
            </table>
            @see #NavigationView_android_background
            @see #NavigationView_android_fitsSystemWindows
@@ -9774,7 +9782,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int NavigationView_android_maxWidth = 2;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#elevation}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#elevation}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -9786,31 +9794,31 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:elevation
+          @attr name cn.nodemedia.demo:elevation
         */
         public static final int NavigationView_elevation = 3;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#headerLayout}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#headerLayout}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:headerLayout
+          @attr name cn.nodemedia.demo:headerLayout
         */
         public static final int NavigationView_headerLayout = 9;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#itemBackground}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#itemBackground}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:itemBackground
+          @attr name cn.nodemedia.demo:itemBackground
         */
         public static final int NavigationView_itemBackground = 7;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#itemIconTint}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#itemIconTint}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -9821,21 +9829,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:itemIconTint
+          @attr name cn.nodemedia.demo:itemIconTint
         */
         public static final int NavigationView_itemIconTint = 5;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#itemTextAppearance}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#itemTextAppearance}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:itemTextAppearance
+          @attr name cn.nodemedia.demo:itemTextAppearance
         */
         public static final int NavigationView_itemTextAppearance = 8;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#itemTextColor}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#itemTextColor}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -9846,17 +9854,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:itemTextColor
+          @attr name cn.nodemedia.demo:itemTextColor
         */
         public static final int NavigationView_itemTextColor = 6;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#menu}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#menu}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:menu
+          @attr name cn.nodemedia.demo:menu
         */
         public static final int NavigationView_menu = 4;
         /** Attributes that can be used with a PopupWindow.
@@ -9867,7 +9875,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #PopupWindow_android_popupAnimationStyle android:popupAnimationStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #PopupWindow_overlapAnchor com.gxey.remotemedicalplatform:overlapAnchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindow_overlapAnchor cn.nodemedia.demo:overlapAnchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindow_android_popupAnimationStyle
            @see #PopupWindow_android_popupBackground
@@ -9889,7 +9897,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int PopupWindow_android_popupBackground = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#overlapAnchor}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#overlapAnchor}
           attribute's value can be found in the {@link #PopupWindow} array.
 
 
@@ -9899,7 +9907,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:overlapAnchor
+          @attr name cn.nodemedia.demo:overlapAnchor
         */
         public static final int PopupWindow_overlapAnchor = 2;
         /** Attributes that can be used with a PopupWindowBackgroundState.
@@ -9908,7 +9916,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.gxey.remotemedicalplatform:state_above_anchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor cn.nodemedia.demo:state_above_anchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindowBackgroundState_state_above_anchor
          */
@@ -9916,7 +9924,7 @@ containing a value of this type.
             0x7f010102
         };
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#state_above_anchor}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#state_above_anchor}
           attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
 
 
@@ -9926,7 +9934,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:state_above_anchor
+          @attr name cn.nodemedia.demo:state_above_anchor
         */
         public static final int PopupWindowBackgroundState_state_above_anchor = 0;
         /** Attributes that can be used with a ProgressWheel.
@@ -9935,15 +9943,15 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ProgressWheel_barColor com.gxey.remotemedicalplatform:barColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #ProgressWheel_barSpinCycleTime com.gxey.remotemedicalplatform:barSpinCycleTime}</code></td><td></td></tr>
-           <tr><td><code>{@link #ProgressWheel_barWidth com.gxey.remotemedicalplatform:barWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #ProgressWheel_circleRadius com.gxey.remotemedicalplatform:circleRadius}</code></td><td></td></tr>
-           <tr><td><code>{@link #ProgressWheel_fillRadius com.gxey.remotemedicalplatform:fillRadius}</code></td><td></td></tr>
-           <tr><td><code>{@link #ProgressWheel_progressIndeterminate com.gxey.remotemedicalplatform:progressIndeterminate}</code></td><td></td></tr>
-           <tr><td><code>{@link #ProgressWheel_rimColor com.gxey.remotemedicalplatform:rimColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #ProgressWheel_rimWidth com.gxey.remotemedicalplatform:rimWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #ProgressWheel_spinSpeed com.gxey.remotemedicalplatform:spinSpeed}</code></td><td></td></tr>
+           <tr><td><code>{@link #ProgressWheel_barColor cn.nodemedia.demo:barColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #ProgressWheel_barSpinCycleTime cn.nodemedia.demo:barSpinCycleTime}</code></td><td></td></tr>
+           <tr><td><code>{@link #ProgressWheel_barWidth cn.nodemedia.demo:barWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #ProgressWheel_circleRadius cn.nodemedia.demo:circleRadius}</code></td><td></td></tr>
+           <tr><td><code>{@link #ProgressWheel_fillRadius cn.nodemedia.demo:fillRadius}</code></td><td></td></tr>
+           <tr><td><code>{@link #ProgressWheel_progressIndeterminate cn.nodemedia.demo:progressIndeterminate}</code></td><td></td></tr>
+           <tr><td><code>{@link #ProgressWheel_rimColor cn.nodemedia.demo:rimColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #ProgressWheel_rimWidth cn.nodemedia.demo:rimWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #ProgressWheel_spinSpeed cn.nodemedia.demo:spinSpeed}</code></td><td></td></tr>
            </table>
            @see #ProgressWheel_barColor
            @see #ProgressWheel_barSpinCycleTime
@@ -9961,7 +9969,7 @@ containing a value of this type.
             0x7f01010b
         };
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#barColor}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#barColor}
           attribute's value can be found in the {@link #ProgressWheel} array.
 
 
@@ -9972,11 +9980,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:barColor
+          @attr name cn.nodemedia.demo:barColor
         */
         public static final int ProgressWheel_barColor = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#barSpinCycleTime}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#barSpinCycleTime}
           attribute's value can be found in the {@link #ProgressWheel} array.
 
 
@@ -9986,11 +9994,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:barSpinCycleTime
+          @attr name cn.nodemedia.demo:barSpinCycleTime
         */
         public static final int ProgressWheel_barSpinCycleTime = 5;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#barWidth}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#barWidth}
           attribute's value can be found in the {@link #ProgressWheel} array.
 
 
@@ -10002,11 +10010,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:barWidth
+          @attr name cn.nodemedia.demo:barWidth
         */
         public static final int ProgressWheel_barWidth = 8;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#circleRadius}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#circleRadius}
           attribute's value can be found in the {@link #ProgressWheel} array.
 
 
@@ -10018,11 +10026,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:circleRadius
+          @attr name cn.nodemedia.demo:circleRadius
         */
         public static final int ProgressWheel_circleRadius = 6;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#fillRadius}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#fillRadius}
           attribute's value can be found in the {@link #ProgressWheel} array.
 
 
@@ -10032,11 +10040,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:fillRadius
+          @attr name cn.nodemedia.demo:fillRadius
         */
         public static final int ProgressWheel_fillRadius = 7;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#progressIndeterminate}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#progressIndeterminate}
           attribute's value can be found in the {@link #ProgressWheel} array.
 
 
@@ -10046,11 +10054,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:progressIndeterminate
+          @attr name cn.nodemedia.demo:progressIndeterminate
         */
         public static final int ProgressWheel_progressIndeterminate = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#rimColor}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#rimColor}
           attribute's value can be found in the {@link #ProgressWheel} array.
 
 
@@ -10061,11 +10069,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:rimColor
+          @attr name cn.nodemedia.demo:rimColor
         */
         public static final int ProgressWheel_rimColor = 2;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#rimWidth}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#rimWidth}
           attribute's value can be found in the {@link #ProgressWheel} array.
 
 
@@ -10077,11 +10085,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:rimWidth
+          @attr name cn.nodemedia.demo:rimWidth
         */
         public static final int ProgressWheel_rimWidth = 3;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#spinSpeed}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#spinSpeed}
           attribute's value can be found in the {@link #ProgressWheel} array.
 
 
@@ -10091,7 +10099,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:spinSpeed
+          @attr name cn.nodemedia.demo:spinSpeed
         */
         public static final int ProgressWheel_spinSpeed = 4;
         /** Attributes that can be used with a RecyclerView.
@@ -10101,10 +10109,10 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #RecyclerView_android_orientation android:orientation}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_layoutManager com.gxey.remotemedicalplatform:layoutManager}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_reverseLayout com.gxey.remotemedicalplatform:reverseLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_spanCount com.gxey.remotemedicalplatform:spanCount}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_stackFromEnd com.gxey.remotemedicalplatform:stackFromEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_layoutManager cn.nodemedia.demo:layoutManager}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_reverseLayout cn.nodemedia.demo:reverseLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_spanCount cn.nodemedia.demo:spanCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_stackFromEnd cn.nodemedia.demo:stackFromEnd}</code></td><td></td></tr>
            </table>
            @see #RecyclerView_android_orientation
            @see #RecyclerView_layoutManager
@@ -10123,7 +10131,7 @@ containing a value of this type.
         */
         public static final int RecyclerView_android_orientation = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#layoutManager}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#layoutManager}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -10133,11 +10141,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:layoutManager
+          @attr name cn.nodemedia.demo:layoutManager
         */
         public static final int RecyclerView_layoutManager = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#reverseLayout}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#reverseLayout}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -10147,11 +10155,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:reverseLayout
+          @attr name cn.nodemedia.demo:reverseLayout
         */
         public static final int RecyclerView_reverseLayout = 3;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#spanCount}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#spanCount}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -10161,11 +10169,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:spanCount
+          @attr name cn.nodemedia.demo:spanCount
         */
         public static final int RecyclerView_spanCount = 2;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#stackFromEnd}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#stackFromEnd}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -10175,7 +10183,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:stackFromEnd
+          @attr name cn.nodemedia.demo:stackFromEnd
         */
         public static final int RecyclerView_stackFromEnd = 4;
         /** Attributes that can be used with a Rotate3dAnimation.
@@ -10184,11 +10192,11 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #Rotate3dAnimation_fromDeg com.gxey.remotemedicalplatform:fromDeg}</code></td><td></td></tr>
-           <tr><td><code>{@link #Rotate3dAnimation_pivotX com.gxey.remotemedicalplatform:pivotX}</code></td><td></td></tr>
-           <tr><td><code>{@link #Rotate3dAnimation_pivotY com.gxey.remotemedicalplatform:pivotY}</code></td><td></td></tr>
-           <tr><td><code>{@link #Rotate3dAnimation_rollType com.gxey.remotemedicalplatform:rollType}</code></td><td></td></tr>
-           <tr><td><code>{@link #Rotate3dAnimation_toDeg com.gxey.remotemedicalplatform:toDeg}</code></td><td></td></tr>
+           <tr><td><code>{@link #Rotate3dAnimation_fromDeg cn.nodemedia.demo:fromDeg}</code></td><td></td></tr>
+           <tr><td><code>{@link #Rotate3dAnimation_pivotX cn.nodemedia.demo:pivotX}</code></td><td></td></tr>
+           <tr><td><code>{@link #Rotate3dAnimation_pivotY cn.nodemedia.demo:pivotY}</code></td><td></td></tr>
+           <tr><td><code>{@link #Rotate3dAnimation_rollType cn.nodemedia.demo:rollType}</code></td><td></td></tr>
+           <tr><td><code>{@link #Rotate3dAnimation_toDeg cn.nodemedia.demo:toDeg}</code></td><td></td></tr>
            </table>
            @see #Rotate3dAnimation_fromDeg
            @see #Rotate3dAnimation_pivotX
@@ -10201,7 +10209,7 @@ containing a value of this type.
             0x7f010114
         };
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#fromDeg}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#fromDeg}
           attribute's value can be found in the {@link #Rotate3dAnimation} array.
 
 
@@ -10211,11 +10219,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:fromDeg
+          @attr name cn.nodemedia.demo:fromDeg
         */
         public static final int Rotate3dAnimation_fromDeg = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#pivotX}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#pivotX}
           attribute's value can be found in the {@link #Rotate3dAnimation} array.
 
 
@@ -10227,11 +10235,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:pivotX
+          @attr name cn.nodemedia.demo:pivotX
         */
         public static final int Rotate3dAnimation_pivotX = 3;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#pivotY}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#pivotY}
           attribute's value can be found in the {@link #Rotate3dAnimation} array.
 
 
@@ -10243,11 +10251,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:pivotY
+          @attr name cn.nodemedia.demo:pivotY
         */
         public static final int Rotate3dAnimation_pivotY = 4;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#rollType}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#rollType}
           attribute's value can be found in the {@link #Rotate3dAnimation} array.
 
 
@@ -10261,11 +10269,11 @@ containing a value of this type.
 <tr><td><code>y</code></td><td>1</td><td></td></tr>
 <tr><td><code>z</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.gxey.remotemedicalplatform:rollType
+          @attr name cn.nodemedia.demo:rollType
         */
         public static final int Rotate3dAnimation_rollType = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#toDeg}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#toDeg}
           attribute's value can be found in the {@link #Rotate3dAnimation} array.
 
 
@@ -10275,7 +10283,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:toDeg
+          @attr name cn.nodemedia.demo:toDeg
         */
         public static final int Rotate3dAnimation_toDeg = 2;
         /** Attributes that can be used with a RoundedImageView.
@@ -10285,18 +10293,18 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #RoundedImageView_android_scaleType android:scaleType}</code></td><td></td></tr>
-           <tr><td><code>{@link #RoundedImageView_riv_border_color com.gxey.remotemedicalplatform:riv_border_color}</code></td><td></td></tr>
-           <tr><td><code>{@link #RoundedImageView_riv_border_width com.gxey.remotemedicalplatform:riv_border_width}</code></td><td></td></tr>
-           <tr><td><code>{@link #RoundedImageView_riv_corner_radius com.gxey.remotemedicalplatform:riv_corner_radius}</code></td><td></td></tr>
-           <tr><td><code>{@link #RoundedImageView_riv_corner_radius_bottom_left com.gxey.remotemedicalplatform:riv_corner_radius_bottom_left}</code></td><td></td></tr>
-           <tr><td><code>{@link #RoundedImageView_riv_corner_radius_bottom_right com.gxey.remotemedicalplatform:riv_corner_radius_bottom_right}</code></td><td></td></tr>
-           <tr><td><code>{@link #RoundedImageView_riv_corner_radius_top_left com.gxey.remotemedicalplatform:riv_corner_radius_top_left}</code></td><td></td></tr>
-           <tr><td><code>{@link #RoundedImageView_riv_corner_radius_top_right com.gxey.remotemedicalplatform:riv_corner_radius_top_right}</code></td><td></td></tr>
-           <tr><td><code>{@link #RoundedImageView_riv_mutate_background com.gxey.remotemedicalplatform:riv_mutate_background}</code></td><td></td></tr>
-           <tr><td><code>{@link #RoundedImageView_riv_oval com.gxey.remotemedicalplatform:riv_oval}</code></td><td></td></tr>
-           <tr><td><code>{@link #RoundedImageView_riv_tile_mode com.gxey.remotemedicalplatform:riv_tile_mode}</code></td><td></td></tr>
-           <tr><td><code>{@link #RoundedImageView_riv_tile_mode_x com.gxey.remotemedicalplatform:riv_tile_mode_x}</code></td><td></td></tr>
-           <tr><td><code>{@link #RoundedImageView_riv_tile_mode_y com.gxey.remotemedicalplatform:riv_tile_mode_y}</code></td><td></td></tr>
+           <tr><td><code>{@link #RoundedImageView_riv_border_color cn.nodemedia.demo:riv_border_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #RoundedImageView_riv_border_width cn.nodemedia.demo:riv_border_width}</code></td><td></td></tr>
+           <tr><td><code>{@link #RoundedImageView_riv_corner_radius cn.nodemedia.demo:riv_corner_radius}</code></td><td></td></tr>
+           <tr><td><code>{@link #RoundedImageView_riv_corner_radius_bottom_left cn.nodemedia.demo:riv_corner_radius_bottom_left}</code></td><td></td></tr>
+           <tr><td><code>{@link #RoundedImageView_riv_corner_radius_bottom_right cn.nodemedia.demo:riv_corner_radius_bottom_right}</code></td><td></td></tr>
+           <tr><td><code>{@link #RoundedImageView_riv_corner_radius_top_left cn.nodemedia.demo:riv_corner_radius_top_left}</code></td><td></td></tr>
+           <tr><td><code>{@link #RoundedImageView_riv_corner_radius_top_right cn.nodemedia.demo:riv_corner_radius_top_right}</code></td><td></td></tr>
+           <tr><td><code>{@link #RoundedImageView_riv_mutate_background cn.nodemedia.demo:riv_mutate_background}</code></td><td></td></tr>
+           <tr><td><code>{@link #RoundedImageView_riv_oval cn.nodemedia.demo:riv_oval}</code></td><td></td></tr>
+           <tr><td><code>{@link #RoundedImageView_riv_tile_mode cn.nodemedia.demo:riv_tile_mode}</code></td><td></td></tr>
+           <tr><td><code>{@link #RoundedImageView_riv_tile_mode_x cn.nodemedia.demo:riv_tile_mode_x}</code></td><td></td></tr>
+           <tr><td><code>{@link #RoundedImageView_riv_tile_mode_y cn.nodemedia.demo:riv_tile_mode_y}</code></td><td></td></tr>
            </table>
            @see #RoundedImageView_android_scaleType
            @see #RoundedImageView_riv_border_color
@@ -10325,7 +10333,7 @@ containing a value of this type.
         */
         public static final int RoundedImageView_android_scaleType = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#riv_border_color}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#riv_border_color}
           attribute's value can be found in the {@link #RoundedImageView} array.
 
 
@@ -10336,11 +10344,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:riv_border_color
+          @attr name cn.nodemedia.demo:riv_border_color
         */
         public static final int RoundedImageView_riv_border_color = 7;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#riv_border_width}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#riv_border_width}
           attribute's value can be found in the {@link #RoundedImageView} array.
 
 
@@ -10352,11 +10360,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:riv_border_width
+          @attr name cn.nodemedia.demo:riv_border_width
         */
         public static final int RoundedImageView_riv_border_width = 6;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#riv_corner_radius}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#riv_corner_radius}
           attribute's value can be found in the {@link #RoundedImageView} array.
 
 
@@ -10368,11 +10376,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:riv_corner_radius
+          @attr name cn.nodemedia.demo:riv_corner_radius
         */
         public static final int RoundedImageView_riv_corner_radius = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#riv_corner_radius_bottom_left}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#riv_corner_radius_bottom_left}
           attribute's value can be found in the {@link #RoundedImageView} array.
 
 
@@ -10384,11 +10392,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:riv_corner_radius_bottom_left
+          @attr name cn.nodemedia.demo:riv_corner_radius_bottom_left
         */
         public static final int RoundedImageView_riv_corner_radius_bottom_left = 4;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#riv_corner_radius_bottom_right}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#riv_corner_radius_bottom_right}
           attribute's value can be found in the {@link #RoundedImageView} array.
 
 
@@ -10400,11 +10408,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:riv_corner_radius_bottom_right
+          @attr name cn.nodemedia.demo:riv_corner_radius_bottom_right
         */
         public static final int RoundedImageView_riv_corner_radius_bottom_right = 5;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#riv_corner_radius_top_left}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#riv_corner_radius_top_left}
           attribute's value can be found in the {@link #RoundedImageView} array.
 
 
@@ -10416,11 +10424,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:riv_corner_radius_top_left
+          @attr name cn.nodemedia.demo:riv_corner_radius_top_left
         */
         public static final int RoundedImageView_riv_corner_radius_top_left = 2;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#riv_corner_radius_top_right}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#riv_corner_radius_top_right}
           attribute's value can be found in the {@link #RoundedImageView} array.
 
 
@@ -10432,11 +10440,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:riv_corner_radius_top_right
+          @attr name cn.nodemedia.demo:riv_corner_radius_top_right
         */
         public static final int RoundedImageView_riv_corner_radius_top_right = 3;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#riv_mutate_background}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#riv_mutate_background}
           attribute's value can be found in the {@link #RoundedImageView} array.
 
 
@@ -10446,11 +10454,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:riv_mutate_background
+          @attr name cn.nodemedia.demo:riv_mutate_background
         */
         public static final int RoundedImageView_riv_mutate_background = 8;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#riv_oval}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#riv_oval}
           attribute's value can be found in the {@link #RoundedImageView} array.
 
 
@@ -10460,11 +10468,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:riv_oval
+          @attr name cn.nodemedia.demo:riv_oval
         */
         public static final int RoundedImageView_riv_oval = 9;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#riv_tile_mode}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#riv_tile_mode}
           attribute's value can be found in the {@link #RoundedImageView} array.
 
 
@@ -10478,11 +10486,11 @@ containing a value of this type.
 <tr><td><code>repeat</code></td><td>1</td><td></td></tr>
 <tr><td><code>mirror</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.gxey.remotemedicalplatform:riv_tile_mode
+          @attr name cn.nodemedia.demo:riv_tile_mode
         */
         public static final int RoundedImageView_riv_tile_mode = 10;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#riv_tile_mode_x}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#riv_tile_mode_x}
           attribute's value can be found in the {@link #RoundedImageView} array.
 
 
@@ -10496,11 +10504,11 @@ containing a value of this type.
 <tr><td><code>repeat</code></td><td>1</td><td></td></tr>
 <tr><td><code>mirror</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.gxey.remotemedicalplatform:riv_tile_mode_x
+          @attr name cn.nodemedia.demo:riv_tile_mode_x
         */
         public static final int RoundedImageView_riv_tile_mode_x = 11;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#riv_tile_mode_y}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#riv_tile_mode_y}
           attribute's value can be found in the {@link #RoundedImageView} array.
 
 
@@ -10514,7 +10522,7 @@ containing a value of this type.
 <tr><td><code>repeat</code></td><td>1</td><td></td></tr>
 <tr><td><code>mirror</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.gxey.remotemedicalplatform:riv_tile_mode_y
+          @attr name cn.nodemedia.demo:riv_tile_mode_y
         */
         public static final int RoundedImageView_riv_tile_mode_y = 12;
         /** Attributes that can be used with a ScrimInsetsFrameLayout.
@@ -10523,7 +10531,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground com.gxey.remotemedicalplatform:insetForeground}</code></td><td></td></tr>
+           <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground cn.nodemedia.demo:insetForeground}</code></td><td></td></tr>
            </table>
            @see #ScrimInsetsFrameLayout_insetForeground
          */
@@ -10531,7 +10539,7 @@ containing a value of this type.
             0x7f010121
         };
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#insetForeground}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#insetForeground}
           attribute's value can be found in the {@link #ScrimInsetsFrameLayout} array.
 
 
@@ -10539,7 +10547,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.gxey.remotemedicalplatform:insetForeground
+          @attr name cn.nodemedia.demo:insetForeground
         */
         public static final int ScrimInsetsFrameLayout_insetForeground = 0;
         /** Attributes that can be used with a ScrollBar.
@@ -10548,10 +10556,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ScrollBar_sb_handlerColor com.gxey.remotemedicalplatform:sb_handlerColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #ScrollBar_sb_horizontal com.gxey.remotemedicalplatform:sb_horizontal}</code></td><td></td></tr>
-           <tr><td><code>{@link #ScrollBar_sb_indicatorColor com.gxey.remotemedicalplatform:sb_indicatorColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #ScrollBar_sb_indicatorTextColor com.gxey.remotemedicalplatform:sb_indicatorTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #ScrollBar_sb_handlerColor cn.nodemedia.demo:sb_handlerColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #ScrollBar_sb_horizontal cn.nodemedia.demo:sb_horizontal}</code></td><td></td></tr>
+           <tr><td><code>{@link #ScrollBar_sb_indicatorColor cn.nodemedia.demo:sb_indicatorColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #ScrollBar_sb_indicatorTextColor cn.nodemedia.demo:sb_indicatorTextColor}</code></td><td></td></tr>
            </table>
            @see #ScrollBar_sb_handlerColor
            @see #ScrollBar_sb_horizontal
@@ -10562,7 +10570,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010122, 0x7f010123, 0x7f010124, 0x7f010125
         };
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#sb_handlerColor}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#sb_handlerColor}
           attribute's value can be found in the {@link #ScrollBar} array.
 
 
@@ -10570,22 +10578,22 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.gxey.remotemedicalplatform:sb_handlerColor
+          @attr name cn.nodemedia.demo:sb_handlerColor
         */
         public static final int ScrollBar_sb_handlerColor = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#sb_horizontal}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#sb_horizontal}
           attribute's value can be found in the {@link #ScrollBar} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name com.gxey.remotemedicalplatform:sb_horizontal
+          @attr name cn.nodemedia.demo:sb_horizontal
         */
         public static final int ScrollBar_sb_horizontal = 3;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#sb_indicatorColor}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#sb_indicatorColor}
           attribute's value can be found in the {@link #ScrollBar} array.
 
 
@@ -10593,11 +10601,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.gxey.remotemedicalplatform:sb_indicatorColor
+          @attr name cn.nodemedia.demo:sb_indicatorColor
         */
         public static final int ScrollBar_sb_indicatorColor = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#sb_indicatorTextColor}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#sb_indicatorTextColor}
           attribute's value can be found in the {@link #ScrollBar} array.
 
 
@@ -10605,7 +10613,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.gxey.remotemedicalplatform:sb_indicatorTextColor
+          @attr name cn.nodemedia.demo:sb_indicatorTextColor
         */
         public static final int ScrollBar_sb_indicatorTextColor = 2;
         /** Attributes that can be used with a ScrollingViewBehavior_Params.
@@ -10614,7 +10622,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ScrollingViewBehavior_Params_behavior_overlapTop com.gxey.remotemedicalplatform:behavior_overlapTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #ScrollingViewBehavior_Params_behavior_overlapTop cn.nodemedia.demo:behavior_overlapTop}</code></td><td></td></tr>
            </table>
            @see #ScrollingViewBehavior_Params_behavior_overlapTop
          */
@@ -10622,7 +10630,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010126
         };
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#behavior_overlapTop}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#behavior_overlapTop}
           attribute's value can be found in the {@link #ScrollingViewBehavior_Params} array.
 
 
@@ -10634,7 +10642,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:behavior_overlapTop
+          @attr name cn.nodemedia.demo:behavior_overlapTop
         */
         public static final int ScrollingViewBehavior_Params_behavior_overlapTop = 0;
         /** Attributes that can be used with a SearchView.
@@ -10647,19 +10655,19 @@ containing a value of this type.
            <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_closeIcon com.gxey.remotemedicalplatform:closeIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_commitIcon com.gxey.remotemedicalplatform:commitIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_defaultQueryHint com.gxey.remotemedicalplatform:defaultQueryHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_goIcon com.gxey.remotemedicalplatform:goIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_iconifiedByDefault com.gxey.remotemedicalplatform:iconifiedByDefault}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_layout com.gxey.remotemedicalplatform:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryBackground com.gxey.remotemedicalplatform:queryBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryHint com.gxey.remotemedicalplatform:queryHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchHintIcon com.gxey.remotemedicalplatform:searchHintIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchIcon com.gxey.remotemedicalplatform:searchIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_submitBackground com.gxey.remotemedicalplatform:submitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_suggestionRowLayout com.gxey.remotemedicalplatform:suggestionRowLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_voiceIcon com.gxey.remotemedicalplatform:voiceIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_closeIcon cn.nodemedia.demo:closeIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_commitIcon cn.nodemedia.demo:commitIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_defaultQueryHint cn.nodemedia.demo:defaultQueryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_goIcon cn.nodemedia.demo:goIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_iconifiedByDefault cn.nodemedia.demo:iconifiedByDefault}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_layout cn.nodemedia.demo:layout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryBackground cn.nodemedia.demo:queryBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryHint cn.nodemedia.demo:queryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchHintIcon cn.nodemedia.demo:searchHintIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchIcon cn.nodemedia.demo:searchIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_submitBackground cn.nodemedia.demo:submitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_suggestionRowLayout cn.nodemedia.demo:suggestionRowLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_voiceIcon cn.nodemedia.demo:voiceIcon}</code></td><td></td></tr>
            </table>
            @see #SearchView_android_focusable
            @see #SearchView_android_imeOptions
@@ -10711,27 +10719,27 @@ containing a value of this type.
         */
         public static final int SearchView_android_maxWidth = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#closeIcon}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#closeIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:closeIcon
+          @attr name cn.nodemedia.demo:closeIcon
         */
         public static final int SearchView_closeIcon = 8;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#commitIcon}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#commitIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:commitIcon
+          @attr name cn.nodemedia.demo:commitIcon
         */
         public static final int SearchView_commitIcon = 13;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#defaultQueryHint}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#defaultQueryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -10741,21 +10749,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:defaultQueryHint
+          @attr name cn.nodemedia.demo:defaultQueryHint
         */
         public static final int SearchView_defaultQueryHint = 7;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#goIcon}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#goIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:goIcon
+          @attr name cn.nodemedia.demo:goIcon
         */
         public static final int SearchView_goIcon = 9;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#iconifiedByDefault}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#iconifiedByDefault}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -10765,31 +10773,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:iconifiedByDefault
+          @attr name cn.nodemedia.demo:iconifiedByDefault
         */
         public static final int SearchView_iconifiedByDefault = 5;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#layout}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#layout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:layout
+          @attr name cn.nodemedia.demo:layout
         */
         public static final int SearchView_layout = 4;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#queryBackground}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#queryBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:queryBackground
+          @attr name cn.nodemedia.demo:queryBackground
         */
         public static final int SearchView_queryBackground = 15;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#queryHint}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#queryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -10799,57 +10807,57 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:queryHint
+          @attr name cn.nodemedia.demo:queryHint
         */
         public static final int SearchView_queryHint = 6;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#searchHintIcon}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#searchHintIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:searchHintIcon
+          @attr name cn.nodemedia.demo:searchHintIcon
         */
         public static final int SearchView_searchHintIcon = 11;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#searchIcon}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#searchIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:searchIcon
+          @attr name cn.nodemedia.demo:searchIcon
         */
         public static final int SearchView_searchIcon = 10;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#submitBackground}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#submitBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:submitBackground
+          @attr name cn.nodemedia.demo:submitBackground
         */
         public static final int SearchView_submitBackground = 16;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#suggestionRowLayout}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#suggestionRowLayout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:suggestionRowLayout
+          @attr name cn.nodemedia.demo:suggestionRowLayout
         */
         public static final int SearchView_suggestionRowLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#voiceIcon}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#voiceIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:voiceIcon
+          @attr name cn.nodemedia.demo:voiceIcon
         */
         public static final int SearchView_voiceIcon = 12;
         /** Attributes that can be used with a SignInButton.
@@ -10858,9 +10866,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #SignInButton_buttonSize com.gxey.remotemedicalplatform:buttonSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #SignInButton_colorScheme com.gxey.remotemedicalplatform:colorScheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #SignInButton_scopeUris com.gxey.remotemedicalplatform:scopeUris}</code></td><td></td></tr>
+           <tr><td><code>{@link #SignInButton_buttonSize cn.nodemedia.demo:buttonSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #SignInButton_colorScheme cn.nodemedia.demo:colorScheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #SignInButton_scopeUris cn.nodemedia.demo:scopeUris}</code></td><td></td></tr>
            </table>
            @see #SignInButton_buttonSize
            @see #SignInButton_colorScheme
@@ -10870,7 +10878,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010134, 0x7f010135, 0x7f010136
         };
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#buttonSize}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#buttonSize}
           attribute's value can be found in the {@link #SignInButton} array.
 
 
@@ -10886,11 +10894,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>wide</code></td><td>1</td><td></td></tr>
 <tr><td><code>icon_only</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.gxey.remotemedicalplatform:buttonSize
+          @attr name cn.nodemedia.demo:buttonSize
         */
         public static final int SignInButton_buttonSize = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#colorScheme}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#colorScheme}
           attribute's value can be found in the {@link #SignInButton} array.
 
 
@@ -10906,18 +10914,18 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>light</code></td><td>1</td><td></td></tr>
 <tr><td><code>auto</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.gxey.remotemedicalplatform:colorScheme
+          @attr name cn.nodemedia.demo:colorScheme
         */
         public static final int SignInButton_colorScheme = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#scopeUris}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#scopeUris}
           attribute's value can be found in the {@link #SignInButton} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-          @attr name com.gxey.remotemedicalplatform:scopeUris
+          @attr name cn.nodemedia.demo:scopeUris
         */
         public static final int SignInButton_scopeUris = 2;
         /** Attributes that can be used with a SnackbarLayout.
@@ -10927,8 +10935,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #SnackbarLayout_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SnackbarLayout_elevation com.gxey.remotemedicalplatform:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth com.gxey.remotemedicalplatform:maxActionInlineWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SnackbarLayout_elevation cn.nodemedia.demo:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth cn.nodemedia.demo:maxActionInlineWidth}</code></td><td></td></tr>
            </table>
            @see #SnackbarLayout_android_maxWidth
            @see #SnackbarLayout_elevation
@@ -10944,7 +10952,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SnackbarLayout_android_maxWidth = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#elevation}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#elevation}
           attribute's value can be found in the {@link #SnackbarLayout} array.
 
 
@@ -10956,11 +10964,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:elevation
+          @attr name cn.nodemedia.demo:elevation
         */
         public static final int SnackbarLayout_elevation = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#maxActionInlineWidth}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#maxActionInlineWidth}
           attribute's value can be found in the {@link #SnackbarLayout} array.
 
 
@@ -10972,7 +10980,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:maxActionInlineWidth
+          @attr name cn.nodemedia.demo:maxActionInlineWidth
         */
         public static final int SnackbarLayout_maxActionInlineWidth = 2;
         /** Attributes that can be used with a Spinner.
@@ -10985,7 +10993,7 @@ containing a value of this type.
            <tr><td><code>{@link #Spinner_android_entries android:entries}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_popupTheme com.gxey.remotemedicalplatform:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_popupTheme cn.nodemedia.demo:popupTheme}</code></td><td></td></tr>
            </table>
            @see #Spinner_android_dropDownWidth
            @see #Spinner_android_entries
@@ -11022,13 +11030,13 @@ containing a value of this type.
         */
         public static final int Spinner_android_prompt = 2;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#popupTheme}
           attribute's value can be found in the {@link #Spinner} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:popupTheme
+          @attr name cn.nodemedia.demo:popupTheme
         */
         public static final int Spinner_popupTheme = 4;
         /** Attributes that can be used with a SwitchCompat.
@@ -11040,17 +11048,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_showText com.gxey.remotemedicalplatform:showText}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_splitTrack com.gxey.remotemedicalplatform:splitTrack}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchMinWidth com.gxey.remotemedicalplatform:switchMinWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchPadding com.gxey.remotemedicalplatform:switchPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.gxey.remotemedicalplatform:switchTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.gxey.remotemedicalplatform:thumbTextPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTint com.gxey.remotemedicalplatform:thumbTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTintMode com.gxey.remotemedicalplatform:thumbTintMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_track com.gxey.remotemedicalplatform:track}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_trackTint com.gxey.remotemedicalplatform:trackTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_trackTintMode com.gxey.remotemedicalplatform:trackTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_showText cn.nodemedia.demo:showText}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_splitTrack cn.nodemedia.demo:splitTrack}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchMinWidth cn.nodemedia.demo:switchMinWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchPadding cn.nodemedia.demo:switchPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchTextAppearance cn.nodemedia.demo:switchTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTextPadding cn.nodemedia.demo:thumbTextPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTint cn.nodemedia.demo:thumbTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTintMode cn.nodemedia.demo:thumbTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_track cn.nodemedia.demo:track}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_trackTint cn.nodemedia.demo:trackTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_trackTintMode cn.nodemedia.demo:trackTintMode}</code></td><td></td></tr>
            </table>
            @see #SwitchCompat_android_textOff
            @see #SwitchCompat_android_textOn
@@ -11092,7 +11100,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SwitchCompat_android_thumb = 2;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#showText}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#showText}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -11102,11 +11110,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:showText
+          @attr name cn.nodemedia.demo:showText
         */
         public static final int SwitchCompat_showText = 13;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#splitTrack}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#splitTrack}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -11116,11 +11124,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:splitTrack
+          @attr name cn.nodemedia.demo:splitTrack
         */
         public static final int SwitchCompat_splitTrack = 12;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#switchMinWidth}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#switchMinWidth}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -11132,11 +11140,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:switchMinWidth
+          @attr name cn.nodemedia.demo:switchMinWidth
         */
         public static final int SwitchCompat_switchMinWidth = 10;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#switchPadding}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#switchPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -11148,21 +11156,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:switchPadding
+          @attr name cn.nodemedia.demo:switchPadding
         */
         public static final int SwitchCompat_switchPadding = 11;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#switchTextAppearance}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#switchTextAppearance}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:switchTextAppearance
+          @attr name cn.nodemedia.demo:switchTextAppearance
         */
         public static final int SwitchCompat_switchTextAppearance = 9;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#thumbTextPadding}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#thumbTextPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -11174,11 +11182,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:thumbTextPadding
+          @attr name cn.nodemedia.demo:thumbTextPadding
         */
         public static final int SwitchCompat_thumbTextPadding = 8;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#thumbTint}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#thumbTint}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -11189,11 +11197,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:thumbTint
+          @attr name cn.nodemedia.demo:thumbTint
         */
         public static final int SwitchCompat_thumbTint = 3;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#thumbTintMode}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#thumbTintMode}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -11210,21 +11218,21 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
-          @attr name com.gxey.remotemedicalplatform:thumbTintMode
+          @attr name cn.nodemedia.demo:thumbTintMode
         */
         public static final int SwitchCompat_thumbTintMode = 4;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#track}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#track}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:track
+          @attr name cn.nodemedia.demo:track
         */
         public static final int SwitchCompat_track = 5;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#trackTint}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#trackTint}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -11235,11 +11243,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:trackTint
+          @attr name cn.nodemedia.demo:trackTint
         */
         public static final int SwitchCompat_trackTint = 6;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#trackTintMode}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#trackTintMode}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -11256,7 +11264,7 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
-          @attr name com.gxey.remotemedicalplatform:trackTintMode
+          @attr name cn.nodemedia.demo:trackTintMode
         */
         public static final int SwitchCompat_trackTintMode = 7;
         /** Attributes that can be used with a TabItem.
@@ -11300,22 +11308,22 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #TabLayout_tabBackground com.gxey.remotemedicalplatform:tabBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabContentStart com.gxey.remotemedicalplatform:tabContentStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabGravity com.gxey.remotemedicalplatform:tabGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabIndicatorColor com.gxey.remotemedicalplatform:tabIndicatorColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabIndicatorHeight com.gxey.remotemedicalplatform:tabIndicatorHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMaxWidth com.gxey.remotemedicalplatform:tabMaxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMinWidth com.gxey.remotemedicalplatform:tabMinWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMode com.gxey.remotemedicalplatform:tabMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPadding com.gxey.remotemedicalplatform:tabPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingBottom com.gxey.remotemedicalplatform:tabPaddingBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingEnd com.gxey.remotemedicalplatform:tabPaddingEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingStart com.gxey.remotemedicalplatform:tabPaddingStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingTop com.gxey.remotemedicalplatform:tabPaddingTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabSelectedTextColor com.gxey.remotemedicalplatform:tabSelectedTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabTextAppearance com.gxey.remotemedicalplatform:tabTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabTextColor com.gxey.remotemedicalplatform:tabTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabBackground cn.nodemedia.demo:tabBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabContentStart cn.nodemedia.demo:tabContentStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabGravity cn.nodemedia.demo:tabGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabIndicatorColor cn.nodemedia.demo:tabIndicatorColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabIndicatorHeight cn.nodemedia.demo:tabIndicatorHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMaxWidth cn.nodemedia.demo:tabMaxWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMinWidth cn.nodemedia.demo:tabMinWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMode cn.nodemedia.demo:tabMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPadding cn.nodemedia.demo:tabPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingBottom cn.nodemedia.demo:tabPaddingBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingEnd cn.nodemedia.demo:tabPaddingEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingStart cn.nodemedia.demo:tabPaddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingTop cn.nodemedia.demo:tabPaddingTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabSelectedTextColor cn.nodemedia.demo:tabSelectedTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabTextAppearance cn.nodemedia.demo:tabTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabTextColor cn.nodemedia.demo:tabTextColor}</code></td><td></td></tr>
            </table>
            @see #TabLayout_tabBackground
            @see #TabLayout_tabContentStart
@@ -11341,17 +11349,17 @@ containing a value of this type.
             0x7f01014f, 0x7f010150, 0x7f010151, 0x7f010152
         };
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#tabBackground}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#tabBackground}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:tabBackground
+          @attr name cn.nodemedia.demo:tabBackground
         */
         public static final int TabLayout_tabBackground = 3;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#tabContentStart}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#tabContentStart}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -11363,11 +11371,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:tabContentStart
+          @attr name cn.nodemedia.demo:tabContentStart
         */
         public static final int TabLayout_tabContentStart = 2;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#tabGravity}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#tabGravity}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -11380,11 +11388,11 @@ containing a value of this type.
 <tr><td><code>fill</code></td><td>0</td><td></td></tr>
 <tr><td><code>center</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.gxey.remotemedicalplatform:tabGravity
+          @attr name cn.nodemedia.demo:tabGravity
         */
         public static final int TabLayout_tabGravity = 5;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#tabIndicatorColor}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#tabIndicatorColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -11395,11 +11403,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:tabIndicatorColor
+          @attr name cn.nodemedia.demo:tabIndicatorColor
         */
         public static final int TabLayout_tabIndicatorColor = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#tabIndicatorHeight}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#tabIndicatorHeight}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -11411,11 +11419,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:tabIndicatorHeight
+          @attr name cn.nodemedia.demo:tabIndicatorHeight
         */
         public static final int TabLayout_tabIndicatorHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#tabMaxWidth}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#tabMaxWidth}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -11427,11 +11435,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:tabMaxWidth
+          @attr name cn.nodemedia.demo:tabMaxWidth
         */
         public static final int TabLayout_tabMaxWidth = 7;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#tabMinWidth}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#tabMinWidth}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -11443,11 +11451,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:tabMinWidth
+          @attr name cn.nodemedia.demo:tabMinWidth
         */
         public static final int TabLayout_tabMinWidth = 6;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#tabMode}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#tabMode}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -11460,11 +11468,11 @@ containing a value of this type.
 <tr><td><code>scrollable</code></td><td>0</td><td></td></tr>
 <tr><td><code>fixed</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.gxey.remotemedicalplatform:tabMode
+          @attr name cn.nodemedia.demo:tabMode
         */
         public static final int TabLayout_tabMode = 4;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#tabPadding}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#tabPadding}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -11476,11 +11484,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:tabPadding
+          @attr name cn.nodemedia.demo:tabPadding
         */
         public static final int TabLayout_tabPadding = 15;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#tabPaddingBottom}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#tabPaddingBottom}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -11492,11 +11500,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:tabPaddingBottom
+          @attr name cn.nodemedia.demo:tabPaddingBottom
         */
         public static final int TabLayout_tabPaddingBottom = 14;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#tabPaddingEnd}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#tabPaddingEnd}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -11508,11 +11516,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:tabPaddingEnd
+          @attr name cn.nodemedia.demo:tabPaddingEnd
         */
         public static final int TabLayout_tabPaddingEnd = 13;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#tabPaddingStart}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#tabPaddingStart}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -11524,11 +11532,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:tabPaddingStart
+          @attr name cn.nodemedia.demo:tabPaddingStart
         */
         public static final int TabLayout_tabPaddingStart = 11;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#tabPaddingTop}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#tabPaddingTop}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -11540,11 +11548,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:tabPaddingTop
+          @attr name cn.nodemedia.demo:tabPaddingTop
         */
         public static final int TabLayout_tabPaddingTop = 12;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#tabSelectedTextColor}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#tabSelectedTextColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -11555,21 +11563,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:tabSelectedTextColor
+          @attr name cn.nodemedia.demo:tabSelectedTextColor
         */
         public static final int TabLayout_tabSelectedTextColor = 10;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#tabTextAppearance}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#tabTextAppearance}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:tabTextAppearance
+          @attr name cn.nodemedia.demo:tabTextAppearance
         */
         public static final int TabLayout_tabTextAppearance = 8;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#tabTextColor}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#tabTextColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -11580,7 +11588,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:tabTextColor
+          @attr name cn.nodemedia.demo:tabTextColor
         */
         public static final int TabLayout_tabTextColor = 9;
         /** Attributes that can be used with a TextAppearance.
@@ -11597,7 +11605,7 @@ containing a value of this type.
            <tr><td><code>{@link #TextAppearance_android_textSize android:textSize}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_textStyle android:textStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_typeface android:typeface}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextAppearance_textAllCaps com.gxey.remotemedicalplatform:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextAppearance_textAllCaps cn.nodemedia.demo:textAllCaps}</code></td><td></td></tr>
            </table>
            @see #TextAppearance_android_shadowColor
            @see #TextAppearance_android_shadowDx
@@ -11663,14 +11671,14 @@ containing a value of this type.
         */
         public static final int TextAppearance_android_typeface = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#textAllCaps}
           attribute's value can be found in the {@link #TextAppearance} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name com.gxey.remotemedicalplatform:textAllCaps
+          @attr name cn.nodemedia.demo:textAllCaps
         */
         public static final int TextAppearance_textAllCaps = 8;
         /** Attributes that can be used with a TextInputLayout.
@@ -11681,15 +11689,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #TextInputLayout_android_hint android:hint}</code></td><td></td></tr>
            <tr><td><code>{@link #TextInputLayout_android_textColorHint android:textColorHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterEnabled com.gxey.remotemedicalplatform:counterEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterMaxLength com.gxey.remotemedicalplatform:counterMaxLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance com.gxey.remotemedicalplatform:counterOverflowTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterTextAppearance com.gxey.remotemedicalplatform:counterTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_errorEnabled com.gxey.remotemedicalplatform:errorEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_errorTextAppearance com.gxey.remotemedicalplatform:errorTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled com.gxey.remotemedicalplatform:hintAnimationEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_hintEnabled com.gxey.remotemedicalplatform:hintEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_hintTextAppearance com.gxey.remotemedicalplatform:hintTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterEnabled cn.nodemedia.demo:counterEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterMaxLength cn.nodemedia.demo:counterMaxLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance cn.nodemedia.demo:counterOverflowTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterTextAppearance cn.nodemedia.demo:counterTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_errorEnabled cn.nodemedia.demo:errorEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_errorTextAppearance cn.nodemedia.demo:errorTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled cn.nodemedia.demo:hintAnimationEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_hintEnabled cn.nodemedia.demo:hintEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_hintTextAppearance cn.nodemedia.demo:hintTextAppearance}</code></td><td></td></tr>
            </table>
            @see #TextInputLayout_android_hint
            @see #TextInputLayout_android_textColorHint
@@ -11721,7 +11729,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int TextInputLayout_android_textColorHint = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#counterEnabled}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#counterEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -11731,11 +11739,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:counterEnabled
+          @attr name cn.nodemedia.demo:counterEnabled
         */
         public static final int TextInputLayout_counterEnabled = 6;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#counterMaxLength}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#counterMaxLength}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -11745,31 +11753,31 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:counterMaxLength
+          @attr name cn.nodemedia.demo:counterMaxLength
         */
         public static final int TextInputLayout_counterMaxLength = 7;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#counterOverflowTextAppearance}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#counterOverflowTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:counterOverflowTextAppearance
+          @attr name cn.nodemedia.demo:counterOverflowTextAppearance
         */
         public static final int TextInputLayout_counterOverflowTextAppearance = 9;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#counterTextAppearance}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#counterTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:counterTextAppearance
+          @attr name cn.nodemedia.demo:counterTextAppearance
         */
         public static final int TextInputLayout_counterTextAppearance = 8;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#errorEnabled}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#errorEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -11779,21 +11787,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:errorEnabled
+          @attr name cn.nodemedia.demo:errorEnabled
         */
         public static final int TextInputLayout_errorEnabled = 4;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#errorTextAppearance}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#errorTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:errorTextAppearance
+          @attr name cn.nodemedia.demo:errorTextAppearance
         */
         public static final int TextInputLayout_errorTextAppearance = 5;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#hintAnimationEnabled}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#hintAnimationEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -11803,11 +11811,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:hintAnimationEnabled
+          @attr name cn.nodemedia.demo:hintAnimationEnabled
         */
         public static final int TextInputLayout_hintAnimationEnabled = 10;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#hintEnabled}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#hintEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -11817,17 +11825,17 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:hintEnabled
+          @attr name cn.nodemedia.demo:hintEnabled
         */
         public static final int TextInputLayout_hintEnabled = 3;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#hintTextAppearance}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#hintTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:hintTextAppearance
+          @attr name cn.nodemedia.demo:hintTextAppearance
         */
         public static final int TextInputLayout_hintTextAppearance = 2;
         /** Attributes that can be used with a Toolbar.
@@ -11838,33 +11846,33 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_buttonGravity com.gxey.remotemedicalplatform:buttonGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseContentDescription com.gxey.remotemedicalplatform:collapseContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseIcon com.gxey.remotemedicalplatform:collapseIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetEnd com.gxey.remotemedicalplatform:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.gxey.remotemedicalplatform:contentInsetEndWithActions}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetLeft com.gxey.remotemedicalplatform:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetRight com.gxey.remotemedicalplatform:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetStart com.gxey.remotemedicalplatform:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.gxey.remotemedicalplatform:contentInsetStartWithNavigation}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_logo com.gxey.remotemedicalplatform:logo}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_logoDescription com.gxey.remotemedicalplatform:logoDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_maxButtonHeight com.gxey.remotemedicalplatform:maxButtonHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationContentDescription com.gxey.remotemedicalplatform:navigationContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationIcon com.gxey.remotemedicalplatform:navigationIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_popupTheme com.gxey.remotemedicalplatform:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitle com.gxey.remotemedicalplatform:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.gxey.remotemedicalplatform:subtitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextColor com.gxey.remotemedicalplatform:subtitleTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_title com.gxey.remotemedicalplatform:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMargin com.gxey.remotemedicalplatform:titleMargin}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginBottom com.gxey.remotemedicalplatform:titleMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginEnd com.gxey.remotemedicalplatform:titleMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginStart com.gxey.remotemedicalplatform:titleMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginTop com.gxey.remotemedicalplatform:titleMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMargins com.gxey.remotemedicalplatform:titleMargins}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextAppearance com.gxey.remotemedicalplatform:titleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextColor com.gxey.remotemedicalplatform:titleTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_buttonGravity cn.nodemedia.demo:buttonGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseContentDescription cn.nodemedia.demo:collapseContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseIcon cn.nodemedia.demo:collapseIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetEnd cn.nodemedia.demo:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetEndWithActions cn.nodemedia.demo:contentInsetEndWithActions}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetLeft cn.nodemedia.demo:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetRight cn.nodemedia.demo:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetStart cn.nodemedia.demo:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation cn.nodemedia.demo:contentInsetStartWithNavigation}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_logo cn.nodemedia.demo:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_logoDescription cn.nodemedia.demo:logoDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_maxButtonHeight cn.nodemedia.demo:maxButtonHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationContentDescription cn.nodemedia.demo:navigationContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationIcon cn.nodemedia.demo:navigationIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_popupTheme cn.nodemedia.demo:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitle cn.nodemedia.demo:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextAppearance cn.nodemedia.demo:subtitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextColor cn.nodemedia.demo:subtitleTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_title cn.nodemedia.demo:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMargin cn.nodemedia.demo:titleMargin}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginBottom cn.nodemedia.demo:titleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginEnd cn.nodemedia.demo:titleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginStart cn.nodemedia.demo:titleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginTop cn.nodemedia.demo:titleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMargins cn.nodemedia.demo:titleMargins}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextAppearance cn.nodemedia.demo:titleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextColor cn.nodemedia.demo:titleTextColor}</code></td><td></td></tr>
            </table>
            @see #Toolbar_android_gravity
            @see #Toolbar_android_minHeight
@@ -11919,7 +11927,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Toolbar_android_minHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#buttonGravity}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#buttonGravity}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -11932,11 +11940,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>top</code></td><td>0x30</td><td></td></tr>
 <tr><td><code>bottom</code></td><td>0x50</td><td></td></tr>
 </table>
-          @attr name com.gxey.remotemedicalplatform:buttonGravity
+          @attr name cn.nodemedia.demo:buttonGravity
         */
         public static final int Toolbar_buttonGravity = 21;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#collapseContentDescription}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#collapseContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -11946,21 +11954,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:collapseContentDescription
+          @attr name cn.nodemedia.demo:collapseContentDescription
         */
         public static final int Toolbar_collapseContentDescription = 23;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#collapseIcon}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#collapseIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:collapseIcon
+          @attr name cn.nodemedia.demo:collapseIcon
         */
         public static final int Toolbar_collapseIcon = 22;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -11972,11 +11980,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:contentInsetEnd
+          @attr name cn.nodemedia.demo:contentInsetEnd
         */
         public static final int Toolbar_contentInsetEnd = 6;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#contentInsetEndWithActions}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#contentInsetEndWithActions}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -11988,11 +11996,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:contentInsetEndWithActions
+          @attr name cn.nodemedia.demo:contentInsetEndWithActions
         */
         public static final int Toolbar_contentInsetEndWithActions = 10;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -12004,11 +12012,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:contentInsetLeft
+          @attr name cn.nodemedia.demo:contentInsetLeft
         */
         public static final int Toolbar_contentInsetLeft = 7;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -12020,11 +12028,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:contentInsetRight
+          @attr name cn.nodemedia.demo:contentInsetRight
         */
         public static final int Toolbar_contentInsetRight = 8;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -12036,11 +12044,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:contentInsetStart
+          @attr name cn.nodemedia.demo:contentInsetStart
         */
         public static final int Toolbar_contentInsetStart = 5;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#contentInsetStartWithNavigation}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#contentInsetStartWithNavigation}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -12052,21 +12060,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:contentInsetStartWithNavigation
+          @attr name cn.nodemedia.demo:contentInsetStartWithNavigation
         */
         public static final int Toolbar_contentInsetStartWithNavigation = 9;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#logo}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#logo}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:logo
+          @attr name cn.nodemedia.demo:logo
         */
         public static final int Toolbar_logo = 4;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#logoDescription}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#logoDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -12076,11 +12084,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:logoDescription
+          @attr name cn.nodemedia.demo:logoDescription
         */
         public static final int Toolbar_logoDescription = 26;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#maxButtonHeight}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#maxButtonHeight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -12092,11 +12100,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:maxButtonHeight
+          @attr name cn.nodemedia.demo:maxButtonHeight
         */
         public static final int Toolbar_maxButtonHeight = 20;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#navigationContentDescription}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#navigationContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -12106,31 +12114,31 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:navigationContentDescription
+          @attr name cn.nodemedia.demo:navigationContentDescription
         */
         public static final int Toolbar_navigationContentDescription = 25;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#navigationIcon}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#navigationIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:navigationIcon
+          @attr name cn.nodemedia.demo:navigationIcon
         */
         public static final int Toolbar_navigationIcon = 24;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#popupTheme}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:popupTheme
+          @attr name cn.nodemedia.demo:popupTheme
         */
         public static final int Toolbar_popupTheme = 11;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#subtitle}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -12140,21 +12148,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:subtitle
+          @attr name cn.nodemedia.demo:subtitle
         */
         public static final int Toolbar_subtitle = 3;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#subtitleTextAppearance}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#subtitleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:subtitleTextAppearance
+          @attr name cn.nodemedia.demo:subtitleTextAppearance
         */
         public static final int Toolbar_subtitleTextAppearance = 13;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#subtitleTextColor}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#subtitleTextColor}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -12165,11 +12173,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:subtitleTextColor
+          @attr name cn.nodemedia.demo:subtitleTextColor
         */
         public static final int Toolbar_subtitleTextColor = 28;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#title}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#title}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -12179,11 +12187,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:title
+          @attr name cn.nodemedia.demo:title
         */
         public static final int Toolbar_title = 2;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#titleMargin}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#titleMargin}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -12195,11 +12203,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:titleMargin
+          @attr name cn.nodemedia.demo:titleMargin
         */
         public static final int Toolbar_titleMargin = 14;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#titleMarginBottom}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#titleMarginBottom}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -12211,11 +12219,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:titleMarginBottom
+          @attr name cn.nodemedia.demo:titleMarginBottom
         */
         public static final int Toolbar_titleMarginBottom = 18;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#titleMarginEnd}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#titleMarginEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -12227,11 +12235,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:titleMarginEnd
+          @attr name cn.nodemedia.demo:titleMarginEnd
         */
         public static final int Toolbar_titleMarginEnd = 16;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#titleMarginStart}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#titleMarginStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -12243,11 +12251,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:titleMarginStart
+          @attr name cn.nodemedia.demo:titleMarginStart
         */
         public static final int Toolbar_titleMarginStart = 15;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#titleMarginTop}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#titleMarginTop}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -12259,11 +12267,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:titleMarginTop
+          @attr name cn.nodemedia.demo:titleMarginTop
         */
         public static final int Toolbar_titleMarginTop = 17;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#titleMargins}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#titleMargins}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -12275,21 +12283,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:titleMargins
+          @attr name cn.nodemedia.demo:titleMargins
         */
         public static final int Toolbar_titleMargins = 19;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#titleTextAppearance}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#titleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:titleTextAppearance
+          @attr name cn.nodemedia.demo:titleTextAppearance
         */
         public static final int Toolbar_titleTextAppearance = 12;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#titleTextColor}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#titleTextColor}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -12300,7 +12308,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:titleTextColor
+          @attr name cn.nodemedia.demo:titleTextColor
         */
         public static final int Toolbar_titleTextColor = 27;
         /** Attributes that can be used with a View.
@@ -12311,9 +12319,9 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
            <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingEnd com.gxey.remotemedicalplatform:paddingEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingStart com.gxey.remotemedicalplatform:paddingStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_theme com.gxey.remotemedicalplatform:theme}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingEnd cn.nodemedia.demo:paddingEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingStart cn.nodemedia.demo:paddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_theme cn.nodemedia.demo:theme}</code></td><td></td></tr>
            </table>
            @see #View_android_focusable
            @see #View_android_theme
@@ -12338,7 +12346,7 @@ containing a value of this type.
         */
         public static final int View_android_theme = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#paddingEnd}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#paddingEnd}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -12350,11 +12358,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:paddingEnd
+          @attr name cn.nodemedia.demo:paddingEnd
         */
         public static final int View_paddingEnd = 3;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#paddingStart}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#paddingStart}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -12366,17 +12374,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:paddingStart
+          @attr name cn.nodemedia.demo:paddingStart
         */
         public static final int View_paddingStart = 2;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#theme}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#theme}
           attribute's value can be found in the {@link #View} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:theme
+          @attr name cn.nodemedia.demo:theme
         */
         public static final int View_theme = 4;
         /** Attributes that can be used with a ViewBackgroundHelper.
@@ -12386,8 +12394,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.gxey.remotemedicalplatform:backgroundTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.gxey.remotemedicalplatform:backgroundTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint cn.nodemedia.demo:backgroundTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode cn.nodemedia.demo:backgroundTintMode}</code></td><td></td></tr>
            </table>
            @see #ViewBackgroundHelper_android_background
            @see #ViewBackgroundHelper_backgroundTint
@@ -12403,7 +12411,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ViewBackgroundHelper_android_background = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#backgroundTint}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#backgroundTint}
           attribute's value can be found in the {@link #ViewBackgroundHelper} array.
 
 
@@ -12414,11 +12422,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:backgroundTint
+          @attr name cn.nodemedia.demo:backgroundTint
         */
         public static final int ViewBackgroundHelper_backgroundTint = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#backgroundTintMode}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#backgroundTintMode}
           attribute's value can be found in the {@link #ViewBackgroundHelper} array.
 
 
@@ -12434,7 +12442,7 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name com.gxey.remotemedicalplatform:backgroundTintMode
+          @attr name cn.nodemedia.demo:backgroundTintMode
         */
         public static final int ViewBackgroundHelper_backgroundTintMode = 2;
         /** Attributes that can be used with a ViewStubCompat.
@@ -12478,14 +12486,14 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #chartView_bgcolor com.gxey.remotemedicalplatform:bgcolor}</code></td><td></td></tr>
-           <tr><td><code>{@link #chartView_interval com.gxey.remotemedicalplatform:interval}</code></td><td></td></tr>
-           <tr><td><code>{@link #chartView_isScroll com.gxey.remotemedicalplatform:isScroll}</code></td><td></td></tr>
-           <tr><td><code>{@link #chartView_linecolor com.gxey.remotemedicalplatform:linecolor}</code></td><td></td></tr>
-           <tr><td><code>{@link #chartView_xylinecolor com.gxey.remotemedicalplatform:xylinecolor}</code></td><td></td></tr>
-           <tr><td><code>{@link #chartView_xylinewidth com.gxey.remotemedicalplatform:xylinewidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #chartView_xytextcolor com.gxey.remotemedicalplatform:xytextcolor}</code></td><td></td></tr>
-           <tr><td><code>{@link #chartView_xytextsize com.gxey.remotemedicalplatform:xytextsize}</code></td><td></td></tr>
+           <tr><td><code>{@link #chartView_bgcolor cn.nodemedia.demo:bgcolor}</code></td><td></td></tr>
+           <tr><td><code>{@link #chartView_interval cn.nodemedia.demo:interval}</code></td><td></td></tr>
+           <tr><td><code>{@link #chartView_isScroll cn.nodemedia.demo:isScroll}</code></td><td></td></tr>
+           <tr><td><code>{@link #chartView_linecolor cn.nodemedia.demo:linecolor}</code></td><td></td></tr>
+           <tr><td><code>{@link #chartView_xylinecolor cn.nodemedia.demo:xylinecolor}</code></td><td></td></tr>
+           <tr><td><code>{@link #chartView_xylinewidth cn.nodemedia.demo:xylinewidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #chartView_xytextcolor cn.nodemedia.demo:xytextcolor}</code></td><td></td></tr>
+           <tr><td><code>{@link #chartView_xytextsize cn.nodemedia.demo:xytextsize}</code></td><td></td></tr>
            </table>
            @see #chartView_bgcolor
            @see #chartView_interval
@@ -12501,7 +12509,7 @@ containing a value of this type.
             0x7f010008, 0x7f010009, 0x7f01000a, 0x7f01000b
         };
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#bgcolor}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#bgcolor}
           attribute's value can be found in the {@link #chartView} array.
 
 
@@ -12512,11 +12520,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:bgcolor
+          @attr name cn.nodemedia.demo:bgcolor
         */
         public static final int chartView_bgcolor = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#interval}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#interval}
           attribute's value can be found in the {@link #chartView} array.
 
 
@@ -12528,11 +12536,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:interval
+          @attr name cn.nodemedia.demo:interval
         */
         public static final int chartView_interval = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#isScroll}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#isScroll}
           attribute's value can be found in the {@link #chartView} array.
 
 
@@ -12542,11 +12550,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:isScroll
+          @attr name cn.nodemedia.demo:isScroll
         */
         public static final int chartView_isScroll = 2;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#linecolor}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#linecolor}
           attribute's value can be found in the {@link #chartView} array.
 
 
@@ -12557,11 +12565,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:linecolor
+          @attr name cn.nodemedia.demo:linecolor
         */
         public static final int chartView_linecolor = 3;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#xylinecolor}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#xylinecolor}
           attribute's value can be found in the {@link #chartView} array.
 
 
@@ -12572,11 +12580,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:xylinecolor
+          @attr name cn.nodemedia.demo:xylinecolor
         */
         public static final int chartView_xylinecolor = 4;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#xylinewidth}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#xylinewidth}
           attribute's value can be found in the {@link #chartView} array.
 
 
@@ -12588,11 +12596,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:xylinewidth
+          @attr name cn.nodemedia.demo:xylinewidth
         */
         public static final int chartView_xylinewidth = 5;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#xytextcolor}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#xytextcolor}
           attribute's value can be found in the {@link #chartView} array.
 
 
@@ -12603,11 +12611,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:xytextcolor
+          @attr name cn.nodemedia.demo:xytextcolor
         */
         public static final int chartView_xytextcolor = 6;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#xytextsize}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#xytextsize}
           attribute's value can be found in the {@link #chartView} array.
 
 
@@ -12619,7 +12627,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:xytextsize
+          @attr name cn.nodemedia.demo:xytextsize
         */
         public static final int chartView_xytextsize = 7;
         /** Attributes that can be used with a labels_view.
@@ -12628,17 +12636,17 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #labels_view_labelBackground com.gxey.remotemedicalplatform:labelBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #labels_view_labelTextColor com.gxey.remotemedicalplatform:labelTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #labels_view_labelTextPaddingBottom com.gxey.remotemedicalplatform:labelTextPaddingBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #labels_view_labelTextPaddingLeft com.gxey.remotemedicalplatform:labelTextPaddingLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #labels_view_labelTextPaddingRight com.gxey.remotemedicalplatform:labelTextPaddingRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #labels_view_labelTextPaddingTop com.gxey.remotemedicalplatform:labelTextPaddingTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #labels_view_labelTextSize com.gxey.remotemedicalplatform:labelTextSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #labels_view_lineMargin com.gxey.remotemedicalplatform:lineMargin}</code></td><td></td></tr>
-           <tr><td><code>{@link #labels_view_maxSelect com.gxey.remotemedicalplatform:maxSelect}</code></td><td></td></tr>
-           <tr><td><code>{@link #labels_view_selectType com.gxey.remotemedicalplatform:selectType}</code></td><td></td></tr>
-           <tr><td><code>{@link #labels_view_wordMargin com.gxey.remotemedicalplatform:wordMargin}</code></td><td></td></tr>
+           <tr><td><code>{@link #labels_view_labelBackground cn.nodemedia.demo:labelBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #labels_view_labelTextColor cn.nodemedia.demo:labelTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #labels_view_labelTextPaddingBottom cn.nodemedia.demo:labelTextPaddingBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #labels_view_labelTextPaddingLeft cn.nodemedia.demo:labelTextPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #labels_view_labelTextPaddingRight cn.nodemedia.demo:labelTextPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #labels_view_labelTextPaddingTop cn.nodemedia.demo:labelTextPaddingTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #labels_view_labelTextSize cn.nodemedia.demo:labelTextSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #labels_view_lineMargin cn.nodemedia.demo:lineMargin}</code></td><td></td></tr>
+           <tr><td><code>{@link #labels_view_maxSelect cn.nodemedia.demo:maxSelect}</code></td><td></td></tr>
+           <tr><td><code>{@link #labels_view_selectType cn.nodemedia.demo:selectType}</code></td><td></td></tr>
+           <tr><td><code>{@link #labels_view_wordMargin cn.nodemedia.demo:wordMargin}</code></td><td></td></tr>
            </table>
            @see #labels_view_labelBackground
            @see #labels_view_labelTextColor
@@ -12658,27 +12666,27 @@ containing a value of this type.
             0x7f01017a, 0x7f01017b, 0x7f01017c
         };
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#labelBackground}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#labelBackground}
           attribute's value can be found in the {@link #labels_view} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:labelBackground
+          @attr name cn.nodemedia.demo:labelBackground
         */
         public static final int labels_view_labelBackground = 10;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#labelTextColor}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#labelTextColor}
           attribute's value can be found in the {@link #labels_view} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.gxey.remotemedicalplatform:labelTextColor
+          @attr name cn.nodemedia.demo:labelTextColor
         */
         public static final int labels_view_labelTextColor = 2;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#labelTextPaddingBottom}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#labelTextPaddingBottom}
           attribute's value can be found in the {@link #labels_view} array.
 
 
@@ -12690,11 +12698,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:labelTextPaddingBottom
+          @attr name cn.nodemedia.demo:labelTextPaddingBottom
         */
         public static final int labels_view_labelTextPaddingBottom = 7;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#labelTextPaddingLeft}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#labelTextPaddingLeft}
           attribute's value can be found in the {@link #labels_view} array.
 
 
@@ -12706,11 +12714,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:labelTextPaddingLeft
+          @attr name cn.nodemedia.demo:labelTextPaddingLeft
         */
         public static final int labels_view_labelTextPaddingLeft = 4;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#labelTextPaddingRight}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#labelTextPaddingRight}
           attribute's value can be found in the {@link #labels_view} array.
 
 
@@ -12722,11 +12730,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:labelTextPaddingRight
+          @attr name cn.nodemedia.demo:labelTextPaddingRight
         */
         public static final int labels_view_labelTextPaddingRight = 6;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#labelTextPaddingTop}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#labelTextPaddingTop}
           attribute's value can be found in the {@link #labels_view} array.
 
 
@@ -12738,11 +12746,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:labelTextPaddingTop
+          @attr name cn.nodemedia.demo:labelTextPaddingTop
         */
         public static final int labels_view_labelTextPaddingTop = 5;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#labelTextSize}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#labelTextSize}
           attribute's value can be found in the {@link #labels_view} array.
 
 
@@ -12754,11 +12762,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:labelTextSize
+          @attr name cn.nodemedia.demo:labelTextSize
         */
         public static final int labels_view_labelTextSize = 3;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#lineMargin}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#lineMargin}
           attribute's value can be found in the {@link #labels_view} array.
 
 
@@ -12770,11 +12778,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:lineMargin
+          @attr name cn.nodemedia.demo:lineMargin
         */
         public static final int labels_view_lineMargin = 8;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#maxSelect}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#maxSelect}
           attribute's value can be found in the {@link #labels_view} array.
 
 
@@ -12784,11 +12792,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:maxSelect
+          @attr name cn.nodemedia.demo:maxSelect
         */
         public static final int labels_view_maxSelect = 1;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#selectType}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#selectType}
           attribute's value can be found in the {@link #labels_view} array.
 
 
@@ -12802,11 +12810,11 @@ containing a value of this type.
 <tr><td><code>SINGLE</code></td><td>2</td><td></td></tr>
 <tr><td><code>MULTI</code></td><td>3</td><td></td></tr>
 </table>
-          @attr name com.gxey.remotemedicalplatform:selectType
+          @attr name cn.nodemedia.demo:selectType
         */
         public static final int labels_view_selectType = 0;
         /**
-          <p>This symbol is the offset where the {@link com.gxey.remotemedicalplatform.R.attr#wordMargin}
+          <p>This symbol is the offset where the {@link cn.nodemedia.demo.R.attr#wordMargin}
           attribute's value can be found in the {@link #labels_view} array.
 
 
@@ -12818,7 +12826,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.gxey.remotemedicalplatform:wordMargin
+          @attr name cn.nodemedia.demo:wordMargin
         */
         public static final int labels_view_wordMargin = 9;
     };

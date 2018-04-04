@@ -20,6 +20,7 @@ import android.view.View;
 import android.view.animation.DecelerateInterpolator;
 
 import com.gxey.remotemedicalplatform.R;
+import com.gxey.remotemedicalplatform.utils.TimeUtils;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -179,7 +180,7 @@ public class ChartView extends View {
             int dp3 = dpToPx(3);
             xOri = (int) (dp2 + textYWdith + dp2 + xylinewidth);//dp2是y轴文本距离左边，以及距离y轴的距离
 //            //X轴文本最大高度
-            xValueRect = getTextBounds("000", xyTextPaint);
+            xValueRect = getTextBounds("00000", xyTextPaint);
             float textXHeight = xValueRect.height();
             for (int i = 0; i < xValue.size(); i++) {//求取x轴文本最大的高度
                 Rect rect = getTextBounds(xValue.get(i) + "", xyTextPaint);
@@ -364,7 +365,8 @@ public class ChartView extends View {
                 xyTextPaint.setColor(xytextcolor);
                 canvas.drawLine(x, yOri, x, yOri - length, xyPaint);
                 //绘制X轴文本
-                String text = xValue.get(i);
+                String text = TimeUtils.MyDateMD(xValue.get(i));
+//                String text = xValue.get(i);
                 Rect rect = getTextBounds(text, xyTextPaint);
                 if (i == selectIndex - 1) {
                     xyTextPaint.setColor(linecolor);

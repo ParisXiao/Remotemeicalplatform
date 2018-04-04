@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.gxey.remotemedicalplatform.test" >
+    package="cn.nodemedia.demo.test" >
 
     <uses-sdk
         android:minSdkVersion="15"
@@ -10,8 +10,8 @@
         android:name="android.support.test.runner.AndroidJUnitRunner"
         android:functionalTest="false"
         android:handleProfiling="false"
-        android:label="Tests for com.gxey.remotemedicalplatform"
-        android:targetPackage="com.gxey.remotemedicalplatform" />
+        android:label="Tests for cn.nodemedia.demo"
+        android:targetPackage="cn.nodemedia.demo" />
 
     <application>
         <uses-library android:name="android.test.runner" />

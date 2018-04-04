@@ -7,7 +7,10 @@ package com.gxey.remotemedicalplatform.newconfig;
 public class UrlConfig {
 //        public final static String POST="http://183.230.180.239:58081/";
         public final static String POST="http://healthapi.gxwdyf.com/";
-
+    /**
+     * RTMP推流地址
+     */
+    public final static String RTMPURL="rtmp://shop.guanaida.com/5showcam/35402424";
     /**
      * 家族史
      */

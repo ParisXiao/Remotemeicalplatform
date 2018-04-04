@@ -100,15 +100,15 @@ public class XueYaAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
     @Override
     public void onBindViewHolder(final RecyclerView.ViewHolder holder, final int position) {
         if (holder instanceof MyViewHolder) {
-            ((MyViewHolder) holder).itemSsName.setText(list.get(position-1).getSystolic());
-            ((MyViewHolder) holder).itemSzName.setText(list.get(position-1).getDiastolic());
-            ((MyViewHolder) holder).itemSsJg.setText(list.get(position-1).getSystolicRemark());
-            ((MyViewHolder) holder).itemSzJg.setText(list.get(position-1).getDiastolicRemark());
-            ((MyViewHolder) holder).itemYscl.setText(list.get(position-1).getDeviceID());
-            ((MyViewHolder) holder).itemClTime.setText(list.get(position-1).getAddtime());
-            ((MyViewHolder) holder).itemClBz.setText(list.get(position-1).getRemark());
+            ((MyViewHolder) holder).itemSsName.setText(list.get(position-2).getSystolic());
+            ((MyViewHolder) holder).itemSzName.setText(list.get(position-2).getDiastolic());
+            ((MyViewHolder) holder).itemSsJg.setText(list.get(position-2).getSystolicRemark());
+            ((MyViewHolder) holder).itemSzJg.setText(list.get(position-2).getDiastolicRemark());
+            ((MyViewHolder) holder).itemYscl.setText(list.get(position-2).getDeviceID());
+            ((MyViewHolder) holder).itemClTime.setText(list.get(position-2).getAddtime());
+            ((MyViewHolder) holder).itemClBz.setText(list.get(position-2).getRemark());
 
-            ((MyViewHolder) holder).itemView.setTag(position-1);
+            ((MyViewHolder) holder).itemView.setTag(position-2);
 
         } else if (holder instanceof FooterViewHolder) {
 
@@ -150,8 +150,8 @@ public class XueYaAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
             //折线对应的数据
             Map<String, Float> value = new HashMap<>();
             for (int i = 0; i < list.size(); i++) {
-                xValue.add(TimeUtils.MyDateMD(list.get(i).getAddtime()));
-                value.put(TimeUtils.MyDateMD(list.get(i).getAddtime()), Float.valueOf(list.get(i).getSystolic()));//60--240
+                xValue.add(list.get(i).getAddtime());
+                value.put(list.get(i).getAddtime(), Float.valueOf(list.get(i).getSystolic()));//60--240
             }
 
             for (int i = 0; i < 20; i++) {
@@ -180,8 +180,8 @@ public class XueYaAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
             //折线对应的数据
             Map<String, Float> value = new HashMap<>();
             for (int i = 0; i < list.size(); i++) {
-                xValue.add(TimeUtils.MyDateMD(list.get(i).getAddtime()));
-                value.put(TimeUtils.MyDateMD(list.get(i).getAddtime()), Float.valueOf(list.get(i).getDiastolic()));//60--240
+                xValue.add(list.get(i).getAddtime());
+                value.put(list.get(i).getAddtime(), Float.valueOf(list.get(i).getDiastolic()));//60--240
             }
 
             for (int i = 0; i < 20; i++) {
@@ -236,15 +236,6 @@ public class XueYaAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
         }
     }
 
-    public void AddHeaderItem(List<XueYaBean> items) {
-        list.addAll(0, items);
-        notifyDataSetChanged();
-    }
-
-    public void AddFooterItem(List<XueYaBean> items) {
-        list.addAll(items);
-        notifyDataSetChanged();
-    }
 
     /**
      * 更新加载更多状态

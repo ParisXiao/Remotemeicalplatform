@@ -27,10 +27,12 @@ import com.gxey.remotemedicalplatform.activity.BaseActivity;
 import com.gxey.remotemedicalplatform.activity.EvaluationActivity;
 import com.gxey.remotemedicalplatform.activity.WebBannerbenActgvity;
 import com.gxey.remotemedicalplatform.adapter.MessageAdapter;
+import com.gxey.remotemedicalplatform.application.LocalApplication;
 import com.gxey.remotemedicalplatform.common.ApiConstant;
 import com.gxey.remotemedicalplatform.javaben.DoctorEntity;
 import com.gxey.remotemedicalplatform.javaben.MessageEntity;
 import com.gxey.remotemedicalplatform.network.HttpSubseiber;
+import com.gxey.remotemedicalplatform.newconfig.UrlConfig;
 import com.gxey.remotemedicalplatform.utils.AndroidUtil;
 
 import org.json.JSONArray;
@@ -48,6 +50,9 @@ import java.util.List;
 import java.util.Locale;
 
 import butterknife.BindView;
+import cn.nodemedia.NodeCameraView;
+import cn.nodemedia.NodePublisher;
+import cn.nodemedia.NodePublisherDelegate;
 import fr.pchab.webrtcclient.PeerConnectionParameters;
 import fr.pchab.webrtcclient.SignalaUtils;
 import fr.pchab.webrtcclient.WebRtcClient;
@@ -58,7 +63,7 @@ import me.iwf.photopicker.PhotoPicker;
  * 视频咨询界面
  */
 
-public class ActivityMyOverConsultation extends BaseActivity implements View.OnClickListener, WebRtcClient.RtcListener {
+public class ActivityMyOverConsultation extends BaseActivity implements NodePublisherDelegate, View.OnClickListener, WebRtcClient.RtcListener {
 
     @BindView(R.id.GL_text_left)
     TextView GLTextLeft;
@@ -80,6 +85,8 @@ public class ActivityMyOverConsultation extends BaseActivity implements View.OnC
     ImageView GLBtnGetimg;
     @BindView(R.id.GL_btn_over)
     ImageView GLBtnOver;
+    @BindView(R.id.camera_preview)
+    NodeCameraView npv;
     private DoctorEntity entity;
     private static final String VIDEO_CODEC_VP9 = "VP9";
     private static final String AUDIO_CODEC_OPUS = "opus";
@@ -102,6 +109,7 @@ public class ActivityMyOverConsultation extends BaseActivity implements View.OnC
     private String connectionId = "";
     private boolean isShow = false;
     private PopupWindow window;
+    private NodePublisher np;
 
     @Override
     protected int getLayoutId() {
@@ -116,6 +124,10 @@ public class ActivityMyOverConsultation extends BaseActivity implements View.OnC
         Log.d("connectionId", connectionId);
         initVideo();
         initAudio();
+        if (LocalApplication.getInstance().isRTMP) {
+            initRTMP(this);
+        }
+
 
         //initGetMessage();
         // initAcceptMemberCallBack();
@@ -168,6 +180,9 @@ public class ActivityMyOverConsultation extends BaseActivity implements View.OnC
         GLBtnOver.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                if (LocalApplication.getInstance().isRTMP) {
+                    np.stop();
+                }
                 sendLeaveCallBack();
             }
         });
@@ -217,6 +232,28 @@ public class ActivityMyOverConsultation extends BaseActivity implements View.OnC
             }
         });
 
+    }
+
+    private void initRTMP(Context c) {
+        np = new NodePublisher(c);
+        np.setNodePublisherDelegate(this);
+        np.setCameraPreview(npv, NodePublisher.CAMERA_FRONT, true);
+        np.setAudioParam(32 * 1000, NodePublisher.AUDIO_PROFILE_HEAAC);
+        np.setVideoParam(NodePublisher.VIDEO_PPRESET_16X9_360, 24, 500 * 1000, NodePublisher.VIDEO_PROFILE_MAIN, false);
+        np.setDenoiseEnable(true);
+        np.setBeautyLevel(3);
+        np.setOutputUrl(UrlConfig.RTMPURL);
+        /**
+         * @brief rtmpdump 风格的connect参数
+         * Append arbitrary AMF data to the Connect message. The type must be B for Boolean, N for number, S for string, O for object, or Z for null.
+         * For Booleans the data must be either 0 or 1 for FALSE or TRUE, respectively. Likewise for Objects the data must be 0 or 1 to end or begin an object, respectively.
+         * Data items in subobjects may be named, by prefixing the type with 'N' and specifying the name before the value, e.g. NB:myFlag:1.
+         * This option may be used multiple times to construct arbitrary AMF sequences. E.g.
+         */
+        np.setConnArgs("S:info O:1 NS:uid:10012 NB:vip:1 NN:num:209.12 O:0");
+        np.startPreview();
+        int ret = np.start();
+        Log.e("NP", "start ret :" + ret);
     }
 
     private void initPopupWindow(View v) {
@@ -277,9 +314,10 @@ public class ActivityMyOverConsultation extends BaseActivity implements View.OnC
         remoteRender = VideoRendererGui.create(
                 REMOTE_X, REMOTE_Y,
                 REMOTE_WIDTH, REMOTE_HEIGHT, scalingType, false);
-        localRender = VideoRendererGui.create(
-                LOCAL_X_CONNECTED, LOCAL_Y_CONNECTED,
-                LOCAL_WIDTH_CONNECTED, LOCAL_HEIGHT_CONNECTED, scalingType, true);
+            localRender = VideoRendererGui.create(
+                    LOCAL_X_CONNECTED, LOCAL_Y_CONNECTED,
+                    LOCAL_WIDTH_CONNECTED, LOCAL_HEIGHT_CONNECTED, scalingType, true);
+
     }
 
     private void initAudio() {
@@ -312,6 +350,11 @@ public class ActivityMyOverConsultation extends BaseActivity implements View.OnC
             client.onDestroy();
         }
         activity = null;
+        if (LocalApplication.getInstance().isRTMP){
+            np.stopPreview();
+            np.stop();
+            np.release();
+        }
         super.onDestroy();
     }
 
@@ -403,7 +446,7 @@ public class ActivityMyOverConsultation extends BaseActivity implements View.OnC
         getWindowManager().getDefaultDisplay().getSize(displaySize);
         PeerConnectionParameters params = new PeerConnectionParameters(
                 true, false, 240, 320, 15, 1, VIDEO_CODEC_VP9, true, 1, AUDIO_CODEC_OPUS, true);
-        client = new WebRtcClient(this, localRender, remoteRender, this, params);
+        client = new WebRtcClient(this, localRender, remoteRender, this, params,LocalApplication.getInstance().isRTMP);
         client.initOffe(connectionId);
     }
 
@@ -555,21 +598,21 @@ public class ActivityMyOverConsultation extends BaseActivity implements View.OnC
                 VideoRendererGui.update(remoteRender,
                         REMOTE_X, REMOTE_Y,
                         REMOTE_WIDTH, REMOTE_HEIGHT, scalingType, false);
-                VideoRendererGui.update(localRender,
-                        LOCAL_X_CONNECTED, LOCAL_Y_CONNECTED,
-                        LOCAL_WIDTH_CONNECTED, LOCAL_HEIGHT_CONNECTED,
-                        scalingType, false);
 
+                    VideoRendererGui.update(localRender,
+                            LOCAL_X_CONNECTED, LOCAL_Y_CONNECTED,
+                            LOCAL_WIDTH_CONNECTED, LOCAL_HEIGHT_CONNECTED,
+                            scalingType, false);
             } else {
                 isConverter = true;
                 VideoRendererGui.update(remoteRender,
                         LOCAL_X_CONNECTED, LOCAL_Y_CONNECTED,
                         LOCAL_WIDTH_CONNECTED, LOCAL_HEIGHT_CONNECTED,
                         scalingType, false);
-                VideoRendererGui.update(localRender,
-                        REMOTE_X, REMOTE_Y,
-                        REMOTE_WIDTH, REMOTE_HEIGHT, scalingType, false);
 
+                    VideoRendererGui.update(localRender,
+                            REMOTE_X, REMOTE_Y,
+                            REMOTE_WIDTH, REMOTE_HEIGHT, scalingType, false);
 
             }
 
@@ -600,5 +643,10 @@ public class ActivityMyOverConsultation extends BaseActivity implements View.OnC
     public void onBackPressed() {
         //super.onBackPressed();
         sendLeaveCallBack();
+    }
+
+    @Override
+    public void onEventCallback(NodePublisher nodePublisher, int i, String s) {
+
     }
 }
