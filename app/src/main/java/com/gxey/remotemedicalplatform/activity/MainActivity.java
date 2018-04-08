@@ -13,12 +13,16 @@ import com.ashokvarma.bottomnavigation.BadgeItem;
 import com.ashokvarma.bottomnavigation.BottomNavigationBar;
 import com.ashokvarma.bottomnavigation.BottomNavigationItem;
 import com.gxey.remotemedicalplatform.R;
+import com.gxey.remotemedicalplatform.activity.secondactivity.ActivityDoctorList;
+import com.gxey.remotemedicalplatform.application.LocalApplication;
 import com.gxey.remotemedicalplatform.fragment.BaseFragment;
 import com.gxey.remotemedicalplatform.fragment.FragmentPage3;
 import com.gxey.remotemedicalplatform.fragment.HealthManagementFragment;
 import com.gxey.remotemedicalplatform.fragment.HomeFragment;
 import com.gxey.remotemedicalplatform.fragment.MyFragment;
 import com.gxey.remotemedicalplatform.network.SendPushSigleR;
+import com.gxey.remotemedicalplatform.newconfig.UserConfig;
+import com.gxey.remotemedicalplatform.utils.PreferenceUtils;
 import com.yanzhenjie.permission.AndPermission;
 import com.yanzhenjie.permission.PermissionNo;
 
@@ -248,6 +252,11 @@ public class MainActivity extends BaseActivity {
 
         JSONObject json = new JSONObject();
         try {
+            if (LocalApplication.getInstance().isRTMP){
+                json.put("VideoType","1");
+            }else {
+                json.put("VideoType","0");
+            }
             json.put("Username", mConfig.getUserName());
             json.put("UserType", "1");
             json.put("GUID", mConfig.getUserGUID());
@@ -255,6 +264,9 @@ public class MainActivity extends BaseActivity {
             json.put("IEGUID", mConfig.getDeviceId());
             json.put("Position", "会员");
             json.put("StoreID", mConfig.getStoreID());
+            json.put("IdCard", PreferenceUtils.getInstance(MainActivity.this).getString(UserConfig.SFZH));
+            json.put("Phone", PreferenceUtils.getInstance(MainActivity.this).getString(UserConfig.Phone));
+            json.put("HeadImg", PreferenceUtils.getInstance(MainActivity.this).getString(UserConfig.HeadImg));
         } catch (Exception e) {
             e.printStackTrace();
         }

@@ -30,6 +30,7 @@ import com.gxey.remotemedicalplatform.widget.TranslucentScrollView;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
+import fr.pchab.webrtcclient.SignalaUtils;
 
 /**
  * Created by xusongsong on 2016/12/21.
@@ -198,6 +199,7 @@ public class MyFragment extends BaseFragment implements ActionBarClickListener, 
                 editor.commit();
                 MySQLiteOpenHelper sqLiteOpenHelper = new MySQLiteOpenHelper(getActivity());
                 sqLiteOpenHelper.deleteAll();
+                SignalaUtils.getInstance(getActivity()).close();
                 getActivity().finish();
                 Intent intent4= new Intent(getActivity(), LoginActivity.class);
                 startActivity(intent4);

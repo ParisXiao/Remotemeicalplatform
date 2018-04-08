@@ -17,4 +17,5 @@ public class UserConfig {
     public final static String JiGuan="JiGuan";
     public final static String Address="Address";
     public final static String Phone="Phone";
+    public final static String SN="SN";
 }

@@ -81,6 +81,58 @@ public class MyHttpHelper {
         }
         return null;
     }
+    /**
+     * 查看返回数据结构
+     *  @param context 上下文
+     * @param key     参数 key集合
+     * @param vally   参数key对应数据
+     */
+    public static String GetUpdata (Context context, String Url, String[] key, Map<String, String> vally) {
+        try {
+            JSONObject mJsonData = new JSONObject();
+            String json = "{";
+            for (String s : key) {
+                mJsonData.put(s, vally.get(s));
+            }
+
+            String Data = mJsonData.toString();
+            Log.d(TAG, "Data : " + Data);
+            JSONObject mJson = new JSONObject();
+//            mJson.put("userid", "");
+            mJson.put("userid", "");
+            mJson.put("token", "");
+//            mJson.put("token","");
+            mJson.put("platform", "APP");
+            mJson.put("data", mJsonData);
+
+            OkHttpClient client = new OkHttpClient();
+            client.newBuilder().connectTimeout(10, TimeUnit.SECONDS).writeTimeout(10, TimeUnit.SECONDS).readTimeout(30, TimeUnit.SECONDS);
+            try {
+                RequestBody body = RequestBody.create(JSON, new String( Base64Utils.getBase64(mJson.toString())));
+                Request request = new Request.Builder()
+                        .url(Url)
+                        .post(body)
+                        .build();
+                Response response = client.newCall(request).execute();
+                Log.d(TAG, "json:" + mJson.toString());
+                Log.d(TAG, "body:" + new String(Base64Utils.getBase64(mJson.toString()) ));
+                Log.d(TAG, "response:" + response);
+
+                if (response.isSuccessful()) {
+                    String result= response.body().string();
+                    String resultBase64 = Base64Utils.getFromBase64(result);
+                    Log.d(TAG, "result:" + result);
+                    Log.d(TAG, "resultBase64:" +resultBase64);
+                    return resultBase64;
+                }
+            } catch (Exception e) {
+                Log.d(TAG, e.toString());
+            }
+        } catch (Exception e) {
+
+        }
+        return null;
+    }
 
     /**
      * 判断网络状态

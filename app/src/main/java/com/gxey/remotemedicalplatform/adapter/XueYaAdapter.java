@@ -196,7 +196,7 @@ public class XueYaAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
 
     @Override
     public int getItemCount() {
-        return list.size() + 2;
+        return list.size() + 3;
     }
 
     public class ChartsView1Holder extends RecyclerView.ViewHolder {

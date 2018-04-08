@@ -34,14 +34,19 @@ import android.widget.TextView;
 import com.gxey.remotemedicalplatform.R;
 import com.gxey.remotemedicalplatform.activity.BaseActivity;
 import com.gxey.remotemedicalplatform.adapter.DoctorAdapter;
+import com.gxey.remotemedicalplatform.application.LocalApplication;
 import com.gxey.remotemedicalplatform.javaben.DoctorEntity;
 import com.gxey.remotemedicalplatform.javaben.WDoctorEntity;
 import com.gxey.remotemedicalplatform.network.HttpSubseiber;
 import com.gxey.remotemedicalplatform.network.SendPushSigleR;
+import com.gxey.remotemedicalplatform.newconfig.UrlConfig;
+import com.gxey.remotemedicalplatform.newconfig.UserConfig;
 import com.gxey.remotemedicalplatform.utils.AndroidUtil;
 import com.gxey.remotemedicalplatform.utils.MyStrUtil;
+import com.gxey.remotemedicalplatform.utils.PreferenceUtils;
 import com.gxey.remotemedicalplatform.utils.ScreenUtils;
 import com.gxey.remotemedicalplatform.utils.SizeUtils;
+import com.gxey.remotemedicalplatform.utils.ToastUtils;
 import com.gxey.remotemedicalplatform.widget.EmptyLayout;
 
 import org.json.JSONArray;
@@ -49,6 +54,8 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Timer;
+import java.util.TimerTask;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -200,6 +207,11 @@ public class ActivityDoctorList extends BaseActivity implements View.OnClickList
 
         JSONObject json = new JSONObject();
         try {
+            if (LocalApplication.getInstance().isRTMP){
+                json.put("VideoType","1");
+            }else {
+                json.put("VideoType","0");
+            }
             json.put("IEGUID",mConfig.getDeviceId());
             json.put("Username",mConfig.getUserName());
             json.put("UserType","1");
@@ -207,6 +219,9 @@ public class ActivityDoctorList extends BaseActivity implements View.OnClickList
             json.put("Division", mConfig.getDivision());
             json.put("Position","会员");
             json.put("StoreID",mConfig.getStoreID());
+            json.put("IdCard", PreferenceUtils.getInstance(ActivityDoctorList.this).getString(UserConfig.SFZH));
+            json.put("Phone", PreferenceUtils.getInstance(ActivityDoctorList.this).getString(UserConfig.Phone));
+            json.put("HeadImg", PreferenceUtils.getInstance(ActivityDoctorList.this).getString(UserConfig.HeadImg));
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -296,7 +311,7 @@ public class ActivityDoctorList extends BaseActivity implements View.OnClickList
 //                    intent.putExtra("entity",doctorBeen.get(position));
 //                    startActivity(intent);
                     doctorEntity=doctorBeen.get(position);
-                    initPopupWindow(view,doctorBeen.get(position));
+                    initPopupWindow(view,position,doctorBeen.get(position).getConnectionId());
                     runOnUiThread(new Runnable() {
                         @Override
                         public void run() {
@@ -314,7 +329,8 @@ public class ActivityDoctorList extends BaseActivity implements View.OnClickList
         lp.alpha = bgAlpha; //0.0-1.0
         getWindow().setAttributes(lp);
     }
-    private void initPopupWindow(View v,DoctorEntity doctorEntity) {
+    private void initPopupWindow(View v, final int doctor, final String doctorId) {
+         final List<DoctorEntity> doctorBeenWin=new ArrayList<>();
         DisplayMetrics dm = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(dm);
         int screenHeight =dm.heightPixels;
@@ -335,14 +351,37 @@ public class ActivityDoctorList extends BaseActivity implements View.OnClickList
         window.setTouchable(true);
         ImageView exit = (ImageView) contentView.findViewById(R.id.popup_sq_exit);
         TextView yisheng= (TextView) contentView.findViewById(R.id.pop_yisheng);
-        TextView paidui= (TextView) contentView.findViewById(R.id.pop_dengdai);
-        yisheng.setText("您选择的是："+doctorEntity.getUserName());
-        int time=0;
-        if (!MyStrUtil.isEmpty(doctorEntity.getSN())){
-            time = Integer.parseInt(doctorEntity.getSN()) * 5;
-        }
-        String textSource = "您前面还有<font color='#67e300'><big>"+doctorEntity.getSN()+"</big></font>人在排队，大约需要等待<font color='#67e300'><big>"+time+"</big></font>分钟";
-        paidui.setText(Html.fromHtml(textSource));
+        final TextView paidui= (TextView) contentView.findViewById(R.id.pop_dengdai);
+        yisheng.setText("您选择的是："+doctorBeenWin.get(doctor).getUserName());
+
+
+        final Timer timer=new Timer();
+        TimerTask timerTask=new TimerTask() {
+            @Override
+            public void run() {
+            doctorBeenWin.addAll(SendPushSigleR.list);
+
+            if (doctorBeenWin.get(doctor).equals(doctorId)){
+                int time = 0;
+                if (!MyStrUtil.isEmpty(doctorBeenWin.get(doctor).getSN())){
+                    time = Integer.parseInt(doctorBeenWin.get(doctor).getSN()) * 5;
+                }
+                final String textSource = "您前面还有<font color='#67e300'><big>"+doctorBeenWin.get(doctor).getSN()+"</big></font>人在排队，大约需要等待<font color='#67e300'><big>"+time+"</big></font>分钟";
+
+                runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        paidui.setText(Html.fromHtml(textSource));
+                    }
+                });
+            }else {
+                ToastUtils.s(ActivityDoctorList.this,"该医生已下线");
+                timer.cancel();
+                window.dismiss();
+            }
+            }
+        };
+        timer.schedule(timerTask,0,5000);
         Button quxiao= (Button) contentView.findViewById(R.id.pop_quxiao);
         exit.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -350,6 +389,7 @@ public class ActivityDoctorList extends BaseActivity implements View.OnClickList
                 sendCancleDotor();
                 backgroundAlpha(1f);
                 AndroidUtil.showToast(ActivityDoctorList.this, "您取消了排队", 0);
+                timer.cancel();
                 window.dismiss();
             }
         });
@@ -359,6 +399,7 @@ public class ActivityDoctorList extends BaseActivity implements View.OnClickList
                 sendCancleDotor();
                 backgroundAlpha(1f);
                 AndroidUtil.showToast(ActivityDoctorList.this, "您取消了排队", 0);
+                timer.cancel();
                 window.dismiss();
             }
         });

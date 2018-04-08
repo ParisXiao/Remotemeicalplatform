@@ -20,7 +20,7 @@ import java.lang.Override;
 public class RegisteredActivity_ViewBinding<T extends RegisteredActivity> implements Unbinder {
   protected T target;
 
-  private View view2131624123;
+  private View view2131624125;
 
   @UiThread
   public RegisteredActivity_ViewBinding(final T target, View source) {
@@ -50,7 +50,7 @@ public class RegisteredActivity_ViewBinding<T extends RegisteredActivity> implem
     target.reRadioOk = Utils.findRequiredViewAsType(source, R.id.re_radio_ok, "field 'reRadioOk'", CheckBox.class);
     view = Utils.findRequiredView(source, R.id.re_tv_registered, "field 'reTvRegistered' and method 'onClick'");
     target.reTvRegistered = Utils.castView(view, R.id.re_tv_registered, "field 'reTvRegistered'", TextView.class);
-    view2131624123 = view;
+    view2131624125 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -100,8 +100,8 @@ public class RegisteredActivity_ViewBinding<T extends RegisteredActivity> implem
     target.PassSure = null;
     target.Sfzh = null;
 
-    view2131624123.setOnClickListener(null);
-    view2131624123 = null;
+    view2131624125.setOnClickListener(null);
+    view2131624125 = null;
 
     this.target = null;
   }

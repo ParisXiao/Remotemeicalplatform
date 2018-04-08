@@ -10,7 +10,7 @@ public class UrlConfig {
     /**
      * RTMP推流地址
      */
-    public final static String RTMPURL="rtmp://shop.guanaida.com/5showcam/35402424";
+    public final static String RTMPURL="rtmp://shop.guanaida.com/5showcam/";
     /**
      * 家族史
      */
@@ -43,6 +43,12 @@ public class UrlConfig {
 
     public final static String GetBanner=OLDPOST+"api/UData/GetBanner";//广告图片
     public final static String GetNews=OLDPOST+"api/UData/GetNews";//新闻列表
+
+
+    /**
+     * 更新接口
+     */
+    public final static String Updata=POST+"api/Other/AppUpdate";
 
 
 }

@@ -33,7 +33,9 @@ import com.gxey.remotemedicalplatform.javaben.DoctorEntity;
 import com.gxey.remotemedicalplatform.javaben.MessageEntity;
 import com.gxey.remotemedicalplatform.network.HttpSubseiber;
 import com.gxey.remotemedicalplatform.newconfig.UrlConfig;
+import com.gxey.remotemedicalplatform.newconfig.UserConfig;
 import com.gxey.remotemedicalplatform.utils.AndroidUtil;
+import com.gxey.remotemedicalplatform.utils.PreferenceUtils;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -242,7 +244,8 @@ public class ActivityMyOverConsultation extends BaseActivity implements NodePubl
         np.setVideoParam(NodePublisher.VIDEO_PPRESET_16X9_360, 24, 500 * 1000, NodePublisher.VIDEO_PROFILE_MAIN, false);
         np.setDenoiseEnable(true);
         np.setBeautyLevel(3);
-        np.setOutputUrl(UrlConfig.RTMPURL);
+        np.setOutputUrl(UrlConfig.RTMPURL+ PreferenceUtils.getInstance(ActivityMyOverConsultation.this).getString(UserConfig.UserId));
+        Log.d("RTMPurl",UrlConfig.RTMPURL+ PreferenceUtils.getInstance(ActivityMyOverConsultation.this).getString(UserConfig.UserId));
         /**
          * @brief rtmpdump 风格的connect参数
          * Append arbitrary AMF data to the Connect message. The type must be B for Boolean, N for number, S for string, O for object, or Z for null.

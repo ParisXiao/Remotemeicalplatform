@@ -412,6 +412,7 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
             @Override
             public void onSucceed(String data) {
                 Toast.makeText(PersonalInformationActivity.this, "修改成功", Toast.LENGTH_LONG);
+                PreferenceUtils.getInstance(getApplicationContext()).saveString(UserConfig.SFZH,SFnum);
                 dismisDialog();
                 dialog();
             }
