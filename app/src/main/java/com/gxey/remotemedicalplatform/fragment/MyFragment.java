@@ -27,6 +27,8 @@ import com.gxey.remotemedicalplatform.utils.PreferenceUtils;
 import com.gxey.remotemedicalplatform.widget.TranslucentActionBar;
 import com.gxey.remotemedicalplatform.widget.TranslucentScrollView;
 
+import org.json.JSONArray;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
@@ -63,7 +65,7 @@ public class MyFragment extends BaseFragment implements ActionBarClickListener, 
     ImageView imgBangzhu;
     @BindView(R.id.re_bangzhu)
     RelativeLayout reBangzhu;
-//    @BindView(R.id.img_xiaoxi)
+    //    @BindView(R.id.img_xiaoxi)
 //    ImageView imgXiaoxi;
 //    @BindView(R.id.re_xiaoxi)
 //    RelativeLayout reXiaoxi;
@@ -192,16 +194,19 @@ public class MyFragment extends BaseFragment implements ActionBarClickListener, 
                 Intent intent3 = new Intent(getActivity(), WebOpinionActivity.class);
                 startActivity(intent3);
                 break;
-            case R.id. btn_logout:
+            case R.id.btn_logout:
                 SharedPreferences sp = getActivity().getSharedPreferences("saveUserNamePwd", Context.MODE_PRIVATE);
                 SharedPreferences.Editor editor = sp.edit();
                 editor.clear();
                 editor.commit();
                 MySQLiteOpenHelper sqLiteOpenHelper = new MySQLiteOpenHelper(getActivity());
                 sqLiteOpenHelper.deleteAll();
+                JSONArray jsonArray = new JSONArray();
+                jsonArray.put(mConfig.getRoomID());
+                SignalaUtils.getInstance(getActivity()).sendMessage("sendLeave", jsonArray);
                 SignalaUtils.getInstance(getActivity()).close();
                 getActivity().finish();
-                Intent intent4= new Intent(getActivity(), LoginActivity.class);
+                Intent intent4 = new Intent(getActivity(), LoginActivity.class);
                 startActivity(intent4);
                 break;
 

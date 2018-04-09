@@ -52,7 +52,7 @@
         jumboMode="true"
         optimize="true"
         revision="26.0.3"
-        sha1="2d6a80a02d9f1a8f9b3cae7d514918cb1da381eb">
+        sha1="74fd7871e09c44135da32a0c9f7bb0eb9bedf3ab">
         <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_173038f38cddc64cc3f219fe7a50fa24c488d419\classes.dex" />
     </item>
     <item
@@ -61,7 +61,7 @@
         jumboMode="false"
         optimize="true"
         revision="26.0.3"
-        sha1="2c909b8aac10e3896a90545c704b5186a37963f2">
+        sha1="279756041c208814094806f039c7fad9ec14800e">
         <dex dex="D:\MyWork\SmartHospital\Remotemeicalplatform\app\build\intermediates\pre-dexed\release\classes_b05b761b58894240f67cc087e8d0f579e8ba18ca.jar" />
     </item>
 

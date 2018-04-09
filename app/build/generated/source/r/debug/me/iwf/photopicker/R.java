@@ -646,7 +646,7 @@ public final class R {
         public static final int abc_vector_test = 0x7f020060;
         public static final int design_fab_background = 0x7f020095;
         public static final int design_snackbar_background = 0x7f020096;
-        public static final int notification_template_icon_bg = 0x7f0200fd;
+        public static final int notification_template_icon_bg = 0x7f0200fe;
     }
     public static final class id {
         public static final int action0 = 0x7f0e027d;
@@ -856,10 +856,10 @@ public final class R {
         public static final int notification_template_media = 0x7f04008d;
         public static final int notification_template_part_chronometer = 0x7f04008e;
         public static final int notification_template_part_time = 0x7f04008f;
-        public static final int select_dialog_item_material = 0x7f040092;
-        public static final int select_dialog_multichoice_material = 0x7f040093;
-        public static final int select_dialog_singlechoice_material = 0x7f040094;
-        public static final int support_simple_spinner_dropdown_item = 0x7f040097;
+        public static final int select_dialog_item_material = 0x7f040093;
+        public static final int select_dialog_multichoice_material = 0x7f040094;
+        public static final int select_dialog_singlechoice_material = 0x7f040095;
+        public static final int support_simple_spinner_dropdown_item = 0x7f040098;
     }
     public static final class menu {
         public static final int __picker_menu_picker = 0x7f0f0000;

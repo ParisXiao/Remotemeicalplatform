@@ -266,6 +266,13 @@ public class HomeFragment extends BaseFragment implements SwipeRefreshLayout.OnR
                         }
                     }
                 });
+                adapter.setType2ItemClickListener(new HomeRecycleAdapter.Type2ItemClickListener() {
+                    @Override
+                    public void onItemClick(View view, int position) {
+                        Intent intent = new Intent(getActivity(), ActivityDrugStore.class);
+                        startActivity(intent);
+                    }
+                });
                 adapter.setType3ItemClickListener(new HomeRecycleAdapter.Type3ItemClickListener() {
                     @Override
                     public void onItemClick(View view, int position) {

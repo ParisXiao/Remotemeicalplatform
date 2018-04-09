@@ -13,6 +13,7 @@ import com.gxey.remotemedicalplatform.R;
 import com.gxey.remotemedicalplatform.bean.XueYaBean;
 import com.gxey.remotemedicalplatform.utils.TimeUtils;
 import com.gxey.remotemedicalplatform.widget.ChartView;
+import com.gxey.remotemedicalplatform.widget.ChartView2;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -89,7 +90,7 @@ public class XueYaAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
 
             return new ChartsView1Holder(itemView);
         } else if (viewType == TYPE_ChartsDiastolic) {
-            View itemView = mInflater.inflate(R.layout.recycleview_charts, parent, false);
+            View itemView = mInflater.inflate(R.layout.recycleview_charts2, parent, false);
 
             return new ChartsView2Holder(itemView);
         }
@@ -100,8 +101,8 @@ public class XueYaAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
     @Override
     public void onBindViewHolder(final RecyclerView.ViewHolder holder, final int position) {
         if (holder instanceof MyViewHolder) {
-            ((MyViewHolder) holder).itemSsName.setText(list.get(position-2).getSystolic());
-            ((MyViewHolder) holder).itemSzName.setText(list.get(position-2).getDiastolic());
+            ((MyViewHolder) holder).itemSsName.setText(list.get(position-2).getDiastolic());
+            ((MyViewHolder) holder).itemSzName.setText(list.get(position-2).getSystolic());
             ((MyViewHolder) holder).itemSsJg.setText(list.get(position-2).getSystolicRemark());
             ((MyViewHolder) holder).itemSzJg.setText(list.get(position-2).getDiastolicRemark());
             ((MyViewHolder) holder).itemYscl.setText(list.get(position-2).getDeviceID());
@@ -151,11 +152,11 @@ public class XueYaAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
             Map<String, Float> value = new HashMap<>();
             for (int i = 0; i < list.size(); i++) {
                 xValue.add(list.get(i).getAddtime());
-                value.put(list.get(i).getAddtime(), Float.valueOf(list.get(i).getSystolic()));//60--240
+                value.put(list.get(i).getAddtime(), Float.valueOf(list.get(i).getDiastolic()));//60--240
             }
 
             for (int i = 0; i < 20; i++) {
-                yValue.add((float) (i * 10));
+                yValue.add((float) (i *5));
             }
 
             ((ChartsView1Holder) holder).chart.setValue(0,value, xValue, yValue);
@@ -181,13 +182,13 @@ public class XueYaAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
             Map<String, Float> value = new HashMap<>();
             for (int i = 0; i < list.size(); i++) {
                 xValue.add(list.get(i).getAddtime());
-                value.put(list.get(i).getAddtime(), Float.valueOf(list.get(i).getDiastolic()));//60--240
+                value.put(list.get(i).getAddtime(), Float.valueOf(list.get(i).getSystolic()));//60--240
             }
+
 
             for (int i = 0; i < 20; i++) {
-                yValue.add((float) (i *5));
+                yValue.add((float) (i * 10));
             }
-
             ((ChartsView2Holder) holder).chart.setValue(0,value, xValue, yValue);
             ((ChartsView2Holder) holder).chartName.setText("舒张压图");
 
@@ -213,7 +214,7 @@ public class XueYaAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
 
     public class ChartsView2Holder extends RecyclerView.ViewHolder {
         @BindView(R.id.chartview)
-        ChartView chart;
+        ChartView2 chart;
         @BindView(R.id.chartview_name)
         TextView chartName;
         public ChartsView2Holder(View itemView) {

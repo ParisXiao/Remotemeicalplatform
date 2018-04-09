@@ -370,6 +370,9 @@ public class ActivityMyOverConsultation extends BaseActivity implements NodePubl
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.glview_call:
+                if (LocalApplication.getInstance().isRTMP) {
+                   return;
+                }
                 videoConverter();
                 break;
         }

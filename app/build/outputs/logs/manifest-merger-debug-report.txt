@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:2:1-294:12
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:2:1-296:12
 	package
 		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:4:5-45
 		INJECTED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml
@@ -69,8 +69,16 @@ ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidMani
 MERGED from [Remotemeicalplatform:webrtc-client:unspecified] D:\MyWork\SmartHospital\Remotemeicalplatform\webrtc-client\build\intermediates\bundles\default\AndroidManifest.xml:18:5-80
 	android:name
 		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:18:22-77
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:19:5-73
+	android:name
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:19:22-70
+uses-permission#android.permission.READ_SMS
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:20:5-67
+	android:name
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:20:22-64
 application
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:20:5-292:19
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:22:5-294:19
 MERGED from [com.ashokvarma.android:bottom-navigation-bar:1.2.0] C:\Users\Administrator\.android\build-cache\78d774ea52ea04fedcf96dc0c81788ecd6428191\output\AndroidManifest.xml:11:5-13:38
 MERGED from [cn.pedant.sweetalert:library:1.3] C:\Users\Administrator\.android\build-cache\8f6c38e5d9c0b9cec6c7498a8f2485761ca3e516\output\AndroidManifest.xml:11:5-20
 MERGED from [com.pnikosis:materialish-progress:1.0] C:\Users\Administrator\.android\build-cache\5fb9eb1d7eaf8c22ee950a26e757d2143929e7dd\output\AndroidManifest.xml:11:5-15:19
@@ -98,540 +106,540 @@ MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\Administrator\
 MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\Administrator\.android\build-cache\c895375460dff8603573130be657cbe3a9395758\output\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-compat:24.2.1] C:\Users\Administrator\.android\build-cache\b0d6966b32f7eb839849c5912f6a3112701b0f6a\output\AndroidManifest.xml:25:5-20
 	android:label
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:24:9-41
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:26:9-41
 	android:supportsRtl
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:25:9-35
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:27:9-35
 	android:allowBackup
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:22:9-35
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:24:9-35
 	android:icon
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:23:9-35
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:25:9-35
 		REJECTED from [com.pnikosis:materialish-progress:1.0] C:\Users\Administrator\.android\build-cache\5fb9eb1d7eaf8c22ee950a26e757d2143929e7dd\output\AndroidManifest.xml:13:9-45
 		REJECTED from [com.github.erizet.signala:signala-longpolling:0.20] C:\Users\Administrator\.android\build-cache\e2558f479c7d196b16fe4bfd385e56b74c041d89\output\AndroidManifest.xml:7:18-54
 		REJECTED from [com.github.erizet.signala:parallel-basic-http-client:0.20] C:\Users\Administrator\.android\build-cache\c7c200e6d620a10e1f4662c229b7ab350440ef54\output\AndroidManifest.xml:5:45-81
 		REJECTED from [com.github.erizet.signala:signala:0.20] C:\Users\Administrator\.android\build-cache\4c35a38c65bdf4db5d3387bbf95df92133ede5d4\output\AndroidManifest.xml:5:18-54
 	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:26:9-40
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:28:9-40
 	tools:replace
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:27:9-37
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:29:9-37
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:21:9-53
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:23:9-53
 activity#com.gxey.remotemedicalplatform.activity.LoginActivity
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:31:9-42:20
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:33:9-44:20
 	android:screenOrientation
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:34:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:36:13-49
 	android:windowSoftInputMode
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:36:13-67
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:38:13-67
 	android:configChanges
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:33:13-63
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:35:13-63
 	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:35:13-44
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:37:13-44
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:32:13-51
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:34:13-51
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:37:13-41:29
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:39:13-43:29
 action#android.intent.action.MAIN
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:38:17-69
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:40:17-69
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:38:25-66
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:40:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:40:17-77
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:42:17-77
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:40:27-74
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:42:27-74
 activity#com.gxey.remotemedicalplatform.activity.MainActivity
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:43:9-48:79
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:45:9-50:79
 	android:screenOrientation
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:46:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:48:13-49
 	android:windowSoftInputMode
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:48:13-67
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:50:13-67
 	android:configChanges
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:45:13-63
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:47:13-63
 	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:47:13-44
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:49:13-44
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:44:13-50
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:46:13-50
 activity#com.gxey.remotemedicalplatform.activity.secondactivity.ActivityHeathDangAn
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:49:9-53:52
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:51:9-55:52
 	android:screenOrientation
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:52:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:54:13-49
 	android:configChanges
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:51:13-63
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:53:13-63
 	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:53:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:55:13-49
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:50:13-72
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:52:13-72
 activity#com.gxey.remotemedicalplatform.activity.RegisteredActivity
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:55:9-74
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:57:9-74
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:55:19-62
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:57:19-62
 activity#com.gxey.remotemedicalplatform.activity.BackPasswordActivity
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:57:9-76
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:59:9-76
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:57:19-64
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:59:19-64
 activity#com.gxey.remotemedicalplatform.activity.CircleTopicactivity
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:59:9-75
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:61:9-75
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:59:19-63
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:61:19-63
 activity#com.gxey.remotemedicalplatform.activity.EvaluationActivity
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:61:9-74
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:63:9-74
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:61:19-62
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:63:19-62
 activity#com.gxey.remotemedicalplatform.activity.PersonalInformationActivity
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:63:9-65:76
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:65:9-67:76
 	android:windowSoftInputMode
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:65:13-64
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:67:13-64
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:64:13-65
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:66:13-65
 activity#com.gxey.remotemedicalplatform.activity.CircleActivity
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:67:9-72:25
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:69:9-74:25
 	android:screenOrientation
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:69:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:71:13-49
 	android:windowSoftInputMode
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:71:13-69
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:73:13-69
 	android:configChanges
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:68:13-63
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:70:13-63
 	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:70:13-44
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:72:13-44
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:67:19-58
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:69:19-58
 activity#com.gxey.remotemedicalplatform.activity.storesActivity
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:74:9-70
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:76:9-70
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:74:19-58
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:76:19-58
 activity#com.gxey.remotemedicalplatform.activity.ChangePasswordActivity
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:76:9-78
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:78:9-78
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:76:19-66
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:78:19-66
 activity#com.gxey.remotemedicalplatform.activity.CircleListActivity
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:79:9-74
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:81:9-74
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:79:19-62
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:81:19-62
 activity#com.gxey.remotemedicalplatform.activity.HelpActivity
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:82:9-68
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:84:9-68
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:82:19-56
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:84:19-56
 activity#com.gxey.remotemedicalplatform.activity.FrequencyActivity
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:85:9-73
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:87:9-73
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:85:19-61
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:87:19-61
 activity#com.gxey.remotemedicalplatform.activity.WebCircleActivity
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:88:9-73
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:90:9-73
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:88:19-61
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:90:19-61
 activity#com.gxey.remotemedicalplatform.activity.WebInformationActivity
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:90:9-78
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:92:9-78
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:90:19-66
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:92:19-66
 activity#com.gxey.remotemedicalplatform.activity.WebHealthRecordsActivity
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:92:9-80
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:94:9-80
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:92:19-68
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:94:19-68
 activity#com.gxey.remotemedicalplatform.activity.WebMyDiagnosisActivity
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:94:9-78
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:96:9-78
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:94:19-66
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:96:19-66
 activity#com.gxey.remotemedicalplatform.activity.WebOpinionActivity
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:96:9-74
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:98:9-74
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:96:19-62
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:98:19-62
 activity#com.gxey.remotemedicalplatform.activity.WebMedicationActivity
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:98:9-77
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:100:9-77
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:98:19-65
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:100:19-65
 activity#com.gxey.remotemedicalplatform.activity.WebHelpActivity
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:100:9-71
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:102:9-71
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:100:19-59
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:102:19-59
 activity#com.gxey.remotemedicalplatform.activity.WebIndexActivity
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:102:9-72
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:104:9-72
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:102:19-60
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:104:19-60
 activity#com.gxey.remotemedicalplatform.activity.WebAgreementActivity
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:104:9-76
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:106:9-76
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:104:19-64
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:106:19-64
 activity#com.gxey.remotemedicalplatform.activity.WebSearchActivity
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:106:9-73
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:108:9-73
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:106:19-61
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:108:19-61
 activity#com.gxey.remotemedicalplatform.activity.WebHomeGoods1
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:107:9-69
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:109:9-69
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:107:19-57
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:109:19-57
 activity#com.gxey.remotemedicalplatform.activity.ActivityDrugStore
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:111:9-73
-	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:111:19-61
-activity#com.gxey.remotemedicalplatform.activity.ActivityImageShow
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:113:9-64
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:113:9-73
 	android:name
 		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:113:19-61
+activity#com.gxey.remotemedicalplatform.activity.ActivityImageShow
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:115:9-64
+	android:name
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:115:19-61
 activity#com.gxey.remotemedicalplatform.activity.WebDemoActivity
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:114:9-62
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:116:9-62
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:114:19-59
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:116:19-59
 activity#com.gxey.remotemedicalplatform.activity.WebBannerbenActgvity
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:117:9-67
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:119:9-67
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:117:19-64
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:119:19-64
 activity#me.iwf.photopicker.PhotoPickerActivity
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:119:9-121:66
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:121:9-123:66
 	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:121:13-63
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:123:13-63
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:120:13-66
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:122:13-66
 activity#me.iwf.photopicker.PhotoPagerActivity
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:123:9-125:66
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:125:9-127:66
 	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:125:13-63
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:127:13-63
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:124:13-65
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:126:13-65
 activity#com.gxey.remotemedicalplatform.activity.secondactivity.ActivityMyMsg
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:128:9-132:52
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:130:9-134:52
 	android:screenOrientation
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:131:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:133:13-49
 	android:configChanges
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:130:13-63
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:132:13-63
 	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:132:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:134:13-49
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:129:13-66
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:131:13-66
 activity#com.gxey.remotemedicalplatform.activity.secondactivity.ActivityHeathDianZi
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:133:9-137:52
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:135:9-139:52
 	android:screenOrientation
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:136:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:138:13-49
 	android:configChanges
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:135:13-63
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:137:13-63
 	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:137:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:139:13-49
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:134:13-72
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:136:13-72
 activity#com.gxey.remotemedicalplatform.activity.secondactivity.ActivityDoctorList
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:138:9-143:70
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:140:9-145:70
 	android:screenOrientation
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:141:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:143:13-49
 	android:windowSoftInputMode
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:143:13-67
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:145:13-67
 	android:configChanges
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:140:13-63
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:142:13-63
 	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:142:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:144:13-49
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:139:13-71
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:141:13-71
 activity#com.gxey.remotemedicalplatform.activity.secondactivity.ActivityYiZhu
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:144:9-149:70
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:146:9-151:70
 	android:screenOrientation
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:147:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:149:13-49
 	android:windowSoftInputMode
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:149:13-67
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:151:13-67
 	android:configChanges
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:146:13-63
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:148:13-63
 	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:148:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:150:13-49
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:145:13-66
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:147:13-66
 activity#com.gxey.remotemedicalplatform.activity.secondactivity.ActivityFenZhen
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:150:9-155:70
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:152:9-157:70
 	android:screenOrientation
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:153:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:155:13-49
 	android:windowSoftInputMode
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:155:13-67
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:157:13-67
 	android:configChanges
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:152:13-63
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:154:13-63
 	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:154:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:156:13-49
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:151:13-68
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:153:13-68
 activity#com.gxey.remotemedicalplatform.activity.secondactivity.ActivityDZDetails
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:156:9-161:70
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:158:9-163:70
 	android:screenOrientation
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:159:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:161:13-49
 	android:windowSoftInputMode
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:161:13-67
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:163:13-67
 	android:configChanges
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:158:13-63
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:160:13-63
 	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:160:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:162:13-49
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:157:13-70
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:159:13-70
 activity#com.gxey.remotemedicalplatform.activity.secondactivity.ActivityHealthBaoGao
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:162:9-167:70
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:164:9-169:70
 	android:screenOrientation
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:165:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:167:13-49
 	android:windowSoftInputMode
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:167:13-67
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:169:13-67
 	android:configChanges
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:164:13-63
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:166:13-63
 	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:166:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:168:13-49
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:163:13-73
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:165:13-73
 activity#com.gxey.remotemedicalplatform.activity.secondactivity.ActivityYiChuan
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:168:9-173:70
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:170:9-175:70
 	android:screenOrientation
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:171:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:173:13-49
 	android:windowSoftInputMode
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:173:13-67
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:175:13-67
 	android:configChanges
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:170:13-63
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:172:13-63
 	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:172:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:174:13-49
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:169:13-68
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:171:13-68
 activity#com.gxey.remotemedicalplatform.activity.secondactivity.ActivityYiZhuDetails
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:174:9-179:70
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:176:9-181:70
 	android:screenOrientation
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:177:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:179:13-49
 	android:windowSoftInputMode
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:179:13-67
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:181:13-67
 	android:configChanges
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:176:13-63
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:178:13-63
 	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:178:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:180:13-49
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:175:13-73
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:177:13-73
 activity#com.gxey.remotemedicalplatform.activity.secondactivity.ActivityMyOverConsultation
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:180:9-183:10
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:182:9-185:10
 	android:screenOrientation
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:182:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:184:13-49
 	android:configChanges
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:181:13-63
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:183:13-63
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:180:19-85
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:182:19-85
 activity#com.gxey.remotemedicalplatform.activity.secondactivity.ActivityGuoMing
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:184:9-188:69
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:186:9-190:69
 	android:screenOrientation
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:186:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:188:13-49
 	android:windowSoftInputMode
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:188:13-67
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:190:13-67
 	android:configChanges
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:185:13-63
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:187:13-63
 	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:187:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:189:13-49
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:184:19-74
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:186:19-74
 activity#com.gxey.remotemedicalplatform.activity.secondactivity.ActivityHuanJing
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:189:9-193:69
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:191:9-195:69
 	android:screenOrientation
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:191:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:193:13-49
 	android:windowSoftInputMode
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:193:13-67
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:195:13-67
 	android:configChanges
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:190:13-63
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:192:13-63
 	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:192:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:194:13-49
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:189:19-75
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:191:19-75
 activity#com.gxey.remotemedicalplatform.activity.secondactivity.ActivityChangBeiYao
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:194:9-198:69
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:196:9-200:69
 	android:screenOrientation
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:196:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:198:13-49
 	android:windowSoftInputMode
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:198:13-67
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:200:13-67
 	android:configChanges
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:195:13-63
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:197:13-63
 	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:197:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:199:13-49
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:194:19-78
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:196:19-78
 activity#com.gxey.remotemedicalplatform.activity.secondactivity.ActivityTiJian
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:199:9-203:69
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:201:9-205:69
 	android:screenOrientation
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:201:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:203:13-49
 	android:windowSoftInputMode
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:203:13-67
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:205:13-67
 	android:configChanges
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:200:13-63
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:202:13-63
 	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:202:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:204:13-49
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:199:19-73
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:201:19-73
 activity#com.gxey.remotemedicalplatform.activity.secondactivity.ActivityXinDianTuDetails
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:204:9-208:69
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:206:9-210:69
 	android:screenOrientation
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:206:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:208:13-49
 	android:windowSoftInputMode
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:208:13-67
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:210:13-67
 	android:configChanges
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:205:13-63
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:207:13-63
 	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:207:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:209:13-49
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:204:19-83
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:206:19-83
 activity#com.gxey.remotemedicalplatform.activity.secondactivity.ActivityJiWangShi
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:209:9-214:15
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:211:9-216:15
 	android:screenOrientation
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:211:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:213:13-49
 	android:windowSoftInputMode
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:213:13-67
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:215:13-67
 	android:configChanges
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:210:13-63
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:212:13-63
 	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:212:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:214:13-49
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:209:19-76
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:211:19-76
 activity#com.gxey.remotemedicalplatform.activity.secondactivity.ActivityJiaZu
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:215:9-219:69
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:217:9-221:69
 	android:screenOrientation
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:217:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:219:13-49
 	android:windowSoftInputMode
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:219:13-67
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:221:13-67
 	android:configChanges
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:216:13-63
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:218:13-63
 	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:218:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:220:13-49
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:215:19-72
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:217:19-72
 activity#com.gxey.remotemedicalplatform.activity.secondactivity.ActivityDZBL
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:220:9-225:15
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:222:9-227:15
 	android:screenOrientation
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:222:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:224:13-49
 	android:windowSoftInputMode
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:224:13-67
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:226:13-67
 	android:configChanges
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:221:13-63
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:223:13-63
 	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:223:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:225:13-49
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:220:19-71
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:222:19-71
 activity#com.gxey.remotemedicalplatform.activity.secondactivity.ActivityMZDetails
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:226:9-231:15
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:228:9-233:15
 	android:screenOrientation
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:228:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:230:13-49
 	android:windowSoftInputMode
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:230:13-67
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:232:13-67
 	android:configChanges
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:227:13-63
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:229:13-63
 	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:229:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:231:13-49
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:226:19-76
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:228:19-76
 activity#com.gxey.remotemedicalplatform.activity.secondactivity.ActivityMZBL
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:232:9-237:15
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:234:9-239:15
 	android:screenOrientation
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:234:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:236:13-49
 	android:windowSoftInputMode
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:236:13-67
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:238:13-67
 	android:configChanges
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:233:13-63
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:235:13-63
 	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:235:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:237:13-49
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:232:19-71
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:234:19-71
 activity#com.gxey.remotemedicalplatform.activity.secondactivity.ActivityXGYZDetails
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:238:9-242:69
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:240:9-244:69
 	android:screenOrientation
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:240:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:242:13-49
 	android:windowSoftInputMode
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:242:13-67
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:244:13-67
 	android:configChanges
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:239:13-63
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:241:13-63
 	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:241:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:243:13-49
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:238:19-78
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:240:19-78
 activity#com.gxey.remotemedicalplatform.activity.secondactivity.ActivityXGYZ
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:243:9-247:69
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:245:9-249:69
 	android:screenOrientation
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:245:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:247:13-49
 	android:windowSoftInputMode
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:247:13-67
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:249:13-67
 	android:configChanges
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:244:13-63
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:246:13-63
 	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:246:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:248:13-49
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:243:19-71
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:245:19-71
 activity#com.gxey.remotemedicalplatform.activity.secondactivity.ActivityXGBL
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:248:9-252:69
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:250:9-254:69
 	android:screenOrientation
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:250:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:252:13-49
 	android:windowSoftInputMode
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:252:13-67
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:254:13-67
 	android:configChanges
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:249:13-63
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:251:13-63
 	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:251:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:253:13-49
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:248:19-71
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:250:19-71
 activity#com.gxey.remotemedicalplatform.activity.secondactivity.ActivityCanJi
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:253:9-257:69
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:255:9-259:69
 	android:screenOrientation
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:255:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:257:13-49
 	android:windowSoftInputMode
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:257:13-67
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:259:13-67
 	android:configChanges
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:254:13-63
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:256:13-63
 	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:256:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:258:13-49
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:253:19-72
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:255:19-72
 activity#com.gxey.remotemedicalplatform.activity.secondactivity.ActivityZCNews
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:258:9-262:69
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:260:9-264:69
 	android:screenOrientation
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:260:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:262:13-49
 	android:windowSoftInputMode
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:262:13-67
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:264:13-67
 	android:configChanges
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:259:13-63
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:261:13-63
 	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:261:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:263:13-49
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:258:19-73
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:260:19-73
 activity#com.gxey.remotemedicalplatform.activity.secondactivity.ActivityHealthNews
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:263:9-267:69
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:265:9-269:69
 	android:screenOrientation
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:265:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:267:13-49
 	android:windowSoftInputMode
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:267:13-67
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:269:13-67
 	android:configChanges
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:264:13-63
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:266:13-63
 	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:266:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:268:13-49
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:263:19-77
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:265:19-77
 activity#com.gxey.remotemedicalplatform.activity.secondactivity.ActivityPDF
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:268:9-272:69
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:270:9-274:69
 	android:screenOrientation
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:270:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:272:13-49
 	android:windowSoftInputMode
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:272:13-67
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:274:13-67
 	android:configChanges
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:269:13-63
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:271:13-63
 	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:271:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:273:13-49
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:268:19-70
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:270:19-70
 activity#com.gxey.remotemedicalplatform.activity.secondactivity.ActivityFZDetails
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:273:9-277:69
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:275:9-279:69
 	android:screenOrientation
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:275:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:277:13-49
 	android:windowSoftInputMode
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:277:13-67
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:279:13-67
 	android:configChanges
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:274:13-63
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:276:13-63
 	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:276:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:278:13-49
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:273:19-76
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:275:19-76
 activity#com.gxey.remotemedicalplatform.activity.secondactivity.ActivityImg
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:278:9-282:69
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:280:9-284:69
 	android:screenOrientation
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:280:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:282:13-49
 	android:windowSoftInputMode
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:282:13-67
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:284:13-67
 	android:configChanges
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:279:13-63
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:281:13-63
 	android:theme
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:281:13-49
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:283:13-49
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:278:19-70
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:280:19-70
 meta-data#com.google.android.gms.version
-ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:285:9-287:69
+ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:287:9-289:69
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Administrator\.android\build-cache\43fa752ce92b1b3ce373132d436150d24b08d706\output\AndroidManifest.xml:21:9-23:69
 	android:value
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:287:13-66
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:289:13-66
 	android:name
-		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:286:13-58
+		ADDED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml:288:13-58
 uses-sdk
 INJECTED from D:\MyWork\SmartHospital\Remotemeicalplatform\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [io.reactivex:rxandroid:1.2.1] C:\Users\Administrator\.android\build-cache\2b9e5a6dc3bc263df53475958c59a6099c4807a3\output\AndroidManifest.xml:19:5-43

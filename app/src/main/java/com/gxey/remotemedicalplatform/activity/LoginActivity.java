@@ -10,7 +10,7 @@ import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.net.VpnService;
 import android.os.Environment;
-import android.support.v7.app.AlertDialog;
+import android.app.AlertDialog;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.Gravity;
@@ -36,6 +36,7 @@ import com.gxey.remotemedicalplatform.network.HttpClientHelper;
 import com.gxey.remotemedicalplatform.network.HttpSubseiber;
 import com.gxey.remotemedicalplatform.utils.MyStrUtil;
 import com.gxey.remotemedicalplatform.utils.PreferenceUtils;
+import com.gxey.remotemedicalplatform.utils.ToastUtils;
 import com.yanzhenjie.permission.AndPermission;
 
 import org.json.JSONException;
@@ -79,6 +80,7 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
     static String YES = "yes";
     static String NO = "no";
     String name, password1;
+    private boolean isUpdata=false;
 
     protected int getLayoutId() {
         return R.layout.acctivity_login;
@@ -174,10 +176,11 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
     }
 
     protected void downLoadApk(final String url, String AppVersion) {
+        isUpdata=true;
         deleteApk();
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         final AlertDialog dialog = builder.create();
-        dialog.setCanceledOnTouchOutside(false);
+        dialog.setCanceledOnTouchOutside(true);
         dialog.show();
         Window window = dialog.getWindow();
         WindowManager.LayoutParams lp = window.getAttributes();
@@ -331,14 +334,26 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.lg_registered:
+                if (isUpdata){
+                    ToastUtils.s(LoginActivity.this,"请升级到最新版本");
+                    return;
+                }
                 Intent intent = new Intent(LoginActivity.this, RegisteredActivity.class);
                 startActivity(intent);
                 break;
             case R.id.lg_back:
+                if (isUpdata){
+                    ToastUtils.s(LoginActivity.this,"请升级到最新版本");
+                    return;
+                }
                 Intent intent2 = new Intent(LoginActivity.this, BackPasswordActivity.class);
                 startActivity(intent2);
                 break;
             case R.id.lg_tv_login:
+                if (isUpdata){
+                    ToastUtils.s(LoginActivity.this,"请升级到最新版本");
+                    return;
+                }
                 remenber();
                 inilog();
 

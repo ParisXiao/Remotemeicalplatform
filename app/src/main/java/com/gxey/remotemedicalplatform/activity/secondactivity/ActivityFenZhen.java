@@ -162,7 +162,7 @@ public class ActivityFenZhen extends BaseActivity implements View.OnClickListene
                                         Bean.setOffice(temp.getString("office"));
                                         Bean.setRegisterTime(temp.getString("registertime"));
                                         Bean.setRemark(temp.getString("remark"));
-                                        Bean.setRollout(temp.getString("rolloutname"));
+                                        Bean.setRollout(temp.getString("rollout"));
                                         Bean.setServiceCharge(temp.getString("servicecharge"));
                                         Bean.setSickness(temp.getString("sickness"));
                                         Bean.setTahospital(temp.getString("tahospital"));

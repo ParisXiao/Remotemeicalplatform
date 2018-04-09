@@ -83,7 +83,7 @@ public class XGDetailsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
     @Override
     public void onBindViewHolder(final RecyclerView.ViewHolder holder, final int position) {
         if (holder instanceof MyViewHolder) {
-            ImageUtils.load(context,"http://test.gxwdyf.com"+list.get(position), ((MyViewHolder) holder).xg_img);
+            ImageUtils.load(context,list.get(position), ((MyViewHolder) holder).xg_img);
 
             ((MyViewHolder) holder).itemView.setTag(position);
 

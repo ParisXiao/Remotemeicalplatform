@@ -374,10 +374,10 @@ public final class R {
         public static final int gray_button_background = 0x7f0200aa;
         public static final int ic_launcher = 0x7f0200b6;
         public static final int red_button_background = 0x7f0200cc;
-        public static final int success_bow = 0x7f0200df;
-        public static final int success_circle = 0x7f0200e0;
-        public static final int warning_circle = 0x7f0200ec;
-        public static final int warning_sigh = 0x7f0200ed;
+        public static final int success_bow = 0x7f0200e0;
+        public static final int success_circle = 0x7f0200e1;
+        public static final int warning_circle = 0x7f0200ed;
+        public static final int warning_sigh = 0x7f0200ee;
     }
     public static final class id {
         public static final int action_bar = 0x7f0e0085;
@@ -485,7 +485,7 @@ public final class R {
         public static final int abc_search_dropdown_item_icons_2line = 0x7f04001f;
         public static final int abc_search_view = 0x7f040020;
         public static final int alert_dialog = 0x7f040048;
-        public static final int support_simple_spinner_dropdown_item = 0x7f040097;
+        public static final int support_simple_spinner_dropdown_item = 0x7f040098;
     }
     public static final class string {
         public static final int LOADING = 0x7f070046;

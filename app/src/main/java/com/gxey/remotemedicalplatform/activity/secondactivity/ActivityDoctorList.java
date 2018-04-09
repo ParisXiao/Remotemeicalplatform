@@ -101,10 +101,10 @@ public class ActivityDoctorList extends BaseActivity implements View.OnClickList
     private Handler handler = new Handler();
 
     private String Type = "0";// 1.离线，2.全部,0.在线
-    private  PopupWindow window;
+    private PopupWindow window;
     private DoctorEntity doctorEntity;
     public static ActivityDoctorList activityDoctor;
-    public String contectid="";
+    public String contectid = "";
 
 
     @Override
@@ -155,7 +155,7 @@ public class ActivityDoctorList extends BaseActivity implements View.OnClickList
 
             }
         });
-        activityDoctor=this;
+        activityDoctor = this;
     }
 
     private void getDoctor(String userName) {
@@ -199,26 +199,27 @@ public class ActivityDoctorList extends BaseActivity implements View.OnClickList
         }
         return super.dispatchTouchEvent(ev);
     }
+
     /**
      * 登录
      */
-    public void loginUser(){
-        JSONArray jsonArray=new JSONArray();
+    public void loginUser() {
+        JSONArray jsonArray = new JSONArray();
 
         JSONObject json = new JSONObject();
         try {
-            if (LocalApplication.getInstance().isRTMP){
-                json.put("VideoType","1");
-            }else {
-                json.put("VideoType","0");
+            if (LocalApplication.getInstance().isRTMP) {
+                json.put("VideoType", "1");
+            } else {
+                json.put("VideoType", "0");
             }
-            json.put("IEGUID",mConfig.getDeviceId());
-            json.put("Username",mConfig.getUserName());
-            json.put("UserType","1");
-            json.put("GUID",mConfig.getUserGUID());
+            json.put("IEGUID", mConfig.getDeviceId());
+            json.put("Username", mConfig.getUserName());
+            json.put("UserType", "1");
+            json.put("GUID", mConfig.getUserGUID());
             json.put("Division", mConfig.getDivision());
-            json.put("Position","会员");
-            json.put("StoreID",mConfig.getStoreID());
+            json.put("Position", "会员");
+            json.put("StoreID", mConfig.getStoreID());
             json.put("IdCard", PreferenceUtils.getInstance(ActivityDoctorList.this).getString(UserConfig.SFZH));
             json.put("Phone", PreferenceUtils.getInstance(ActivityDoctorList.this).getString(UserConfig.Phone));
             json.put("HeadImg", PreferenceUtils.getInstance(ActivityDoctorList.this).getString(UserConfig.HeadImg));
@@ -227,14 +228,17 @@ public class ActivityDoctorList extends BaseActivity implements View.OnClickList
         }
         jsonArray.put(json);
 
-        SignalaUtils.getInstance(this).sendMessage("sendLogin",jsonArray);
+        SignalaUtils.getInstance(this).sendMessage("sendLogin", jsonArray);
     }
+
     private MyBroadCastReceiver myBroadCastReceiver;
-    private void regDoctorList(){
-        myBroadCastReceiver  = new MyBroadCastReceiver();
+
+    private void regDoctorList() {
+        myBroadCastReceiver = new MyBroadCastReceiver();
         IntentFilter intentFilter = new IntentFilter(SendPushSigleR.DOCTORLISTCHEOSE);
-        registerReceiver(myBroadCastReceiver,intentFilter);
+        registerReceiver(myBroadCastReceiver, intentFilter);
     }
+
     class MyBroadCastReceiver extends BroadcastReceiver {
 
 
@@ -249,9 +253,9 @@ public class ActivityDoctorList extends BaseActivity implements View.OnClickList
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        activityDoctor=null;
+        activityDoctor = null;
         // SignalaUtils.getInstance(this).getHub().
-        if(myBroadCastReceiver!=null){
+        if (myBroadCastReceiver != null) {
             unregisterReceiver(myBroadCastReceiver);
         }
     }
@@ -306,12 +310,12 @@ public class ActivityDoctorList extends BaseActivity implements View.OnClickList
         adapter.setOnItemClickListener(new DoctorAdapter.OnRecyclerViewItemClickListener() {
             @Override
             public void onClick(View view, DoctorAdapter.ViewName viewName, final int position) {
-                if (viewName== DoctorAdapter.ViewName.Button){
+                if (viewName == DoctorAdapter.ViewName.Button) {
 //                    Intent intent = new Intent(ActivityDoctorList.this,OverConsultationActivity.class);
 //                    intent.putExtra("entity",doctorBeen.get(position));
 //                    startActivity(intent);
-                    doctorEntity=doctorBeen.get(position);
-                    initPopupWindow(view,position,doctorBeen.get(position).getConnectionId());
+                    doctorEntity = doctorBeen.get(position);
+                    initPopupWindow(view, position, doctorBeen.get(position).getConnectionId());
                     runOnUiThread(new Runnable() {
                         @Override
                         public void run() {
@@ -329,19 +333,20 @@ public class ActivityDoctorList extends BaseActivity implements View.OnClickList
         lp.alpha = bgAlpha; //0.0-1.0
         getWindow().setAttributes(lp);
     }
+
     private void initPopupWindow(View v, final int doctor, final String doctorId) {
-         final List<DoctorEntity> doctorBeenWin=new ArrayList<>();
+        final List<DoctorEntity> doctorBeenWin = new ArrayList<>();
         DisplayMetrics dm = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(dm);
-        int screenHeight =dm.heightPixels;
+        int screenHeight = dm.heightPixels;
         // 将pixels转为dip
-        int xoffInDip = SizeUtils.px2dip(getApplicationContext(),screenHeight);
+        int xoffInDip = SizeUtils.px2dip(getApplicationContext(), screenHeight);
 // 用于PopupWindow的View
         View contentView = LayoutInflater.from(this).inflate(R.layout.layout_popup_shenqing, null, false);
         // 创建PopupWindow对象，其中：
         // 第一个参数是用于PopupWindow中的View，第二个参数是PopupWindow的宽度，
         // 第三个参数是PopupWindow的高度，第四个参数指定PopupWindow能否获得焦点
-        window = new PopupWindow(contentView,  ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT, true);
+        window = new PopupWindow(contentView, ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT, true);
         // 设置PopupWindow的背景
         window.setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
         // 设置PopupWindow是否能响应外部点击事件
@@ -350,39 +355,44 @@ public class ActivityDoctorList extends BaseActivity implements View.OnClickList
         // 设置PopupWindow是否能响应点击事件
         window.setTouchable(true);
         ImageView exit = (ImageView) contentView.findViewById(R.id.popup_sq_exit);
-        TextView yisheng= (TextView) contentView.findViewById(R.id.pop_yisheng);
-        final TextView paidui= (TextView) contentView.findViewById(R.id.pop_dengdai);
-        yisheng.setText("您选择的是："+doctorBeenWin.get(doctor).getUserName());
+        final TextView yisheng = (TextView) contentView.findViewById(R.id.pop_yisheng);
+        final TextView paidui = (TextView) contentView.findViewById(R.id.pop_dengdai);
 
 
-        final Timer timer=new Timer();
-        TimerTask timerTask=new TimerTask() {
+        final Timer timer = new Timer();
+        TimerTask timerTask = new TimerTask() {
             @Override
             public void run() {
-            doctorBeenWin.addAll(SendPushSigleR.list);
-
-            if (doctorBeenWin.get(doctor).equals(doctorId)){
-                int time = 0;
-                if (!MyStrUtil.isEmpty(doctorBeenWin.get(doctor).getSN())){
-                    time = Integer.parseInt(doctorBeenWin.get(doctor).getSN()) * 5;
-                }
-                final String textSource = "您前面还有<font color='#67e300'><big>"+doctorBeenWin.get(doctor).getSN()+"</big></font>人在排队，大约需要等待<font color='#67e300'><big>"+time+"</big></font>分钟";
-
-                runOnUiThread(new Runnable() {
-                    @Override
-                    public void run() {
-                        paidui.setText(Html.fromHtml(textSource));
+                doctorBeenWin.addAll(SendPushSigleR.list);
+                if (doctorBeenWin.get(doctor).getConnectionId().equals(doctorId)) {
+                    int time = 0;
+                    if (!MyStrUtil.isEmpty(doctorBeenWin.get(doctor).getSN())) {
+                        time = Integer.parseInt(doctorBeenWin.get(doctor).getSN()) * 5;
                     }
-                });
-            }else {
-                ToastUtils.s(ActivityDoctorList.this,"该医生已下线");
-                timer.cancel();
-                window.dismiss();
-            }
+                    final String textSource = "您前面还有<font color='#67e300'><big>" + doctorBeenWin.get(doctor).getSN() + "</big></font>人在排队，大约需要等待<font color='#67e300'><big>" + time + "</big></font>分钟";
+
+                    runOnUiThread(new Runnable() {
+                        @Override
+                        public void run() {
+                            yisheng.setText("您选择的是：" + doctorBeenWin.get(doctor).getUserName());
+                            paidui.setText(Html.fromHtml(textSource));
+                        }
+                    });
+                } else {
+                    runOnUiThread(new Runnable() {
+                        @Override
+                        public void run() {
+                            ToastUtils.s(ActivityDoctorList.this, "该医生已下线");
+                            timer.cancel();
+                            window.dismiss();
+                        }
+                    });
+
+                }
             }
         };
-        timer.schedule(timerTask,0,5000);
-        Button quxiao= (Button) contentView.findViewById(R.id.pop_quxiao);
+        timer.schedule(timerTask, 0, 5000);
+        Button quxiao = (Button) contentView.findViewById(R.id.pop_quxiao);
         exit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -409,9 +419,10 @@ public class ActivityDoctorList extends BaseActivity implements View.OnClickList
         // 或者也可以调用此方法显示PopupWindow，其中：
         // 第一个参数是PopupWindow的父View，第二个参数是PopupWindow相对父View的位置，
         // 第三和第四个参数分别是PopupWindow相对父View的x、y偏移
-        window.showAtLocation(v, Gravity.CENTER, 0,0);
+        window.showAtLocation(v, Gravity.CENTER, 0, 0);
         backgroundAlpha(0.5f);
     }
+
     /**
      * 患者选择医生
      */
@@ -436,10 +447,11 @@ public class ActivityDoctorList extends BaseActivity implements View.OnClickList
         jsonArray.put(doctorEntity.getConnectionId());
         SignalaUtils.getInstance(this).sendMessage("sendCancelDoctor", jsonArray);
     }
+
     /**
      * 通知患者视频
      */
-    public void acceptMemberCallBack(){
+    public void acceptMemberCallBack() {
         runOnUiThread(new Runnable() {
             @Override
             public void run() {
@@ -450,14 +462,14 @@ public class ActivityDoctorList extends BaseActivity implements View.OnClickList
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent = new Intent(ActivityDoctorList.this,ActivityMyOverConsultation.class);
-                intent.putExtra("entity",doctorEntity);
-                intent.putExtra("connectionId",contectid);
-                contectid="";
+                Intent intent = new Intent(ActivityDoctorList.this, ActivityMyOverConsultation.class);
+                intent.putExtra("entity", doctorEntity);
+                intent.putExtra("connectionId", contectid);
+                contectid = "";
                 startActivity(intent);
                 finish();
             }
-        },1000);
+        }, 1000);
 
     }
 
@@ -465,18 +477,20 @@ public class ActivityDoctorList extends BaseActivity implements View.OnClickList
     /**
      * 通知患者退出排队
      */
-    public void unAcceptMemberCallBack(){
+    public void unAcceptMemberCallBack() {
         AndroidUtil.showToast(ActivityDoctorList.this, "医生通知退出排队", 0);
         window.dismiss();
     }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         // TODO: add setContentView(...) invocation
         ButterKnife.bind(this);
     }
+
     public void initSDP(String connectionId) {
-        contectid=connectionId;
+        contectid = connectionId;
 
     }
 
