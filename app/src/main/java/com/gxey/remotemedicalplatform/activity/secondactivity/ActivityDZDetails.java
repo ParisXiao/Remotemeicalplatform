@@ -78,7 +78,7 @@ public class ActivityDZDetails extends BaseActivity implements View.OnClickListe
         dzBlh.setText(dianZiBLBean.getCaseNumber());
         if (dianZiBLBean.getPeriod().equals("1")){
             dzChuzhen.setText("初诊");
-        }else if (dianZiBLBean.getPeriod().equals("1")){
+        }else if (dianZiBLBean.getPeriod().equals("2")){
             dzChuzhen.setText("复诊");
         }
         dzZhenzhuang.setText(dianZiBLBean.getMainSuit());

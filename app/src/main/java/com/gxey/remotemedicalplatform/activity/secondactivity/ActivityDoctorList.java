@@ -458,18 +458,12 @@ public class ActivityDoctorList extends BaseActivity implements View.OnClickList
                 window.dismiss();
             }
         });
-
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                Intent intent = new Intent(ActivityDoctorList.this, ActivityMyOverConsultation.class);
-                intent.putExtra("entity", doctorEntity);
-                intent.putExtra("connectionId", contectid);
-                contectid = "";
-                startActivity(intent);
-                finish();
-            }
-        }, 1000);
+        Intent intent = new Intent(ActivityDoctorList.this, ActivityMyOverConsultation.class);
+        intent.putExtra("entity", doctorEntity);
+        intent.putExtra("connectionId", contectid);
+        contectid = "";
+        startActivity(intent);
+        finish();
 
     }
 

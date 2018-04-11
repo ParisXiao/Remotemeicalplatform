@@ -81,6 +81,7 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
     static String NO = "no";
     String name, password1;
     private boolean isUpdata=false;
+    private boolean isLogin=false;
 
     protected int getLayoutId() {
         return R.layout.acctivity_login;
@@ -164,9 +165,11 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
             public void call(Integer integer) {
                 switch (integer) {
                     case 0:
+                        isLogin=true;
                         downLoadApk(downUrl,version);
                         break;
                     case 1:
+                        isLogin=true;
                         inilog();
                         break;
                 }
@@ -288,7 +291,6 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
     @Override
     protected void initData() {
 
-
     }
 
     private void initViews() {
@@ -354,8 +356,11 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
                     ToastUtils.s(LoginActivity.this,"请升级到最新版本");
                     return;
                 }
-                remenber();
-                inilog();
+                if (isLogin){
+                    remenber();
+                    inilog();
+                }
+
 
                 break;
 

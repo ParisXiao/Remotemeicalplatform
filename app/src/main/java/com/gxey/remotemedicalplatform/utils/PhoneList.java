@@ -7,7 +7,7 @@ package com.gxey.remotemedicalplatform.utils;
  */
 
 public class PhoneList {
-    private static String[] phones =new String[]{"RNE-AL00","RND-AL10","SM-C5000"};
+    private static String[] phones =new String[]{"RNE-AL00","BND-AL10","SM-C5000","VTR-AL00","MHA-AL00","MHA-TL00","LON-AL00","CAZ-AL00"};
     public static boolean phoneRtmp(String phonename){
         for (int i = 0; i < phones.length; i++) {
             if (phonename.equals(phones[i])){

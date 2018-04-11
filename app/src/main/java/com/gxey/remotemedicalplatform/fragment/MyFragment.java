@@ -206,8 +206,7 @@ public class MyFragment extends BaseFragment implements ActionBarClickListener, 
                 SignalaUtils.getInstance(getActivity()).sendMessage("sendLeave", jsonArray);
                 SignalaUtils.getInstance(getActivity()).close();
                 getActivity().finish();
-                Intent intent4 = new Intent(getActivity(), LoginActivity.class);
-                startActivity(intent4);
+                System.exit(0);
                 break;
 
         }

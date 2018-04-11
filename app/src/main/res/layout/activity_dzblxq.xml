@@ -58,6 +58,7 @@
                 android:background="@color/background_write"
                 >
                 <TextView
+                    android:id="@+id/zhushu"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="@dimen/textsize"
@@ -88,18 +89,22 @@
                     android:layout_marginRight="10dp"
                     android:id="@+id/dz_chuzhen_fgx"
                     />
+
                 <TextView
                     android:id="@+id/dz_zhenzhuang"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="@dimen/textsize"
+                    android:layout_alignTop="@+id/dz_chuzhen_fgx"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_toLeftOf="@+id/zhushu"
+                    android:layout_toRightOf="@+id/zhushu"
+                    android:layout_toStartOf="@+id/dz_chuzhen_fgx"
+                    android:ellipsize="end"
+                    android:maxWidth="100dp"
+                    android:singleLine="true"
                     android:textColor="@color/background_green"
-                    android:text="头疼"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginBottom="10dp"
-                    android:layout_toLeftOf="@+id/dz_chuzhen_fgx"
-                    android:layout_marginRight="10dp"
-                    />
+                    android:textSize="@dimen/textsize" />
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
@@ -151,6 +156,7 @@
                 android:background="@color/background_write"
                 >
                 <TextView
+                    android:id="@+id/jiwangs"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="@dimen/textsize"
@@ -168,6 +174,7 @@
                     android:text="肺炎"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
+                    android:maxWidth="100dp"
                     android:layout_alignParentRight="true"
                     android:layout_marginRight="@dimen/margin"
                     />
@@ -201,6 +208,7 @@
                     android:textSize="@dimen/textsize"
                     android:textColor="@color/text_black"
                     android:text="无"
+                    android:maxWidth="200dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
                     android:layout_alignParentRight="true"
@@ -236,6 +244,7 @@
                     android:textSize="@dimen/textsize"
                     android:textColor="@color/text_black"
                     android:text="无"
+                    android:maxWidth="200dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
                     android:layout_alignParentRight="true"
@@ -265,6 +274,7 @@
                     android:textSize="@dimen/textsize"
                     android:textColor="@color/background_green"
                     android:text="180/110"
+                    android:maxWidth="200dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
                     android:layout_alignParentRight="true"
@@ -300,6 +310,7 @@
                     android:textSize="@dimen/textsize"
                     android:textColor="@color/background_green"
                     android:text="180/110"
+                    android:maxWidth="200dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
                     android:layout_alignParentRight="true"
@@ -336,6 +347,7 @@
                     android:textSize="@dimen/textsize"
                     android:textColor="@color/background_green"
                     android:text="未休息好"
+                    android:maxWidth="200dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
                     android:layout_alignParentRight="true"
@@ -371,6 +383,7 @@
                     android:textSize="@dimen/textsize"
                     android:textColor="@color/text_black"
                     android:text="无"
+                    android:maxWidth="200dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
                     android:layout_alignParentRight="true"
